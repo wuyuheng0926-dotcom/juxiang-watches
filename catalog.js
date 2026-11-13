@@ -1,620 +1,6 @@
 const siteSettings = {"brandName":"JUXIANG","heroTitle":"Presence. In every moment.","heroIntro":"For the way you move through the world. Discover our collection of real watch photographs.","contactUrl":"https://wa.me/8619922353655"};
 const products = [
   {
-    "id": "JX001",
-    "brand": "Rolex",
-    "family": "Yacht-Master",
-    "name": "Yacht-Master — Metal bracelet",
-    "nameZh": "游艇名仕型 · 金属表链",
-    "band": "metal",
-    "bandName": "Metal bracelet",
-    "bandNameZh": "金属表链",
-    "category": "Sport",
-    "priceUSD": 141,
-    "currency": "USD",
-    "image": "watch-01",
-    "sizeReference": "37 / 40 / 42 mm",
-    "description": "Explore the Yacht-Master collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
-    "variants": [
-      {
-        "key": "v1",
-        "label": "Silver dial · Silver tone",
-        "labelZh": "银盘银色",
-        "image": "watch-01",
-        "photos": [
-          {
-            "image": "watch-01",
-            "label": "Silver dial · Silver tone",
-            "labelZh": "游艇名仕型 · 银盘银色"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v2",
-        "label": "Blue dial · Silver-tone case and bracelet",
-        "labelZh": "蓝盘银色表壳表链",
-        "image": "watch-16",
-        "photos": [
-          {
-            "image": "watch-16",
-            "label": "Blue dial · Silver tone",
-            "labelZh": "潜航者型 · 蓝盘银色"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v3",
-        "label": "Black dial · Rose two tone",
-        "labelZh": "黑盘玫瑰间金色",
-        "image": "watch-20",
-        "photos": [
-          {
-            "image": "watch-20",
-            "label": "Black dial · Two tone",
-            "labelZh": "潜航者型 · 黑盘间金色"
-          },
-          {
-            "image": "watch-24",
-            "label": "Black dial · Two tone",
-            "labelZh": "潜航者型 · 黑盘间金色"
-          }
-        ],
-        "detailImages": []
-      }
-    ],
-    "referencePhotos": [
-      {
-        "image": "watch-24",
-        "label": "Black dial · Two tone",
-        "labelZh": "潜航者型 · 黑盘间金色"
-      }
-    ],
-    "detailImages": []
-  },
-  {
-    "id": "JX002",
-    "brand": "Rolex",
-    "family": "Yacht-Master",
-    "name": "Yacht-Master — Rubber strap",
-    "nameZh": "游艇名仕型 · 橡胶表带",
-    "band": "rubber",
-    "bandName": "Rubber strap",
-    "bandNameZh": "橡胶表带",
-    "category": "Sport",
-    "priceUSD": 158,
-    "currency": "USD",
-    "image": "watch-25",
-    "sizeReference": "37 / 40 / 42 mm",
-    "description": "Explore the Yacht-Master collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
-    "variants": [
-      {
-        "key": "v1",
-        "label": "Black dial · Rose tone",
-        "labelZh": "黑盘玫瑰金色",
-        "image": "watch-25",
-        "photos": [
-          {
-            "image": "watch-25",
-            "label": "Black dial · Rose tone",
-            "labelZh": "游艇名仕型 · 黑盘玫瑰金色"
-          }
-        ],
-        "detailImages": []
-      }
-    ],
-    "referencePhotos": [],
-    "detailImages": []
-  },
-  {
-    "id": "JX003",
-    "brand": "Rolex",
-    "family": "Datejust",
-    "name": "Datejust — Metal bracelet",
-    "nameZh": "日志型 · 金属表链",
-    "band": "metal",
-    "bandName": "Metal bracelet",
-    "bandNameZh": "金属表链",
-    "category": "Classic",
-    "priceUSD": 134,
-    "currency": "USD",
-    "image": "watch-02",
-    "sizeReference": "31 / 36 / 41 mm",
-    "description": "Explore the Datejust collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
-    "variants": [
-      {
-        "key": "v1",
-        "label": "Champagne · Two tone",
-        "labelZh": "香槟盘间金色",
-        "image": "watch-02",
-        "photos": [
-          {
-            "image": "watch-02",
-            "label": "Champagne · Two tone",
-            "labelZh": "日志型 · 香槟盘间金色"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v2",
-        "label": "White dial · Rose two tone",
-        "labelZh": "白盘玫瑰间金色",
-        "image": "watch-12",
-        "photos": [
-          {
-            "image": "watch-12",
-            "label": "White dial · Rose two tone",
-            "labelZh": "日志型 · 白盘玫瑰间金色"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v3",
-        "label": "Black dial · Gold tone",
-        "labelZh": "黑盘金色",
-        "image": "watch-15",
-        "photos": [
-          {
-            "image": "watch-15",
-            "label": "Black dial · Gold tone",
-            "labelZh": "日志型 · 黑盘金色"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v4",
-        "label": "Blue dial · Silver tone",
-        "labelZh": "蓝盘银色",
-        "image": "watch-17",
-        "photos": [
-          {
-            "image": "watch-17",
-            "label": "Blue dial · Silver tone",
-            "labelZh": "日志型 · 蓝盘银色"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v5",
-        "label": "Dark dial · Fluted bezel · Silver bracelet",
-        "labelZh": "深色盘牙圈银色表链",
-        "image": "watch-19",
-        "photos": [
-          {
-            "image": "watch-19",
-            "label": "Black dial · Black bezel",
-            "labelZh": "潜航者型 · 黑盘黑圈"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v6",
-        "label": "Slate dial · Roman markers",
-        "labelZh": "灰盘罗马时标",
-        "image": "watch-30",
-        "photos": [
-          {
-            "image": "watch-30",
-            "label": "Slate dial · Roman markers",
-            "labelZh": "日志型 · 灰盘罗马时标"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v7",
-        "label": "Black dial · Rose two tone",
-        "labelZh": "黑盘玫瑰间金色",
-        "image": "watch-31",
-        "photos": [
-          {
-            "image": "watch-31",
-            "label": "Black dial · Rose two tone",
-            "labelZh": "日志型 · 黑盘玫瑰间金色"
-          }
-        ],
-        "detailImages": []
-      }
-    ],
-    "referencePhotos": [
-      {
-        "image": "watch-23",
-        "label": "Dress-watch assortment",
-        "labelZh": "日志型 · 正装表组合"
-      },
-      {
-        "image": "watch-28",
-        "label": "Dress-watch assortment",
-        "labelZh": "日志型 · 正装表组合"
-      }
-    ],
-    "detailImages": []
-  },
-  {
-    "id": "JX004",
-    "brand": "Rolex",
-    "family": "Cosmograph Daytona",
-    "name": "Cosmograph Daytona — Metal bracelet",
-    "nameZh": "宇宙计型迪通拿 · 金属表链",
-    "band": "metal",
-    "bandName": "Metal bracelet",
-    "bandNameZh": "金属表链",
-    "category": "Sport",
-    "priceUSD": 151,
-    "currency": "USD",
-    "image": "watch-14",
-    "sizeReference": "40 mm",
-    "description": "Explore the Cosmograph Daytona collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
-    "variants": [
-      {
-        "key": "v1",
-        "label": "Decorative multicolour bezel",
-        "labelZh": "多彩装饰圈",
-        "image": "watch-14",
-        "photos": [
-          {
-            "image": "watch-14",
-            "label": "Decorative multicolour bezel",
-            "labelZh": "宇宙计型迪通拿 · 多彩装饰圈"
-          }
-        ],
-        "detailImages": []
-      }
-    ],
-    "referencePhotos": [
-      {
-        "image": "watch-03",
-        "label": "Chronograph assortment",
-        "labelZh": "宇宙计型迪通拿 · 计时款组合"
-      },
-      {
-        "image": "watch-22",
-        "label": "Dark chronograph assortment",
-        "labelZh": "宇宙计型迪通拿 · 深色计时组合"
-      }
-    ],
-    "detailImages": []
-  },
-  {
-    "id": "JX005",
-    "brand": "Rolex",
-    "family": "Cosmograph Daytona",
-    "name": "Cosmograph Daytona — Rubber strap",
-    "nameZh": "宇宙计型迪通拿 · 橡胶表带",
-    "band": "rubber",
-    "bandName": "Rubber strap",
-    "bandNameZh": "橡胶表带",
-    "category": "Sport",
-    "priceUSD": 168,
-    "currency": "USD",
-    "image": "watch-04",
-    "sizeReference": "40 mm",
-    "description": "Explore the Cosmograph Daytona collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
-    "variants": [
-      {
-        "key": "v1",
-        "label": "White dial · Black bezel",
-        "labelZh": "白盘黑圈",
-        "image": "watch-04",
-        "photos": [
-          {
-            "image": "watch-04",
-            "label": "White dial · Black bezel",
-            "labelZh": "宇宙计型迪通拿 · 白盘黑圈"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v2",
-        "label": "Champagne dial · Black strap",
-        "labelZh": "香槟盘黑表带",
-        "image": "watch-27",
-        "photos": [
-          {
-            "image": "watch-27",
-            "label": "Champagne dial · Black strap",
-            "labelZh": "宇宙计型迪通拿 · 香槟盘黑表带"
-          }
-        ],
-        "detailImages": []
-      }
-    ],
-    "referencePhotos": [],
-    "detailImages": []
-  },
-  {
-    "id": "JX006",
-    "brand": "Rolex",
-    "family": "Day-Date",
-    "name": "Day-Date — Metal bracelet",
-    "nameZh": "星期日历型 · 金属表链",
-    "band": "metal",
-    "bandName": "Metal bracelet",
-    "bandNameZh": "金属表链",
-    "category": "Classic",
-    "priceUSD": 144,
-    "currency": "USD",
-    "image": "watch-05",
-    "sizeReference": "36 / 40 mm",
-    "description": "Explore the Day-Date collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
-    "variants": [
-      {
-        "key": "v1",
-        "label": "Olive dial · Rose tone",
-        "labelZh": "橄榄绿盘玫瑰金色",
-        "image": "watch-05",
-        "photos": [
-          {
-            "image": "watch-05",
-            "label": "Olive dial · Rose tone",
-            "labelZh": "星期日历型 · 橄榄绿盘玫瑰金色"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v2",
-        "label": "Champagne dial · Gold tone",
-        "labelZh": "香槟盘金色",
-        "image": "watch-13",
-        "photos": [
-          {
-            "image": "watch-13",
-            "label": "Champagne dial · Gold tone",
-            "labelZh": "星期日历型 · 香槟盘金色"
-          }
-        ],
-        "detailImages": []
-      }
-    ],
-    "referencePhotos": [
-      {
-        "image": "watch-09",
-        "label": "Green & champagne assortment",
-        "labelZh": "星期日历型 · 绿盘及香槟盘组合"
-      },
-      {
-        "image": "watch-11",
-        "label": "Gold-tone dial assortment",
-        "labelZh": "日志型 · 金色表盘组合"
-      }
-    ],
-    "detailImages": []
-  },
-  {
-    "id": "JX007",
-    "brand": "Rolex",
-    "family": "Submariner",
-    "name": "Submariner — Metal bracelet",
-    "nameZh": "潜航者型 · 金属表链",
-    "band": "metal",
-    "bandName": "Metal bracelet",
-    "bandNameZh": "金属表链",
-    "category": "Sport",
-    "priceUSD": 161,
-    "currency": "USD",
-    "image": "watch-06",
-    "sizeReference": "41 mm",
-    "description": "Explore the Submariner collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
-    "variants": [
-      {
-        "key": "v1",
-        "label": "Black dial · Gold tone",
-        "labelZh": "黑盘金色",
-        "image": "watch-06",
-        "photos": [
-          {
-            "image": "watch-06",
-            "label": "Black dial · Gold tone",
-            "labelZh": "潜航者型 · 黑盘金色"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v2",
-        "label": "Blue dial · Blue bezel",
-        "labelZh": "蓝盘蓝圈",
-        "image": "watch-18",
-        "photos": [
-          {
-            "image": "watch-18",
-            "label": "Blue dial · Blue bezel",
-            "labelZh": "潜航者型 · 蓝盘蓝圈"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v3",
-        "label": "Black dial · Black bezel",
-        "labelZh": "黑盘黑圈",
-        "image": "watch-33",
-        "photos": [
-          {
-            "image": "watch-33",
-            "label": "Black dial · Black bezel",
-            "labelZh": "潜航者型 · 黑盘黑圈"
-          }
-        ],
-        "detailImages": []
-      }
-    ],
-    "referencePhotos": [],
-    "detailImages": []
-  },
-  {
-    "id": "JX008",
-    "brand": "Rolex",
-    "family": "Explorer II",
-    "name": "Explorer II — Metal bracelet",
-    "nameZh": "探险家型 II · 金属表链",
-    "band": "metal",
-    "bandName": "Metal bracelet",
-    "bandNameZh": "金属表链",
-    "category": "Sport",
-    "priceUSD": 137,
-    "currency": "USD",
-    "image": "watch-07",
-    "sizeReference": "42 mm",
-    "description": "Explore the Explorer II collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
-    "variants": [
-      {
-        "key": "v1",
-        "label": "Black dial · 24-hour bezel",
-        "labelZh": "黑盘24小时圈",
-        "image": "watch-07",
-        "photos": [
-          {
-            "image": "watch-07",
-            "label": "Black dial · 24-hour bezel",
-            "labelZh": "探险家型 II · 黑盘24小时圈"
-          }
-        ],
-        "detailImages": []
-      }
-    ],
-    "referencePhotos": [],
-    "detailImages": []
-  },
-  {
-    "id": "JX009",
-    "brand": "Rolex",
-    "family": "GMT-Master II",
-    "name": "GMT-Master II — Metal bracelet",
-    "nameZh": "格林尼治型 II · 金属表链",
-    "band": "metal",
-    "bandName": "Metal bracelet",
-    "bandNameZh": "金属表链",
-    "category": "Sport",
-    "priceUSD": 154,
-    "currency": "USD",
-    "image": "watch-08",
-    "sizeReference": "40 mm",
-    "description": "Explore the GMT-Master II collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
-    "variants": [
-      {
-        "key": "v1",
-        "label": "Black dial · Blue/black bezel",
-        "labelZh": "黑盘蓝黑圈",
-        "image": "watch-08",
-        "photos": [
-          {
-            "image": "watch-08",
-            "label": "Black dial · Blue/black bezel",
-            "labelZh": "格林尼治型 II · 黑盘蓝黑圈"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v2",
-        "label": "Black dial · Red/black bezel",
-        "labelZh": "黑盘红黑圈",
-        "image": "watch-26",
-        "photos": [
-          {
-            "image": "watch-26",
-            "label": "Black dial · Red/black bezel",
-            "labelZh": "格林尼治型 II · 黑盘红黑圈"
-          }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v3",
-        "label": "Green dial · Green 24-hour bezel",
-        "labelZh": "绿盘绿色24小时圈",
-        "image": "watch-29",
-        "photos": [
-          {
-            "image": "watch-29",
-            "label": "Green dial · Green bezel",
-            "labelZh": "潜航者型 · 绿盘绿圈"
-          }
-        ],
-        "detailImages": []
-      }
-    ],
-    "referencePhotos": [],
-    "detailImages": []
-  },
-  {
-    "id": "JX010",
-    "brand": "Rolex",
-    "family": "Oyster Perpetual",
-    "name": "Oyster Perpetual — Metal bracelet",
-    "nameZh": "蚝式恒动 · 金属表链",
-    "band": "metal",
-    "bandName": "Metal bracelet",
-    "bandNameZh": "金属表链",
-    "category": "Classic",
-    "priceUSD": 130,
-    "currency": "USD",
-    "image": "watch-10",
-    "sizeReference": "31 / 36 / 41 mm",
-    "description": "Explore the Oyster Perpetual collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
-    "variants": [
-      {
-        "key": "v1",
-        "label": "Colour assortment",
-        "labelZh": "配色合照",
-        "image": "watch-10",
-        "photos": [
-          {
-            "image": "watch-10",
-            "label": "Colour dial assortment",
-            "labelZh": "日志型 · 彩色表盘组合"
-          }
-        ],
-        "detailImages": []
-      }
-    ],
-    "referencePhotos": [],
-    "detailImages": []
-  },
-  {
-    "id": "JX011",
-    "brand": "Rolex",
-    "family": "Milgauss",
-    "name": "Milgauss — Metal bracelet",
-    "nameZh": "米尔高斯 · 金属表链",
-    "band": "metal",
-    "bandName": "Metal bracelet",
-    "bandNameZh": "金属表链",
-    "category": "Sport",
-    "priceUSD": 147,
-    "currency": "USD",
-    "image": "watch-32",
-    "sizeReference": "Unconfirmed / 待确认",
-    "description": "Explore the Milgauss collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
-    "variants": [
-      {
-        "key": "v1",
-        "label": "Blue dial · Orange lightning-style hand",
-        "labelZh": "蓝盘橙色闪电形指针",
-        "image": "watch-32",
-        "photos": [
-          {
-            "image": "watch-32",
-            "label": "Blue chronograph dial",
-            "labelZh": "宇宙计型迪通拿 · 蓝盘计时"
-          }
-        ],
-        "detailImages": []
-      }
-    ],
-    "referencePhotos": [],
-    "detailImages": []
-  },
-  {
     "id": "JX012",
     "brand": "Cartier",
     "family": "Ballon Bleu de Cartier",
@@ -3674,32 +3060,7730 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": []
+  },
+  {
+    "id": "JX054",
+    "brand": "Longines",
+    "family": "DolceVita",
+    "name": "DolceVita — Metal bracelet · Rectangular Roman dial",
+    "nameZh": "黛绰维纳 · 长方形罗马刻度款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 140,
+    "currency": "USD",
+    "image": "b01-f01-02",
+    "sizeReference": "23.30 × 37.00 mm (family comparison)",
+    "description": "A rectangular DolceVita-style silhouette with Roman-numeral hour markers, blue-tone hands and a small-seconds-style display. The polished bracelet follows the long lines of the case.",
+    "sourceFolder": "B01-F01",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver dial · Silver bracelet",
+        "labelZh": "银白盘银色表链",
+        "image": "b01-f01-02",
+        "photos": [
+          {
+            "image": "b01-f01-02",
+            "alt": "Longines DolceVita · 银白盘银色表链",
+            "caption": "银白盘银色表链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f01-03",
+            "alt": "Longines DolceVita · 银白盘银色表链 · 细节",
+            "caption": "银白盘银色表链 · 细节"
+          },
+          {
+            "image": "b01-f01-04",
+            "alt": "Longines DolceVita · 银白盘银色表链 · 细节",
+            "caption": "银白盘银色表链 · 细节"
+          },
+          {
+            "image": "b01-f01-05",
+            "alt": "Longines DolceVita · 银白盘银色表链 · 细节",
+            "caption": "银白盘银色表链 · 细节"
+          },
+          {
+            "image": "b01-f01-06",
+            "alt": "Longines DolceVita · 银白盘银色表链 · 细节",
+            "caption": "银白盘银色表链 · 细节"
+          },
+          {
+            "image": "b01-f01-07",
+            "alt": "Longines DolceVita · 银白盘银色表链 · 细节",
+            "caption": "银白盘银色表链 · 细节"
+          },
+          {
+            "image": "b01-f01-08",
+            "alt": "Longines DolceVita · 银白盘银色表链 · 细节",
+            "caption": "银白盘银色表链 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX055",
+    "brand": "Longines",
+    "family": "PrimaLuna Moonphase",
+    "name": "PrimaLuna Moonphase — Metal bracelet · Silver dial · Polished bezel",
+    "nameZh": "心月月相 · 银白盘光面圈款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Complication",
+    "priceUSD": 157,
+    "currency": "USD",
+    "image": "b01-f02-03",
+    "sizeReference": "30.50 mm (family comparison)",
+    "description": "A rounded PrimaLuna Moonphase-style design with a silver-white dial, blue-tone hands, a moon-phase-style display and a polished bezel. Rounded bracelet links echo the soft case shape.",
+    "sourceFolder": "B01-F02",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver-white dial · Silver bracelet",
+        "labelZh": "银白盘银色表链",
+        "image": "b01-f02-03",
+        "photos": [
+          {
+            "image": "b01-f02-03",
+            "alt": "Longines PrimaLuna Moonphase · 银白盘银色表链",
+            "caption": "银白盘银色表链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f02-04",
+            "alt": "Longines PrimaLuna Moonphase · 银白盘银色表链 · 细节",
+            "caption": "银白盘银色表链 · 细节"
+          },
+          {
+            "image": "b01-f02-05",
+            "alt": "Longines PrimaLuna Moonphase · 银白盘银色表链 · 细节",
+            "caption": "银白盘银色表链 · 细节"
+          },
+          {
+            "image": "b01-f02-06",
+            "alt": "Longines PrimaLuna Moonphase · 银白盘银色表链 · 细节",
+            "caption": "银白盘银色表链 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "b01-f02-02",
+        "label": "Additional supplied photograph",
+        "labelZh": "包装与远景原始照片"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX056",
+    "brand": "Longines",
+    "family": "PrimaLuna Moonphase",
+    "name": "PrimaLuna Moonphase — Metal bracelet · Colour dials · Polished bezel",
+    "nameZh": "心月月相 · 彩色盘光面圈款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Complication",
+    "priceUSD": 133,
+    "currency": "USD",
+    "image": "b01-f03-02",
+    "sizeReference": "30.50 mm (family comparison)",
+    "description": "A PrimaLuna Moonphase-style collection with Roman-numeral dials and a moon-phase-style aperture. Choose green, burgundy or blue, with a silver-tone rounded-link bracelet.",
+    "sourceFolder": "B01-F03",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green dial · Silver bracelet",
+        "labelZh": "绿盘银色表链",
+        "image": "b01-f03-02",
+        "photos": [
+          {
+            "image": "b01-f03-02",
+            "alt": "Longines PrimaLuna Moonphase · 绿盘银色表链",
+            "caption": "绿盘银色表链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f03-03",
+            "alt": "Longines PrimaLuna Moonphase · 绿盘银色表链 · 细节",
+            "caption": "绿盘银色表链 · 细节"
+          },
+          {
+            "image": "b01-f03-04",
+            "alt": "Longines PrimaLuna Moonphase · 绿盘银色表链 · 细节",
+            "caption": "绿盘银色表链 · 细节"
+          },
+          {
+            "image": "b01-f03-05",
+            "alt": "Longines PrimaLuna Moonphase · 绿盘银色表链 · 细节",
+            "caption": "绿盘银色表链 · 细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Burgundy dial · Silver bracelet",
+        "labelZh": "酒红盘银色表链",
+        "image": "b01-f03-09",
+        "photos": [
+          {
+            "image": "b01-f03-09",
+            "alt": "Longines PrimaLuna Moonphase · 酒红盘银色表链",
+            "caption": "酒红盘银色表链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f03-10",
+            "alt": "Longines PrimaLuna Moonphase · 酒红盘银色表链 · 细节",
+            "caption": "酒红盘银色表链 · 细节"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver bracelet",
+        "labelZh": "蓝盘银色表链",
+        "image": "b01-f03-12",
+        "photos": [
+          {
+            "image": "b01-f03-12",
+            "alt": "Longines PrimaLuna Moonphase · 蓝盘银色表链",
+            "caption": "蓝盘银色表链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f03-11",
+            "alt": "Longines PrimaLuna Moonphase · 蓝盘银色表链 · 细节",
+            "caption": "蓝盘银色表链 · 细节"
+          },
+          {
+            "image": "b01-f03-13",
+            "alt": "Longines PrimaLuna Moonphase · 蓝盘银色表链 · 细节",
+            "caption": "蓝盘银色表链 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "b01-f03-06",
+        "label": "Additional supplied photograph",
+        "labelZh": "包装与远景原始照片"
+      }
+    ],
+    "detailImages": [
+      {
+        "image": "b01-f03-07",
+        "alt": "Longines PrimaLuna Moonphase · Case and bracelet details / 表壳与表链细节",
+        "caption": "Case and bracelet details / 表壳与表链细节"
+      },
+      {
+        "image": "b01-f03-08",
+        "alt": "Longines PrimaLuna Moonphase · Case and bracelet details / 表壳与表链细节",
+        "caption": "Case and bracelet details / 表壳与表链细节"
+      }
+    ]
+  },
+  {
+    "id": "JX057",
+    "brand": "Longines",
+    "family": "Lyre",
+    "name": "Lyre — Metal bracelet · White dial · Two tone",
+    "nameZh": "律雅 · 白盘间金款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 150,
+    "currency": "USD",
+    "image": "b01-f04-02",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "A Lyre-style round dress watch with a white dial, slim baton markers, a date window and a yellow-and-silver-tone multi-link bracelet. Its restrained dial keeps the focus on the rounded case and fine bracelet links.",
+    "sourceFolder": "B01-F04",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Yellow two-tone bracelet",
+        "labelZh": "白盘黄间金色表链",
+        "image": "b01-f04-02",
+        "photos": [
+          {
+            "image": "b01-f04-02",
+            "alt": "Longines Lyre · 白盘黄间金色表链",
+            "caption": "白盘黄间金色表链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f04-03",
+            "alt": "Longines Lyre · 白盘黄间金色表链 · 细节",
+            "caption": "白盘黄间金色表链 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "b01-f04-04",
+        "label": "Additional supplied photograph",
+        "labelZh": "包装与远景原始照片"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX058",
+    "brand": "Longines",
+    "family": "HydroConquest",
+    "name": "HydroConquest — Metal bracelet · Blue dial · Large numerals",
+    "nameZh": "康卡斯潜水 · 蓝盘大数字款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 167,
+    "currency": "USD",
+    "image": "b01-f05-02",
+    "sizeReference": "43 mm (family comparison)",
+    "description": "A HydroConquest-style sports watch with a blue dial, a blue numbered dive-style bezel and large Arabic numerals. Silver-tone case and bracelet surfaces contrast with the blue display.",
+    "sourceFolder": "B01-F05",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Blue bezel · Silver bracelet",
+        "labelZh": "蓝盘蓝圈银色表链",
+        "image": "b01-f05-02",
+        "photos": [
+          {
+            "image": "b01-f05-02",
+            "alt": "Longines HydroConquest · 蓝盘蓝圈银色表链",
+            "caption": "蓝盘蓝圈银色表链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f05-03",
+            "alt": "Longines HydroConquest · 蓝盘蓝圈银色表链 · 细节",
+            "caption": "蓝盘蓝圈银色表链 · 细节"
+          },
+          {
+            "image": "b01-f05-04",
+            "alt": "Longines HydroConquest · 蓝盘蓝圈银色表链 · 细节",
+            "caption": "蓝盘蓝圈银色表链 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX059",
+    "brand": "Longines",
+    "family": "HydroConquest",
+    "name": "HydroConquest — Rubber strap · Black dial · Warm accents",
+    "nameZh": "康卡斯潜水 · 黑盘暖金色点缀款 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 143,
+    "currency": "USD",
+    "image": "b01-f06-02",
+    "sizeReference": "41 / 43 mm (family comparison)",
+    "description": "A HydroConquest-style silhouette with large Arabic numerals, a black dive-style bezel and warm gold-tone accents. The black textured strap creates a different finish from the metal-bracelet series.",
+    "sourceFolder": "B01-F06",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Gold-tone accents · Black strap",
+        "labelZh": "黑盘金色细节黑色胶带",
+        "image": "b01-f06-02",
+        "photos": [
+          {
+            "image": "b01-f06-02",
+            "alt": "Longines HydroConquest · 黑盘金色细节黑色胶带",
+            "caption": "黑盘金色细节黑色胶带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f06-03",
+            "alt": "Longines HydroConquest · 黑盘金色细节黑色胶带 · 细节",
+            "caption": "黑盘金色细节黑色胶带 · 细节"
+          },
+          {
+            "image": "b01-f06-04",
+            "alt": "Longines HydroConquest · 黑盘金色细节黑色胶带 · 细节",
+            "caption": "黑盘金色细节黑色胶带 · 细节"
+          },
+          {
+            "image": "b01-f06-05",
+            "alt": "Longines HydroConquest · 黑盘金色细节黑色胶带 · 细节",
+            "caption": "黑盘金色细节黑色胶带 · 细节"
+          },
+          {
+            "image": "b01-f06-06",
+            "alt": "Longines HydroConquest · 黑盘金色细节黑色胶带 · 细节",
+            "caption": "黑盘金色细节黑色胶带 · 细节"
+          },
+          {
+            "image": "b01-f06-07",
+            "alt": "Longines HydroConquest · 黑盘金色细节黑色胶带 · 细节",
+            "caption": "黑盘金色细节黑色胶带 · 细节"
+          },
+          {
+            "image": "b01-f06-08",
+            "alt": "Longines HydroConquest · 黑盘金色细节黑色胶带 · 细节",
+            "caption": "黑盘金色细节黑色胶带 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX060",
+    "brand": "Longines",
+    "family": "Spirit Flyback",
+    "name": "Spirit Flyback — Metal bracelet · Black dial · Two counters",
+    "nameZh": "先行者飞返计时 · 黑盘双眼款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Complication",
+    "priceUSD": 160,
+    "currency": "USD",
+    "image": "b01-f07-02",
+    "sizeReference": "42 mm (family comparison)",
+    "description": "A Spirit Flyback-style chronograph layout with two subsidiary counters, prominent Arabic numerals and a numbered outer bezel. Warm-coloured hands stand out against the dark dial.",
+    "sourceFolder": "B01-F07",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Warm-tone hands · Silver bracelet",
+        "labelZh": "黑盘暖色指针银色表链",
+        "image": "b01-f07-02",
+        "photos": [
+          {
+            "image": "b01-f07-02",
+            "alt": "Longines Spirit Flyback · 黑盘暖色指针银色表链",
+            "caption": "黑盘暖色指针银色表链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f07-03",
+            "alt": "Longines Spirit Flyback · 黑盘暖色指针银色表链 · 细节",
+            "caption": "黑盘暖色指针银色表链 · 细节"
+          },
+          {
+            "image": "b01-f07-04",
+            "alt": "Longines Spirit Flyback · 黑盘暖色指针银色表链 · 细节",
+            "caption": "黑盘暖色指针银色表链 · 细节"
+          },
+          {
+            "image": "b01-f07-05",
+            "alt": "Longines Spirit Flyback · 黑盘暖色指针银色表链 · 细节",
+            "caption": "黑盘暖色指针银色表链 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX061",
+    "brand": "Longines",
+    "family": "Présence",
+    "name": "Présence — Leather strap · White dial · Gold-tone case",
+    "nameZh": "瑰丽 · 白盘金色表壳款 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 136,
+    "currency": "USD",
+    "image": "b01-f08-02",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "A Présence-style dress watch with a white dial, narrow baton markers, a date window and a polished gold-tone case. The black leather-style strap provides a quiet contrast to the light dial.",
+    "sourceFolder": "B01-F08",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Gold-tone case · Black strap",
+        "labelZh": "白盘金色表壳黑色皮带",
+        "image": "b01-f08-02",
+        "photos": [
+          {
+            "image": "b01-f08-02",
+            "alt": "Longines Présence · 白盘金色表壳黑色皮带",
+            "caption": "白盘金色表壳黑色皮带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f08-03",
+            "alt": "Longines Présence · 白盘金色表壳黑色皮带 · 细节",
+            "caption": "白盘金色表壳黑色皮带 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "b01-f08-04",
+        "label": "Additional supplied photograph",
+        "labelZh": "包装与远景原始照片"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX062",
+    "brand": "Longines",
+    "family": "HydroConquest",
+    "name": "HydroConquest — Metal bracelet · Green dial · Green bezel",
+    "nameZh": "康卡斯潜水 · 绿盘绿圈款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 153,
+    "currency": "USD",
+    "image": "b01-f09-02",
+    "sizeReference": "41 / 43 mm (family comparison)",
+    "description": "A green HydroConquest-style combination with large Arabic numerals, a matching numbered bezel and a silver-tone bracelet. The dial and bezel colours give this folder its own distinct series selection.",
+    "sourceFolder": "B01-F09",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green dial · Green bezel · Silver bracelet",
+        "labelZh": "绿盘绿圈银色表链",
+        "image": "b01-f09-02",
+        "photos": [
+          {
+            "image": "b01-f09-02",
+            "alt": "Longines HydroConquest · 绿盘绿圈银色表链",
+            "caption": "绿盘绿圈银色表链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f09-03",
+            "alt": "Longines HydroConquest · 绿盘绿圈银色表链 · 细节",
+            "caption": "绿盘绿圈银色表链 · 细节"
+          },
+          {
+            "image": "b01-f09-04",
+            "alt": "Longines HydroConquest · 绿盘绿圈银色表链 · 细节",
+            "caption": "绿盘绿圈银色表链 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX063",
+    "brand": "Longines",
+    "family": "PrimaLuna",
+    "name": "PrimaLuna — Metal bracelet · Light dial · Rose two tone",
+    "nameZh": "心月 · 浅色盘玫瑰间金款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 170,
+    "currency": "USD",
+    "image": "b01-f10-05",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "A PrimaLuna-style rounded watch with a light dial, blue-tone hands, decorative hour markers and a date window. Rose-and-silver-tone bracelet links continue the soft shape of the case.",
+    "sourceFolder": "B01-F10",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Light dial · Rose two-tone bracelet",
+        "labelZh": "浅色盘玫瑰间金色表链",
+        "image": "b01-f10-05",
+        "photos": [
+          {
+            "image": "b01-f10-05",
+            "alt": "Longines PrimaLuna · 浅色盘玫瑰间金色表链",
+            "caption": "浅色盘玫瑰间金色表链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f10-02",
+            "alt": "Longines PrimaLuna · 浅色盘玫瑰间金色表链 · 细节",
+            "caption": "浅色盘玫瑰间金色表链 · 细节"
+          },
+          {
+            "image": "b01-f10-03",
+            "alt": "Longines PrimaLuna · 浅色盘玫瑰间金色表链 · 细节",
+            "caption": "浅色盘玫瑰间金色表链 · 细节"
+          },
+          {
+            "image": "b01-f10-04",
+            "alt": "Longines PrimaLuna · 浅色盘玫瑰间金色表链 · 细节",
+            "caption": "浅色盘玫瑰间金色表链 · 细节"
+          },
+          {
+            "image": "b01-f10-06",
+            "alt": "Longines PrimaLuna · 浅色盘玫瑰间金色表链 · 细节",
+            "caption": "浅色盘玫瑰间金色表链 · 细节"
+          },
+          {
+            "image": "b01-f10-07",
+            "alt": "Longines PrimaLuna · 浅色盘玫瑰间金色表链 · 细节",
+            "caption": "浅色盘玫瑰间金色表链 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX064",
+    "brand": "Longines",
+    "family": "PrimaLuna Moonphase",
+    "name": "PrimaLuna Moonphase — Metal bracelet · Blue dial · Decorative bezel",
+    "nameZh": "心月月相 · 蓝盘装饰圈款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Complication",
+    "priceUSD": 146,
+    "currency": "USD",
+    "image": "b01-f11-05",
+    "sizeReference": "30.50 mm (family comparison)",
+    "description": "A blue PrimaLuna Moonphase-style dial with a moon-phase-style aperture and decorative hour markers. The decorative bezel distinguishes this folder from the polished-bezel versions.",
+    "sourceFolder": "B01-F11",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Decorative bezel · Silver bracelet",
+        "labelZh": "蓝盘装饰圈银色表链",
+        "image": "b01-f11-05",
+        "photos": [
+          {
+            "image": "b01-f11-05",
+            "alt": "Longines PrimaLuna Moonphase · 蓝盘装饰圈银色表链",
+            "caption": "蓝盘装饰圈银色表链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f11-03",
+            "alt": "Longines PrimaLuna Moonphase · 蓝盘装饰圈银色表链 · 细节",
+            "caption": "蓝盘装饰圈银色表链 · 细节"
+          },
+          {
+            "image": "b01-f11-07",
+            "alt": "Longines PrimaLuna Moonphase · 蓝盘装饰圈银色表链 · 细节",
+            "caption": "蓝盘装饰圈银色表链 · 细节"
+          },
+          {
+            "image": "b01-f11-08",
+            "alt": "Longines PrimaLuna Moonphase · 蓝盘装饰圈银色表链 · 细节",
+            "caption": "蓝盘装饰圈银色表链 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "b01-f11-02",
+        "label": "Additional supplied photograph",
+        "labelZh": "包装与远景原始照片"
+      },
+      {
+        "image": "b01-f11-04",
+        "label": "Additional supplied photograph",
+        "labelZh": "包装与远景原始照片"
+      },
+      {
+        "image": "b01-f11-06",
+        "label": "Additional supplied photograph",
+        "labelZh": "包装与远景原始照片"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX065",
+    "brand": "Blancpain",
+    "family": "Fifty Fathoms Bathyscaphe",
+    "name": "Fifty Fathoms Bathyscaphe — Textile strap · Diving dial collection",
+    "nameZh": "五十噚深潜器 · 潜水盘配色组 · 织物表带",
+    "band": "textile",
+    "bandName": "Textile strap",
+    "bandNameZh": "织物表带",
+    "category": "Sport",
+    "priceUSD": 163,
+    "currency": "USD",
+    "image": "b01-f12-02",
+    "sizeReference": "43 / 43.60 mm (family comparison)",
+    "description": "A Fifty Fathoms Bathyscaphe-style diving silhouette with a numbered bezel, small geometric hour markers and broad hands. Explore the dial colours on stitched sailcloth-style straps; extra straps remain as photographed.",
+    "sourceFolder": "B01-F12",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue-grey dial · Grey textile strap",
+        "labelZh": "蓝灰盘灰色织物表带",
+        "image": "b01-f12-02",
+        "photos": [
+          {
+            "image": "b01-f12-02",
+            "alt": "Blancpain Fifty Fathoms Bathyscaphe · 蓝灰盘灰色织物表带",
+            "caption": "蓝灰盘灰色织物表带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f12-03",
+            "alt": "Blancpain Fifty Fathoms Bathyscaphe · 蓝灰盘灰色织物表带 · 细节",
+            "caption": "蓝灰盘灰色织物表带 · 细节"
+          },
+          {
+            "image": "b01-f12-06",
+            "alt": "Blancpain Fifty Fathoms Bathyscaphe · 蓝灰盘灰色织物表带 · 细节",
+            "caption": "蓝灰盘灰色织物表带 · 细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Grey dial · Black textile strap",
+        "labelZh": "灰盘黑色织物表带",
+        "image": "b01-f12-04",
+        "photos": [
+          {
+            "image": "b01-f12-04",
+            "alt": "Blancpain Fifty Fathoms Bathyscaphe · 灰盘黑色织物表带",
+            "caption": "灰盘黑色织物表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Dark textile strap",
+        "labelZh": "黑盘深色织物表带",
+        "image": "b01-f12-05",
+        "photos": [
+          {
+            "image": "b01-f12-05",
+            "alt": "Blancpain Fifty Fathoms Bathyscaphe · 黑盘深色织物表带",
+            "caption": "黑盘深色织物表带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f12-07",
+            "alt": "Blancpain Fifty Fathoms Bathyscaphe · 黑盘深色织物表带 · 细节",
+            "caption": "黑盘深色织物表带 · 细节"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Blue gradient dial · Dark textile strap",
+        "labelZh": "渐变蓝盘深色织物表带",
+        "image": "b01-f12-08",
+        "photos": [
+          {
+            "image": "b01-f12-08",
+            "alt": "Blancpain Fifty Fathoms Bathyscaphe · 渐变蓝盘深色织物表带",
+            "caption": "渐变蓝盘深色织物表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Blue dial · Blue textile strap",
+        "labelZh": "蓝盘蓝色织物表带",
+        "image": "b01-f12-09",
+        "photos": [
+          {
+            "image": "b01-f12-09",
+            "alt": "Blancpain Fifty Fathoms Bathyscaphe · 蓝盘蓝色织物表带",
+            "caption": "蓝盘蓝色织物表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Green dial · Grey textile strap",
+        "labelZh": "绿盘灰色织物表带",
+        "image": "b01-f12-10",
+        "photos": [
+          {
+            "image": "b01-f12-10",
+            "alt": "Blancpain Fifty Fathoms Bathyscaphe · 绿盘灰色织物表带",
+            "caption": "绿盘灰色织物表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX066",
+    "brand": "Jaeger-LeCoultre",
+    "family": "Master Ultra Thin Moon",
+    "name": "Master Ultra Thin Moon — Leather strap · Moonphase dial collection",
+    "nameZh": "超薄大师月相 · 月相盘配色组 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Complication",
+    "priceUSD": 139,
+    "currency": "USD",
+    "image": "b01-f13-01",
+    "sizeReference": "39 mm (family comparison)",
+    "description": "A Master Ultra Thin Moon-style dress-watch silhouette with slender hour markers and a moon-phase-style display enclosed by a date-style scale. Light, black and grey dials are paired with black leather-style straps.",
+    "sourceFolder": "B01-F13",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver-white dial · Silver-tone case · Black strap",
+        "labelZh": "银白盘银色表壳黑色皮带",
+        "image": "b01-f13-01",
+        "photos": [
+          {
+            "image": "b01-f13-01",
+            "alt": "Jaeger-LeCoultre Master Ultra Thin Moon · 银白盘银色表壳黑色皮带",
+            "caption": "银白盘银色表壳黑色皮带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f13-02",
+            "alt": "Jaeger-LeCoultre Master Ultra Thin Moon · 银白盘银色表壳黑色皮带 · 细节",
+            "caption": "银白盘银色表壳黑色皮带 · 细节"
+          },
+          {
+            "image": "b01-f13-03",
+            "alt": "Jaeger-LeCoultre Master Ultra Thin Moon · 银白盘银色表壳黑色皮带 · 细节",
+            "caption": "银白盘银色表壳黑色皮带 · 细节"
+          },
+          {
+            "image": "b01-f13-04",
+            "alt": "Jaeger-LeCoultre Master Ultra Thin Moon · 银白盘银色表壳黑色皮带 · 细节",
+            "caption": "银白盘银色表壳黑色皮带 · 细节"
+          },
+          {
+            "image": "b01-f13-08",
+            "alt": "Jaeger-LeCoultre Master Ultra Thin Moon · 银白盘银色表壳黑色皮带 · 细节",
+            "caption": "银白盘银色表壳黑色皮带 · 细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘银色表壳黑色皮带",
+        "image": "b01-f13-05",
+        "photos": [
+          {
+            "image": "b01-f13-05",
+            "alt": "Jaeger-LeCoultre Master Ultra Thin Moon · 黑盘银色表壳黑色皮带",
+            "caption": "黑盘银色表壳黑色皮带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Grey dial · Silver-tone case · Black strap",
+        "labelZh": "灰盘银色表壳黑色皮带",
+        "image": "b01-f13-06",
+        "photos": [
+          {
+            "image": "b01-f13-06",
+            "alt": "Jaeger-LeCoultre Master Ultra Thin Moon · 灰盘银色表壳黑色皮带",
+            "caption": "灰盘银色表壳黑色皮带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Grey dial · Rose-tone case · Black strap",
+        "labelZh": "灰盘玫瑰金色表壳黑色皮带",
+        "image": "b01-f13-07",
+        "photos": [
+          {
+            "image": "b01-f13-07",
+            "alt": "Jaeger-LeCoultre Master Ultra Thin Moon · 灰盘玫瑰金色表壳黑色皮带",
+            "caption": "灰盘玫瑰金色表壳黑色皮带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX067",
+    "brand": "Longines",
+    "family": "Master Collection Chrono Moonphase",
+    "name": "Master Collection Chrono Moonphase — Metal bracelet · White dial · Blue hands",
+    "nameZh": "名匠计时月相 · 白盘蓝针款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Complication",
+    "priceUSD": 156,
+    "currency": "USD",
+    "image": "b01-f14-02",
+    "sizeReference": "42 mm (family comparison)",
+    "description": "A Master Collection Chrono Moonphase-style layout with three subsidiary counters, calendar-style windows and a moon-phase-style display. Blue-tone hands contrast with the white Arabic-numeral dial.",
+    "sourceFolder": "B01-F14",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Blue hands · Silver bracelet",
+        "labelZh": "白盘蓝针银色表链",
+        "image": "b01-f14-02",
+        "photos": [
+          {
+            "image": "b01-f14-02",
+            "alt": "Longines Master Collection Chrono Moonphase · 白盘蓝针银色表链",
+            "caption": "白盘蓝针银色表链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f14-03",
+            "alt": "Longines Master Collection Chrono Moonphase · 白盘蓝针银色表链 · 细节",
+            "caption": "白盘蓝针银色表链 · 细节"
+          },
+          {
+            "image": "b01-f14-04",
+            "alt": "Longines Master Collection Chrono Moonphase · 白盘蓝针银色表链 · 细节",
+            "caption": "白盘蓝针银色表链 · 细节"
+          },
+          {
+            "image": "b01-f14-05",
+            "alt": "Longines Master Collection Chrono Moonphase · 白盘蓝针银色表链 · 细节",
+            "caption": "白盘蓝针银色表链 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX068",
+    "brand": "Longines",
+    "family": "Master Collection Chrono Moonphase",
+    "name": "Master Collection Chrono Moonphase — Leather strap · Dark blue dial · Gold-tone hands",
+    "nameZh": "名匠计时月相 · 深蓝盘金色指针款 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Complication",
+    "priceUSD": 132,
+    "currency": "USD",
+    "image": "b01-f15-02",
+    "sizeReference": "40 / 42 mm (family comparison)",
+    "description": "A dark-dial Master Collection Chrono Moonphase-style watch with calendar-style indications, three subsidiary counters and a moon-phase-style display. Gold-tone hands and the dark blue leather-style strap create a warm contrast.",
+    "sourceFolder": "B01-F15",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark blue dial · Gold-tone hands · Blue strap",
+        "labelZh": "深蓝盘金色指针蓝色皮带",
+        "image": "b01-f15-02",
+        "photos": [
+          {
+            "image": "b01-f15-02",
+            "alt": "Longines Master Collection Chrono Moonphase · 深蓝盘金色指针蓝色皮带",
+            "caption": "深蓝盘金色指针蓝色皮带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "b01-f15-03",
+            "alt": "Longines Master Collection Chrono Moonphase · 深蓝盘金色指针蓝色皮带 · 细节",
+            "caption": "深蓝盘金色指针蓝色皮带 · 细节"
+          },
+          {
+            "image": "b01-f15-04",
+            "alt": "Longines Master Collection Chrono Moonphase · 深蓝盘金色指针蓝色皮带 · 细节",
+            "caption": "深蓝盘金色指针蓝色皮带 · 细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX069",
+    "brand": "Piaget",
+    "family": "Emperador — Unconfirmed",
+    "name": "Emperador — Unconfirmed — Leather strap",
+    "nameZh": "Emperador长方形装饰款 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 149,
+    "currency": "USD",
+    "image": "piaget-001",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Explore the Emperador — Unconfirmed-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Rose-tone case · Brown strap",
+        "labelZh": "玫瑰金色表壳 · 棕色皮带",
+        "image": "piaget-001",
+        "photos": [
+          {
+            "image": "piaget-001"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-002",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-003",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-004",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-005",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-006",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-007",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-008",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Silver-tone case · Black strap",
+        "labelZh": "银色表壳 · 黑色表带",
+        "image": "piaget-011",
+        "photos": [
+          {
+            "image": "piaget-011"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-012",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-013",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-014",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-015",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-016",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-017",
+            "alt": "Emperador — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX070",
+    "brand": "Piaget",
+    "family": "Polo Tourbillon-style — Unconfirmed",
+    "name": "Polo Tourbillon-style — Unconfirmed — Leather strap",
+    "nameZh": "Polo开窗装饰款 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 166,
+    "currency": "USD",
+    "image": "piaget-023",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Explore the Polo Tourbillon-style — Unconfirmed-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Rose tone · Black strap",
+        "labelZh": "玫瑰金色 · 黑色表带",
+        "image": "piaget-023",
+        "photos": [
+          {
+            "image": "piaget-023"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-019",
+            "alt": "Polo Tourbillon-style — Unconfirmed — Leather strap detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-020",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-021",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-022",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-024",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-025",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-026",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-027",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Silver tone · Black strap",
+        "labelZh": "银色 · 黑色表带",
+        "image": "piaget-032",
+        "photos": [
+          {
+            "image": "piaget-032"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-028",
+            "alt": "Polo Tourbillon-style — Unconfirmed — Leather strap detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-029",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-030",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-031",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-033",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-034",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-035",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-036",
+            "alt": "Polo Tourbillon-style — Unconfirmed detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX071",
+    "brand": "Piaget",
+    "family": "Altiplano",
+    "name": "Altiplano — Leather strap",
+    "nameZh": "Altiplano超薄经典款 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 142,
+    "currency": "USD",
+    "image": "piaget-037",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Explore the Altiplano-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose tone · Brown strap",
+        "labelZh": "白盘 · 玫瑰金色 · 棕色皮带",
+        "image": "piaget-037",
+        "photos": [
+          {
+            "image": "piaget-037"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-038",
+            "alt": "Altiplano detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-039",
+            "alt": "Altiplano detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-040",
+            "alt": "Altiplano detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-041",
+            "alt": "Altiplano detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-042",
+            "alt": "Altiplano detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-043",
+            "alt": "Altiplano detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-044",
+            "alt": "Altiplano detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-045",
+            "alt": "Altiplano detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX072",
+    "brand": "Piaget",
+    "family": "Polo Date",
+    "name": "Polo Date — Metal bracelet",
+    "nameZh": "Polo日历款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 159,
+    "currency": "USD",
+    "image": "piaget-046",
+    "sizeReference": "42 mm (family comparison)",
+    "description": "Explore the Polo Date-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green dial · Silver bracelet",
+        "labelZh": "绿盘 · 银色表链",
+        "image": "piaget-046",
+        "photos": [
+          {
+            "image": "piaget-046"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-047",
+            "alt": "Polo Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-048",
+            "alt": "Polo Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-049",
+            "alt": "Polo Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-050",
+            "alt": "Polo Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-051",
+            "alt": "Polo Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-052",
+            "alt": "Polo Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-053",
+            "alt": "Polo Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-054",
+            "alt": "Polo Date detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX073",
+    "brand": "Piaget",
+    "family": "Limelight Gala",
+    "name": "Limelight Gala — Rubber strap",
+    "nameZh": "Limelight Gala非对称装饰款 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Classic",
+    "priceUSD": 135,
+    "currency": "USD",
+    "image": "piaget-055",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Explore the Limelight Gala-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Light dial · Rose tone · Black strap",
+        "labelZh": "浅色盘 · 玫瑰金色 · 黑色表带",
+        "image": "piaget-055",
+        "photos": [
+          {
+            "image": "piaget-055"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-056",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-057",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-058",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-059",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-060",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-061",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-062",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-063",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Light dial · Silver tone · Black strap",
+        "labelZh": "浅色盘 · 银色 · 黑色表带",
+        "image": "piaget-064",
+        "photos": [
+          {
+            "image": "piaget-064"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-065",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-066",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-067",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-068",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-069",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-070",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-071",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-072",
+            "alt": "Limelight Gala detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX074",
+    "brand": "Piaget",
+    "family": "Altiplano — Decorative dial",
+    "name": "Altiplano — Decorative dial — Leather strap",
+    "nameZh": "Altiplano装饰盘款 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 152,
+    "currency": "USD",
+    "image": "piaget-073",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Explore the Altiplano — Decorative dial-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver decorative dial · Silver case",
+        "labelZh": "银色装饰盘 · 银色表壳",
+        "image": "piaget-073",
+        "photos": [
+          {
+            "image": "piaget-073"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-074",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-075",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-076",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-077",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-078",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-079",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-080",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-081",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Dark-accent decorative dial · Silver case",
+        "labelZh": "深色点缀装饰盘 · 银色表壳",
+        "image": "piaget-082",
+        "photos": [
+          {
+            "image": "piaget-082"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-083",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-084",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-085",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-086",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-087",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-088",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-089",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-090",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver case",
+        "labelZh": "黑盘 · 银色表壳",
+        "image": "piaget-091",
+        "photos": [
+          {
+            "image": "piaget-091"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-092",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-093",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-094",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-095",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-096",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-097",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-098",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-099",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Light decorative dial · Rose case",
+        "labelZh": "浅色装饰盘 · 玫瑰金色表壳",
+        "image": "piaget-100",
+        "photos": [
+          {
+            "image": "piaget-100"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-101",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-102",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-103",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-104",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-105",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-106",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-107",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-108",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Dark-accent decorative dial · Rose case",
+        "labelZh": "深色点缀装饰盘 · 玫瑰金色表壳",
+        "image": "piaget-109",
+        "photos": [
+          {
+            "image": "piaget-109"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-110",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-111",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-112",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-113",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-114",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-115",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-116",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-117",
+            "alt": "Altiplano — Decorative dial detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX075",
+    "brand": "Piaget",
+    "family": "Altiplano Date",
+    "name": "Altiplano Date — Leather strap",
+    "nameZh": "Altiplano日历款 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 169,
+    "currency": "USD",
+    "image": "piaget-118",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Explore the Altiplano Date-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Black strap",
+        "labelZh": "蓝盘 · 黑色表带",
+        "image": "piaget-118",
+        "photos": [
+          {
+            "image": "piaget-118"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-119",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-120",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-121",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-122",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-123",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-124",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-125",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-126",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Silver dial · Black strap",
+        "labelZh": "银色盘 · 黑色表带",
+        "image": "piaget-127",
+        "photos": [
+          {
+            "image": "piaget-127"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "piaget-128",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-129",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-130",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-131",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-132",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-133",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-134",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "piaget-135",
+            "alt": "Altiplano Date detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX076",
+    "brand": "Rolex",
+    "family": "Datejust",
+    "name": "Datejust — Metal bracelet",
+    "nameZh": "日志型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 143,
+    "currency": "USD",
+    "image": "rolex-001",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Slate Roman · Silver tone · Three-link",
+        "labelZh": "灰盘罗马字 · 银色三排链",
+        "image": "rolex-001",
+        "photos": [
+          {
+            "image": "rolex-001",
+            "label": "Slate Roman · Silver tone · Three-link",
+            "labelZh": "灰盘罗马字 · 银色三排链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-002",
+            "alt": "Datejust · Slate Roman · Silver tone · Three-link · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-003",
+            "alt": "Datejust · Slate Roman · Silver tone · Three-link · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-004",
+            "alt": "Datejust · Slate Roman · Silver tone · Three-link · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-005",
+            "alt": "Datejust · Slate Roman · Silver tone · Three-link · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-006",
+            "alt": "Datejust · Slate Roman · Silver tone · Three-link · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Slate Roman · Silver tone · Five-link",
+        "labelZh": "灰盘罗马字 · 银色五排链",
+        "image": "rolex-007",
+        "photos": [
+          {
+            "image": "rolex-007",
+            "label": "Slate Roman · Silver tone · Five-link",
+            "labelZh": "灰盘罗马字 · 银色五排链"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-008",
+            "alt": "Datejust · Slate Roman · Silver tone · Five-link · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-009",
+            "alt": "Datejust · Slate Roman · Silver tone · Five-link · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-010",
+            "alt": "Datejust · Slate Roman · Silver tone · Five-link · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-011",
+            "alt": "Datejust · Slate Roman · Silver tone · Five-link · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-012",
+            "alt": "Datejust · Slate Roman · Silver tone · Five-link · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "White decorative markers · Yellow two-tone",
+        "labelZh": "白盘装饰刻度 · 金银双色",
+        "image": "rolex-013",
+        "photos": [
+          {
+            "image": "rolex-013",
+            "label": "White decorative markers · Yellow two-tone",
+            "labelZh": "白盘装饰刻度 · 金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-014",
+            "alt": "Datejust · White decorative markers · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-015",
+            "alt": "Datejust · White decorative markers · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-016",
+            "alt": "Datejust · White decorative markers · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-017",
+            "alt": "Datejust · White decorative markers · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-018",
+            "alt": "Datejust · White decorative markers · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-019",
+            "alt": "Datejust · White decorative markers · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Blue baton · Silver tone",
+        "labelZh": "蓝盘条钉 · 银色",
+        "image": "rolex-020",
+        "photos": [
+          {
+            "image": "rolex-020",
+            "label": "Blue baton · Silver tone",
+            "labelZh": "蓝盘条钉 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-021",
+            "alt": "Datejust · Blue baton · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-022",
+            "alt": "Datejust · Blue baton · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-023",
+            "alt": "Datejust · Blue baton · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-024",
+            "alt": "Datejust · Blue baton · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-025",
+            "alt": "Datejust · Blue baton · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Pink Roman · Silver tone",
+        "labelZh": "粉盘罗马字 · 银色",
+        "image": "rolex-026",
+        "photos": [
+          {
+            "image": "rolex-026",
+            "label": "Pink Roman · Silver tone",
+            "labelZh": "粉盘罗马字 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-027",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-028",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-029",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-030",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-031",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-191",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-192",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-193",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-194",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-195",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-196",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-469",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-470",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-471",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-472",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-473",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-474",
+            "alt": "Datejust · Pink Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v6",
+        "label": "Grey decorative markers · Silver tone",
+        "labelZh": "灰盘装饰刻度 · 银色",
+        "image": "rolex-038",
+        "photos": [
+          {
+            "image": "rolex-038",
+            "label": "Grey decorative markers · Silver tone",
+            "labelZh": "灰盘装饰刻度 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-039",
+            "alt": "Datejust · Grey decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-040",
+            "alt": "Datejust · Grey decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-041",
+            "alt": "Datejust · Grey decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-042",
+            "alt": "Datejust · Grey decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-043",
+            "alt": "Datejust · Grey decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-044",
+            "alt": "Datejust · Grey decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-045",
+            "alt": "Datejust · Grey decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-046",
+            "alt": "Datejust · Grey decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v7",
+        "label": "Brown decorative markers · Rose two-tone",
+        "labelZh": "棕盘装饰刻度 · 玫瑰金银双色",
+        "image": "rolex-047",
+        "photos": [
+          {
+            "image": "rolex-047",
+            "label": "Brown decorative markers · Rose two-tone",
+            "labelZh": "棕盘装饰刻度 · 玫瑰金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-048",
+            "alt": "Datejust · Brown decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-049",
+            "alt": "Datejust · Brown decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-050",
+            "alt": "Datejust · Brown decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-051",
+            "alt": "Datejust · Brown decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-052",
+            "alt": "Datejust · Brown decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v8",
+        "label": "White Roman · Silver tone",
+        "labelZh": "白盘罗马字 · 银色",
+        "image": "rolex-053",
+        "photos": [
+          {
+            "image": "rolex-053",
+            "label": "White Roman · Silver tone",
+            "labelZh": "白盘罗马字 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-054",
+            "alt": "Datejust · White Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-055",
+            "alt": "Datejust · White Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-056",
+            "alt": "Datejust · White Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-057",
+            "alt": "Datejust · White Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-100",
+            "alt": "Datejust · White Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-101",
+            "alt": "Datejust · White Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-102",
+            "alt": "Datejust · White Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-103",
+            "alt": "Datejust · White Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-104",
+            "alt": "Datejust · White Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v9",
+        "label": "Green decorative markers · Rose two-tone",
+        "labelZh": "绿盘装饰刻度 · 玫瑰金银双色",
+        "image": "rolex-058",
+        "photos": [
+          {
+            "image": "rolex-058",
+            "label": "Green decorative markers · Rose two-tone",
+            "labelZh": "绿盘装饰刻度 · 玫瑰金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-059",
+            "alt": "Datejust · Green decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-060",
+            "alt": "Datejust · Green decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-061",
+            "alt": "Datejust · Green decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-062",
+            "alt": "Datejust · Green decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-063",
+            "alt": "Datejust · Green decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v10",
+        "label": "Rose dial Roman · Rose two-tone",
+        "labelZh": "玫瑰金色盘罗马字 · 双色",
+        "image": "rolex-064",
+        "photos": [
+          {
+            "image": "rolex-064",
+            "label": "Rose dial Roman · Rose two-tone",
+            "labelZh": "玫瑰金色盘罗马字 · 双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-065",
+            "alt": "Datejust · Rose dial Roman · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-066",
+            "alt": "Datejust · Rose dial Roman · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-067",
+            "alt": "Datejust · Rose dial Roman · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-068",
+            "alt": "Datejust · Rose dial Roman · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-069",
+            "alt": "Datejust · Rose dial Roman · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v11",
+        "label": "Grey Roman · Rose two-tone",
+        "labelZh": "灰盘罗马字 · 玫瑰金银双色",
+        "image": "rolex-076",
+        "photos": [
+          {
+            "image": "rolex-076",
+            "label": "Grey Roman · Rose two-tone",
+            "labelZh": "灰盘罗马字 · 玫瑰金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-077",
+            "alt": "Datejust · Grey Roman · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-078",
+            "alt": "Datejust · Grey Roman · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-079",
+            "alt": "Datejust · Grey Roman · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-080",
+            "alt": "Datejust · Grey Roman · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-081",
+            "alt": "Datejust · Grey Roman · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v12",
+        "label": "White decorative markers · Yellow two-tone · Small case",
+        "labelZh": "白盘装饰刻度 · 金银双色 · 小表款",
+        "image": "rolex-082",
+        "photos": [
+          {
+            "image": "rolex-082",
+            "label": "White decorative markers · Yellow two-tone · Small case",
+            "labelZh": "白盘装饰刻度 · 金银双色 · 小表款"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-083",
+            "alt": "Datejust · White decorative markers · Yellow two-tone · Small case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-084",
+            "alt": "Datejust · White decorative markers · Yellow two-tone · Small case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-085",
+            "alt": "Datejust · White decorative markers · Yellow two-tone · Small case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-086",
+            "alt": "Datejust · White decorative markers · Yellow two-tone · Small case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-087",
+            "alt": "Datejust · White decorative markers · Yellow two-tone · Small case · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v13",
+        "label": "Green Roman · Yellow two-tone",
+        "labelZh": "绿盘罗马字 · 金银双色",
+        "image": "rolex-088",
+        "photos": [
+          {
+            "image": "rolex-088",
+            "label": "Green Roman · Yellow two-tone",
+            "labelZh": "绿盘罗马字 · 金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-089",
+            "alt": "Datejust · Green Roman · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-090",
+            "alt": "Datejust · Green Roman · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-091",
+            "alt": "Datejust · Green Roman · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-092",
+            "alt": "Datejust · Green Roman · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-093",
+            "alt": "Datejust · Green Roman · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v14",
+        "label": "Black decorative markers · Yellow two-tone",
+        "labelZh": "黑盘装饰刻度 · 金银双色",
+        "image": "rolex-094",
+        "photos": [
+          {
+            "image": "rolex-094",
+            "label": "Black decorative markers · Yellow two-tone",
+            "labelZh": "黑盘装饰刻度 · 金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-095",
+            "alt": "Datejust · Black decorative markers · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-096",
+            "alt": "Datejust · Black decorative markers · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-097",
+            "alt": "Datejust · Black decorative markers · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-098",
+            "alt": "Datejust · Black decorative markers · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-099",
+            "alt": "Datejust · Black decorative markers · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v15",
+        "label": "Purple Roman · Silver tone",
+        "labelZh": "紫盘罗马字 · 银色",
+        "image": "rolex-185",
+        "photos": [
+          {
+            "image": "rolex-185",
+            "label": "Purple Roman · Silver tone",
+            "labelZh": "紫盘罗马字 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-186",
+            "alt": "Datejust · Purple Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-187",
+            "alt": "Datejust · Purple Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-188",
+            "alt": "Datejust · Purple Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-189",
+            "alt": "Datejust · Purple Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-190",
+            "alt": "Datejust · Purple Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-308",
+            "alt": "Datejust · Purple Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-309",
+            "alt": "Datejust · Purple Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-310",
+            "alt": "Datejust · Purple Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-311",
+            "alt": "Datejust · Purple Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-312",
+            "alt": "Datejust · Purple Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-313",
+            "alt": "Datejust · Purple Roman · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v16",
+        "label": "Champagne baton · Yellow two-tone",
+        "labelZh": "香槟盘条钉 · 金银双色",
+        "image": "rolex-197",
+        "photos": [
+          {
+            "image": "rolex-197",
+            "label": "Champagne baton · Yellow two-tone",
+            "labelZh": "香槟盘条钉 · 金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-198",
+            "alt": "Datejust · Champagne baton · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-199",
+            "alt": "Datejust · Champagne baton · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-200",
+            "alt": "Datejust · Champagne baton · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-201",
+            "alt": "Datejust · Champagne baton · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-202",
+            "alt": "Datejust · Champagne baton · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-275",
+            "alt": "Datejust · Champagne baton · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-276",
+            "alt": "Datejust · Champagne baton · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-277",
+            "alt": "Datejust · Champagne baton · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-278",
+            "alt": "Datejust · Champagne baton · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-279",
+            "alt": "Datejust · Champagne baton · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-280",
+            "alt": "Datejust · Champagne baton · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v17",
+        "label": "White decorative markers · Rose two-tone",
+        "labelZh": "白盘装饰刻度 · 玫瑰金银双色",
+        "image": "rolex-203",
+        "photos": [
+          {
+            "image": "rolex-203",
+            "label": "White decorative markers · Rose two-tone",
+            "labelZh": "白盘装饰刻度 · 玫瑰金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-204",
+            "alt": "Datejust · White decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-205",
+            "alt": "Datejust · White decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-206",
+            "alt": "Datejust · White decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-207",
+            "alt": "Datejust · White decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-208",
+            "alt": "Datejust · White decorative markers · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v18",
+        "label": "Mother-of-pearl look · Rose two-tone",
+        "labelZh": "贝母色装饰盘 · 玫瑰金银双色",
+        "image": "rolex-209",
+        "photos": [
+          {
+            "image": "rolex-209",
+            "label": "Mother-of-pearl look · Rose two-tone",
+            "labelZh": "贝母色装饰盘 · 玫瑰金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-210",
+            "alt": "Datejust · Mother-of-pearl look · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-211",
+            "alt": "Datejust · Mother-of-pearl look · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-212",
+            "alt": "Datejust · Mother-of-pearl look · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-213",
+            "alt": "Datejust · Mother-of-pearl look · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-214",
+            "alt": "Datejust · Mother-of-pearl look · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v19",
+        "label": "Black baton · Silver tone",
+        "labelZh": "黑盘条钉 · 银色",
+        "image": "rolex-221",
+        "photos": [
+          {
+            "image": "rolex-221",
+            "label": "Black baton · Silver tone",
+            "labelZh": "黑盘条钉 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-222",
+            "alt": "Datejust · Black baton · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-223",
+            "alt": "Datejust · Black baton · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-224",
+            "alt": "Datejust · Black baton · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-225",
+            "alt": "Datejust · Black baton · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-226",
+            "alt": "Datejust · Black baton · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v20",
+        "label": "Blue decorative markers · Silver tone",
+        "labelZh": "蓝盘装饰刻度 · 银色",
+        "image": "rolex-377",
+        "photos": [
+          {
+            "image": "rolex-377",
+            "label": "Blue decorative markers · Silver tone",
+            "labelZh": "蓝盘装饰刻度 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-378",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-379",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-380",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-381",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-382",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-383",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-384",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-385",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v21",
+        "label": "Champagne baton · Two-tone · Display back",
+        "labelZh": "香槟盘条钉 · 双色 · 透底款",
+        "image": "rolex-419",
+        "photos": [
+          {
+            "image": "rolex-419",
+            "label": "Champagne baton · Two-tone · Display back",
+            "labelZh": "香槟盘条钉 · 双色 · 透底款"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-420",
+            "alt": "Datejust · Champagne baton · Two-tone · Display back · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-421",
+            "alt": "Datejust · Champagne baton · Two-tone · Display back · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-422",
+            "alt": "Datejust · Champagne baton · Two-tone · Display back · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-423",
+            "alt": "Datejust · Champagne baton · Two-tone · Display back · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-424",
+            "alt": "Datejust · Champagne baton · Two-tone · Display back · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-425",
+            "alt": "Datejust · Champagne baton · Two-tone · Display back · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-426",
+            "alt": "Datejust · Champagne baton · Two-tone · Display back · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-427",
+            "alt": "Datejust · Champagne baton · Two-tone · Display back · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v22",
+        "label": "White decorative markers · Silver tone",
+        "labelZh": "白盘装饰刻度 · 银色",
+        "image": "rolex-428",
+        "photos": [
+          {
+            "image": "rolex-428",
+            "label": "White decorative markers · Silver tone",
+            "labelZh": "白盘装饰刻度 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-429",
+            "alt": "Datejust · White decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-430",
+            "alt": "Datejust · White decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-431",
+            "alt": "Datejust · White decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-432",
+            "alt": "Datejust · White decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-433",
+            "alt": "Datejust · White decorative markers · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v23",
+        "label": "Green decorative markers · Rose two-tone · Small case",
+        "labelZh": "绿盘装饰刻度 · 玫瑰金银双色 · 小表款",
+        "image": "rolex-517",
+        "photos": [
+          {
+            "image": "rolex-517",
+            "label": "Green decorative markers · Rose two-tone · Small case",
+            "labelZh": "绿盘装饰刻度 · 玫瑰金银双色 · 小表款"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-518",
+            "alt": "Datejust · Green decorative markers · Rose two-tone · Small case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-519",
+            "alt": "Datejust · Green decorative markers · Rose two-tone · Small case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-520",
+            "alt": "Datejust · Green decorative markers · Rose two-tone · Small case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-521",
+            "alt": "Datejust · Green decorative markers · Rose two-tone · Small case · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v24",
+        "label": "Green Roman · Yellow two-tone · Small",
+        "labelZh": "绿盘罗马字 · 金银双色小款",
+        "image": "rolex-677",
+        "photos": [
+          {
+            "image": "rolex-677",
+            "label": "Green Roman · Yellow two-tone · Small",
+            "labelZh": "绿盘罗马字 · 金银双色小款"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-680",
+            "alt": "Datejust · Green Roman · Yellow two-tone · Small · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v25",
+        "label": "White Roman · Yellow two-tone · Small",
+        "labelZh": "白盘罗马字 · 金银双色小款",
+        "image": "rolex-678",
+        "photos": [
+          {
+            "image": "rolex-678",
+            "label": "White Roman · Yellow two-tone · Small",
+            "labelZh": "白盘罗马字 · 金银双色小款"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v26",
+        "label": "White Roman · Yellow tone · Small",
+        "labelZh": "白盘罗马字 · 金色小款",
+        "image": "rolex-679",
+        "photos": [
+          {
+            "image": "rolex-679",
+            "label": "White Roman · Yellow tone · Small",
+            "labelZh": "白盘罗马字 · 金色小款"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v27",
+        "label": "Purple Roman · Yellow two-tone · Small",
+        "labelZh": "紫盘罗马字 · 金银双色小款",
+        "image": "rolex-681",
+        "photos": [
+          {
+            "image": "rolex-681",
+            "label": "Purple Roman · Yellow two-tone · Small",
+            "labelZh": "紫盘罗马字 · 金银双色小款"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v28",
+        "label": "White Roman · Rose two-tone · Small",
+        "labelZh": "白盘罗马字 · 玫瑰金银双色小款",
+        "image": "rolex-682",
+        "photos": [
+          {
+            "image": "rolex-682",
+            "label": "White Roman · Rose two-tone · Small",
+            "labelZh": "白盘罗马字 · 玫瑰金银双色小款"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v29",
+        "label": "Champagne decorative · Rose two-tone · Small",
+        "labelZh": "香槟装饰盘 · 玫瑰金银双色小款",
+        "image": "rolex-683",
+        "photos": [
+          {
+            "image": "rolex-683",
+            "label": "Champagne decorative · Rose two-tone · Small",
+            "labelZh": "香槟装饰盘 · 玫瑰金银双色小款"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v30",
+        "label": "Pink decorative dial · Silver tone · Small",
+        "labelZh": "粉色装饰盘 · 银色小款",
+        "image": "rolex-720",
+        "photos": [
+          {
+            "image": "rolex-720",
+            "label": "Pink decorative dial · Silver tone · Small",
+            "labelZh": "粉色装饰盘 · 银色小款"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-721",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-722",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-723",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-724",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-725",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-726",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-727",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-728",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX077",
+    "brand": "Rolex",
+    "family": "Yacht-Master",
+    "name": "Yacht-Master — Metal bracelet",
+    "nameZh": "游艇名仕型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 160,
+    "currency": "USD",
+    "image": "rolex-032",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Brown dial · Rose two-tone",
+        "labelZh": "棕盘 · 玫瑰金银双色",
+        "image": "rolex-032",
+        "photos": [
+          {
+            "image": "rolex-032",
+            "label": "Brown dial · Rose two-tone",
+            "labelZh": "棕盘 · 玫瑰金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-033",
+            "alt": "Yacht-Master · Brown dial · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-034",
+            "alt": "Yacht-Master · Brown dial · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-035",
+            "alt": "Yacht-Master · Brown dial · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-036",
+            "alt": "Yacht-Master · Brown dial · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-037",
+            "alt": "Yacht-Master · Brown dial · Rose two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Grey dial · Silver tone",
+        "labelZh": "灰盘 · 银色",
+        "image": "rolex-693",
+        "photos": [
+          {
+            "image": "rolex-693",
+            "label": "Grey dial · Silver tone",
+            "labelZh": "灰盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-694",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-695",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-696",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-697",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-698",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-699",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-700",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-701",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX078",
+    "brand": "Rolex",
+    "family": "Oyster Perpetual",
+    "name": "Oyster Perpetual — Metal bracelet",
+    "nameZh": "蚝式恒动型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 136,
+    "currency": "USD",
+    "image": "rolex-070",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black · Silver tone",
+        "labelZh": "黑盘 · 银色",
+        "image": "rolex-070",
+        "photos": [
+          {
+            "image": "rolex-070",
+            "label": "Black · Silver tone",
+            "labelZh": "黑盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-071",
+            "alt": "Oyster Perpetual · Black · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-072",
+            "alt": "Oyster Perpetual · Black · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-073",
+            "alt": "Oyster Perpetual · Black · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-074",
+            "alt": "Oyster Perpetual · Black · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-075",
+            "alt": "Oyster Perpetual · Black · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Light blue · Silver tone",
+        "labelZh": "浅蓝盘 · 银色",
+        "image": "rolex-117",
+        "photos": [
+          {
+            "image": "rolex-117",
+            "label": "Light blue · Silver tone",
+            "labelZh": "浅蓝盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-118",
+            "alt": "Oyster Perpetual · Light blue · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-119",
+            "alt": "Oyster Perpetual · Light blue · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-120",
+            "alt": "Oyster Perpetual · Light blue · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-121",
+            "alt": "Oyster Perpetual · Light blue · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-122",
+            "alt": "Oyster Perpetual · Light blue · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Turquoise · Silver tone",
+        "labelZh": "绿松石蓝盘 · 银色",
+        "image": "rolex-386",
+        "photos": [
+          {
+            "image": "rolex-386",
+            "label": "Turquoise · Silver tone",
+            "labelZh": "绿松石蓝盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-387",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-388",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-389",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-390",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-391",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX079",
+    "brand": "Rolex",
+    "family": "Cosmograph Daytona",
+    "name": "Cosmograph Daytona — Metal bracelet",
+    "nameZh": "宇宙计型迪通拿 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 153,
+    "currency": "USD",
+    "image": "rolex-105",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Rose tone",
+        "labelZh": "黑盘 · 玫瑰金色",
+        "image": "rolex-105",
+        "photos": [
+          {
+            "image": "rolex-105",
+            "label": "Black dial · Rose tone",
+            "labelZh": "黑盘 · 玫瑰金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-106",
+            "alt": "Cosmograph Daytona · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-107",
+            "alt": "Cosmograph Daytona · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-108",
+            "alt": "Cosmograph Daytona · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-109",
+            "alt": "Cosmograph Daytona · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-110",
+            "alt": "Cosmograph Daytona · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Yellow tone",
+        "labelZh": "白盘 · 金色",
+        "image": "rolex-135",
+        "photos": [
+          {
+            "image": "rolex-135",
+            "label": "White dial · Yellow tone",
+            "labelZh": "白盘 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-136",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-137",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-138",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-139",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-140",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Green dial · Yellow tone",
+        "labelZh": "绿盘 · 金色",
+        "image": "rolex-141",
+        "photos": [
+          {
+            "image": "rolex-141",
+            "label": "Green dial · Yellow tone",
+            "labelZh": "绿盘 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-142",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-143",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-144",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-145",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-146",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-147",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-148",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Silver dial · Black counters",
+        "labelZh": "银盘 · 黑色副盘",
+        "image": "rolex-164",
+        "photos": [
+          {
+            "image": "rolex-164",
+            "label": "Silver dial · Black counters",
+            "labelZh": "银盘 · 黑色副盘"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-165",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-166",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-167",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-168",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-169",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-646",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Black bezel",
+        "labelZh": "白盘 · 黑圈",
+        "image": "rolex-251",
+        "photos": [
+          {
+            "image": "rolex-251",
+            "label": "White dial · Black bezel",
+            "labelZh": "白盘 · 黑圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-252",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-253",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-254",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-255",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-256",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-648",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-729",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-730",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-731",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-732",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-733",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-734",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-735",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-736",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-737",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v6",
+        "label": "Black dial · Rainbow bezel · Yellow tone",
+        "labelZh": "黑盘 · 彩虹圈 · 金色",
+        "image": "rolex-444",
+        "photos": [
+          {
+            "image": "rolex-444",
+            "label": "Black dial · Rainbow bezel · Yellow tone",
+            "labelZh": "黑盘 · 彩虹圈 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-440",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-441",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-442",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-443",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-445",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-446",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-447",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-448",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v7",
+        "label": "Silver decorative dial · Ice-blue counters",
+        "labelZh": "银色镶饰盘 · 冰蓝副盘",
+        "image": "rolex-502",
+        "photos": [
+          {
+            "image": "rolex-502",
+            "label": "Silver decorative dial · Ice-blue counters",
+            "labelZh": "银色镶饰盘 · 冰蓝副盘"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-503",
+            "alt": "Cosmograph Daytona · Silver decorative dial · Ice-blue counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-504",
+            "alt": "Cosmograph Daytona · Silver decorative dial · Ice-blue counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-505",
+            "alt": "Cosmograph Daytona · Silver decorative dial · Ice-blue counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-506",
+            "alt": "Cosmograph Daytona · Silver decorative dial · Ice-blue counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-507",
+            "alt": "Cosmograph Daytona · Silver decorative dial · Ice-blue counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-508",
+            "alt": "Cosmograph Daytona · Silver decorative dial · Ice-blue counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-509",
+            "alt": "Cosmograph Daytona · Silver decorative dial · Ice-blue counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-510",
+            "alt": "Cosmograph Daytona · Silver decorative dial · Ice-blue counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v8",
+        "label": "Black dial · Rainbow bezel · Rose tone",
+        "labelZh": "黑盘 · 彩虹圈 · 玫瑰金色",
+        "image": "rolex-523",
+        "photos": [
+          {
+            "image": "rolex-523",
+            "label": "Black dial · Rainbow bezel · Rose tone",
+            "labelZh": "黑盘 · 彩虹圈 · 玫瑰金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-524",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-525",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-526",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-527",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-528",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v9",
+        "label": "Ice-blue dial · Brown bezel",
+        "labelZh": "冰蓝盘 · 棕圈",
+        "image": "rolex-577",
+        "photos": [
+          {
+            "image": "rolex-577",
+            "label": "Ice-blue dial · Brown bezel",
+            "labelZh": "冰蓝盘 · 棕圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-576",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-578",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-579",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-580",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-581",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-582",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v10",
+        "label": "Blue dial · Silver tone",
+        "labelZh": "蓝盘 · 银色",
+        "image": "rolex-608",
+        "photos": [
+          {
+            "image": "rolex-608",
+            "label": "Blue dial · Silver tone",
+            "labelZh": "蓝盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-609",
+            "alt": "Cosmograph Daytona · Blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-610",
+            "alt": "Cosmograph Daytona · Blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-611",
+            "alt": "Cosmograph Daytona · Blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-612",
+            "alt": "Cosmograph Daytona · Blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-613",
+            "alt": "Cosmograph Daytona · Blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v11",
+        "label": "Black dial · Black bezel",
+        "labelZh": "黑盘黑圈",
+        "image": "rolex-647",
+        "photos": [
+          {
+            "image": "rolex-647",
+            "label": "Black dial · Black bezel · Box set",
+            "labelZh": "黑盘黑圈 · 套装实拍"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v12",
+        "label": "Black dial · Rainbow bezel · Silver tone",
+        "labelZh": "黑盘 · 彩虹圈 · 银色",
+        "image": "rolex-685",
+        "photos": [
+          {
+            "image": "rolex-685",
+            "label": "Black dial · Rainbow bezel · Silver tone",
+            "labelZh": "黑盘 · 彩虹圈 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-684",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-686",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-687",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-688",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-689",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-690",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-691",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-692",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v13",
+        "label": "Dark blue dial · Silver tone",
+        "labelZh": "深蓝盘 · 银色",
+        "image": "rolex-707",
+        "photos": [
+          {
+            "image": "rolex-707",
+            "label": "Dark blue dial · Silver tone",
+            "labelZh": "深蓝盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-702",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-703",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-704",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-705",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-706",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-708",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-709",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-710",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX080",
+    "brand": "Rolex",
+    "family": "Sky-Dweller",
+    "name": "Sky-Dweller — Metal bracelet",
+    "nameZh": "纵航者型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 170,
+    "currency": "USD",
+    "image": "rolex-111",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver tone",
+        "labelZh": "黑盘 · 银色",
+        "image": "rolex-111",
+        "photos": [
+          {
+            "image": "rolex-111",
+            "label": "Black dial · Silver tone",
+            "labelZh": "黑盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-112",
+            "alt": "Sky-Dweller · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-113",
+            "alt": "Sky-Dweller · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-114",
+            "alt": "Sky-Dweller · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-115",
+            "alt": "Sky-Dweller · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-116",
+            "alt": "Sky-Dweller · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX081",
+    "brand": "Rolex",
+    "family": "Day-Date",
+    "name": "Day-Date — Metal bracelet",
+    "nameZh": "星期日历型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 146,
+    "currency": "USD",
+    "image": "rolex-123",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green decorative markers · Yellow tone",
+        "labelZh": "绿盘装饰刻度 · 金色",
+        "image": "rolex-123",
+        "photos": [
+          {
+            "image": "rolex-123",
+            "label": "Green decorative markers · Yellow tone",
+            "labelZh": "绿盘装饰刻度 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-124",
+            "alt": "Day-Date · Green decorative markers · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-125",
+            "alt": "Day-Date · Green decorative markers · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-126",
+            "alt": "Day-Date · Green decorative markers · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-127",
+            "alt": "Day-Date · Green decorative markers · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-128",
+            "alt": "Day-Date · Green decorative markers · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-490",
+            "alt": "Day-Date · Green decorative markers · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-491",
+            "alt": "Day-Date · Green decorative markers · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-492",
+            "alt": "Day-Date · Green decorative markers · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-493",
+            "alt": "Day-Date · Green decorative markers · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-494",
+            "alt": "Day-Date · Green decorative markers · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-495",
+            "alt": "Day-Date · Green decorative markers · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black baton · Yellow tone",
+        "labelZh": "黑盘条钉 · 金色",
+        "image": "rolex-302",
+        "photos": [
+          {
+            "image": "rolex-302",
+            "label": "Black baton · Yellow tone",
+            "labelZh": "黑盘条钉 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-303",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-304",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-305",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-306",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-307",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-332",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-333",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-334",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-335",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-336",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-337",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-338",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-339",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-340",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-368",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-369",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-370",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-371",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-372",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-373",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-374",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-375",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-376",
+            "alt": "Day-Date · Black baton · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "White decorative dial · Yellow tone",
+        "labelZh": "白色镶饰盘 · 金色",
+        "image": "rolex-614",
+        "photos": [
+          {
+            "image": "rolex-614",
+            "label": "White decorative dial · Yellow tone",
+            "labelZh": "白色镶饰盘 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-615",
+            "alt": "Day-Date · White decorative dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-616",
+            "alt": "Day-Date · White decorative dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-617",
+            "alt": "Day-Date · White decorative dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Champagne decorative dial · Yellow tone",
+        "labelZh": "香槟色镶饰盘 · 金色",
+        "image": "rolex-618",
+        "photos": [
+          {
+            "image": "rolex-618",
+            "label": "Champagne decorative dial · Yellow tone",
+            "labelZh": "香槟色镶饰盘 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-619",
+            "alt": "Day-Date · Champagne decorative dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-620",
+            "alt": "Day-Date · Champagne decorative dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-621",
+            "alt": "Day-Date · Champagne decorative dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-622",
+            "alt": "Day-Date · Champagne decorative dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX082",
+    "brand": "Rolex",
+    "family": "Sea-Dweller",
+    "name": "Sea-Dweller — Metal bracelet",
+    "nameZh": "海使型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 163,
+    "currency": "USD",
+    "image": "rolex-129",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black · Silver tone",
+        "labelZh": "黑盘 · 银色",
+        "image": "rolex-129",
+        "photos": [
+          {
+            "image": "rolex-129",
+            "label": "Black · Silver tone",
+            "labelZh": "黑盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-130",
+            "alt": "Sea-Dweller · Black · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-131",
+            "alt": "Sea-Dweller · Black · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-132",
+            "alt": "Sea-Dweller · Black · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-133",
+            "alt": "Sea-Dweller · Black · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-134",
+            "alt": "Sea-Dweller · Black · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX083",
+    "brand": "Rolex",
+    "family": "Submariner",
+    "name": "Submariner — Metal bracelet",
+    "nameZh": "潜航者型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 139,
+    "currency": "USD",
+    "image": "rolex-150",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Yellow two-tone",
+        "labelZh": "黑盘 · 金银双色",
+        "image": "rolex-150",
+        "photos": [
+          {
+            "image": "rolex-150",
+            "label": "Black dial · Yellow two-tone",
+            "labelZh": "黑盘 · 金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-149",
+            "alt": "Submariner · Black dial · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-151",
+            "alt": "Submariner · Black dial · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-152",
+            "alt": "Submariner · Black dial · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-153",
+            "alt": "Submariner · Black dial · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-154",
+            "alt": "Submariner · Black dial · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-155",
+            "alt": "Submariner · Black dial · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-156",
+            "alt": "Submariner · Black dial · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-157",
+            "alt": "Submariner · Black dial · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Green dial · Green bezel",
+        "labelZh": "绿盘 · 绿圈",
+        "image": "rolex-257",
+        "photos": [
+          {
+            "image": "rolex-257",
+            "label": "Green dial · Green bezel",
+            "labelZh": "绿盘 · 绿圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-258",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-259",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-260",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-261",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-262",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-659",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-660",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-661",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-662",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-663",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-664",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-665",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-666",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-667",
+            "alt": "Submariner · Green dial · Green bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Light blue dial · Light blue bezel",
+        "labelZh": "浅蓝盘 · 浅蓝圈",
+        "image": "rolex-287",
+        "photos": [
+          {
+            "image": "rolex-287",
+            "label": "Light blue dial · Light blue bezel",
+            "labelZh": "浅蓝盘 · 浅蓝圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-288",
+            "alt": "Submariner · Light blue dial · Light blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-289",
+            "alt": "Submariner · Light blue dial · Light blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-290",
+            "alt": "Submariner · Light blue dial · Light blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-291",
+            "alt": "Submariner · Light blue dial · Light blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-292",
+            "alt": "Submariner · Light blue dial · Light blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Black bezel",
+        "labelZh": "黑盘 · 黑圈",
+        "image": "rolex-293",
+        "photos": [
+          {
+            "image": "rolex-293",
+            "label": "Black dial · Black bezel",
+            "labelZh": "黑盘 · 黑圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-294",
+            "alt": "Submariner · Black dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-295",
+            "alt": "Submariner · Black dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-296",
+            "alt": "Submariner · Black dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-297",
+            "alt": "Submariner · Black dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-298",
+            "alt": "Submariner · Black dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-299",
+            "alt": "Submariner · Black dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-300",
+            "alt": "Submariner · Black dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-301",
+            "alt": "Submariner · Black dial · Black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Green bezel · Stone-set silver look",
+        "labelZh": "绿圈 · 银色镶饰外观",
+        "image": "rolex-449",
+        "photos": [
+          {
+            "image": "rolex-449",
+            "label": "Green bezel · Stone-set silver look",
+            "labelZh": "绿圈 · 银色镶饰外观"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-450",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-451",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-452",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-453",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-454",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-455",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-456",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-457",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v6",
+        "label": "Blue dial · Blue bezel",
+        "labelZh": "蓝盘 · 蓝圈",
+        "image": "rolex-584",
+        "photos": [
+          {
+            "image": "rolex-584",
+            "label": "Blue dial · Blue bezel",
+            "labelZh": "蓝盘 · 蓝圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-585",
+            "alt": "Submariner · Blue dial · Blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-586",
+            "alt": "Submariner · Blue dial · Blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-587",
+            "alt": "Submariner · Blue dial · Blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-588",
+            "alt": "Submariner · Blue dial · Blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-589",
+            "alt": "Submariner · Blue dial · Blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-590",
+            "alt": "Submariner · Blue dial · Blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-591",
+            "alt": "Submariner · Blue dial · Blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-592",
+            "alt": "Submariner · Blue dial · Blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v7",
+        "label": "Black dial · Black bezel",
+        "labelZh": "黑盘 · 黑圈",
+        "image": "rolex-632",
+        "photos": [
+          {
+            "image": "rolex-632",
+            "label": "Black dial · Black bezel · Glove set",
+            "labelZh": "黑盘 · 黑圈 · 手套实拍"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-633",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-634",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-635",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-636",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-637",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-638",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-639",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-640",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX084",
+    "brand": "Rolex",
+    "family": "Air-King",
+    "name": "Air-King — Metal bracelet",
+    "nameZh": "空中霸王型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 156,
+    "currency": "USD",
+    "image": "rolex-158",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver tone",
+        "labelZh": "黑盘 · 银色",
+        "image": "rolex-158",
+        "photos": [
+          {
+            "image": "rolex-158",
+            "label": "Black dial · Silver tone",
+            "labelZh": "黑盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-159",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-160",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-161",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-162",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-163",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-541",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-542",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-543",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-544",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-545",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-546",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-568",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-569",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-570",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-571",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-572",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-573",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-574",
+            "alt": "Air-King · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX085",
+    "brand": "Rolex",
+    "family": "Yacht-Master",
+    "name": "Yacht-Master — Rubber strap",
+    "nameZh": "游艇名仕型 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 132,
+    "currency": "USD",
+    "image": "rolex-170",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Rose tone",
+        "labelZh": "黑盘 · 玫瑰金色",
+        "image": "rolex-170",
+        "photos": [
+          {
+            "image": "rolex-170",
+            "label": "Black dial · Rose tone",
+            "labelZh": "黑盘 · 玫瑰金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-171",
+            "alt": "Yacht-Master · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-172",
+            "alt": "Yacht-Master · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-173",
+            "alt": "Yacht-Master · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-174",
+            "alt": "Yacht-Master · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-175",
+            "alt": "Yacht-Master · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-176",
+            "alt": "Yacht-Master · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-177",
+            "alt": "Yacht-Master · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-178",
+            "alt": "Yacht-Master · Black dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Yellow tone",
+        "labelZh": "黑盘 · 金色",
+        "image": "rolex-359",
+        "photos": [
+          {
+            "image": "rolex-359",
+            "label": "Black dial · Yellow tone",
+            "labelZh": "黑盘 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-360",
+            "alt": "Yacht-Master · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-361",
+            "alt": "Yacht-Master · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-362",
+            "alt": "Yacht-Master · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-363",
+            "alt": "Yacht-Master · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-364",
+            "alt": "Yacht-Master · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-365",
+            "alt": "Yacht-Master · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-366",
+            "alt": "Yacht-Master · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-367",
+            "alt": "Yacht-Master · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver tone",
+        "labelZh": "黑盘 · 银色",
+        "image": "rolex-458",
+        "photos": [
+          {
+            "image": "rolex-458",
+            "label": "Black dial · Silver tone",
+            "labelZh": "黑盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-459",
+            "alt": "Yacht-Master · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-460",
+            "alt": "Yacht-Master · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-461",
+            "alt": "Yacht-Master · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-462",
+            "alt": "Yacht-Master · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-463",
+            "alt": "Yacht-Master · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-465",
+            "alt": "Yacht-Master · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-466",
+            "alt": "Yacht-Master · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-467",
+            "alt": "Yacht-Master · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-468",
+            "alt": "Yacht-Master · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Rose tone",
+        "labelZh": "黑盘 · 玫瑰金色",
+        "image": "rolex-623",
+        "photos": [
+          {
+            "image": "rolex-623",
+            "label": "Black dial · Rose tone · Studio set",
+            "labelZh": "黑盘 · 玫瑰金色 · 棚拍"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-624",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-625",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-626",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-627",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-628",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-629",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-630",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-631",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Rainbow bezel",
+        "labelZh": "黑盘 · 彩虹圈",
+        "image": "rolex-651",
+        "photos": [
+          {
+            "image": "rolex-651",
+            "label": "Black dial · Rainbow bezel",
+            "labelZh": "黑盘 · 彩虹圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-650",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-652",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-653",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-654",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-655",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-656",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-657",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-658",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX086",
+    "brand": "Rolex",
+    "family": "Cosmograph Daytona",
+    "name": "Cosmograph Daytona — Rubber strap",
+    "nameZh": "宇宙计型迪通拿 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 149,
+    "currency": "USD",
+    "image": "rolex-179",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Yellow tone",
+        "labelZh": "黑盘 · 金色",
+        "image": "rolex-179",
+        "photos": [
+          {
+            "image": "rolex-179",
+            "label": "Black dial · Yellow tone",
+            "labelZh": "黑盘 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-180",
+            "alt": "Cosmograph Daytona · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-181",
+            "alt": "Cosmograph Daytona · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-182",
+            "alt": "Cosmograph Daytona · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-183",
+            "alt": "Cosmograph Daytona · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-184",
+            "alt": "Cosmograph Daytona · Black dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Silver dial · Black counters",
+        "labelZh": "银盘 · 黑色副盘",
+        "image": "rolex-239",
+        "photos": [
+          {
+            "image": "rolex-239",
+            "label": "Silver dial · Black counters",
+            "labelZh": "银盘 · 黑色副盘"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-240",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-241",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-242",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-243",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-244",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-475",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-476",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-477",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-478",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-479",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-480",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Champagne dial · Black counters",
+        "labelZh": "香槟盘 · 黑色副盘",
+        "image": "rolex-245",
+        "photos": [
+          {
+            "image": "rolex-245",
+            "label": "Champagne dial · Black counters",
+            "labelZh": "香槟盘 · 黑色副盘"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-246",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-247",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-248",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-249",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-250",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-642",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Brown dial · Rose tone",
+        "labelZh": "棕盘 · 玫瑰金色",
+        "image": "rolex-314",
+        "photos": [
+          {
+            "image": "rolex-314",
+            "label": "Brown dial · Rose tone",
+            "labelZh": "棕盘 · 玫瑰金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-315",
+            "alt": "Cosmograph Daytona · Brown dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-316",
+            "alt": "Cosmograph Daytona · Brown dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-317",
+            "alt": "Cosmograph Daytona · Brown dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-318",
+            "alt": "Cosmograph Daytona · Brown dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-319",
+            "alt": "Cosmograph Daytona · Brown dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-320",
+            "alt": "Cosmograph Daytona · Brown dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-321",
+            "alt": "Cosmograph Daytona · Brown dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-322",
+            "alt": "Cosmograph Daytona · Brown dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-644",
+            "alt": "Cosmograph Daytona · Brown dial · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Rainbow bezel · Rose tone",
+        "labelZh": "黑盘 · 彩虹圈 · 玫瑰金色",
+        "image": "rolex-323",
+        "photos": [
+          {
+            "image": "rolex-323",
+            "label": "Black dial · Rainbow bezel · Rose tone",
+            "labelZh": "黑盘 · 彩虹圈 · 玫瑰金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-324",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-325",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-326",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-327",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-328",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-329",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-330",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-331",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-562",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-563",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-564",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-565",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-566",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-567",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v6",
+        "label": "White dial · Yellow tone",
+        "labelZh": "白盘 · 金色",
+        "image": "rolex-392",
+        "photos": [
+          {
+            "image": "rolex-392",
+            "label": "White dial · Yellow tone",
+            "labelZh": "白盘 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-393",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-394",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-395",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-396",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-397",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-398",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-399",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-400",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-641",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v7",
+        "label": "White dial · White strap",
+        "labelZh": "白盘 · 白色胶带",
+        "image": "rolex-438",
+        "photos": [
+          {
+            "image": "rolex-438",
+            "label": "White dial · White strap",
+            "labelZh": "白盘 · 白色胶带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-434",
+            "alt": "Cosmograph Daytona · White dial · White strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-435",
+            "alt": "Cosmograph Daytona · White dial · White strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-436",
+            "alt": "Cosmograph Daytona · White dial · White strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-437",
+            "alt": "Cosmograph Daytona · White dial · White strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-439",
+            "alt": "Cosmograph Daytona · White dial · White strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v8",
+        "label": "Champagne dial · Yellow tone",
+        "labelZh": "香槟盘 · 金色",
+        "image": "rolex-594",
+        "photos": [
+          {
+            "image": "rolex-594",
+            "label": "Champagne dial · Yellow tone",
+            "labelZh": "香槟盘 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-593",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-595",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-596",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-597",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-598",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v9",
+        "label": "Black dial · Rose tone",
+        "labelZh": "黑盘玫瑰金色",
+        "image": "rolex-643",
+        "photos": [
+          {
+            "image": "rolex-643",
+            "label": "Black dial · Rose tone · Box set",
+            "labelZh": "黑盘玫瑰金色 · 套装实拍"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v10",
+        "label": "Rose dial · Rose tone",
+        "labelZh": "玫瑰金色盘",
+        "image": "rolex-645",
+        "photos": [
+          {
+            "image": "rolex-645",
+            "label": "Rose dial · Rose tone · Box set",
+            "labelZh": "玫瑰金色盘 · 套装实拍"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX087",
+    "brand": "Rolex",
+    "family": "GMT-Master II",
+    "name": "GMT-Master II — Metal bracelet",
+    "nameZh": "undefined · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 166,
+    "currency": "USD",
+    "image": "rolex-215",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Grey-black bezel",
+        "labelZh": "黑盘 · 灰黑圈",
+        "image": "rolex-215",
+        "photos": [
+          {
+            "image": "rolex-215",
+            "label": "Black dial · Grey-black bezel",
+            "labelZh": "黑盘 · 灰黑圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-216",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-217",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-218",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-219",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-220",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Brown-black bezel",
+        "labelZh": "黑盘 · 棕黑圈",
+        "image": "rolex-227",
+        "photos": [
+          {
+            "image": "rolex-227",
+            "label": "Black dial · Brown-black bezel",
+            "labelZh": "黑盘 · 棕黑圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-228",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-229",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-230",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-231",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-232",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-401",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-402",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-403",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-404",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-405",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-406",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-407",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-408",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-409",
+            "alt": "GMT-Master II · Black dial · Brown-black bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Grey-black bezel · Yellow two-tone",
+        "labelZh": "黑盘 · 灰黑圈 · 金银双色",
+        "image": "rolex-233",
+        "photos": [
+          {
+            "image": "rolex-233",
+            "label": "Black dial · Grey-black bezel · Yellow two-tone",
+            "labelZh": "黑盘 · 灰黑圈 · 金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-234",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-235",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-236",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-237",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-238",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow two-tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Red-blue bezel",
+        "labelZh": "黑盘 · 红蓝圈",
+        "image": "rolex-341",
+        "photos": [
+          {
+            "image": "rolex-341",
+            "label": "Black dial · Red-blue bezel",
+            "labelZh": "黑盘 · 红蓝圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-342",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-343",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-344",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-345",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-346",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-347",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-348",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-349",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-410",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-411",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-412",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-413",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-414",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-415",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-416",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-417",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-418",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Grey-black bezel · Yellow tone",
+        "labelZh": "黑盘 · 灰黑圈 · 金色",
+        "image": "rolex-599",
+        "photos": [
+          {
+            "image": "rolex-599",
+            "label": "Black dial · Grey-black bezel · Yellow tone",
+            "labelZh": "黑盘 · 灰黑圈 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-600",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-601",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-602",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-603",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-604",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-605",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-606",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-607",
+            "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX088",
+    "brand": "Rolex",
+    "family": "Submariner",
+    "name": "Submariner — Rubber strap",
+    "nameZh": "潜航者型 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 142,
+    "currency": "USD",
+    "image": "rolex-263",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver tone",
+        "labelZh": "黑盘 · 银色",
+        "image": "rolex-263",
+        "photos": [
+          {
+            "image": "rolex-263",
+            "label": "Black dial · Silver tone",
+            "labelZh": "黑盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-264",
+            "alt": "Submariner · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-265",
+            "alt": "Submariner · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-266",
+            "alt": "Submariner · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-267",
+            "alt": "Submariner · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-268",
+            "alt": "Submariner · Black dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Blue bezel",
+        "labelZh": "蓝盘 · 蓝圈",
+        "image": "rolex-649",
+        "photos": [
+          {
+            "image": "rolex-649",
+            "label": "Blue dial · Blue bezel",
+            "labelZh": "蓝盘 · 蓝圈"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX089",
+    "brand": "Rolex",
+    "family": "Cosmograph Daytona",
+    "name": "Cosmograph Daytona — Leather strap",
+    "nameZh": "宇宙计型迪通拿 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Sport",
+    "priceUSD": 159,
+    "currency": "USD",
+    "image": "rolex-281",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Yellow case · Yellow dial · Black strap",
+        "labelZh": "黄色表壳黄盘 · 黑色皮带",
+        "image": "rolex-281",
+        "photos": [
+          {
+            "image": "rolex-281",
+            "label": "Yellow case · Yellow dial · Black strap",
+            "labelZh": "黄色表壳黄盘 · 黑色皮带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-282",
+            "alt": "Cosmograph Daytona · Yellow case · Yellow dial · Black strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-283",
+            "alt": "Cosmograph Daytona · Yellow case · Yellow dial · Black strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-284",
+            "alt": "Cosmograph Daytona · Yellow case · Yellow dial · Black strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-285",
+            "alt": "Cosmograph Daytona · Yellow case · Yellow dial · Black strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-286",
+            "alt": "Cosmograph Daytona · Yellow case · Yellow dial · Black strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX090",
+    "brand": "Rolex",
+    "family": "Cellini",
+    "name": "Cellini — Leather strap",
+    "nameZh": "切利尼 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 135,
+    "currency": "USD",
+    "image": "rolex-350",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case",
+        "labelZh": "白盘 · 银色表壳",
+        "image": "rolex-350",
+        "photos": [
+          {
+            "image": "rolex-350",
+            "label": "White dial · Silver-tone case",
+            "labelZh": "白盘 · 银色表壳"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-354",
+            "alt": "Cellini · White dial · Silver-tone case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-355",
+            "alt": "Cellini · White dial · Silver-tone case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-356",
+            "alt": "Cellini · White dial · Silver-tone case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-357",
+            "alt": "Cellini · White dial · Silver-tone case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-358",
+            "alt": "Cellini · White dial · Silver-tone case · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Rose-tone case",
+        "labelZh": "白盘 · 玫瑰金色表壳",
+        "image": "rolex-351",
+        "photos": [
+          {
+            "image": "rolex-351",
+            "label": "White dial · Rose-tone case",
+            "labelZh": "白盘 · 玫瑰金色表壳"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver-tone case",
+        "labelZh": "黑盘 · 银色表壳",
+        "image": "rolex-352",
+        "photos": [
+          {
+            "image": "rolex-352",
+            "label": "Black dial · Silver-tone case",
+            "labelZh": "黑盘 · 银色表壳"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Rose-tone case",
+        "labelZh": "黑盘 · 玫瑰金色表壳",
+        "image": "rolex-353",
+        "photos": [
+          {
+            "image": "rolex-353",
+            "label": "Black dial · Rose-tone case",
+            "labelZh": "黑盘 · 玫瑰金色表壳"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX091",
+    "brand": "Rolex",
+    "family": "Deepsea",
+    "name": "Deepsea — Metal bracelet",
+    "nameZh": "深海型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 152,
+    "currency": "USD",
+    "image": "rolex-481",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black case · Red accent dial",
+        "labelZh": "黑色表壳 · 红色盘面饰圈",
+        "image": "rolex-481",
+        "photos": [
+          {
+            "image": "rolex-481",
+            "label": "Black case · Red accent dial",
+            "labelZh": "黑色表壳 · 红色盘面饰圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-482",
+            "alt": "Deepsea · Black case · Red accent dial · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-483",
+            "alt": "Deepsea · Black case · Red accent dial · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-484",
+            "alt": "Deepsea · Black case · Red accent dial · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-485",
+            "alt": "Deepsea · Black case · Red accent dial · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-486",
+            "alt": "Deepsea · Black case · Red accent dial · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-487",
+            "alt": "Deepsea · Black case · Red accent dial · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-488",
+            "alt": "Deepsea · Black case · Red accent dial · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-489",
+            "alt": "Deepsea · Black case · Red accent dial · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX092",
+    "brand": "Rolex",
+    "family": "Cosmograph Daytona",
+    "name": "Cosmograph Daytona — Textile strap",
+    "nameZh": "宇宙计型迪通拿 · 织物表带",
+    "band": "textile",
+    "bandName": "Textile strap",
+    "bandNameZh": "织物表带",
+    "category": "Sport",
+    "priceUSD": 169,
+    "currency": "USD",
+    "image": "rolex-496",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · White woven strap",
+        "labelZh": "白盘 · 白色织物表带",
+        "image": "rolex-496",
+        "photos": [
+          {
+            "image": "rolex-496",
+            "label": "White dial · White woven strap",
+            "labelZh": "白盘 · 白色织物表带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-497",
+            "alt": "Cosmograph Daytona · White dial · White woven strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-498",
+            "alt": "Cosmograph Daytona · White dial · White woven strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-499",
+            "alt": "Cosmograph Daytona · White dial · White woven strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-500",
+            "alt": "Cosmograph Daytona · White dial · White woven strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-501",
+            "alt": "Cosmograph Daytona · White dial · White woven strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Green woven strap",
+        "labelZh": "黑盘 · 绿色织物表带",
+        "image": "rolex-535",
+        "photos": [
+          {
+            "image": "rolex-535",
+            "label": "Black dial · Green woven strap",
+            "labelZh": "黑盘 · 绿色织物表带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-536",
+            "alt": "Cosmograph Daytona · Black dial · Green woven strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-537",
+            "alt": "Cosmograph Daytona · Black dial · Green woven strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-538",
+            "alt": "Cosmograph Daytona · Black dial · Green woven strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-539",
+            "alt": "Cosmograph Daytona · Black dial · Green woven strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-540",
+            "alt": "Cosmograph Daytona · Black dial · Green woven strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX093",
+    "brand": "Rolex",
+    "family": "Cellini Moonphase",
+    "name": "Cellini Moonphase — Leather strap",
+    "nameZh": "切利尼月相 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 145,
+    "currency": "USD",
+    "image": "rolex-511",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose tone · Black strap",
+        "labelZh": "白盘玫瑰金色 · 黑色皮带",
+        "image": "rolex-511",
+        "photos": [
+          {
+            "image": "rolex-511",
+            "label": "White dial · Rose tone · Black strap",
+            "labelZh": "白盘玫瑰金色 · 黑色皮带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-512",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-513",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-514",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-515",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-516",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Rose tone · Brown strap",
+        "labelZh": "白盘玫瑰金色 · 棕色皮带",
+        "image": "rolex-739",
+        "photos": [
+          {
+            "image": "rolex-739",
+            "label": "White dial · Rose tone · Brown strap",
+            "labelZh": "白盘玫瑰金色 · 棕色皮带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-738",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Brown strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-740",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Brown strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-741",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Brown strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-742",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Brown strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-743",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Brown strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX094",
+    "brand": "Rolex",
+    "family": "Day-Date",
+    "name": "Day-Date — Leather strap",
+    "nameZh": "星期日历型 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 162,
+    "currency": "USD",
+    "image": "rolex-529",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Rose-tone case",
+        "labelZh": "黑盘 · 玫瑰金色表壳",
+        "image": "rolex-529",
+        "photos": [
+          {
+            "image": "rolex-529",
+            "label": "Black dial · Rose-tone case",
+            "labelZh": "黑盘 · 玫瑰金色表壳"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-530",
+            "alt": "Day-Date · Black dial · Rose-tone case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-531",
+            "alt": "Day-Date · Black dial · Rose-tone case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-532",
+            "alt": "Day-Date · Black dial · Rose-tone case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-533",
+            "alt": "Day-Date · Black dial · Rose-tone case · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-534",
+            "alt": "Day-Date · Black dial · Rose-tone case · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Brown dial · Rose tone",
+        "labelZh": "棕盘 · 玫瑰金色",
+        "image": "rolex-547",
+        "photos": [
+          {
+            "image": "rolex-547",
+            "label": "Brown dial · Rose tone",
+            "labelZh": "棕盘 · 玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver tone",
+        "labelZh": "黑盘 · 银色",
+        "image": "rolex-548",
+        "photos": [
+          {
+            "image": "rolex-548",
+            "label": "Black dial · Silver tone",
+            "labelZh": "黑盘 · 银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Rose dial · Rose tone",
+        "labelZh": "玫瑰金色盘 · 玫瑰金色",
+        "image": "rolex-549",
+        "photos": [
+          {
+            "image": "rolex-549",
+            "label": "Rose dial · Rose tone",
+            "labelZh": "玫瑰金色盘 · 玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Yellow tone",
+        "labelZh": "黑盘 · 金色",
+        "image": "rolex-550",
+        "photos": [
+          {
+            "image": "rolex-550",
+            "label": "Black dial · Yellow tone",
+            "labelZh": "黑盘 · 金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "White dial · Silver tone",
+        "labelZh": "白盘 · 银色",
+        "image": "rolex-551",
+        "photos": [
+          {
+            "image": "rolex-551",
+            "label": "White dial · Silver tone",
+            "labelZh": "白盘 · 银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Blue dial · Silver tone",
+        "labelZh": "蓝盘 · 银色",
+        "image": "rolex-552",
+        "photos": [
+          {
+            "image": "rolex-552",
+            "label": "Blue dial · Silver tone",
+            "labelZh": "蓝盘 · 银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "Silver dial · Silver tone",
+        "labelZh": "银盘 · 银色",
+        "image": "rolex-553",
+        "photos": [
+          {
+            "image": "rolex-553",
+            "label": "Silver dial · Silver tone",
+            "labelZh": "银盘 · 银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v9",
+        "label": "Champagne dial · Yellow tone",
+        "labelZh": "香槟盘 · 金色",
+        "image": "rolex-554",
+        "photos": [
+          {
+            "image": "rolex-554",
+            "label": "Champagne dial · Yellow tone",
+            "labelZh": "香槟盘 · 金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v10",
+        "label": "Black dial · Yellow tone · Decorative markers",
+        "labelZh": "黑盘装饰刻度 · 金色",
+        "image": "rolex-555",
+        "photos": [
+          {
+            "image": "rolex-555",
+            "label": "Black dial · Yellow tone · Decorative markers",
+            "labelZh": "黑盘装饰刻度 · 金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v11",
+        "label": "Green dial · Yellow tone · Green strap",
+        "labelZh": "绿盘金色 · 绿色皮带",
+        "image": "rolex-668",
+        "photos": [
+          {
+            "image": "rolex-668",
+            "label": "Green dial · Yellow tone · Green strap",
+            "labelZh": "绿盘金色 · 绿色皮带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-669",
+            "alt": "Day-Date · Green dial · Yellow tone · Green strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-670",
+            "alt": "Day-Date · Green dial · Yellow tone · Green strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-671",
+            "alt": "Day-Date · Green dial · Yellow tone · Green strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-672",
+            "alt": "Day-Date · Green dial · Yellow tone · Green strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-673",
+            "alt": "Day-Date · Green dial · Yellow tone · Green strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-674",
+            "alt": "Day-Date · Green dial · Yellow tone · Green strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-675",
+            "alt": "Day-Date · Green dial · Yellow tone · Green strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-676",
+            "alt": "Day-Date · Green dial · Yellow tone · Green strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX095",
+    "brand": "Rolex",
+    "family": "Milgauss",
+    "name": "Milgauss — Metal bracelet",
+    "nameZh": "格磁型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 138,
+    "currency": "USD",
+    "image": "rolex-556",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green dial · Silver tone",
+        "labelZh": "绿盘 · 银色",
+        "image": "rolex-556",
+        "photos": [
+          {
+            "image": "rolex-556",
+            "label": "Green dial · Silver tone",
+            "labelZh": "绿盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-557",
+            "alt": "Milgauss · Green dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-558",
+            "alt": "Milgauss · Green dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-559",
+            "alt": "Milgauss · Green dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-560",
+            "alt": "Milgauss · Green dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-561",
+            "alt": "Milgauss · Green dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX096",
+    "brand": "Rolex",
+    "family": "Cosmograph Daytona — Openworked style",
+    "name": "Cosmograph Daytona — Openworked style — Rubber strap",
+    "nameZh": "迪通拿镂空风格（待确认） · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 155,
+    "currency": "USD",
+    "image": "rolex-711",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Yellow strap",
+        "labelZh": "黄色胶带",
+        "image": "rolex-711",
+        "photos": [
+          {
+            "image": "rolex-711",
+            "label": "Yellow strap",
+            "labelZh": "黄色胶带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-712",
+            "alt": "Cosmograph Daytona — Openworked style · Yellow strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Red strap",
+        "labelZh": "红色胶带",
+        "image": "rolex-713",
+        "photos": [
+          {
+            "image": "rolex-713",
+            "label": "Red strap",
+            "labelZh": "红色胶带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-714",
+            "alt": "Cosmograph Daytona — Openworked style · Red strap · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Black strap · Dark case",
+        "labelZh": "黑色胶带 · 深色表壳",
+        "image": "rolex-715",
+        "photos": [
+          {
+            "image": "rolex-715",
+            "label": "Black strap · Dark case",
+            "labelZh": "黑色胶带 · 深色表壳"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Black strap · Silver case",
+        "labelZh": "黑色胶带 · 银色表壳",
+        "image": "rolex-716",
+        "photos": [
+          {
+            "image": "rolex-716",
+            "label": "Black strap · Silver case",
+            "labelZh": "黑色胶带 · 银色表壳"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex-717",
+            "alt": "Cosmograph Daytona — Openworked style · Black strap · Silver case · Product detail",
+            "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Blue strap",
+        "labelZh": "蓝色胶带",
+        "image": "rolex-719",
+        "photos": [
+          {
+            "image": "rolex-719",
+            "label": "Blue strap",
+            "labelZh": "蓝色胶带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
   }
 ];
-// Compatibility for previously shared photo links; current product codes are JX series codes.
-const legacyProductLinks = {"W01":{"id":"JX001","color":"v1"},"W16":{"id":"JX001","color":"v2"},"W20":{"id":"JX001","color":"v3"},"W24":{"id":"JX001","color":"v3"},"W25":{"id":"JX002","color":"v1"},"W02":{"id":"JX003","color":"v1"},"W12":{"id":"JX003","color":"v2"},"W15":{"id":"JX003","color":"v3"},"W17":{"id":"JX003","color":"v4"},"W19":{"id":"JX003","color":"v5"},"W23":{"id":"JX003","color":"v1"},"W28":{"id":"JX003","color":"v1"},"W30":{"id":"JX003","color":"v6"},"W31":{"id":"JX003","color":"v7"},"W03":{"id":"JX004","color":"v1"},"W14":{"id":"JX004","color":"v1"},"W22":{"id":"JX004","color":"v1"},"W04":{"id":"JX005","color":"v1"},"W27":{"id":"JX005","color":"v2"},"W05":{"id":"JX006","color":"v1"},"W09":{"id":"JX006","color":"v1"},"W11":{"id":"JX006","color":"v1"},"W13":{"id":"JX006","color":"v2"},"W06":{"id":"JX007","color":"v1"},"W18":{"id":"JX007","color":"v2"},"W33":{"id":"JX007","color":"v3"},"W07":{"id":"JX008","color":"v1"},"W08":{"id":"JX009","color":"v1"},"W26":{"id":"JX009","color":"v2"},"W29":{"id":"JX009","color":"v3"},"W10":{"id":"JX010","color":"v1"},"W32":{"id":"JX011","color":"v1"},"C01":{"id":"JX012","color":"v1"},"C02":{"id":"JX012","color":"v1"},"C03":{"id":"JX012","color":"v2"},"C04":{"id":"JX012","color":"v3"},"C05":{"id":"JX012","color":"v4"},"C06":{"id":"JX012","color":"v5"},"C07":{"id":"JX012","color":"v6"},"C15":{"id":"JX012","color":"v7"},"C16":{"id":"JX012","color":"v8"},"C17":{"id":"JX012","color":"v9"},"C08":{"id":"JX013","color":"v1"},"C09":{"id":"JX013","color":"v2"},"C10":{"id":"JX013","color":"v3"},"C11":{"id":"JX013","color":"v4"},"C12":{"id":"JX013","color":"v5"},"C13":{"id":"JX013","color":"v6"},"C14":{"id":"JX013","color":"v7"},"C18":{"id":"JX014","color":"v1"},"C19":{"id":"JX015","color":"v1"},"VC01":{"id":"JX016","color":"v1"},"VC02":{"id":"JX016","color":"v2"},"VC03":{"id":"JX016","color":"v3"},"VC04":{"id":"JX016","color":"v4"},"VC05":{"id":"JX016","color":"v5"},"VC06":{"id":"JX016","color":"v6"},"VC07":{"id":"JX016","color":"v7"},"VC08":{"id":"JX017","color":"v1"},"VC09":{"id":"JX018","color":"v1"},"VC10":{"id":"JX018","color":"v2"},"VC11":{"id":"JX018","color":"v3"},"VC12":{"id":"JX018","color":"v4"},"VC13":{"id":"JX018","color":"v5"},"VC14":{"id":"JX018","color":"v6"},"VC15":{"id":"JX018","color":"v7"},"VC16":{"id":"JX018","color":"v8"},"VC17":{"id":"JX019","color":"v1"},"VC18":{"id":"JX019","color":"v2"},"VC19":{"id":"JX019","color":"v3"},"VC20":{"id":"JX019","color":"v4"},"VC21":{"id":"JX019","color":"v5"},"VC22":{"id":"JX019","color":"v6"},"VC23":{"id":"JX019","color":"v7"},"VC24":{"id":"JX019","color":"v8"},"VC25":{"id":"JX020","color":"v1"},"VC26":{"id":"JX021","color":"v1"},"VC27":{"id":"JX022","color":"v1"},"VC28":{"id":"JX022","color":"v2"},"VC29":{"id":"JX022","color":"v3"},"VC30":{"id":"JX022","color":"v4"},"VC31":{"id":"JX022","color":"v5"},"VC32":{"id":"JX022","color":"v6"},"VC33":{"id":"JX022","color":"v7"},"VC34":{"id":"JX023","color":"v1"},"VC35":{"id":"JX023","color":"v2"},"VC36":{"id":"JX023","color":"v3"},"VC37":{"id":"JX023","color":"v4"},"VC38":{"id":"JX023","color":"v5"},"VC39":{"id":"JX023","color":"v6"},"VC40":{"id":"JX023","color":"v7"},"VC41":{"id":"JX023","color":"v8"},"VC42":{"id":"JX023","color":"v1"},"AP01":{"id":"JX024","color":"v1"},"AP02":{"id":"JX024","color":"v2"},"AP03":{"id":"JX024","color":"v3"},"AP04":{"id":"JX024","color":"v4"},"AP13":{"id":"JX024","color":"v5"},"AP14":{"id":"JX024","color":"v5"},"AP15":{"id":"JX024","color":"v6"},"AP16":{"id":"JX024","color":"v1"},"AP05":{"id":"JX025","color":"v1"},"AP06":{"id":"JX025","color":"v2"},"AP07":{"id":"JX026","color":"v1"},"AP08":{"id":"JX026","color":"v1"},"AP09":{"id":"JX026","color":"v2"},"AP10":{"id":"JX026","color":"v3"},"AP11":{"id":"JX026","color":"v4"},"AP12":{"id":"JX026","color":"v5"},"AP17":{"id":"JX027","color":"v1"},"AP18":{"id":"JX028","color":"v1"},"IWC01":{"id":"JX029","color":"v1"},"IWC04":{"id":"JX029","color":"v1"},"IWC02":{"id":"JX030","color":"v1"},"IWC03":{"id":"JX030","color":"v2"},"IWC05":{"id":"JX031","color":"v1"},"IWC06":{"id":"JX032","color":"v1"},"IWC07":{"id":"JX033","color":"v1"},"IWC08":{"id":"JX033","color":"v2"},"IWC09":{"id":"JX033","color":"v3"},"IWC10":{"id":"JX033","color":"v4"},"IWC11":{"id":"JX033","color":"v5"},"IWC12":{"id":"JX033","color":"v6"},"IWC23":{"id":"JX034","color":"v1"},"IWC24":{"id":"JX034","color":"v2"},"IWC32":{"id":"JX034","color":"v3"},"IWC33":{"id":"JX034","color":"v1"},"IWC13":{"id":"JX035","color":"v1"},"IWC14":{"id":"JX035","color":"v2"},"IWC15":{"id":"JX035","color":"v3"},"IWC16":{"id":"JX035","color":"v4"},"IWC17":{"id":"JX036","color":"v1"},"IWC18":{"id":"JX036","color":"v2"},"IWC19":{"id":"JX036","color":"v3"},"IWC20":{"id":"JX036","color":"v4"},"IWC21":{"id":"JX036","color":"v5"},"IWC22":{"id":"JX036","color":"v6"},"IWC25":{"id":"JX037","color":"v1"},"IWC26":{"id":"JX037","color":"v2"},"IWC27":{"id":"JX037","color":"v3"},"IWC28":{"id":"JX038","color":"v1"},"IWC29":{"id":"JX038","color":"v2"},"IWC30":{"id":"JX038","color":"v3"},"IWC31":{"id":"JX038","color":"v4"},"PP01":{"id":"JX039","color":"v1"},"PP02":{"id":"JX040","color":"v1"},"PP22":{"id":"JX040","color":"v2"},"PP23":{"id":"JX040","color":"v3"},"PP24":{"id":"JX040","color":"v4"},"PP25":{"id":"JX040","color":"v5"},"PP03":{"id":"JX041","color":"v1"},"PP04":{"id":"JX042","color":"v1"},"PP06":{"id":"JX042","color":"v1"},"PP07":{"id":"JX042","color":"v2"},"PP08":{"id":"JX042","color":"v3"},"PP09":{"id":"JX042","color":"v4"},"PP10":{"id":"JX042","color":"v5"},"PP11":{"id":"JX042","color":"v6"},"PP12":{"id":"JX042","color":"v7"},"PP13":{"id":"JX042","color":"v8"},"PP14":{"id":"JX042","color":"v9"},"PP15":{"id":"JX042","color":"v10"},"PP16":{"id":"JX042","color":"v10"},"PP17":{"id":"JX042","color":"v11"},"PP18":{"id":"JX042","color":"v12"},"PP19":{"id":"JX042","color":"v5"},"PP20":{"id":"JX042","color":"v13"},"PP21":{"id":"JX042","color":"v7"},"PP05":{"id":"JX043","color":"v1"},"PP26":{"id":"JX043","color":"v1"},"PP27":{"id":"JX043","color":"v2"},"OM01":{"id":"JX044","color":"v1"},"OM23":{"id":"JX044","color":"v2"},"OM02":{"id":"JX046","color":"v1"},"OM03":{"id":"JX047","color":"v1"},"OM04":{"id":"JX047","color":"v2"},"OM05":{"id":"JX047","color":"v3"},"OM06":{"id":"JX047","color":"v4"},"OM17":{"id":"JX047","color":"v5"},"OM19":{"id":"JX047","color":"v6"},"OM20":{"id":"JX047","color":"v7"},"OM22":{"id":"JX047","color":"v8"},"OM24":{"id":"JX047","color":"v9"},"OM07":{"id":"JX048","color":"v1"},"OM21":{"id":"JX049","color":"v1"},"OM08":{"id":"JX050","color":"v1"},"OM09":{"id":"JX050","color":"v2"},"OM14":{"id":"JX050","color":"v3"},"OM10":{"id":"JX051","color":"v1"},"OM11":{"id":"JX051","color":"v2"},"OM12":{"id":"JX051","color":"v3"},"OM13":{"id":"JX051","color":"v4"},"OM15":{"id":"JX051","color":"v5"},"OM16":{"id":"JX052","color":"v1"},"OM18":{"id":"JX053","color":"v1"}};
-
-// One source folder per series for the 2026-11-13 B01 catalogue batch.
-products.push({"id":"JX054","brand":"Longines","family":"DolceVita","name":"DolceVita — Metal bracelet · Rectangular Roman dial","nameZh":"黛绰维纳 · 长方形罗马刻度款 · 金属表链","band":"metal","bandName":"Metal bracelet","bandNameZh":"金属表链","category":"Classic","priceUSD":140,"currency":"USD","image":"b01-f01-02","sizeReference":"23.30 × 37.00 mm (family comparison)","description":"A rectangular DolceVita-style silhouette with Roman-numeral hour markers, blue-tone hands and a small-seconds-style display. The polished bracelet follows the long lines of the case.","sourceFolder":"B01-F01","variants":[{"key":"v1","label":"Silver dial · Silver bracelet","labelZh":"银白盘银色表链","image":"b01-f01-02","photos":[{"image":"b01-f01-02","alt":"Longines DolceVita · 银白盘银色表链","caption":"银白盘银色表链"}],"detailImages":[{"image":"b01-f01-03","alt":"Longines DolceVita · 银白盘银色表链 · 细节","caption":"银白盘银色表链 · 细节"},{"image":"b01-f01-04","alt":"Longines DolceVita · 银白盘银色表链 · 细节","caption":"银白盘银色表链 · 细节"},{"image":"b01-f01-05","alt":"Longines DolceVita · 银白盘银色表链 · 细节","caption":"银白盘银色表链 · 细节"},{"image":"b01-f01-06","alt":"Longines DolceVita · 银白盘银色表链 · 细节","caption":"银白盘银色表链 · 细节"},{"image":"b01-f01-07","alt":"Longines DolceVita · 银白盘银色表链 · 细节","caption":"银白盘银色表链 · 细节"},{"image":"b01-f01-08","alt":"Longines DolceVita · 银白盘银色表链 · 细节","caption":"银白盘银色表链 · 细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX055","brand":"Longines","family":"PrimaLuna Moonphase","name":"PrimaLuna Moonphase — Metal bracelet · Silver dial · Polished bezel","nameZh":"心月月相 · 银白盘光面圈款 · 金属表链","band":"metal","bandName":"Metal bracelet","bandNameZh":"金属表链","category":"Complication","priceUSD":157,"currency":"USD","image":"b01-f02-03","sizeReference":"30.50 mm (family comparison)","description":"A rounded PrimaLuna Moonphase-style design with a silver-white dial, blue-tone hands, a moon-phase-style display and a polished bezel. Rounded bracelet links echo the soft case shape.","sourceFolder":"B01-F02","variants":[{"key":"v1","label":"Silver-white dial · Silver bracelet","labelZh":"银白盘银色表链","image":"b01-f02-03","photos":[{"image":"b01-f02-03","alt":"Longines PrimaLuna Moonphase · 银白盘银色表链","caption":"银白盘银色表链"}],"detailImages":[{"image":"b01-f02-04","alt":"Longines PrimaLuna Moonphase · 银白盘银色表链 · 细节","caption":"银白盘银色表链 · 细节"},{"image":"b01-f02-05","alt":"Longines PrimaLuna Moonphase · 银白盘银色表链 · 细节","caption":"银白盘银色表链 · 细节"},{"image":"b01-f02-06","alt":"Longines PrimaLuna Moonphase · 银白盘银色表链 · 细节","caption":"银白盘银色表链 · 细节"}]}],"referencePhotos":[{"image":"b01-f02-02","label":"Additional supplied photograph","labelZh":"包装与远景原始照片"}],"detailImages":[]},
-{"id":"JX056","brand":"Longines","family":"PrimaLuna Moonphase","name":"PrimaLuna Moonphase — Metal bracelet · Colour dials · Polished bezel","nameZh":"心月月相 · 彩色盘光面圈款 · 金属表链","band":"metal","bandName":"Metal bracelet","bandNameZh":"金属表链","category":"Complication","priceUSD":133,"currency":"USD","image":"b01-f03-02","sizeReference":"30.50 mm (family comparison)","description":"A PrimaLuna Moonphase-style collection with Roman-numeral dials and a moon-phase-style aperture. Choose green, burgundy or blue, with a silver-tone rounded-link bracelet.","sourceFolder":"B01-F03","variants":[{"key":"v1","label":"Green dial · Silver bracelet","labelZh":"绿盘银色表链","image":"b01-f03-02","photos":[{"image":"b01-f03-02","alt":"Longines PrimaLuna Moonphase · 绿盘银色表链","caption":"绿盘银色表链"}],"detailImages":[{"image":"b01-f03-03","alt":"Longines PrimaLuna Moonphase · 绿盘银色表链 · 细节","caption":"绿盘银色表链 · 细节"},{"image":"b01-f03-04","alt":"Longines PrimaLuna Moonphase · 绿盘银色表链 · 细节","caption":"绿盘银色表链 · 细节"},{"image":"b01-f03-05","alt":"Longines PrimaLuna Moonphase · 绿盘银色表链 · 细节","caption":"绿盘银色表链 · 细节"}]},{"key":"v2","label":"Burgundy dial · Silver bracelet","labelZh":"酒红盘银色表链","image":"b01-f03-09","photos":[{"image":"b01-f03-09","alt":"Longines PrimaLuna Moonphase · 酒红盘银色表链","caption":"酒红盘银色表链"}],"detailImages":[{"image":"b01-f03-10","alt":"Longines PrimaLuna Moonphase · 酒红盘银色表链 · 细节","caption":"酒红盘银色表链 · 细节"}]},{"key":"v3","label":"Blue dial · Silver bracelet","labelZh":"蓝盘银色表链","image":"b01-f03-12","photos":[{"image":"b01-f03-12","alt":"Longines PrimaLuna Moonphase · 蓝盘银色表链","caption":"蓝盘银色表链"}],"detailImages":[{"image":"b01-f03-11","alt":"Longines PrimaLuna Moonphase · 蓝盘银色表链 · 细节","caption":"蓝盘银色表链 · 细节"},{"image":"b01-f03-13","alt":"Longines PrimaLuna Moonphase · 蓝盘银色表链 · 细节","caption":"蓝盘银色表链 · 细节"}]}],"referencePhotos":[{"image":"b01-f03-06","label":"Additional supplied photograph","labelZh":"包装与远景原始照片"}],"detailImages":[{"image":"b01-f03-07","alt":"Longines PrimaLuna Moonphase · Case and bracelet details / 表壳与表链细节","caption":"Case and bracelet details / 表壳与表链细节"},{"image":"b01-f03-08","alt":"Longines PrimaLuna Moonphase · Case and bracelet details / 表壳与表链细节","caption":"Case and bracelet details / 表壳与表链细节"}]},
-{"id":"JX057","brand":"Longines","family":"Lyre","name":"Lyre — Metal bracelet · White dial · Two tone","nameZh":"律雅 · 白盘间金款 · 金属表链","band":"metal","bandName":"Metal bracelet","bandNameZh":"金属表链","category":"Classic","priceUSD":150,"currency":"USD","image":"b01-f04-02","sizeReference":"Unconfirmed / 待确认","description":"A Lyre-style round dress watch with a white dial, slim baton markers, a date window and a yellow-and-silver-tone multi-link bracelet. Its restrained dial keeps the focus on the rounded case and fine bracelet links.","sourceFolder":"B01-F04","variants":[{"key":"v1","label":"White dial · Yellow two-tone bracelet","labelZh":"白盘黄间金色表链","image":"b01-f04-02","photos":[{"image":"b01-f04-02","alt":"Longines Lyre · 白盘黄间金色表链","caption":"白盘黄间金色表链"}],"detailImages":[{"image":"b01-f04-03","alt":"Longines Lyre · 白盘黄间金色表链 · 细节","caption":"白盘黄间金色表链 · 细节"}]}],"referencePhotos":[{"image":"b01-f04-04","label":"Additional supplied photograph","labelZh":"包装与远景原始照片"}],"detailImages":[]},
-{"id":"JX058","brand":"Longines","family":"HydroConquest","name":"HydroConquest — Metal bracelet · Blue dial · Large numerals","nameZh":"康卡斯潜水 · 蓝盘大数字款 · 金属表链","band":"metal","bandName":"Metal bracelet","bandNameZh":"金属表链","category":"Sport","priceUSD":167,"currency":"USD","image":"b01-f05-02","sizeReference":"43 mm (family comparison)","description":"A HydroConquest-style sports watch with a blue dial, a blue numbered dive-style bezel and large Arabic numerals. Silver-tone case and bracelet surfaces contrast with the blue display.","sourceFolder":"B01-F05","variants":[{"key":"v1","label":"Blue dial · Blue bezel · Silver bracelet","labelZh":"蓝盘蓝圈银色表链","image":"b01-f05-02","photos":[{"image":"b01-f05-02","alt":"Longines HydroConquest · 蓝盘蓝圈银色表链","caption":"蓝盘蓝圈银色表链"}],"detailImages":[{"image":"b01-f05-03","alt":"Longines HydroConquest · 蓝盘蓝圈银色表链 · 细节","caption":"蓝盘蓝圈银色表链 · 细节"},{"image":"b01-f05-04","alt":"Longines HydroConquest · 蓝盘蓝圈银色表链 · 细节","caption":"蓝盘蓝圈银色表链 · 细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX059","brand":"Longines","family":"HydroConquest","name":"HydroConquest — Rubber strap · Black dial · Warm accents","nameZh":"康卡斯潜水 · 黑盘暖金色点缀款 · 橡胶表带","band":"rubber","bandName":"Rubber strap","bandNameZh":"橡胶表带","category":"Sport","priceUSD":143,"currency":"USD","image":"b01-f06-02","sizeReference":"41 / 43 mm (family comparison)","description":"A HydroConquest-style silhouette with large Arabic numerals, a black dive-style bezel and warm gold-tone accents. The black textured strap creates a different finish from the metal-bracelet series.","sourceFolder":"B01-F06","variants":[{"key":"v1","label":"Black dial · Gold-tone accents · Black strap","labelZh":"黑盘金色细节黑色胶带","image":"b01-f06-02","photos":[{"image":"b01-f06-02","alt":"Longines HydroConquest · 黑盘金色细节黑色胶带","caption":"黑盘金色细节黑色胶带"}],"detailImages":[{"image":"b01-f06-03","alt":"Longines HydroConquest · 黑盘金色细节黑色胶带 · 细节","caption":"黑盘金色细节黑色胶带 · 细节"},{"image":"b01-f06-04","alt":"Longines HydroConquest · 黑盘金色细节黑色胶带 · 细节","caption":"黑盘金色细节黑色胶带 · 细节"},{"image":"b01-f06-05","alt":"Longines HydroConquest · 黑盘金色细节黑色胶带 · 细节","caption":"黑盘金色细节黑色胶带 · 细节"},{"image":"b01-f06-06","alt":"Longines HydroConquest · 黑盘金色细节黑色胶带 · 细节","caption":"黑盘金色细节黑色胶带 · 细节"},{"image":"b01-f06-07","alt":"Longines HydroConquest · 黑盘金色细节黑色胶带 · 细节","caption":"黑盘金色细节黑色胶带 · 细节"},{"image":"b01-f06-08","alt":"Longines HydroConquest · 黑盘金色细节黑色胶带 · 细节","caption":"黑盘金色细节黑色胶带 · 细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX060","brand":"Longines","family":"Spirit Flyback","name":"Spirit Flyback — Metal bracelet · Black dial · Two counters","nameZh":"先行者飞返计时 · 黑盘双眼款 · 金属表链","band":"metal","bandName":"Metal bracelet","bandNameZh":"金属表链","category":"Complication","priceUSD":160,"currency":"USD","image":"b01-f07-02","sizeReference":"42 mm (family comparison)","description":"A Spirit Flyback-style chronograph layout with two subsidiary counters, prominent Arabic numerals and a numbered outer bezel. Warm-coloured hands stand out against the dark dial.","sourceFolder":"B01-F07","variants":[{"key":"v1","label":"Black dial · Warm-tone hands · Silver bracelet","labelZh":"黑盘暖色指针银色表链","image":"b01-f07-02","photos":[{"image":"b01-f07-02","alt":"Longines Spirit Flyback · 黑盘暖色指针银色表链","caption":"黑盘暖色指针银色表链"}],"detailImages":[{"image":"b01-f07-03","alt":"Longines Spirit Flyback · 黑盘暖色指针银色表链 · 细节","caption":"黑盘暖色指针银色表链 · 细节"},{"image":"b01-f07-04","alt":"Longines Spirit Flyback · 黑盘暖色指针银色表链 · 细节","caption":"黑盘暖色指针银色表链 · 细节"},{"image":"b01-f07-05","alt":"Longines Spirit Flyback · 黑盘暖色指针银色表链 · 细节","caption":"黑盘暖色指针银色表链 · 细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX061","brand":"Longines","family":"Présence","name":"Présence — Leather strap · White dial · Gold-tone case","nameZh":"瑰丽 · 白盘金色表壳款 · 皮革表带","band":"leather","bandName":"Leather strap","bandNameZh":"皮革表带","category":"Classic","priceUSD":136,"currency":"USD","image":"b01-f08-02","sizeReference":"Unconfirmed / 待确认","description":"A Présence-style dress watch with a white dial, narrow baton markers, a date window and a polished gold-tone case. The black leather-style strap provides a quiet contrast to the light dial.","sourceFolder":"B01-F08","variants":[{"key":"v1","label":"White dial · Gold-tone case · Black strap","labelZh":"白盘金色表壳黑色皮带","image":"b01-f08-02","photos":[{"image":"b01-f08-02","alt":"Longines Présence · 白盘金色表壳黑色皮带","caption":"白盘金色表壳黑色皮带"}],"detailImages":[{"image":"b01-f08-03","alt":"Longines Présence · 白盘金色表壳黑色皮带 · 细节","caption":"白盘金色表壳黑色皮带 · 细节"}]}],"referencePhotos":[{"image":"b01-f08-04","label":"Additional supplied photograph","labelZh":"包装与远景原始照片"}],"detailImages":[]},
-{"id":"JX062","brand":"Longines","family":"HydroConquest","name":"HydroConquest — Metal bracelet · Green dial · Green bezel","nameZh":"康卡斯潜水 · 绿盘绿圈款 · 金属表链","band":"metal","bandName":"Metal bracelet","bandNameZh":"金属表链","category":"Sport","priceUSD":153,"currency":"USD","image":"b01-f09-02","sizeReference":"41 / 43 mm (family comparison)","description":"A green HydroConquest-style combination with large Arabic numerals, a matching numbered bezel and a silver-tone bracelet. The dial and bezel colours give this folder its own distinct series selection.","sourceFolder":"B01-F09","variants":[{"key":"v1","label":"Green dial · Green bezel · Silver bracelet","labelZh":"绿盘绿圈银色表链","image":"b01-f09-02","photos":[{"image":"b01-f09-02","alt":"Longines HydroConquest · 绿盘绿圈银色表链","caption":"绿盘绿圈银色表链"}],"detailImages":[{"image":"b01-f09-03","alt":"Longines HydroConquest · 绿盘绿圈银色表链 · 细节","caption":"绿盘绿圈银色表链 · 细节"},{"image":"b01-f09-04","alt":"Longines HydroConquest · 绿盘绿圈银色表链 · 细节","caption":"绿盘绿圈银色表链 · 细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX063","brand":"Longines","family":"PrimaLuna","name":"PrimaLuna — Metal bracelet · Light dial · Rose two tone","nameZh":"心月 · 浅色盘玫瑰间金款 · 金属表链","band":"metal","bandName":"Metal bracelet","bandNameZh":"金属表链","category":"Classic","priceUSD":170,"currency":"USD","image":"b01-f10-05","sizeReference":"Unconfirmed / 待确认","description":"A PrimaLuna-style rounded watch with a light dial, blue-tone hands, decorative hour markers and a date window. Rose-and-silver-tone bracelet links continue the soft shape of the case.","sourceFolder":"B01-F10","variants":[{"key":"v1","label":"Light dial · Rose two-tone bracelet","labelZh":"浅色盘玫瑰间金色表链","image":"b01-f10-05","photos":[{"image":"b01-f10-05","alt":"Longines PrimaLuna · 浅色盘玫瑰间金色表链","caption":"浅色盘玫瑰间金色表链"}],"detailImages":[{"image":"b01-f10-02","alt":"Longines PrimaLuna · 浅色盘玫瑰间金色表链 · 细节","caption":"浅色盘玫瑰间金色表链 · 细节"},{"image":"b01-f10-03","alt":"Longines PrimaLuna · 浅色盘玫瑰间金色表链 · 细节","caption":"浅色盘玫瑰间金色表链 · 细节"},{"image":"b01-f10-04","alt":"Longines PrimaLuna · 浅色盘玫瑰间金色表链 · 细节","caption":"浅色盘玫瑰间金色表链 · 细节"},{"image":"b01-f10-06","alt":"Longines PrimaLuna · 浅色盘玫瑰间金色表链 · 细节","caption":"浅色盘玫瑰间金色表链 · 细节"},{"image":"b01-f10-07","alt":"Longines PrimaLuna · 浅色盘玫瑰间金色表链 · 细节","caption":"浅色盘玫瑰间金色表链 · 细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX064","brand":"Longines","family":"PrimaLuna Moonphase","name":"PrimaLuna Moonphase — Metal bracelet · Blue dial · Decorative bezel","nameZh":"心月月相 · 蓝盘装饰圈款 · 金属表链","band":"metal","bandName":"Metal bracelet","bandNameZh":"金属表链","category":"Complication","priceUSD":146,"currency":"USD","image":"b01-f11-05","sizeReference":"30.50 mm (family comparison)","description":"A blue PrimaLuna Moonphase-style dial with a moon-phase-style aperture and decorative hour markers. The decorative bezel distinguishes this folder from the polished-bezel versions.","sourceFolder":"B01-F11","variants":[{"key":"v1","label":"Blue dial · Decorative bezel · Silver bracelet","labelZh":"蓝盘装饰圈银色表链","image":"b01-f11-05","photos":[{"image":"b01-f11-05","alt":"Longines PrimaLuna Moonphase · 蓝盘装饰圈银色表链","caption":"蓝盘装饰圈银色表链"}],"detailImages":[{"image":"b01-f11-03","alt":"Longines PrimaLuna Moonphase · 蓝盘装饰圈银色表链 · 细节","caption":"蓝盘装饰圈银色表链 · 细节"},{"image":"b01-f11-07","alt":"Longines PrimaLuna Moonphase · 蓝盘装饰圈银色表链 · 细节","caption":"蓝盘装饰圈银色表链 · 细节"},{"image":"b01-f11-08","alt":"Longines PrimaLuna Moonphase · 蓝盘装饰圈银色表链 · 细节","caption":"蓝盘装饰圈银色表链 · 细节"}]}],"referencePhotos":[{"image":"b01-f11-02","label":"Additional supplied photograph","labelZh":"包装与远景原始照片"},{"image":"b01-f11-04","label":"Additional supplied photograph","labelZh":"包装与远景原始照片"},{"image":"b01-f11-06","label":"Additional supplied photograph","labelZh":"包装与远景原始照片"}],"detailImages":[]},
-{"id":"JX065","brand":"Blancpain","family":"Fifty Fathoms Bathyscaphe","name":"Fifty Fathoms Bathyscaphe — Textile strap · Diving dial collection","nameZh":"五十噚深潜器 · 潜水盘配色组 · 织物表带","band":"textile","bandName":"Textile strap","bandNameZh":"织物表带","category":"Sport","priceUSD":163,"currency":"USD","image":"b01-f12-02","sizeReference":"43 / 43.60 mm (family comparison)","description":"A Fifty Fathoms Bathyscaphe-style diving silhouette with a numbered bezel, small geometric hour markers and broad hands. Explore the dial colours on stitched sailcloth-style straps; extra straps remain as photographed.","sourceFolder":"B01-F12","variants":[{"key":"v1","label":"Blue-grey dial · Grey textile strap","labelZh":"蓝灰盘灰色织物表带","image":"b01-f12-02","photos":[{"image":"b01-f12-02","alt":"Blancpain Fifty Fathoms Bathyscaphe · 蓝灰盘灰色织物表带","caption":"蓝灰盘灰色织物表带"}],"detailImages":[{"image":"b01-f12-03","alt":"Blancpain Fifty Fathoms Bathyscaphe · 蓝灰盘灰色织物表带 · 细节","caption":"蓝灰盘灰色织物表带 · 细节"},{"image":"b01-f12-06","alt":"Blancpain Fifty Fathoms Bathyscaphe · 蓝灰盘灰色织物表带 · 细节","caption":"蓝灰盘灰色织物表带 · 细节"}]},{"key":"v2","label":"Grey dial · Black textile strap","labelZh":"灰盘黑色织物表带","image":"b01-f12-04","photos":[{"image":"b01-f12-04","alt":"Blancpain Fifty Fathoms Bathyscaphe · 灰盘黑色织物表带","caption":"灰盘黑色织物表带"}],"detailImages":[]},{"key":"v3","label":"Black dial · Dark textile strap","labelZh":"黑盘深色织物表带","image":"b01-f12-05","photos":[{"image":"b01-f12-05","alt":"Blancpain Fifty Fathoms Bathyscaphe · 黑盘深色织物表带","caption":"黑盘深色织物表带"}],"detailImages":[{"image":"b01-f12-07","alt":"Blancpain Fifty Fathoms Bathyscaphe · 黑盘深色织物表带 · 细节","caption":"黑盘深色织物表带 · 细节"}]},{"key":"v4","label":"Blue gradient dial · Dark textile strap","labelZh":"渐变蓝盘深色织物表带","image":"b01-f12-08","photos":[{"image":"b01-f12-08","alt":"Blancpain Fifty Fathoms Bathyscaphe · 渐变蓝盘深色织物表带","caption":"渐变蓝盘深色织物表带"}],"detailImages":[]},{"key":"v5","label":"Blue dial · Blue textile strap","labelZh":"蓝盘蓝色织物表带","image":"b01-f12-09","photos":[{"image":"b01-f12-09","alt":"Blancpain Fifty Fathoms Bathyscaphe · 蓝盘蓝色织物表带","caption":"蓝盘蓝色织物表带"}],"detailImages":[]},{"key":"v6","label":"Green dial · Grey textile strap","labelZh":"绿盘灰色织物表带","image":"b01-f12-10","photos":[{"image":"b01-f12-10","alt":"Blancpain Fifty Fathoms Bathyscaphe · 绿盘灰色织物表带","caption":"绿盘灰色织物表带"}],"detailImages":[]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX066","brand":"Jaeger-LeCoultre","family":"Master Ultra Thin Moon","name":"Master Ultra Thin Moon — Leather strap · Moonphase dial collection","nameZh":"超薄大师月相 · 月相盘配色组 · 皮革表带","band":"leather","bandName":"Leather strap","bandNameZh":"皮革表带","category":"Complication","priceUSD":139,"currency":"USD","image":"b01-f13-01","sizeReference":"39 mm (family comparison)","description":"A Master Ultra Thin Moon-style dress-watch silhouette with slender hour markers and a moon-phase-style display enclosed by a date-style scale. Light, black and grey dials are paired with black leather-style straps.","sourceFolder":"B01-F13","variants":[{"key":"v1","label":"Silver-white dial · Silver-tone case · Black strap","labelZh":"银白盘银色表壳黑色皮带","image":"b01-f13-01","photos":[{"image":"b01-f13-01","alt":"Jaeger-LeCoultre Master Ultra Thin Moon · 银白盘银色表壳黑色皮带","caption":"银白盘银色表壳黑色皮带"}],"detailImages":[{"image":"b01-f13-02","alt":"Jaeger-LeCoultre Master Ultra Thin Moon · 银白盘银色表壳黑色皮带 · 细节","caption":"银白盘银色表壳黑色皮带 · 细节"},{"image":"b01-f13-03","alt":"Jaeger-LeCoultre Master Ultra Thin Moon · 银白盘银色表壳黑色皮带 · 细节","caption":"银白盘银色表壳黑色皮带 · 细节"},{"image":"b01-f13-04","alt":"Jaeger-LeCoultre Master Ultra Thin Moon · 银白盘银色表壳黑色皮带 · 细节","caption":"银白盘银色表壳黑色皮带 · 细节"},{"image":"b01-f13-08","alt":"Jaeger-LeCoultre Master Ultra Thin Moon · 银白盘银色表壳黑色皮带 · 细节","caption":"银白盘银色表壳黑色皮带 · 细节"}]},{"key":"v2","label":"Black dial · Silver-tone case · Black strap","labelZh":"黑盘银色表壳黑色皮带","image":"b01-f13-05","photos":[{"image":"b01-f13-05","alt":"Jaeger-LeCoultre Master Ultra Thin Moon · 黑盘银色表壳黑色皮带","caption":"黑盘银色表壳黑色皮带"}],"detailImages":[]},{"key":"v3","label":"Grey dial · Silver-tone case · Black strap","labelZh":"灰盘银色表壳黑色皮带","image":"b01-f13-06","photos":[{"image":"b01-f13-06","alt":"Jaeger-LeCoultre Master Ultra Thin Moon · 灰盘银色表壳黑色皮带","caption":"灰盘银色表壳黑色皮带"}],"detailImages":[]},{"key":"v4","label":"Grey dial · Rose-tone case · Black strap","labelZh":"灰盘玫瑰金色表壳黑色皮带","image":"b01-f13-07","photos":[{"image":"b01-f13-07","alt":"Jaeger-LeCoultre Master Ultra Thin Moon · 灰盘玫瑰金色表壳黑色皮带","caption":"灰盘玫瑰金色表壳黑色皮带"}],"detailImages":[]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX067","brand":"Longines","family":"Master Collection Chrono Moonphase","name":"Master Collection Chrono Moonphase — Metal bracelet · White dial · Blue hands","nameZh":"名匠计时月相 · 白盘蓝针款 · 金属表链","band":"metal","bandName":"Metal bracelet","bandNameZh":"金属表链","category":"Complication","priceUSD":156,"currency":"USD","image":"b01-f14-02","sizeReference":"42 mm (family comparison)","description":"A Master Collection Chrono Moonphase-style layout with three subsidiary counters, calendar-style windows and a moon-phase-style display. Blue-tone hands contrast with the white Arabic-numeral dial.","sourceFolder":"B01-F14","variants":[{"key":"v1","label":"White dial · Blue hands · Silver bracelet","labelZh":"白盘蓝针银色表链","image":"b01-f14-02","photos":[{"image":"b01-f14-02","alt":"Longines Master Collection Chrono Moonphase · 白盘蓝针银色表链","caption":"白盘蓝针银色表链"}],"detailImages":[{"image":"b01-f14-03","alt":"Longines Master Collection Chrono Moonphase · 白盘蓝针银色表链 · 细节","caption":"白盘蓝针银色表链 · 细节"},{"image":"b01-f14-04","alt":"Longines Master Collection Chrono Moonphase · 白盘蓝针银色表链 · 细节","caption":"白盘蓝针银色表链 · 细节"},{"image":"b01-f14-05","alt":"Longines Master Collection Chrono Moonphase · 白盘蓝针银色表链 · 细节","caption":"白盘蓝针银色表链 · 细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX068","brand":"Longines","family":"Master Collection Chrono Moonphase","name":"Master Collection Chrono Moonphase — Leather strap · Dark blue dial · Gold-tone hands","nameZh":"名匠计时月相 · 深蓝盘金色指针款 · 皮革表带","band":"leather","bandName":"Leather strap","bandNameZh":"皮革表带","category":"Complication","priceUSD":132,"currency":"USD","image":"b01-f15-02","sizeReference":"40 / 42 mm (family comparison)","description":"A dark-dial Master Collection Chrono Moonphase-style watch with calendar-style indications, three subsidiary counters and a moon-phase-style display. Gold-tone hands and the dark blue leather-style strap create a warm contrast.","sourceFolder":"B01-F15","variants":[{"key":"v1","label":"Dark blue dial · Gold-tone hands · Blue strap","labelZh":"深蓝盘金色指针蓝色皮带","image":"b01-f15-02","photos":[{"image":"b01-f15-02","alt":"Longines Master Collection Chrono Moonphase · 深蓝盘金色指针蓝色皮带","caption":"深蓝盘金色指针蓝色皮带"}],"detailImages":[{"image":"b01-f15-03","alt":"Longines Master Collection Chrono Moonphase · 深蓝盘金色指针蓝色皮带 · 细节","caption":"深蓝盘金色指针蓝色皮带 · 细节"},{"image":"b01-f15-04","alt":"Longines Master Collection Chrono Moonphase · 深蓝盘金色指针蓝色皮带 · 细节","caption":"深蓝盘金色指针蓝色皮带 · 细节"}]}],"referencePhotos":[],"detailImages":[]});
-
-products.push({"id":"JX069","brand":"Piaget","family":"Emperador — Unconfirmed","name":"Emperador — Unconfirmed — Leather strap","nameZh":"Emperador长方形装饰款 · 皮革表带","band":"leather","bandName":"Leather strap","bandNameZh":"皮革表带","category":"Classic","priceUSD":149,"currency":"USD","image":"piaget-001","sizeReference":"Unconfirmed / 待确认","description":"Explore the Emperador — Unconfirmed-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.","variants":[{"key":"v1","label":"Rose-tone case · Brown strap","labelZh":"玫瑰金色表壳 · 棕色皮带","image":"piaget-001","photos":[{"image":"piaget-001"}],"detailImages":[{"image":"piaget-002","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-003","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-004","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-005","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-006","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-007","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-008","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"}]},{"key":"v2","label":"Silver-tone case · Black strap","labelZh":"银色表壳 · 黑色表带","image":"piaget-011","photos":[{"image":"piaget-011"}],"detailImages":[{"image":"piaget-012","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-013","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-014","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-015","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-016","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-017","alt":"Emperador — Unconfirmed detail","caption":"Product detail / 产品细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX070","brand":"Piaget","family":"Polo Tourbillon-style — Unconfirmed","name":"Polo Tourbillon-style — Unconfirmed — Leather strap","nameZh":"Polo开窗装饰款 · 皮革表带","band":"leather","bandName":"Leather strap","bandNameZh":"皮革表带","category":"Classic","priceUSD":166,"currency":"USD","image":"piaget-023","sizeReference":"Unconfirmed / 待确认","description":"Explore the Polo Tourbillon-style — Unconfirmed-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.","variants":[{"key":"v1","label":"Rose tone · Black strap","labelZh":"玫瑰金色 · 黑色表带","image":"piaget-023","photos":[{"image":"piaget-023"}],"detailImages":[{"image":"piaget-019","alt":"Polo Tourbillon-style — Unconfirmed — Leather strap detail","caption":"Product detail / 产品细节"},{"image":"piaget-020","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-021","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-022","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-024","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-025","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-026","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-027","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"}]},{"key":"v2","label":"Silver tone · Black strap","labelZh":"银色 · 黑色表带","image":"piaget-032","photos":[{"image":"piaget-032"}],"detailImages":[{"image":"piaget-028","alt":"Polo Tourbillon-style — Unconfirmed — Leather strap detail","caption":"Product detail / 产品细节"},{"image":"piaget-029","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-030","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-031","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-033","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-034","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-035","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"},{"image":"piaget-036","alt":"Polo Tourbillon-style — Unconfirmed detail","caption":"Product detail / 产品细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX071","brand":"Piaget","family":"Altiplano","name":"Altiplano — Leather strap","nameZh":"Altiplano超薄经典款 · 皮革表带","band":"leather","bandName":"Leather strap","bandNameZh":"皮革表带","category":"Classic","priceUSD":142,"currency":"USD","image":"piaget-037","sizeReference":"Unconfirmed / 待确认","description":"Explore the Altiplano-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.","variants":[{"key":"v1","label":"White dial · Rose tone · Brown strap","labelZh":"白盘 · 玫瑰金色 · 棕色皮带","image":"piaget-037","photos":[{"image":"piaget-037"}],"detailImages":[{"image":"piaget-038","alt":"Altiplano detail","caption":"Product detail / 产品细节"},{"image":"piaget-039","alt":"Altiplano detail","caption":"Product detail / 产品细节"},{"image":"piaget-040","alt":"Altiplano detail","caption":"Product detail / 产品细节"},{"image":"piaget-041","alt":"Altiplano detail","caption":"Product detail / 产品细节"},{"image":"piaget-042","alt":"Altiplano detail","caption":"Product detail / 产品细节"},{"image":"piaget-043","alt":"Altiplano detail","caption":"Product detail / 产品细节"},{"image":"piaget-044","alt":"Altiplano detail","caption":"Product detail / 产品细节"},{"image":"piaget-045","alt":"Altiplano detail","caption":"Product detail / 产品细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX072","brand":"Piaget","family":"Polo Date","name":"Polo Date — Metal bracelet","nameZh":"Polo日历款 · 金属表链","band":"metal","bandName":"Metal bracelet","bandNameZh":"金属表链","category":"Classic","priceUSD":159,"currency":"USD","image":"piaget-046","sizeReference":"42 mm (family comparison)","description":"Explore the Polo Date-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.","variants":[{"key":"v1","label":"Green dial · Silver bracelet","labelZh":"绿盘 · 银色表链","image":"piaget-046","photos":[{"image":"piaget-046"}],"detailImages":[{"image":"piaget-047","alt":"Polo Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-048","alt":"Polo Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-049","alt":"Polo Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-050","alt":"Polo Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-051","alt":"Polo Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-052","alt":"Polo Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-053","alt":"Polo Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-054","alt":"Polo Date detail","caption":"Product detail / 产品细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX073","brand":"Piaget","family":"Limelight Gala","name":"Limelight Gala — Rubber strap","nameZh":"Limelight Gala非对称装饰款 · 橡胶表带","band":"rubber","bandName":"Rubber strap","bandNameZh":"橡胶表带","category":"Classic","priceUSD":135,"currency":"USD","image":"piaget-055","sizeReference":"Unconfirmed / 待确认","description":"Explore the Limelight Gala-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.","variants":[{"key":"v1","label":"Light dial · Rose tone · Black strap","labelZh":"浅色盘 · 玫瑰金色 · 黑色表带","image":"piaget-055","photos":[{"image":"piaget-055"}],"detailImages":[{"image":"piaget-056","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-057","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-058","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-059","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-060","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-061","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-062","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-063","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"}]},{"key":"v2","label":"Light dial · Silver tone · Black strap","labelZh":"浅色盘 · 银色 · 黑色表带","image":"piaget-064","photos":[{"image":"piaget-064"}],"detailImages":[{"image":"piaget-065","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-066","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-067","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-068","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-069","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-070","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-071","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"},{"image":"piaget-072","alt":"Limelight Gala detail","caption":"Product detail / 产品细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX074","brand":"Piaget","family":"Altiplano — Decorative dial","name":"Altiplano — Decorative dial — Leather strap","nameZh":"Altiplano装饰盘款 · 皮革表带","band":"leather","bandName":"Leather strap","bandNameZh":"皮革表带","category":"Classic","priceUSD":152,"currency":"USD","image":"piaget-073","sizeReference":"Unconfirmed / 待确认","description":"Explore the Altiplano — Decorative dial-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.","variants":[{"key":"v1","label":"Silver decorative dial · Silver case","labelZh":"银色装饰盘 · 银色表壳","image":"piaget-073","photos":[{"image":"piaget-073"}],"detailImages":[{"image":"piaget-074","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-075","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-076","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-077","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-078","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-079","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-080","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-081","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"}]},{"key":"v2","label":"Dark-accent decorative dial · Silver case","labelZh":"深色点缀装饰盘 · 银色表壳","image":"piaget-082","photos":[{"image":"piaget-082"}],"detailImages":[{"image":"piaget-083","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-084","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-085","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-086","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-087","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-088","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-089","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-090","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"}]},{"key":"v3","label":"Black dial · Silver case","labelZh":"黑盘 · 银色表壳","image":"piaget-091","photos":[{"image":"piaget-091"}],"detailImages":[{"image":"piaget-092","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-093","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-094","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-095","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-096","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-097","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-098","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-099","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"}]},{"key":"v4","label":"Light decorative dial · Rose case","labelZh":"浅色装饰盘 · 玫瑰金色表壳","image":"piaget-100","photos":[{"image":"piaget-100"}],"detailImages":[{"image":"piaget-101","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-102","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-103","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-104","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-105","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-106","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-107","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-108","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"}]},{"key":"v5","label":"Dark-accent decorative dial · Rose case","labelZh":"深色点缀装饰盘 · 玫瑰金色表壳","image":"piaget-109","photos":[{"image":"piaget-109"}],"detailImages":[{"image":"piaget-110","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-111","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-112","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-113","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-114","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-115","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-116","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"},{"image":"piaget-117","alt":"Altiplano — Decorative dial detail","caption":"Product detail / 产品细节"}]}],"referencePhotos":[],"detailImages":[]},
-{"id":"JX075","brand":"Piaget","family":"Altiplano Date","name":"Altiplano Date — Leather strap","nameZh":"Altiplano日历款 · 皮革表带","band":"leather","bandName":"Leather strap","bandNameZh":"皮革表带","category":"Classic","priceUSD":169,"currency":"USD","image":"piaget-118","sizeReference":"Unconfirmed / 待确认","description":"Explore the Altiplano Date-style design in the supplied photographs. Choose a finish above and discover the close-up, case, strap and caseback photographs below.","variants":[{"key":"v1","label":"Blue dial · Black strap","labelZh":"蓝盘 · 黑色表带","image":"piaget-118","photos":[{"image":"piaget-118"}],"detailImages":[{"image":"piaget-119","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-120","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-121","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-122","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-123","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-124","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-125","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-126","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"}]},{"key":"v2","label":"Silver dial · Black strap","labelZh":"银色盘 · 黑色表带","image":"piaget-127","photos":[{"image":"piaget-127"}],"detailImages":[{"image":"piaget-128","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-129","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-130","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-131","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-132","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-133","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-134","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"},{"image":"piaget-135","alt":"Altiplano Date detail","caption":"Product detail / 产品细节"}]}],"referencePhotos":[],"detailImages":[]});
+const legacyProductLinks = {
+  "C01": {
+    "id": "JX012",
+    "color": "v1"
+  },
+  "C02": {
+    "id": "JX012",
+    "color": "v1"
+  },
+  "C03": {
+    "id": "JX012",
+    "color": "v2"
+  },
+  "C04": {
+    "id": "JX012",
+    "color": "v3"
+  },
+  "C05": {
+    "id": "JX012",
+    "color": "v4"
+  },
+  "C06": {
+    "id": "JX012",
+    "color": "v5"
+  },
+  "C07": {
+    "id": "JX012",
+    "color": "v6"
+  },
+  "C15": {
+    "id": "JX012",
+    "color": "v7"
+  },
+  "C16": {
+    "id": "JX012",
+    "color": "v8"
+  },
+  "C17": {
+    "id": "JX012",
+    "color": "v9"
+  },
+  "C08": {
+    "id": "JX013",
+    "color": "v1"
+  },
+  "C09": {
+    "id": "JX013",
+    "color": "v2"
+  },
+  "C10": {
+    "id": "JX013",
+    "color": "v3"
+  },
+  "C11": {
+    "id": "JX013",
+    "color": "v4"
+  },
+  "C12": {
+    "id": "JX013",
+    "color": "v5"
+  },
+  "C13": {
+    "id": "JX013",
+    "color": "v6"
+  },
+  "C14": {
+    "id": "JX013",
+    "color": "v7"
+  },
+  "C18": {
+    "id": "JX014",
+    "color": "v1"
+  },
+  "C19": {
+    "id": "JX015",
+    "color": "v1"
+  },
+  "VC01": {
+    "id": "JX016",
+    "color": "v1"
+  },
+  "VC02": {
+    "id": "JX016",
+    "color": "v2"
+  },
+  "VC03": {
+    "id": "JX016",
+    "color": "v3"
+  },
+  "VC04": {
+    "id": "JX016",
+    "color": "v4"
+  },
+  "VC05": {
+    "id": "JX016",
+    "color": "v5"
+  },
+  "VC06": {
+    "id": "JX016",
+    "color": "v6"
+  },
+  "VC07": {
+    "id": "JX016",
+    "color": "v7"
+  },
+  "VC08": {
+    "id": "JX017",
+    "color": "v1"
+  },
+  "VC09": {
+    "id": "JX018",
+    "color": "v1"
+  },
+  "VC10": {
+    "id": "JX018",
+    "color": "v2"
+  },
+  "VC11": {
+    "id": "JX018",
+    "color": "v3"
+  },
+  "VC12": {
+    "id": "JX018",
+    "color": "v4"
+  },
+  "VC13": {
+    "id": "JX018",
+    "color": "v5"
+  },
+  "VC14": {
+    "id": "JX018",
+    "color": "v6"
+  },
+  "VC15": {
+    "id": "JX018",
+    "color": "v7"
+  },
+  "VC16": {
+    "id": "JX018",
+    "color": "v8"
+  },
+  "VC17": {
+    "id": "JX019",
+    "color": "v1"
+  },
+  "VC18": {
+    "id": "JX019",
+    "color": "v2"
+  },
+  "VC19": {
+    "id": "JX019",
+    "color": "v3"
+  },
+  "VC20": {
+    "id": "JX019",
+    "color": "v4"
+  },
+  "VC21": {
+    "id": "JX019",
+    "color": "v5"
+  },
+  "VC22": {
+    "id": "JX019",
+    "color": "v6"
+  },
+  "VC23": {
+    "id": "JX019",
+    "color": "v7"
+  },
+  "VC24": {
+    "id": "JX019",
+    "color": "v8"
+  },
+  "VC25": {
+    "id": "JX020",
+    "color": "v1"
+  },
+  "VC26": {
+    "id": "JX021",
+    "color": "v1"
+  },
+  "VC27": {
+    "id": "JX022",
+    "color": "v1"
+  },
+  "VC28": {
+    "id": "JX022",
+    "color": "v2"
+  },
+  "VC29": {
+    "id": "JX022",
+    "color": "v3"
+  },
+  "VC30": {
+    "id": "JX022",
+    "color": "v4"
+  },
+  "VC31": {
+    "id": "JX022",
+    "color": "v5"
+  },
+  "VC32": {
+    "id": "JX022",
+    "color": "v6"
+  },
+  "VC33": {
+    "id": "JX022",
+    "color": "v7"
+  },
+  "VC34": {
+    "id": "JX023",
+    "color": "v1"
+  },
+  "VC35": {
+    "id": "JX023",
+    "color": "v2"
+  },
+  "VC36": {
+    "id": "JX023",
+    "color": "v3"
+  },
+  "VC37": {
+    "id": "JX023",
+    "color": "v4"
+  },
+  "VC38": {
+    "id": "JX023",
+    "color": "v5"
+  },
+  "VC39": {
+    "id": "JX023",
+    "color": "v6"
+  },
+  "VC40": {
+    "id": "JX023",
+    "color": "v7"
+  },
+  "VC41": {
+    "id": "JX023",
+    "color": "v8"
+  },
+  "VC42": {
+    "id": "JX023",
+    "color": "v1"
+  },
+  "AP01": {
+    "id": "JX024",
+    "color": "v1"
+  },
+  "AP02": {
+    "id": "JX024",
+    "color": "v2"
+  },
+  "AP03": {
+    "id": "JX024",
+    "color": "v3"
+  },
+  "AP04": {
+    "id": "JX024",
+    "color": "v4"
+  },
+  "AP13": {
+    "id": "JX024",
+    "color": "v5"
+  },
+  "AP14": {
+    "id": "JX024",
+    "color": "v5"
+  },
+  "AP15": {
+    "id": "JX024",
+    "color": "v6"
+  },
+  "AP16": {
+    "id": "JX024",
+    "color": "v1"
+  },
+  "AP05": {
+    "id": "JX025",
+    "color": "v1"
+  },
+  "AP06": {
+    "id": "JX025",
+    "color": "v2"
+  },
+  "AP07": {
+    "id": "JX026",
+    "color": "v1"
+  },
+  "AP08": {
+    "id": "JX026",
+    "color": "v1"
+  },
+  "AP09": {
+    "id": "JX026",
+    "color": "v2"
+  },
+  "AP10": {
+    "id": "JX026",
+    "color": "v3"
+  },
+  "AP11": {
+    "id": "JX026",
+    "color": "v4"
+  },
+  "AP12": {
+    "id": "JX026",
+    "color": "v5"
+  },
+  "AP17": {
+    "id": "JX027",
+    "color": "v1"
+  },
+  "AP18": {
+    "id": "JX028",
+    "color": "v1"
+  },
+  "IWC01": {
+    "id": "JX029",
+    "color": "v1"
+  },
+  "IWC04": {
+    "id": "JX029",
+    "color": "v1"
+  },
+  "IWC02": {
+    "id": "JX030",
+    "color": "v1"
+  },
+  "IWC03": {
+    "id": "JX030",
+    "color": "v2"
+  },
+  "IWC05": {
+    "id": "JX031",
+    "color": "v1"
+  },
+  "IWC06": {
+    "id": "JX032",
+    "color": "v1"
+  },
+  "IWC07": {
+    "id": "JX033",
+    "color": "v1"
+  },
+  "IWC08": {
+    "id": "JX033",
+    "color": "v2"
+  },
+  "IWC09": {
+    "id": "JX033",
+    "color": "v3"
+  },
+  "IWC10": {
+    "id": "JX033",
+    "color": "v4"
+  },
+  "IWC11": {
+    "id": "JX033",
+    "color": "v5"
+  },
+  "IWC12": {
+    "id": "JX033",
+    "color": "v6"
+  },
+  "IWC23": {
+    "id": "JX034",
+    "color": "v1"
+  },
+  "IWC24": {
+    "id": "JX034",
+    "color": "v2"
+  },
+  "IWC32": {
+    "id": "JX034",
+    "color": "v3"
+  },
+  "IWC33": {
+    "id": "JX034",
+    "color": "v1"
+  },
+  "IWC13": {
+    "id": "JX035",
+    "color": "v1"
+  },
+  "IWC14": {
+    "id": "JX035",
+    "color": "v2"
+  },
+  "IWC15": {
+    "id": "JX035",
+    "color": "v3"
+  },
+  "IWC16": {
+    "id": "JX035",
+    "color": "v4"
+  },
+  "IWC17": {
+    "id": "JX036",
+    "color": "v1"
+  },
+  "IWC18": {
+    "id": "JX036",
+    "color": "v2"
+  },
+  "IWC19": {
+    "id": "JX036",
+    "color": "v3"
+  },
+  "IWC20": {
+    "id": "JX036",
+    "color": "v4"
+  },
+  "IWC21": {
+    "id": "JX036",
+    "color": "v5"
+  },
+  "IWC22": {
+    "id": "JX036",
+    "color": "v6"
+  },
+  "IWC25": {
+    "id": "JX037",
+    "color": "v1"
+  },
+  "IWC26": {
+    "id": "JX037",
+    "color": "v2"
+  },
+  "IWC27": {
+    "id": "JX037",
+    "color": "v3"
+  },
+  "IWC28": {
+    "id": "JX038",
+    "color": "v1"
+  },
+  "IWC29": {
+    "id": "JX038",
+    "color": "v2"
+  },
+  "IWC30": {
+    "id": "JX038",
+    "color": "v3"
+  },
+  "IWC31": {
+    "id": "JX038",
+    "color": "v4"
+  },
+  "PP01": {
+    "id": "JX039",
+    "color": "v1"
+  },
+  "PP02": {
+    "id": "JX040",
+    "color": "v1"
+  },
+  "PP22": {
+    "id": "JX040",
+    "color": "v2"
+  },
+  "PP23": {
+    "id": "JX040",
+    "color": "v3"
+  },
+  "PP24": {
+    "id": "JX040",
+    "color": "v4"
+  },
+  "PP25": {
+    "id": "JX040",
+    "color": "v5"
+  },
+  "PP03": {
+    "id": "JX041",
+    "color": "v1"
+  },
+  "PP04": {
+    "id": "JX042",
+    "color": "v1"
+  },
+  "PP06": {
+    "id": "JX042",
+    "color": "v1"
+  },
+  "PP07": {
+    "id": "JX042",
+    "color": "v2"
+  },
+  "PP08": {
+    "id": "JX042",
+    "color": "v3"
+  },
+  "PP09": {
+    "id": "JX042",
+    "color": "v4"
+  },
+  "PP10": {
+    "id": "JX042",
+    "color": "v5"
+  },
+  "PP11": {
+    "id": "JX042",
+    "color": "v6"
+  },
+  "PP12": {
+    "id": "JX042",
+    "color": "v7"
+  },
+  "PP13": {
+    "id": "JX042",
+    "color": "v8"
+  },
+  "PP14": {
+    "id": "JX042",
+    "color": "v9"
+  },
+  "PP15": {
+    "id": "JX042",
+    "color": "v10"
+  },
+  "PP16": {
+    "id": "JX042",
+    "color": "v10"
+  },
+  "PP17": {
+    "id": "JX042",
+    "color": "v11"
+  },
+  "PP18": {
+    "id": "JX042",
+    "color": "v12"
+  },
+  "PP19": {
+    "id": "JX042",
+    "color": "v5"
+  },
+  "PP20": {
+    "id": "JX042",
+    "color": "v13"
+  },
+  "PP21": {
+    "id": "JX042",
+    "color": "v7"
+  },
+  "PP05": {
+    "id": "JX043",
+    "color": "v1"
+  },
+  "PP26": {
+    "id": "JX043",
+    "color": "v1"
+  },
+  "PP27": {
+    "id": "JX043",
+    "color": "v2"
+  },
+  "OM01": {
+    "id": "JX044",
+    "color": "v1"
+  },
+  "OM23": {
+    "id": "JX044",
+    "color": "v2"
+  },
+  "OM02": {
+    "id": "JX046",
+    "color": "v1"
+  },
+  "OM03": {
+    "id": "JX047",
+    "color": "v1"
+  },
+  "OM04": {
+    "id": "JX047",
+    "color": "v2"
+  },
+  "OM05": {
+    "id": "JX047",
+    "color": "v3"
+  },
+  "OM06": {
+    "id": "JX047",
+    "color": "v4"
+  },
+  "OM17": {
+    "id": "JX047",
+    "color": "v5"
+  },
+  "OM19": {
+    "id": "JX047",
+    "color": "v6"
+  },
+  "OM20": {
+    "id": "JX047",
+    "color": "v7"
+  },
+  "OM22": {
+    "id": "JX047",
+    "color": "v8"
+  },
+  "OM24": {
+    "id": "JX047",
+    "color": "v9"
+  },
+  "OM07": {
+    "id": "JX048",
+    "color": "v1"
+  },
+  "OM21": {
+    "id": "JX049",
+    "color": "v1"
+  },
+  "OM08": {
+    "id": "JX050",
+    "color": "v1"
+  },
+  "OM09": {
+    "id": "JX050",
+    "color": "v2"
+  },
+  "OM14": {
+    "id": "JX050",
+    "color": "v3"
+  },
+  "OM10": {
+    "id": "JX051",
+    "color": "v1"
+  },
+  "OM11": {
+    "id": "JX051",
+    "color": "v2"
+  },
+  "OM12": {
+    "id": "JX051",
+    "color": "v3"
+  },
+  "OM13": {
+    "id": "JX051",
+    "color": "v4"
+  },
+  "OM15": {
+    "id": "JX051",
+    "color": "v5"
+  },
+  "OM16": {
+    "id": "JX052",
+    "color": "v1"
+  },
+  "OM18": {
+    "id": "JX053",
+    "color": "v1"
+  }
+};
