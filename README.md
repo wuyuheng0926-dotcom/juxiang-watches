@@ -7,7 +7,7 @@ Public static mirror for testing access. Includes 111 uploaded watch photo entri
 - Branch: `main`
 - Root Directory: leave empty
 - Build Command: `sh build.sh`
-- Publish Directory: `.`
+- Publish Directory: `public`
 
 This mirror does not provide the original Site’s authenticated admin backend or automatically sync online catalogue edits. Mainland China access must be tested on an actual local connection.
 

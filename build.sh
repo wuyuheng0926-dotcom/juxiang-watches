@@ -1,6 +1,6 @@
 #!/bin/sh
 set -eu
-test -f index.html
-test -f catalog.js
-test -d assets
-printf "JUXIANG static website ready\n"
+mkdir -p public/assets
+cp index.html style.css app.js contact.js catalog.js public/
+cp -R assets/. public/assets/
+printf 'JUXIANG static website ready\n'
