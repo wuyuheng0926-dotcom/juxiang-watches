@@ -8837,7 +8837,7 @@ const products = [
     "brand": "Rolex",
     "family": "GMT-Master II",
     "name": "GMT-Master II — Metal bracelet",
-    "nameZh": "undefined · 金属表链",
+    "nameZh": "格林尼治型 II · 金属表链",
     "band": "metal",
     "bandName": "Metal bracelet",
     "bandNameZh": "金属表链",
