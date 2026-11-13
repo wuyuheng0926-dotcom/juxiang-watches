@@ -1,0 +1,1641 @@
+{
+  "sourceArchives": [
+    "江诗丹顿.zip",
+    "江诗丹顿女款.zip"
+  ],
+  "backupBranch": "backup/before-vc-upload-2026-11-14",
+  "baseCommit": "9fd9ed307ee6d05d36fae4de849c4dbe5db04496",
+  "newGroups": 8,
+  "newVariants": 46,
+  "uploadedPhotos": 140,
+  "excludedPhotos": [
+    96,
+    98,
+    137,
+    138,
+    139
+  ],
+  "excludedReason": "Supplier website screenshots and unrelated fashion promotional photographs are not used as product images.",
+  "groups": [
+    {
+      "id": "JX100",
+      "family": "Overseas",
+      "band": "metal",
+      "variants": 6
+    },
+    {
+      "id": "JX101",
+      "family": "Overseas",
+      "band": "rubber",
+      "variants": 3
+    },
+    {
+      "id": "JX102",
+      "family": "Overseas",
+      "band": "leather",
+      "variants": 9
+    },
+    {
+      "id": "JX103",
+      "family": "Traditionnelle-style — Unconfirmed",
+      "band": "leather",
+      "variants": 16
+    },
+    {
+      "id": "JX104",
+      "family": "Round Decorative — Unconfirmed",
+      "band": "leather",
+      "variants": 2
+    },
+    {
+      "id": "JX105",
+      "family": "Malte-style — Unconfirmed",
+      "band": "leather",
+      "variants": 6
+    },
+    {
+      "id": "JX106",
+      "family": "Patrimony Date-style — Unconfirmed",
+      "band": "leather",
+      "variants": 2
+    },
+    {
+      "id": "JX107",
+      "family": "Heures Creatives-style — Unconfirmed",
+      "band": "leather",
+      "variants": 2
+    }
+  ],
+  "photos": [
+    {
+      "index": 19,
+      "image": "vc-new-019",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v1",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "image": "vc-new-015",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "image": "vc-new-016",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "image": "vc-new-017",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "image": "vc-new-018",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "image": "vc-new-020",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "image": "vc-new-021",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "image": "vc-new-022",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "image": "vc-new-023",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 122,
+      "image": "vc-new-122",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v2",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 128,
+      "image": "vc-new-128",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v2",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 123,
+      "image": "vc-new-123",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v3",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 124,
+      "image": "vc-new-124",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v4",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 125,
+      "image": "vc-new-125",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v5",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 131,
+      "image": "vc-new-131",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": "v6",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "image": "vc-new-002",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": "v1",
+          "role": "main"
+        },
+        {
+          "id": "JX102",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 105,
+      "image": "vc-new-105",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": "v2",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 106,
+      "image": "vc-new-106",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": "v2",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 108,
+      "image": "vc-new-108",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": "v2",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 107,
+      "image": "vc-new-107",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": "v3",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 110,
+      "image": "vc-new-110",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": "v3",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 112,
+      "image": "vc-new-112",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": "v3",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 141,
+      "image": "vc-new-141",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v1",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 140,
+      "image": "vc-new-140",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 142,
+      "image": "vc-new-142",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 143,
+      "image": "vc-new-143",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 144,
+      "image": "vc-new-144",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 145,
+      "image": "vc-new-145",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 120,
+      "image": "vc-new-120",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v2",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 118,
+      "image": "vc-new-118",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v3",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 115,
+      "image": "vc-new-115",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v4",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 116,
+      "image": "vc-new-116",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v5",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 117,
+      "image": "vc-new-117",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v6",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 133,
+      "image": "vc-new-133",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v7",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 134,
+      "image": "vc-new-134",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v8",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 135,
+      "image": "vc-new-135",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v8",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 136,
+      "image": "vc-new-136",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v8",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 132,
+      "image": "vc-new-132",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": "v9",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "image": "vc-new-008",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v1",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "image": "vc-new-086",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "image": "vc-new-009",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v2",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "image": "vc-new-010",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v3",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "image": "vc-new-032",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v4",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "image": "vc-new-011",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v4",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "image": "vc-new-031",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v4",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "image": "vc-new-033",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v4",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "image": "vc-new-034",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v4",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "image": "vc-new-035",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v4",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "image": "vc-new-036",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v4",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "image": "vc-new-012",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v5",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "image": "vc-new-013",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v6",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "image": "vc-new-014",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v7",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "image": "vc-new-045",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v8",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "image": "vc-new-046",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v8",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "image": "vc-new-047",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v8",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "image": "vc-new-048",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v8",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "image": "vc-new-049",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v8",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "image": "vc-new-050",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v8",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "image": "vc-new-051",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v8",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "image": "vc-new-052",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v8",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "image": "vc-new-053",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v8",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "image": "vc-new-054",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v9",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "image": "vc-new-055",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v9",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "image": "vc-new-056",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v9",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "image": "vc-new-057",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v9",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "image": "vc-new-058",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v9",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "image": "vc-new-059",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v9",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "image": "vc-new-060",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v9",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "image": "vc-new-061",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v9",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "image": "vc-new-078",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v10",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "image": "vc-new-079",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v11",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "image": "vc-new-080",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v12",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "image": "vc-new-081",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v12",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "image": "vc-new-082",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v12",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "image": "vc-new-083",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v12",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "image": "vc-new-084",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v13",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "image": "vc-new-085",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v14",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "image": "vc-new-097",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v15",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 100,
+      "image": "vc-new-100",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v15",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 101,
+      "image": "vc-new-101",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v15",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 102,
+      "image": "vc-new-102",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v15",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 103,
+      "image": "vc-new-103",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v15",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 104,
+      "image": "vc-new-104",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v15",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "image": "vc-new-099",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": "v16",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "image": "vc-new-024",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v1",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "image": "vc-new-025",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "image": "vc-new-026",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "image": "vc-new-027",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "image": "vc-new-028",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "image": "vc-new-029",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "image": "vc-new-030",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "image": "vc-new-037",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v2",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "image": "vc-new-038",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v2",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "image": "vc-new-039",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v2",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "image": "vc-new-040",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v2",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "image": "vc-new-041",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v2",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "image": "vc-new-042",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v2",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "image": "vc-new-043",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v2",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "image": "vc-new-044",
+      "assignments": [
+        {
+          "id": "JX104",
+          "color": "v2",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "image": "vc-new-062",
+      "assignments": [
+        {
+          "id": "JX105",
+          "color": "v1",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "image": "vc-new-063",
+      "assignments": [
+        {
+          "id": "JX105",
+          "color": "v2",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "image": "vc-new-064",
+      "assignments": [
+        {
+          "id": "JX105",
+          "color": "v3",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "image": "vc-new-065",
+      "assignments": [
+        {
+          "id": "JX105",
+          "color": "v4",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "image": "vc-new-069",
+      "assignments": [
+        {
+          "id": "JX105",
+          "color": "v4",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "image": "vc-new-066",
+      "assignments": [
+        {
+          "id": "JX105",
+          "color": "v5",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "image": "vc-new-068",
+      "assignments": [
+        {
+          "id": "JX105",
+          "color": "v5",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "image": "vc-new-070",
+      "assignments": [
+        {
+          "id": "JX105",
+          "color": "v5",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "image": "vc-new-067",
+      "assignments": [
+        {
+          "id": "JX105",
+          "color": "v6",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "image": "vc-new-075",
+      "assignments": [
+        {
+          "id": "JX106",
+          "color": "v1",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "image": "vc-new-071",
+      "assignments": [
+        {
+          "id": "JX106",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "image": "vc-new-073",
+      "assignments": [
+        {
+          "id": "JX106",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "image": "vc-new-072",
+      "assignments": [
+        {
+          "id": "JX106",
+          "color": "v2",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "image": "vc-new-074",
+      "assignments": [
+        {
+          "id": "JX106",
+          "color": "v2",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "image": "vc-new-087",
+      "assignments": [
+        {
+          "id": "JX107",
+          "color": "v1",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "image": "vc-new-089",
+      "assignments": [
+        {
+          "id": "JX107",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "image": "vc-new-090",
+      "assignments": [
+        {
+          "id": "JX107",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "image": "vc-new-093",
+      "assignments": [
+        {
+          "id": "JX107",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "image": "vc-new-094",
+      "assignments": [
+        {
+          "id": "JX107",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "image": "vc-new-095",
+      "assignments": [
+        {
+          "id": "JX107",
+          "color": "v1",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "image": "vc-new-088",
+      "assignments": [
+        {
+          "id": "JX107",
+          "color": "v2",
+          "role": "main"
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "image": "vc-new-091",
+      "assignments": [
+        {
+          "id": "JX107",
+          "color": "v2",
+          "role": "detail"
+        }
+      ]
+    },
+    {
+      "index": 126,
+      "image": "vc-new-126",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 127,
+      "image": "vc-new-127",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 129,
+      "image": "vc-new-129",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 130,
+      "image": "vc-new-130",
+      "assignments": [
+        {
+          "id": "JX100",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "image": "vc-new-001",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": null,
+          "role": "reference"
+        },
+        {
+          "id": "JX102",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "image": "vc-new-003",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": null,
+          "role": "reference"
+        },
+        {
+          "id": "JX102",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "image": "vc-new-004",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": null,
+          "role": "reference"
+        },
+        {
+          "id": "JX102",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "image": "vc-new-005",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": null,
+          "role": "reference"
+        },
+        {
+          "id": "JX102",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "image": "vc-new-006",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": null,
+          "role": "reference"
+        },
+        {
+          "id": "JX102",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 109,
+      "image": "vc-new-109",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 111,
+      "image": "vc-new-111",
+      "assignments": [
+        {
+          "id": "JX101",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 113,
+      "image": "vc-new-113",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 114,
+      "image": "vc-new-114",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 119,
+      "image": "vc-new-119",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 121,
+      "image": "vc-new-121",
+      "assignments": [
+        {
+          "id": "JX102",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "image": "vc-new-007",
+      "assignments": [
+        {
+          "id": "JX103",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "image": "vc-new-076",
+      "assignments": [
+        {
+          "id": "JX106",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "image": "vc-new-077",
+      "assignments": [
+        {
+          "id": "JX106",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "image": "vc-new-092",
+      "assignments": [
+        {
+          "id": "JX107",
+          "color": null,
+          "role": "reference"
+        }
+      ]
+    }
+  ]
+}
