@@ -130,3 +130,5 @@ footer{padding:26px 5% 20px}.footer-bottom{margin-top:20px;padding-top:18px}foot
 .hero-carousel .hero-dots button{width:18px;min-width:18px}
 .hero-carousel .hero-dots button[aria-pressed="true"]:before{width:14px}
 @media(max-width:600px){.hero-product-caption{left:20px;right:20px;bottom:105px}.hero-product-caption strong{font-size:25px}.hero-carousel-footer{flex-wrap:wrap;justify-content:space-between}.hero-carousel .hero-dots{order:3;width:100%;padding-top:7px}.hero-carousel .hero-dots button{width:21px;min-width:21px}.hero-photo-code{font-size:9px}.hero-product-caption>span{font-size:9px}}
+/* Isolate a selected watch in an original comparison photograph. */
+.selection-photo{display:block;width:100%;height:100%;background-repeat:no-repeat;background-color:#e8e5de;pointer-events:none}.colour-slide .selection-photo{height:min(56vh,550px)}.colour-thumbs .selection-photo{width:52px;height:62px}@media(max-width:900px){.colour-thumbs .selection-photo{width:46px;height:56px}}@media(max-width:760px){.colour-slide .selection-photo{height:min(60vh,450px)}}
