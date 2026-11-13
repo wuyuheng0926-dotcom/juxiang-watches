@@ -53,3 +53,10 @@ footer{background:linear-gradient(145deg,#18271e,#0e1813);border-top-color:#c6ae
 .search-control{display:flex;align-items:stretch;border:1px solid #c6ae7c66;background:#0f1a15}.search-control input{min-width:0;flex:1;border:0;background:transparent;margin:0;padding:16px;color:var(--text);font-size:13px}.search-control input::-webkit-search-cancel-button{-webkit-appearance:none}.search-control button{border:0;border-left:1px solid #c6ae7c44;background:#c6ae7c;color:#17211b;padding:0 20px;font-size:10px;letter-spacing:1px;min-height:48px}.search-control #clearSearch{background:transparent;color:var(--gold);border:0;font-size:25px;padding:0 14px}.catalog-search p{margin:10px 0 0;color:var(--muted);font-size:11px;letter-spacing:.2px}
 .search-empty{text-align:center;padding:45px 24px;border:1px solid #c6ae7c40;background:#c6ae7c08}.search-empty h3{font-size:26px}.search-empty p{color:var(--muted);font-size:13px}
 @media(max-width:600px){.catalog-search{padding:18px 14px}.catalog-search label span{display:block;margin:8px 0 0}.search-control input{padding:14px 10px;font-size:12px}.search-control button{padding:0 10px;font-size:9px;letter-spacing:0}.catalog-search p{font-size:10px}}
+
+nav{gap:22px;align-items:center;flex-wrap:wrap}
+nav button{background:none;border:0;color:inherit;padding:0;font:inherit;cursor:pointer}nav button:hover{color:var(--gold)}
+.detail-navigation{display:flex;gap:24px;align-items:center;padding:0 32px 18px 0;margin-bottom:24px;border-bottom:1px solid #c6ae7c40;color:var(--gold);font-size:12px}
+.detail-navigation button{background:none;border:0;color:inherit;padding:8px 0;font:inherit}
+@media(max-width:1000px) and (min-width:601px){header{flex-wrap:wrap;gap:18px}header nav{order:3;width:100%;justify-content:center;gap:24px}}
+@media(max-width:600px){header nav{gap:14px 20px;justify-content:flex-start;line-height:1.6}header nav a,header nav button{font-size:11px;min-height:28px;display:inline-flex;align-items:center}.detail-navigation{gap:20px;font-size:11px}html{scroll-padding-top:155px}}

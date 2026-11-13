@@ -9,6 +9,65 @@ const $=id=>document.getElementById(id);
 const photoFiles=new Map();
 let activeBrand='All',activeSeries='All';
 
+let restoringNavigation = false, ignoredDetailCloses = 0;
+history.replaceState({ ...history.state, juxiang: true, depth: 0 }, '', location.href);
+function saveScroll() {
+  history.replaceState({ ...history.state, scrollY: window.scrollY }, '', location.href);
+}
+function navigateTo(url, mode = 'push', detailEntry = false) {
+  if (restoringNavigation) return;
+  if (url === location.pathname + location.search + location.hash) return;
+  saveScroll();
+  const depth = history.state?.depth || 0;
+  const state = { juxiang: true, depth: mode === 'push' ? depth + 1 : depth, detailEntry, scrollY: window.scrollY };
+  history[mode === 'push' ? 'pushState' : 'replaceState'](state, '', url);
+}
+function closeDetailQuietly() {
+  if ($('detail').open) { ignoredDetailCloses++; $('detail').close(); }
+}
+function syncCatalogControls() {
+  const input = $('productSearch');
+  if (input) input.value = searchTerm;
+  document.querySelectorAll('[data-brand]').forEach(b => {
+    b.classList.toggle('active', b.dataset.brand === activeBrand);
+    b.setAttribute('aria-pressed', String(b.dataset.brand === activeBrand));
+  });
+  seriesButtons(); render();
+}
+function goHome() {
+  closeDetailQuietly();
+  document.querySelectorAll('dialog[open]').forEach(d => d.close());
+  activeBrand = 'All'; activeSeries = 'All'; searchTerm = '';
+  syncCatalogControls();
+  navigateTo(location.pathname + '#home');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function goBack() {
+  const modal = document.querySelector('dialog[open]');
+  if (modal) { modal.close(); return; }
+  if (history.state?.juxiang && history.state.depth > 0) history.back();
+  else goHome();
+}
+function restoreNavigation() {
+  restoringNavigation = true;
+  closeDetailQuietly();
+  document.querySelectorAll('dialog[open]').forEach(d => d.close());
+  const params = new URLSearchParams(location.search);
+  searchTerm = params.get('q') || '';
+  activeBrand = products.some(p => p.brand === params.get('brand')) ? params.get('brand') : 'All';
+  activeSeries = products.some(p => p.family === params.get('series') && (activeBrand === 'All' || p.brand === activeBrand)) ? params.get('series') : 'All';
+  syncCatalogControls();
+  const id = params.get('design');
+  if (id) showProduct(id, false);
+  restoringNavigation = false;
+  requestAnimationFrame(() => {
+    if (typeof history.state?.scrollY === 'number') window.scrollTo({top:history.state.scrollY,behavior:'instant'});
+    else document.querySelector(location.hash === '#home' || !location.hash ? '.hero' : location.hash)?.scrollIntoView();
+  });
+}
+window.addEventListener('popstate', restoreNavigation);
+
+
 const brandSearchAliases = {
   'Rolex':'劳力士 勞力士 rolex',
   'Cartier':'卡地亚 卡地亞 cartier',
@@ -41,14 +100,14 @@ function matchesSearch(p, term) {
 let searchTerm = new URLSearchParams(location.search).get('q') || '';
 
 function render(){const list=products.filter(p=>(activeBrand==='All'||p.brand===activeBrand)&&(activeSeries==='All'||p.family===activeSeries)&&matchesSearch(p,searchTerm));$('resultCount').textContent=list.length+' photo entries'+(searchTerm.trim()?' · Search / 搜索：'+searchTerm.trim():''); $('searchEmpty').hidden=list.length!==0; $('clearSearch').hidden=!searchTerm;  $('products').replaceChildren(...list.map(p=>{const b=document.createElement('button');b.className='product';b.setAttribute('aria-label','Explore '+p.name);b.innerHTML=`<div class="product-art"><img src="assets/${esc(p.image)}.jpg" alt="Uploaded watch photograph ${esc(p.id)}" loading="lazy"><small>${esc(p.id)} / UPLOADED PHOTO</small></div><div class="product-info"><p>${esc(p.brand.toUpperCase())} · ${esc(p.category.toUpperCase())}</p><h3>${esc(p.family)}</h3><span class="product-code">Product code / 编号：${esc(p.id)}</span><span class="name-zh">${esc(p.nameZh)}</span><span>${esc(p.tone)}</span><span class="card-size">Family size reference: ${esc(p.sizeReference)}</span><p class="identification">Visual identification · actual size unmeasured</p><span class="arrow">↗</span></div>`;b.onclick=()=>showProduct(p.id);return b}));}
-function showProduct(id){const p=products.find(x=>x.id===id);if(!p)return;$('detailBody').innerHTML=`<div class="detail-layout"><img src="assets/${esc(p.image)}.jpg" alt="${esc(p.name)} uploaded watch photograph"><div><p class="eyebrow">PRODUCT CODE / 产品编号：${esc(p.id)}</p><h2>${esc(p.family)}</h2><p class="detail-chinese">${esc(p.nameZh)}</p><p class="eyebrow">${esc(p.tone)}</p><p>${esc(p.description)}</p><h3 class="feature-heading">Design highlights</h3><ul class="feature-list">${p.features.map(f=>`<li>${esc(f)}</li>`).join('')}</ul><div class="spec"><strong>Product code / 产品编号</strong><span class="sku-value">${esc(p.id)}</span></div><div class="spec"><strong>Identification</strong><span>Provisional visual family comparison${p.multi?' · multiple watches in photo':''}</span></div><div class="spec"><strong>Official family size reference</strong><span>${esc(p.sizeReference)}</span></div><div class="spec"><strong>Actual photographed watch size</strong><span>Not measured — request confirmation</span></div><div class="spec"><strong>Reference / movement / materials</strong><span>Not verified</span></div><div class="spec"><strong>Price & availability</strong><span>Request a confirmed quote</span></div><p class="size-note">Family sizes describe official ${esc(p.brand)} models for comparison only. They do not confirm the size, generation, authenticity or specifications of the photographed item. Earlier generations may differ.</p><p class="muted">User-supplied photograph. Brand markings remain as photographed; no affiliation, authorised retailer status or authenticity is claimed. Confirm the actual item before ordering.</p><a class="button" href="${esc(buildContactUrl(CONTACT_URL,makeEnquiryText(productEnquiryFields(p,location.origin))))}" target="_blank" rel="noopener noreferrer">WHATSAPP ENQUIRY ↗</a><button class="button share-photo" id="productShare" disabled>PREPARING PHOTO…</button><a class="text-link" href="/assets/${esc(p.image)}.jpg" download="${esc(p.id)}.jpg">Download photo ↓</a><p class="share-hint">To send the actual photo: choose WhatsApp in your phone’s share menu, then select our chat (+86 199 2235 3655). The enquiry link includes the photo URL.</p><p id="productShareStatus" class="share-hint" role="status"></p><button class="text-link" id="productEnquire">Add enquiry details ↗</button></div></div>`;$('productEnquire').onclick=()=>{$('detail').close();openEnquiry(p.id+' '+p.name,'Retail')};$('detail').showModal();updateUrl(id);readyPhotoButton(p,$('productShare'),$('productShareStatus'),()=>productEnquiryFields(p,location.origin));}
+function showProduct(id,recordHistory=true){const p=products.find(x=>x.id===id);if(!p)return;$('detailBody').innerHTML=`<div class="detail-layout"><img src="assets/${esc(p.image)}.jpg" alt="${esc(p.name)} uploaded watch photograph"><div><p class="eyebrow">PRODUCT CODE / 产品编号：${esc(p.id)}</p><h2>${esc(p.family)}</h2><p class="detail-chinese">${esc(p.nameZh)}</p><p class="eyebrow">${esc(p.tone)}</p><p>${esc(p.description)}</p><h3 class="feature-heading">Design highlights</h3><ul class="feature-list">${p.features.map(f=>`<li>${esc(f)}</li>`).join('')}</ul><div class="spec"><strong>Product code / 产品编号</strong><span class="sku-value">${esc(p.id)}</span></div><div class="spec"><strong>Identification</strong><span>Provisional visual family comparison${p.multi?' · multiple watches in photo':''}</span></div><div class="spec"><strong>Official family size reference</strong><span>${esc(p.sizeReference)}</span></div><div class="spec"><strong>Actual photographed watch size</strong><span>Not measured — request confirmation</span></div><div class="spec"><strong>Reference / movement / materials</strong><span>Not verified</span></div><div class="spec"><strong>Price & availability</strong><span>Request a confirmed quote</span></div><p class="size-note">Family sizes describe official ${esc(p.brand)} models for comparison only. They do not confirm the size, generation, authenticity or specifications of the photographed item. Earlier generations may differ.</p><p class="muted">User-supplied photograph. Brand markings remain as photographed; no affiliation, authorised retailer status or authenticity is claimed. Confirm the actual item before ordering.</p><a class="button" href="${esc(buildContactUrl(CONTACT_URL,makeEnquiryText(productEnquiryFields(p,location.origin))))}" target="_blank" rel="noopener noreferrer">WHATSAPP ENQUIRY ↗</a><button class="button share-photo" id="productShare" disabled>PREPARING PHOTO…</button><a class="text-link" href="/assets/${esc(p.image)}.jpg" download="${esc(p.id)}.jpg">Download photo ↓</a><p class="share-hint">To send the actual photo: choose WhatsApp in your phone’s share menu, then select our chat (+86 199 2235 3655). The enquiry link includes the photo URL.</p><p id="productShareStatus" class="share-hint" role="status"></p><button class="text-link" id="productEnquire">Add enquiry details ↗</button></div></div>`;$('productEnquire').onclick=()=>{closeDetailQuietly();updateUrl(undefined,'replace');openEnquiry(p.id+' '+p.name,'Retail')};$('detail').showModal();if(recordHistory)updateUrl(id);readyPhotoButton(p,$('productShare'),$('productShareStatus'),()=>productEnquiryFields(p,location.origin));}
 function openEnquiry(selection,type){$('selection').value=selection;$('type').value=type;$('quantity').value=1;$('copyStatus').textContent='';$('copyFallback').hidden=true;$('enquiry').showModal();updateContactLink();updateEnquiryPhoto();}
-function updateUrl(design){const q=new URLSearchParams();if(searchTerm.trim())q.set('q',searchTerm.trim());if(activeBrand!=='All')q.set('brand',activeBrand);if(activeSeries!=='All')q.set('series',activeSeries);if(design)q.set('design',design);history.replaceState(null,'',location.pathname+(q.size?'?'+q.toString():'')+'#collection');}
+function updateUrl(design,mode='push'){const q=new URLSearchParams();if(searchTerm.trim())q.set('q',searchTerm.trim());if(activeBrand!=='All')q.set('brand',activeBrand);if(activeSeries!=='All')q.set('series',activeSeries);if(design)q.set('design',design);navigateTo(location.pathname+(q.size?'?'+q.toString():'')+'#collection',mode,!!design);}
 function seriesButtons(){const host=$('seriesFilters');host.replaceChildren();const families=[...new Set(products.filter(p=>activeBrand==='All'||p.brand===activeBrand).map(p=>p.family))];['All',...families].forEach(f=>{const b=document.createElement('button');b.textContent=f==='All'?'All series':f;b.classList.toggle('active',f===activeSeries);b.setAttribute('aria-pressed',String(f===activeSeries));b.onclick=()=>{activeSeries=f;seriesButtons();render();updateUrl()};host.append(b)})}
 const brandHost=document.querySelector('.brand-filters');brandHost.replaceChildren();['All',...new Set(products.map(p=>p.brand))].forEach(brand=>{const b=document.createElement('button');b.dataset.brand=brand;b.textContent=brand==='All'?'All brands':brand;brandHost.append(b)});
 document.querySelectorAll('[data-brand]').forEach(b=>b.onclick=()=>{activeBrand=b.dataset.brand;activeSeries='All';document.querySelectorAll('[data-brand]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b))});seriesButtons();render();updateUrl()});
 $('enquiryForm').onsubmit=async e=>{e.preventDefault();const text=makeEnquiryText(enquiryFields());try{await navigator.clipboard.writeText(text);$('copyStatus').textContent='Enquiry copied. Keep it for later — no message has been sent.'}catch{$('copyFallback').hidden=false;$('copyFallback').value=text;$('copyFallback').select();$('copyStatus').textContent='Select and copy the text below. No message has been sent.'}};
-$('detail').addEventListener('close',()=>{updateUrl()});document.querySelectorAll('dialog').forEach(d=>d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}}));$('year').textContent=new Date().getFullYear();const query=new URLSearchParams(location.search);if(products.some(p=>p.brand===query.get('brand')))activeBrand=query.get('brand');if(products.some(p=>p.family===query.get('series')&&(activeBrand==='All'||p.brand===activeBrand)))activeSeries=query.get('series');document.querySelectorAll('[data-brand]').forEach(b=>{b.classList.toggle('active',b.dataset.brand===activeBrand);b.setAttribute('aria-pressed',String(b.dataset.brand===activeBrand))});seriesButtons();render();const selected=query.get('design');if(selected)showProduct(selected);
+$('detail').addEventListener('close',()=>{if(ignoredDetailCloses){ignoredDetailCloses--;return;}if(!new URLSearchParams(location.search).has('design'))return;if(history.state?.detailEntry)history.back();else updateUrl(undefined,'replace');});document.querySelectorAll('dialog').forEach(d=>d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}}));$('year').textContent=new Date().getFullYear();const query=new URLSearchParams(location.search);if(products.some(p=>p.brand===query.get('brand')))activeBrand=query.get('brand');if(products.some(p=>p.family===query.get('series')&&(activeBrand==='All'||p.brand===activeBrand)))activeSeries=query.get('series');document.querySelectorAll('[data-brand]').forEach(b=>{b.classList.toggle('active',b.dataset.brand===activeBrand);b.setAttribute('aria-pressed',String(b.dataset.brand===activeBrand))});seriesButtons();render();const selected=query.get('design');if(selected)showProduct(selected,false);
 
 document.querySelectorAll('[data-close-dialog]').forEach(b=>b.onclick=()=>b.closest('dialog').close());
 document.querySelector('[data-open-privacy]').onclick=()=>$('privacy').showModal();
@@ -67,6 +126,7 @@ function updateEnquiryPhoto(){const p=enquiryProduct();$('enquiryPhoto').hidden=
 
 const searchInput = $('productSearch');
 searchInput.value = searchTerm;
+let searchNavigationTimer;
 function runSearch() {
   searchTerm = searchInput.value;
   activeBrand = 'All'; activeSeries = 'All';
@@ -74,9 +134,24 @@ function runSearch() {
     b.classList.toggle('active', b.dataset.brand === 'All');
     b.setAttribute('aria-pressed', String(b.dataset.brand === 'All'));
   });
-  seriesButtons(); render(); updateUrl();
+  seriesButtons(); render(); updateUrl(undefined,searchNavigationTimer?'replace':'push');
+  clearTimeout(searchNavigationTimer);searchNavigationTimer=setTimeout(()=>{searchNavigationTimer=null;},800);
 }
 searchInput.addEventListener('input', runSearch);
 $('catalogSearch').addEventListener('submit', e => { e.preventDefault(); runSearch(); });
 $('clearSearch').onclick = () => { searchInput.value=''; runSearch(); searchInput.focus(); };
 $('resetSearch').onclick = () => { searchInput.value=''; runSearch(); searchInput.focus(); };
+
+document.querySelectorAll('[data-go-home],header .brand').forEach(a => a.addEventListener('click',e=>{e.preventDefault();goHome();}));
+document.querySelectorAll('[data-go-back]').forEach(b => b.addEventListener('click',goBack));
+document.querySelectorAll('a[href^="#"]:not([data-go-home]):not(.brand)').forEach(a=>a.addEventListener('click',e=>{
+  const target=document.getElementById(a.getAttribute('href').slice(1));
+  if(!target)return;
+  e.preventDefault();saveScroll();
+  navigateTo(location.pathname+location.search+a.getAttribute('href'));
+  target.scrollIntoView({behavior:'smooth'});
+}));
+
+history.scrollRestoration = 'manual';
+let scrollSaveTimer;
+window.addEventListener('scroll',()=>{clearTimeout(scrollSaveTimer);scrollSaveTimer=setTimeout(saveScroll,180);},{passive:true});
