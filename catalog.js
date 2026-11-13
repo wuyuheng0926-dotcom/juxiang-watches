@@ -5143,6 +5143,11 @@ const products = [
             "image": "rolex-025",
             "alt": "Datejust · Blue baton · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-432",
+            "alt": "Datejust · Blue baton · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -5398,6 +5403,56 @@ const products = [
             "image": "rolex-104",
             "alt": "Datejust · White Roman · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-370",
+            "alt": "Datejust · White Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-371",
+            "alt": "Datejust · White Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-372",
+            "alt": "Datejust · White Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-373",
+            "alt": "Datejust · White Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-374",
+            "alt": "Datejust · White Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-375",
+            "alt": "Datejust · White Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-376",
+            "alt": "Datejust · White Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-377",
+            "alt": "Datejust · White Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-378",
+            "alt": "Datejust · White Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-437",
+            "alt": "Datejust · White Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -5638,6 +5693,36 @@ const products = [
             "image": "rolex-099",
             "alt": "Datejust · Black decorative markers · Yellow two-tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-173",
+            "alt": "Datejust · Black decorative markers · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-174",
+            "alt": "Datejust · Black decorative markers · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-175",
+            "alt": "Datejust · Black decorative markers · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-176",
+            "alt": "Datejust · Black decorative markers · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-177",
+            "alt": "Datejust · Black decorative markers · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-178",
+            "alt": "Datejust · Black decorative markers · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -5898,6 +5983,11 @@ const products = [
             "image": "rolex-226",
             "alt": "Datejust · Black baton · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-433",
+            "alt": "Datejust · Black baton · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -5953,6 +6043,66 @@ const products = [
             "image": "rolex-385",
             "alt": "Datejust · Blue decorative markers · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-185",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-186",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-187",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-188",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-189",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-190",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-247",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-248",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-249",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-250",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-251",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-252",
+            "alt": "Datejust · Blue decorative markers · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -6228,11 +6378,327 @@ const products = [
             "image": "rolex-728",
             "alt": "Datejust · Pink decorative dial · Silver tone · Small · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-002",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-004",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-006",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-007",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-009",
+            "alt": "Datejust · Pink decorative dial · Silver tone · Small · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
+      },
+      {
+        "key": "v31",
+        "label": "Silver decorative dial and bezel",
+        "labelZh": "银色装饰盘及表圈",
+        "image": "rolex2-164",
+        "photos": [
+          {
+            "image": "rolex2-164",
+            "label": "Silver decorative dial and bezel",
+            "labelZh": "银色装饰盘及表圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-165",
+            "alt": "Datejust · Silver decorative dial and bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-166",
+            "alt": "Datejust · Silver decorative dial and bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v32",
+        "label": "Yellow decorative dial and bezel",
+        "labelZh": "金色装饰盘及表圈",
+        "image": "rolex2-167",
+        "photos": [
+          {
+            "image": "rolex2-167",
+            "label": "Yellow decorative dial and bezel",
+            "labelZh": "金色装饰盘及表圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-168",
+            "alt": "Datejust · Yellow decorative dial and bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-169",
+            "alt": "Datejust · Yellow decorative dial and bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-170",
+            "alt": "Datejust · Yellow decorative dial and bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-171",
+            "alt": "Datejust · Yellow decorative dial and bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-172",
+            "alt": "Datejust · Yellow decorative dial and bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v33",
+        "label": "Blue Roman · Silver tone",
+        "labelZh": "蓝盘罗马字 · 银色",
+        "image": "rolex2-179",
+        "photos": [
+          {
+            "image": "rolex2-179",
+            "label": "Blue Roman · Silver tone",
+            "labelZh": "蓝盘罗马字 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-180",
+            "alt": "Datejust · Blue Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-181",
+            "alt": "Datejust · Blue Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-182",
+            "alt": "Datejust · Blue Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-183",
+            "alt": "Datejust · Blue Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-184",
+            "alt": "Datejust · Blue Roman · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v34",
+        "label": "Pink decorative markers · Silver fluted bezel",
+        "labelZh": "粉盘装饰刻度 · 银色牙圈",
+        "image": "rolex2-262",
+        "photos": [
+          {
+            "image": "rolex2-262",
+            "label": "Pink decorative markers · Silver fluted bezel",
+            "labelZh": "粉盘装饰刻度 · 银色牙圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-263",
+            "alt": "Datejust · Pink decorative markers · Silver fluted bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-264",
+            "alt": "Datejust · Pink decorative markers · Silver fluted bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-265",
+            "alt": "Datejust · Pink decorative markers · Silver fluted bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-266",
+            "alt": "Datejust · Pink decorative markers · Silver fluted bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-267",
+            "alt": "Datejust · Pink decorative markers · Silver fluted bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-268",
+            "alt": "Datejust · Pink decorative markers · Silver fluted bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-269",
+            "alt": "Datejust · Pink decorative markers · Silver fluted bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-270",
+            "alt": "Datejust · Pink decorative markers · Silver fluted bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v35",
+        "label": "Fully decorative silver appearance",
+        "labelZh": "银色全装饰外观",
+        "image": "rolex2-307",
+        "photos": [
+          {
+            "image": "rolex2-307",
+            "label": "Fully decorative silver appearance",
+            "labelZh": "银色全装饰外观"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-308",
+            "alt": "Datejust · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-309",
+            "alt": "Datejust · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-310",
+            "alt": "Datejust · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-311",
+            "alt": "Datejust · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-312",
+            "alt": "Datejust · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-313",
+            "alt": "Datejust · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-314",
+            "alt": "Datejust · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-315",
+            "alt": "Datejust · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v36",
+        "label": "Green baton · Silver tone",
+        "labelZh": "绿盘条钉 · 银色",
+        "image": "rolex2-434",
+        "photos": [
+          {
+            "image": "rolex2-434",
+            "label": "Green baton · Silver tone",
+            "labelZh": "绿盘条钉 · 银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v37",
+        "label": "Grey striped baton · Silver tone",
+        "labelZh": "灰色纹理盘条钉 · 银色",
+        "image": "rolex2-435",
+        "photos": [
+          {
+            "image": "rolex2-435",
+            "label": "Grey striped baton · Silver tone",
+            "labelZh": "灰色纹理盘条钉 · 银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v38",
+        "label": "Ice blue baton · Silver tone",
+        "labelZh": "冰蓝盘条钉 · 银色",
+        "image": "rolex2-436",
+        "photos": [
+          {
+            "image": "rolex2-436",
+            "label": "Ice blue baton · Silver tone",
+            "labelZh": "冰蓝盘条钉 · 银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v39",
+        "label": "White baton · Silver tone",
+        "labelZh": "白盘条钉 · 银色",
+        "image": "rolex2-438",
+        "photos": [
+          {
+            "image": "rolex2-438",
+            "label": "White baton · Silver tone",
+            "labelZh": "白盘条钉 · 银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v40",
+        "label": "White striped Roman · Silver tone",
+        "labelZh": "白色纹理盘罗马字 · 银色",
+        "image": "rolex2-439",
+        "photos": [
+          {
+            "image": "rolex2-439",
+            "label": "White striped Roman · Silver tone",
+            "labelZh": "白色纹理盘罗马字 · 银色"
+          }
+        ],
+        "detailImages": []
       }
     ],
-    "referencePhotos": [],
+    "referencePhotos": [
+      {
+        "image": "rolex2-440",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      }
+    ],
     "detailImages": []
   },
   {
@@ -6343,11 +6809,192 @@ const products = [
             "image": "rolex-701",
             "alt": "Yacht-Master · Grey dial · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-039",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-040",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-041",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-042",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-043",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-044",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-617",
+            "alt": "Yacht-Master · Grey dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver tone",
+        "labelZh": "蓝盘 · 银色",
+        "image": "rolex2-352",
+        "photos": [
+          {
+            "image": "rolex2-352",
+            "label": "Blue dial · Silver tone",
+            "labelZh": "蓝盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-353",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-354",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-355",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-356",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-357",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-358",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-359",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-360",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-573",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-574",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-575",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-576",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-577",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-578",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-579",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-580",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-581",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-618",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-619",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-620",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-621",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-622",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-623",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-624",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-625",
+            "alt": "Yacht-Master · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       }
     ],
-    "referencePhotos": [],
+    "referencePhotos": [
+      {
+        "image": "rolex2-349",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      }
+    ],
     "detailImages": []
   },
   {
@@ -6483,6 +7130,51 @@ const products = [
             "image": "rolex-391",
             "alt": "Oyster Perpetual · Turquoise · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-513",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-514",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-515",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-516",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-517",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-518",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-519",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-520",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-521",
+            "alt": "Oyster Perpetual · Turquoise · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       }
@@ -6633,6 +7325,96 @@ const products = [
             "image": "rolex-148",
             "alt": "Cosmograph Daytona · Green dial · Yellow tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-397",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-398",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-399",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-400",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-401",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-402",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-403",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-404",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-405",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-477",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-478",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-479",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-480",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-481",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-482",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-483",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-484",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-485",
+            "alt": "Cosmograph Daytona · Green dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -6768,6 +7550,51 @@ const products = [
             "image": "rolex-737",
             "alt": "Cosmograph Daytona · White dial · Black bezel · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-423",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-424",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-425",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-426",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-427",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-428",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-429",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-430",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-431",
+            "alt": "Cosmograph Daytona · White dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -6918,6 +7745,96 @@ const products = [
             "image": "rolex-528",
             "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-537",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-538",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-539",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-540",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-541",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-542",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-543",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-544",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-545",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-582",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-583",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-584",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-585",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-586",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-587",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-588",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-589",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-590",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -6963,6 +7880,96 @@ const products = [
             "image": "rolex-582",
             "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-107",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-108",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-109",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-110",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-111",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-112",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-113",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-114",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-115",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-504",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-505",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-506",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-507",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-508",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-509",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-510",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-511",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-512",
+            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -7048,6 +8055,36 @@ const products = [
             "image": "rolex-710",
             "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-083",
+            "alt": "Cosmograph Daytona · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-084",
+            "alt": "Cosmograph Daytona · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-085",
+            "alt": "Cosmograph Daytona · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-086",
+            "alt": "Cosmograph Daytona · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-087",
+            "alt": "Cosmograph Daytona · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-088",
+            "alt": "Cosmograph Daytona · Blue dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -7063,7 +8100,53 @@ const products = [
             "labelZh": "黑盘黑圈 · 套装实拍"
           }
         ],
-        "detailImages": []
+        "detailImages": [
+          {
+            "image": "rolex2-600",
+            "alt": "Cosmograph Daytona · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-601",
+            "alt": "Cosmograph Daytona · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-602",
+            "alt": "Cosmograph Daytona · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-603",
+            "alt": "Cosmograph Daytona · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-604",
+            "alt": "Cosmograph Daytona · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-605",
+            "alt": "Cosmograph Daytona · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-606",
+            "alt": "Cosmograph Daytona · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-607",
+            "alt": "Cosmograph Daytona · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-608",
+            "alt": "Cosmograph Daytona · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
       },
       {
         "key": "v12",
@@ -7117,11 +8200,365 @@ const products = [
             "image": "rolex-692",
             "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-316",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-317",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-318",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-319",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-320",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-321",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-322",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-323",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v13",
+        "label": "Black dial · Silver bezel",
+        "labelZh": "黑盘 · 银色表圈",
+        "image": "rolex2-089",
+        "photos": [
+          {
+            "image": "rolex2-089",
+            "label": "Black dial · Silver bezel",
+            "labelZh": "黑盘 · 银色表圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-090",
+            "alt": "Cosmograph Daytona · Black dial · Silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-091",
+            "alt": "Cosmograph Daytona · Black dial · Silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-092",
+            "alt": "Cosmograph Daytona · Black dial · Silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-093",
+            "alt": "Cosmograph Daytona · Black dial · Silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-094",
+            "alt": "Cosmograph Daytona · Black dial · Silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v14",
+        "label": "White dial · Silver bezel",
+        "labelZh": "白盘 · 银色表圈",
+        "image": "rolex2-095",
+        "photos": [
+          {
+            "image": "rolex2-095",
+            "label": "White dial · Silver bezel",
+            "labelZh": "白盘 · 银色表圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-096",
+            "alt": "Cosmograph Daytona · White dial · Silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-097",
+            "alt": "Cosmograph Daytona · White dial · Silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-098",
+            "alt": "Cosmograph Daytona · White dial · Silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-099",
+            "alt": "Cosmograph Daytona · White dial · Silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-100",
+            "alt": "Cosmograph Daytona · White dial · Silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v15",
+        "label": "Black dial · Decorative silver bezel",
+        "labelZh": "黑盘 · 银色装饰圈",
+        "image": "rolex2-211",
+        "photos": [
+          {
+            "image": "rolex2-211",
+            "label": "Black dial · Decorative silver bezel",
+            "labelZh": "黑盘 · 银色装饰圈"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-212",
+            "alt": "Cosmograph Daytona · Black dial · Decorative silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-213",
+            "alt": "Cosmograph Daytona · Black dial · Decorative silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-214",
+            "alt": "Cosmograph Daytona · Black dial · Decorative silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-215",
+            "alt": "Cosmograph Daytona · Black dial · Decorative silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-216",
+            "alt": "Cosmograph Daytona · Black dial · Decorative silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-217",
+            "alt": "Cosmograph Daytona · Black dial · Decorative silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-218",
+            "alt": "Cosmograph Daytona · Black dial · Decorative silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-219",
+            "alt": "Cosmograph Daytona · Black dial · Decorative silver bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v16",
+        "label": "Pink decorative dial · Rainbow · Rose tone",
+        "labelZh": "粉色装饰盘 · 彩虹圈 · 玫瑰金色",
+        "image": "rolex2-253",
+        "photos": [
+          {
+            "image": "rolex2-253",
+            "label": "Pink decorative dial · Rainbow · Rose tone",
+            "labelZh": "粉色装饰盘 · 彩虹圈 · 玫瑰金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-254",
+            "alt": "Cosmograph Daytona · Pink decorative dial · Rainbow · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-255",
+            "alt": "Cosmograph Daytona · Pink decorative dial · Rainbow · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-256",
+            "alt": "Cosmograph Daytona · Pink decorative dial · Rainbow · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-257",
+            "alt": "Cosmograph Daytona · Pink decorative dial · Rainbow · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-258",
+            "alt": "Cosmograph Daytona · Pink decorative dial · Rainbow · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-259",
+            "alt": "Cosmograph Daytona · Pink decorative dial · Rainbow · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-260",
+            "alt": "Cosmograph Daytona · Pink decorative dial · Rainbow · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-261",
+            "alt": "Cosmograph Daytona · Pink decorative dial · Rainbow · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v17",
+        "label": "Black dial · Yellow two-tone",
+        "labelZh": "黑盘 · 金银双色",
+        "image": "rolex2-421",
+        "photos": [
+          {
+            "image": "rolex2-421",
+            "label": "Black dial · Yellow two-tone",
+            "labelZh": "黑盘 · 金银双色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v18",
+        "label": "White dial · Yellow two-tone",
+        "labelZh": "白盘 · 金银双色",
+        "image": "rolex2-422",
+        "photos": [
+          {
+            "image": "rolex2-422",
+            "label": "White dial · Yellow two-tone",
+            "labelZh": "白盘 · 金银双色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v19",
+        "label": "Champagne dial · Yellow tone",
+        "labelZh": "香槟盘 · 金色",
+        "image": "rolex2-468",
+        "photos": [
+          {
+            "image": "rolex2-468",
+            "label": "Champagne dial · Yellow tone",
+            "labelZh": "香槟盘 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-469",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-470",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-471",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-472",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-473",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-474",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-475",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-476",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       }
     ],
-    "referencePhotos": [],
+    "referencePhotos": [
+      {
+        "image": "rolex2-324",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-414",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-415",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-416",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-417",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-418",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-419",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-420",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      }
+    ],
     "detailImages": []
   },
   {
@@ -7177,6 +8614,61 @@ const products = [
             "image": "rolex-116",
             "alt": "Sky-Dweller · Black dial · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Yellow two-tone",
+        "labelZh": "白盘 · 金银双色",
+        "image": "rolex2-220",
+        "photos": [
+          {
+            "image": "rolex2-220",
+            "label": "White dial · Yellow two-tone",
+            "labelZh": "白盘 · 金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-221",
+            "alt": "Sky-Dweller · White dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-222",
+            "alt": "Sky-Dweller · White dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-223",
+            "alt": "Sky-Dweller · White dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-224",
+            "alt": "Sky-Dweller · White dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-225",
+            "alt": "Sky-Dweller · White dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-226",
+            "alt": "Sky-Dweller · White dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-227",
+            "alt": "Sky-Dweller · White dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-228",
+            "alt": "Sky-Dweller · White dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       }
@@ -7267,6 +8759,36 @@ const products = [
             "image": "rolex-495",
             "alt": "Day-Date · Green decorative markers · Yellow tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-343",
+            "alt": "Day-Date · Green decorative markers · Yellow tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-344",
+            "alt": "Day-Date · Green decorative markers · Yellow tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-345",
+            "alt": "Day-Date · Green decorative markers · Yellow tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-346",
+            "alt": "Day-Date · Green decorative markers · Yellow tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-347",
+            "alt": "Day-Date · Green decorative markers · Yellow tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-348",
+            "alt": "Day-Date · Green decorative markers · Yellow tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -7464,6 +8986,89 @@ const products = [
             "caption": "Product detail / 产品细节"
           }
         ]
+      },
+      {
+        "key": "v6",
+        "label": "Blue dial · Silver tone",
+        "labelZh": "蓝盘 · 银色",
+        "image": "rolex2-350",
+        "photos": [
+          {
+            "image": "rolex2-350",
+            "label": "Blue dial · Silver tone",
+            "labelZh": "蓝盘 · 银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Brown dial · Rose tone",
+        "labelZh": "棕盘 · 玫瑰金色",
+        "image": "rolex2-351",
+        "photos": [
+          {
+            "image": "rolex2-351",
+            "label": "Brown dial · Rose tone",
+            "labelZh": "棕盘 · 玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "White textured baton · Yellow tone",
+        "labelZh": "白色纹理盘条钉 · 金色",
+        "image": "rolex2-644",
+        "photos": [
+          {
+            "image": "rolex2-644",
+            "label": "White textured baton · Yellow tone",
+            "labelZh": "白色纹理盘条钉 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-645",
+            "alt": "Day-Date · White textured Roman · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-646",
+            "alt": "Day-Date · White textured Roman · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-647",
+            "alt": "Day-Date · White textured Roman · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-648",
+            "alt": "Day-Date · White textured Roman · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-649",
+            "alt": "Day-Date · White textured Roman · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-650",
+            "alt": "Day-Date · White textured Roman · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-651",
+            "alt": "Day-Date · White textured Roman · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-652",
+            "alt": "Day-Date · White textured Roman · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
       }
     ],
     "referencePhotos": [],
@@ -7597,6 +9202,31 @@ const products = [
             "image": "rolex-157",
             "alt": "Submariner · Black dial · Yellow two-tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-126",
+            "alt": "Submariner · Black dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-127",
+            "alt": "Submariner · Black dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-128",
+            "alt": "Submariner · Black dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-129",
+            "alt": "Submariner · Black dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-130",
+            "alt": "Submariner · Black dial · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -7682,6 +9312,146 @@ const products = [
             "image": "rolex-667",
             "alt": "Submariner · Green dial · Green bezel · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-123",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-238",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-239",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-240",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-241",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-242",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-243",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-244",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-245",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-246",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-298",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-299",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-300",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-301",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-302",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-303",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-304",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-305",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-306",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-626",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-627",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-628",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-629",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-630",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-631",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-632",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-633",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-634",
+            "alt": "Submariner · Green dial · Green bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -7822,6 +9592,81 @@ const products = [
             "image": "rolex-640",
             "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-116",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-117",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-118",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-119",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-120",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-121",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-137",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-138",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-139",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-140",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-141",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-142",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-143",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-144",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-145",
+            "alt": "Submariner · Black dial · Black bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -7877,6 +9722,51 @@ const products = [
             "image": "rolex-457",
             "alt": "Submariner · Green bezel · Stone-set silver look · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-271",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-272",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-273",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-274",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-275",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-276",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-277",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-278",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-279",
+            "alt": "Submariner · Green bezel · Stone-set silver look · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -7932,6 +9822,271 @@ const products = [
             "image": "rolex-592",
             "alt": "Submariner · Blue dial · Blue bezel · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-124",
+            "alt": "Submariner · Blue dial · Blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v7",
+        "label": "Blue dial · Yellow tone",
+        "labelZh": "蓝盘蓝圈 · 金色",
+        "image": "rolex2-025",
+        "photos": [
+          {
+            "image": "rolex2-025",
+            "label": "Blue dial · Yellow tone",
+            "labelZh": "蓝盘蓝圈 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-026",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-027",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-028",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-029",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-030",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-229",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-230",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-231",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-232",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-233",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-234",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-235",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-236",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-237",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-450",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-451",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-452",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-453",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-454",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-455",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-456",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-457",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-458",
+            "alt": "Submariner · Blue dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v8",
+        "label": "Black dial · Yellow tone",
+        "labelZh": "黑盘黑圈 · 金色",
+        "image": "rolex2-122",
+        "photos": [
+          {
+            "image": "rolex2-122",
+            "label": "Black dial · Yellow tone",
+            "labelZh": "黑盘黑圈 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-125",
+            "alt": "Submariner · Black dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v9",
+        "label": "Blue dial · Blue bezel · Yellow two-tone",
+        "labelZh": "蓝盘蓝圈 · 金银双色",
+        "image": "rolex2-379",
+        "photos": [
+          {
+            "image": "rolex2-379",
+            "label": "Blue dial · Blue bezel · Yellow two-tone",
+            "labelZh": "蓝盘蓝圈 · 金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-380",
+            "alt": "Submariner · Blue dial · Blue bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-381",
+            "alt": "Submariner · Blue dial · Blue bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-382",
+            "alt": "Submariner · Blue dial · Blue bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-383",
+            "alt": "Submariner · Blue dial · Blue bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-384",
+            "alt": "Submariner · Blue dial · Blue bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-385",
+            "alt": "Submariner · Blue dial · Blue bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-386",
+            "alt": "Submariner · Blue dial · Blue bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-387",
+            "alt": "Submariner · Blue dial · Blue bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v10",
+        "label": "Black dial · Decorative bezel · Silver tone",
+        "labelZh": "黑盘装饰圈 · 银色",
+        "image": "rolex2-495",
+        "photos": [
+          {
+            "image": "rolex2-495",
+            "label": "Black dial · Decorative bezel · Silver tone",
+            "labelZh": "黑盘装饰圈 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-496",
+            "alt": "Submariner · Black dial · Decorative bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-497",
+            "alt": "Submariner · Black dial · Decorative bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-498",
+            "alt": "Submariner · Black dial · Decorative bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-499",
+            "alt": "Submariner · Black dial · Decorative bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-500",
+            "alt": "Submariner · Black dial · Decorative bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-501",
+            "alt": "Submariner · Black dial · Decorative bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-502",
+            "alt": "Submariner · Black dial · Decorative bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-503",
+            "alt": "Submariner · Black dial · Decorative bezel · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       }
@@ -8177,6 +10332,96 @@ const products = [
             "image": "rolex-631",
             "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-191",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-192",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-193",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-194",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-195",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-196",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-197",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-198",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-199",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-334",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-335",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-336",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-337",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-338",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-339",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-340",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-341",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-342",
+            "alt": "Yacht-Master · Black dial · Rose tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -8292,6 +10537,36 @@ const products = [
             "image": "rolex-468",
             "alt": "Yacht-Master · Black dial · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-101",
+            "alt": "Yacht-Master · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-102",
+            "alt": "Yacht-Master · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-103",
+            "alt": "Yacht-Master · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-104",
+            "alt": "Yacht-Master · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-105",
+            "alt": "Yacht-Master · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-106",
+            "alt": "Yacht-Master · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -8347,11 +10622,97 @@ const products = [
             "image": "rolex-658",
             "alt": "Yacht-Master · Black dial · Rainbow bezel · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-032",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-033",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-034",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-035",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-036",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-037",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-038",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-555",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-556",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-557",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-558",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-559",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-560",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-561",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-562",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-563",
+            "alt": "Yacht-Master · Black dial · Rainbow bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       }
     ],
-    "referencePhotos": [],
+    "referencePhotos": [
+      {
+        "image": "rolex2-031",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      }
+    ],
     "detailImages": []
   },
   {
@@ -8407,6 +10768,11 @@ const products = [
             "image": "rolex-184",
             "alt": "Cosmograph Daytona · Black dial · Yellow tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-459",
+            "alt": "Cosmograph Daytona · Black dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -8477,6 +10843,11 @@ const products = [
             "image": "rolex-480",
             "alt": "Cosmograph Daytona · Silver dial · Black counters · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-463",
+            "alt": "Cosmograph Daytona · Silver dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -8552,6 +10923,106 @@ const products = [
             "image": "rolex-598",
             "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-325",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-326",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-327",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-328",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-329",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-330",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-331",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-332",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-333",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-460",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-467",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-591",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-592",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-593",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-594",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-595",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-596",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-597",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-598",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-599",
+            "alt": "Cosmograph Daytona · Champagne dial · Black counters · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -8757,6 +11228,11 @@ const products = [
             "image": "rolex-641",
             "alt": "Cosmograph Daytona · White dial · Yellow tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-462",
+            "alt": "Cosmograph Daytona · White dial · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -8827,6 +11303,167 @@ const products = [
           }
         ],
         "detailImages": []
+      },
+      {
+        "key": "v10",
+        "label": "Black dial · Rainbow · Yellow tone",
+        "labelZh": "黑盘彩虹圈 · 金色",
+        "image": "rolex2-441",
+        "photos": [
+          {
+            "image": "rolex2-441",
+            "label": "Black dial · Rainbow · Yellow tone",
+            "labelZh": "黑盘彩虹圈 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-442",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-443",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-444",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-445",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-446",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-447",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-448",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-449",
+            "alt": "Cosmograph Daytona · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v11",
+        "label": "Pink dial · Yellow tone",
+        "labelZh": "粉盘 · 金色",
+        "image": "rolex2-461",
+        "photos": [
+          {
+            "image": "rolex2-461",
+            "label": "Pink dial · Yellow tone",
+            "labelZh": "粉盘 · 金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v12",
+        "label": "Black dial · White counters · Silver tone",
+        "labelZh": "黑盘白色小表盘 · 银色",
+        "image": "rolex2-464",
+        "photos": [
+          {
+            "image": "rolex2-464",
+            "label": "Black dial · White counters · Silver tone",
+            "labelZh": "黑盘白色小表盘 · 银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v13",
+        "label": "White dial · Silver tone",
+        "labelZh": "白盘 · 银色",
+        "image": "rolex2-465",
+        "photos": [
+          {
+            "image": "rolex2-465",
+            "label": "White dial · Silver tone",
+            "labelZh": "白盘 · 银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v14",
+        "label": "Grey Arabic · Rose tone",
+        "labelZh": "灰盘阿拉伯字 · 玫瑰金色",
+        "image": "rolex2-466",
+        "photos": [
+          {
+            "image": "rolex2-466",
+            "label": "Grey Arabic · Rose tone",
+            "labelZh": "灰盘阿拉伯字 · 玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v15",
+        "label": "Grey Arabic · Dark case",
+        "labelZh": "灰盘阿拉伯字 · 深色表壳",
+        "image": "rolex2-486",
+        "photos": [
+          {
+            "image": "rolex2-486",
+            "label": "Grey Arabic · Dark case",
+            "labelZh": "灰盘阿拉伯字 · 深色表壳"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-487",
+            "alt": "Cosmograph Daytona · Grey Arabic · Dark case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-488",
+            "alt": "Cosmograph Daytona · Grey Arabic · Dark case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-489",
+            "alt": "Cosmograph Daytona · Grey Arabic · Dark case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-490",
+            "alt": "Cosmograph Daytona · Grey Arabic · Dark case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-491",
+            "alt": "Cosmograph Daytona · Grey Arabic · Dark case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-492",
+            "alt": "Cosmograph Daytona · Grey Arabic · Dark case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-493",
+            "alt": "Cosmograph Daytona · Grey Arabic · Dark case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
       }
     ],
     "referencePhotos": [],
@@ -9110,6 +11747,76 @@ const products = [
             "image": "rolex-418",
             "alt": "GMT-Master II · Black dial · Red-blue bezel · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-206",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-207",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-208",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-209",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-210",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-564",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-565",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-566",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-567",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-568",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-569",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-570",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-571",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-572",
+            "alt": "GMT-Master II · Black dial · Red-blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -9165,6 +11872,288 @@ const products = [
             "image": "rolex-607",
             "alt": "GMT-Master II · Black dial · Grey-black bezel · Yellow tone · Product detail",
             "caption": "Product detail / 产品细节"
+          }
+        ]
+      },
+      {
+        "key": "v6",
+        "label": "Green dial · Black bezel · Yellow tone",
+        "labelZh": "绿盘黑圈 · 金色",
+        "image": "rolex2-280",
+        "photos": [
+          {
+            "image": "rolex2-280",
+            "label": "Green dial · Black bezel · Yellow tone",
+            "labelZh": "绿盘黑圈 · 金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Black dial · Black bezel · Yellow tone",
+        "labelZh": "黑盘黑圈 · 金色",
+        "image": "rolex2-281",
+        "photos": [
+          {
+            "image": "rolex2-281",
+            "label": "Black dial · Black bezel · Yellow tone",
+            "labelZh": "黑盘黑圈 · 金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "Green dial · Black bezel · Yellow two-tone",
+        "labelZh": "绿盘黑圈 · 金银双色",
+        "image": "rolex2-282",
+        "photos": [
+          {
+            "image": "rolex2-282",
+            "label": "Green dial · Black bezel · Yellow two-tone",
+            "labelZh": "绿盘黑圈 · 金银双色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v9",
+        "label": "Black dial · Black bezel · Yellow two-tone",
+        "labelZh": "黑盘黑圈 · 金银双色",
+        "image": "rolex2-283",
+        "photos": [
+          {
+            "image": "rolex2-283",
+            "label": "Black dial · Black bezel · Yellow two-tone",
+            "labelZh": "黑盘黑圈 · 金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-635",
+            "alt": "GMT-Master II · Black dial · Black bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-636",
+            "alt": "GMT-Master II · Black dial · Black bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-637",
+            "alt": "GMT-Master II · Black dial · Black bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-638",
+            "alt": "GMT-Master II · Black dial · Black bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-639",
+            "alt": "GMT-Master II · Black dial · Black bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-640",
+            "alt": "GMT-Master II · Black dial · Black bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-641",
+            "alt": "GMT-Master II · Black dial · Black bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-642",
+            "alt": "GMT-Master II · Black dial · Black bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-643",
+            "alt": "GMT-Master II · Black dial · Black bezel · Yellow two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v10",
+        "label": "Fully decorative silver appearance",
+        "labelZh": "银色全装饰外观",
+        "image": "rolex2-546",
+        "photos": [
+          {
+            "image": "rolex2-546",
+            "label": "Fully decorative silver appearance",
+            "labelZh": "银色全装饰外观"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-547",
+            "alt": "GMT-Master II · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-548",
+            "alt": "GMT-Master II · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-549",
+            "alt": "GMT-Master II · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-550",
+            "alt": "GMT-Master II · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-551",
+            "alt": "GMT-Master II · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-552",
+            "alt": "GMT-Master II · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-553",
+            "alt": "GMT-Master II · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-554",
+            "alt": "GMT-Master II · Fully decorative silver appearance · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v11",
+        "label": "Black dial · Rainbow · Yellow tone",
+        "labelZh": "黑盘彩虹圈 · 金色",
+        "image": "rolex2-609",
+        "photos": [
+          {
+            "image": "rolex2-609",
+            "label": "Black dial · Rainbow · Yellow tone",
+            "labelZh": "黑盘彩虹圈 · 金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-610",
+            "alt": "GMT-Master II · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-611",
+            "alt": "GMT-Master II · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-612",
+            "alt": "GMT-Master II · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-613",
+            "alt": "GMT-Master II · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-614",
+            "alt": "GMT-Master II · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-615",
+            "alt": "GMT-Master II · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-616",
+            "alt": "GMT-Master II · Black dial · Rainbow · Yellow tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v12",
+        "label": "Black dial · Dark/red bezel · Silver tone",
+        "labelZh": "黑盘深色红双色圈 · 银色",
+        "image": "rolex2-019",
+        "photos": [
+          {
+            "image": "rolex2-019",
+            "label": "Black dial · Dark/red bezel · Silver tone",
+            "labelZh": "黑盘深色红双色圈 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-020",
+            "alt": "GMT-Master II · Black dial · Red/black bezel · Silver tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-021",
+            "alt": "GMT-Master II · Black dial · Red/black bezel · Silver tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-022",
+            "alt": "GMT-Master II · Black dial · Red/black bezel · Silver tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-023",
+            "alt": "GMT-Master II · Black dial · Red/black bezel · Silver tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-024",
+            "alt": "GMT-Master II · Black dial · Red/black bezel · Silver tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v13",
+        "label": "Black dial · Brown/black bezel · Rose tone",
+        "labelZh": "黑盘棕黑圈 · 玫瑰金色",
+        "image": "rolex2-284",
+        "photos": [
+          {
+            "image": "rolex2-284",
+            "label": "Black dial · Brown/black bezel · Rose tone",
+            "labelZh": "黑盘棕黑圈 · 玫瑰金色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-285",
+            "alt": "GMT-Master II · Black dial · Brown/black bezel · Rose tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-286",
+            "alt": "GMT-Master II · Black dial · Brown/black bezel · Rose tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-287",
+            "alt": "GMT-Master II · Black dial · Brown/black bezel · Rose tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-288",
+            "alt": "GMT-Master II · Black dial · Brown/black bezel · Rose tone",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       }
@@ -9225,6 +12214,61 @@ const products = [
             "image": "rolex-268",
             "alt": "Submariner · Black dial · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-296",
+            "alt": "Submariner · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex-467",
+            "alt": "Submariner · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-362",
+            "alt": "Submariner · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-363",
+            "alt": "Submariner · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-364",
+            "alt": "Submariner · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex-466",
+            "alt": "Submariner · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex-468",
+            "alt": "Submariner · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-367",
+            "alt": "Submariner · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-368",
+            "alt": "Submariner · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-369",
+            "alt": "Submariner · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-409",
+            "alt": "Submariner · Black dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -9240,10 +12284,125 @@ const products = [
             "labelZh": "蓝盘 · 蓝圈"
           }
         ],
+        "detailImages": [
+          {
+            "image": "rolex2-295",
+            "alt": "Submariner · Blue dial · Blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-406",
+            "alt": "Submariner · Blue dial · Blue bezel · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Green dial · Green bezel · Black strap",
+        "labelZh": "绿盘绿圈 · 黑色胶带",
+        "image": "rolex2-297",
+        "photos": [
+          {
+            "image": "rolex2-297",
+            "label": "Green dial · Green bezel · Black strap",
+            "labelZh": "绿盘绿圈 · 黑色胶带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Red strap",
+        "labelZh": "黑盘黑圈 · 红色胶带",
+        "image": "rolex2-407",
+        "photos": [
+          {
+            "image": "rolex2-407",
+            "label": "Black dial · Red strap",
+            "labelZh": "黑盘黑圈 · 红色胶带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-413",
+            "alt": "Submariner · Black dial · Red strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Green dial · White strap",
+        "labelZh": "绿盘绿圈 · 白色胶带",
+        "image": "rolex2-408",
+        "photos": [
+          {
+            "image": "rolex2-408",
+            "label": "Green dial · White strap",
+            "labelZh": "绿盘绿圈 · 白色胶带"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-412",
+            "alt": "Submariner · Green dial · White strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v6",
+        "label": "Black dial · Brown strap",
+        "labelZh": "黑盘黑圈 · 棕色胶带",
+        "image": "rolex2-410",
+        "photos": [
+          {
+            "image": "rolex2-410",
+            "label": "Black dial · Brown strap",
+            "labelZh": "黑盘黑圈 · 棕色胶带"
+          }
+        ],
         "detailImages": []
       }
     ],
-    "referencePhotos": [],
+    "referencePhotos": [
+      {
+        "image": "rolex2-289",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-290",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-291",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-292",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-293",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-294",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-411",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      }
+    ],
     "detailImages": []
   },
   {
@@ -9374,7 +12533,38 @@ const products = [
             "labelZh": "白盘 · 玫瑰金色表壳"
           }
         ],
-        "detailImages": []
+        "detailImages": [
+          {
+            "image": "rolex2-146",
+            "alt": "Cellini · White dial · Rose-tone case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-147",
+            "alt": "Cellini · White dial · Rose-tone case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-148",
+            "alt": "Cellini · White dial · Rose-tone case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-149",
+            "alt": "Cellini · White dial · Rose-tone case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-150",
+            "alt": "Cellini · White dial · Rose-tone case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-151",
+            "alt": "Cellini · White dial · Rose-tone case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
       },
       {
         "key": "v3",
@@ -9476,6 +12666,91 @@ const products = [
             "image": "rolex-489",
             "alt": "Deepsea · Black case · Red accent dial · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-045",
+            "alt": "Deepsea · Black case · Red accent dial · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-046",
+            "alt": "Deepsea · Black case · Red accent dial · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-047",
+            "alt": "Deepsea · Black case · Red accent dial · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-048",
+            "alt": "Deepsea · Black case · Red accent dial · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-049",
+            "alt": "Deepsea · Black case · Red accent dial · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-050",
+            "alt": "Deepsea · Black case · Red accent dial · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-051",
+            "alt": "Deepsea · Black case · Red accent dial · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-052",
+            "alt": "Deepsea · Black case · Red accent dial · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-053",
+            "alt": "Deepsea · Black case · Red accent dial · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue gradient · Silver tone",
+        "labelZh": "蓝黑渐变盘 · 银色",
+        "image": "rolex2-200",
+        "photos": [
+          {
+            "image": "rolex2-200",
+            "label": "Blue gradient · Silver tone",
+            "labelZh": "蓝黑渐变盘 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-201",
+            "alt": "Deepsea · Blue gradient · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-202",
+            "alt": "Deepsea · Blue gradient · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-203",
+            "alt": "Deepsea · Blue gradient · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-204",
+            "alt": "Deepsea · Blue gradient · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-205",
+            "alt": "Deepsea · Blue gradient · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       }
@@ -9636,6 +12911,41 @@ const products = [
             "image": "rolex-516",
             "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-010",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-011",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-012",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-013",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-015",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-017",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-018",
+            "alt": "Cellini Moonphase · White dial · Rose tone · Black strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -9977,6 +13287,36 @@ const products = [
             "image": "rolex-561",
             "alt": "Milgauss · Green dial · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-152",
+            "alt": "Milgauss · Green dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-153",
+            "alt": "Milgauss · Green dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-154",
+            "alt": "Milgauss · Green dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-155",
+            "alt": "Milgauss · Green dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-156",
+            "alt": "Milgauss · Green dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-157",
+            "alt": "Milgauss · Green dial · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       }
@@ -10017,6 +13357,11 @@ const products = [
             "image": "rolex-712",
             "alt": "Cosmograph Daytona — Openworked style · Yellow strap · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-393",
+            "alt": "Cosmograph Daytona — Openworked style — Unconfirmed · Yellow strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -10037,6 +13382,16 @@ const products = [
             "image": "rolex-714",
             "alt": "Cosmograph Daytona — Openworked style · Red strap · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-394",
+            "alt": "Cosmograph Daytona — Openworked style — Unconfirmed · Red strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-524",
+            "alt": "Cosmograph Daytona — Openworked style — Unconfirmed · Red strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -10052,7 +13407,23 @@ const products = [
             "labelZh": "黑色胶带 · 深色表壳"
           }
         ],
-        "detailImages": []
+        "detailImages": [
+          {
+            "image": "rolex2-388",
+            "alt": "Cosmograph Daytona — Openworked style — Unconfirmed · Black strap · Dark case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-389",
+            "alt": "Cosmograph Daytona — Openworked style — Unconfirmed · Black strap · Dark case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-390",
+            "alt": "Cosmograph Daytona — Openworked style — Unconfirmed · Black strap · Dark case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
       },
       {
         "key": "v4",
@@ -10071,6 +13442,11 @@ const products = [
             "image": "rolex-717",
             "alt": "Cosmograph Daytona — Openworked style · Black strap · Silver case · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex2-523",
+            "alt": "Cosmograph Daytona — Openworked style — Unconfirmed · Black strap · Silver case · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
       },
@@ -10086,13 +13462,219 @@ const products = [
             "labelZh": "蓝色胶带"
           }
         ],
-        "detailImages": []
+        "detailImages": [
+          {
+            "image": "rolex2-395",
+            "alt": "Cosmograph Daytona — Openworked style — Unconfirmed · Blue strap · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "rolex2-392",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      },
+      {
+        "image": "rolex2-396",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX097",
+    "brand": "Rolex",
+    "family": "Yacht-Master II",
+    "name": "Yacht-Master II — Metal bracelet",
+    "nameZh": "游艇名仕 II · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": null,
+    "currency": "USD",
+    "image": "rolex2-131",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Blue bezel · Two-tone",
+        "labelZh": "白盘蓝圈 · 金银双色",
+        "image": "rolex2-131",
+        "photos": [
+          {
+            "image": "rolex2-131",
+            "label": "White dial · Blue bezel · Two-tone",
+            "labelZh": "白盘蓝圈 · 金银双色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-132",
+            "alt": "Yacht-Master II · White dial · Blue bezel · Two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-133",
+            "alt": "Yacht-Master II · White dial · Blue bezel · Two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-134",
+            "alt": "Yacht-Master II · White dial · Blue bezel · Two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-135",
+            "alt": "Yacht-Master II · White dial · Blue bezel · Two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-136",
+            "alt": "Yacht-Master II · White dial · Blue bezel · Two-tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
       }
     ],
     "referencePhotos": [],
     "detailImages": []
+  },
+  {
+    "id": "JX098",
+    "brand": "Rolex",
+    "family": "Round Open-aperture — Unconfirmed",
+    "name": "Round Open-aperture — Unconfirmed — Metal bracelet",
+    "nameZh": "圆形开窗款 · 系列待确认 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": null,
+    "currency": "USD",
+    "image": "rolex2-158",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey open-aperture · Silver tone",
+        "labelZh": "灰盘开窗 · 银色",
+        "image": "rolex2-158",
+        "photos": [
+          {
+            "image": "rolex2-158",
+            "label": "Grey open-aperture · Silver tone",
+            "labelZh": "灰盘开窗 · 银色"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rolex2-159",
+            "alt": "Round Open-aperture — Unconfirmed · Grey open-aperture · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-160",
+            "alt": "Round Open-aperture — Unconfirmed · Grey open-aperture · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-161",
+            "alt": "Round Open-aperture — Unconfirmed · Grey open-aperture · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-162",
+            "alt": "Round Open-aperture — Unconfirmed · Grey open-aperture · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          },
+          {
+            "image": "rolex2-163",
+            "alt": "Round Open-aperture — Unconfirmed · Grey open-aperture · Silver tone · Supplied photograph",
+            "caption": "Supplied product photograph / 用户提供的产品照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX099",
+    "brand": "Rolex",
+    "family": "Daytona Openworked style — Unconfirmed",
+    "name": "Daytona Openworked style — Unconfirmed — Textile strap",
+    "nameZh": "镂空计时外观 · 系列待确认 · 织物表带",
+    "band": "textile",
+    "bandName": "Textile strap",
+    "bandNameZh": "织物表带",
+    "category": "Sport",
+    "priceUSD": null,
+    "currency": "USD",
+    "image": "rolex2-522",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Openworked appearance · Green woven strap",
+        "labelZh": "镂空外观 · 绿色织物带",
+        "image": "rolex2-522",
+        "photos": [
+          {
+            "image": "rolex2-522",
+            "label": "Openworked appearance · Green woven strap",
+            "labelZh": "镂空外观 · 绿色织物带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Openworked appearance · Orange woven strap",
+        "labelZh": "镂空外观 · 橙色织物带",
+        "image": "rolex2-525",
+        "photos": [
+          {
+            "image": "rolex2-525",
+            "label": "Openworked appearance · Orange woven strap",
+            "labelZh": "镂空外观 · 橙色织物带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Openworked appearance · Black woven strap",
+        "labelZh": "镂空外观 · 黑色织物带",
+        "image": "rolex2-526",
+        "photos": [
+          {
+            "image": "rolex2-526",
+            "label": "Openworked appearance · Black woven strap",
+            "labelZh": "镂空外观 · 黑色织物带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "rolex2-527",
+        "label": "Additional supplied reference · exact variant unconfirmed",
+        "labelZh": "补充供图 · 具体配色归属待确认"
+      }
+    ],
+    "detailImages": []
   }
 ];
+
 const legacyProductLinks = {
   "C01": {
     "id": "JX012",
