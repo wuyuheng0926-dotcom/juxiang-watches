@@ -1,0 +1,4 @@
+.DS_Store
+.edgeone/
+node_modules/
+.env*
