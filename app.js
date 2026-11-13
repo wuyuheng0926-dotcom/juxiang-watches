@@ -101,7 +101,7 @@ function showProduct(id,recordHistory=true,color){
     $('detailContact').href=buildContactUrl(CONTACT_URL,makeEnquiryText(fields));
     $('detailDownload').href='/assets/'+v.image+'.jpg';$('detailDownload').download=p.id+'-'+v.key+'.jpg';
     $('productShareStatus').textContent='';readyPhotoButton(p,v,$('productShare'),$('productShareStatus'),()=>productEnquiryFields(p,location.origin,{},v));
-    if(scroll)track.scrollTo({left:track.clientWidth*index,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+    if(scroll)track.scrollTo({left:track.clientWidth*index,behavior:'instant'});
     if(record)updateUrl(p.id,'replace',v.key);
   }
   $('colourPrev').onclick=()=>selectColour(index-1);$('colourNext').onclick=()=>selectColour(index+1);
