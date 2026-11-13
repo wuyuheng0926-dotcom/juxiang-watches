@@ -90,10 +90,35 @@ function render(){
   document.querySelector('.catalog-pagination').hidden=pages===1;
   $('searchEmpty').hidden=!!list.length;$('clearSearch').hidden=!searchTerm;
   $('products').replaceChildren(...visible.map(p=>{
-    const index=searchTerm.trim()?matchingColour(p):Math.max(0,p.variants.findIndex(v=>v.key===p.coverColor)),v=p.variants[index],cover=searchTerm.trim()?v.image:(p.coverImage||v.image),b=document.createElement('button');b.type='button';b.className='product';
+    let index=searchTerm.trim()?matchingColour(p):Math.max(0,p.variants.findIndex(v=>v.key===(selectedColors.get(p.id)||p.coverColor)));
+    const v=p.variants[index],cover=searchTerm.trim()||selectedColors.has(p.id)?v.image:(p.coverImage||v.image),b=document.createElement('article');b.className='product';
     b.dataset.product=p.id;b.setAttribute('aria-label','Explore '+p.id+' '+p.name);
-    b.innerHTML=`<div class="product-art">${selectionPhoto(cover,p.name+" · "+v.label,'loading="lazy"',v.imagePanel)}<small>${esc(p.id)} / ${p.variants.length} ${p.variants.length===1?'COLOUR':'COLOURS'}</small></div><div class="product-info"><p>${esc(p.brand.toUpperCase())}</p><h3>${esc(p.family)}</h3><span class="name-zh">${esc(p.nameZh)}</span><span class="series-band">${esc(p.bandName)} · ${esc(p.bandNameZh)}</span><div class="series-card-meta"><span class="product-code">${esc(p.id)}</span><strong class="series-price">${money(p.priceUSD)} ${Number.isFinite(p.priceUSD)?'<small>USD</small>':''}</strong></div><span class="card-action">Explore colours & details / 查看配色与细节 ↗</span></div>`;
-    b.onclick=()=>showProduct(p.id,true,p.variants[index].key);return b;
+    b.innerHTML=`<button type="button" class="product-open"><div class="product-art">${selectionPhoto(cover,p.name+" · "+v.label,'loading="lazy"',v.imagePanel)}<small>${esc(p.id)} / ${p.variants.length} ${p.variants.length===1?'COLOUR':'COLOURS'}</small></div><div class="product-info"><p>${esc(p.brand.toUpperCase())}</p><h3>${esc(p.family)}</h3><span class="name-zh">${esc(p.nameZh)}</span><span class="series-band">${esc(p.bandName)} · ${esc(p.bandNameZh)}</span><div class="series-card-meta"><span class="product-code">${esc(p.id)}</span><strong class="series-price">${money(p.priceUSD)} ${Number.isFinite(p.priceUSD)?'<small>USD</small>':''}</strong></div><span class="card-action">Explore colours & details / 查看配色与细节 ↗</span></div></button>`;
+    const open=b.querySelector('.product-open');
+    open.setAttribute('aria-label','Explore '+p.id+' '+p.name+' · '+v.label);
+    open.onclick=()=>showProduct(p.id,true,p.variants[index].key);
+    if(p.variants.length>1){
+      const colours=document.createElement('div');colours.className='card-colours';
+      colours.setAttribute('role','group');colours.setAttribute('aria-label',p.id+' colours / 配色');
+      const label=document.createElement('span');label.className='card-colours-label';label.textContent='Colours / 配色';colours.append(label);
+      p.variants.forEach((colour,i)=>{
+        const choice=document.createElement('button');choice.type='button';choice.className='card-colour';
+        choice.dataset.color=colour.key;choice.title=colour.labelZh||colour.label;
+        choice.setAttribute('aria-label',p.id+' · '+(colour.labelZh||colour.label));
+        choice.setAttribute('aria-pressed',String(i===index));
+        choice.innerHTML=selectionPhoto(colour.image,colour.label,'loading="lazy"',colour.imagePanel);
+        choice.onclick=()=>{
+          index=i;selectedColors.set(p.id,colour.key);
+          const art=b.querySelector('.product-art');
+          art.innerHTML=selectionPhoto(colour.image,p.name+' · '+colour.label,'',colour.imagePanel)+'<small>'+esc(p.id)+' / '+p.variants.length+' COLOURS</small>';
+          open.setAttribute('aria-label','Explore '+p.id+' '+p.name+' · '+colour.label);
+          colours.querySelectorAll('.card-colour').forEach(x=>x.setAttribute('aria-pressed',String(x===choice)));
+        };
+        colours.append(choice);
+      });
+      b.append(colours);
+    }
+    return b;
   }));
 }
 function resolveProduct(id,color){

@@ -132,3 +132,15 @@ footer{padding:26px 5% 20px}.footer-bottom{margin-top:20px;padding-top:18px}foot
 @media(max-width:600px){.hero-product-caption{left:20px;right:20px;bottom:105px}.hero-product-caption strong{font-size:25px}.hero-carousel-footer{flex-wrap:wrap;justify-content:space-between}.hero-carousel .hero-dots{order:3;width:100%;padding-top:7px}.hero-carousel .hero-dots button{width:21px;min-width:21px}.hero-photo-code{font-size:9px}.hero-product-caption>span{font-size:9px}}
 /* Isolate a selected watch in an original comparison photograph. */
 .selection-photo{display:block;width:100%;height:100%;background-repeat:no-repeat;background-color:#e8e5de;pointer-events:none}.colour-slide .selection-photo{height:min(56vh,550px)}.colour-thumbs .selection-photo{width:52px;height:62px}@media(max-width:900px){.colour-thumbs .selection-photo{width:46px;height:56px}}@media(max-width:760px){.colour-slide .selection-photo{height:min(60vh,450px)}}
+
+/* Colour choices stay with their own product card. */
+.product-open{display:flex;flex-direction:column;flex:1;width:100%;border:0;background:none;color:inherit;padding:0;text-align:left;cursor:pointer}
+.product-open .product-info{flex:1}
+.card-colours{display:flex;flex-wrap:wrap;align-items:center;gap:7px;width:100%;padding:14px 0 5px}
+.card-colours-label{flex:0 0 100%;font-size:10px;color:var(--muted);line-height:1.5;margin-bottom:2px}
+.card-colour{display:block;flex:0 0 44px;width:44px;height:54px;padding:2px;border:1px solid #c6ae7c55;background:#e8e5de;border-radius:2px;overflow:hidden;cursor:pointer}
+.card-colour[aria-pressed="true"]{border:2px solid #e6c58b;padding:1px;box-shadow:0 0 0 1px #c6ae7c55}
+.product .card-colour img{display:block;width:100%;height:100%;max-height:none;object-fit:contain;transform:none}
+.product:hover .card-colour img{transform:none}
+.card-colour .selection-photo{width:100%;height:100%}
+@media(max-width:599px){.card-colour{flex-basis:48px;width:48px;height:58px}.card-colours{gap:8px}}
