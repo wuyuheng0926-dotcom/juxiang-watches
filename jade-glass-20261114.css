@@ -1,0 +1,34 @@
+
+body.luxury-storefront{background:#bfd0bc;background-image:radial-gradient(ellipse at 12% 12%,#dce5ca,transparent 55%),radial-gradient(ellipse at 95% 65%,#759b824d,transparent 55%);color:#243e30}
+.luxury-storefront .announcement{background:linear-gradient(90deg,#71947e,#bec9a4,#789982);color:#263f30}
+.luxury-storefront .announcement span{color:#354e39}
+.luxury-storefront header.site-header{background:#d2ddc8f2;border-color:#9aab8777}
+.luxury-storefront .hero{background:radial-gradient(ellipse at 18% 40%,#e7ebd675,transparent 65%),linear-gradient(115deg,#c5d4bd,#afc7b0 55%,#88ae98)}
+.luxury-storefront .hero-copy{background:radial-gradient(ellipse at var(--light-x,20%) var(--light-y,35%),#eaf0db33,transparent 65%)}
+.luxury-storefront #collection{background:radial-gradient(ellipse at 50% 0,#dce5cb66,transparent 75%)}
+.luxury-storefront .ribbon.service-ribbon{background:linear-gradient(100deg,#88aa91,#bacbab,#82a58f);border-color:#82956b88}
+.luxury-storefront .service-seal strong{color:#284b37}
+.luxury-storefront .service-seal small{color:#486144}
+.luxury-storefront .product{background:linear-gradient(145deg,#e6ecd9,#c3d4bd);border-color:#9caf88}
+.luxury-storefront .product .product-art{background:#b8cdb7}
+.luxury-storefront .compact-contact{background:radial-gradient(ellipse at 20% 25%,#d8e4bd66,transparent 70%),linear-gradient(110deg,#90b29a,#c0cda5)}
+.luxury-storefront footer{background:#9bb79f;border-color:#91a784}
+.luxury-storefront .section-title>p,.luxury-storefront .muted,.luxury-storefront .caption,.luxury-storefront .catalog-notice p,.luxury-storefront .catalog-notice summary{color:#50674e}
+.luxury-storefront .hero .catalog-search p,.luxury-storefront .hero-services,.luxury-storefront .hero-services b,.luxury-storefront .brand-intro-static .intro-note{color:#4e674b}
+.luxury-storefront .site-header nav a,.luxury-storefront .site-header .contact{background:linear-gradient(135deg,#dce5ca,#b5cba7);border-color:#94a779}
+.header-flow-space{display:none;pointer-events:none}
+.luxury-storefront header.site-header.is-glass{position:fixed;top:0;left:0;right:0;width:100%;max-width:1800px;box-sizing:border-box;margin-inline:auto;min-height:0;height:92px;padding:5px 5%;z-index:30;background:rgba(194,215,194,.64);backdrop-filter:blur(10px) saturate(120%);-webkit-backdrop-filter:blur(10px) saturate(120%);border-bottom:1px solid #ad97634d;box-shadow:0 4px 20px #274c3220}
+.luxury-storefront header.site-header.is-glass .brand-emblem{width:85px;height:63px}
+.luxury-storefront header.site-header.is-glass .brand-wordmark{font-size:14px;letter-spacing:3px;margin-top:0}
+.luxury-storefront header.site-header.is-glass .brand-chinese{display:none}
+.luxury-storefront header.site-header.is-glass nav a,.luxury-storefront header.site-header.is-glass .contact{background:#e2ead06e;box-shadow:inset 0 1px 0 #ffffff45;font-size:18px;padding:9px 13px}
+#collection{scroll-margin-top:108px}
+@media(max-width:599px){
+.luxury-storefront header.site-header.is-glass{height:80px;padding:4px 4%;gap:5px}
+.luxury-storefront header.site-header.is-glass .brand-emblem{width:68px;height:51px}
+.luxury-storefront header.site-header.is-glass .brand-wordmark{font-size:11px;letter-spacing:1.5px}
+.luxury-storefront header.site-header.is-glass nav{gap:3px}
+.luxury-storefront header.site-header.is-glass nav a,.luxury-storefront header.site-header.is-glass .contact{font-size:15px;min-height:29px;min-width:0;padding:4px 8px}
+#collection{scroll-margin-top:94px}
+}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.luxury-storefront header.site-header.is-glass{background:rgba(194,215,194,.9)}}
