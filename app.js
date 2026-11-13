@@ -74,9 +74,13 @@ const brandSearchAliases = {
   'Vacheron Constantin':'江诗丹顿 江詩丹頓 vc',
   'Audemars Piguet':'爱彼 愛彼 ap',
   'IWC':'万国 萬國 万国表 沙夫豪森 iwc schaffhausen',
-  'Patek Philippe':'百达翡丽 百達翡麗 pp patek philippe'
+  'Patek Philippe':'百达翡丽 百達翡麗 pp patek philippe',
+  'Omega':'欧米茄 歐米茄 omega 欧记'
 };
 const familySearchAliases = {
+  'Aqua Terra':'海马 海馬 海马150 柚木', 'Worldtimer':'世界时 世界時 地球',
+  'Planet Ocean':'海马 海馬 海洋宇宙', 'Diver 300M':'海马 海馬 潜水300 潛水300 波纹 波紋',
+  'De Ville':'碟飞 碟飛', 'GMT':'两地时 兩地時',
   'Nautilus':'鹦鹉螺 鸚鵡螺', 'Aquanaut':'手雷 海底探险者',
   'Portugieser':'葡萄牙 葡计 葡七', 'Portofino':'柏涛菲诺 柏濤菲諾',
   'Pilot':'飞行员 飛行員 大飞 马克', 'Ingenieur':'工程师 工程師',
