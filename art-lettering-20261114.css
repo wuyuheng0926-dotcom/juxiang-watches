@@ -1,0 +1,56 @@
+
+@font-face{font-family:'JX Cormorant';src:url('assets/fonts/jx-cormorant-italic.woff2') format('woff2');font-style:italic;font-weight:500;font-display:swap}
+@font-face{font-family:'JX Cinzel';src:url('assets/fonts/jx-cinzel-decorative.woff2') format('woff2');font-style:normal;font-weight:700;font-display:swap}
+:root{--jx-display:'JX Cormorant','Palatino Linotype','Book Antiqua',Georgia,serif;--jx-crest:'JX Cinzel','Palatino Linotype',Georgia,serif}
+.luxury-storefront{font-family:'Trebuchet MS','Segoe UI','Microsoft YaHei',sans-serif}
+.luxury-storefront header.site-header{min-height:190px;padding-top:17px;padding-bottom:17px}
+.luxury-storefront .brand-centered .brand-monogram{
+ font-family:var(--jx-crest);font-style:normal;font-weight:700;font-size:118px;line-height:.91;letter-spacing:-22px;padding-right:22px;
+ background-image:linear-gradient(105deg,#ac8644 0%,#e2c78a 30%,#dbbd7c 42%,#fff0c8 48%,#fffdf0 50%,#f3dba8 53%,#d2ab65 60%,#c09b51 79%,#e8cc8e 100%);
+ background-size:300% 100%;background-position:120% 50%;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;color:#e7cc95;
+ filter:drop-shadow(0 3px 4px #0008) drop-shadow(0 0 18px #d4ad5940);text-shadow:none;
+ animation:jx-gilded-pass 10s linear infinite;
+}
+.luxury-storefront .brand-centered .brand-wordmark{font-family:var(--jx-crest);font-size:16px;font-weight:700;letter-spacing:5px;margin-top:14px}
+.luxury-storefront .brand-centered .brand-chinese{font-family:'KaiTi','STKaiti','楷体',serif;font-size:11px;letter-spacing:6px}
+.luxury-storefront .hero h1,.luxury-storefront .hero h1 em{
+ font-family:var(--jx-display);font-weight:500;font-style:italic;letter-spacing:-2px;
+ background-image:linear-gradient(105deg,#d1b17a 0%,#eee0bc 32%,#e5c994 44%,#fffbed 49%,#fff3cb 51%,#d7b877 58%,#c7a266 78%,#ead7ad 100%);
+ background-size:300% 100%;background-position:120% 50%;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;color:#ead9b4;
+ animation:jx-gilded-pass 12s linear infinite;text-shadow:none;
+}
+.luxury-storefront .hero h1{font-size:clamp(66px,6.7vw,100px);line-height:.94;margin-top:22px;margin-bottom:22px}
+.luxury-storefront .hero h1 em{animation-delay:.25s}
+.luxury-storefront .hero-chinese{font-family:'KaiTi','STKaiti','楷体',serif;font-size:17px;letter-spacing:4px;color:#e0cca2}
+.luxury-storefront .section-title h2,.luxury-storefront .compact-contact h2,.luxury-storefront .product h3,.luxury-storefront .hero-product-caption strong,.luxury-storefront .series-summary h2{
+ font-family:var(--jx-display);font-weight:500;font-style:italic;
+}
+.luxury-storefront .section-title h2{font-size:clamp(38px,4vw,58px)}
+.luxury-storefront .hero-product-caption strong{font-size:clamp(29px,2.7vw,43px);line-height:1.05}
+.luxury-storefront .product h3{font-size:29px}
+.luxury-storefront .compact-contact h2{font-size:43px}
+.intro-panel{position:relative;margin:0 0 2px;border-left:1px solid #d3b27650;padding-left:17px;max-width:470px}
+.intro-pages{position:relative;height:111px;overflow:hidden}
+.luxury-storefront .hero .intro-slide{position:absolute;inset:0;margin:0;max-width:none;opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .9s ease;pointer-events:none}
+.luxury-storefront .hero .intro-slide.is-active{opacity:1;transform:none;pointer-events:auto}
+.intro-en{display:block;font-family:var(--jx-display);font-style:italic;font-weight:500;font-size:20px;line-height:1.2;color:#d7dfcc}
+.intro-zh{display:block;font-family:'KaiTi','STKaiti','楷体',serif;font-size:13px;line-height:1.65;letter-spacing:.4px;color:#aebea2;margin-top:7px}
+.intro-controls{display:flex;align-items:center;justify-content:flex-end;gap:8px;height:27px}
+.intro-controls>span{margin-right:auto;font-size:8px;color:#b9a475;letter-spacing:2px}
+.intro-controls button{display:inline-flex;align-items:center;justify-content:center;width:29px;height:25px;border:1px solid #b99d604f;background:#182b1c;color:#e2cfa1;font-size:13px;border-radius:2px;cursor:pointer}
+.intro-controls button:hover{background:#2c432b;border-color:#dcc189}
+.luxury-storefront .intro-slide.is-active .intro-en{background:linear-gradient(105deg,#c3cfb7 0%,#d3dec7 42%,#fff7d8 50%,#c8d4ba 58%,#bac8ac 100%);background-size:300% 100%;background-position:120% 50%;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:jx-gilded-pass 12s linear infinite}
+.luxury-storefront .ribbon.service-ribbon{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:23px 4%;gap:0;background:radial-gradient(ellipse at 50% 0,#5b6b3a29,transparent 70%),linear-gradient(100deg,#0c1c12,#1e3423,#0c1b11);border-block:1px solid #c5a66a54}
+.service-ribbon span:before{display:none!important}
+.service-ribbon .service-seal{display:flex;align-items:center;justify-content:center;gap:16px;padding:2px 20px;min-width:0;border-right:1px solid #c4a56a3b}
+.service-ribbon .service-seal:last-child{border:0}
+.service-seal i{display:grid;place-items:center;flex:0 0 43px;width:43px;height:43px;font-size:24px;font-style:normal;line-height:1;border:1px solid #d0b27280;border-radius:50%;background:radial-gradient(#c5a36420,transparent);color:#e5cb90;box-shadow:0 0 0 4px #c4a16807}
+.service-seal>span{display:flex;flex-direction:column;gap:8px;text-align:left}
+.service-seal strong{font-family:var(--jx-crest);font-weight:700;font-size:12px;line-height:1.4;letter-spacing:1px;color:#e5d2a6}
+.service-seal small{font-family:'KaiTi','STKaiti','楷体',serif;font-size:14px;line-height:1.4;letter-spacing:2px;color:#b8c1a6}
+@keyframes jx-gilded-pass{0%,10%{background-position:120% 50%}85%,100%{background-position:-20% 50%}}
+@media(max-width:1099px){.luxury-storefront .hero h1{font-size:clamp(59px,7.4vw,82px)}.intro-pages{height:132px}.intro-en{font-size:19px}.service-seal strong{font-size:11px}.service-ribbon .service-seal{gap:12px;padding-inline:14px}}
+@media(max-width:799px){.luxury-storefront header.site-header{min-height:165px}.luxury-storefront .brand-centered .brand-monogram{font-size:98px;letter-spacing:-19px;padding-right:19px}.luxury-storefront .brand-centered .brand-wordmark{font-size:13px;letter-spacing:4px}.luxury-storefront .hero h1{font-size:60px}.luxury-storefront .hero-chinese{font-size:15px;letter-spacing:2px}.intro-pages{height:158px}.intro-en{font-size:18px}.intro-zh{font-size:12px}.service-ribbon .service-seal{gap:9px;padding-inline:10px}.service-seal i{flex-basis:32px;width:32px;height:32px;font-size:19px}.service-seal strong{font-size:10px;letter-spacing:.4px}.service-seal small{font-size:12px;letter-spacing:1px}}
+@media(max-width:599px){.luxury-storefront header.site-header{min-height:156px;padding-block:13px}.luxury-storefront .brand-centered .brand-monogram{font-size:86px;letter-spacing:-17px;padding-right:17px}.luxury-storefront .brand-centered .brand-wordmark{font-size:12px;letter-spacing:3px;margin-top:11px}.luxury-storefront .brand-centered .brand-chinese{font-size:10px;letter-spacing:4px}.luxury-storefront .hero h1{font-size:66px;line-height:.95}.luxury-storefront .hero-chinese{font-size:15px}.intro-panel{padding-left:13px;max-width:none}.intro-pages{height:148px}.intro-en{font-size:20px;line-height:1.15}.intro-zh{font-size:13px;line-height:1.5}.luxury-storefront .ribbon.service-ribbon{padding:18px 3%;gap:0}.service-ribbon .service-seal{padding:0 8px;gap:7px;flex-direction:column;text-align:center}.service-seal i{width:29px;height:29px;flex-basis:29px;font-size:18px}.service-seal>span{text-align:center;gap:6px}.service-seal strong{font-size:10px;line-height:1.5;letter-spacing:.3px}.service-seal small{font-size:12px;letter-spacing:.5px}.luxury-storefront #products .product h3{font-family:var(--jx-display);font-style:italic;font-weight:500;font-size:22px}.luxury-storefront .hero-product-caption strong{font-size:32px}.luxury-storefront .compact-contact h2{font-size:38px}}
+@media(max-width:379px){.luxury-storefront .brand-centered .brand-monogram{font-size:75px;letter-spacing:-15px;padding-right:15px}.luxury-storefront .brand-centered .brand-wordmark{font-size:10px;letter-spacing:2px}.luxury-storefront .hero h1{font-size:60px}.intro-pages{height:165px}.intro-en{font-size:19px}.service-seal i{display:none}.service-seal strong{font-size:10px}.service-seal small{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.luxury-storefront .brand-centered .brand-monogram,.luxury-storefront .hero h1,.luxury-storefront .hero h1 em,.luxury-storefront .intro-slide.is-active .intro-en{animation:none!important;background-position:45% 50%}.luxury-storefront .hero .intro-slide{transition:none;transform:none}}
