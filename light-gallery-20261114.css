@@ -1,0 +1,108 @@
+
+:root{--bg:#edf0e5;--gold:#97753a;--text:#293e2e;--muted:#61725c;--champagne:#a58245}
+body.luxury-storefront{background:#edf0e5;background-image:radial-gradient(ellipse at 15% 15%,#fffef9 0,transparent 55%),radial-gradient(ellipse at 95% 65%,#d7dfc86b,transparent 50%);color:#293e2e}
+.luxury-storefront .announcement{background:linear-gradient(90deg,#e2e7d8,#f6f2e6,#dde4d1);color:#665a34;border-color:#c5bd9b;font-size:9px}
+.luxury-storefront .announcement span{color:#626b45}
+.luxury-storefront header.site-header{background:#faf9f0f2;border-color:#c7c6a98c;box-shadow:0 6px 25px #62714112;min-height:220px;padding-block:15px}
+.luxury-storefront .brand-centered .brand-emblem{
+ display:block;position:relative;width:194px;height:154px;padding:0!important;margin:0;line-height:normal;letter-spacing:normal;
+ font:inherit;background:none!important;-webkit-text-fill-color:initial;color:inherit;animation:none!important;filter:none;text-shadow:none;overflow:visible;
+}
+.brand-emblem img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;filter:drop-shadow(0 3px 2px #7d61263d);animation:jx-emblem-radiance 6s ease-in-out infinite}
+.brand-emblem:after{display:none;content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(108deg,transparent 36%,#ffe6a35c 43%,#fffbd4e6 47%,#ffffff 50%,#fff7c8e6 53%,#ffe3a14d 58%,transparent 64%);background-size:300% 100%;background-position:120% 50%;animation:jx-emblem-sweep 6.5s linear infinite;opacity:1}
+@supports (mask-image:linear-gradient(#000,#000)) or (-webkit-mask-image:linear-gradient(#000,#000)){
+ .brand-emblem:after{display:block;-webkit-mask:url('assets/jx-emblem-light-20261114.png') center/cover no-repeat;mask:url('assets/jx-emblem-light-20261114.png') center/cover no-repeat}
+}
+.luxury-storefront .brand-centered .brand-wordmark{font-family:var(--jx-display),Georgia,serif;font-style:italic;font-weight:500;font-size:23px;letter-spacing:4px;color:#65552e;margin-top:4px}
+.luxury-storefront .brand-centered .brand-chinese{font-size:12px;color:#727344;margin-top:7px;letter-spacing:4px}
+.luxury-storefront .site-header nav a,.luxury-storefront .site-header .contact{background:linear-gradient(135deg,#edf0df,#dce5cb);border-color:#aaad7c;color:#3d5236;font-family:var(--jx-display),'KaiTi',Georgia,serif;font-style:italic;font-size:21px;font-weight:500;padding:11px 18px;box-shadow:inset 0 1px 0 #fff,0 3px 10px #5d704114}
+.luxury-storefront .site-header nav a:hover,.luxury-storefront .site-header .contact:hover{background:linear-gradient(135deg,#e7e8c8,#cad7b4);border-color:#9d8e50;color:#30432b}
+.luxury-storefront .hero{background:radial-gradient(ellipse at 18% 45%,#fffdf5b8,transparent 64%),linear-gradient(115deg,#f2f2e7,#e6ecdb 55%,#dce5d0);border-color:#b7bc9177}
+.luxury-storefront .hero:before{opacity:.12}
+.luxury-storefront .hero-copy{background:radial-gradient(ellipse at var(--light-x,20%) var(--light-y,35%),#ffffff77,transparent 65%)}
+.luxury-storefront .hero-copy:before{border-color:#a8ad764d;box-shadow:0 0 0 20px #b1b47807,0 0 0 21px #a7ab751f,0 0 0 78px #aaad7305,0 0 0 79px #a2a46c26}
+.luxury-storefront .hero-copy:after{color:#8b957416}
+.luxury-storefront .hero .eyebrow{color:#77713f}
+.luxury-storefront .hero .eyebrow:before{background:linear-gradient(90deg,#9a7b3a,transparent)}
+.luxury-storefront .hero h1{background:none;-webkit-text-fill-color:initial;color:#3e573e;animation:none!important;text-shadow:none}
+.luxury-storefront .hero h1 em{background-image:linear-gradient(105deg,#8e6a2e 0%,#a38245 36%,#a78642 44%,#fff8cb 49%,#fff1ac 51%,#927030 58%,#85652f 80%,#b0924c 100%);background-size:300% 100%;background-position:120% 50%;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:jx-emblem-sweep 7.5s linear infinite;color:#947038}
+.luxury-storefront .hero-chinese{color:#717043}
+.brand-intro-static{padding-left:16px;border-left:2px solid #adb483;max-width:490px;margin:0 0 3px}
+.luxury-storefront .hero .brand-intro-static .intro{position:static!important;inset:auto!important;display:block!important;opacity:1!important;transform:none!important;animation:none!important;transition:none!important;background:none!important;-webkit-text-fill-color:initial!important;color:#4d644b;font-family:'Trebuchet MS','Microsoft YaHei',sans-serif;font-style:normal;font-size:14px;line-height:1.8;margin:0;max-width:none;height:auto;overflow:visible}
+.brand-intro-static .intro-note{position:static;color:#778260;font-family:'KaiTi','STKaiti','Microsoft YaHei',serif;font-size:14px;line-height:1.8;margin:9px 0 0}
+.luxury-storefront .hero .catalog-search label,.luxury-storefront .hero .catalog-search label span{color:#657249}
+.luxury-storefront .hero .search-control{background:#fbfcf5d9;border-color:#a6ad7b;box-shadow:0 5px 18px #65784110,inset 0 1px 0 #fff}
+.luxury-storefront .hero .search-control input{color:#374e33;font-size:14px}
+.luxury-storefront .hero .catalog-search p{color:#7b8768}
+.luxury-storefront .search-control button[type=submit],.luxury-storefront .button{font-family:var(--jx-display),'KaiTi',Georgia,serif;font-style:italic;font-size:19px;font-weight:500;letter-spacing:.3px;line-height:1.2;background:linear-gradient(115deg,#c0aa69,#eadfb6,#cbb574);border-color:#b19c5e;color:#3f4529;box-shadow:0 4px 13px #65723e1a}
+.luxury-storefront .hero .search-control button[type=submit]{font-family:var(--jx-display),'KaiTi',Georgia,serif;font-style:italic;font-size:18px;letter-spacing:0;padding-inline:18px}
+.luxury-storefront .hero-services{color:#69754f;border-color:#b1ba8f}
+.luxury-storefront .hero-services b{color:#7c8864}
+.luxury-storefront .hero-carousel{background:#d6dfc8;border-color:#a5ac77;outline-color:#b8b88977;box-shadow:0 14px 32px #5f734728,0 0 0 7px #fafbef77}
+.luxury-storefront .hero-carousel .art-top{background:#f3f4e5e8;color:#59613c;border-color:#bcc098b3}
+.luxury-storefront .hero-arrow{background:#f0f3e3e8;color:#52663f;border-color:#b3bb8b}
+.luxury-storefront .hero-arrow:hover{background:#dce7c8}
+.luxury-storefront .hero-product-caption strong{color:#fff4dc}
+.luxury-storefront .hero-product-caption>span{color:#fae2ac}
+.luxury-storefront .hero-pause{background:#f3f3e2df;color:#52613d;border-color:#adb789}
+.luxury-storefront .ribbon.service-ribbon{background:linear-gradient(100deg,#d9e3c9,#edf0df,#d5dfc4);border-color:#adb78a88}
+.service-ribbon .service-seal{border-color:#abb78a73}
+.service-seal i{background:radial-gradient(#faf8dc,#e0e7ca);color:#8a793e;border-color:#aeb07b;box-shadow:0 0 0 4px #f6f6dc88}
+.luxury-storefront .service-seal strong{font-family:var(--jx-display),Georgia,serif;font-style:italic;font-weight:500;font-size:23px;line-height:1.1;letter-spacing:.2px;color:#465a36}
+.luxury-storefront .service-seal small{font-family:'Microsoft YaHei','PingFang SC',sans-serif;font-size:12px;line-height:1.5;letter-spacing:1px;color:#7c865c}
+.luxury-storefront #collection{background:radial-gradient(ellipse at 50% 0,#fffdf4a3,transparent 75%)}
+.luxury-storefront .section-title{border-color:#b4bd9680}
+.luxury-storefront .section-title .eyebrow{color:#879164}
+.luxury-storefront .section-title h2{color:#40583c}
+.luxury-storefront .section-title h2 em{color:#9d8242}
+.luxury-storefront .section-title>p,.luxury-storefront .muted,.luxury-storefront .caption{color:#718061}
+.luxury-storefront .filters button{background:linear-gradient(135deg,#edf0dd,#dbe3cc);color:#4f6341;border-color:#abb98b;box-shadow:inset 0 1px 0 #fff,0 2px 7px #72815412;font-family:var(--jx-display),'KaiTi',Georgia,serif;font-style:italic;font-weight:500;font-size:19px;letter-spacing:.1px}
+.luxury-storefront .filters button:hover{background:linear-gradient(135deg,#e5ebcf,#cbd8b2);border-color:#a5a968;color:#3e5333}
+.luxury-storefront .filters button.active{background:linear-gradient(115deg,#bba35f,#e6d7a5);color:#3a4427;border-color:#aa9451}
+.luxury-storefront .refine-filters summary{color:#6b7b55;font-family:var(--jx-display),'KaiTi',Georgia,serif;font-style:italic;font-size:18px;font-weight:500}
+.luxury-storefront #resultCount{color:#7b8964}
+.luxury-storefront .product{background:linear-gradient(145deg,#fffef7,#e9efdf);border-color:#c0c8a3;box-shadow:0 7px 22px #6f80501a}
+.luxury-storefront .product:hover{border-color:#aaa773;box-shadow:0 13px 28px #667c4626}
+.luxury-storefront .product:before{border-color:#fffdf4}
+.luxury-storefront .product .product-art{background:#e0e7d7;border-color:#bdc6a3}
+.luxury-storefront .product-info{border-color:#c2cbaa}
+.luxury-storefront .product-info p{color:#8b7c43}
+.luxury-storefront .product h3{color:#3f573a}
+.luxury-storefront .product-info .name-zh{color:#687b59}
+.luxury-storefront .product-info .series-band{color:#879570}
+.luxury-storefront .series-price,.luxury-storefront #products .series-price{color:#94763b}
+.luxury-storefront .product-info .series-card-meta .product-code{color:#78835c;background:#edf0dc;border-color:#bec6a0}
+.luxury-storefront .product-info .card-action{color:#8e7d42}
+.luxury-storefront .card-colours-label{color:#829168}
+.luxury-storefront .card-colour{background:#f8faef;border-color:#c1caa7}
+.luxury-storefront .card-colour[aria-pressed=true]{border-color:#a38b48;box-shadow:0 0 0 2px #c5b46d40}
+.luxury-storefront .catalog-pagination>button{background:#e1e8d1;color:#5b6d45;border-color:#b6c396;font-family:var(--jx-display),'KaiTi',Georgia,serif;font-style:italic;font-size:18px}
+.luxury-storefront .catalog-pagination p{color:#7a8963}
+.luxury-storefront .catalog-pagination>button.button{background:linear-gradient(115deg,#bba35f,#e6d7a5);color:#3a4427}
+.luxury-storefront .compact-contact{background:radial-gradient(ellipse at 20% 25%,#fffdf4b3,transparent 70%),linear-gradient(110deg,#dde7cf,#f1f1dd);border-color:#b8c093;box-shadow:inset 0 1px #fff}
+.luxury-storefront .compact-contact h2{color:#49623e}
+.luxury-storefront .compact-contact p{color:#7a8863}
+.luxury-storefront .compact-contact .eyebrow{color:#8f8350}
+.luxury-storefront footer{background:#e3e9d8;border-color:#bbc6a0}
+.luxury-storefront footer>.brand{color:#687749}
+.luxury-storefront .footer-bottom{border-color:#b8c39b;color:#7b8864}
+.luxury-storefront .catalog-notice summary,.luxury-storefront .catalog-notice p{color:#7b8767}
+.luxury-storefront dialog{background:linear-gradient(140deg,#fffef7,#edf2e3);border-color:#b6ba86;color:#3f5438;box-shadow:0 25px 90px #3c502c40}
+.luxury-storefront dialog::backdrop{background:#33452a82;backdrop-filter:blur(8px)}
+.luxury-storefront .close{color:#6d764d}
+.luxury-storefront .detail-navigation{color:#8a7840;border-color:#c3c7a2}
+.luxury-storefront .colour-gallery-controls{background:#e5ebd9;color:#6b7c4a}
+.luxury-storefront .colour-gallery-controls button{color:#6b7c4a;border-color:#acb889}
+.luxury-storefront .series-summary .detail-price,.luxury-storefront .selected-colour span{color:#95773c}
+.luxury-storefront .series-summary .eyebrow{color:#8d8047}
+.luxury-storefront .gallery-instruction,.luxury-storefront .colour-name-zh,.luxury-storefront .share-hint,.luxury-storefront .reference-library summary,.luxury-storefront .details-photo-grid figcaption,.luxury-storefront .reference-grid figcaption{color:#7c8965}
+.luxury-storefront input,.luxury-storefront textarea,.luxury-storefront select{background:#fbfcf5;color:#3b5435;border-color:#b6c197}
+.luxury-storefront #enquiryColour,.luxury-storefront #enquiryPrice{background:#eaf0dc;color:#806f38}
+.luxury-storefront .detail-photo-space{background:#e6ecd9;border-color:#aab98a;color:#73845b}
+@keyframes jx-emblem-sweep{0%,8%{background-position:120% 50%}88%,100%{background-position:-20% 50%}}
+@keyframes jx-emblem-radiance{0%,100%{filter:drop-shadow(0 3px 2px #7d61263d) brightness(1)}50%{filter:drop-shadow(0 3px 3px #8d682e55) drop-shadow(0 0 8px #efcf764d) brightness(1.14)}}
+@media(max-width:1099px){.luxury-storefront .service-seal strong{font-size:21px}.luxury-storefront .brand-centered .brand-emblem{width:178px;height:142px}.luxury-storefront header.site-header{min-height:206px}}
+@media(max-width:799px){.luxury-storefront .site-header nav a,.luxury-storefront .site-header .contact{font-size:18px;padding:10px 12px}.luxury-storefront header.site-header{min-height:184px}.luxury-storefront .brand-centered .brand-emblem{width:154px;height:122px}.luxury-storefront .service-seal strong{font-size:18px}.luxury-storefront .service-seal small{font-size:11px}.luxury-storefront .filters button{font-size:18px;padding:10px 15px}.luxury-storefront .hero .search-control button[type=submit]{font-size:17px}}
+@media(max-width:599px){.luxury-storefront header.site-header{min-height:169px;padding:11px 4%;gap:5px}.luxury-storefront .brand-centered .brand-emblem{width:130px;height:106px}.luxury-storefront .brand-centered .brand-wordmark{font-size:19px;letter-spacing:2px}.luxury-storefront .brand-centered .brand-chinese{font-size:11px;letter-spacing:3px}.luxury-storefront .site-header nav a,.luxury-storefront .site-header .contact{font-size:16px;padding:10px 8px}.luxury-storefront .site-header nav a{min-width:88px}.brand-intro-static{padding-left:12px;max-width:none}.luxury-storefront .hero .brand-intro-static .intro{font-size:13px;line-height:1.75}.brand-intro-static .intro-note{font-size:13px;line-height:1.7}.luxury-storefront .hero .search-control input{font-size:12px}.luxury-storefront .hero .search-control button[type=submit]{font-size:16px;padding-inline:12px}.luxury-storefront .filters button{font-size:18px;padding:10px 13px}.luxury-storefront .service-seal strong{font-size:17px;line-height:1.2}.luxury-storefront .service-seal small{font-size:11px}.luxury-storefront .button{font-size:18px}.luxury-storefront .catalog-pagination>button{font-size:16px}}
+@media(max-width:379px){.luxury-storefront header.site-header{padding-inline:10px}.luxury-storefront .brand-centered .brand-emblem{width:105px;height:90px}.luxury-storefront .site-header nav a,.luxury-storefront .site-header .contact{font-size:15px;padding-inline:7px}.luxury-storefront .site-header nav a{min-width:80px}.luxury-storefront .brand-centered .brand-wordmark{font-size:17px;letter-spacing:1px}.luxury-storefront .service-seal strong{font-size:16px}}
+@media(prefers-reduced-motion:reduce){.brand-emblem img,.brand-emblem:after,.luxury-storefront .hero h1 em{animation:none!important}.brand-emblem:after{background-position:45% 50%;opacity:.35}}
