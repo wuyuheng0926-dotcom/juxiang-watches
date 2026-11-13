@@ -4,13 +4,15 @@
   const track = root.querySelector('.hero-track');
   const slides = [...track.children];
   const dots = [...root.querySelectorAll('[data-slide]')];
-  const ids = ["JX083","JX081","JX069","JX069","JX083","JX081"];
+  const ids = slides.map(slide => slide.dataset.product);
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  let index = 1, timer, settling, dragging = null, busy = false;
+  let index = 1, timer, settling, dragging = null, busy = false, suppressClickUntil = 0;
   let paused = reduced.matches, hovered = false, focused = false, visible = true;
   const first = slides[0].cloneNode(true), last = slides.at(-1).cloneNode(true);
   for (const clone of [first, last]) {
     clone.setAttribute('aria-hidden', 'true');
+    clone.inert = true;
+    clone.querySelector('a').tabIndex = -1;
     clone.removeAttribute('aria-label');
     clone.querySelector('img').loading = 'eager';
   }
@@ -21,8 +23,8 @@
     track.style.transform = 'translateX(' + (-index * 100) + '%)';
     const n = logical();
     dots.forEach((dot, i) => dot.setAttribute('aria-pressed', String(i === n)));
-    slides.forEach((slide, i) => slide.setAttribute('aria-hidden', String(i !== n)));
-    root.querySelector('.hero-photo-code').textContent = ids[n] + ' / 0' + (n + 1) + ' — 06';
+    slides.forEach((slide, i) => { slide.setAttribute('aria-hidden', String(i !== n)); slide.querySelector('a').tabIndex = i === n ? 0 : -1; });
+    root.querySelector('.hero-photo-code').textContent = ids[n] + ' / ' + String(n + 1).padStart(2, '0') + ' — ' + String(slides.length).padStart(2, '0');
     const next = slides[(n + 1) % slides.length].querySelector('img');
     next.loading = 'eager';
   }
@@ -42,7 +44,7 @@
     busy = true;
     index = target === undefined ? index + step : target + 1;
     paint();
-    if (manual) root.querySelector('.hero-carousel-status').textContent = 'Photograph ' + (logical() + 1) + ' of 6: ' + ids[logical()];
+    if (manual) root.querySelector('.hero-carousel-status').textContent = 'Photograph ' + (logical() + 1) + ' of ' + slides.length + ': ' + ids[logical()];
     settling = setTimeout(finish, reduced.matches ? 0 : 720);
     schedule();
   }
@@ -61,11 +63,17 @@
   root.addEventListener('pointerdown', e => {
     if (e.target.closest('button') || !e.isPrimary || e.button !== 0) return;
     dragging = { x: e.clientX, y: e.clientY, id: e.pointerId };
-    root.setPointerCapture(e.pointerId); schedule();
+    schedule();
+  });
+  root.addEventListener('pointermove', e => {
+    if (!dragging || e.pointerId !== dragging.id) return;
+    const dx=e.clientX-dragging.x,dy=e.clientY-dragging.y;
+    if(Math.abs(dx)>12 && Math.abs(dx)>Math.abs(dy)*1.2 && !root.hasPointerCapture(e.pointerId))root.setPointerCapture(e.pointerId);
   });
   function release(e, cancelled = false) {
     if (!dragging || e.pointerId !== dragging.id) return;
     const dx = e.clientX - dragging.x, dy = e.clientY - dragging.y;
+    if (cancelled || Math.abs(dx)>12 || Math.abs(dy)>12) suppressClickUntil=Date.now()+500;
     dragging = null;
     if (root.hasPointerCapture(e.pointerId)) root.releasePointerCapture(e.pointerId);
     if (!cancelled && Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy) * 1.2) move(dx < 0 ? 1 : -1, undefined, true);
@@ -73,6 +81,12 @@
   }
   root.addEventListener('pointerup', e => release(e));
   root.addEventListener('pointercancel', e => release(e, true));
+  root.addEventListener('click', e => {
+    if(Date.now()<suppressClickUntil){e.preventDefault();e.stopPropagation();return;}
+    const link=e.target.closest('[data-hero-product]');
+    if(!link || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey || e.button!==0)return;
+    if(typeof window.showProduct==='function'){e.preventDefault();window.showProduct(link.dataset.heroProduct,true,link.dataset.color);}
+  });
   document.addEventListener('visibilitychange', schedule);
   reduced.addEventListener('change', () => { paused = reduced.matches; pauseLabel(); schedule(); });
   if ('IntersectionObserver' in window) new IntersectionObserver(entries => { visible = entries[0].isIntersecting; schedule(); }, { threshold: .15 }).observe(root);
