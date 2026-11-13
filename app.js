@@ -8,7 +8,7 @@ const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;',
 const money = amount => new Intl.NumberFormat('en-US', {style:'currency', currency:'USD', maximumFractionDigits:0}).format(amount);
 const brandAliases = {
   Rolex:'劳力士 勞力士', Cartier:'卡地亚 卡地亞', 'Vacheron Constantin':'江诗丹顿 江詩丹頓 vc',
-  'Audemars Piguet':'爱彼 愛彼 ap', IWC:'万国 萬國 沙夫豪森', 'Patek Philippe':'百达翡丽 百達翡麗 pp', Omega:'欧米茄 歐米茄', Longines:'浪琴 浪琴表 longines', Blancpain:'宝珀 寶珀 blancpain', 'Jaeger-LeCoultre':'积家 積家 jlc jaeger lecoultre'
+  'Audemars Piguet':'爱彼 愛彼 ap', IWC:'万国 萬國 沙夫豪森', 'Patek Philippe':'百达翡丽 百達翡麗 pp', Omega:'欧米茄 歐米茄', Piaget:'伯爵 piaget', Longines:'浪琴 浪琴表 longines', Blancpain:'宝珀 寶珀 blancpain', 'Jaeger-LeCoultre':'积家 積家 jlc jaeger lecoultre'
 };
 const bandLabels = {metal:'Metal bracelet / 金属表链', rubber:'Rubber strap / 橡胶表带', leather:'Leather strap / 皮革表带', textile:'Textile strap / 织物表带'};
 const bandAliases = {metal:'金属表带 金属表链 钢带 钢链 鋼帶 鋼鏈',rubber:'橡胶 胶带 膠帶 橡膠',leather:'皮带 皮質 皮质 皮革',textile:'织物 織物 帆布 尼龙 尼龍'};
