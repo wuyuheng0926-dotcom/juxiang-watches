@@ -1,6 +1,6 @@
 #!/bin/sh
 set -eu
 mkdir -p public/assets
-cp index.html style.css app.js contact.js catalog.js hero-carousel.js public/
+cp index.html style.css app.js contact.js catalog.js hero-carousel.js featured-carousel.js featured-carousel.css public/
 cp -R assets/. public/assets/
 printf 'JUXIANG static website ready\n'
