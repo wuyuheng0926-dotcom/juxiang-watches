@@ -4,7 +4,7 @@
   const track = root.querySelector('.hero-track');
   const slides = [...track.children];
   const dots = [...root.querySelectorAll('[data-slide]')];
-  const ids = ["JX083","JX081","JX016","JX024","JX012","JX024"];
+  const ids = ["JX012","JX081","JX028","JX042","JX035","JX020"];
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   let index = 1, timer, settling, dragging = null, busy = false;
   let paused = reduced.matches, hovered = false, focused = false, visible = true;

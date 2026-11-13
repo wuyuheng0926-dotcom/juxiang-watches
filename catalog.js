@@ -150,7 +150,9 @@ const products = [
         "labelZh": "蓝气球系列 · 白盘尺寸对比"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "cartier-03",
+    "coverColor": "v2"
   },
   {
     "id": "JX013",
@@ -268,7 +270,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "cartier-08",
+    "coverColor": "v1"
   },
   {
     "id": "JX014",
@@ -302,7 +306,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "cartier-18",
+    "coverColor": "v1"
   },
   {
     "id": "JX015",
@@ -336,7 +342,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "cartier-19",
+    "coverColor": "v1"
   },
   {
     "id": "JX016",
@@ -454,7 +462,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "vc-04",
+    "coverColor": "v4"
   },
   {
     "id": "JX017",
@@ -488,7 +498,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "vc-08",
+    "coverColor": "v1"
   },
   {
     "id": "JX018",
@@ -620,7 +632,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "vc-09",
+    "coverColor": "v1"
   },
   {
     "id": "JX019",
@@ -752,7 +766,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "vc-17",
+    "coverColor": "v1"
   },
   {
     "id": "JX020",
@@ -786,7 +802,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "vc-25",
+    "coverColor": "v1"
   },
   {
     "id": "JX021",
@@ -820,7 +838,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "vc-26",
+    "coverColor": "v1"
   },
   {
     "id": "JX022",
@@ -938,7 +958,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "vc-27",
+    "coverColor": "v1"
   },
   {
     "id": "JX023",
@@ -1076,7 +1098,9 @@ const products = [
         "labelZh": "传承外观款·表背参考 · 表背参考图棕表带"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "vc-34",
+    "coverColor": "v1"
   },
   {
     "id": "JX024",
@@ -1196,7 +1220,9 @@ const products = [
         "labelZh": "皇家橡树系列 · 深色盘银色表链图B"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "ap-15",
+    "coverColor": "v6"
   },
   {
     "id": "JX025",
@@ -1244,7 +1270,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "ap-05",
+    "coverColor": "v1"
   },
   {
     "id": "JX026",
@@ -1340,7 +1368,9 @@ const products = [
         "labelZh": "皇家橡树离岸型潜水外观款 · 黑盘双表组合"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "ap-08",
+    "coverColor": "v1"
   },
   {
     "id": "JX027",
@@ -1374,7 +1404,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "ap-17",
+    "coverColor": "v1"
   },
   {
     "id": "JX028",
@@ -1408,7 +1440,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "ap-18",
+    "coverColor": "v1"
   },
   {
     "id": "JX029",
@@ -1453,7 +1487,9 @@ const products = [
         "labelZh": "葡萄牙自动腕表 · 白盘蓝色数字黑色表带"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "iwc-01",
+    "coverColor": "v1"
   },
   {
     "id": "JX030",
@@ -1501,7 +1537,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "iwc-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX031",
@@ -1535,7 +1573,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "iwc-05",
+    "coverColor": "v1"
   },
   {
     "id": "JX032",
@@ -1569,7 +1609,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "iwc-06",
+    "coverColor": "v1"
   },
   {
     "id": "JX033",
@@ -1673,7 +1715,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "iwc-07",
+    "coverColor": "v1"
   },
   {
     "id": "JX034",
@@ -1741,7 +1785,9 @@ const products = [
         "labelZh": "飞行员系列 · 绿色夜光参考图"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "iwc-23",
+    "coverColor": "v1"
   },
   {
     "id": "JX035",
@@ -1817,7 +1863,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "iwc-13",
+    "coverColor": "v1"
   },
   {
     "id": "JX036",
@@ -1921,7 +1969,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "iwc-17",
+    "coverColor": "v1"
   },
   {
     "id": "JX037",
@@ -1983,7 +2033,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "iwc-25",
+    "coverColor": "v1"
   },
   {
     "id": "JX038",
@@ -2059,7 +2111,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "iwc-28",
+    "coverColor": "v1"
   },
   {
     "id": "JX039",
@@ -2093,7 +2147,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "pp-01",
+    "coverColor": "v1"
   },
   {
     "id": "JX040",
@@ -2183,7 +2239,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "pp-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX041",
@@ -2217,7 +2275,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "pp-03",
+    "coverColor": "v1"
   },
   {
     "id": "JX042",
@@ -2455,7 +2515,9 @@ const products = [
         "labelZh": "鹦鹉螺 · 深色盘间金色表链照片B"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "pp-06",
+    "coverColor": "v1"
   },
   {
     "id": "JX043",
@@ -2509,7 +2571,9 @@ const products = [
         "labelZh": "手雷旅行时间 · 深色盘黑白表带合照"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "pp-26",
+    "coverColor": "v1"
   },
   {
     "id": "JX044",
@@ -2557,7 +2621,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "omega-01",
+    "coverColor": "v1"
   },
   {
     "id": "JX045",
@@ -2591,7 +2657,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "omega-23",
+    "coverColor": "v1"
   },
   {
     "id": "JX046",
@@ -2625,7 +2693,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "omega-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX047",
@@ -2771,7 +2841,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "omega-03",
+    "coverColor": "v1"
   },
   {
     "id": "JX048",
@@ -2805,7 +2877,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "omega-07",
+    "coverColor": "v1"
   },
   {
     "id": "JX049",
@@ -2839,7 +2913,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "omega-21",
+    "coverColor": "v1"
   },
   {
     "id": "JX050",
@@ -2901,7 +2977,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "omega-08",
+    "coverColor": "v1"
   },
   {
     "id": "JX051",
@@ -2991,7 +3069,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "omega-10",
+    "coverColor": "v1"
   },
   {
     "id": "JX052",
@@ -3025,7 +3105,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "omega-16",
+    "coverColor": "v1"
   },
   {
     "id": "JX053",
@@ -3059,7 +3141,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "omega-18",
+    "coverColor": "v1"
   },
   {
     "id": "JX054",
@@ -3125,7 +3209,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f01-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX055",
@@ -3182,7 +3268,9 @@ const products = [
         "labelZh": "包装与远景原始照片"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f02-03",
+    "coverColor": "v1"
   },
   {
     "id": "JX056",
@@ -3295,7 +3383,9 @@ const products = [
         "alt": "Longines PrimaLuna Moonphase · Case and bracelet details / 表壳与表链细节",
         "caption": "Case and bracelet details / 表壳与表链细节"
       }
-    ]
+    ],
+    "coverImage": "b01-f03-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX057",
@@ -3342,7 +3432,9 @@ const products = [
         "labelZh": "包装与远景原始照片"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f04-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX058",
@@ -3388,7 +3480,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f05-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX059",
@@ -3454,7 +3548,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f06-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX060",
@@ -3505,7 +3601,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f07-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX061",
@@ -3552,7 +3650,9 @@ const products = [
         "labelZh": "包装与远景原始照片"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f08-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX062",
@@ -3598,7 +3698,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f09-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX063",
@@ -3659,7 +3761,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f10-05",
+    "coverColor": "v1"
   },
   {
     "id": "JX064",
@@ -3726,7 +3830,9 @@ const products = [
         "labelZh": "包装与远景原始照片"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f11-05",
+    "coverColor": "v1"
   },
   {
     "id": "JX065",
@@ -3848,7 +3954,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f12-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX066",
@@ -3946,7 +4054,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f13-01",
+    "coverColor": "v1"
   },
   {
     "id": "JX067",
@@ -3997,7 +4107,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f14-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX068",
@@ -4043,7 +4155,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "b01-f15-02",
+    "coverColor": "v1"
   },
   {
     "id": "JX069",
@@ -4154,7 +4268,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "piaget-001",
+    "coverColor": "v1"
   },
   {
     "id": "JX070",
@@ -4280,7 +4396,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "piaget-023",
+    "coverColor": "v1"
   },
   {
     "id": "JX071",
@@ -4353,7 +4471,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "piaget-037",
+    "coverColor": "v1"
   },
   {
     "id": "JX072",
@@ -4426,7 +4546,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "piaget-046",
+    "coverColor": "v1"
   },
   {
     "id": "JX073",
@@ -4552,7 +4674,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "piaget-055",
+    "coverColor": "v1"
   },
   {
     "id": "JX074",
@@ -4837,7 +4961,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "piaget-073",
+    "coverColor": "v1"
   },
   {
     "id": "JX075",
@@ -4963,7 +5089,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "piaget-118",
+    "coverColor": "v1"
   },
   {
     "id": "JX076",
@@ -6699,7 +6827,9 @@ const products = [
         "labelZh": "补充供图 · 具体配色归属待确认"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-371",
+    "coverColor": "v8"
   },
   {
     "id": "JX077",
@@ -6995,7 +7125,9 @@ const products = [
         "labelZh": "补充供图 · 具体配色归属待确认"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-352",
+    "coverColor": "v3"
   },
   {
     "id": "JX078",
@@ -7180,7 +7312,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-513",
+    "coverColor": "v3"
   },
   {
     "id": "JX079",
@@ -8559,7 +8693,9 @@ const products = [
         "labelZh": "补充供图 · 具体配色归属待确认"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-423",
+    "coverColor": "v5"
   },
   {
     "id": "JX080",
@@ -8674,7 +8810,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-220",
+    "coverColor": "v2"
   },
   {
     "id": "JX081",
@@ -9072,7 +9210,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-343",
+    "coverColor": "v1"
   },
   {
     "id": "JX082",
@@ -9132,7 +9272,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex-129",
+    "coverColor": "v1"
   },
   {
     "id": "JX083",
@@ -10092,7 +10234,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-380",
+    "coverColor": "v9"
   },
   {
     "id": "JX084",
@@ -10217,7 +10361,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex-158",
+    "coverColor": "v1"
   },
   {
     "id": "JX085",
@@ -10713,7 +10859,9 @@ const products = [
         "labelZh": "补充供图 · 具体配色归属待确认"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-334",
+    "coverColor": "v1"
   },
   {
     "id": "JX086",
@@ -11467,7 +11615,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-325",
+    "coverColor": "v3"
   },
   {
     "id": "JX087",
@@ -12159,7 +12309,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-564",
+    "coverColor": "v4"
   },
   {
     "id": "JX088",
@@ -12403,7 +12555,9 @@ const products = [
         "labelZh": "补充供图 · 具体配色归属待确认"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-362",
+    "coverColor": "v1"
   },
   {
     "id": "JX089",
@@ -12463,7 +12617,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex-281",
+    "coverColor": "v1"
   },
   {
     "id": "JX090",
@@ -12596,7 +12752,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex-350",
+    "coverColor": "v1"
   },
   {
     "id": "JX091",
@@ -12756,7 +12914,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-200",
+    "coverColor": "v2"
   },
   {
     "id": "JX092",
@@ -12856,7 +13016,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex-496",
+    "coverColor": "v1"
   },
   {
     "id": "JX093",
@@ -12991,7 +13153,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-010",
+    "coverColor": "v1"
   },
   {
     "id": "JX094",
@@ -13232,7 +13396,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex-529",
+    "coverColor": "v1"
   },
   {
     "id": "JX095",
@@ -13322,7 +13488,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex-556",
+    "coverColor": "v1"
   },
   {
     "id": "JX096",
@@ -13483,7 +13651,9 @@ const products = [
         "labelZh": "补充供图 · 具体配色归属待确认"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-388",
+    "coverColor": "v3"
   },
   {
     "id": "JX097",
@@ -13543,7 +13713,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-131",
+    "coverColor": "v1"
   },
   {
     "id": "JX098",
@@ -13603,7 +13775,9 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-158",
+    "coverColor": "v1"
   },
   {
     "id": "JX099",
@@ -13671,7 +13845,9 @@ const products = [
         "labelZh": "补充供图 · 具体配色归属待确认"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "coverImage": "rolex2-522",
+    "coverColor": "v1"
   }
 ];
 
