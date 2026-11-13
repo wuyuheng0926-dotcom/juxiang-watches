@@ -1,28 +1,3680 @@
-const siteSettings = {"brandName": "JUXIANG", "heroTitle": "Presence. In every moment.", "heroIntro": "For the way you move through the world. Discover our collection of real watch photographs.", "contactUrl": "https://wa.me/8619922353655"};
-const products = [{"id":"W01","name":"Yacht-Master — Silver dial · Silver tone","tone":"Silver dial · Silver tone","category":"Sport","image":"watch-01","description":"A nautical sports-watch silhouette with prominent raised-style bezel numerals and a balanced three-hand dial. Its contrast of surfaces creates an expressive wrist presence.","nameZh":"游艇名仕型 · 银盘银色","family":"Yacht-Master","sizeReference":"37 / 40 / 42 mm","features":["Raised-style bezel numerals","Large geometric markers","Nautical sports-watch appearance"],"multi":false,"brand":"Rolex"},{"id":"W02","name":"Datejust — Champagne · Two tone","tone":"Champagne · Two tone","category":"Classic","image":"watch-02","description":"A classic dress-watch silhouette combining a refined dial layout with a metal bracelet. The photographed colour and bezel treatment give each variation its own character.","nameZh":"日志型 · 香槟盘间金色","family":"Datejust","sizeReference":"31 / 36 / 41 mm","features":["Classic date-window layout","Dress-oriented dial proportions","Metal bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W03","name":"Cosmograph Daytona — Chronograph assortment","tone":"Chronograph assortment","category":"Sport","image":"watch-03","description":"This photograph contains multiple watches. A motorsport-inspired chronograph layout with three subsidiary dials and a graduated outer scale. Contrasting counters make the dial visually distinctive. Each watch must be identified and measured individually.","nameZh":"宇宙计型迪通拿 · 计时款组合","family":"Cosmograph Daytona","sizeReference":"40 mm","features":["Three subdial layout","Graduated tachymeter-style bezel","Side pushers visible; operation unverified"],"multi":true,"brand":"Rolex"},{"id":"W04","name":"Cosmograph Daytona — White dial · Black bezel","tone":"White dial · Black bezel","category":"Sport","image":"watch-04","description":"A motorsport-inspired chronograph layout with three subsidiary dials and a graduated outer scale. Contrasting counters make the dial visually distinctive.","nameZh":"宇宙计型迪通拿 · 白盘黑圈","family":"Cosmograph Daytona","sizeReference":"40 mm","features":["Three subdial layout","Graduated tachymeter-style bezel","Side pushers visible; operation unverified"],"multi":false,"brand":"Rolex"},{"id":"W05","name":"Day-Date — Olive dial · Rose tone","tone":"Olive dial · Rose tone","category":"Classic","image":"watch-05","description":"A formal watch silhouette distinguished by a full day aperture above the hands and a separate date window. The warm metallic palette gives it a prominent dress-watch presence.","nameZh":"星期日历型 · 橄榄绿盘玫瑰金色","family":"Day-Date","sizeReference":"36 / 40 mm","features":["Day aperture at 12 o’clock","Date window at 3 o’clock","Rounded-link bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W06","name":"Submariner — Black dial · Gold tone","tone":"Black dial · Gold tone","category":"Sport","image":"watch-06","description":"A diving-watch-inspired silhouette with a prominent numbered bezel and bold hour markers. Its high-contrast layout gives the design a purposeful, sporty character.","nameZh":"潜航者型 · 黑盘金色","family":"Submariner","sizeReference":"41 mm","features":["Numbered dive-style bezel","Large geometric hour markers","Three-link bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W07","name":"Explorer II — Black dial · 24-hour bezel","tone":"Black dial · 24-hour bezel","category":"Sport","image":"watch-07","description":"A utilitarian sports-watch silhouette with a numbered 24-hour-style bezel and an additional arrow-shaped hand. Its visual language emphasises clear orientation and legibility.","nameZh":"探险家型 II · 黑盘24小时圈","family":"Explorer II","sizeReference":"42 mm","features":["Numbered 24-hour-style bezel","Arrow-shaped additional hand","Contrasting hour markers"],"multi":false,"brand":"Rolex"},{"id":"W08","name":"GMT-Master II — Black dial · Blue/black bezel","tone":"Black dial · Blue/black bezel","category":"Sport","image":"watch-08","description":"A travel-watch-inspired design using a 24-hour-style bezel and an additional hand. The contrasting bezel treatment creates a recognisable sporty profile.","nameZh":"格林尼治型 II · 黑盘蓝黑圈","family":"GMT-Master II","sizeReference":"40 mm","features":["24-hour-style bezel markings","Additional hand visible","Two-colour bezel treatment"],"multi":false,"brand":"Rolex"},{"id":"W09","name":"Day-Date — Green & champagne assortment","tone":"Green & champagne assortment","category":"Classic","image":"watch-09","description":"This photograph contains multiple watches. A formal watch silhouette distinguished by a full day aperture above the hands and a separate date window. The warm metallic palette gives it a prominent dress-watch presence. Each watch must be identified and measured individually.","nameZh":"星期日历型 · 绿盘及香槟盘组合","family":"Day-Date","sizeReference":"36 / 40 mm","features":["Day aperture at 12 o’clock","Date window at 3 o’clock","Rounded-link bracelet appearance"],"multi":true,"brand":"Rolex"},{"id":"W10","name":"Datejust — Colour dial assortment","tone":"Colour dial assortment","category":"Classic","image":"watch-10","description":"This photograph contains multiple watches. A classic dress-watch silhouette combining a refined dial layout with a metal bracelet. The photographed colour and bezel treatment give each variation its own character. Each watch must be identified and measured individually.","nameZh":"日志型 · 彩色表盘组合","family":"Datejust","sizeReference":"31 / 36 / 41 mm","features":["Classic date-window layout","Dress-oriented dial proportions","Metal bracelet appearance"],"multi":true,"brand":"Rolex"},{"id":"W11","name":"Datejust — Gold-tone dial assortment","tone":"Gold-tone dial assortment","category":"Classic","image":"watch-11","description":"This photograph contains multiple watches. A classic dress-watch silhouette combining a refined dial layout with a metal bracelet. The photographed colour and bezel treatment give each variation its own character. Each watch must be identified and measured individually.","nameZh":"日志型 · 金色表盘组合","family":"Datejust","sizeReference":"31 / 36 / 41 mm","features":["Classic date-window layout","Dress-oriented dial proportions","Metal bracelet appearance"],"multi":true,"brand":"Rolex"},{"id":"W12","name":"Datejust — White dial · Rose two tone","tone":"White dial · Rose two tone","category":"Classic","image":"watch-12","description":"A classic dress-watch silhouette combining a refined dial layout with a metal bracelet. The photographed colour and bezel treatment give each variation its own character.","nameZh":"日志型 · 白盘玫瑰间金色","family":"Datejust","sizeReference":"31 / 36 / 41 mm","features":["Classic date-window layout","Dress-oriented dial proportions","Metal bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W13","name":"Day-Date — Champagne dial · Gold tone","tone":"Champagne dial · Gold tone","category":"Classic","image":"watch-13","description":"A formal watch silhouette distinguished by a full day aperture above the hands and a separate date window. The warm metallic palette gives it a prominent dress-watch presence.","nameZh":"星期日历型 · 香槟盘金色","family":"Day-Date","sizeReference":"36 / 40 mm","features":["Day aperture at 12 o’clock","Date window at 3 o’clock","Rounded-link bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W14","name":"Cosmograph Daytona — Decorative multicolour bezel","tone":"Decorative multicolour bezel","category":"Sport","image":"watch-14","description":"A motorsport-inspired chronograph layout with three subsidiary dials and a graduated outer scale. Contrasting counters make the dial visually distinctive.","nameZh":"宇宙计型迪通拿 · 多彩装饰圈","family":"Cosmograph Daytona","sizeReference":"40 mm","features":["Multicolour decorative bezel appearance","Three subdial layout","Gold-tone case and bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W15","name":"Datejust — Black dial · Gold tone","tone":"Black dial · Gold tone","category":"Classic","image":"watch-15","description":"A classic dress-watch silhouette combining a refined dial layout with a metal bracelet. The photographed colour and bezel treatment give each variation its own character.","nameZh":"日志型 · 黑盘金色","family":"Datejust","sizeReference":"31 / 36 / 41 mm","features":["Classic date-window layout","Dress-oriented dial proportions","Metal bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W16","name":"Submariner — Blue dial · Silver tone","tone":"Blue dial · Silver tone","category":"Sport","image":"watch-16","description":"A diving-watch-inspired silhouette with a prominent numbered bezel and bold hour markers. Its high-contrast layout gives the design a purposeful, sporty character.","nameZh":"潜航者型 · 蓝盘银色","family":"Submariner","sizeReference":"41 mm","features":["Numbered dive-style bezel","Large geometric hour markers","Three-link bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W17","name":"Datejust — Blue dial · Silver tone","tone":"Blue dial · Silver tone","category":"Classic","image":"watch-17","description":"A classic dress-watch silhouette combining a refined dial layout with a metal bracelet. The photographed colour and bezel treatment give each variation its own character.","nameZh":"日志型 · 蓝盘银色","family":"Datejust","sizeReference":"31 / 36 / 41 mm","features":["Classic date-window layout","Dress-oriented dial proportions","Metal bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W18","name":"Submariner — Blue dial · Blue bezel","tone":"Blue dial · Blue bezel","category":"Sport","image":"watch-18","description":"A diving-watch-inspired silhouette with a prominent numbered bezel and bold hour markers. Its high-contrast layout gives the design a purposeful, sporty character.","nameZh":"潜航者型 · 蓝盘蓝圈","family":"Submariner","sizeReference":"41 mm","features":["Numbered dive-style bezel","Large geometric hour markers","Three-link bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W19","name":"Submariner — Black dial · Black bezel","tone":"Black dial · Black bezel","category":"Sport","image":"watch-19","description":"A diving-watch-inspired silhouette with a prominent numbered bezel and bold hour markers. Its high-contrast layout gives the design a purposeful, sporty character.","nameZh":"潜航者型 · 黑盘黑圈","family":"Submariner","sizeReference":"41 mm","features":["Numbered dive-style bezel","Large geometric hour markers","Three-link bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W20","name":"Submariner — Black dial · Two tone","tone":"Black dial · Two tone","category":"Sport","image":"watch-20","description":"A diving-watch-inspired silhouette with a prominent numbered bezel and bold hour markers. Its high-contrast layout gives the design a purposeful, sporty character.","nameZh":"潜航者型 · 黑盘间金色","family":"Submariner","sizeReference":"41 mm","features":["Numbered dive-style bezel","Large geometric hour markers","Three-link bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W22","name":"Cosmograph Daytona — Dark chronograph assortment","tone":"Dark chronograph assortment","category":"Sport","image":"watch-22","description":"This photograph contains multiple watches. A motorsport-inspired chronograph layout with three subsidiary dials and a graduated outer scale. Contrasting counters make the dial visually distinctive. Each watch must be identified and measured individually.","nameZh":"宇宙计型迪通拿 · 深色计时组合","family":"Cosmograph Daytona","sizeReference":"40 mm","features":["Three subdial layout","Graduated tachymeter-style bezel","Side pushers visible; operation unverified"],"multi":true,"brand":"Rolex"},{"id":"W23","name":"Datejust — Dress-watch assortment","tone":"Dress-watch assortment","category":"Classic","image":"watch-23","description":"This photograph contains multiple watches. A classic dress-watch silhouette combining a refined dial layout with a metal bracelet. The photographed colour and bezel treatment give each variation its own character. Each watch must be identified and measured individually.","nameZh":"日志型 · 正装表组合","family":"Datejust","sizeReference":"31 / 36 / 41 mm","features":["Classic date-window layout","Dress-oriented dial proportions","Metal bracelet appearance"],"multi":true,"brand":"Rolex"},{"id":"W24","name":"Submariner — Black dial · Two tone","tone":"Black dial · Two tone","category":"Sport","image":"watch-24","description":"A diving-watch-inspired silhouette with a prominent numbered bezel and bold hour markers. Its high-contrast layout gives the design a purposeful, sporty character.","nameZh":"潜航者型 · 黑盘间金色","family":"Submariner","sizeReference":"41 mm","features":["Numbered dive-style bezel","Large geometric hour markers","Three-link bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W25","name":"Yacht-Master — Black dial · Rose tone","tone":"Black dial · Rose tone","category":"Sport","image":"watch-25","description":"A nautical sports-watch silhouette with prominent raised-style bezel numerals and a balanced three-hand dial. Its contrast of surfaces creates an expressive wrist presence.","nameZh":"游艇名仕型 · 黑盘玫瑰金色","family":"Yacht-Master","sizeReference":"37 / 40 / 42 mm","features":["Raised-style bezel numerals","Large geometric markers","Nautical sports-watch appearance","Black strap appearance; material unverified"],"multi":false,"brand":"Rolex"},{"id":"W26","name":"GMT-Master II — Black dial · Red/black bezel","tone":"Black dial · Red/black bezel","category":"Sport","image":"watch-26","description":"A travel-watch-inspired design using a 24-hour-style bezel and an additional hand. The contrasting bezel treatment creates a recognisable sporty profile.","nameZh":"格林尼治型 II · 黑盘红黑圈","family":"GMT-Master II","sizeReference":"40 mm","features":["24-hour-style bezel markings","Additional hand visible","Two-colour bezel treatment"],"multi":false,"brand":"Rolex"},{"id":"W27","name":"Cosmograph Daytona — Champagne dial · Black strap","tone":"Champagne dial · Black strap","category":"Sport","image":"watch-27","description":"A motorsport-inspired chronograph layout with three subsidiary dials and a graduated outer scale. Contrasting counters make the dial visually distinctive.","nameZh":"宇宙计型迪通拿 · 香槟盘黑表带","family":"Cosmograph Daytona","sizeReference":"40 mm","features":["Three subdial layout","Graduated tachymeter-style bezel","Side pushers visible; operation unverified","Black strap appearance; material unverified"],"multi":false,"brand":"Rolex"},{"id":"W28","name":"Datejust — Dress-watch assortment","tone":"Dress-watch assortment","category":"Classic","image":"watch-28","description":"This photograph contains multiple watches. A classic dress-watch silhouette combining a refined dial layout with a metal bracelet. The photographed colour and bezel treatment give each variation its own character. Each watch must be identified and measured individually.","nameZh":"日志型 · 正装表组合","family":"Datejust","sizeReference":"31 / 36 / 41 mm","features":["Classic date-window layout","Dress-oriented dial proportions","Metal bracelet appearance"],"multi":true,"brand":"Rolex"},{"id":"W29","name":"Submariner — Green dial · Green bezel","tone":"Green dial · Green bezel","category":"Sport","image":"watch-29","description":"A diving-watch-inspired silhouette with a prominent numbered bezel and bold hour markers. Its high-contrast layout gives the design a purposeful, sporty character.","nameZh":"潜航者型 · 绿盘绿圈","family":"Submariner","sizeReference":"41 mm","features":["Numbered dive-style bezel","Large geometric hour markers","Three-link bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W30","name":"Datejust — Slate dial · Roman markers","tone":"Slate dial · Roman markers","category":"Classic","image":"watch-30","description":"A classic dress-watch silhouette combining a refined dial layout with a metal bracelet. The photographed colour and bezel treatment give each variation its own character.","nameZh":"日志型 · 灰盘罗马时标","family":"Datejust","sizeReference":"31 / 36 / 41 mm","features":["Slate-coloured dial","Roman-numeral-style hour markers","Fluted-style bezel and metal bracelet"],"multi":false,"brand":"Rolex"},{"id":"W31","name":"Datejust — Black dial · Rose two tone","tone":"Black dial · Rose two tone","category":"Classic","image":"watch-31","description":"A classic dress-watch silhouette combining a refined dial layout with a metal bracelet. The photographed colour and bezel treatment give each variation its own character.","nameZh":"日志型 · 黑盘玫瑰间金色","family":"Datejust","sizeReference":"31 / 36 / 41 mm","features":["Classic date-window layout","Dress-oriented dial proportions","Metal bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"W32","name":"Cosmograph Daytona — Blue chronograph dial","tone":"Blue chronograph dial","category":"Sport","image":"watch-32","description":"A motorsport-inspired chronograph layout with three subsidiary dials and a graduated outer scale. Contrasting counters make the dial visually distinctive.","nameZh":"宇宙计型迪通拿 · 蓝盘计时","family":"Cosmograph Daytona","sizeReference":"40 mm","features":["Three subdial layout","Graduated tachymeter-style bezel","Side pushers visible; operation unverified"],"multi":false,"brand":"Rolex"},{"id":"W33","name":"Submariner — Black dial · Black bezel","tone":"Black dial · Black bezel","category":"Sport","image":"watch-33","description":"A diving-watch-inspired silhouette with a prominent numbered bezel and bold hour markers. Its high-contrast layout gives the design a purposeful, sporty character.","nameZh":"潜航者型 · 黑盘黑圈","family":"Submariner","sizeReference":"41 mm","features":["Numbered dive-style bezel","Large geometric hour markers","Three-link bracelet appearance"],"multi":false,"brand":"Rolex"},{"id":"C01","brand":"Cartier","name":"Ballon Bleu de Cartier — White dial · Size comparison","nameZh":"蓝气球系列 · 白盘尺寸对比","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character. The uploaded photo is labelled 28, 33 and 36 mm by its supplier; these labels are not independently measured.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"White dial · Size comparison","category":"Classic","image":"cartier-01","multi":true},{"id":"C02","brand":"Cartier","name":"Ballon Bleu de Cartier — White dial · Silver tone","nameZh":"蓝气球系列 · 白盘银色","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"White dial · Silver tone","category":"Classic","image":"cartier-02","multi":false},{"id":"C03","brand":"Cartier","name":"Ballon Bleu de Cartier — Blue dial · Silver tone","nameZh":"蓝气球系列 · 蓝盘银色","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"Blue dial · Silver tone","category":"Classic","image":"cartier-03","multi":false},{"id":"C04","brand":"Cartier","name":"Ballon Bleu de Cartier — Black dial · Silver tone","nameZh":"蓝气球系列 · 黑盘银色","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"Black dial · Silver tone","category":"Classic","image":"cartier-04","multi":false},{"id":"C05","brand":"Cartier","name":"Ballon Bleu de Cartier — White dial · Rose two tone","nameZh":"蓝气球系列 · 白盘玫瑰间金色","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"White dial · Rose two tone","category":"Classic","image":"cartier-05","multi":false},{"id":"C06","brand":"Cartier","name":"Ballon Bleu de Cartier — White dial · Yellow two tone","nameZh":"蓝气球系列 · 白盘黄金间金色","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"White dial · Yellow two tone","category":"Classic","image":"cartier-06","multi":false},{"id":"C07","brand":"Cartier","name":"Ballon Bleu de Cartier — White dial · Silver bracelet","nameZh":"蓝气球系列 · 白盘银色表链","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"White dial · Silver bracelet","category":"Classic","image":"cartier-07","multi":false},{"id":"C08","brand":"Cartier","name":"Ballon Bleu de Cartier — White dial · Black strap","nameZh":"蓝气球系列 · 白盘黑表带","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"White dial · Black strap","category":"Classic","image":"cartier-08","multi":false},{"id":"C09","brand":"Cartier","name":"Ballon Bleu de Cartier — Blue dial · Blue strap","nameZh":"蓝气球系列 · 蓝盘蓝表带","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"Blue dial · Blue strap","category":"Classic","image":"cartier-09","multi":false},{"id":"C10","brand":"Cartier","name":"Ballon Bleu de Cartier — Black dial · Black strap","nameZh":"蓝气球系列 · 黑盘黑表带","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"Black dial · Black strap","category":"Classic","image":"cartier-10","multi":false},{"id":"C11","brand":"Cartier","name":"Ballon Bleu de Cartier — White dial · Rose tone · Brown strap","nameZh":"蓝气球系列 · 白盘玫瑰金色棕表带","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"White dial · Rose tone · Brown strap","category":"Classic","image":"cartier-11","multi":false},{"id":"C12","brand":"Cartier","name":"Ballon Bleu de Cartier — White dial · Silver tone · Black strap","nameZh":"蓝气球系列 · 白盘银色黑表带","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"White dial · Silver tone · Black strap","category":"Classic","image":"cartier-12","multi":false},{"id":"C13","brand":"Cartier","name":"Ballon Bleu de Cartier — White dial · Gold tone · Brown strap","nameZh":"蓝气球系列 · 白盘金色棕表带","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"White dial · Gold tone · Brown strap","category":"Classic","image":"cartier-13","multi":false},{"id":"C14","brand":"Cartier","name":"Ballon Bleu de Cartier — Pink dial · Pink strap","nameZh":"蓝气球系列 · 粉盘粉表带","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"Pink dial · Pink strap","category":"Classic","image":"cartier-14","multi":false},{"id":"C15","brand":"Cartier","name":"Ballon Bleu de Cartier — Light dial · Decorative bezel","nameZh":"蓝气球系列 · 浅色表盘装饰圈","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"Light dial · Decorative bezel","category":"Classic","image":"cartier-15","multi":false},{"id":"C16","brand":"Cartier","name":"Ballon Bleu de Cartier — White dial · Roman markers","nameZh":"蓝气球系列 · 白盘罗马时标","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"White dial · Roman markers","category":"Classic","image":"cartier-16","multi":false},{"id":"C17","brand":"Cartier","name":"Ballon Bleu de Cartier — Light blue dial · Bracelet","nameZh":"蓝气球系列 · 浅蓝盘表链","family":"Ballon Bleu de Cartier","sizeReference":"28 / 33 / 36 / 40 mm (selected official models)","description":"A rounded case and a crown recessed within a curved protective arch give this design its distinctive profile. Roman-style hour markers and a flowing dial layout create a refined dress-watch character.","features":["Rounded case silhouette","Crown within a curved protective arch","Roman-style hour markers"],"tone":"Light blue dial · Bracelet","category":"Classic","image":"cartier-17","multi":false},{"id":"C18","brand":"Cartier","name":"Santos-Dumont — Square case · Two-watch assortment","nameZh":"山度士杜蒙系列 · 方形表壳双表组合","family":"Santos-Dumont","sizeReference":"Small: 38 × 27.5 mm; Large: 43.5 × 31.4 mm (L × W)","description":"A softly squared case, visible bezel screws and a Roman-numeral-style dial define this aviation-inspired dress-watch silhouette. The photo shows two watches; identify each reference and size individually.","features":["Softly squared case","Visible bezel screws","Roman-style dial and dark strap appearance"],"tone":"Square case · Two-watch assortment","category":"Classic","image":"cartier-18","multi":true},{"id":"C19","brand":"Cartier","name":"Tank — Rectangular case · Black strap","nameZh":"坦克系列 · 长方形表壳黑表带","family":"Tank","sizeReference":"Tank Must examples: Small 29.5 × 22 mm; Large 33.7 × 25.5 mm (L × W)","description":"A rectangular silhouette with straight vertical case sides frames a Roman-numeral-style dial. The dark strap highlights the clean, architectural lines. The exact Tank subfamily and reference are unconfirmed.","features":["Rectangular case silhouette","Parallel vertical case sides","Roman-style markers and dark strap appearance"],"tone":"Rectangular case · Black strap","category":"Classic","image":"cartier-19","multi":false},{"id":"VC01","brand":"Vacheron Constantin","family":"Overseas","name":"Overseas — Silver dial · Silver bracelet","nameZh":"纵横四海系列 · 银盘银色表链","tone":"Silver dial · Silver bracelet","category":"Sport","sizeReference":"41 mm (selected official self-winding reference; actual size unmeasured)","description":"A notched, cross-inspired bezel frames a three-hand dial with a date-window layout. The integrated sports-watch silhouette gives this photographed variation a balanced, versatile appearance. Visible variation: silver dial · silver bracelet.","image":"vc-01","features":["Notched cross-inspired bezel","Baton-style hour markers","Integrated-bracelet or strap silhouette"],"multi":false},{"id":"VC02","brand":"Vacheron Constantin","family":"Overseas","name":"Overseas — Black dial · Silver bracelet","nameZh":"纵横四海系列 · 黑盘银色表链","tone":"Black dial · Silver bracelet","category":"Sport","sizeReference":"41 mm (selected official self-winding reference; actual size unmeasured)","description":"A notched, cross-inspired bezel frames a three-hand dial with a date-window layout. The integrated sports-watch silhouette gives this photographed variation a balanced, versatile appearance. Visible variation: black dial · silver bracelet.","image":"vc-02","features":["Notched cross-inspired bezel","Baton-style hour markers","Integrated-bracelet or strap silhouette"],"multi":false},{"id":"VC03","brand":"Vacheron Constantin","family":"Overseas","name":"Overseas — Brown dial · Silver bracelet","nameZh":"纵横四海系列 · 棕盘银色表链","tone":"Brown dial · Silver bracelet","category":"Sport","sizeReference":"41 mm (selected official self-winding reference; actual size unmeasured)","description":"A notched, cross-inspired bezel frames a three-hand dial with a date-window layout. The integrated sports-watch silhouette gives this photographed variation a balanced, versatile appearance. Visible variation: brown dial · silver bracelet.","image":"vc-03","features":["Notched cross-inspired bezel","Baton-style hour markers","Integrated-bracelet or strap silhouette"],"multi":false},{"id":"VC04","brand":"Vacheron Constantin","family":"Overseas","name":"Overseas — Blue dial · Silver bracelet","nameZh":"纵横四海系列 · 蓝盘银色表链","tone":"Blue dial · Silver bracelet","category":"Sport","sizeReference":"41 mm (selected official self-winding reference; actual size unmeasured)","description":"A notched, cross-inspired bezel frames a three-hand dial with a date-window layout. The integrated sports-watch silhouette gives this photographed variation a balanced, versatile appearance. Visible variation: blue dial · silver bracelet.","image":"vc-04","features":["Notched cross-inspired bezel","Baton-style hour markers","Integrated-bracelet or strap silhouette"],"multi":false},{"id":"VC05","brand":"Vacheron Constantin","family":"Overseas","name":"Overseas — Green dial · Silver bracelet","nameZh":"纵横四海系列 · 绿盘银色表链","tone":"Green dial · Silver bracelet","category":"Sport","sizeReference":"41 mm (selected official self-winding reference; actual size unmeasured)","description":"A notched, cross-inspired bezel frames a three-hand dial with a date-window layout. The integrated sports-watch silhouette gives this photographed variation a balanced, versatile appearance. Visible variation: green dial · silver bracelet.","image":"vc-05","features":["Notched cross-inspired bezel","Baton-style hour markers","Integrated-bracelet or strap silhouette"],"multi":false},{"id":"VC06","brand":"Vacheron Constantin","family":"Overseas","name":"Overseas — Silver dial · Rose tone","nameZh":"纵横四海系列 · 银盘玫瑰金色","tone":"Silver dial · Rose tone","category":"Sport","sizeReference":"41 mm (selected official self-winding reference; actual size unmeasured)","description":"A notched, cross-inspired bezel frames a three-hand dial with a date-window layout. The integrated sports-watch silhouette gives this photographed variation a balanced, versatile appearance. Visible variation: silver dial · rose tone.","image":"vc-06","features":["Notched cross-inspired bezel","Baton-style hour markers","Integrated-bracelet or strap silhouette"],"multi":false},{"id":"VC07","brand":"Vacheron Constantin","family":"Overseas","name":"Overseas — Blue dial · Rose tone","nameZh":"纵横四海系列 · 蓝盘玫瑰金色","tone":"Blue dial · Rose tone","category":"Sport","sizeReference":"41 mm (selected official self-winding reference; actual size unmeasured)","description":"A notched, cross-inspired bezel frames a three-hand dial with a date-window layout. The integrated sports-watch silhouette gives this photographed variation a balanced, versatile appearance. Visible variation: blue dial · rose tone.","image":"vc-07","features":["Notched cross-inspired bezel","Baton-style hour markers","Integrated-bracelet or strap silhouette"],"multi":false},{"id":"VC08","brand":"Vacheron Constantin","family":"Overseas","name":"Overseas — Brown dial · Brown strap","nameZh":"纵横四海系列 · 棕盘棕表带","tone":"Brown dial · Brown strap","category":"Sport","sizeReference":"41 mm (selected official self-winding reference; actual size unmeasured)","description":"A notched, cross-inspired bezel frames a three-hand dial with a date-window layout. The integrated sports-watch silhouette gives this photographed variation a balanced, versatile appearance. Visible variation: brown dial · brown strap.","image":"vc-08","features":["Notched cross-inspired bezel","Baton-style hour markers","Integrated-bracelet or strap silhouette"],"multi":false},{"id":"VC09","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — White chronograph · Silver bracelet","nameZh":"纵横四海计时系列 · 白盘计时银色表链","tone":"White chronograph · Silver bracelet","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: white chronograph · silver bracelet.","image":"vc-09","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC10","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — White chronograph · Rose tone","nameZh":"纵横四海计时系列 · 白盘计时玫瑰金色","tone":"White chronograph · Rose tone","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: white chronograph · rose tone.","image":"vc-10","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC11","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — Blue chronograph · Rose tone","nameZh":"纵横四海计时系列 · 蓝盘计时玫瑰金色","tone":"Blue chronograph · Rose tone","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: blue chronograph · rose tone.","image":"vc-11","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC12","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — Brown chronograph · Silver bracelet","nameZh":"纵横四海计时系列 · 棕盘计时银色表链","tone":"Brown chronograph · Silver bracelet","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: brown chronograph · silver bracelet.","image":"vc-12","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC13","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — Black dial · Light counters","nameZh":"纵横四海计时系列 · 黑盘浅色小表盘","tone":"Black dial · Light counters","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: black dial · light counters.","image":"vc-13","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC14","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — Blue chronograph · Silver bracelet","nameZh":"纵横四海计时系列 · 蓝盘计时银色表链","tone":"Blue chronograph · Silver bracelet","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: blue chronograph · silver bracelet.","image":"vc-14","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC15","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — Black chronograph · Silver bracelet","nameZh":"纵横四海计时系列 · 黑盘计时银色表链","tone":"Black chronograph · Silver bracelet","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: black chronograph · silver bracelet.","image":"vc-15","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC16","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — White dial · Dark counters","nameZh":"纵横四海计时系列 · 白盘深色小表盘","tone":"White dial · Dark counters","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: white dial · dark counters.","image":"vc-16","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC17","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — Blue chronograph · Blue strap","nameZh":"纵横四海计时系列 · 蓝盘计时蓝表带","tone":"Blue chronograph · Blue strap","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: blue chronograph · blue strap.","image":"vc-17","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC18","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — Brown chronograph · Brown strap","nameZh":"纵横四海计时系列 · 棕盘计时棕表带","tone":"Brown chronograph · Brown strap","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: brown chronograph · brown strap.","image":"vc-18","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC19","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — White chronograph · Brown strap","nameZh":"纵横四海计时系列 · 白盘计时棕表带","tone":"White chronograph · Brown strap","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: white chronograph · brown strap.","image":"vc-19","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC20","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — Black dial · Light counters · Black strap","nameZh":"纵横四海计时系列 · 黑盘浅色小表盘黑表带","tone":"Black dial · Light counters · Black strap","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: black dial · light counters · black strap.","image":"vc-20","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC21","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — White dial · Dark counters · Black strap","nameZh":"纵横四海计时系列 · 白盘深色小表盘黑表带","tone":"White dial · Dark counters · Black strap","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: white dial · dark counters · black strap.","image":"vc-21","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC22","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — Black chronograph · Black strap","nameZh":"纵横四海计时系列 · 黑盘计时黑表带","tone":"Black chronograph · Black strap","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: black chronograph · black strap.","image":"vc-22","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC23","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — Blue chronograph · Rose tone · Blue strap","nameZh":"纵横四海计时系列 · 蓝盘计时玫瑰金色蓝表带","tone":"Blue chronograph · Rose tone · Blue strap","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: blue chronograph · rose tone · blue strap.","image":"vc-23","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC24","brand":"Vacheron Constantin","family":"Overseas Chronograph","name":"Overseas Chronograph — White chronograph · Black strap","nameZh":"纵横四海计时系列 · 白盘计时黑表带","tone":"White chronograph · Black strap","category":"Sport","sizeReference":"42.5 mm (official chronograph comparison; actual size unmeasured)","description":"A three-counter chronograph-style display adds visual depth to the notched-bezel sports-watch silhouette. The dial, case tone and bracelet or strap distinguish this photographed variation. Visible variation: white chronograph · black strap.","image":"vc-24","features":["Three subdial layout","Chronograph-style pushers visible","Notched bezel with a sporty profile"],"multi":false},{"id":"VC25","brand":"Vacheron Constantin","family":"Round Open-aperture — Unconfirmed","name":"Round Open-aperture — Unconfirmed — Blue decorative dial · Metal bracelet","nameZh":"圆形开芯款（系列待核实） · 蓝色装饰盘金属表链","tone":"Blue decorative dial · Metal bracelet","category":"Classic","sizeReference":"Unconfirmed — exact model reference and actual measurement required","description":"A blue decorative dial sits within a polished round case, with an open aperture at six o’clock. The exact official series cannot be established from this image; no tourbillon or movement function is confirmed. Visible variation: blue decorative dial · metal bracelet.","image":"vc-25","features":["Blue decorative dial motif","Open aperture at six o’clock","Polished round-case appearance"],"multi":false},{"id":"VC26","brand":"Vacheron Constantin","family":"Round Open-aperture — Unconfirmed","name":"Round Open-aperture — Unconfirmed — Blue decorative dial · Blue strap","nameZh":"圆形开芯款（系列待核实） · 蓝色装饰盘蓝表带","tone":"Blue decorative dial · Blue strap","category":"Classic","sizeReference":"Unconfirmed — exact model reference and actual measurement required","description":"A blue decorative dial sits within a polished round case, with an open aperture at six o’clock. The exact official series cannot be established from this image; no tourbillon or movement function is confirmed. Visible variation: blue decorative dial · blue strap.","image":"vc-26","features":["Blue decorative dial motif","Open aperture at six o’clock","Polished round-case appearance"],"multi":false},{"id":"VC27","brand":"Vacheron Constantin","family":"Overseas Tourbillon","name":"Overseas Tourbillon — Blue dial · Open aperture · Rose tone","nameZh":"纵横四海陀飞轮外观款 · 蓝盘开芯玫瑰金色","tone":"Blue dial · Open aperture · Rose tone","category":"Sport","sizeReference":"42.5 mm (official Overseas tourbillon comparison; actual size unmeasured)","description":"The photographed watch combines the Overseas-style notched bezel with an exposed aperture at six o’clock. This is a visual family comparison, not confirmation of an operational tourbillon or a specific reference. Visible variation: blue dial · open aperture · rose tone.","image":"vc-27","features":["Open aperture at six o’clock","Notched sports-watch bezel","Baton markers and integrated-bracelet appearance"],"multi":false},{"id":"VC28","brand":"Vacheron Constantin","family":"Overseas Tourbillon","name":"Overseas Tourbillon — Black dial · Open aperture · Rose tone","nameZh":"纵横四海陀飞轮外观款 · 黑盘开芯玫瑰金色","tone":"Black dial · Open aperture · Rose tone","category":"Sport","sizeReference":"42.5 mm (official Overseas tourbillon comparison; actual size unmeasured)","description":"The photographed watch combines the Overseas-style notched bezel with an exposed aperture at six o’clock. This is a visual family comparison, not confirmation of an operational tourbillon or a specific reference. Visible variation: black dial · open aperture · rose tone.","image":"vc-28","features":["Open aperture at six o’clock","Notched sports-watch bezel","Baton markers and integrated-bracelet appearance"],"multi":false},{"id":"VC29","brand":"Vacheron Constantin","family":"Overseas Tourbillon","name":"Overseas Tourbillon — Silver dial · Open aperture · Rose tone","nameZh":"纵横四海陀飞轮外观款 · 银盘开芯玫瑰金色","tone":"Silver dial · Open aperture · Rose tone","category":"Sport","sizeReference":"42.5 mm (official Overseas tourbillon comparison; actual size unmeasured)","description":"The photographed watch combines the Overseas-style notched bezel with an exposed aperture at six o’clock. This is a visual family comparison, not confirmation of an operational tourbillon or a specific reference. Visible variation: silver dial · open aperture · rose tone.","image":"vc-29","features":["Open aperture at six o’clock","Notched sports-watch bezel","Baton markers and integrated-bracelet appearance"],"multi":false},{"id":"VC30","brand":"Vacheron Constantin","family":"Overseas Tourbillon","name":"Overseas Tourbillon — Light dial · Open aperture · Rose tone","nameZh":"纵横四海陀飞轮外观款 · 浅色盘开芯玫瑰金色","tone":"Light dial · Open aperture · Rose tone","category":"Sport","sizeReference":"42.5 mm (official Overseas tourbillon comparison; actual size unmeasured)","description":"The photographed watch combines the Overseas-style notched bezel with an exposed aperture at six o’clock. This is a visual family comparison, not confirmation of an operational tourbillon or a specific reference. Visible variation: light dial · open aperture · rose tone.","image":"vc-30","features":["Open aperture at six o’clock","Notched sports-watch bezel","Baton markers and integrated-bracelet appearance"],"multi":false},{"id":"VC31","brand":"Vacheron Constantin","family":"Overseas Tourbillon","name":"Overseas Tourbillon — Silver dial · Open aperture · Silver bracelet","nameZh":"纵横四海陀飞轮外观款 · 银盘开芯银色表链","tone":"Silver dial · Open aperture · Silver bracelet","category":"Sport","sizeReference":"42.5 mm (official Overseas tourbillon comparison; actual size unmeasured)","description":"The photographed watch combines the Overseas-style notched bezel with an exposed aperture at six o’clock. This is a visual family comparison, not confirmation of an operational tourbillon or a specific reference. Visible variation: silver dial · open aperture · silver bracelet.","image":"vc-31","features":["Open aperture at six o’clock","Notched sports-watch bezel","Baton markers and integrated-bracelet appearance"],"multi":false},{"id":"VC32","brand":"Vacheron Constantin","family":"Overseas Tourbillon","name":"Overseas Tourbillon — Black dial · Open aperture · Silver bracelet","nameZh":"纵横四海陀飞轮外观款 · 黑盘开芯银色表链","tone":"Black dial · Open aperture · Silver bracelet","category":"Sport","sizeReference":"42.5 mm (official Overseas tourbillon comparison; actual size unmeasured)","description":"The photographed watch combines the Overseas-style notched bezel with an exposed aperture at six o’clock. This is a visual family comparison, not confirmation of an operational tourbillon or a specific reference. Visible variation: black dial · open aperture · silver bracelet.","image":"vc-32","features":["Open aperture at six o’clock","Notched sports-watch bezel","Baton markers and integrated-bracelet appearance"],"multi":false},{"id":"VC33","brand":"Vacheron Constantin","family":"Overseas Tourbillon","name":"Overseas Tourbillon — Light dial · Open aperture · Silver bracelet","nameZh":"纵横四海陀飞轮外观款 · 浅色盘开芯银色表链","tone":"Light dial · Open aperture · Silver bracelet","category":"Sport","sizeReference":"42.5 mm (official Overseas tourbillon comparison; actual size unmeasured)","description":"The photographed watch combines the Overseas-style notched bezel with an exposed aperture at six o’clock. This is a visual family comparison, not confirmation of an operational tourbillon or a specific reference. Visible variation: light dial · open aperture · silver bracelet.","image":"vc-33","features":["Open aperture at six o’clock","Notched sports-watch bezel","Baton markers and integrated-bracelet appearance"],"multi":false},{"id":"VC34","brand":"Vacheron Constantin","family":"Patrimony","name":"Patrimony — Light dial · Brown strap","nameZh":"传承系列 · 浅色盘棕表带","tone":"Light dial · Brown strap","category":"Classic","sizeReference":"40 mm (selected official self-winding reference; actual size unmeasured)","description":"A restrained round-case silhouette places the emphasis on slim baton-style markers, a clean dial and a dark or brown strap. A date aperture is visible in the dial photographs. The exact reference and material remain unconfirmed. Visible variation: light dial · brown strap.","image":"vc-34","features":["Clean round-case silhouette","Slim baton-style hour markers","Strap-led dress-watch appearance"],"multi":false},{"id":"VC35","brand":"Vacheron Constantin","family":"Patrimony","name":"Patrimony — Black dial · Black strap","nameZh":"传承系列 · 黑盘黑表带","tone":"Black dial · Black strap","category":"Classic","sizeReference":"40 mm (selected official self-winding reference; actual size unmeasured)","description":"A restrained round-case silhouette places the emphasis on slim baton-style markers, a clean dial and a dark or brown strap. A date aperture is visible in the dial photographs. The exact reference and material remain unconfirmed. Visible variation: black dial · black strap.","image":"vc-35","features":["Clean round-case silhouette","Slim baton-style hour markers","Strap-led dress-watch appearance"],"multi":false},{"id":"VC36","brand":"Vacheron Constantin","family":"Patrimony","name":"Patrimony — Light dial · Black strap","nameZh":"传承系列 · 浅色盘黑表带","tone":"Light dial · Black strap","category":"Classic","sizeReference":"40 mm (selected official self-winding reference; actual size unmeasured)","description":"A restrained round-case silhouette places the emphasis on slim baton-style markers, a clean dial and a dark or brown strap. A date aperture is visible in the dial photographs. The exact reference and material remain unconfirmed. Visible variation: light dial · black strap.","image":"vc-36","features":["Clean round-case silhouette","Slim baton-style hour markers","Strap-led dress-watch appearance"],"multi":false},{"id":"VC37","brand":"Vacheron Constantin","family":"Patrimony","name":"Patrimony — Light dial · Rose tone · Brown strap","nameZh":"传承系列 · 浅色盘玫瑰金色棕表带","tone":"Light dial · Rose tone · Brown strap","category":"Classic","sizeReference":"40 mm (selected official self-winding reference; actual size unmeasured)","description":"A restrained round-case silhouette places the emphasis on slim baton-style markers, a clean dial and a dark or brown strap. A date aperture is visible in the dial photographs. The exact reference and material remain unconfirmed. Visible variation: light dial · rose tone · brown strap.","image":"vc-37","features":["Clean round-case silhouette","Slim baton-style hour markers","Strap-led dress-watch appearance"],"multi":false},{"id":"VC38","brand":"Vacheron Constantin","family":"Patrimony","name":"Patrimony — Light dial · Rose tone · Black strap","nameZh":"传承系列 · 浅色盘玫瑰金色黑表带","tone":"Light dial · Rose tone · Black strap","category":"Classic","sizeReference":"40 mm (selected official self-winding reference; actual size unmeasured)","description":"A restrained round-case silhouette places the emphasis on slim baton-style markers, a clean dial and a dark or brown strap. A date aperture is visible in the dial photographs. The exact reference and material remain unconfirmed. Visible variation: light dial · rose tone · black strap.","image":"vc-38","features":["Clean round-case silhouette","Slim baton-style hour markers","Strap-led dress-watch appearance"],"multi":false},{"id":"VC39","brand":"Vacheron Constantin","family":"Patrimony","name":"Patrimony — Black dial · Rose tone · Black strap","nameZh":"传承系列 · 黑盘玫瑰金色黑表带","tone":"Black dial · Rose tone · Black strap","category":"Classic","sizeReference":"40 mm (selected official self-winding reference; actual size unmeasured)","description":"A restrained round-case silhouette places the emphasis on slim baton-style markers, a clean dial and a dark or brown strap. A date aperture is visible in the dial photographs. The exact reference and material remain unconfirmed. Visible variation: black dial · rose tone · black strap.","image":"vc-39","features":["Clean round-case silhouette","Slim baton-style hour markers","Strap-led dress-watch appearance"],"multi":false},{"id":"VC40","brand":"Vacheron Constantin","family":"Patrimony","name":"Patrimony — Light dial · Silver tone · Brown strap","nameZh":"传承系列 · 浅色盘银色棕表带","tone":"Light dial · Silver tone · Brown strap","category":"Classic","sizeReference":"40 mm (selected official self-winding reference; actual size unmeasured)","description":"A restrained round-case silhouette places the emphasis on slim baton-style markers, a clean dial and a dark or brown strap. A date aperture is visible in the dial photographs. The exact reference and material remain unconfirmed. Visible variation: light dial · silver tone · brown strap.","image":"vc-40","features":["Clean round-case silhouette","Slim baton-style hour markers","Strap-led dress-watch appearance"],"multi":false},{"id":"VC41","brand":"Vacheron Constantin","family":"Patrimony","name":"Patrimony — Light dial · Silver tone · Dark strap","nameZh":"传承系列 · 浅色盘银色深色表带","tone":"Light dial · Silver tone · Dark strap","category":"Classic","sizeReference":"40 mm (selected official self-winding reference; actual size unmeasured)","description":"A restrained round-case silhouette places the emphasis on slim baton-style markers, a clean dial and a dark or brown strap. A date aperture is visible in the dial photographs. The exact reference and material remain unconfirmed. Visible variation: light dial · silver tone · dark strap.","image":"vc-41","features":["Clean round-case silhouette","Slim baton-style hour markers","Strap-led dress-watch appearance"],"multi":false},{"id":"VC42","brand":"Vacheron Constantin","family":"Patrimony","name":"Patrimony — Caseback reference · Brown strap","nameZh":"传承外观款·表背参考 · 表背参考图棕表带","tone":"Caseback reference · Brown strap","category":"Classic","sizeReference":"Not inferable from a caseback image — actual measurement required","description":"This is a caseback reference photograph showing a round watch case and a brown strap. It is not an additional identified model. The exact matching front-view photograph, reference, dimensions and movement need confirmation. Visible variation: caseback reference · brown strap.","image":"vc-42","features":["Caseback view only","Brown strap appearance","Exact model and matching dial photograph unconfirmed"],"multi":false},{"id":"AP01","brand":"Audemars Piguet","family":"Royal Oak","name":"Royal Oak — Black dial · Silver bracelet","nameZh":"皇家橡树系列 · 黑盘银色表链","tone":"Black dial · Silver bracelet","category":"Sport","sizeReference":"37 / 39 / 41 mm (selected official family references; actual size unmeasured)","description":"An octagonal bezel with visible screw heads and an integrated bracelet define this sports-watch silhouette. A patterned dial and the photographed colour treatment give this version its individual character. Visible variation: black dial · silver bracelet.","image":"ap-01","features":["Octagonal bezel with visible screw heads","Patterned dial appearance","Integrated-bracelet silhouette"],"multi":false},{"id":"AP02","brand":"Audemars Piguet","family":"Royal Oak","name":"Royal Oak — Silver dial · Silver bracelet","nameZh":"皇家橡树系列 · 银盘银色表链","tone":"Silver dial · Silver bracelet","category":"Sport","sizeReference":"37 / 39 / 41 mm (selected official family references; actual size unmeasured)","description":"An octagonal bezel with visible screw heads and an integrated bracelet define this sports-watch silhouette. A patterned dial and the photographed colour treatment give this version its individual character. Visible variation: silver dial · silver bracelet.","image":"ap-02","features":["Octagonal bezel with visible screw heads","Patterned dial appearance","Integrated-bracelet silhouette"],"multi":false},{"id":"AP03","brand":"Audemars Piguet","family":"Royal Oak","name":"Royal Oak — Grey patterned dial · Silver bracelet","nameZh":"皇家橡树系列 · 灰色纹理盘银色表链","tone":"Grey patterned dial · Silver bracelet","category":"Sport","sizeReference":"37 / 39 / 41 mm (selected official family references; actual size unmeasured)","description":"An octagonal bezel with visible screw heads and an integrated bracelet define this sports-watch silhouette. A patterned dial and the photographed colour treatment give this version its individual character. Visible variation: grey patterned dial · silver bracelet.","image":"ap-03","features":["Octagonal bezel with visible screw heads","Patterned dial appearance","Integrated-bracelet silhouette"],"multi":false},{"id":"AP04","brand":"Audemars Piguet","family":"Royal Oak","name":"Royal Oak — Green dial · Silver bracelet","nameZh":"皇家橡树系列 · 绿盘银色表链","tone":"Green dial · Silver bracelet","category":"Sport","sizeReference":"37 / 39 / 41 mm (selected official family references; actual size unmeasured)","description":"An octagonal bezel with visible screw heads and an integrated bracelet define this sports-watch silhouette. A patterned dial and the photographed colour treatment give this version its individual character. Visible variation: green dial · silver bracelet.","image":"ap-04","features":["Octagonal bezel with visible screw heads","Patterned dial appearance","Integrated-bracelet silhouette"],"multi":false},{"id":"AP05","brand":"Audemars Piguet","family":"Royal Oak Chronograph","name":"Royal Oak Chronograph — Blue dial · Light chronograph counters","nameZh":"皇家橡树计时系列 · 蓝盘浅色计时小表盘","tone":"Blue dial · Light chronograph counters","category":"Sport","sizeReference":"38 / 41 mm (selected official chronograph references; actual size unmeasured)","description":"A three-counter chronograph-style dial sits inside the familiar octagonal bezel. Contrasting subdials and visible side pushers create a more technical appearance; functions are unverified. Visible variation: blue dial · light chronograph counters.","image":"ap-05","features":["Three-counter chronograph-style dial","Octagonal bezel and visible screws","Integrated bracelet and side-pusher appearance"],"multi":false},{"id":"AP06","brand":"Audemars Piguet","family":"Royal Oak Chronograph","name":"Royal Oak Chronograph — Light dial · Dark chronograph counters","nameZh":"皇家橡树计时系列 · 浅色盘深色计时小表盘","tone":"Light dial · Dark chronograph counters","category":"Sport","sizeReference":"38 / 41 mm (selected official chronograph references; actual size unmeasured)","description":"A three-counter chronograph-style dial sits inside the familiar octagonal bezel. Contrasting subdials and visible side pushers create a more technical appearance; functions are unverified. Visible variation: light dial · dark chronograph counters.","image":"ap-06","features":["Three-counter chronograph-style dial","Octagonal bezel and visible screws","Integrated bracelet and side-pusher appearance"],"multi":false},{"id":"AP07","brand":"Audemars Piguet","family":"Royal Oak Offshore Diver","name":"Royal Oak Offshore Diver — Black dial · Two-watch assortment","nameZh":"皇家橡树离岸型潜水外观款 · 黑盘双表组合","tone":"Black dial · Two-watch assortment","category":"Sport","sizeReference":"42 mm (official Offshore Diver comparison; actual size unmeasured)","description":"A prominent octagonal bezel, an inner timing-scale appearance and a second crown give this design a rugged sports-watch character. The dial and strap colours are described from the photo; diving performance is not verified. Visible variation: black dial · two-watch assortment. This photo contains multiple watches; each item requires individual identification and measurement.","image":"ap-07","features":["Inner rotating-bezel-style scale","Two-crown case appearance","Bold patterned dial and sporty strap"],"multi":true},{"id":"AP08","brand":"Audemars Piguet","family":"Royal Oak Offshore Diver","name":"Royal Oak Offshore Diver — Black dial · Black strap","nameZh":"皇家橡树离岸型潜水外观款 · 黑盘黑表带","tone":"Black dial · Black strap","category":"Sport","sizeReference":"42 mm (official Offshore Diver comparison; actual size unmeasured)","description":"A prominent octagonal bezel, an inner timing-scale appearance and a second crown give this design a rugged sports-watch character. The dial and strap colours are described from the photo; diving performance is not verified. Visible variation: black dial · black strap.","image":"ap-08","features":["Inner rotating-bezel-style scale","Two-crown case appearance","Bold patterned dial and sporty strap"],"multi":false},{"id":"AP09","brand":"Audemars Piguet","family":"Royal Oak Offshore Diver","name":"Royal Oak Offshore Diver — Orange dial · Orange strap","nameZh":"皇家橡树离岸型潜水外观款 · 橙盘橙表带","tone":"Orange dial · Orange strap","category":"Sport","sizeReference":"42 mm (official Offshore Diver comparison; actual size unmeasured)","description":"A prominent octagonal bezel, an inner timing-scale appearance and a second crown give this design a rugged sports-watch character. The dial and strap colours are described from the photo; diving performance is not verified. Visible variation: orange dial · orange strap.","image":"ap-09","features":["Inner rotating-bezel-style scale","Two-crown case appearance","Bold patterned dial and sporty strap"],"multi":false},{"id":"AP10","brand":"Audemars Piguet","family":"Royal Oak Offshore Diver","name":"Royal Oak Offshore Diver — Green dial · Green strap","nameZh":"皇家橡树离岸型潜水外观款 · 绿盘绿表带","tone":"Green dial · Green strap","category":"Sport","sizeReference":"42 mm (official Offshore Diver comparison; actual size unmeasured)","description":"A prominent octagonal bezel, an inner timing-scale appearance and a second crown give this design a rugged sports-watch character. The dial and strap colours are described from the photo; diving performance is not verified. Visible variation: green dial · green strap.","image":"ap-10","features":["Inner rotating-bezel-style scale","Two-crown case appearance","Bold patterned dial and sporty strap"],"multi":false},{"id":"AP11","brand":"Audemars Piguet","family":"Royal Oak Offshore Diver","name":"Royal Oak Offshore Diver — Blue dial · Yellow accents · Blue strap","nameZh":"皇家橡树离岸型潜水外观款 · 蓝盘黄色点缀蓝表带","tone":"Blue dial · Yellow accents · Blue strap","category":"Sport","sizeReference":"42 mm (official Offshore Diver comparison; actual size unmeasured)","description":"A prominent octagonal bezel, an inner timing-scale appearance and a second crown give this design a rugged sports-watch character. The dial and strap colours are described from the photo; diving performance is not verified. Visible variation: blue dial · yellow accents · blue strap.","image":"ap-11","features":["Inner rotating-bezel-style scale","Two-crown case appearance","Bold patterned dial and sporty strap"],"multi":false},{"id":"AP12","brand":"Audemars Piguet","family":"Royal Oak Offshore Diver","name":"Royal Oak Offshore Diver — White dial · Dark strap","nameZh":"皇家橡树离岸型潜水外观款 · 白盘深色表带","tone":"White dial · Dark strap","category":"Sport","sizeReference":"42 mm (official Offshore Diver comparison; actual size unmeasured)","description":"A prominent octagonal bezel, an inner timing-scale appearance and a second crown give this design a rugged sports-watch character. The dial and strap colours are described from the photo; diving performance is not verified. Visible variation: white dial · dark strap.","image":"ap-12","features":["Inner rotating-bezel-style scale","Two-crown case appearance","Bold patterned dial and sporty strap"],"multi":false},{"id":"AP13","brand":"Audemars Piguet","family":"Royal Oak","name":"Royal Oak — Dark dial · Silver bracelet · Photo A","nameZh":"皇家橡树系列 · 深色盘银色表链图A","tone":"Dark dial · Silver bracelet · Photo A","category":"Sport","sizeReference":"37 / 39 / 41 mm (selected official family references; actual size unmeasured)","description":"An octagonal bezel with visible screw heads and an integrated bracelet define this sports-watch silhouette. A patterned dial and the photographed colour treatment give this version its individual character. Visible variation: dark dial · silver bracelet · photo a.","image":"ap-13","features":["Octagonal bezel with visible screw heads","Patterned dial appearance","Integrated-bracelet silhouette"],"multi":false},{"id":"AP14","brand":"Audemars Piguet","family":"Royal Oak","name":"Royal Oak — Dark dial · Silver bracelet · Photo B","nameZh":"皇家橡树系列 · 深色盘银色表链图B","tone":"Dark dial · Silver bracelet · Photo B","category":"Sport","sizeReference":"37 / 39 / 41 mm (selected official family references; actual size unmeasured)","description":"An octagonal bezel with visible screw heads and an integrated bracelet define this sports-watch silhouette. A patterned dial and the photographed colour treatment give this version its individual character. Visible variation: dark dial · silver bracelet · photo b.","image":"ap-14","features":["Octagonal bezel with visible screw heads","Patterned dial appearance","Integrated-bracelet silhouette"],"multi":false},{"id":"AP15","brand":"Audemars Piguet","family":"Royal Oak","name":"Royal Oak — Blue dial · Rose tone","nameZh":"皇家橡树系列 · 蓝盘玫瑰金色","tone":"Blue dial · Rose tone","category":"Sport","sizeReference":"37 / 39 / 41 mm (selected official family references; actual size unmeasured)","description":"An octagonal bezel with visible screw heads and an integrated bracelet define this sports-watch silhouette. A patterned dial and the photographed colour treatment give this version its individual character. Visible variation: blue dial · rose tone.","image":"ap-15","features":["Octagonal bezel with visible screw heads","Patterned dial appearance","Integrated-bracelet silhouette"],"multi":false},{"id":"AP16","brand":"Audemars Piguet","family":"Royal Oak","name":"Royal Oak — Dark dial · Rose-tone assortment","nameZh":"皇家橡树系列 · 深色盘玫瑰金色组合","tone":"Dark dial · Rose-tone assortment","category":"Sport","sizeReference":"37 / 39 / 41 mm (selected official family references; actual size unmeasured)","description":"An octagonal bezel with visible screw heads and an integrated bracelet define this sports-watch silhouette. A patterned dial and the photographed colour treatment give this version its individual character. Visible variation: dark dial · rose-tone assortment. This photo contains multiple watches; each item requires individual identification and measurement.","image":"ap-16","features":["Octagonal bezel with visible screw heads","Patterned dial appearance","Integrated-bracelet silhouette"],"multi":true},{"id":"AP17","brand":"Audemars Piguet","family":"Royal Oak Tourbillon","name":"Royal Oak Tourbillon — Dark dial · Open aperture · Rose tone","nameZh":"皇家橡树陀飞轮外观款 · 深色盘开芯玫瑰金色","tone":"Dark dial · Open aperture · Rose tone","category":"Sport","sizeReference":"41 mm (selected official flying-tourbillon reference; actual size unmeasured)","description":"An open aperture at six o’clock creates a focal point within a patterned dial and octagonal bezel. The apparent tourbillon-style layout is a visual comparison only; its mechanism and exact reference are unconfirmed. Visible variation: dark dial · open aperture · rose tone.","image":"ap-17","features":["Exposed aperture at six o’clock","Octagonal screw-set bezel appearance","Patterned dark dial with rose-tone case appearance"],"multi":false},{"id":"AP18","brand":"Audemars Piguet","family":"Royal Oak Openworked","name":"Royal Oak Openworked — Openworked dial · Silver bracelet","nameZh":"皇家橡树镂空外观款 · 镂空盘银色表链","tone":"Openworked dial · Silver bracelet","category":"Sport","sizeReference":"41 mm (selected official openworked reference; actual size unmeasured)","description":"An openworked-style dial reveals a layered mechanical-looking structure within the octagonal case. The photograph shows visual detail only; calibre, component materials and movement function are not verified. Visible variation: openworked dial · silver bracelet.","image":"ap-18","features":["Openworked-style dial architecture","Octagonal bezel with visible screws","Integrated silver-tone bracelet appearance"],"multi":false},{"id":"IWC01","name":"Portugieser Automatic — White dial · Blue hands · Black strap","nameZh":"葡萄牙自动腕表 · 白盘蓝针黑色表带","tone":"White dial · Blue hands · Black strap","brand":"IWC","family":"Portugieser Automatic","category":"Classic","image":"iwc-01","description":"A round dress-watch silhouette with Arabic hour numerals and a balanced subsidiary-dial layout. The photographed dial and strap are described visually; functions are untested.","features":["Arabic hour numerals","Opposing subsidiary-dial layout","Leather-style strap appearance"],"multi":false,"sizeReference":"40 / 42 mm"},{"id":"IWC02","name":"Portugieser Open-aperture — Unconfirmed — Silver dial · Brown strap","nameZh":"葡萄牙风格开窗款 · 系列待确认 · 银白盘棕色表带","tone":"Silver dial · Brown strap","brand":"IWC","family":"Portugieser Open-aperture — Unconfirmed","category":"Classic","image":"iwc-02","description":"A round watch with Arabic numerals and an exposed dial aperture. The aperture alone does not establish a tourbillon or identify the movement; the exact series needs confirmation.","features":["Open aperture near 6 o’clock","Arabic numeral dial","Movement and aperture function unverified"],"multi":false,"sizeReference":"Not assigned — exact reference unconfirmed"},{"id":"IWC03","name":"Portugieser Open-aperture — Unconfirmed — Black dial · Rose tone · Brown strap","nameZh":"葡萄牙风格开窗款 · 系列待确认 · 黑盘玫瑰金色棕色表带","tone":"Black dial · Rose tone · Brown strap","brand":"IWC","family":"Portugieser Open-aperture — Unconfirmed","category":"Classic","image":"iwc-03","description":"A round watch with Arabic numerals and an exposed dial aperture. The aperture alone does not establish a tourbillon or identify the movement; the exact series needs confirmation.","features":["Open aperture near 6 o’clock","Arabic numeral dial","Movement and aperture function unverified"],"multi":false,"sizeReference":"Not assigned — exact reference unconfirmed"},{"id":"IWC04","name":"Portugieser Automatic — White dial · Blue numerals · Black strap","nameZh":"葡萄牙自动腕表 · 白盘蓝色数字黑色表带","tone":"White dial · Blue numerals · Black strap","brand":"IWC","family":"Portugieser Automatic","category":"Classic","image":"iwc-04","description":"A round dress-watch silhouette with Arabic hour numerals and a balanced subsidiary-dial layout. The photographed dial and strap are described visually; functions are untested.","features":["Arabic hour numerals","Opposing subsidiary-dial layout","Leather-style strap appearance"],"multi":false,"sizeReference":"40 / 42 mm"},{"id":"IWC05","name":"Round Date — Unconfirmed — Grey dial · Black strap","nameZh":"圆形日历款 · 系列待确认 · 灰盘黑色表带","tone":"Grey dial · Black strap","brand":"IWC","family":"Round Date — Unconfirmed","category":"Classic","image":"iwc-05","description":"An IWC-marked round watch with a grey dial, baton-style hour markers and a date window. The precise family and reference cannot be established from this photograph.","features":["Grey dial","Baton-style hour markers","Date window; exact reference unconfirmed"],"multi":false,"sizeReference":"Not assigned — exact reference unconfirmed"},{"id":"IWC06","name":"Round Date — Unconfirmed — Grey dial · Silver bracelet","nameZh":"圆形日历款 · 系列待确认 · 灰盘银色表链","tone":"Grey dial · Silver bracelet","brand":"IWC","family":"Round Date — Unconfirmed","category":"Classic","image":"iwc-06","description":"An IWC-marked round watch with a grey dial, baton-style hour markers and a date window. The precise family and reference cannot be established from this photograph.","features":["Grey dial","Baton-style hour markers","Date window; exact reference unconfirmed"],"multi":false,"sizeReference":"Not assigned — exact reference unconfirmed"},{"id":"IWC07","name":"Pilot's Watch — Blue dial · Brown riveted strap","nameZh":"飞行员系列 · 蓝盘棕色铆钉表带","tone":"Blue dial · Brown riveted strap","brand":"IWC","family":"Pilot's Watch","category":"Pilot","image":"iwc-07","description":"A pilot-watch appearance with large Arabic numerals, a triangular marker at 12 and a prominent crown. Visible strap and dial details are recorded without confirming an exact Pilot’s Watch reference.","features":["High-contrast Arabic numerals","Triangle-style 12 o’clock marker","Prominent crown; actual dimensions unmeasured"],"multi":false,"sizeReference":"40 / 43 / 46.2 mm"},{"id":"IWC08","name":"Pilot's Watch — Black dial · Black riveted strap","nameZh":"飞行员系列 · 黑盘黑色铆钉表带","tone":"Black dial · Black riveted strap","brand":"IWC","family":"Pilot's Watch","category":"Pilot","image":"iwc-08","description":"A pilot-watch appearance with large Arabic numerals, a triangular marker at 12 and a prominent crown. Visible strap and dial details are recorded without confirming an exact Pilot’s Watch reference.","features":["High-contrast Arabic numerals","Triangle-style 12 o’clock marker","Prominent crown; actual dimensions unmeasured"],"multi":false,"sizeReference":"40 / 43 / 46.2 mm"},{"id":"IWC09","name":"Pilot's Watch — White dial · Black riveted strap","nameZh":"飞行员系列 · 白盘黑色铆钉表带","tone":"White dial · Black riveted strap","brand":"IWC","family":"Pilot's Watch","category":"Pilot","image":"iwc-09","description":"A pilot-watch appearance with large Arabic numerals, a triangular marker at 12 and a prominent crown. Visible strap and dial details are recorded without confirming an exact Pilot’s Watch reference.","features":["High-contrast Arabic numerals","Triangle-style 12 o’clock marker","Prominent crown; actual dimensions unmeasured"],"multi":false,"sizeReference":"40 / 43 / 46.2 mm"},{"id":"IWC10","name":"Pilot's Watch — Black dial · Cream numerals · Brown strap","nameZh":"飞行员系列 · 黑盘米色数字棕色表带","tone":"Black dial · Cream numerals · Brown strap","brand":"IWC","family":"Pilot's Watch","category":"Pilot","image":"iwc-10","description":"A pilot-watch appearance with large Arabic numerals, a triangular marker at 12 and a prominent crown. Visible strap and dial details are recorded without confirming an exact Pilot’s Watch reference.","features":["High-contrast Arabic numerals","Triangle-style 12 o’clock marker","Prominent crown; actual dimensions unmeasured"],"multi":false,"sizeReference":"40 / 43 / 46.2 mm"},{"id":"IWC11","name":"Pilot's Watch — Grey dial · Brown strap","nameZh":"飞行员系列 · 灰盘棕色表带","tone":"Grey dial · Brown strap","brand":"IWC","family":"Pilot's Watch","category":"Pilot","image":"iwc-11","description":"A pilot-watch appearance with large Arabic numerals, a triangular marker at 12 and a prominent crown. Visible strap and dial details are recorded without confirming an exact Pilot’s Watch reference.","features":["High-contrast Arabic numerals","Triangle-style 12 o’clock marker","Prominent crown; actual dimensions unmeasured"],"multi":false,"sizeReference":"40 / 43 / 46.2 mm"},{"id":"IWC12","name":"Pilot's Watch — Blue dial · Black strap","nameZh":"飞行员系列 · 蓝盘黑色表带","tone":"Blue dial · Black strap","brand":"IWC","family":"Pilot's Watch","category":"Pilot","image":"iwc-12","description":"A pilot-watch appearance with large Arabic numerals, a triangular marker at 12 and a prominent crown. Visible strap and dial details are recorded without confirming an exact Pilot’s Watch reference.","features":["High-contrast Arabic numerals","Triangle-style 12 o’clock marker","Prominent crown; actual dimensions unmeasured"],"multi":false,"sizeReference":"40 / 43 / 46.2 mm"},{"id":"IWC13","name":"Portofino Moon Phase — White dial · Blue strap","nameZh":"柏涛菲诺月相 · 白盘蓝色表带","tone":"White dial · Blue strap","brand":"IWC","family":"Portofino Moon Phase","category":"Classic","image":"iwc-13","description":"A restrained round dress-watch appearance with slim markers and a moon-phase-style aperture near 12. Calendar and moon-phase operation have not been verified.","features":["Moon-phase-style aperture","Slender hands and hour markers","Leather-style strap appearance"],"multi":false,"sizeReference":"40 mm"},{"id":"IWC14","name":"Portofino Moon Phase — Silver dial · Black strap","nameZh":"柏涛菲诺月相 · 银白盘黑色表带","tone":"Silver dial · Black strap","brand":"IWC","family":"Portofino Moon Phase","category":"Classic","image":"iwc-14","description":"A restrained round dress-watch appearance with slim markers and a moon-phase-style aperture near 12. Calendar and moon-phase operation have not been verified.","features":["Moon-phase-style aperture","Slender hands and hour markers","Leather-style strap appearance"],"multi":false,"sizeReference":"40 mm"},{"id":"IWC15","name":"Portofino Moon Phase — Blue dial · Blue strap","nameZh":"柏涛菲诺月相 · 蓝盘蓝色表带","tone":"Blue dial · Blue strap","brand":"IWC","family":"Portofino Moon Phase","category":"Classic","image":"iwc-15","description":"A restrained round dress-watch appearance with slim markers and a moon-phase-style aperture near 12. Calendar and moon-phase operation have not been verified.","features":["Moon-phase-style aperture","Slender hands and hour markers","Leather-style strap appearance"],"multi":false,"sizeReference":"40 mm"},{"id":"IWC16","name":"Portofino Moon Phase — White dial · Brown strap","nameZh":"柏涛菲诺月相 · 白盘棕色表带","tone":"White dial · Brown strap","brand":"IWC","family":"Portofino Moon Phase","category":"Classic","image":"iwc-16","description":"A restrained round dress-watch appearance with slim markers and a moon-phase-style aperture near 12. Calendar and moon-phase operation have not been verified.","features":["Moon-phase-style aperture","Slender hands and hour markers","Leather-style strap appearance"],"multi":false,"sizeReference":"40 mm"},{"id":"IWC17","name":"Portofino Automatic — White dial · Silver mesh bracelet","nameZh":"柏涛菲诺自动腕表 · 白盘银色米兰表链","tone":"White dial · Silver mesh bracelet","brand":"IWC","family":"Portofino Automatic","category":"Classic","image":"iwc-17","description":"A slim-bezel dress-watch appearance with elongated hour markers and a mesh-style bracelet. The photograph supports a provisional Portofino family comparison only.","features":["Slim round bezel","Elongated hour markers","Mesh-style bracelet; material unverified"],"multi":false,"sizeReference":"34 / 37 / 40 mm"},{"id":"IWC18","name":"Portofino Automatic — Blue dial · Silver mesh bracelet","nameZh":"柏涛菲诺自动腕表 · 蓝盘银色米兰表链","tone":"Blue dial · Silver mesh bracelet","brand":"IWC","family":"Portofino Automatic","category":"Classic","image":"iwc-18","description":"A slim-bezel dress-watch appearance with elongated hour markers and a mesh-style bracelet. The photograph supports a provisional Portofino family comparison only.","features":["Slim round bezel","Elongated hour markers","Mesh-style bracelet; material unverified"],"multi":false,"sizeReference":"34 / 37 / 40 mm"},{"id":"IWC19","name":"Portofino Automatic — Dark blue dial · Silver mesh bracelet","nameZh":"柏涛菲诺自动腕表 · 深蓝盘银色米兰表链","tone":"Dark blue dial · Silver mesh bracelet","brand":"IWC","family":"Portofino Automatic","category":"Classic","image":"iwc-19","description":"A slim-bezel dress-watch appearance with elongated hour markers and a mesh-style bracelet. The photograph supports a provisional Portofino family comparison only.","features":["Slim round bezel","Elongated hour markers","Mesh-style bracelet; material unverified"],"multi":false,"sizeReference":"34 / 37 / 40 mm"},{"id":"IWC20","name":"Portofino Automatic — Black dial · Silver mesh bracelet","nameZh":"柏涛菲诺自动腕表 · 黑盘银色米兰表链","tone":"Black dial · Silver mesh bracelet","brand":"IWC","family":"Portofino Automatic","category":"Classic","image":"iwc-20","description":"A slim-bezel dress-watch appearance with elongated hour markers and a mesh-style bracelet. The photograph supports a provisional Portofino family comparison only.","features":["Slim round bezel","Elongated hour markers","Mesh-style bracelet; material unverified"],"multi":false,"sizeReference":"34 / 37 / 40 mm"},{"id":"IWC21","name":"Portofino Automatic — White dial · Gold-tone markers · Mesh bracelet","nameZh":"柏涛菲诺自动腕表 · 白盘金色刻度米兰表链","tone":"White dial · Gold-tone markers · Mesh bracelet","brand":"IWC","family":"Portofino Automatic","category":"Classic","image":"iwc-21","description":"A slim-bezel dress-watch appearance with elongated hour markers and a mesh-style bracelet. The photograph supports a provisional Portofino family comparison only.","features":["Slim round bezel","Elongated hour markers","Mesh-style bracelet; material unverified"],"multi":false,"sizeReference":"34 / 37 / 40 mm"},{"id":"IWC22","name":"Portofino Automatic — Silver dial · Silver mesh bracelet","nameZh":"柏涛菲诺自动腕表 · 银白盘银色米兰表链","tone":"Silver dial · Silver mesh bracelet","brand":"IWC","family":"Portofino Automatic","category":"Classic","image":"iwc-22","description":"A slim-bezel dress-watch appearance with elongated hour markers and a mesh-style bracelet. The photograph supports a provisional Portofino family comparison only.","features":["Slim round bezel","Elongated hour markers","Mesh-style bracelet; material unverified"],"multi":false,"sizeReference":"34 / 37 / 40 mm"},{"id":"IWC23","name":"Pilot's Watch — Black dial · Black textile-style strap","nameZh":"飞行员系列 · 黑盘黑色织物风格表带","tone":"Black dial · Black textile-style strap","brand":"IWC","family":"Pilot's Watch","category":"Pilot","image":"iwc-23","description":"A pilot-watch appearance with large Arabic numerals, a triangular marker at 12 and a prominent crown. Visible strap and dial details are recorded without confirming an exact Pilot’s Watch reference.","features":["High-contrast Arabic numerals","Triangle-style 12 o’clock marker","Prominent crown; actual dimensions unmeasured"],"multi":false,"sizeReference":"40 / 43 / 46.2 mm"},{"id":"IWC24","name":"Pilot's Watch — Black dial · Olive textile-style strap","nameZh":"飞行员系列 · 黑盘橄榄绿织物风格表带","tone":"Black dial · Olive textile-style strap","brand":"IWC","family":"Pilot's Watch","category":"Pilot","image":"iwc-24","description":"A pilot-watch appearance with large Arabic numerals, a triangular marker at 12 and a prominent crown. Visible strap and dial details are recorded without confirming an exact Pilot’s Watch reference.","features":["High-contrast Arabic numerals","Triangle-style 12 o’clock marker","Prominent crown; actual dimensions unmeasured"],"multi":false,"sizeReference":"40 / 43 / 46.2 mm"},{"id":"IWC25","name":"Portugieser Chronograph — White dial · Blue hands · Black strap","nameZh":"葡萄牙计时 · 白盘蓝针黑色表带","tone":"White dial · Blue hands · Black strap","brand":"IWC","family":"Portugieser Chronograph","category":"Chronograph","image":"iwc-25","description":"A round chronograph-style watch with Arabic numerals, two vertically arranged subdials and side pushers. The chronograph operation and exact reference remain unverified.","features":["Two vertically arranged subdials","Arabic numeral dial","Side pushers; operation untested"],"multi":false,"sizeReference":"41 mm"},{"id":"IWC26","name":"Portugieser Chronograph — Green dial · Dark strap","nameZh":"葡萄牙计时 · 绿盘深色表带","tone":"Green dial · Dark strap","brand":"IWC","family":"Portugieser Chronograph","category":"Chronograph","image":"iwc-26","description":"A round chronograph-style watch with Arabic numerals, two vertically arranged subdials and side pushers. The chronograph operation and exact reference remain unverified.","features":["Two vertically arranged subdials","Arabic numeral dial","Side pushers; operation untested"],"multi":false,"sizeReference":"41 mm"},{"id":"IWC27","name":"Portugieser Chronograph — Red dial · Warm metallic tone","nameZh":"葡萄牙计时 · 红盘暖金属色","tone":"Red dial · Warm metallic tone","brand":"IWC","family":"Portugieser Chronograph","category":"Chronograph","image":"iwc-27","description":"A round chronograph-style watch with Arabic numerals, two vertically arranged subdials and side pushers. The chronograph operation and exact reference remain unverified.","features":["Two vertically arranged subdials","Arabic numeral dial","Side pushers; operation untested"],"multi":false,"sizeReference":"41 mm"},{"id":"IWC28","name":"Ingenieur Automatic — Black dial · Silver bracelet","nameZh":"工程师自动腕表 · 黑盘银色表链","tone":"Black dial · Silver bracelet","brand":"IWC","family":"Ingenieur Automatic","category":"Sport","image":"iwc-28","description":"An integrated-bracelet sports-watch appearance with a textured dial and a broad bezel with visible fastening details. Exact reference, case material and actual size need confirmation.","features":["Textured dial","Integrated bracelet appearance","Broad bezel with fastening details"],"multi":false,"sizeReference":"35 / 40 / 42 mm"},{"id":"IWC29","name":"Ingenieur Automatic — Silver dial · Silver bracelet","nameZh":"工程师自动腕表 · 银白盘银色表链","tone":"Silver dial · Silver bracelet","brand":"IWC","family":"Ingenieur Automatic","category":"Sport","image":"iwc-29","description":"An integrated-bracelet sports-watch appearance with a textured dial and a broad bezel with visible fastening details. Exact reference, case material and actual size need confirmation.","features":["Textured dial","Integrated bracelet appearance","Broad bezel with fastening details"],"multi":false,"sizeReference":"35 / 40 / 42 mm"},{"id":"IWC30","name":"Ingenieur Automatic — Turquoise dial · Silver bracelet","nameZh":"工程师自动腕表 · 蓝绿色盘银色表链","tone":"Turquoise dial · Silver bracelet","brand":"IWC","family":"Ingenieur Automatic","category":"Sport","image":"iwc-30","description":"An integrated-bracelet sports-watch appearance with a textured dial and a broad bezel with visible fastening details. Exact reference, case material and actual size need confirmation.","features":["Textured dial","Integrated bracelet appearance","Broad bezel with fastening details"],"multi":false,"sizeReference":"35 / 40 / 42 mm"},{"id":"IWC31","name":"Ingenieur Automatic — Grey dial · Silver bracelet","nameZh":"工程师自动腕表 · 灰盘银色表链","tone":"Grey dial · Silver bracelet","brand":"IWC","family":"Ingenieur Automatic","category":"Sport","image":"iwc-31","description":"An integrated-bracelet sports-watch appearance with a textured dial and a broad bezel with visible fastening details. Exact reference, case material and actual size need confirmation.","features":["Textured dial","Integrated bracelet appearance","Broad bezel with fastening details"],"multi":false,"sizeReference":"35 / 40 / 42 mm"},{"id":"IWC32","name":"Pilot's Watch — White dial · Dark textile-style strap","nameZh":"飞行员系列 · 白盘深色织物风格表带","tone":"White dial · Dark textile-style strap","brand":"IWC","family":"Pilot's Watch","category":"Pilot","image":"iwc-32","description":"A pilot-watch appearance with large Arabic numerals, a triangular marker at 12 and a prominent crown. Visible strap and dial details are recorded without confirming an exact Pilot’s Watch reference.","features":["High-contrast Arabic numerals","Triangle-style 12 o’clock marker","Prominent crown; actual dimensions unmeasured"],"multi":false,"sizeReference":"40 / 43 / 46.2 mm"},{"id":"IWC33","name":"Pilot's Watch — Green lume reference · Dark background","nameZh":"飞行员系列 · 绿色夜光参考图","tone":"Green lume reference · Dark background","brand":"IWC","family":"Pilot's Watch","category":"Pilot","image":"iwc-33","description":"A pilot-watch appearance with large Arabic numerals, a triangular marker at 12 and a prominent crown. Visible strap and dial details are recorded without confirming an exact Pilot’s Watch reference. This is a lume reference photograph, not evidence of measured brightness or duration.","features":["High-contrast Arabic numerals","Triangle-style 12 o’clock marker","Prominent crown; actual dimensions unmeasured","Night-view reference only; luminous performance untested"],"multi":false,"sizeReference":"40 / 43 / 46.2 mm"},{"id":"PP01","name":"Nautilus Moon Phase — Dark blue dial · Silver bracelet","nameZh":"鹦鹉螺月相 · 深蓝盘银色表链","tone":"Dark blue dial · Silver bracelet","brand":"Patek Philippe","family":"Nautilus Moon Phase","category":"Complication","image":"pp-01","description":"A Nautilus-style watch with an asymmetrical subsidiary-dial arrangement, moon-phase-style display and power-reserve-style scale. These visible displays do not verify the movement or their operation.","features":["Asymmetrical subsidiary-dial layout","Moon-phase-style display","Power-reserve-style scale; operation untested"],"multi":false,"sizeReference":"40 mm"},{"id":"PP02","name":"Aquanaut — Olive dial · Olive strap","nameZh":"手雷 · Aquanaut · 橄榄绿盘橄榄绿表带","tone":"Olive dial · Olive strap","brand":"Patek Philippe","family":"Aquanaut","category":"Sport","image":"pp-02","description":"A rounded-octagonal sports-watch appearance with a grid-textured dial, Arabic numerals and a textured flexible-looking strap. Size, material and reference must be confirmed for the actual photographed item.","features":["Grid-textured dial","Arabic hour numerals","Textured flexible-looking strap"],"multi":false,"sizeReference":"40.8 / 42.2 mm"},{"id":"PP03","name":"Aquanaut Chronograph — Black dials · Orange & dark straps · Assortment","nameZh":"手雷计时 · 黑盘橙色与深色表带合照","tone":"Black dials · Orange & dark straps · Assortment","brand":"Patek Philippe","family":"Aquanaut Chronograph","category":"Chronograph","image":"pp-03","description":"This photograph contains multiple watches; confirm each separately. An Aquanaut-style chronograph appearance with Arabic numerals, a subsidiary counter and side pushers. The photograph contains more than one watch; each requires separate confirmation.","features":["Chronograph-style subsidiary counter","Arabic numeral dial","Multiple watches; verify each item separately"],"multi":true,"sizeReference":"42.2 mm"},{"id":"PP04","name":"Nautilus — Green & white dials · Silver bracelets · Assortment","nameZh":"鹦鹉螺 · 绿盘与白盘银色表链合照","tone":"Green & white dials · Silver bracelets · Assortment","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-04","description":"This photograph contains multiple watches; confirm each separately. A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":true,"sizeReference":"40 / 41 mm"},{"id":"PP05","name":"Aquanaut Travel Time — Dark dials · Black & white straps · Assortment","nameZh":"手雷旅行时间 · 深色盘黑白表带合照","tone":"Dark dials · Black & white straps · Assortment","brand":"Patek Philippe","family":"Aquanaut Travel Time","category":"Complication","image":"pp-05","description":"This photograph contains multiple watches; confirm each separately. An Aquanaut-style watch with a travel-time-style dial layout and a subsidiary date-style display. Dual-time and calendar functions are not verified.","features":["Grid-textured dial","Subsidiary date-style display","Travel-time-style indications; operation untested"],"multi":true,"sizeReference":"40.8 mm"},{"id":"PP06","name":"Nautilus — Salmon dial · Silver bracelet","nameZh":"鹦鹉螺 · 三文鱼色盘银色表链","tone":"Salmon dial · Silver bracelet","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-06","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP07","name":"Nautilus — Yellow dial · Silver bracelet","nameZh":"鹦鹉螺 · 黄盘银色表链","tone":"Yellow dial · Silver bracelet","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-07","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP08","name":"Nautilus — Turquoise dial · Silver bracelet","nameZh":"鹦鹉螺 · 冰蓝色盘银色表链","tone":"Turquoise dial · Silver bracelet","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-08","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP09","name":"Nautilus — Brown dial · Silver bracelet","nameZh":"鹦鹉螺 · 棕盘银色表链","tone":"Brown dial · Silver bracelet","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-09","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP10","name":"Nautilus — Grey dial · Silver bracelet","nameZh":"鹦鹉螺 · 灰盘银色表链","tone":"Grey dial · Silver bracelet","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-10","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP11","name":"Nautilus — Green dial · Silver bracelet","nameZh":"鹦鹉螺 · 绿盘银色表链","tone":"Green dial · Silver bracelet","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-11","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP12","name":"Nautilus — Blue dial · Silver bracelet","nameZh":"鹦鹉螺 · 蓝盘银色表链","tone":"Blue dial · Silver bracelet","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-12","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP13","name":"Nautilus — Blue dial · Rose-tone bracelet","nameZh":"鹦鹉螺 · 蓝盘玫瑰金色表链","tone":"Blue dial · Rose-tone bracelet","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-13","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP14","name":"Nautilus — Silver dial · Rose-tone bracelet","nameZh":"鹦鹉螺 · 银白盘玫瑰金色表链","tone":"Silver dial · Rose-tone bracelet","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-14","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP15","name":"Nautilus — Dark dial · Two-tone bracelet · Photo A","nameZh":"鹦鹉螺 · 深色盘间金色表链照片A","tone":"Dark dial · Two-tone bracelet · Photo A","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-15","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP16","name":"Nautilus — Dark dial · Two-tone bracelet · Photo B","nameZh":"鹦鹉螺 · 深色盘间金色表链照片B","tone":"Dark dial · Two-tone bracelet · Photo B","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-16","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP17","name":"Nautilus — Blue dial · Two-tone bracelet","nameZh":"鹦鹉螺 · 蓝盘间金色表链","tone":"Blue dial · Two-tone bracelet","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-17","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP18","name":"Nautilus — Black dial · Silver bracelet","nameZh":"鹦鹉螺 · 黑盘银色表链","tone":"Black dial · Silver bracelet","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-18","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP19","name":"Nautilus — Grey dial · Silver bracelet · Close view","nameZh":"鹦鹉螺 · 灰盘银色表链近照","tone":"Grey dial · Silver bracelet · Close view","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-19","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP20","name":"Nautilus — Silver dial · Silver bracelet","nameZh":"鹦鹉螺 · 银白盘银色表链","tone":"Silver dial · Silver bracelet","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-20","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP21","name":"Nautilus — Blue dial · Silver bracelet · Close view","nameZh":"鹦鹉螺 · 蓝盘银色表链近照","tone":"Blue dial · Silver bracelet · Close view","brand":"Patek Philippe","family":"Nautilus","category":"Sport","image":"pp-21","description":"A rounded-octagonal sports-watch silhouette with horizontal dial lines and an integrated bracelet appearance. Colour and layout are visual observations; the exact model is unconfirmed.","features":["Rounded-octagonal bezel","Horizontal dial texture","Integrated bracelet appearance"],"multi":false,"sizeReference":"40 / 41 mm"},{"id":"PP22","name":"Aquanaut — Black dial · Black strap","nameZh":"手雷 · Aquanaut · 黑盘黑色表带","tone":"Black dial · Black strap","brand":"Patek Philippe","family":"Aquanaut","category":"Sport","image":"pp-22","description":"A rounded-octagonal sports-watch appearance with a grid-textured dial, Arabic numerals and a textured flexible-looking strap. Size, material and reference must be confirmed for the actual photographed item.","features":["Grid-textured dial","Arabic hour numerals","Textured flexible-looking strap"],"multi":false,"sizeReference":"40.8 / 42.2 mm"},{"id":"PP23","name":"Aquanaut — Blue dial · Blue strap","nameZh":"手雷 · Aquanaut · 蓝盘蓝色表带","tone":"Blue dial · Blue strap","brand":"Patek Philippe","family":"Aquanaut","category":"Sport","image":"pp-23","description":"A rounded-octagonal sports-watch appearance with a grid-textured dial, Arabic numerals and a textured flexible-looking strap. Size, material and reference must be confirmed for the actual photographed item.","features":["Grid-textured dial","Arabic hour numerals","Textured flexible-looking strap"],"multi":false,"sizeReference":"40.8 / 42.2 mm"},{"id":"PP24","name":"Aquanaut — Grey dial · Black strap","nameZh":"手雷 · Aquanaut · 灰盘黑色表带","tone":"Grey dial · Black strap","brand":"Patek Philippe","family":"Aquanaut","category":"Sport","image":"pp-24","description":"A rounded-octagonal sports-watch appearance with a grid-textured dial, Arabic numerals and a textured flexible-looking strap. Size, material and reference must be confirmed for the actual photographed item.","features":["Grid-textured dial","Arabic hour numerals","Textured flexible-looking strap"],"multi":false,"sizeReference":"40.8 / 42.2 mm"},{"id":"PP25","name":"Aquanaut — Green dial · Green strap","nameZh":"手雷 · Aquanaut · 绿盘绿色表带","tone":"Green dial · Green strap","brand":"Patek Philippe","family":"Aquanaut","category":"Sport","image":"pp-25","description":"A rounded-octagonal sports-watch appearance with a grid-textured dial, Arabic numerals and a textured flexible-looking strap. Size, material and reference must be confirmed for the actual photographed item.","features":["Grid-textured dial","Arabic hour numerals","Textured flexible-looking strap"],"multi":false,"sizeReference":"40.8 / 42.2 mm"},{"id":"PP26","name":"Aquanaut Travel Time — Brown dial · Rose tone · Black strap","nameZh":"手雷旅行时间 · 棕盘玫瑰金色黑色表带","tone":"Brown dial · Rose tone · Black strap","brand":"Patek Philippe","family":"Aquanaut Travel Time","category":"Complication","image":"pp-26","description":"An Aquanaut-style watch with a travel-time-style dial layout and a subsidiary date-style display. Dual-time and calendar functions are not verified.","features":["Grid-textured dial","Subsidiary date-style display","Travel-time-style indications; operation untested"],"multi":false,"sizeReference":"40.8 mm"},{"id":"PP27","name":"Aquanaut Travel Time — Brown dial · Rose tone · Brown strap","nameZh":"手雷旅行时间 · 棕盘玫瑰金色棕色表带","tone":"Brown dial · Rose tone · Brown strap","brand":"Patek Philippe","family":"Aquanaut Travel Time","category":"Complication","image":"pp-27","description":"An Aquanaut-style watch with a travel-time-style dial layout and a subsidiary date-style display. Dual-time and calendar functions are not verified.","features":["Grid-textured dial","Subsidiary date-style display","Travel-time-style indications; operation untested"],"multi":false,"sizeReference":"40.8 mm"}];
-
-// Omega photographs added 2026-11-13; one byte-identical duplicate omitted.
-products.push({"id":"OM01","name":"Aqua Terra Worldtimer — Grey globe dial · Dark bezel · Black strap","nameZh":"欧米茄 · 海马世界时 · 灰色地球盘深色表圈黑色表带","tone":"Grey globe dial · Dark bezel · Black strap","brand":"Omega","family":"Aqua Terra Worldtimer","category":"Complication","image":"omega-01","description":"An Aqua Terra Worldtimer-style appearance with a central globe motif, an outer city-name ring and a 24-hour-style scale. World-time operation, exact reference and materials are unverified.","features":["Central globe motif","Outer city-name ring","24-hour-style scale; operation untested"],"multi":false,"sizeReference":"43 mm (comparison only)"},
-{"id":"OM02","name":"Diver 300M — Blue wave dial · Blue bezel · Blue strap","nameZh":"欧米茄 · 海马潜水300米 · 蓝色波纹盘蓝圈蓝表带","tone":"Blue wave dial · Blue bezel · Blue strap","brand":"Omega","family":"Diver 300M","category":"Sport","image":"omega-02","description":"A Seamaster Diver 300M-style appearance with a wave-pattern dial, a numbered dive-style bezel and bold circular hour markers. Water resistance and bezel operation are unverified.","features":["Wave-pattern dial","Numbered dive-style bezel","Bold circular hour markers"],"multi":false,"sizeReference":"42 mm (comparison only)"},
-{"id":"OM03","name":"Aqua Terra — Blue-grey dial · Silver bracelet","nameZh":"欧米茄 · 海马 Aqua Terra · 蓝灰盘银色表链","tone":"Blue-grey dial · Silver bracelet","brand":"Omega","family":"Aqua Terra","category":"Sport","image":"omega-03","description":"An Aqua Terra-style watch with tapered hour markers, a smooth round bezel and a date aperture. Dial texture and colour are observations from the supplied photograph; the exact reference is unconfirmed.","features":["Tapered hour markers","Smooth round bezel","Date aperture visible"],"multi":false,"sizeReference":"41 mm (comparison only)"},
-{"id":"OM04","name":"Aqua Terra — Black dial · Silver bracelet","nameZh":"欧米茄 · 海马 Aqua Terra · 黑盘银色表链","tone":"Black dial · Silver bracelet","brand":"Omega","family":"Aqua Terra","category":"Sport","image":"omega-04","description":"An Aqua Terra-style watch with tapered hour markers, a smooth round bezel and a date aperture. Dial texture and colour are observations from the supplied photograph; the exact reference is unconfirmed.","features":["Tapered hour markers","Smooth round bezel","Date aperture visible"],"multi":false,"sizeReference":"41 mm (comparison only)"},
-{"id":"OM05","name":"Aqua Terra — Grey-green striped dial · Silver bracelet","nameZh":"欧米茄 · 海马 Aqua Terra · 灰绿条纹盘银色表链","tone":"Grey-green striped dial · Silver bracelet","brand":"Omega","family":"Aqua Terra","category":"Sport","image":"omega-05","description":"An Aqua Terra-style watch with tapered hour markers, a smooth round bezel and a date aperture. Dial texture and colour are observations from the supplied photograph; the exact reference is unconfirmed.","features":["Tapered hour markers","Smooth round bezel","Date aperture visible"],"multi":false,"sizeReference":"41 mm (comparison only)"},
-{"id":"OM06","name":"Aqua Terra — White striped dial · Silver bracelet","nameZh":"欧米茄 · 海马 Aqua Terra · 白色条纹盘银色表链","tone":"White striped dial · Silver bracelet","brand":"Omega","family":"Aqua Terra","category":"Sport","image":"omega-06","description":"An Aqua Terra-style watch with tapered hour markers, a smooth round bezel and a date aperture. Dial texture and colour are observations from the supplied photograph; the exact reference is unconfirmed.","features":["Tapered hour markers","Smooth round bezel","Date aperture visible"],"multi":false,"sizeReference":"41 mm (comparison only)"},
-{"id":"OM07","name":"Aqua Terra — Dark dial · Black strap","nameZh":"欧米茄 · 海马 Aqua Terra · 深色盘黑色表带","tone":"Dark dial · Black strap","brand":"Omega","family":"Aqua Terra","category":"Sport","image":"omega-07","description":"An Aqua Terra-style watch with tapered hour markers, a smooth round bezel and a date aperture. Dial texture and colour are observations from the supplied photograph; the exact reference is unconfirmed.","features":["Tapered hour markers","Smooth round bezel","Date aperture visible"],"multi":false,"sizeReference":"41 mm (comparison only)"},
-{"id":"OM08","name":"Planet Ocean — Black dial · Black bezel · Black strap","nameZh":"欧米茄 · 海马海洋宇宙 · 黑盘黑圈黑色表带","tone":"Black dial · Black bezel · Black strap","brand":"Omega","family":"Planet Ocean","category":"Sport","image":"omega-08","description":"A Planet Ocean-style appearance with a numbered dive-style bezel, broad hands and prominent Arabic numerals. Exact generation, reference, water resistance and functions are unverified.","features":["Numbered dive-style bezel","Broad arrow-style hands","Prominent Arabic hour numerals"],"multi":false,"sizeReference":"43.5 mm (comparison only)"},
-{"id":"OM09","name":"Planet Ocean — Grey dial · Orange-accent bezel · Grey/orange strap","nameZh":"欧米茄 · 海马海洋宇宙 · 灰盘橙色点缀表圈灰橙表带","tone":"Grey dial · Orange-accent bezel · Grey/orange strap","brand":"Omega","family":"Planet Ocean","category":"Sport","image":"omega-09","description":"A Planet Ocean-style appearance with a numbered dive-style bezel, broad hands and prominent Arabic numerals. Exact generation, reference, water resistance and functions are unverified.","features":["Numbered dive-style bezel","Broad arrow-style hands","Prominent Arabic hour numerals"],"multi":false,"sizeReference":"43.5 mm (comparison only)"},
-{"id":"OM10","name":"Planet Ocean — Blue dial · Blue bezel · Silver bracelet","nameZh":"欧米茄 · 海马海洋宇宙 · 蓝盘蓝圈银色表链","tone":"Blue dial · Blue bezel · Silver bracelet","brand":"Omega","family":"Planet Ocean","category":"Sport","image":"omega-10","description":"A Planet Ocean-style appearance with a numbered dive-style bezel, broad hands and prominent Arabic numerals. Exact generation, reference, water resistance and functions are unverified.","features":["Numbered dive-style bezel","Broad arrow-style hands","Prominent Arabic hour numerals"],"multi":false,"sizeReference":"43.5 mm (comparison only)"},
-{"id":"OM11","name":"Planet Ocean — Grey dial · Orange-accent bezel · Silver bracelet","nameZh":"欧米茄 · 海马海洋宇宙 · 灰盘橙色点缀表圈银色表链","tone":"Grey dial · Orange-accent bezel · Silver bracelet","brand":"Omega","family":"Planet Ocean","category":"Sport","image":"omega-11","description":"A Planet Ocean-style appearance with a numbered dive-style bezel, broad hands and prominent Arabic numerals. Exact generation, reference, water resistance and functions are unverified.","features":["Numbered dive-style bezel","Broad arrow-style hands","Prominent Arabic hour numerals"],"multi":false,"sizeReference":"43.5 mm (comparison only)"},
-{"id":"OM12","name":"Planet Ocean — Black dial · Dark case and bracelet","nameZh":"欧米茄 · 海马海洋宇宙 · 黑盘深色表壳表链","tone":"Black dial · Dark case and bracelet","brand":"Omega","family":"Planet Ocean","category":"Sport","image":"omega-12","description":"A Planet Ocean-style appearance with a numbered dive-style bezel, broad hands and prominent Arabic numerals. Exact generation, reference, water resistance and functions are unverified.","features":["Numbered dive-style bezel","Broad arrow-style hands","Prominent Arabic hour numerals"],"multi":false,"sizeReference":"43.5 mm (comparison only)"},
-{"id":"OM13","name":"Planet Ocean — Blue dial · Blue/red bezel · Silver bracelet","nameZh":"欧米茄 · 海马海洋宇宙 · 蓝盘蓝红圈银色表链","tone":"Blue dial · Blue/red bezel · Silver bracelet","brand":"Omega","family":"Planet Ocean","category":"Sport","image":"omega-13","description":"A Planet Ocean-style appearance with a numbered dive-style bezel, broad hands and prominent Arabic numerals. Exact generation, reference, water resistance and functions are unverified.","features":["Numbered dive-style bezel","Broad arrow-style hands","Prominent Arabic hour numerals"],"multi":false,"sizeReference":"43.5 mm (comparison only)"},
-{"id":"OM14","name":"Planet Ocean — Blue dial · Blue bezel · Blue strap","nameZh":"欧米茄 · 海马海洋宇宙 · 蓝盘蓝圈蓝色表带","tone":"Blue dial · Blue bezel · Blue strap","brand":"Omega","family":"Planet Ocean","category":"Sport","image":"omega-14","description":"A Planet Ocean-style appearance with a numbered dive-style bezel, broad hands and prominent Arabic numerals. Exact generation, reference, water resistance and functions are unverified.","features":["Numbered dive-style bezel","Broad arrow-style hands","Prominent Arabic hour numerals"],"multi":false,"sizeReference":"43.5 mm (comparison only)"},
-{"id":"OM15","name":"Planet Ocean — Black dial · Black bezel · Silver bracelet","nameZh":"欧米茄 · 海马海洋宇宙 · 黑盘黑圈银色表链","tone":"Black dial · Black bezel · Silver bracelet","brand":"Omega","family":"Planet Ocean","category":"Sport","image":"omega-15","description":"A Planet Ocean-style appearance with a numbered dive-style bezel, broad hands and prominent Arabic numerals. Exact generation, reference, water resistance and functions are unverified.","features":["Numbered dive-style bezel","Broad arrow-style hands","Prominent Arabic hour numerals"],"multi":false,"sizeReference":"43.5 mm (comparison only)"},
-{"id":"OM16","name":"De Ville — Unconfirmed — White dial · Roman markers · Dark strap","nameZh":"欧米茄 · 碟飞 · 具体系列待确认 · 白盘罗马时标深色表带","tone":"White dial · Roman markers · Dark strap","brand":"Omega","family":"De Ville — Unconfirmed","category":"Classic","image":"omega-16","description":"A De Ville-style dress-watch appearance with a white dial, Roman-numeral-style markers, blue-tone hands and a dark strap. The specific sub-series and reference cannot be confirmed from the photograph.","features":["Roman-numeral-style markers","Blue-tone hands","Slim dress-watch appearance; sub-series unconfirmed"],"multi":false,"sizeReference":"Unconfirmed / 待确认"},
-{"id":"OM17","name":"Aqua Terra — Silver-white dial · Orange hand · Silver bracelet","nameZh":"欧米茄 · 海马 Aqua Terra · 银白盘橙色指针银色表链","tone":"Silver-white dial · Orange hand · Silver bracelet","brand":"Omega","family":"Aqua Terra","category":"Sport","image":"omega-17","description":"An Aqua Terra-style watch with tapered hour markers, a smooth round bezel and a date aperture. Dial texture and colour are observations from the supplied photograph; the exact reference is unconfirmed.","features":["Tapered hour markers","Smooth round bezel","Date aperture visible"],"multi":false,"sizeReference":"41 mm (comparison only)"},
-{"id":"OM18","name":"Aqua Terra GMT — Unconfirmed — Blue dial · 24-hour-style scale · Dark strap","nameZh":"欧米茄 · 海马 Aqua Terra GMT · 具体型号待确认 · 蓝盘24小时样式刻度深色表带","tone":"Blue dial · 24-hour-style scale · Dark strap","brand":"Omega","family":"Aqua Terra GMT — Unconfirmed","category":"Complication","image":"omega-18","description":"An Aqua Terra-style watch with a blue dial and an inner 24-hour-style scale. The specific GMT variant and reference are unconfirmed; additional time-zone functions have not been tested.","features":["Inner 24-hour-style scale","Additional hand visible; function unverified","Date aperture visible"],"multi":false,"sizeReference":"Unconfirmed / 待确认"},
-{"id":"OM19","name":"Aqua Terra — Silver textured dial · Silver bracelet","nameZh":"欧米茄 · 海马 Aqua Terra · 银色纹理盘银色表链","tone":"Silver textured dial · Silver bracelet","brand":"Omega","family":"Aqua Terra","category":"Sport","image":"omega-19","description":"An Aqua Terra-style watch with tapered hour markers, a smooth round bezel and a date aperture. Dial texture and colour are observations from the supplied photograph; the exact reference is unconfirmed.","features":["Tapered hour markers","Smooth round bezel","Date aperture visible"],"multi":false,"sizeReference":"41 mm (comparison only)"},
-{"id":"OM20","name":"Aqua Terra — Dark dial · Silver bracelet","nameZh":"欧米茄 · 海马 Aqua Terra · 深色盘银色表链","tone":"Dark dial · Silver bracelet","brand":"Omega","family":"Aqua Terra","category":"Sport","image":"omega-20","description":"An Aqua Terra-style watch with tapered hour markers, a smooth round bezel and a date aperture. Dial texture and colour are observations from the supplied photograph; the exact reference is unconfirmed.","features":["Tapered hour markers","Smooth round bezel","Date aperture visible"],"multi":false,"sizeReference":"41 mm (comparison only)"},
-{"id":"OM21","name":"Aqua Terra — Silver striped dial · Blue hands · Blue strap","nameZh":"欧米茄 · 海马 Aqua Terra · 银色条纹盘蓝色指针蓝色表带","tone":"Silver striped dial · Blue hands · Blue strap","brand":"Omega","family":"Aqua Terra","category":"Sport","image":"omega-21","description":"An Aqua Terra-style watch with tapered hour markers, a smooth round bezel and a date aperture. Dial texture and colour are observations from the supplied photograph; the exact reference is unconfirmed.","features":["Tapered hour markers","Smooth round bezel","Date aperture visible"],"multi":false,"sizeReference":"41 mm (comparison only)"},
-{"id":"OM22","name":"Aqua Terra — Blue striped dial · Silver bracelet","nameZh":"欧米茄 · 海马 Aqua Terra · 蓝色条纹盘银色表链","tone":"Blue striped dial · Silver bracelet","brand":"Omega","family":"Aqua Terra","category":"Sport","image":"omega-22","description":"An Aqua Terra-style watch with tapered hour markers, a smooth round bezel and a date aperture. Dial texture and colour are observations from the supplied photograph; the exact reference is unconfirmed.","features":["Tapered hour markers","Smooth round bezel","Date aperture visible"],"multi":false,"sizeReference":"41 mm (comparison only)"},
-{"id":"OM23","name":"Aqua Terra Worldtimer — Blue globe dials · Strap & bracelet assortment","nameZh":"欧米茄 · 海马世界时 · 蓝色地球盘表带与表链款合照","tone":"Blue globe dials · Strap & bracelet assortment","brand":"Omega","family":"Aqua Terra Worldtimer","category":"Complication","image":"omega-23","description":"This photograph contains two watches; confirm each separately. An Aqua Terra Worldtimer-style appearance with a central globe motif, an outer city-name ring and a 24-hour-style scale. World-time operation, exact reference and materials are unverified.","features":["Central globe motif","Outer city-name ring","24-hour-style scale; operation untested","Two watches; verify each item separately"],"multi":true,"sizeReference":"43 mm (comparison only)"},
-{"id":"OM24","name":"Aqua Terra — Silver-white patterned dial · Silver bracelet","nameZh":"欧米茄 · 海马 Aqua Terra · 银白花纹盘银色表链","tone":"Silver-white patterned dial · Silver bracelet","brand":"Omega","family":"Aqua Terra","category":"Sport","image":"omega-24","description":"An Aqua Terra-style watch with tapered hour markers, a smooth round bezel and a date aperture. Dial texture and colour are observations from the supplied photograph; the exact reference is unconfirmed.","features":["Tapered hour markers","Smooth round bezel","Date aperture visible"],"multi":false,"sizeReference":"41 mm (comparison only)"});
+const siteSettings = {"brandName":"JUXIANG","heroTitle":"Presence. In every moment.","heroIntro":"For the way you move through the world. Discover our collection of real watch photographs.","contactUrl":"https://wa.me/8619922353655"};
+const products = [
+  {
+    "id": "JX001",
+    "brand": "Rolex",
+    "family": "Yacht-Master",
+    "name": "Yacht-Master — Metal bracelet",
+    "nameZh": "游艇名仕型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 141,
+    "currency": "USD",
+    "image": "watch-01",
+    "sizeReference": "37 / 40 / 42 mm",
+    "description": "Explore the Yacht-Master collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver dial · Silver tone",
+        "labelZh": "银盘银色",
+        "image": "watch-01",
+        "photos": [
+          {
+            "image": "watch-01",
+            "label": "Silver dial · Silver tone",
+            "labelZh": "游艇名仕型 · 银盘银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Silver-tone case and bracelet",
+        "labelZh": "蓝盘银色表壳表链",
+        "image": "watch-16",
+        "photos": [
+          {
+            "image": "watch-16",
+            "label": "Blue dial · Silver tone",
+            "labelZh": "潜航者型 · 蓝盘银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Rose two tone",
+        "labelZh": "黑盘玫瑰间金色",
+        "image": "watch-20",
+        "photos": [
+          {
+            "image": "watch-20",
+            "label": "Black dial · Two tone",
+            "labelZh": "潜航者型 · 黑盘间金色"
+          },
+          {
+            "image": "watch-24",
+            "label": "Black dial · Two tone",
+            "labelZh": "潜航者型 · 黑盘间金色"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "watch-24",
+        "label": "Black dial · Two tone",
+        "labelZh": "潜航者型 · 黑盘间金色"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX002",
+    "brand": "Rolex",
+    "family": "Yacht-Master",
+    "name": "Yacht-Master — Rubber strap",
+    "nameZh": "游艇名仕型 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 158,
+    "currency": "USD",
+    "image": "watch-25",
+    "sizeReference": "37 / 40 / 42 mm",
+    "description": "Explore the Yacht-Master collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Rose tone",
+        "labelZh": "黑盘玫瑰金色",
+        "image": "watch-25",
+        "photos": [
+          {
+            "image": "watch-25",
+            "label": "Black dial · Rose tone",
+            "labelZh": "游艇名仕型 · 黑盘玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX003",
+    "brand": "Rolex",
+    "family": "Datejust",
+    "name": "Datejust — Metal bracelet",
+    "nameZh": "日志型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 134,
+    "currency": "USD",
+    "image": "watch-02",
+    "sizeReference": "31 / 36 / 41 mm",
+    "description": "Explore the Datejust collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Champagne · Two tone",
+        "labelZh": "香槟盘间金色",
+        "image": "watch-02",
+        "photos": [
+          {
+            "image": "watch-02",
+            "label": "Champagne · Two tone",
+            "labelZh": "日志型 · 香槟盘间金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Rose two tone",
+        "labelZh": "白盘玫瑰间金色",
+        "image": "watch-12",
+        "photos": [
+          {
+            "image": "watch-12",
+            "label": "White dial · Rose two tone",
+            "labelZh": "日志型 · 白盘玫瑰间金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Gold tone",
+        "labelZh": "黑盘金色",
+        "image": "watch-15",
+        "photos": [
+          {
+            "image": "watch-15",
+            "label": "Black dial · Gold tone",
+            "labelZh": "日志型 · 黑盘金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Blue dial · Silver tone",
+        "labelZh": "蓝盘银色",
+        "image": "watch-17",
+        "photos": [
+          {
+            "image": "watch-17",
+            "label": "Blue dial · Silver tone",
+            "labelZh": "日志型 · 蓝盘银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Dark dial · Fluted bezel · Silver bracelet",
+        "labelZh": "深色盘牙圈银色表链",
+        "image": "watch-19",
+        "photos": [
+          {
+            "image": "watch-19",
+            "label": "Black dial · Black bezel",
+            "labelZh": "潜航者型 · 黑盘黑圈"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Slate dial · Roman markers",
+        "labelZh": "灰盘罗马时标",
+        "image": "watch-30",
+        "photos": [
+          {
+            "image": "watch-30",
+            "label": "Slate dial · Roman markers",
+            "labelZh": "日志型 · 灰盘罗马时标"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Black dial · Rose two tone",
+        "labelZh": "黑盘玫瑰间金色",
+        "image": "watch-31",
+        "photos": [
+          {
+            "image": "watch-31",
+            "label": "Black dial · Rose two tone",
+            "labelZh": "日志型 · 黑盘玫瑰间金色"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "watch-23",
+        "label": "Dress-watch assortment",
+        "labelZh": "日志型 · 正装表组合"
+      },
+      {
+        "image": "watch-28",
+        "label": "Dress-watch assortment",
+        "labelZh": "日志型 · 正装表组合"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX004",
+    "brand": "Rolex",
+    "family": "Cosmograph Daytona",
+    "name": "Cosmograph Daytona — Metal bracelet",
+    "nameZh": "宇宙计型迪通拿 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 151,
+    "currency": "USD",
+    "image": "watch-14",
+    "sizeReference": "40 mm",
+    "description": "Explore the Cosmograph Daytona collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Decorative multicolour bezel",
+        "labelZh": "多彩装饰圈",
+        "image": "watch-14",
+        "photos": [
+          {
+            "image": "watch-14",
+            "label": "Decorative multicolour bezel",
+            "labelZh": "宇宙计型迪通拿 · 多彩装饰圈"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "watch-03",
+        "label": "Chronograph assortment",
+        "labelZh": "宇宙计型迪通拿 · 计时款组合"
+      },
+      {
+        "image": "watch-22",
+        "label": "Dark chronograph assortment",
+        "labelZh": "宇宙计型迪通拿 · 深色计时组合"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX005",
+    "brand": "Rolex",
+    "family": "Cosmograph Daytona",
+    "name": "Cosmograph Daytona — Rubber strap",
+    "nameZh": "宇宙计型迪通拿 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 168,
+    "currency": "USD",
+    "image": "watch-04",
+    "sizeReference": "40 mm",
+    "description": "Explore the Cosmograph Daytona collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Black bezel",
+        "labelZh": "白盘黑圈",
+        "image": "watch-04",
+        "photos": [
+          {
+            "image": "watch-04",
+            "label": "White dial · Black bezel",
+            "labelZh": "宇宙计型迪通拿 · 白盘黑圈"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Champagne dial · Black strap",
+        "labelZh": "香槟盘黑表带",
+        "image": "watch-27",
+        "photos": [
+          {
+            "image": "watch-27",
+            "label": "Champagne dial · Black strap",
+            "labelZh": "宇宙计型迪通拿 · 香槟盘黑表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX006",
+    "brand": "Rolex",
+    "family": "Day-Date",
+    "name": "Day-Date — Metal bracelet",
+    "nameZh": "星期日历型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 144,
+    "currency": "USD",
+    "image": "watch-05",
+    "sizeReference": "36 / 40 mm",
+    "description": "Explore the Day-Date collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Olive dial · Rose tone",
+        "labelZh": "橄榄绿盘玫瑰金色",
+        "image": "watch-05",
+        "photos": [
+          {
+            "image": "watch-05",
+            "label": "Olive dial · Rose tone",
+            "labelZh": "星期日历型 · 橄榄绿盘玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Champagne dial · Gold tone",
+        "labelZh": "香槟盘金色",
+        "image": "watch-13",
+        "photos": [
+          {
+            "image": "watch-13",
+            "label": "Champagne dial · Gold tone",
+            "labelZh": "星期日历型 · 香槟盘金色"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "watch-09",
+        "label": "Green & champagne assortment",
+        "labelZh": "星期日历型 · 绿盘及香槟盘组合"
+      },
+      {
+        "image": "watch-11",
+        "label": "Gold-tone dial assortment",
+        "labelZh": "日志型 · 金色表盘组合"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX007",
+    "brand": "Rolex",
+    "family": "Submariner",
+    "name": "Submariner — Metal bracelet",
+    "nameZh": "潜航者型 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 161,
+    "currency": "USD",
+    "image": "watch-06",
+    "sizeReference": "41 mm",
+    "description": "Explore the Submariner collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Gold tone",
+        "labelZh": "黑盘金色",
+        "image": "watch-06",
+        "photos": [
+          {
+            "image": "watch-06",
+            "label": "Black dial · Gold tone",
+            "labelZh": "潜航者型 · 黑盘金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Blue bezel",
+        "labelZh": "蓝盘蓝圈",
+        "image": "watch-18",
+        "photos": [
+          {
+            "image": "watch-18",
+            "label": "Blue dial · Blue bezel",
+            "labelZh": "潜航者型 · 蓝盘蓝圈"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Black bezel",
+        "labelZh": "黑盘黑圈",
+        "image": "watch-33",
+        "photos": [
+          {
+            "image": "watch-33",
+            "label": "Black dial · Black bezel",
+            "labelZh": "潜航者型 · 黑盘黑圈"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX008",
+    "brand": "Rolex",
+    "family": "Explorer II",
+    "name": "Explorer II — Metal bracelet",
+    "nameZh": "探险家型 II · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 137,
+    "currency": "USD",
+    "image": "watch-07",
+    "sizeReference": "42 mm",
+    "description": "Explore the Explorer II collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · 24-hour bezel",
+        "labelZh": "黑盘24小时圈",
+        "image": "watch-07",
+        "photos": [
+          {
+            "image": "watch-07",
+            "label": "Black dial · 24-hour bezel",
+            "labelZh": "探险家型 II · 黑盘24小时圈"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX009",
+    "brand": "Rolex",
+    "family": "GMT-Master II",
+    "name": "GMT-Master II — Metal bracelet",
+    "nameZh": "格林尼治型 II · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 154,
+    "currency": "USD",
+    "image": "watch-08",
+    "sizeReference": "40 mm",
+    "description": "Explore the GMT-Master II collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Blue/black bezel",
+        "labelZh": "黑盘蓝黑圈",
+        "image": "watch-08",
+        "photos": [
+          {
+            "image": "watch-08",
+            "label": "Black dial · Blue/black bezel",
+            "labelZh": "格林尼治型 II · 黑盘蓝黑圈"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Red/black bezel",
+        "labelZh": "黑盘红黑圈",
+        "image": "watch-26",
+        "photos": [
+          {
+            "image": "watch-26",
+            "label": "Black dial · Red/black bezel",
+            "labelZh": "格林尼治型 II · 黑盘红黑圈"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Green dial · Green 24-hour bezel",
+        "labelZh": "绿盘绿色24小时圈",
+        "image": "watch-29",
+        "photos": [
+          {
+            "image": "watch-29",
+            "label": "Green dial · Green bezel",
+            "labelZh": "潜航者型 · 绿盘绿圈"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX010",
+    "brand": "Rolex",
+    "family": "Oyster Perpetual",
+    "name": "Oyster Perpetual — Metal bracelet",
+    "nameZh": "蚝式恒动 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 130,
+    "currency": "USD",
+    "image": "watch-10",
+    "sizeReference": "31 / 36 / 41 mm",
+    "description": "Explore the Oyster Perpetual collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Colour assortment",
+        "labelZh": "配色合照",
+        "image": "watch-10",
+        "photos": [
+          {
+            "image": "watch-10",
+            "label": "Colour dial assortment",
+            "labelZh": "日志型 · 彩色表盘组合"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX011",
+    "brand": "Rolex",
+    "family": "Milgauss",
+    "name": "Milgauss — Metal bracelet",
+    "nameZh": "米尔高斯 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 147,
+    "currency": "USD",
+    "image": "watch-32",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Explore the Milgauss collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Orange lightning-style hand",
+        "labelZh": "蓝盘橙色闪电形指针",
+        "image": "watch-32",
+        "photos": [
+          {
+            "image": "watch-32",
+            "label": "Blue chronograph dial",
+            "labelZh": "宇宙计型迪通拿 · 蓝盘计时"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX012",
+    "brand": "Cartier",
+    "family": "Ballon Bleu de Cartier",
+    "name": "Ballon Bleu de Cartier — Metal bracelet",
+    "nameZh": "蓝气球 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 164,
+    "currency": "USD",
+    "image": "cartier-02",
+    "sizeReference": "28 / 33 / 36 / 40 mm (selected official models)",
+    "description": "Explore the Ballon Bleu de Cartier collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver tone",
+        "labelZh": "白盘银色",
+        "image": "cartier-02",
+        "photos": [
+          {
+            "image": "cartier-02",
+            "label": "White dial · Silver tone",
+            "labelZh": "蓝气球系列 · 白盘银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Silver tone",
+        "labelZh": "蓝盘银色",
+        "image": "cartier-03",
+        "photos": [
+          {
+            "image": "cartier-03",
+            "label": "Blue dial · Silver tone",
+            "labelZh": "蓝气球系列 · 蓝盘银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver tone",
+        "labelZh": "黑盘银色",
+        "image": "cartier-04",
+        "photos": [
+          {
+            "image": "cartier-04",
+            "label": "Black dial · Silver tone",
+            "labelZh": "蓝气球系列 · 黑盘银色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Rose two tone",
+        "labelZh": "白盘玫瑰间金色",
+        "image": "cartier-05",
+        "photos": [
+          {
+            "image": "cartier-05",
+            "label": "White dial · Rose two tone",
+            "labelZh": "蓝气球系列 · 白盘玫瑰间金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Yellow two tone",
+        "labelZh": "白盘黄金间金色",
+        "image": "cartier-06",
+        "photos": [
+          {
+            "image": "cartier-06",
+            "label": "White dial · Yellow two tone",
+            "labelZh": "蓝气球系列 · 白盘黄金间金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "White dial · Silver bracelet",
+        "labelZh": "白盘银色表链",
+        "image": "cartier-07",
+        "photos": [
+          {
+            "image": "cartier-07",
+            "label": "White dial · Silver bracelet",
+            "labelZh": "蓝气球系列 · 白盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Light dial · Decorative bezel",
+        "labelZh": "浅色表盘装饰圈",
+        "image": "cartier-15",
+        "photos": [
+          {
+            "image": "cartier-15",
+            "label": "Light dial · Decorative bezel",
+            "labelZh": "蓝气球系列 · 浅色表盘装饰圈"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "White dial · Roman markers",
+        "labelZh": "白盘罗马时标",
+        "image": "cartier-16",
+        "photos": [
+          {
+            "image": "cartier-16",
+            "label": "White dial · Roman markers",
+            "labelZh": "蓝气球系列 · 白盘罗马时标"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v9",
+        "label": "Light blue dial · Bracelet",
+        "labelZh": "浅蓝盘表链",
+        "image": "cartier-17",
+        "photos": [
+          {
+            "image": "cartier-17",
+            "label": "Light blue dial · Bracelet",
+            "labelZh": "蓝气球系列 · 浅蓝盘表链"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "cartier-01",
+        "label": "White dial · Size comparison",
+        "labelZh": "蓝气球系列 · 白盘尺寸对比"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX013",
+    "brand": "Cartier",
+    "family": "Ballon Bleu de Cartier",
+    "name": "Ballon Bleu de Cartier — Leather strap",
+    "nameZh": "蓝气球 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 140,
+    "currency": "USD",
+    "image": "cartier-08",
+    "sizeReference": "28 / 33 / 36 / 40 mm (selected official models)",
+    "description": "Explore the Ballon Bleu de Cartier collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Black strap",
+        "labelZh": "白盘黑表带",
+        "image": "cartier-08",
+        "photos": [
+          {
+            "image": "cartier-08",
+            "label": "White dial · Black strap",
+            "labelZh": "蓝气球系列 · 白盘黑表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Blue strap",
+        "labelZh": "蓝盘蓝表带",
+        "image": "cartier-09",
+        "photos": [
+          {
+            "image": "cartier-09",
+            "label": "Blue dial · Blue strap",
+            "labelZh": "蓝气球系列 · 蓝盘蓝表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Black strap",
+        "labelZh": "黑盘黑表带",
+        "image": "cartier-10",
+        "photos": [
+          {
+            "image": "cartier-10",
+            "label": "Black dial · Black strap",
+            "labelZh": "蓝气球系列 · 黑盘黑表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Rose tone · Brown strap",
+        "labelZh": "白盘玫瑰金色棕表带",
+        "image": "cartier-11",
+        "photos": [
+          {
+            "image": "cartier-11",
+            "label": "White dial · Rose tone · Brown strap",
+            "labelZh": "蓝气球系列 · 白盘玫瑰金色棕表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Silver tone · Black strap",
+        "labelZh": "白盘银色黑表带",
+        "image": "cartier-12",
+        "photos": [
+          {
+            "image": "cartier-12",
+            "label": "White dial · Silver tone · Black strap",
+            "labelZh": "蓝气球系列 · 白盘银色黑表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "White dial · Gold tone · Brown strap",
+        "labelZh": "白盘金色棕表带",
+        "image": "cartier-13",
+        "photos": [
+          {
+            "image": "cartier-13",
+            "label": "White dial · Gold tone · Brown strap",
+            "labelZh": "蓝气球系列 · 白盘金色棕表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Pink dial · Pink strap",
+        "labelZh": "粉盘粉表带",
+        "image": "cartier-14",
+        "photos": [
+          {
+            "image": "cartier-14",
+            "label": "Pink dial · Pink strap",
+            "labelZh": "蓝气球系列 · 粉盘粉表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX014",
+    "brand": "Cartier",
+    "family": "Santos-Dumont",
+    "name": "Santos-Dumont — Leather strap",
+    "nameZh": "山度士杜蒙 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 157,
+    "currency": "USD",
+    "image": "cartier-18",
+    "sizeReference": "Small: 38 × 27.5 mm; Large: 43.5 × 31.4 mm (L × W)",
+    "description": "Explore the Santos-Dumont collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Colour assortment",
+        "labelZh": "配色合照",
+        "image": "cartier-18",
+        "photos": [
+          {
+            "image": "cartier-18",
+            "label": "Square case · Two-watch assortment",
+            "labelZh": "山度士杜蒙系列 · 方形表壳双表组合"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX015",
+    "brand": "Cartier",
+    "family": "Tank",
+    "name": "Tank — Leather strap",
+    "nameZh": "坦克 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 133,
+    "currency": "USD",
+    "image": "cartier-19",
+    "sizeReference": "Tank Must examples: Small 29.5 × 22 mm; Large 33.7 × 25.5 mm (L × W)",
+    "description": "Explore the Tank collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Rectangular case · Black strap",
+        "labelZh": "长方形表壳黑表带",
+        "image": "cartier-19",
+        "photos": [
+          {
+            "image": "cartier-19",
+            "label": "Rectangular case · Black strap",
+            "labelZh": "坦克系列 · 长方形表壳黑表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX016",
+    "brand": "Vacheron Constantin",
+    "family": "Overseas",
+    "name": "Overseas — Metal bracelet",
+    "nameZh": "纵横四海 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 150,
+    "currency": "USD",
+    "image": "vc-01",
+    "sizeReference": "41 mm (selected official self-winding reference; actual size unmeasured)",
+    "description": "Explore the Overseas collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver dial · Silver bracelet",
+        "labelZh": "银盘银色表链",
+        "image": "vc-01",
+        "photos": [
+          {
+            "image": "vc-01",
+            "label": "Silver dial · Silver bracelet",
+            "labelZh": "纵横四海系列 · 银盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘银色表链",
+        "image": "vc-02",
+        "photos": [
+          {
+            "image": "vc-02",
+            "label": "Black dial · Silver bracelet",
+            "labelZh": "纵横四海系列 · 黑盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Brown dial · Silver bracelet",
+        "labelZh": "棕盘银色表链",
+        "image": "vc-03",
+        "photos": [
+          {
+            "image": "vc-03",
+            "label": "Brown dial · Silver bracelet",
+            "labelZh": "纵横四海系列 · 棕盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Blue dial · Silver bracelet",
+        "labelZh": "蓝盘银色表链",
+        "image": "vc-04",
+        "photos": [
+          {
+            "image": "vc-04",
+            "label": "Blue dial · Silver bracelet",
+            "labelZh": "纵横四海系列 · 蓝盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Green dial · Silver bracelet",
+        "labelZh": "绿盘银色表链",
+        "image": "vc-05",
+        "photos": [
+          {
+            "image": "vc-05",
+            "label": "Green dial · Silver bracelet",
+            "labelZh": "纵横四海系列 · 绿盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Silver dial · Rose tone",
+        "labelZh": "银盘玫瑰金色",
+        "image": "vc-06",
+        "photos": [
+          {
+            "image": "vc-06",
+            "label": "Silver dial · Rose tone",
+            "labelZh": "纵横四海系列 · 银盘玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Blue dial · Rose tone",
+        "labelZh": "蓝盘玫瑰金色",
+        "image": "vc-07",
+        "photos": [
+          {
+            "image": "vc-07",
+            "label": "Blue dial · Rose tone",
+            "labelZh": "纵横四海系列 · 蓝盘玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX017",
+    "brand": "Vacheron Constantin",
+    "family": "Overseas",
+    "name": "Overseas — Rubber strap",
+    "nameZh": "纵横四海 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 167,
+    "currency": "USD",
+    "image": "vc-08",
+    "sizeReference": "41 mm (selected official self-winding reference; actual size unmeasured)",
+    "description": "Explore the Overseas collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Brown dial · Brown strap",
+        "labelZh": "棕盘棕表带",
+        "image": "vc-08",
+        "photos": [
+          {
+            "image": "vc-08",
+            "label": "Brown dial · Brown strap",
+            "labelZh": "纵横四海系列 · 棕盘棕表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX018",
+    "brand": "Vacheron Constantin",
+    "family": "Overseas Chronograph",
+    "name": "Overseas Chronograph — Metal bracelet",
+    "nameZh": "纵横四海计时 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 143,
+    "currency": "USD",
+    "image": "vc-09",
+    "sizeReference": "42.5 mm (official chronograph comparison; actual size unmeasured)",
+    "description": "Explore the Overseas Chronograph collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White chronograph · Silver bracelet",
+        "labelZh": "白盘计时银色表链",
+        "image": "vc-09",
+        "photos": [
+          {
+            "image": "vc-09",
+            "label": "White chronograph · Silver bracelet",
+            "labelZh": "纵横四海计时系列 · 白盘计时银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "White chronograph · Rose tone",
+        "labelZh": "白盘计时玫瑰金色",
+        "image": "vc-10",
+        "photos": [
+          {
+            "image": "vc-10",
+            "label": "White chronograph · Rose tone",
+            "labelZh": "纵横四海计时系列 · 白盘计时玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue chronograph · Rose tone",
+        "labelZh": "蓝盘计时玫瑰金色",
+        "image": "vc-11",
+        "photos": [
+          {
+            "image": "vc-11",
+            "label": "Blue chronograph · Rose tone",
+            "labelZh": "纵横四海计时系列 · 蓝盘计时玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Brown chronograph · Silver bracelet",
+        "labelZh": "棕盘计时银色表链",
+        "image": "vc-12",
+        "photos": [
+          {
+            "image": "vc-12",
+            "label": "Brown chronograph · Silver bracelet",
+            "labelZh": "纵横四海计时系列 · 棕盘计时银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Light counters",
+        "labelZh": "黑盘浅色小表盘",
+        "image": "vc-13",
+        "photos": [
+          {
+            "image": "vc-13",
+            "label": "Black dial · Light counters",
+            "labelZh": "纵横四海计时系列 · 黑盘浅色小表盘"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Blue chronograph · Silver bracelet",
+        "labelZh": "蓝盘计时银色表链",
+        "image": "vc-14",
+        "photos": [
+          {
+            "image": "vc-14",
+            "label": "Blue chronograph · Silver bracelet",
+            "labelZh": "纵横四海计时系列 · 蓝盘计时银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Black chronograph · Silver bracelet",
+        "labelZh": "黑盘计时银色表链",
+        "image": "vc-15",
+        "photos": [
+          {
+            "image": "vc-15",
+            "label": "Black chronograph · Silver bracelet",
+            "labelZh": "纵横四海计时系列 · 黑盘计时银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "White dial · Dark counters",
+        "labelZh": "白盘深色小表盘",
+        "image": "vc-16",
+        "photos": [
+          {
+            "image": "vc-16",
+            "label": "White dial · Dark counters",
+            "labelZh": "纵横四海计时系列 · 白盘深色小表盘"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX019",
+    "brand": "Vacheron Constantin",
+    "family": "Overseas Chronograph",
+    "name": "Overseas Chronograph — Rubber strap",
+    "nameZh": "纵横四海计时 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 160,
+    "currency": "USD",
+    "image": "vc-17",
+    "sizeReference": "42.5 mm (official chronograph comparison; actual size unmeasured)",
+    "description": "Explore the Overseas Chronograph collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue chronograph · Blue strap",
+        "labelZh": "蓝盘计时蓝表带",
+        "image": "vc-17",
+        "photos": [
+          {
+            "image": "vc-17",
+            "label": "Blue chronograph · Blue strap",
+            "labelZh": "纵横四海计时系列 · 蓝盘计时蓝表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Brown chronograph · Brown strap",
+        "labelZh": "棕盘计时棕表带",
+        "image": "vc-18",
+        "photos": [
+          {
+            "image": "vc-18",
+            "label": "Brown chronograph · Brown strap",
+            "labelZh": "纵横四海计时系列 · 棕盘计时棕表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "White chronograph · Brown strap",
+        "labelZh": "白盘计时棕表带",
+        "image": "vc-19",
+        "photos": [
+          {
+            "image": "vc-19",
+            "label": "White chronograph · Brown strap",
+            "labelZh": "纵横四海计时系列 · 白盘计时棕表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Light counters · Black strap",
+        "labelZh": "黑盘浅色小表盘黑表带",
+        "image": "vc-20",
+        "photos": [
+          {
+            "image": "vc-20",
+            "label": "Black dial · Light counters · Black strap",
+            "labelZh": "纵横四海计时系列 · 黑盘浅色小表盘黑表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Dark counters · Black strap",
+        "labelZh": "白盘深色小表盘黑表带",
+        "image": "vc-21",
+        "photos": [
+          {
+            "image": "vc-21",
+            "label": "White dial · Dark counters · Black strap",
+            "labelZh": "纵横四海计时系列 · 白盘深色小表盘黑表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Black chronograph · Black strap",
+        "labelZh": "黑盘计时黑表带",
+        "image": "vc-22",
+        "photos": [
+          {
+            "image": "vc-22",
+            "label": "Black chronograph · Black strap",
+            "labelZh": "纵横四海计时系列 · 黑盘计时黑表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Blue chronograph · Rose tone · Blue strap",
+        "labelZh": "蓝盘计时玫瑰金色蓝表带",
+        "image": "vc-23",
+        "photos": [
+          {
+            "image": "vc-23",
+            "label": "Blue chronograph · Rose tone · Blue strap",
+            "labelZh": "纵横四海计时系列 · 蓝盘计时玫瑰金色蓝表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "White chronograph · Black strap",
+        "labelZh": "白盘计时黑表带",
+        "image": "vc-24",
+        "photos": [
+          {
+            "image": "vc-24",
+            "label": "White chronograph · Black strap",
+            "labelZh": "纵横四海计时系列 · 白盘计时黑表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX020",
+    "brand": "Vacheron Constantin",
+    "family": "Round Open-aperture — Unconfirmed",
+    "name": "Round Open-aperture — Unconfirmed — Metal bracelet",
+    "nameZh": "圆形开窗装饰款 · 系列待确认 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 136,
+    "currency": "USD",
+    "image": "vc-25",
+    "sizeReference": "Unconfirmed — exact model reference and actual measurement required",
+    "description": "Explore the Round Open-aperture — Unconfirmed collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue decorative dial · Metal bracelet",
+        "labelZh": "蓝色装饰盘金属表链",
+        "image": "vc-25",
+        "photos": [
+          {
+            "image": "vc-25",
+            "label": "Blue decorative dial · Metal bracelet",
+            "labelZh": "圆形开芯款（系列待核实） · 蓝色装饰盘金属表链"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX021",
+    "brand": "Vacheron Constantin",
+    "family": "Round Open-aperture — Unconfirmed",
+    "name": "Round Open-aperture — Unconfirmed — Leather strap",
+    "nameZh": "圆形开窗装饰款 · 系列待确认 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 153,
+    "currency": "USD",
+    "image": "vc-26",
+    "sizeReference": "Unconfirmed — exact model reference and actual measurement required",
+    "description": "Explore the Round Open-aperture — Unconfirmed collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue decorative dial · Blue strap",
+        "labelZh": "蓝色装饰盘蓝表带",
+        "image": "vc-26",
+        "photos": [
+          {
+            "image": "vc-26",
+            "label": "Blue decorative dial · Blue strap",
+            "labelZh": "圆形开芯款（系列待核实） · 蓝色装饰盘蓝表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX022",
+    "brand": "Vacheron Constantin",
+    "family": "Round Tourbillon-style — Unconfirmed",
+    "name": "Round Tourbillon-style — Unconfirmed — Metal bracelet",
+    "nameZh": "圆形开窗款 · 系列待确认 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 170,
+    "currency": "USD",
+    "image": "vc-27",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Explore the Round Tourbillon-style — Unconfirmed collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Open aperture · Rose tone",
+        "labelZh": "蓝盘开芯玫瑰金色",
+        "image": "vc-27",
+        "photos": [
+          {
+            "image": "vc-27",
+            "label": "Blue dial · Open aperture · Rose tone",
+            "labelZh": "纵横四海陀飞轮外观款 · 蓝盘开芯玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Open aperture · Rose tone",
+        "labelZh": "黑盘开芯玫瑰金色",
+        "image": "vc-28",
+        "photos": [
+          {
+            "image": "vc-28",
+            "label": "Black dial · Open aperture · Rose tone",
+            "labelZh": "纵横四海陀飞轮外观款 · 黑盘开芯玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Silver dial · Open aperture · Rose tone",
+        "labelZh": "银盘开芯玫瑰金色",
+        "image": "vc-29",
+        "photos": [
+          {
+            "image": "vc-29",
+            "label": "Silver dial · Open aperture · Rose tone",
+            "labelZh": "纵横四海陀飞轮外观款 · 银盘开芯玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Light dial · Open aperture · Rose tone",
+        "labelZh": "浅色盘开芯玫瑰金色",
+        "image": "vc-30",
+        "photos": [
+          {
+            "image": "vc-30",
+            "label": "Light dial · Open aperture · Rose tone",
+            "labelZh": "纵横四海陀飞轮外观款 · 浅色盘开芯玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Silver dial · Open aperture · Silver bracelet",
+        "labelZh": "银盘开芯银色表链",
+        "image": "vc-31",
+        "photos": [
+          {
+            "image": "vc-31",
+            "label": "Silver dial · Open aperture · Silver bracelet",
+            "labelZh": "纵横四海陀飞轮外观款 · 银盘开芯银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Black dial · Open aperture · Silver bracelet",
+        "labelZh": "黑盘开芯银色表链",
+        "image": "vc-32",
+        "photos": [
+          {
+            "image": "vc-32",
+            "label": "Black dial · Open aperture · Silver bracelet",
+            "labelZh": "纵横四海陀飞轮外观款 · 黑盘开芯银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Light dial · Open aperture · Silver bracelet",
+        "labelZh": "浅色盘开芯银色表链",
+        "image": "vc-33",
+        "photos": [
+          {
+            "image": "vc-33",
+            "label": "Light dial · Open aperture · Silver bracelet",
+            "labelZh": "纵横四海陀飞轮外观款 · 浅色盘开芯银色表链"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX023",
+    "brand": "Vacheron Constantin",
+    "family": "Patrimony",
+    "name": "Patrimony — Leather strap",
+    "nameZh": "传承 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 146,
+    "currency": "USD",
+    "image": "vc-34",
+    "sizeReference": "40 mm (selected official self-winding reference; actual size unmeasured)",
+    "description": "Explore the Patrimony collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Light dial · Brown strap",
+        "labelZh": "浅色盘棕表带",
+        "image": "vc-34",
+        "photos": [
+          {
+            "image": "vc-34",
+            "label": "Light dial · Brown strap",
+            "labelZh": "传承系列 · 浅色盘棕表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Black strap",
+        "labelZh": "黑盘黑表带",
+        "image": "vc-35",
+        "photos": [
+          {
+            "image": "vc-35",
+            "label": "Black dial · Black strap",
+            "labelZh": "传承系列 · 黑盘黑表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Light dial · Black strap",
+        "labelZh": "浅色盘黑表带",
+        "image": "vc-36",
+        "photos": [
+          {
+            "image": "vc-36",
+            "label": "Light dial · Black strap",
+            "labelZh": "传承系列 · 浅色盘黑表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Light dial · Rose tone · Brown strap",
+        "labelZh": "浅色盘玫瑰金色棕表带",
+        "image": "vc-37",
+        "photos": [
+          {
+            "image": "vc-37",
+            "label": "Light dial · Rose tone · Brown strap",
+            "labelZh": "传承系列 · 浅色盘玫瑰金色棕表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Light dial · Rose tone · Black strap",
+        "labelZh": "浅色盘玫瑰金色黑表带",
+        "image": "vc-38",
+        "photos": [
+          {
+            "image": "vc-38",
+            "label": "Light dial · Rose tone · Black strap",
+            "labelZh": "传承系列 · 浅色盘玫瑰金色黑表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Black dial · Rose tone · Black strap",
+        "labelZh": "黑盘玫瑰金色黑表带",
+        "image": "vc-39",
+        "photos": [
+          {
+            "image": "vc-39",
+            "label": "Black dial · Rose tone · Black strap",
+            "labelZh": "传承系列 · 黑盘玫瑰金色黑表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Light dial · Silver tone · Brown strap",
+        "labelZh": "浅色盘银色棕表带",
+        "image": "vc-40",
+        "photos": [
+          {
+            "image": "vc-40",
+            "label": "Light dial · Silver tone · Brown strap",
+            "labelZh": "传承系列 · 浅色盘银色棕表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "Light dial · Silver tone · Dark strap",
+        "labelZh": "浅色盘银色深色表带",
+        "image": "vc-41",
+        "photos": [
+          {
+            "image": "vc-41",
+            "label": "Light dial · Silver tone · Dark strap",
+            "labelZh": "传承系列 · 浅色盘银色深色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "vc-42",
+        "label": "Caseback reference · Brown strap",
+        "labelZh": "传承外观款·表背参考 · 表背参考图棕表带"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX024",
+    "brand": "Audemars Piguet",
+    "family": "Royal Oak",
+    "name": "Royal Oak — Metal bracelet",
+    "nameZh": "皇家橡树 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 163,
+    "currency": "USD",
+    "image": "ap-01",
+    "sizeReference": "37 / 39 / 41 mm (selected official family references; actual size unmeasured)",
+    "description": "Explore the Royal Oak collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘银色表链",
+        "image": "ap-01",
+        "photos": [
+          {
+            "image": "ap-01",
+            "label": "Black dial · Silver bracelet",
+            "labelZh": "皇家橡树系列 · 黑盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Silver dial · Silver bracelet",
+        "labelZh": "银盘银色表链",
+        "image": "ap-02",
+        "photos": [
+          {
+            "image": "ap-02",
+            "label": "Silver dial · Silver bracelet",
+            "labelZh": "皇家橡树系列 · 银盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Grey patterned dial · Silver bracelet",
+        "labelZh": "灰色纹理盘银色表链",
+        "image": "ap-03",
+        "photos": [
+          {
+            "image": "ap-03",
+            "label": "Grey patterned dial · Silver bracelet",
+            "labelZh": "皇家橡树系列 · 灰色纹理盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Green dial · Silver bracelet",
+        "labelZh": "绿盘银色表链",
+        "image": "ap-04",
+        "photos": [
+          {
+            "image": "ap-04",
+            "label": "Green dial · Silver bracelet",
+            "labelZh": "皇家橡树系列 · 绿盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Dark dial · Silver bracelet",
+        "labelZh": "深色盘银色表链图A",
+        "image": "ap-13",
+        "photos": [
+          {
+            "image": "ap-13",
+            "label": "Dark dial · Silver bracelet · Photo A",
+            "labelZh": "皇家橡树系列 · 深色盘银色表链图A"
+          },
+          {
+            "image": "ap-14",
+            "label": "Dark dial · Silver bracelet · Photo B",
+            "labelZh": "皇家橡树系列 · 深色盘银色表链图B"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Blue dial · Rose tone",
+        "labelZh": "蓝盘玫瑰金色",
+        "image": "ap-15",
+        "photos": [
+          {
+            "image": "ap-15",
+            "label": "Blue dial · Rose tone",
+            "labelZh": "皇家橡树系列 · 蓝盘玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "ap-16",
+        "label": "Dark dial · Rose-tone assortment",
+        "labelZh": "皇家橡树系列 · 深色盘玫瑰金色组合"
+      },
+      {
+        "image": "ap-14",
+        "label": "Dark dial · Silver bracelet · Photo B",
+        "labelZh": "皇家橡树系列 · 深色盘银色表链图B"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX025",
+    "brand": "Audemars Piguet",
+    "family": "Royal Oak Chronograph",
+    "name": "Royal Oak Chronograph — Metal bracelet",
+    "nameZh": "皇家橡树计时 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 139,
+    "currency": "USD",
+    "image": "ap-05",
+    "sizeReference": "38 / 41 mm (selected official chronograph references; actual size unmeasured)",
+    "description": "Explore the Royal Oak Chronograph collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Light chronograph counters",
+        "labelZh": "蓝盘浅色计时小表盘",
+        "image": "ap-05",
+        "photos": [
+          {
+            "image": "ap-05",
+            "label": "Blue dial · Light chronograph counters",
+            "labelZh": "皇家橡树计时系列 · 蓝盘浅色计时小表盘"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Light dial · Dark chronograph counters",
+        "labelZh": "浅色盘深色计时小表盘",
+        "image": "ap-06",
+        "photos": [
+          {
+            "image": "ap-06",
+            "label": "Light dial · Dark chronograph counters",
+            "labelZh": "皇家橡树计时系列 · 浅色盘深色计时小表盘"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX026",
+    "brand": "Audemars Piguet",
+    "family": "Royal Oak Offshore Diver",
+    "name": "Royal Oak Offshore Diver — Rubber strap",
+    "nameZh": "皇家橡树离岸潜水 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 156,
+    "currency": "USD",
+    "image": "ap-08",
+    "sizeReference": "42 mm (official Offshore Diver comparison; actual size unmeasured)",
+    "description": "Explore the Royal Oak Offshore Diver collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Black strap",
+        "labelZh": "黑盘黑表带",
+        "image": "ap-08",
+        "photos": [
+          {
+            "image": "ap-08",
+            "label": "Black dial · Black strap",
+            "labelZh": "皇家橡树离岸型潜水外观款 · 黑盘黑表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Orange dial · Orange strap",
+        "labelZh": "橙盘橙表带",
+        "image": "ap-09",
+        "photos": [
+          {
+            "image": "ap-09",
+            "label": "Orange dial · Orange strap",
+            "labelZh": "皇家橡树离岸型潜水外观款 · 橙盘橙表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Green dial · Green strap",
+        "labelZh": "绿盘绿表带",
+        "image": "ap-10",
+        "photos": [
+          {
+            "image": "ap-10",
+            "label": "Green dial · Green strap",
+            "labelZh": "皇家橡树离岸型潜水外观款 · 绿盘绿表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Blue dial · Yellow accents · Blue strap",
+        "labelZh": "蓝盘黄色点缀蓝表带",
+        "image": "ap-11",
+        "photos": [
+          {
+            "image": "ap-11",
+            "label": "Blue dial · Yellow accents · Blue strap",
+            "labelZh": "皇家橡树离岸型潜水外观款 · 蓝盘黄色点缀蓝表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Dark strap",
+        "labelZh": "白盘深色表带",
+        "image": "ap-12",
+        "photos": [
+          {
+            "image": "ap-12",
+            "label": "White dial · Dark strap",
+            "labelZh": "皇家橡树离岸型潜水外观款 · 白盘深色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "ap-07",
+        "label": "Black dial · Two-watch assortment",
+        "labelZh": "皇家橡树离岸型潜水外观款 · 黑盘双表组合"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX027",
+    "brand": "Audemars Piguet",
+    "family": "Royal Oak Tourbillon",
+    "name": "Royal Oak Tourbillon — Metal bracelet",
+    "nameZh": "皇家橡树开窗款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 132,
+    "currency": "USD",
+    "image": "ap-17",
+    "sizeReference": "41 mm (selected official flying-tourbillon reference; actual size unmeasured)",
+    "description": "Explore the Royal Oak Tourbillon collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark dial · Open aperture · Rose tone",
+        "labelZh": "深色盘开芯玫瑰金色",
+        "image": "ap-17",
+        "photos": [
+          {
+            "image": "ap-17",
+            "label": "Dark dial · Open aperture · Rose tone",
+            "labelZh": "皇家橡树陀飞轮外观款 · 深色盘开芯玫瑰金色"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX028",
+    "brand": "Audemars Piguet",
+    "family": "Royal Oak Openworked",
+    "name": "Royal Oak Openworked — Metal bracelet",
+    "nameZh": "皇家橡树镂空款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 149,
+    "currency": "USD",
+    "image": "ap-18",
+    "sizeReference": "41 mm (selected official openworked reference; actual size unmeasured)",
+    "description": "Explore the Royal Oak Openworked collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Openworked dial · Silver bracelet",
+        "labelZh": "镂空盘银色表链",
+        "image": "ap-18",
+        "photos": [
+          {
+            "image": "ap-18",
+            "label": "Openworked dial · Silver bracelet",
+            "labelZh": "皇家橡树镂空外观款 · 镂空盘银色表链"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX029",
+    "brand": "IWC",
+    "family": "Portugieser Automatic",
+    "name": "Portugieser Automatic — Leather strap",
+    "nameZh": "葡萄牙自动款 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 166,
+    "currency": "USD",
+    "image": "iwc-01",
+    "sizeReference": "40 / 42 mm",
+    "description": "Explore the Portugieser Automatic collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Blue details · Black strap",
+        "labelZh": "白盘蓝色细节黑色表带",
+        "image": "iwc-01",
+        "photos": [
+          {
+            "image": "iwc-01",
+            "label": "White dial · Blue hands · Black strap",
+            "labelZh": "葡萄牙自动腕表 · 白盘蓝针黑色表带"
+          },
+          {
+            "image": "iwc-04",
+            "label": "White dial · Blue numerals · Black strap",
+            "labelZh": "葡萄牙自动腕表 · 白盘蓝色数字黑色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "iwc-04",
+        "label": "White dial · Blue numerals · Black strap",
+        "labelZh": "葡萄牙自动腕表 · 白盘蓝色数字黑色表带"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX030",
+    "brand": "IWC",
+    "family": "Portugieser Open-aperture — Unconfirmed",
+    "name": "Portugieser Open-aperture — Unconfirmed — Leather strap",
+    "nameZh": "葡萄牙开窗款 · 待确认 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 142,
+    "currency": "USD",
+    "image": "iwc-02",
+    "sizeReference": "Not assigned — exact reference unconfirmed",
+    "description": "Explore the Portugieser Open-aperture — Unconfirmed collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver dial · Brown strap",
+        "labelZh": "系列待确认 · 银白盘棕色表带",
+        "image": "iwc-02",
+        "photos": [
+          {
+            "image": "iwc-02",
+            "label": "Silver dial · Brown strap",
+            "labelZh": "葡萄牙风格开窗款 · 系列待确认 · 银白盘棕色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Rose tone · Brown strap",
+        "labelZh": "系列待确认 · 黑盘玫瑰金色棕色表带",
+        "image": "iwc-03",
+        "photos": [
+          {
+            "image": "iwc-03",
+            "label": "Black dial · Rose tone · Brown strap",
+            "labelZh": "葡萄牙风格开窗款 · 系列待确认 · 黑盘玫瑰金色棕色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX031",
+    "brand": "IWC",
+    "family": "Round Date — Unconfirmed",
+    "name": "Round Date — Unconfirmed — Leather strap",
+    "nameZh": "圆形日历款 · 系列待确认 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 159,
+    "currency": "USD",
+    "image": "iwc-05",
+    "sizeReference": "Not assigned — exact reference unconfirmed",
+    "description": "Explore the Round Date — Unconfirmed collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Black strap",
+        "labelZh": "系列待确认 · 灰盘黑色表带",
+        "image": "iwc-05",
+        "photos": [
+          {
+            "image": "iwc-05",
+            "label": "Grey dial · Black strap",
+            "labelZh": "圆形日历款 · 系列待确认 · 灰盘黑色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX032",
+    "brand": "IWC",
+    "family": "Round Date — Unconfirmed",
+    "name": "Round Date — Unconfirmed — Metal bracelet",
+    "nameZh": "圆形日历款 · 系列待确认 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 135,
+    "currency": "USD",
+    "image": "iwc-06",
+    "sizeReference": "Not assigned — exact reference unconfirmed",
+    "description": "Explore the Round Date — Unconfirmed collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Silver bracelet",
+        "labelZh": "系列待确认 · 灰盘银色表链",
+        "image": "iwc-06",
+        "photos": [
+          {
+            "image": "iwc-06",
+            "label": "Grey dial · Silver bracelet",
+            "labelZh": "圆形日历款 · 系列待确认 · 灰盘银色表链"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX033",
+    "brand": "IWC",
+    "family": "Pilot's Watch",
+    "name": "Pilot's Watch — Leather strap",
+    "nameZh": "飞行员 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Pilot",
+    "priceUSD": 152,
+    "currency": "USD",
+    "image": "iwc-07",
+    "sizeReference": "40 / 43 / 46.2 mm",
+    "description": "Explore the Pilot's Watch collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Brown riveted strap",
+        "labelZh": "蓝盘棕色铆钉表带",
+        "image": "iwc-07",
+        "photos": [
+          {
+            "image": "iwc-07",
+            "label": "Blue dial · Brown riveted strap",
+            "labelZh": "飞行员系列 · 蓝盘棕色铆钉表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Black riveted strap",
+        "labelZh": "黑盘黑色铆钉表带",
+        "image": "iwc-08",
+        "photos": [
+          {
+            "image": "iwc-08",
+            "label": "Black dial · Black riveted strap",
+            "labelZh": "飞行员系列 · 黑盘黑色铆钉表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Black riveted strap",
+        "labelZh": "白盘黑色铆钉表带",
+        "image": "iwc-09",
+        "photos": [
+          {
+            "image": "iwc-09",
+            "label": "White dial · Black riveted strap",
+            "labelZh": "飞行员系列 · 白盘黑色铆钉表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Cream numerals · Brown strap",
+        "labelZh": "黑盘米色数字棕色表带",
+        "image": "iwc-10",
+        "photos": [
+          {
+            "image": "iwc-10",
+            "label": "Black dial · Cream numerals · Brown strap",
+            "labelZh": "飞行员系列 · 黑盘米色数字棕色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Grey dial · Brown strap",
+        "labelZh": "灰盘棕色表带",
+        "image": "iwc-11",
+        "photos": [
+          {
+            "image": "iwc-11",
+            "label": "Grey dial · Brown strap",
+            "labelZh": "飞行员系列 · 灰盘棕色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Blue dial · Black strap",
+        "labelZh": "蓝盘黑色表带",
+        "image": "iwc-12",
+        "photos": [
+          {
+            "image": "iwc-12",
+            "label": "Blue dial · Black strap",
+            "labelZh": "飞行员系列 · 蓝盘黑色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX034",
+    "brand": "IWC",
+    "family": "Pilot's Watch",
+    "name": "Pilot's Watch — Textile strap",
+    "nameZh": "飞行员 · 织物表带",
+    "band": "textile",
+    "bandName": "Textile strap",
+    "bandNameZh": "织物表带",
+    "category": "Pilot",
+    "priceUSD": 169,
+    "currency": "USD",
+    "image": "iwc-23",
+    "sizeReference": "40 / 43 / 46.2 mm",
+    "description": "Explore the Pilot's Watch collection with textile strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Black textile-style strap",
+        "labelZh": "黑盘黑色织物风格表带",
+        "image": "iwc-23",
+        "photos": [
+          {
+            "image": "iwc-23",
+            "label": "Black dial · Black textile-style strap",
+            "labelZh": "飞行员系列 · 黑盘黑色织物风格表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Olive textile-style strap",
+        "labelZh": "黑盘橄榄绿织物风格表带",
+        "image": "iwc-24",
+        "photos": [
+          {
+            "image": "iwc-24",
+            "label": "Black dial · Olive textile-style strap",
+            "labelZh": "飞行员系列 · 黑盘橄榄绿织物风格表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Dark textile-style strap",
+        "labelZh": "白盘深色织物风格表带",
+        "image": "iwc-32",
+        "photos": [
+          {
+            "image": "iwc-32",
+            "label": "White dial · Dark textile-style strap",
+            "labelZh": "飞行员系列 · 白盘深色织物风格表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "iwc-33",
+        "label": "Green lume reference · Dark background",
+        "labelZh": "飞行员系列 · 绿色夜光参考图"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX035",
+    "brand": "IWC",
+    "family": "Portofino Moon Phase",
+    "name": "Portofino Moon Phase — Leather strap",
+    "nameZh": "柏涛菲诺月相 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 145,
+    "currency": "USD",
+    "image": "iwc-13",
+    "sizeReference": "40 mm",
+    "description": "Explore the Portofino Moon Phase collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Blue strap",
+        "labelZh": "白盘蓝色表带",
+        "image": "iwc-13",
+        "photos": [
+          {
+            "image": "iwc-13",
+            "label": "White dial · Blue strap",
+            "labelZh": "柏涛菲诺月相 · 白盘蓝色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Silver dial · Black strap",
+        "labelZh": "银白盘黑色表带",
+        "image": "iwc-14",
+        "photos": [
+          {
+            "image": "iwc-14",
+            "label": "Silver dial · Black strap",
+            "labelZh": "柏涛菲诺月相 · 银白盘黑色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Blue strap",
+        "labelZh": "蓝盘蓝色表带",
+        "image": "iwc-15",
+        "photos": [
+          {
+            "image": "iwc-15",
+            "label": "Blue dial · Blue strap",
+            "labelZh": "柏涛菲诺月相 · 蓝盘蓝色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Brown strap",
+        "labelZh": "白盘棕色表带",
+        "image": "iwc-16",
+        "photos": [
+          {
+            "image": "iwc-16",
+            "label": "White dial · Brown strap",
+            "labelZh": "柏涛菲诺月相 · 白盘棕色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX036",
+    "brand": "IWC",
+    "family": "Portofino Automatic",
+    "name": "Portofino Automatic — Metal bracelet",
+    "nameZh": "柏涛菲诺自动款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Classic",
+    "priceUSD": 162,
+    "currency": "USD",
+    "image": "iwc-17",
+    "sizeReference": "34 / 37 / 40 mm",
+    "description": "Explore the Portofino Automatic collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver mesh bracelet",
+        "labelZh": "白盘银色米兰表链",
+        "image": "iwc-17",
+        "photos": [
+          {
+            "image": "iwc-17",
+            "label": "White dial · Silver mesh bracelet",
+            "labelZh": "柏涛菲诺自动腕表 · 白盘银色米兰表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Silver mesh bracelet",
+        "labelZh": "蓝盘银色米兰表链",
+        "image": "iwc-18",
+        "photos": [
+          {
+            "image": "iwc-18",
+            "label": "Blue dial · Silver mesh bracelet",
+            "labelZh": "柏涛菲诺自动腕表 · 蓝盘银色米兰表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Dark blue dial · Silver mesh bracelet",
+        "labelZh": "深蓝盘银色米兰表链",
+        "image": "iwc-19",
+        "photos": [
+          {
+            "image": "iwc-19",
+            "label": "Dark blue dial · Silver mesh bracelet",
+            "labelZh": "柏涛菲诺自动腕表 · 深蓝盘银色米兰表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Silver mesh bracelet",
+        "labelZh": "黑盘银色米兰表链",
+        "image": "iwc-20",
+        "photos": [
+          {
+            "image": "iwc-20",
+            "label": "Black dial · Silver mesh bracelet",
+            "labelZh": "柏涛菲诺自动腕表 · 黑盘银色米兰表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Gold-tone markers · Mesh bracelet",
+        "labelZh": "白盘金色刻度米兰表链",
+        "image": "iwc-21",
+        "photos": [
+          {
+            "image": "iwc-21",
+            "label": "White dial · Gold-tone markers · Mesh bracelet",
+            "labelZh": "柏涛菲诺自动腕表 · 白盘金色刻度米兰表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Silver dial · Silver mesh bracelet",
+        "labelZh": "银白盘银色米兰表链",
+        "image": "iwc-22",
+        "photos": [
+          {
+            "image": "iwc-22",
+            "label": "Silver dial · Silver mesh bracelet",
+            "labelZh": "柏涛菲诺自动腕表 · 银白盘银色米兰表链"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX037",
+    "brand": "IWC",
+    "family": "Portugieser Chronograph",
+    "name": "Portugieser Chronograph — Leather strap",
+    "nameZh": "葡萄牙计时 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Chronograph",
+    "priceUSD": 138,
+    "currency": "USD",
+    "image": "iwc-25",
+    "sizeReference": "41 mm",
+    "description": "Explore the Portugieser Chronograph collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Blue hands · Black strap",
+        "labelZh": "白盘蓝针黑色表带",
+        "image": "iwc-25",
+        "photos": [
+          {
+            "image": "iwc-25",
+            "label": "White dial · Blue hands · Black strap",
+            "labelZh": "葡萄牙计时 · 白盘蓝针黑色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Green dial · Dark strap",
+        "labelZh": "绿盘深色表带",
+        "image": "iwc-26",
+        "photos": [
+          {
+            "image": "iwc-26",
+            "label": "Green dial · Dark strap",
+            "labelZh": "葡萄牙计时 · 绿盘深色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Red dial · Warm metallic tone",
+        "labelZh": "红盘暖金属色",
+        "image": "iwc-27",
+        "photos": [
+          {
+            "image": "iwc-27",
+            "label": "Red dial · Warm metallic tone",
+            "labelZh": "葡萄牙计时 · 红盘暖金属色"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX038",
+    "brand": "IWC",
+    "family": "Ingenieur Automatic",
+    "name": "Ingenieur Automatic — Metal bracelet",
+    "nameZh": "工程师自动款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 155,
+    "currency": "USD",
+    "image": "iwc-28",
+    "sizeReference": "35 / 40 / 42 mm",
+    "description": "Explore the Ingenieur Automatic collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘银色表链",
+        "image": "iwc-28",
+        "photos": [
+          {
+            "image": "iwc-28",
+            "label": "Black dial · Silver bracelet",
+            "labelZh": "工程师自动腕表 · 黑盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Silver dial · Silver bracelet",
+        "labelZh": "银白盘银色表链",
+        "image": "iwc-29",
+        "photos": [
+          {
+            "image": "iwc-29",
+            "label": "Silver dial · Silver bracelet",
+            "labelZh": "工程师自动腕表 · 银白盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Turquoise dial · Silver bracelet",
+        "labelZh": "蓝绿色盘银色表链",
+        "image": "iwc-30",
+        "photos": [
+          {
+            "image": "iwc-30",
+            "label": "Turquoise dial · Silver bracelet",
+            "labelZh": "工程师自动腕表 · 蓝绿色盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Grey dial · Silver bracelet",
+        "labelZh": "灰盘银色表链",
+        "image": "iwc-31",
+        "photos": [
+          {
+            "image": "iwc-31",
+            "label": "Grey dial · Silver bracelet",
+            "labelZh": "工程师自动腕表 · 灰盘银色表链"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX039",
+    "brand": "Patek Philippe",
+    "family": "Nautilus Moon Phase",
+    "name": "Nautilus Moon Phase — Metal bracelet",
+    "nameZh": "鹦鹉螺月相 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Complication",
+    "priceUSD": 131,
+    "currency": "USD",
+    "image": "pp-01",
+    "sizeReference": "40 mm",
+    "description": "Explore the Nautilus Moon Phase collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark blue dial · Silver bracelet",
+        "labelZh": "深蓝盘银色表链",
+        "image": "pp-01",
+        "photos": [
+          {
+            "image": "pp-01",
+            "label": "Dark blue dial · Silver bracelet",
+            "labelZh": "鹦鹉螺月相 · 深蓝盘银色表链"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX040",
+    "brand": "Patek Philippe",
+    "family": "Aquanaut",
+    "name": "Aquanaut — Rubber strap",
+    "nameZh": "手雷 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 148,
+    "currency": "USD",
+    "image": "pp-02",
+    "sizeReference": "40.8 / 42.2 mm",
+    "description": "Explore the Aquanaut collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Olive dial · Olive strap",
+        "labelZh": "Aquanaut · 橄榄绿盘橄榄绿表带",
+        "image": "pp-02",
+        "photos": [
+          {
+            "image": "pp-02",
+            "label": "Olive dial · Olive strap",
+            "labelZh": "手雷 · Aquanaut · 橄榄绿盘橄榄绿表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Black strap",
+        "labelZh": "Aquanaut · 黑盘黑色表带",
+        "image": "pp-22",
+        "photos": [
+          {
+            "image": "pp-22",
+            "label": "Black dial · Black strap",
+            "labelZh": "手雷 · Aquanaut · 黑盘黑色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Blue strap",
+        "labelZh": "Aquanaut · 蓝盘蓝色表带",
+        "image": "pp-23",
+        "photos": [
+          {
+            "image": "pp-23",
+            "label": "Blue dial · Blue strap",
+            "labelZh": "手雷 · Aquanaut · 蓝盘蓝色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Grey dial · Black strap",
+        "labelZh": "Aquanaut · 灰盘黑色表带",
+        "image": "pp-24",
+        "photos": [
+          {
+            "image": "pp-24",
+            "label": "Grey dial · Black strap",
+            "labelZh": "手雷 · Aquanaut · 灰盘黑色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Green dial · Green strap",
+        "labelZh": "Aquanaut · 绿盘绿色表带",
+        "image": "pp-25",
+        "photos": [
+          {
+            "image": "pp-25",
+            "label": "Green dial · Green strap",
+            "labelZh": "手雷 · Aquanaut · 绿盘绿色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX041",
+    "brand": "Patek Philippe",
+    "family": "Aquanaut Chronograph",
+    "name": "Aquanaut Chronograph — Rubber strap",
+    "nameZh": "手雷计时 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Chronograph",
+    "priceUSD": 165,
+    "currency": "USD",
+    "image": "pp-03",
+    "sizeReference": "42.2 mm",
+    "description": "Explore the Aquanaut Chronograph collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Colour assortment",
+        "labelZh": "配色合照",
+        "image": "pp-03",
+        "photos": [
+          {
+            "image": "pp-03",
+            "label": "Black dials · Orange & dark straps · Assortment",
+            "labelZh": "手雷计时 · 黑盘橙色与深色表带合照"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX042",
+    "brand": "Patek Philippe",
+    "family": "Nautilus",
+    "name": "Nautilus — Metal bracelet",
+    "nameZh": "鹦鹉螺 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 141,
+    "currency": "USD",
+    "image": "pp-06",
+    "sizeReference": "40 / 41 mm",
+    "description": "Explore the Nautilus collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Salmon dial · Silver bracelet",
+        "labelZh": "三文鱼色盘银色表链",
+        "image": "pp-06",
+        "photos": [
+          {
+            "image": "pp-06",
+            "label": "Salmon dial · Silver bracelet",
+            "labelZh": "鹦鹉螺 · 三文鱼色盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Yellow dial · Silver bracelet",
+        "labelZh": "黄盘银色表链",
+        "image": "pp-07",
+        "photos": [
+          {
+            "image": "pp-07",
+            "label": "Yellow dial · Silver bracelet",
+            "labelZh": "鹦鹉螺 · 黄盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Turquoise dial · Silver bracelet",
+        "labelZh": "冰蓝色盘银色表链",
+        "image": "pp-08",
+        "photos": [
+          {
+            "image": "pp-08",
+            "label": "Turquoise dial · Silver bracelet",
+            "labelZh": "鹦鹉螺 · 冰蓝色盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Brown dial · Silver bracelet",
+        "labelZh": "棕盘银色表链",
+        "image": "pp-09",
+        "photos": [
+          {
+            "image": "pp-09",
+            "label": "Brown dial · Silver bracelet",
+            "labelZh": "鹦鹉螺 · 棕盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Grey dial · Silver bracelet",
+        "labelZh": "灰盘银色表链",
+        "image": "pp-10",
+        "photos": [
+          {
+            "image": "pp-10",
+            "label": "Grey dial · Silver bracelet",
+            "labelZh": "鹦鹉螺 · 灰盘银色表链"
+          },
+          {
+            "image": "pp-19",
+            "label": "Grey dial · Silver bracelet · Close view",
+            "labelZh": "鹦鹉螺 · 灰盘银色表链近照"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Green dial · Silver bracelet",
+        "labelZh": "绿盘银色表链",
+        "image": "pp-11",
+        "photos": [
+          {
+            "image": "pp-11",
+            "label": "Green dial · Silver bracelet",
+            "labelZh": "鹦鹉螺 · 绿盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Blue dial · Silver bracelet",
+        "labelZh": "蓝盘银色表链",
+        "image": "pp-12",
+        "photos": [
+          {
+            "image": "pp-12",
+            "label": "Blue dial · Silver bracelet",
+            "labelZh": "鹦鹉螺 · 蓝盘银色表链"
+          },
+          {
+            "image": "pp-21",
+            "label": "Blue dial · Silver bracelet · Close view",
+            "labelZh": "鹦鹉螺 · 蓝盘银色表链近照"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "Blue dial · Rose-tone bracelet",
+        "labelZh": "蓝盘玫瑰金色表链",
+        "image": "pp-13",
+        "photos": [
+          {
+            "image": "pp-13",
+            "label": "Blue dial · Rose-tone bracelet",
+            "labelZh": "鹦鹉螺 · 蓝盘玫瑰金色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v9",
+        "label": "Silver dial · Rose-tone bracelet",
+        "labelZh": "银白盘玫瑰金色表链",
+        "image": "pp-14",
+        "photos": [
+          {
+            "image": "pp-14",
+            "label": "Silver dial · Rose-tone bracelet",
+            "labelZh": "鹦鹉螺 · 银白盘玫瑰金色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v10",
+        "label": "Dark dial · Two-tone bracelet",
+        "labelZh": "深色盘间金色表链照片A",
+        "image": "pp-15",
+        "photos": [
+          {
+            "image": "pp-15",
+            "label": "Dark dial · Two-tone bracelet · Photo A",
+            "labelZh": "鹦鹉螺 · 深色盘间金色表链照片A"
+          },
+          {
+            "image": "pp-16",
+            "label": "Dark dial · Two-tone bracelet · Photo B",
+            "labelZh": "鹦鹉螺 · 深色盘间金色表链照片B"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v11",
+        "label": "Blue dial · Two-tone bracelet",
+        "labelZh": "蓝盘间金色表链",
+        "image": "pp-17",
+        "photos": [
+          {
+            "image": "pp-17",
+            "label": "Blue dial · Two-tone bracelet",
+            "labelZh": "鹦鹉螺 · 蓝盘间金色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v12",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘银色表链",
+        "image": "pp-18",
+        "photos": [
+          {
+            "image": "pp-18",
+            "label": "Black dial · Silver bracelet",
+            "labelZh": "鹦鹉螺 · 黑盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v13",
+        "label": "Silver dial · Silver bracelet",
+        "labelZh": "银白盘银色表链",
+        "image": "pp-20",
+        "photos": [
+          {
+            "image": "pp-20",
+            "label": "Silver dial · Silver bracelet",
+            "labelZh": "鹦鹉螺 · 银白盘银色表链"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "pp-04",
+        "label": "Green & white dials · Silver bracelets · Assortment",
+        "labelZh": "鹦鹉螺 · 绿盘与白盘银色表链合照"
+      },
+      {
+        "image": "pp-19",
+        "label": "Grey dial · Silver bracelet · Close view",
+        "labelZh": "鹦鹉螺 · 灰盘银色表链近照"
+      },
+      {
+        "image": "pp-21",
+        "label": "Blue dial · Silver bracelet · Close view",
+        "labelZh": "鹦鹉螺 · 蓝盘银色表链近照"
+      },
+      {
+        "image": "pp-16",
+        "label": "Dark dial · Two-tone bracelet · Photo B",
+        "labelZh": "鹦鹉螺 · 深色盘间金色表链照片B"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX043",
+    "brand": "Patek Philippe",
+    "family": "Aquanaut Travel Time",
+    "name": "Aquanaut Travel Time — Rubber strap",
+    "nameZh": "手雷旅行时间 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Complication",
+    "priceUSD": 158,
+    "currency": "USD",
+    "image": "pp-26",
+    "sizeReference": "40.8 mm",
+    "description": "Explore the Aquanaut Travel Time collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Brown dial · Rose tone · Black strap",
+        "labelZh": "棕盘玫瑰金色黑色表带",
+        "image": "pp-26",
+        "photos": [
+          {
+            "image": "pp-26",
+            "label": "Brown dial · Rose tone · Black strap",
+            "labelZh": "手雷旅行时间 · 棕盘玫瑰金色黑色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Brown dial · Rose tone · Brown strap",
+        "labelZh": "棕盘玫瑰金色棕色表带",
+        "image": "pp-27",
+        "photos": [
+          {
+            "image": "pp-27",
+            "label": "Brown dial · Rose tone · Brown strap",
+            "labelZh": "手雷旅行时间 · 棕盘玫瑰金色棕色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [
+      {
+        "image": "pp-05",
+        "label": "Dark dials · Black & white straps · Assortment",
+        "labelZh": "手雷旅行时间 · 深色盘黑白表带合照"
+      }
+    ],
+    "detailImages": []
+  },
+  {
+    "id": "JX044",
+    "brand": "Omega",
+    "family": "Aqua Terra Worldtimer",
+    "name": "Aqua Terra Worldtimer — Rubber strap",
+    "nameZh": "海马世界时 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Complication",
+    "priceUSD": 134,
+    "currency": "USD",
+    "image": "omega-01",
+    "sizeReference": "43 mm (comparison only)",
+    "description": "Explore the Aqua Terra Worldtimer collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey globe dial · Dark bezel · Black strap",
+        "labelZh": "海马世界时 · 灰色地球盘深色表圈黑色表带",
+        "image": "omega-01",
+        "photos": [
+          {
+            "image": "omega-01",
+            "label": "Grey globe dial · Dark bezel · Black strap",
+            "labelZh": "欧米茄 · 海马世界时 · 灰色地球盘深色表圈黑色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Rubber strap · Left watch in photograph",
+        "labelZh": "蓝盘橡胶表带 · 合照左侧表款",
+        "image": "omega-23",
+        "photos": [
+          {
+            "image": "omega-23",
+            "label": "Blue globe dials · Strap & bracelet assortment",
+            "labelZh": "欧米茄 · 海马世界时 · 蓝色地球盘表带与表链款合照"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX045",
+    "brand": "Omega",
+    "family": "Aqua Terra Worldtimer",
+    "name": "Aqua Terra Worldtimer — Metal bracelet",
+    "nameZh": "海马世界时 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Complication",
+    "priceUSD": 151,
+    "currency": "USD",
+    "image": "omega-23",
+    "sizeReference": "43 mm (comparison only)",
+    "description": "Explore the Aqua Terra Worldtimer collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Metal bracelet · Right watch in photograph",
+        "labelZh": "蓝盘金属表链 · 合照右侧表款",
+        "image": "omega-23",
+        "photos": [
+          {
+            "image": "omega-23",
+            "label": "Blue globe dials · Strap & bracelet assortment",
+            "labelZh": "欧米茄 · 海马世界时 · 蓝色地球盘表带与表链款合照"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX046",
+    "brand": "Omega",
+    "family": "Diver 300M",
+    "name": "Diver 300M — Rubber strap",
+    "nameZh": "海马潜水300米 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 168,
+    "currency": "USD",
+    "image": "omega-02",
+    "sizeReference": "42 mm (comparison only)",
+    "description": "Explore the Diver 300M collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue wave dial · Blue bezel · Blue strap",
+        "labelZh": "海马潜水300米 · 蓝色波纹盘蓝圈蓝表带",
+        "image": "omega-02",
+        "photos": [
+          {
+            "image": "omega-02",
+            "label": "Blue wave dial · Blue bezel · Blue strap",
+            "labelZh": "欧米茄 · 海马潜水300米 · 蓝色波纹盘蓝圈蓝表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX047",
+    "brand": "Omega",
+    "family": "Aqua Terra",
+    "name": "Aqua Terra — Metal bracelet",
+    "nameZh": "海马 Aqua Terra · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 144,
+    "currency": "USD",
+    "image": "omega-03",
+    "sizeReference": "41 mm (comparison only)",
+    "description": "Explore the Aqua Terra collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue-grey dial · Silver bracelet",
+        "labelZh": "海马 Aqua Terra · 蓝灰盘银色表链",
+        "image": "omega-03",
+        "photos": [
+          {
+            "image": "omega-03",
+            "label": "Blue-grey dial · Silver bracelet",
+            "labelZh": "欧米茄 · 海马 Aqua Terra · 蓝灰盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "海马 Aqua Terra · 黑盘银色表链",
+        "image": "omega-04",
+        "photos": [
+          {
+            "image": "omega-04",
+            "label": "Black dial · Silver bracelet",
+            "labelZh": "欧米茄 · 海马 Aqua Terra · 黑盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Grey-green striped dial · Silver bracelet",
+        "labelZh": "海马 Aqua Terra · 灰绿条纹盘银色表链",
+        "image": "omega-05",
+        "photos": [
+          {
+            "image": "omega-05",
+            "label": "Grey-green striped dial · Silver bracelet",
+            "labelZh": "欧米茄 · 海马 Aqua Terra · 灰绿条纹盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "White striped dial · Silver bracelet",
+        "labelZh": "海马 Aqua Terra · 白色条纹盘银色表链",
+        "image": "omega-06",
+        "photos": [
+          {
+            "image": "omega-06",
+            "label": "White striped dial · Silver bracelet",
+            "labelZh": "欧米茄 · 海马 Aqua Terra · 白色条纹盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Silver-white dial · Orange hand · Silver bracelet",
+        "labelZh": "海马 Aqua Terra · 银白盘橙色指针银色表链",
+        "image": "omega-17",
+        "photos": [
+          {
+            "image": "omega-17",
+            "label": "Silver-white dial · Orange hand · Silver bracelet",
+            "labelZh": "欧米茄 · 海马 Aqua Terra · 银白盘橙色指针银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Silver textured dial · Silver bracelet",
+        "labelZh": "海马 Aqua Terra · 银色纹理盘银色表链",
+        "image": "omega-19",
+        "photos": [
+          {
+            "image": "omega-19",
+            "label": "Silver textured dial · Silver bracelet",
+            "labelZh": "欧米茄 · 海马 Aqua Terra · 银色纹理盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Dark dial · Silver bracelet",
+        "labelZh": "海马 Aqua Terra · 深色盘银色表链",
+        "image": "omega-20",
+        "photos": [
+          {
+            "image": "omega-20",
+            "label": "Dark dial · Silver bracelet",
+            "labelZh": "欧米茄 · 海马 Aqua Terra · 深色盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "Blue striped dial · Silver bracelet",
+        "labelZh": "海马 Aqua Terra · 蓝色条纹盘银色表链",
+        "image": "omega-22",
+        "photos": [
+          {
+            "image": "omega-22",
+            "label": "Blue striped dial · Silver bracelet",
+            "labelZh": "欧米茄 · 海马 Aqua Terra · 蓝色条纹盘银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v9",
+        "label": "Silver-white patterned dial · Silver bracelet",
+        "labelZh": "海马 Aqua Terra · 银白花纹盘银色表链",
+        "image": "omega-24",
+        "photos": [
+          {
+            "image": "omega-24",
+            "label": "Silver-white patterned dial · Silver bracelet",
+            "labelZh": "欧米茄 · 海马 Aqua Terra · 银白花纹盘银色表链"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX048",
+    "brand": "Omega",
+    "family": "Aqua Terra",
+    "name": "Aqua Terra — Leather strap",
+    "nameZh": "海马 Aqua Terra · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Sport",
+    "priceUSD": 161,
+    "currency": "USD",
+    "image": "omega-07",
+    "sizeReference": "41 mm (comparison only)",
+    "description": "Explore the Aqua Terra collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark dial · Black strap",
+        "labelZh": "海马 Aqua Terra · 深色盘黑色表带",
+        "image": "omega-07",
+        "photos": [
+          {
+            "image": "omega-07",
+            "label": "Dark dial · Black strap",
+            "labelZh": "欧米茄 · 海马 Aqua Terra · 深色盘黑色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX049",
+    "brand": "Omega",
+    "family": "Aqua Terra",
+    "name": "Aqua Terra — Rubber strap",
+    "nameZh": "海马 Aqua Terra · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 137,
+    "currency": "USD",
+    "image": "omega-21",
+    "sizeReference": "41 mm (comparison only)",
+    "description": "Explore the Aqua Terra collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver striped dial · Blue hands · Blue strap",
+        "labelZh": "海马 Aqua Terra · 银色条纹盘蓝色指针蓝色表带",
+        "image": "omega-21",
+        "photos": [
+          {
+            "image": "omega-21",
+            "label": "Silver striped dial · Blue hands · Blue strap",
+            "labelZh": "欧米茄 · 海马 Aqua Terra · 银色条纹盘蓝色指针蓝色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX050",
+    "brand": "Omega",
+    "family": "Planet Ocean",
+    "name": "Planet Ocean — Rubber strap",
+    "nameZh": "海马海洋宇宙 · 橡胶表带",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Sport",
+    "priceUSD": 154,
+    "currency": "USD",
+    "image": "omega-08",
+    "sizeReference": "43.5 mm (comparison only)",
+    "description": "Explore the Planet Ocean collection with rubber strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Black bezel · Black strap",
+        "labelZh": "海马海洋宇宙 · 黑盘黑圈黑色表带",
+        "image": "omega-08",
+        "photos": [
+          {
+            "image": "omega-08",
+            "label": "Black dial · Black bezel · Black strap",
+            "labelZh": "欧米茄 · 海马海洋宇宙 · 黑盘黑圈黑色表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Grey dial · Orange-accent bezel · Grey/orange strap",
+        "labelZh": "海马海洋宇宙 · 灰盘橙色点缀表圈灰橙表带",
+        "image": "omega-09",
+        "photos": [
+          {
+            "image": "omega-09",
+            "label": "Grey dial · Orange-accent bezel · Grey/orange strap",
+            "labelZh": "欧米茄 · 海马海洋宇宙 · 灰盘橙色点缀表圈灰橙表带"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Blue bezel · Blue strap",
+        "labelZh": "海马海洋宇宙 · 蓝盘蓝圈蓝色表带",
+        "image": "omega-14",
+        "photos": [
+          {
+            "image": "omega-14",
+            "label": "Blue dial · Blue bezel · Blue strap",
+            "labelZh": "欧米茄 · 海马海洋宇宙 · 蓝盘蓝圈蓝色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX051",
+    "brand": "Omega",
+    "family": "Planet Ocean",
+    "name": "Planet Ocean — Metal bracelet",
+    "nameZh": "海马海洋宇宙 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Sport",
+    "priceUSD": 130,
+    "currency": "USD",
+    "image": "omega-10",
+    "sizeReference": "43.5 mm (comparison only)",
+    "description": "Explore the Planet Ocean collection with metal bracelet. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Blue bezel · Silver bracelet",
+        "labelZh": "海马海洋宇宙 · 蓝盘蓝圈银色表链",
+        "image": "omega-10",
+        "photos": [
+          {
+            "image": "omega-10",
+            "label": "Blue dial · Blue bezel · Silver bracelet",
+            "labelZh": "欧米茄 · 海马海洋宇宙 · 蓝盘蓝圈银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Grey dial · Orange-accent bezel · Silver bracelet",
+        "labelZh": "海马海洋宇宙 · 灰盘橙色点缀表圈银色表链",
+        "image": "omega-11",
+        "photos": [
+          {
+            "image": "omega-11",
+            "label": "Grey dial · Orange-accent bezel · Silver bracelet",
+            "labelZh": "欧米茄 · 海马海洋宇宙 · 灰盘橙色点缀表圈银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Dark case and bracelet",
+        "labelZh": "海马海洋宇宙 · 黑盘深色表壳表链",
+        "image": "omega-12",
+        "photos": [
+          {
+            "image": "omega-12",
+            "label": "Black dial · Dark case and bracelet",
+            "labelZh": "欧米茄 · 海马海洋宇宙 · 黑盘深色表壳表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Blue dial · Blue/red bezel · Silver bracelet",
+        "labelZh": "海马海洋宇宙 · 蓝盘蓝红圈银色表链",
+        "image": "omega-13",
+        "photos": [
+          {
+            "image": "omega-13",
+            "label": "Blue dial · Blue/red bezel · Silver bracelet",
+            "labelZh": "欧米茄 · 海马海洋宇宙 · 蓝盘蓝红圈银色表链"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Black bezel · Silver bracelet",
+        "labelZh": "海马海洋宇宙 · 黑盘黑圈银色表链",
+        "image": "omega-15",
+        "photos": [
+          {
+            "image": "omega-15",
+            "label": "Black dial · Black bezel · Silver bracelet",
+            "labelZh": "欧米茄 · 海马海洋宇宙 · 黑盘黑圈银色表链"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX052",
+    "brand": "Omega",
+    "family": "De Ville — Unconfirmed",
+    "name": "De Ville — Unconfirmed — Leather strap",
+    "nameZh": "碟飞 · 系列待确认 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Classic",
+    "priceUSD": 147,
+    "currency": "USD",
+    "image": "omega-16",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Explore the De Ville — Unconfirmed collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Roman markers · Dark strap",
+        "labelZh": "碟飞 · 具体系列待确认 · 白盘罗马时标深色表带",
+        "image": "omega-16",
+        "photos": [
+          {
+            "image": "omega-16",
+            "label": "White dial · Roman markers · Dark strap",
+            "labelZh": "欧米茄 · 碟飞 · 具体系列待确认 · 白盘罗马时标深色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  },
+  {
+    "id": "JX053",
+    "brand": "Omega",
+    "family": "Aqua Terra GMT — Unconfirmed",
+    "name": "Aqua Terra GMT — Unconfirmed — Leather strap",
+    "nameZh": "海马 Aqua Terra GMT · 待确认 · 皮革表带",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Complication",
+    "priceUSD": 164,
+    "currency": "USD",
+    "image": "omega-18",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Explore the Aqua Terra GMT — Unconfirmed collection with leather strap. Choose a colour below and swipe through the photographs to find your preferred combination.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · 24-hour-style scale · Dark strap",
+        "labelZh": "海马 Aqua Terra GMT · 具体型号待确认 · 蓝盘24小时样式刻度深色表带",
+        "image": "omega-18",
+        "photos": [
+          {
+            "image": "omega-18",
+            "label": "Blue dial · 24-hour-style scale · Dark strap",
+            "labelZh": "欧米茄 · 海马 Aqua Terra GMT · 具体型号待确认 · 蓝盘24小时样式刻度深色表带"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": []
+  }
+];
+// Compatibility for previously shared photo links; current product codes are JX series codes.
+const legacyProductLinks = {"W01":{"id":"JX001","color":"v1"},"W16":{"id":"JX001","color":"v2"},"W20":{"id":"JX001","color":"v3"},"W24":{"id":"JX001","color":"v3"},"W25":{"id":"JX002","color":"v1"},"W02":{"id":"JX003","color":"v1"},"W12":{"id":"JX003","color":"v2"},"W15":{"id":"JX003","color":"v3"},"W17":{"id":"JX003","color":"v4"},"W19":{"id":"JX003","color":"v5"},"W23":{"id":"JX003","color":"v1"},"W28":{"id":"JX003","color":"v1"},"W30":{"id":"JX003","color":"v6"},"W31":{"id":"JX003","color":"v7"},"W03":{"id":"JX004","color":"v1"},"W14":{"id":"JX004","color":"v1"},"W22":{"id":"JX004","color":"v1"},"W04":{"id":"JX005","color":"v1"},"W27":{"id":"JX005","color":"v2"},"W05":{"id":"JX006","color":"v1"},"W09":{"id":"JX006","color":"v1"},"W11":{"id":"JX006","color":"v1"},"W13":{"id":"JX006","color":"v2"},"W06":{"id":"JX007","color":"v1"},"W18":{"id":"JX007","color":"v2"},"W33":{"id":"JX007","color":"v3"},"W07":{"id":"JX008","color":"v1"},"W08":{"id":"JX009","color":"v1"},"W26":{"id":"JX009","color":"v2"},"W29":{"id":"JX009","color":"v3"},"W10":{"id":"JX010","color":"v1"},"W32":{"id":"JX011","color":"v1"},"C01":{"id":"JX012","color":"v1"},"C02":{"id":"JX012","color":"v1"},"C03":{"id":"JX012","color":"v2"},"C04":{"id":"JX012","color":"v3"},"C05":{"id":"JX012","color":"v4"},"C06":{"id":"JX012","color":"v5"},"C07":{"id":"JX012","color":"v6"},"C15":{"id":"JX012","color":"v7"},"C16":{"id":"JX012","color":"v8"},"C17":{"id":"JX012","color":"v9"},"C08":{"id":"JX013","color":"v1"},"C09":{"id":"JX013","color":"v2"},"C10":{"id":"JX013","color":"v3"},"C11":{"id":"JX013","color":"v4"},"C12":{"id":"JX013","color":"v5"},"C13":{"id":"JX013","color":"v6"},"C14":{"id":"JX013","color":"v7"},"C18":{"id":"JX014","color":"v1"},"C19":{"id":"JX015","color":"v1"},"VC01":{"id":"JX016","color":"v1"},"VC02":{"id":"JX016","color":"v2"},"VC03":{"id":"JX016","color":"v3"},"VC04":{"id":"JX016","color":"v4"},"VC05":{"id":"JX016","color":"v5"},"VC06":{"id":"JX016","color":"v6"},"VC07":{"id":"JX016","color":"v7"},"VC08":{"id":"JX017","color":"v1"},"VC09":{"id":"JX018","color":"v1"},"VC10":{"id":"JX018","color":"v2"},"VC11":{"id":"JX018","color":"v3"},"VC12":{"id":"JX018","color":"v4"},"VC13":{"id":"JX018","color":"v5"},"VC14":{"id":"JX018","color":"v6"},"VC15":{"id":"JX018","color":"v7"},"VC16":{"id":"JX018","color":"v8"},"VC17":{"id":"JX019","color":"v1"},"VC18":{"id":"JX019","color":"v2"},"VC19":{"id":"JX019","color":"v3"},"VC20":{"id":"JX019","color":"v4"},"VC21":{"id":"JX019","color":"v5"},"VC22":{"id":"JX019","color":"v6"},"VC23":{"id":"JX019","color":"v7"},"VC24":{"id":"JX019","color":"v8"},"VC25":{"id":"JX020","color":"v1"},"VC26":{"id":"JX021","color":"v1"},"VC27":{"id":"JX022","color":"v1"},"VC28":{"id":"JX022","color":"v2"},"VC29":{"id":"JX022","color":"v3"},"VC30":{"id":"JX022","color":"v4"},"VC31":{"id":"JX022","color":"v5"},"VC32":{"id":"JX022","color":"v6"},"VC33":{"id":"JX022","color":"v7"},"VC34":{"id":"JX023","color":"v1"},"VC35":{"id":"JX023","color":"v2"},"VC36":{"id":"JX023","color":"v3"},"VC37":{"id":"JX023","color":"v4"},"VC38":{"id":"JX023","color":"v5"},"VC39":{"id":"JX023","color":"v6"},"VC40":{"id":"JX023","color":"v7"},"VC41":{"id":"JX023","color":"v8"},"VC42":{"id":"JX023","color":"v1"},"AP01":{"id":"JX024","color":"v1"},"AP02":{"id":"JX024","color":"v2"},"AP03":{"id":"JX024","color":"v3"},"AP04":{"id":"JX024","color":"v4"},"AP13":{"id":"JX024","color":"v5"},"AP14":{"id":"JX024","color":"v5"},"AP15":{"id":"JX024","color":"v6"},"AP16":{"id":"JX024","color":"v1"},"AP05":{"id":"JX025","color":"v1"},"AP06":{"id":"JX025","color":"v2"},"AP07":{"id":"JX026","color":"v1"},"AP08":{"id":"JX026","color":"v1"},"AP09":{"id":"JX026","color":"v2"},"AP10":{"id":"JX026","color":"v3"},"AP11":{"id":"JX026","color":"v4"},"AP12":{"id":"JX026","color":"v5"},"AP17":{"id":"JX027","color":"v1"},"AP18":{"id":"JX028","color":"v1"},"IWC01":{"id":"JX029","color":"v1"},"IWC04":{"id":"JX029","color":"v1"},"IWC02":{"id":"JX030","color":"v1"},"IWC03":{"id":"JX030","color":"v2"},"IWC05":{"id":"JX031","color":"v1"},"IWC06":{"id":"JX032","color":"v1"},"IWC07":{"id":"JX033","color":"v1"},"IWC08":{"id":"JX033","color":"v2"},"IWC09":{"id":"JX033","color":"v3"},"IWC10":{"id":"JX033","color":"v4"},"IWC11":{"id":"JX033","color":"v5"},"IWC12":{"id":"JX033","color":"v6"},"IWC23":{"id":"JX034","color":"v1"},"IWC24":{"id":"JX034","color":"v2"},"IWC32":{"id":"JX034","color":"v3"},"IWC33":{"id":"JX034","color":"v1"},"IWC13":{"id":"JX035","color":"v1"},"IWC14":{"id":"JX035","color":"v2"},"IWC15":{"id":"JX035","color":"v3"},"IWC16":{"id":"JX035","color":"v4"},"IWC17":{"id":"JX036","color":"v1"},"IWC18":{"id":"JX036","color":"v2"},"IWC19":{"id":"JX036","color":"v3"},"IWC20":{"id":"JX036","color":"v4"},"IWC21":{"id":"JX036","color":"v5"},"IWC22":{"id":"JX036","color":"v6"},"IWC25":{"id":"JX037","color":"v1"},"IWC26":{"id":"JX037","color":"v2"},"IWC27":{"id":"JX037","color":"v3"},"IWC28":{"id":"JX038","color":"v1"},"IWC29":{"id":"JX038","color":"v2"},"IWC30":{"id":"JX038","color":"v3"},"IWC31":{"id":"JX038","color":"v4"},"PP01":{"id":"JX039","color":"v1"},"PP02":{"id":"JX040","color":"v1"},"PP22":{"id":"JX040","color":"v2"},"PP23":{"id":"JX040","color":"v3"},"PP24":{"id":"JX040","color":"v4"},"PP25":{"id":"JX040","color":"v5"},"PP03":{"id":"JX041","color":"v1"},"PP04":{"id":"JX042","color":"v1"},"PP06":{"id":"JX042","color":"v1"},"PP07":{"id":"JX042","color":"v2"},"PP08":{"id":"JX042","color":"v3"},"PP09":{"id":"JX042","color":"v4"},"PP10":{"id":"JX042","color":"v5"},"PP11":{"id":"JX042","color":"v6"},"PP12":{"id":"JX042","color":"v7"},"PP13":{"id":"JX042","color":"v8"},"PP14":{"id":"JX042","color":"v9"},"PP15":{"id":"JX042","color":"v10"},"PP16":{"id":"JX042","color":"v10"},"PP17":{"id":"JX042","color":"v11"},"PP18":{"id":"JX042","color":"v12"},"PP19":{"id":"JX042","color":"v5"},"PP20":{"id":"JX042","color":"v13"},"PP21":{"id":"JX042","color":"v7"},"PP05":{"id":"JX043","color":"v1"},"PP26":{"id":"JX043","color":"v1"},"PP27":{"id":"JX043","color":"v2"},"OM01":{"id":"JX044","color":"v1"},"OM23":{"id":"JX044","color":"v2"},"OM02":{"id":"JX046","color":"v1"},"OM03":{"id":"JX047","color":"v1"},"OM04":{"id":"JX047","color":"v2"},"OM05":{"id":"JX047","color":"v3"},"OM06":{"id":"JX047","color":"v4"},"OM17":{"id":"JX047","color":"v5"},"OM19":{"id":"JX047","color":"v6"},"OM20":{"id":"JX047","color":"v7"},"OM22":{"id":"JX047","color":"v8"},"OM24":{"id":"JX047","color":"v9"},"OM07":{"id":"JX048","color":"v1"},"OM21":{"id":"JX049","color":"v1"},"OM08":{"id":"JX050","color":"v1"},"OM09":{"id":"JX050","color":"v2"},"OM14":{"id":"JX050","color":"v3"},"OM10":{"id":"JX051","color":"v1"},"OM11":{"id":"JX051","color":"v2"},"OM12":{"id":"JX051","color":"v3"},"OM13":{"id":"JX051","color":"v4"},"OM15":{"id":"JX051","color":"v5"},"OM16":{"id":"JX052","color":"v1"},"OM18":{"id":"JX053","color":"v1"}};
