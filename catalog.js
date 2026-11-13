@@ -7003,6 +7003,51 @@ const products = [
             "image": "rolex-613",
             "alt": "Cosmograph Daytona · Blue dial · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-707",
+            "alt": "Cosmograph Daytona · Additional product photograph",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-702",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-703",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-704",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-705",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-706",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-708",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-709",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-710",
+            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
+            "caption": "Product detail / 产品细节"
           }
         ]
       },
@@ -7071,61 +7116,6 @@ const products = [
           {
             "image": "rolex-692",
             "alt": "Cosmograph Daytona · Black dial · Rainbow bezel · Silver tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          }
-        ]
-      },
-      {
-        "key": "v13",
-        "label": "Dark blue dial · Silver tone",
-        "labelZh": "深蓝盘 · 银色",
-        "image": "rolex-707",
-        "photos": [
-          {
-            "image": "rolex-707",
-            "label": "Dark blue dial · Silver tone",
-            "labelZh": "深蓝盘 · 银色"
-          }
-        ],
-        "detailImages": [
-          {
-            "image": "rolex-702",
-            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-703",
-            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-704",
-            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-705",
-            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-706",
-            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-708",
-            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-709",
-            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-710",
-            "alt": "Cosmograph Daytona · Dark blue dial · Silver tone · Product detail",
             "caption": "Product detail / 产品细节"
           }
         ]
@@ -7787,6 +7777,51 @@ const products = [
             "image": "rolex-301",
             "alt": "Submariner · Black dial · Black bezel · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-632",
+            "alt": "Submariner · Additional product photograph",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-633",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-634",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-635",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-636",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-637",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-638",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-639",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-640",
+            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
+            "caption": "Product detail / 产品细节"
           }
         ]
       },
@@ -7896,61 +7931,6 @@ const products = [
           {
             "image": "rolex-592",
             "alt": "Submariner · Blue dial · Blue bezel · Product detail",
-            "caption": "Product detail / 产品细节"
-          }
-        ]
-      },
-      {
-        "key": "v7",
-        "label": "Black dial · Black bezel",
-        "labelZh": "黑盘 · 黑圈",
-        "image": "rolex-632",
-        "photos": [
-          {
-            "image": "rolex-632",
-            "label": "Black dial · Black bezel · Glove set",
-            "labelZh": "黑盘 · 黑圈 · 手套实拍"
-          }
-        ],
-        "detailImages": [
-          {
-            "image": "rolex-633",
-            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-634",
-            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-635",
-            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-636",
-            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-637",
-            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-638",
-            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-639",
-            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-640",
-            "alt": "Submariner · Black dial · Black bezel · Glove set · Product detail",
             "caption": "Product detail / 产品细节"
           }
         ]
@@ -8152,6 +8132,51 @@ const products = [
             "image": "rolex-178",
             "alt": "Yacht-Master · Black dial · Rose tone · Product detail",
             "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-623",
+            "alt": "Yacht-Master · Additional product photograph",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-624",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-625",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-626",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-627",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-628",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-629",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-630",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-631",
+            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
+            "caption": "Product detail / 产品细节"
           }
         ]
       },
@@ -8272,61 +8297,6 @@ const products = [
       },
       {
         "key": "v4",
-        "label": "Black dial · Rose tone",
-        "labelZh": "黑盘 · 玫瑰金色",
-        "image": "rolex-623",
-        "photos": [
-          {
-            "image": "rolex-623",
-            "label": "Black dial · Rose tone · Studio set",
-            "labelZh": "黑盘 · 玫瑰金色 · 棚拍"
-          }
-        ],
-        "detailImages": [
-          {
-            "image": "rolex-624",
-            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-625",
-            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-626",
-            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-627",
-            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-628",
-            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-629",
-            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-630",
-            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-631",
-            "alt": "Yacht-Master · Black dial · Rose tone · Studio set · Product detail",
-            "caption": "Product detail / 产品细节"
-          }
-        ]
-      },
-      {
-        "key": "v5",
         "label": "Black dial · Rainbow bezel",
         "labelZh": "黑盘 · 彩虹圈",
         "image": "rolex-651",
@@ -8551,6 +8521,36 @@ const products = [
           {
             "image": "rolex-642",
             "alt": "Cosmograph Daytona · Champagne dial · Black counters · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-594",
+            "alt": "Cosmograph Daytona · Additional product photograph",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-593",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-595",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-596",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-597",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
+            "caption": "Product detail / 产品细节"
+          },
+          {
+            "image": "rolex-598",
+            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
             "caption": "Product detail / 产品细节"
           }
         ]
@@ -8802,46 +8802,6 @@ const products = [
       },
       {
         "key": "v8",
-        "label": "Champagne dial · Yellow tone",
-        "labelZh": "香槟盘 · 金色",
-        "image": "rolex-594",
-        "photos": [
-          {
-            "image": "rolex-594",
-            "label": "Champagne dial · Yellow tone",
-            "labelZh": "香槟盘 · 金色"
-          }
-        ],
-        "detailImages": [
-          {
-            "image": "rolex-593",
-            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-595",
-            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-596",
-            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-597",
-            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex-598",
-            "alt": "Cosmograph Daytona · Champagne dial · Yellow tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          }
-        ]
-      },
-      {
-        "key": "v9",
         "label": "Black dial · Rose tone",
         "labelZh": "黑盘玫瑰金色",
         "image": "rolex-643",
@@ -8855,7 +8815,7 @@ const products = [
         "detailImages": []
       },
       {
-        "key": "v10",
+        "key": "v9",
         "label": "Rose dial · Rose tone",
         "labelZh": "玫瑰金色盘",
         "image": "rolex-645",
@@ -10027,8 +9987,8 @@ const products = [
   {
     "id": "JX096",
     "brand": "Rolex",
-    "family": "Cosmograph Daytona — Openworked style",
-    "name": "Cosmograph Daytona — Openworked style — Rubber strap",
+    "family": "Cosmograph Daytona — Openworked style — Unconfirmed",
+    "name": "Cosmograph Daytona — Openworked style — Unconfirmed — Rubber strap",
     "nameZh": "迪通拿镂空风格（待确认） · 橡胶表带",
     "band": "rubber",
     "bandName": "Rubber strap",
