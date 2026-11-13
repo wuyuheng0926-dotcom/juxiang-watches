@@ -36,7 +36,7 @@ function matchingColour(p) { return Math.max(0, p.variants.findIndex(v => matche
 const photoFiles = new Map(), selectedColors = new Map();
 let activeBrand='All', activeSeries='All', activeBand='All', searchTerm='', currentPage=1;
 const featuredOrder=['JX012','JX079','JX024','JX042','JX035','JX016','JX076','JX077','JX065','JX066','JX039','JX073'];
-function catalogColumns(){return matchMedia('(max-width:767px)').matches?4:matchMedia('(min-width:1100px)').matches?4:matchMedia('(min-width:800px)').matches?3:2;}
+function catalogColumns(){return matchMedia('(max-width:767px)').matches?2:matchMedia('(min-width:1100px)').matches?4:matchMedia('(min-width:800px)').matches?3:2;}
 function pageSize(){return catalogColumns()*3;}
 function filteredProducts(){
   const list=products.filter(p=>(activeBrand==='All'||p.brand===activeBrand)&&(activeSeries==='All'||p.family===activeSeries)&&(activeBand==='All'||p.band===activeBand)&&matchesSearch(p,searchTerm));

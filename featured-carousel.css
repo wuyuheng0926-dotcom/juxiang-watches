@@ -145,25 +145,20 @@ footer{padding:26px 5% 20px}.footer-bottom{margin-top:20px;padding-top:18px}foot
 .card-colour .selection-photo{width:100%;height:100%}
 @media(max-width:599px){.card-colour{flex-basis:48px;width:48px;height:58px}.card-colours{gap:8px}}
 
-/* Four compact catalogue columns on phones; larger screens retain their layout. */
+
+/* Two catalogue columns on phones; larger screens retain their layout. */
 @media(max-width:767px){
- #collection{padding-left:3%;padding-right:3%}
- #products.grid{grid-template-columns:repeat(4,minmax(0,1fr));column-gap:6px;row-gap:20px;align-items:stretch}
+ #products.grid{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:12px;row-gap:24px}
  #products .product,#products .product-open{min-width:0}
  #products .product-art{aspect-ratio:4/5}
  #products .product-art>img{object-fit:contain}
- #products .product-art small{font-size:6px;letter-spacing:0;left:3px;bottom:3px;padding:3px;max-width:calc(100% - 6px);line-height:1.2}
- #products .product-info{padding:9px 0 7px}
- #products .product-info p{font-size:6px;letter-spacing:.3px;overflow-wrap:anywhere}
- #products .product h3{font-size:11px;line-height:1.25;margin:6px 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
- #products .product-info .name-zh{font-size:8px;line-height:1.5;margin:4px 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
- #products .product-info .series-band,#products .product-info .card-action{display:none}
- #products .series-card-meta{flex-wrap:wrap;justify-content:flex-start;gap:5px;margin:8px 0 0}
- #products .product-info .series-card-meta .product-code{font-size:7px!important;padding:3px}
- #products .series-price{font-size:13px;line-height:1.2}
- #products .series-price small{font-size:6px;letter-spacing:0}
- #products .card-colours{padding:7px 0 2px;gap:3px}
- #products .card-colours-label{font-size:7px;margin-bottom:1px}
- #products .card-colour{flex:0 0 22px;width:22px;height:28px;padding:1px}
- #products .card-colour[aria-pressed="true"]{padding:0}
+ #products .product h3{font-size:18px;line-height:1.3;overflow-wrap:anywhere}
+ #products .product-info p{font-size:8px;letter-spacing:.7px}
+ #products .product-info .name-zh{font-size:10px;line-height:1.6;margin-right:0}
+ #products .product-info .series-band{font-size:10px;margin-right:0}
+ #products .series-card-meta{flex-wrap:wrap;gap:8px}
+ #products .series-price{font-size:20px}
+ #products .card-colours{gap:6px;padding-top:12px}
+ #products .card-colours-label{font-size:9px}
+ #products .card-colour{flex:0 0 36px;width:36px;height:44px}
 }
