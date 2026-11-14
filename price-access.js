@@ -6,10 +6,10 @@ let session=null,deadline=0,timer=null,poll=null,working=false;
 const isKey=value=>/^JXK(?:-|$)/i.test(String(value).trim());
 const valid=()=>!!session&&Date.now()<deadline;
 const storageKey='jx.price-access.v1';
-const status=document.createElement('div');status.id='priceAccessStatus';status.setAttribute('role','status');status.setAttribute('aria-live','polite');status.style.cssText='margin:12px 0;padding:12px 14px;border:1px solid #bba36380;background:#174b3b;color:#f4e8c9;font:13px/1.7 system-ui;border-radius:5px';
+const status=document.createElement('p');status.id='priceAccessStatus';status.setAttribute('role','status');status.setAttribute('aria-live','polite');status.hidden=true;status.style.cssText='margin:8px 0;color:inherit;font:13px/1.7 system-ui';
 document.getElementById('catalogSearch').append(status);
-function message(text){status.textContent=text}
-function paint(){if(!valid()){status.replaceChildren();const a=document.createElement('a');a.href=siteSettings.contactUrl;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Contact us for a one-time price key / 联系客服获取一次性价格密钥';a.style.color='inherit';status.append(a);return;}const minutes=Math.max(1,Math.ceil((deadline-Date.now())/60000));message('Prices unlocked · '+minutes+' min remaining / 价格已解锁，剩余约 '+minutes+' 分钟');}
+function message(text){status.textContent=text;status.hidden=!text}
+function paint(){if(!valid()){status.hidden=true;status.textContent='';return;}const minutes=Math.max(1,Math.ceil((deadline-Date.now())/60000));message('Prices unlocked · '+minutes+' min remaining / 价格已解锁，剩余约 '+minutes+' 分钟');}
 function update(prices){for(const p of products)p.priceUSD=valid()&&Number.isFinite(prices?.[p.id])?prices[p.id]:null;window.dispatchEvent(new Event('jx-prices-change'));paint()}
 function lock(text){session=null;deadline=0;clearTimeout(timer);clearInterval(poll);try{sessionStorage.removeItem(storageKey)}catch{}update({});if(text)message(text)}
 function accept(data,token){session={token,expiresAt:data.expiresAt};deadline=Date.now()+Math.max(0,data.expiresAt-data.serverNow);try{sessionStorage.setItem(storageKey,JSON.stringify(session))}catch{}clearTimeout(timer);timer=setTimeout(()=>lock('Price access expired. Contact us for a new key. / 查看权限已到期，请联系客服获取新密钥。'),Math.max(0,deadline-Date.now()));update(data.prices);clearInterval(poll);poll=setInterval(()=>{paint();if(document.visibilityState!=='hidden')refresh()},60000)}
