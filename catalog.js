@@ -13552,7 +13552,7 @@ const products = [
     "brand": "Vacheron Constantin",
     "family": "Patrimony Date-style — Unconfirmed",
     "name": "Patrimony Date-style — Unconfirmed — Leather strap",
-    "nameZh": "传承日历外观 · 女款 · 系列待核实 · 皮革表带",
+    "nameZh": "传承日历外观 · 系列待核实 · 皮革表带",
     "band": "leather",
     "bandName": "Leather strap",
     "bandNameZh": "皮革表带",
