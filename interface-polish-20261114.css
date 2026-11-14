@@ -58,3 +58,52 @@ html[lang^="zh"] :is(.site-header nav a,.service-seal strong){font-family:'KaiTi
 }
 @media(max-width:359px){.luxury-storefront header.site-header,.luxury-storefront header.site-header.is-glass{grid-template-columns:minmax(0,1fr) 74px minmax(0,1fr);gap:6px;padding-inline:9px}.luxury-storefront .brand-centered .brand-emblem{width:74px!important;height:59px!important}.luxury-storefront .site-header nav a,.luxury-storefront .site-header .header-actions .contact{font-size:14px!important}.language-control{padding-inline:4px}.language-control select{font-size:10px}.luxury-storefront .service-seal strong{font-size:16px}}
 @media(prefers-reduced-motion:reduce){.detail-scroll-hint .ui-icon{animation:none}}
+
+/* Stable sticky navigation and compact catalogue controls. */
+.luxury-storefront header.site-header,.luxury-storefront header.site-header *{transition:none!important}
+.luxury-storefront header.site-header{overflow-anchor:none}
+html{scroll-padding-top:calc(var(--jx-header-height,110px) + 16px)}
+#collection{scroll-margin-top:16px}
+.catalog-mobile-controls{display:none}
+.luxury-storefront .catalog-pagination{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px;margin:32px 0}
+.luxury-storefront .catalog-pagination button{margin:0;min-height:44px;padding:10px 15px;border:1px solid #b9b28166;background:#174b3b;color:#eee1b9;font-size:13px;letter-spacing:0;line-height:1.4}
+.luxury-storefront .catalog-pagination button:disabled{opacity:.35;cursor:default}
+.luxury-storefront .catalog-pagination #nextPage{background:#ccb97a;color:#12362a}
+.page-picker{display:flex;align-items:center;gap:8px;margin:0;font-size:12px;letter-spacing:0}
+.page-picker select{width:78px;min-height:44px;margin:0;border:1px solid #b9b28188;background:#174b3b;color:#eee1b9;padding:8px;font-size:14px}
+.luxury-storefront #pageStatus{margin:0;font-size:12px}
+@media(max-width:767px){
+ .luxury-storefront .brand-filters{display:none!important}
+ .catalog-mobile-controls{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:12px;margin:20px 0 14px}
+ .catalog-mobile-controls label{margin:0;min-width:0;font:12px/1.5 'Segoe UI','Microsoft YaHei',sans-serif;letter-spacing:0;color:#e1d5ad}
+ .catalog-mobile-controls label>span:first-child{display:block;margin-bottom:6px}
+ .catalog-mobile-controls select{display:block;width:100%;min-width:0;min-height:44px;padding:9px 8px;margin:0;background:#194b3b;color:#f1e8d0;border:1px solid #a7b28599;border-radius:3px;font:12px/1.4 'Segoe UI','Microsoft YaHei',sans-serif}
+ .catalog-mobile-controls option{background:#194533;color:#f1e8d0}
+ .luxury-storefront #products.grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:10px}
+ html[data-mobile-columns="1"] .luxury-storefront #products.grid{grid-template-columns:minmax(0,1fr)!important}
+ html[data-mobile-columns="2"] .luxury-storefront #products.grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ html[data-mobile-columns="4"] .luxury-storefront #products.grid{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:7px}
+ .luxury-storefront .individual-watch{min-width:0;padding:5px!important}
+ .luxury-storefront .individual-watch .product-info{min-width:0;padding:12px 3px 8px}
+ .luxury-storefront .individual-watch .product-info>span{margin-right:0}
+ .luxury-storefront .individual-watch h3{overflow-wrap:anywhere;line-height:1.25;font-size:17px!important;letter-spacing:0!important;margin:8px 0}
+ .luxury-storefront .individual-watch .product-info>p{font-size:9px;letter-spacing:0;overflow-wrap:anywhere}
+ .luxury-storefront .individual-watch .series-card-meta{flex-direction:column;align-items:flex-start;gap:6px;margin:12px 0}
+ .luxury-storefront .individual-watch .series-price{font-size:21px}
+ .luxury-storefront .individual-watch .product-art small{font-size:8px;letter-spacing:0;padding:4px;left:3px;bottom:4px}
+ html:is([data-mobile-columns="3"],[data-mobile-columns="4"]) .individual-watch :is(.name-zh,.series-band){display:none!important}
+ html:is([data-mobile-columns="3"],[data-mobile-columns="4"]) .luxury-storefront .individual-watch h3{font-size:14px!important}
+ html:is([data-mobile-columns="3"],[data-mobile-columns="4"]) .luxury-storefront .individual-watch :is(.watch-colour,.watch-colour-en){font-size:10px!important;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+ html:is([data-mobile-columns="3"],[data-mobile-columns="4"]) .luxury-storefront .individual-watch .series-price{font-size:18px}
+ html:is([data-mobile-columns="3"],[data-mobile-columns="4"]) .luxury-storefront .individual-watch .product-code{font-size:8px!important;padding:3px!important;letter-spacing:0}
+ html:is([data-mobile-columns="3"],[data-mobile-columns="4"]) .luxury-storefront .individual-watch .card-action{font-size:9px;letter-spacing:0;line-height:1.5}
+ html[data-mobile-columns="4"] .luxury-storefront .individual-watch h3{font-size:12px!important}
+ html[data-mobile-columns="4"] .luxury-storefront .individual-watch .series-price{font-size:15px}
+ html[data-mobile-columns="1"] .luxury-storefront .individual-watch h3{font-size:26px!important}
+ .luxury-storefront .catalog-pagination{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+ .luxury-storefront .catalog-pagination button{min-width:0;width:100%;padding:9px 4px;font-size:12px;min-height:44px}
+ #firstPage{grid-column:1;grid-row:1}#previousPage{grid-column:2;grid-row:1}#nextPage{grid-column:3;grid-row:1}#lastPage{grid-column:4;grid-row:1}
+ .page-picker{grid-column:1/3;grid-row:2;justify-content:flex-start;margin-top:8px;min-width:0}
+ .page-picker select{width:65px}
+ .luxury-storefront #pageStatus{grid-column:3/5;grid-row:2;justify-self:end}
+}

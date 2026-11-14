@@ -52,7 +52,9 @@ const catalogEntries=products.flatMap((p,productOrder)=>p.variants.filter(v=>!v.
  brandRank(a.p.brand)-brandRank(b.p.brand)||catalogCompare(a.p.brand,b.p.brand)||catalogCompare(a.series,b.series)||
  catalogCompare(a.p.designDetails||a.p.family,b.p.designDetails||b.p.family)||catalogCompare(a.p.band,b.p.band)||
  a.productOrder-b.productOrder||catalogCompare(a.finish,b.finish)||a.variantOrder-b.variantOrder);
-function catalogColumns(){return matchMedia('(max-width:767px)').matches?2:matchMedia('(min-width:1100px)').matches?4:matchMedia('(min-width:800px)').matches?3:2;}
+let mobileCatalogColumns=3;try{const saved=Number(localStorage.getItem('juxiang.catalogColumns'));if([1,2,3,4].includes(saved))mobileCatalogColumns=saved;}catch{}
+document.documentElement.dataset.mobileColumns=mobileCatalogColumns;
+function catalogColumns(){return matchMedia('(max-width:767px)').matches?mobileCatalogColumns:matchMedia('(min-width:1100px)').matches?4:matchMedia('(min-width:800px)').matches?3:2;}
 function pageSize(){return catalogColumns()*3;}
 function filteredProducts(){
  return catalogEntries.filter(({p,v,series,code})=>(activeBrand==='All'||p.brand===activeBrand)&&(activeSeries==='All'||series===activeSeries)&&(activeBand==='All'||p.band===activeBand)&&(normalizeSearch(code)===normalizeSearch(searchTerm)||matchesSearch(p,searchTerm,v)));
@@ -90,6 +92,7 @@ function syncControls(){
  $('productSearch').value=searchTerm;
  const brandValues=['All',...new Set(catalogEntries.map(e=>e.p.brand))];
  makeFilter(document.querySelector('.brand-filters'),brandValues,activeBrand,value=>{activeBrand=value;activeSeries='All';currentPage=1;syncControls();render();updateUrl();},v=>v==='All'?'All brands / 全部品牌':v+' / '+(brandAliases[v]||'').split(' ')[0]);
+ makeCatalogSelect($('mobileBrandFilters'),brandValues,activeBrand,value=>{activeBrand=value;activeSeries='All';currentPage=1;syncControls();render();updateUrl();},v=>v==='All'?'All brands':v,'Brand');
  const seriesValues=[...new Set(catalogEntries.filter(e=>activeBrand==='All'||e.p.brand===activeBrand).map(e=>e.series))].sort(catalogCompare);
  makeCatalogSelect($('seriesFilters'),['All',...seriesValues],activeSeries,value=>{activeSeries=value;currentPage=1;render();updateUrl();},v=>v==='All'?'All series / 全部系列':v+(familyAliases[v]?' / '+familyAliases[v].split(' ')[0]:''),'Series / 系列');
  makeCatalogSelect($('strapFilters'),['All',...new Set(products.map(p=>p.band))],activeBand,value=>{activeBand=value;currentPage=1;render();updateUrl();},v=>v==='All'?'All straps / 全部表带':bandLabels[v],'Strap / 表带');
@@ -105,7 +108,11 @@ function render(){
   const offset=(currentPage-1)*size,visible=list.slice(offset,offset+size);
   $('resultCount').textContent=list.length?(offset+1)+'–'+(offset+visible.length)+' / '+list.length+' selections · 款腕表/配色'+(searchTerm.trim()?' · '+searchTerm.trim():''):'0 watches / 未找到腕表';
   $('pageStatus').textContent=list.length?'Page '+currentPage+' of '+pages+' · 第 '+currentPage+' / '+pages+' 页':'';
-  $('previousPage').disabled=currentPage===1;
+  $('previousPage').disabled=$('firstPage').disabled=currentPage===1;
+ $('lastPage').disabled=currentPage===pages;
+ const pageSelect=$('pageSelect');
+ if(pageSelect.options.length!==pages)pageSelect.replaceChildren(...Array.from({length:pages},(_,i)=>new Option(String(i+1),String(i+1))));
+ pageSelect.value=String(currentPage);pageSelect.disabled=pages===1;
   $('nextPage').disabled=currentPage===pages;
   $('nextPage').textContent=currentPage===pages?'All watches shown / 已到最后一页':'View more / 查看更多 →';
   document.querySelector('.catalog-pagination').hidden=pages===1;
@@ -227,13 +234,25 @@ $('year').textContent=new Date().getFullYear();
 const initialQuery=readLocation();syncControls();render();if(initialQuery.get('design'))showProduct(initialQuery.get('design'),false,initialQuery.get('color'));
 history.scrollRestoration='manual';let scrollSaveTimer;window.addEventListener('scroll',()=>{clearTimeout(scrollSaveTimer);scrollSaveTimer=setTimeout(saveScroll,180);},{passive:true});
 
-function changeCatalogPage(step){
-  const pages=Math.max(1,Math.ceil(filteredProducts().length/pageSize()));
-  const next=Math.max(1,Math.min(currentPage+step,pages));if(next===currentPage)return;
-  currentPage=next;render();updateUrl();$('collection').scrollIntoView({behavior:'smooth'});
+function goCatalogPage(page){
+ const pages=Math.max(1,Math.ceil(filteredProducts().length/pageSize()));
+ const next=Math.max(1,Math.min(page,pages));if(next===currentPage)return;
+ currentPage=next;render();updateUrl();$('collection').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});
 }
+function changeCatalogPage(step){goCatalogPage(currentPage+step);}
+$('firstPage').onclick=()=>goCatalogPage(1);
+$('lastPage').onclick=()=>goCatalogPage(Math.ceil(filteredProducts().length/pageSize()));
+$('pageSelect').onchange=()=>goCatalogPage(Number($('pageSelect').value));
 $('previousPage').onclick=()=>changeCatalogPage(-1);
 $('nextPage').onclick=()=>changeCatalogPage(1);
+$('catalogLayout').value=String(mobileCatalogColumns);
+$('catalogLayout').onchange=()=>{
+ const first=(currentPage-1)*pageSize();mobileCatalogColumns=Number($('catalogLayout').value);
+ document.documentElement.dataset.mobileColumns=mobileCatalogColumns;
+ try{localStorage.setItem('juxiang.catalogColumns',String(mobileCatalogColumns));}catch{}
+ lastCatalogSize=pageSize();currentPage=Math.floor(first/lastCatalogSize)+1;render();updateUrl();
+};
+
 let lastCatalogSize=pageSize(),catalogResizeTimer;
 window.addEventListener('resize',()=>{clearTimeout(catalogResizeTimer);catalogResizeTimer=setTimeout(()=>{
   const nextSize=pageSize();if(nextSize===lastCatalogSize)return;
