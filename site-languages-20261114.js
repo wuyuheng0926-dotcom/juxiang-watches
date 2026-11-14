@@ -15,11 +15,11 @@ for(const row of rows)for(const value of row)dictionary.set(normal(value),row);
 dictionary.set(normal('搜索名称 / 产品编号'),rows.find(r=>r[0]==='Search name or code'));
 dictionary.set(normal('点击查看详情'),rows.find(r=>r[0]==='View details'));
 dictionary.set(normal('未找到匹配产品'),rows.find(r=>r[0]==='No matching watches'));
-const completeRows=(window.JXFullTranslations||[]).map(([source,...values])=>({source,values}));
+let completeRows=(window.JXFullTranslations||[]).map(([source,...values])=>({source,values}));
 for(const {source,values} of completeRows)if(!dictionary.has(normal(source)))dictionary.set(normal(source),values);
-const glossary=new Map([...completeRows.map(({source,values})=>[source,...values.slice(1)]),...rows,...terms].map(row=>[normal(row[0]),row]));
+let glossary=new Map([...completeRows.map(({source,values})=>[source,...values.slice(1)]),...rows,...terms].map(row=>[normal(row[0]),row]));
 const escape=s=>s.replace(/[.*+?^$()|[\]\\]/g,'\\$&');
-const phrasePattern=new RegExp('\\b('+[...glossary.keys()].sort((a,b)=>b.length-a.length).map(escape).join('|')+')\\b','gi');
+let phrasePattern=new RegExp('\\b('+[...glossary.keys()].sort((a,b)=>b.length-a.length).map(escape).join('|')+')\\b','gi');
 let locale='en';try{locale=localStorage.getItem('juxiang.language')||''}catch{}
 if(!locales.includes(locale)){const language=(navigator.language||'en').toLowerCase();locale=language.startsWith('zh')?'zh-CN':locales.find(l=>language.startsWith(l))||'en'}
 const index=()=>locales.indexOf(locale);
@@ -89,10 +89,26 @@ const valueCache=new WeakMap();
 function localizeValues(){for(const id of ['enquiryCode','enquiryColour','selection']){const el=document.getElementById(id);if(!el||!el.value)continue;const old=valueCache.get(el),source=old&&el.value===old.last?old.source:el.value,last=translate(source);if(last!==el.value)el.value=last;valueCache.set(el,{source,last});}}
 function flush(){queued=false;observer.disconnect();for(const root of dirty)if(root.isConnected)walk(root);dirty.clear();localizeValues();observe()}
 function apply(){observer.disconnect();document.documentElement.lang=locale;document.documentElement.dir='ltr';select.value=locale;select.setAttribute('aria-label',word('Language'));walk(document.head);walk(document.body);localizeValues();document.title=['JUXIANG | Fine watches · Retail & wholesale','JUXIANG 具象表业 | 高端腕表 · 零售与批发','JUXIANG | Relojes · Venta minorista y mayorista','JUXIANG | Montres · Vente au détail et en gros','JUXIANG | Uhren · Einzel- und Großhandel','جيوشيانغ | ساعات راقية · التجزئة والجملة'][index()];observe();window.dispatchEvent(new Event('jx-language-change'))}
-select.addEventListener('change',()=>{locale=select.value;try{localStorage.setItem('juxiang.language',locale)}catch{}apply()});
-window.JXI18n={get language(){return locale},setLanguage(value){if(!locales.includes(value))return;locale=value;try{localStorage.setItem('juxiang.language',locale)}catch{}apply()},translate,refresh:apply};
+
+
+const fullLanguagePromises=new Map(),importedRows=new Map();
+function ensureFullLanguage(){
+ const requested=locale;if(requested==='en')return Promise.resolve();
+ if(!fullLanguagePromises.has(requested)){
+ const pending=new Promise((resolve,reject)=>{if(window.JXLocalePacks?.[requested])return resolve();const s=document.createElement('script');s.src='locale-translations/'+requested+'.js?v='+encodeURIComponent(window.JXCatalogueBuild||'1');s.onload=resolve;s.onerror=()=>{fullLanguagePromises.delete(requested);reject(Error('Language unavailable'))};document.body.append(s)}).then(()=>{
+  for(const [source,target]of window.JXLocalePacks?.[requested]||[]){const key=normal(source);if(dictionary.has(key)&&!importedRows.has(source))continue;const values=importedRows.get(source)||Array(6).fill(source);values[locales.indexOf(requested)]=target;importedRows.set(source,values);dictionary.set(key,values);}
+  completeRows=[...importedRows].map(([source,values])=>({source,values}));
+  glossary=new Map([...completeRows.map(({source,values})=>[source,...values.slice(1)]),...rows,...terms].map(row=>[normal(row[0]),row]));
+  phrasePattern=new RegExp('\\b('+[...glossary.keys()].sort((a,b)=>b.length-a.length).map(escape).join('|')+')\\b','gi');apply();
+ });
+ fullLanguagePromises.set(requested,pending);
+ }
+ return fullLanguagePromises.get(requested);
+}
+select.addEventListener('change',()=>{locale=select.value;try{localStorage.setItem('juxiang.language',locale)}catch{}apply();ensureFullLanguage().catch(()=>{})});
+window.JXI18n={get language(){return locale},setLanguage(value){if(!locales.includes(value))return;locale=value;try{localStorage.setItem('juxiang.language',locale)}catch{}apply();ensureFullLanguage().catch(()=>{})},translate,refresh:apply};
 const dialog=document.getElementById('detail'),hint=dialog.querySelector('.detail-scroll-hint');
-function hintState(){hint.hidden=!dialog.open||!matchMedia('(max-width:767px)').matches||dialog.scrollHeight<=dialog.clientHeight+24||dialog.scrollTop>64}
+function hintState(){if(dialog.open)ensureFullLanguage().catch(()=>{});hint.hidden=!dialog.open||!matchMedia('(max-width:767px)').matches||dialog.scrollHeight<=dialog.clientHeight+24||dialog.scrollTop>64}
 hint.addEventListener('click',()=>{const summary=dialog.querySelector('.series-summary');if(summary){const top=summary.getBoundingClientRect().top-dialog.getBoundingClientRect().top+dialog.scrollTop-32;dialog.scrollTo({top,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'})}});
 dialog.addEventListener('scroll',hintState,{passive:true});window.addEventListener('resize',hintState,{passive:true});
 new MutationObserver(records=>{if(records.some(r=>r.attributeName==='open')&&dialog.open)dialog.scrollTop=0;requestAnimationFrame(hintState)}).observe(dialog,{attributes:true,attributeFilter:['open'],childList:true,subtree:true});

@@ -4,7 +4,7 @@
   const track = root.querySelector('.hero-track');
   const slides = [...track.children];
   const dots = [...root.querySelectorAll('[data-slide]')];
-  const ids = slides.map(slide => slide.dataset.product);
+  function loadSlide(slide){const img=slide?.querySelector('img');if(img?.dataset.src){img.src=img.dataset.src;delete img.dataset.src;img.loading='eager';}}
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   let index = 1, timer, settling, dragging = null, busy = false, suppressClickUntil = 0;
   let paused = reduced.matches, hovered = false, focused = false, visible = true;
@@ -24,9 +24,9 @@
     const n = logical();
     dots.forEach((dot, i) => dot.setAttribute('aria-pressed', String(i === n)));
     slides.forEach((slide, i) => { slide.setAttribute('aria-hidden', String(i !== n)); slide.querySelector('a').tabIndex = i === n ? 0 : -1; });
-    root.querySelector('.hero-photo-code').textContent = ids[n] + ' / ' + String(n + 1).padStart(2, '0') + ' — ' + String(slides.length).padStart(2, '0');
-    const next = slides[(n + 1) % slides.length].querySelector('img');
-    next.loading = 'eager';
+    root.querySelector('.hero-photo-code').textContent = (slides[n].dataset.product||'JUXIANG') + ' / ' + String(n + 1).padStart(2, '0') + ' — ' + String(slides.length).padStart(2, '0');
+    loadSlide(slides[n]);loadSlide(track.children[index]);
+    if(!navigator.connection?.saveData)loadSlide(slides[(n+1)%slides.length]);
   }
   function finish() {
     clearTimeout(settling);

@@ -10,4 +10,6 @@ cp navigation-refresh-20261114.css locale-catalog-20261114.js interface-polish-2
 cp -R assets/. public/assets/
 cat import-photos-20261114/part-*.bin | tar -xz -C public/assets
 cat import-patek-20261114/part-*.bin | tar -xz -C public/assets
+cat import-mobile-speed-20261114/part-*.bin | tar -xz -C public/assets
+node tools/optimize-mobile.cjs
 printf 'JUXIANG static website ready\n'
