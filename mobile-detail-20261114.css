@@ -1,0 +1,14 @@
+/* Mobile detail only: keep desktop layout and unlocked price typography unchanged. */
+@media (max-width:767px){
+ .luxury-storefront #detail{width:calc(100% - 12px);max-width:none;max-height:94vh;max-height:94svh;padding:30px 10px 62px!important}
+ .luxury-storefront #detail .series-detail-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:20px}
+ .luxury-storefront #detail .series-gallery{width:100%;min-width:0}
+ .luxury-storefront #detail .colour-gallery{width:100%}
+ .luxury-storefront #detail .colour-gallery .colour-slide>img,
+ .luxury-storefront #detail .colour-gallery .colour-slide>.selection-photo{
+  width:100%;height:58vh;height:58svh;min-height:50vh;min-height:50svh;max-height:none;object-fit:contain;object-position:center
+ }
+ .luxury-storefront #detail .series-summary .detail-price.price-locked{
+  font-size:17px!important;line-height:1.5;letter-spacing:0;margin:12px 0 16px;white-space:normal;overflow-wrap:anywhere
+ }
+}
