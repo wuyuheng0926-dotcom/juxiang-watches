@@ -32636,6 +32636,33 @@ const products = [
             "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
           }
         ]
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Rose-tone case · Black strap",
+        "image": "jlc-cartier-1138",
+        "photos": [
+          "jlc-cartier-1138"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1140",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1141",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1142",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1143",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·玫瑰色表壳·黑色表带"
       }
     ],
     "detailImages": [],
@@ -32790,6 +32817,110 @@ const products = [
             "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
           }
         ]
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Gold-tone case · Brown strap",
+        "image": "jlc-cartier-0832",
+        "photos": [
+          "jlc-cartier-0832"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0837",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0838",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0839",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0840",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-0868",
+        "photos": [
+          "jlc-cartier-0868"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0873",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0874",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0875",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0876",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 玫瑰金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v6",
+        "label": "White dial · Rose-tone case · Black strap",
+        "image": "jlc-cartier-0904",
+        "photos": [
+          "jlc-cartier-0904"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0909",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0910",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0911",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0912",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·玫瑰色表壳·黑色表带"
+      },
+      {
+        "key": "v7",
+        "label": "White dial · Gold-tone case · Black strap",
+        "image": "jlc-cartier-1116",
+        "photos": [
+          "jlc-cartier-1116"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1117",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1118",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1119",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色表壳 · 黑色表带"
       }
     ],
     "detailImages": [],
@@ -32853,6 +32984,61 @@ const products = [
             "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
           }
         ]
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-1093",
+        "photos": [
+          "jlc-cartier-1093"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1098",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "蓝色表盘·银色表壳·黑色表带"
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-1094",
+        "photos": [
+          "jlc-cartier-1094"
+        ],
+        "detailImages": [],
+        "labelZh": "黑色表盘·银色表壳·黑色表带"
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-1095",
+        "photos": [
+          "jlc-cartier-1095"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1099",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 玫瑰金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v6",
+        "label": "Champagne dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-1096",
+        "photos": [
+          "jlc-cartier-1096"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1097",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "香槟色表盘 · 玫瑰金色表壳 · 棕色表带"
       }
     ],
     "detailImages": [],
@@ -33027,6 +33213,114 @@ const products = [
             "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
           }
         ]
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Two-tone bracelet",
+        "image": "jlc-cartier-0206",
+        "photos": [
+          "jlc-cartier-0206"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0207",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0208",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0209",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 间色金属表带"
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Silver-tone bracelet",
+        "image": "jlc-cartier-0521",
+        "photos": [
+          "jlc-cartier-0521"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0524",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0526",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0527",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘 · 银色金属表带"
+      },
+      {
+        "key": "v5",
+        "label": "Pink dial · Two-tone bracelet",
+        "image": "jlc-cartier-0623",
+        "photos": [
+          "jlc-cartier-0623"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0626",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0627",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "粉色表盘 · 间色金属表带"
+      },
+      {
+        "key": "v6",
+        "label": "Silver dial · Rose-tone bracelet",
+        "image": "jlc-cartier-0647",
+        "photos": [
+          "jlc-cartier-0647"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0651",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0653",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0654",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "银色表盘 · 玫瑰金色金属表带"
+      },
+      {
+        "key": "v7",
+        "label": "White dial · Rose-tone bracelet",
+        "image": "jlc-cartier-0754",
+        "photos": [
+          "jlc-cartier-0754"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘·玫瑰色表链"
+      },
+      {
+        "key": "v8",
+        "label": "White dial · Gold-tone bracelet",
+        "image": "jlc-cartier-0755",
+        "photos": [
+          "jlc-cartier-0755"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘 · 金色金属表带"
       }
     ],
     "detailImages": [],
@@ -33085,6 +33379,29 @@ const products = [
             "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
           }
         ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone bracelet",
+        "image": "jlc-cartier-0667",
+        "photos": [
+          "jlc-cartier-0667"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0668",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0670",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0671",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色金属表带"
       }
     ],
     "detailImages": [],
@@ -33163,6 +33480,75 @@ const products = [
             "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
           }
         ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Gold-tone case · Black strap",
+        "image": "jlc-cartier-0237",
+        "photos": [
+          "jlc-cartier-0237"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0242",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0244",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0245",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色表壳 · 黑色表带"
+      },
+      {
+        "key": "v3",
+        "label": "Pink dial · Pink strap",
+        "image": "jlc-cartier-0562",
+        "photos": [
+          "jlc-cartier-0562"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0566",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0568",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0569",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "粉色表盘 · 粉色表带"
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Rose-tone case · Purple strap",
+        "image": "jlc-cartier-0628",
+        "photos": [
+          "jlc-cartier-0628"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0633",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0635",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0636",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 玫瑰金色表壳 · 紫色表带"
       }
     ],
     "detailImages": [],
@@ -33226,6 +33612,65 @@ const products = [
             "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
           }
         ]
+      },
+      {
+        "key": "v2",
+        "label": "Cream dial · Gold-tone case · Grey strap",
+        "image": "jlc-cartier-0010",
+        "photos": [
+          "jlc-cartier-0010"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0009",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0018",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "米色表盘 · 金色表壳 · 灰色表带"
+      },
+      {
+        "key": "v3",
+        "label": "Cream dial · Gold-tone case · Brown strap",
+        "image": "jlc-cartier-0015",
+        "photos": [
+          "jlc-cartier-0015"
+        ],
+        "detailImages": [],
+        "labelZh": "米色表盘 · 金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v4",
+        "label": "Cream dial · Gold-tone case · Black strap",
+        "image": "jlc-cartier-0016",
+        "photos": [
+          "jlc-cartier-0016"
+        ],
+        "detailImages": [],
+        "labelZh": "米色表盘 · 金色表壳 · 黑色表带"
+      },
+      {
+        "key": "v5",
+        "label": "Cream dial · Gold-tone case · Blue strap",
+        "image": "jlc-cartier-0012",
+        "photos": [
+          "jlc-cartier-0012"
+        ],
+        "detailImages": [],
+        "labelZh": "米色表盘 · 金色表壳 · 蓝色表带"
+      },
+      {
+        "key": "v6",
+        "label": "Cream dial · Gold-tone case · Red strap",
+        "image": "jlc-cartier-0013",
+        "photos": [
+          "jlc-cartier-0013"
+        ],
+        "detailImages": [],
+        "labelZh": "米色表盘 · 金色表壳 · 红色表带"
       }
     ],
     "detailImages": [],
@@ -33289,6 +33734,39 @@ const products = [
             "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
           }
         ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Gold-tone case · Brown strap",
+        "image": "jlc-cartier-0431",
+        "photos": [
+          "jlc-cartier-0431"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0433",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0435",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0436",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-0730",
+        "photos": [
+          "jlc-cartier-0730"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘 · 玫瑰金色表壳 · 棕色表带"
       }
     ],
     "detailImages": [],
@@ -33633,6 +34111,3583 @@ const products = [
     "referencePhotos": [],
     "image": "supp-0326",
     "coverImage": "supp-0326",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX383",
+    "brand": "Cartier",
+    "baseFamily": "Panthère",
+    "family": "Panthère — Roman dial · Stone-set bezel",
+    "name": "Panthère — Roman dial · Stone-set bezel — Metal bracelet",
+    "designDetails": "Roman dial · Stone-set bezel",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone bracelet",
+        "image": "jlc-cartier-0019",
+        "photos": [
+          "jlc-cartier-0019"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0023",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0025",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0026",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·玫瑰色表链"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone bracelet",
+        "image": "jlc-cartier-0587",
+        "photos": [
+          "jlc-cartier-0587"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0586",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0588",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0589",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0019",
+    "coverImage": "jlc-cartier-0019",
+    "coverColor": "v1",
+    "nameZh": "猎豹 — 罗马数字表盘 · 镶石表圈 — 金属手链",
+    "designDetailsZh": "罗马数字表盘 · 镶石表圈",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX384",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu — Textured dial · Stone-set bezel",
+    "name": "Ballon Bleu — Textured dial · Stone-set bezel — Metal bracelet",
+    "designDetails": "Textured dial · Stone-set bezel",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green dial · Silver-tone bracelet",
+        "image": "jlc-cartier-0029",
+        "photos": [
+          "jlc-cartier-0029"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0033",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0035",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0036",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "绿色表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0029",
+    "coverImage": "jlc-cartier-0029",
+    "coverColor": "v1",
+    "nameZh": "蓝气球 — 纹理表盘 · 镶石表圈 — 金属手链",
+    "designDetailsZh": "纹理表盘 · 镶石表圈",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX385",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu — Textured dial · Plain bezel",
+    "name": "Ballon Bleu — Textured dial · Plain bezel — Metal bracelet",
+    "designDetails": "Textured dial · Plain bezel",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green dial · Gold-tone bracelet",
+        "image": "jlc-cartier-0038",
+        "photos": [
+          "jlc-cartier-0038"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0042",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0044",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0045",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "绿色表盘 · 金色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0038",
+    "coverImage": "jlc-cartier-0038",
+    "coverColor": "v1",
+    "nameZh": "蓝气球 — 纹理表盘 · 光面表圈 — 金属手链",
+    "designDetailsZh": "纹理表盘 · 光面表圈",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX386",
+    "brand": "Cartier",
+    "baseFamily": "Tank Américaine",
+    "family": "Tank Américaine — Roman dial · Stone-set bezel",
+    "name": "Tank Américaine — Roman dial · Stone-set bezel — Leather strap",
+    "designDetails": "Roman dial · Stone-set bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Blue strap",
+        "image": "jlc-cartier-0046",
+        "photos": [
+          "jlc-cartier-0046"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0051",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0053",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0054",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 蓝色表带"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Black strap",
+        "image": "jlc-cartier-0466",
+        "photos": [
+          "jlc-cartier-0466"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0468",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0469",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0470",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0046",
+    "coverImage": "jlc-cartier-0046",
+    "coverColor": "v1",
+    "nameZh": "美国坦克 — 罗马数字表盘 · 镶石表圈 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 镶石表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX387",
+    "brand": "Cartier",
+    "baseFamily": "Pasha",
+    "family": "Pasha — Arabic dial · Stone-set bezel",
+    "name": "Pasha — Arabic dial · Stone-set bezel — Metal bracelet",
+    "designDetails": "Arabic dial · Stone-set bezel",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver dial · Silver-tone bracelet",
+        "image": "jlc-cartier-0057",
+        "photos": [
+          "jlc-cartier-0057"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0058",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0061",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "银色表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0057",
+    "coverImage": "jlc-cartier-0057",
+    "coverColor": "v1",
+    "nameZh": "帕莎 — 阿拉伯数字表盘 · 镶石表圈 — 金属手链",
+    "designDetailsZh": "阿拉伯数字表盘 · 镶石表圈",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX388",
+    "brand": "Cartier",
+    "baseFamily": "Pasha",
+    "family": "Pasha — Arabic dial · Stone-set bezel",
+    "name": "Pasha — Arabic dial · Stone-set bezel — Leather strap",
+    "designDetails": "Arabic dial · Stone-set bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver dial · Black strap",
+        "image": "jlc-cartier-0059",
+        "photos": [
+          "jlc-cartier-0059"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0060",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0062",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "银色表盘·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0059",
+    "coverImage": "jlc-cartier-0059",
+    "coverColor": "v1",
+    "nameZh": "帕莎 — 阿拉伯数字表盘 · 镶石表圈 — 皮革表带",
+    "designDetailsZh": "阿拉伯数字表盘 · 镶石表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX389",
+    "brand": "Cartier",
+    "baseFamily": "Drive de Cartier",
+    "family": "Drive de Cartier — Roman dial · Small seconds",
+    "name": "Drive de Cartier — Roman dial · Small seconds — Leather strap",
+    "designDetails": "Roman dial · Small seconds",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Black strap",
+        "image": "jlc-cartier-0066",
+        "photos": [
+          "jlc-cartier-0066"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0068",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0069",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 黑色表带"
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Black strap",
+        "image": "jlc-cartier-0247",
+        "photos": [
+          "jlc-cartier-0247"
+        ],
+        "detailImages": [],
+        "labelZh": "蓝色表盘·黑色表带"
+      },
+      {
+        "key": "v3",
+        "label": "Grey dial · Black strap",
+        "image": "jlc-cartier-0248",
+        "photos": [
+          "jlc-cartier-0248"
+        ],
+        "detailImages": [],
+        "labelZh": "灰色表盘 · 黑色表带"
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Gold-tone case · Brown strap",
+        "image": "jlc-cartier-0441",
+        "photos": [
+          "jlc-cartier-0441"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0442",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0444",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0445",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘 · 金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Gold-tone case · Brown strap",
+        "image": "jlc-cartier-0455",
+        "photos": [
+          "jlc-cartier-0455"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘 · 金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v6",
+        "label": "Grey dial · Gold-tone case · Brown strap",
+        "image": "jlc-cartier-0458",
+        "photos": [
+          "jlc-cartier-0458"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0461",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0462",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0463",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "灰色表盘 · 金色表壳 · 棕色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0066",
+    "coverImage": "jlc-cartier-0066",
+    "coverColor": "v1",
+    "nameZh": "卡地亚Drive — 罗马数字表盘 · 小秒针 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 小秒针",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX390",
+    "brand": "Cartier",
+    "baseFamily": "Drive de Cartier",
+    "family": "Drive de Cartier — Roman dial · Small seconds · Stone-set bezel",
+    "name": "Drive de Cartier — Roman dial · Small seconds · Stone-set bezel — Leather strap",
+    "designDetails": "Roman dial · Small seconds · Stone-set bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Black strap",
+        "image": "jlc-cartier-0071",
+        "photos": [
+          "jlc-cartier-0071"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0075",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0077",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0078",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 黑色表带"
+      },
+      {
+        "key": "v2",
+        "label": "Grey dial · Black strap",
+        "image": "jlc-cartier-0250",
+        "photos": [
+          "jlc-cartier-0250"
+        ],
+        "detailImages": [],
+        "labelZh": "灰色表盘 · 黑色表带"
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Black strap",
+        "image": "jlc-cartier-0251",
+        "photos": [
+          "jlc-cartier-0251"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0252",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0253",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0254",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "蓝色表盘·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0071",
+    "coverImage": "jlc-cartier-0071",
+    "coverColor": "v1",
+    "nameZh": "卡地亚Drive — 罗马数字表盘 · 小秒针 · 镶石表圈 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 小秒针 · 镶石表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX391",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu — Roman dial · Plain bezel",
+    "name": "Ballon Bleu — Roman dial · Plain bezel — Leather strap",
+    "designDetails": "Roman dial · Plain bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Blue strap",
+        "image": "jlc-cartier-0099",
+        "photos": [
+          "jlc-cartier-0099"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0100",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0101",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0102",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "蓝色表盘·蓝色表带"
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Gold-tone case · Blue strap",
+        "image": "jlc-cartier-0219",
+        "photos": [
+          "jlc-cartier-0219"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0224",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0226",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0227",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "蓝色表盘 · 金色表壳 · 蓝色表带"
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-0328",
+        "photos": [
+          "jlc-cartier-0328"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0332",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0333",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0334",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 玫瑰金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Gold-tone case · Black strap",
+        "image": "jlc-cartier-0361",
+        "photos": [
+          "jlc-cartier-0361"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0365",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0367",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0368",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色表壳 · 黑色表带"
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Black strap",
+        "image": "jlc-cartier-0408",
+        "photos": [
+          "jlc-cartier-0408"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0411",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0412",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0413",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 黑色表带"
+      },
+      {
+        "key": "v6",
+        "label": "White dial · Gold-tone case · Brown strap",
+        "image": "jlc-cartier-0479",
+        "photos": [
+          "jlc-cartier-0479"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0481",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0482",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0483",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v7",
+        "label": "Black dial · Black strap",
+        "image": "jlc-cartier-0486",
+        "photos": [
+          "jlc-cartier-0486"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0487",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0488",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0489",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘·黑色表带"
+      },
+      {
+        "key": "v8",
+        "label": "Pink dial · Pink strap",
+        "image": "jlc-cartier-0674",
+        "photos": [
+          "jlc-cartier-0674"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0677",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0679",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0680",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "粉色表盘 · 粉色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0099",
+    "coverImage": "jlc-cartier-0099",
+    "coverColor": "v1",
+    "nameZh": "蓝气球 — 罗马数字表盘 · 光面表圈 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 光面表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX392",
+    "brand": "Cartier",
+    "baseFamily": "Calibre de Cartier Diver",
+    "family": "Calibre de Cartier Diver — Roman and baton dial · Rotating bezel",
+    "name": "Calibre de Cartier Diver — Roman and baton dial · Rotating bezel — Rubber strap",
+    "designDetails": "Roman and baton dial · Rotating bezel",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Black strap",
+        "image": "jlc-cartier-0107",
+        "photos": [
+          "jlc-cartier-0107"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0108",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0109",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0110",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘·黑色表带"
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Blue strap",
+        "image": "jlc-cartier-0492",
+        "photos": [
+          "jlc-cartier-0492"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0490",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0491",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "蓝色表盘·蓝色表带"
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Rose-tone case · Black strap",
+        "image": "jlc-cartier-0494",
+        "photos": [
+          "jlc-cartier-0494"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0493",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘·玫瑰色表壳·黑色表带"
+      },
+      {
+        "key": "v4",
+        "label": "Green dial · Green strap",
+        "image": "jlc-cartier-0497",
+        "photos": [
+          "jlc-cartier-0497"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0498",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "绿色表盘·绿色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0107",
+    "coverImage": "jlc-cartier-0107",
+    "coverColor": "v1",
+    "nameZh": "卡历博潜水 — 罗马数字与条形刻度 · 旋转表圈 — 橡胶表带",
+    "designDetailsZh": "罗马数字与条形刻度 · 旋转表圈",
+    "bandNameZh": "橡胶表带"
+  },
+  {
+    "id": "JX393",
+    "brand": "Cartier",
+    "baseFamily": "Santos de Cartier",
+    "family": "Santos de Cartier — Roman dial · Plain bezel",
+    "name": "Santos de Cartier — Roman dial · Plain bezel — Metal bracelet",
+    "designDetails": "Roman dial · Plain bezel",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone bracelet",
+        "image": "jlc-cartier-0111",
+        "photos": [
+          "jlc-cartier-0111"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0115",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0117",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0118",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色金属表带"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Rose-tone bracelet",
+        "image": "jlc-cartier-0175",
+        "photos": [
+          "jlc-cartier-0175"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0173",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0176",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0177",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·玫瑰色表链"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0111",
+    "coverImage": "jlc-cartier-0111",
+    "coverColor": "v1",
+    "nameZh": "山度士 — 罗马数字表盘 · 光面表圈 — 金属手链",
+    "designDetailsZh": "罗马数字表盘 · 光面表圈",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX394",
+    "brand": "Cartier",
+    "baseFamily": "Santos 100",
+    "family": "Santos 100 — Roman dial · Chronograph",
+    "name": "Santos 100 — Roman dial · Chronograph — Leather strap",
+    "designDetails": "Roman dial · Chronograph",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Black strap",
+        "image": "jlc-cartier-0121",
+        "photos": [
+          "jlc-cartier-0121"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0123",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0124",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0125",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0121",
+    "coverImage": "jlc-cartier-0121",
+    "coverColor": "v1",
+    "nameZh": "山度士100 — 罗马数字表盘 · 计时表盘 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 计时表盘",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX395",
+    "brand": "Cartier",
+    "baseFamily": "Santos 100",
+    "family": "Santos 100 — Roman dial · Plain bezel",
+    "name": "Santos 100 — Roman dial · Plain bezel — Leather strap",
+    "designDetails": "Roman dial · Plain bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Black strap",
+        "image": "jlc-cartier-0149",
+        "photos": [
+          "jlc-cartier-0149"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0152",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0153",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0149",
+    "coverImage": "jlc-cartier-0149",
+    "coverColor": "v1",
+    "nameZh": "山度士100 — 罗马数字表盘 · 光面表圈 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 光面表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX396",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu — Roman dial · Open-heart display",
+    "name": "Ballon Bleu — Roman dial · Open-heart display — Leather strap",
+    "designDetails": "Roman dial · Open-heart display",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Rose-tone case · Black strap",
+        "image": "jlc-cartier-0178",
+        "photos": [
+          "jlc-cartier-0178"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0185",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0186",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘·玫瑰色表壳·黑色表带"
+      },
+      {
+        "key": "v2",
+        "label": "Gold dial · Gold-tone case · Brown strap",
+        "image": "jlc-cartier-0179",
+        "photos": [
+          "jlc-cartier-0179"
+        ],
+        "detailImages": [],
+        "labelZh": "金色表盘 · 金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v3",
+        "label": "Silver dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-0180",
+        "photos": [
+          "jlc-cartier-0180"
+        ],
+        "detailImages": [],
+        "labelZh": "银色表盘·银色表壳·黑色表带"
+      },
+      {
+        "key": "v4",
+        "label": "Silver dial · Gold-tone case · Brown strap",
+        "image": "jlc-cartier-0181",
+        "photos": [
+          "jlc-cartier-0181"
+        ],
+        "detailImages": [],
+        "labelZh": "银色表盘 · 金色表壳 · 棕色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0178",
+    "coverImage": "jlc-cartier-0178",
+    "coverColor": "v1",
+    "nameZh": "蓝气球 — 罗马数字表盘 · 开放式摆轮视窗 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 开放式摆轮视窗",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX397",
+    "brand": "Cartier",
+    "baseFamily": "Ronde Croisière",
+    "family": "Ronde Croisière — Roman dial · Inner 24-hour scale",
+    "name": "Ronde Croisière — Roman dial · Inner 24-hour scale — Metal bracelet",
+    "designDetails": "Roman dial · Inner 24-hour scale",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone bracelet",
+        "image": "jlc-cartier-0270",
+        "photos": [
+          "jlc-cartier-0270"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0275",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0277",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0278",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0270",
+    "coverImage": "jlc-cartier-0270",
+    "coverColor": "v1",
+    "nameZh": "伦敦巡航 — 罗马数字表盘 · 内圈24小时刻度 — 金属手链",
+    "designDetailsZh": "罗马数字表盘 · 内圈24小时刻度",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX398",
+    "brand": "Cartier",
+    "baseFamily": "Ronde Croisière",
+    "family": "Ronde Croisière — Roman dial · Inner 24-hour scale",
+    "name": "Ronde Croisière — Roman dial · Inner 24-hour scale — Leather strap",
+    "designDetails": "Roman dial · Inner 24-hour scale",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Black strap",
+        "image": "jlc-cartier-0285",
+        "photos": [
+          "jlc-cartier-0285"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0290",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0292",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0293",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 黑色表带"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Rose-tone case · Black strap",
+        "image": "jlc-cartier-0294",
+        "photos": [
+          "jlc-cartier-0294"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0299",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0301",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0302",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·玫瑰色表壳·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0285",
+    "coverImage": "jlc-cartier-0285",
+    "coverColor": "v1",
+    "nameZh": "伦敦巡航 — 罗马数字表盘 · 内圈24小时刻度 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 内圈24小时刻度",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX399",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu — Roman dial · Black case",
+    "name": "Ballon Bleu — Roman dial · Black case — Leather strap",
+    "designDetails": "Roman dial · Black case",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Black strap",
+        "image": "jlc-cartier-0304",
+        "photos": [
+          "jlc-cartier-0304"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0307",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0309",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0310",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0304",
+    "coverImage": "jlc-cartier-0304",
+    "coverColor": "v1",
+    "nameZh": "蓝气球 — 罗马数字表盘 · 黑色表壳 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 黑色表壳",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX400",
+    "brand": "Cartier",
+    "baseFamily": "Ronde Solo",
+    "family": "Ronde Solo — Roman dial · Inner 24-hour scale",
+    "name": "Ronde Solo — Roman dial · Inner 24-hour scale — Leather strap",
+    "designDetails": "Roman dial · Inner 24-hour scale",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Black strap",
+        "image": "jlc-cartier-0313",
+        "photos": [
+          "jlc-cartier-0313"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0316",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0318",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0319",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 黑色表带"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Gold-tone case · Brown strap",
+        "image": "jlc-cartier-0402",
+        "photos": [
+          "jlc-cartier-0402"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0405",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0406",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0407",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色表壳 · 棕色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0313",
+    "coverImage": "jlc-cartier-0313",
+    "coverColor": "v1",
+    "nameZh": "伦敦Solo — 罗马数字表盘 · 内圈24小时刻度 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 内圈24小时刻度",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX401",
+    "brand": "Cartier",
+    "baseFamily": "Ronde Solo",
+    "family": "Ronde Solo — Roman dial · Inner 24-hour scale · Black case",
+    "name": "Ronde Solo — Roman dial · Inner 24-hour scale · Black case — Leather strap",
+    "designDetails": "Roman dial · Inner 24-hour scale · Black case",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Black strap",
+        "image": "jlc-cartier-0321",
+        "photos": [
+          "jlc-cartier-0321"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0324",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0326",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0327",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0321",
+    "coverImage": "jlc-cartier-0321",
+    "coverColor": "v1",
+    "nameZh": "伦敦Solo — 罗马数字表盘 · 内圈24小时刻度 · 黑色表壳 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 内圈24小时刻度 · 黑色表壳",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX402",
+    "brand": "Cartier",
+    "baseFamily": "Santos de Cartier",
+    "family": "Santos de Cartier — Skeleton dial",
+    "name": "Santos de Cartier — Skeleton dial — Metal bracelet",
+    "designDetails": "Skeleton dial",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Openwork dial · Silver-tone bracelet",
+        "image": "jlc-cartier-0375",
+        "photos": [
+          "jlc-cartier-0375"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0379",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0381",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0382",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "镂空表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0375",
+    "coverImage": "jlc-cartier-0375",
+    "coverColor": "v1",
+    "nameZh": "山度士 — 镂空表盘 — 金属手链",
+    "designDetailsZh": "镂空表盘",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX403",
+    "brand": "Cartier",
+    "baseFamily": "Ronde Solo",
+    "family": "Ronde Solo — Roman dial · Inner 24-hour scale",
+    "name": "Ronde Solo — Roman dial · Inner 24-hour scale — Metal bracelet",
+    "designDetails": "Roman dial · Inner 24-hour scale",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone bracelet",
+        "image": "jlc-cartier-0391",
+        "photos": [
+          "jlc-cartier-0391"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0394",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0395",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0396",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·玫瑰色表链"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone bracelet",
+        "image": "jlc-cartier-0397",
+        "photos": [
+          "jlc-cartier-0397"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0398",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0391",
+    "coverImage": "jlc-cartier-0391",
+    "coverColor": "v1",
+    "nameZh": "伦敦Solo — 罗马数字表盘 · 内圈24小时刻度 — 金属手链",
+    "designDetailsZh": "罗马数字表盘 · 内圈24小时刻度",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX404",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu — Roman and stone-set dial · Plain bezel",
+    "name": "Ballon Bleu — Roman and stone-set dial · Plain bezel — Metal bracelet",
+    "designDetails": "Roman and stone-set dial · Plain bezel",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone bracelet",
+        "image": "jlc-cartier-0501",
+        "photos": [
+          "jlc-cartier-0501"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0502",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0503",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0504",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0501",
+    "coverImage": "jlc-cartier-0501",
+    "coverColor": "v1",
+    "nameZh": "蓝气球 — 罗马数字与镶石刻度 · 光面表圈 — 金属手链",
+    "designDetailsZh": "罗马数字与镶石刻度 · 光面表圈",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX405",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu — Roman dial · Tourbillon display · Stone-set bezel",
+    "name": "Ballon Bleu — Roman dial · Tourbillon display · Stone-set bezel — Leather strap",
+    "designDetails": "Roman dial · Tourbillon display · Stone-set bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Gold dial · Gold-tone case · Brown strap",
+        "image": "jlc-cartier-0507",
+        "photos": [
+          "jlc-cartier-0507"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0509",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0511",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0512",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "金色表盘 · 金色表壳 · 棕色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0507",
+    "coverImage": "jlc-cartier-0507",
+    "coverColor": "v1",
+    "nameZh": "蓝气球 — 罗马数字表盘 · 陀飞轮外观 · 镶石表圈 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 陀飞轮外观 · 镶石表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX406",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu — Roman dial · Textured dial · Stone-set bezel",
+    "name": "Ballon Bleu — Roman dial · Textured dial · Stone-set bezel — Leather strap",
+    "designDetails": "Roman dial · Textured dial · Stone-set bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Black strap",
+        "image": "jlc-cartier-0553",
+        "photos": [
+          "jlc-cartier-0553"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0552",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0554",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0555",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "灰色表盘 · 黑色表带"
+      },
+      {
+        "key": "v3",
+        "label": "Green dial · Black strap",
+        "image": "jlc-cartier-0560",
+        "photos": [
+          "jlc-cartier-0560"
+        ],
+        "detailImages": [],
+        "labelZh": "绿色表盘 · 黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0553",
+    "coverImage": "jlc-cartier-0553",
+    "coverColor": "v1",
+    "nameZh": "蓝气球 — 罗马数字表盘 · 纹理表盘 · 镶石表圈 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 纹理表盘 · 镶石表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX407",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu — Roman and stone-set dial · Small seconds · Stone-set bezel",
+    "name": "Ballon Bleu — Roman and stone-set dial · Small seconds · Stone-set bezel — Metal bracelet",
+    "designDetails": "Roman and stone-set dial · Small seconds · Stone-set bezel",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone bracelet",
+        "image": "jlc-cartier-0591",
+        "photos": [
+          "jlc-cartier-0591"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0590",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色金属表带"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Gold-tone bracelet",
+        "image": "jlc-cartier-0592",
+        "photos": [
+          "jlc-cartier-0592"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0593",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色金属表带"
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Rose-tone bracelet",
+        "image": "jlc-cartier-0597",
+        "photos": [
+          "jlc-cartier-0597"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0598",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·玫瑰色表链"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0591",
+    "coverImage": "jlc-cartier-0591",
+    "coverColor": "v1",
+    "nameZh": "蓝气球 — 罗马数字与镶石刻度 · 小秒针 · 镶石表圈 — 金属手链",
+    "designDetailsZh": "罗马数字与镶石刻度 · 小秒针 · 镶石表圈",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX408",
+    "brand": "Cartier",
+    "baseFamily": "Pasha",
+    "family": "Pasha — Arabic dial · Plain bezel",
+    "name": "Pasha — Arabic dial · Plain bezel — Leather strap",
+    "designDetails": "Arabic dial · Plain bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Red strap",
+        "image": "jlc-cartier-0608",
+        "photos": [
+          "jlc-cartier-0608"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0609",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0610",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 红色表带"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Black strap",
+        "image": "jlc-cartier-0611",
+        "photos": [
+          "jlc-cartier-0611"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0612",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 黑色表带"
+      },
+      {
+        "key": "v3",
+        "label": "White dial · White strap",
+        "image": "jlc-cartier-0613",
+        "photos": [
+          "jlc-cartier-0613"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘·白色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0608",
+    "coverImage": "jlc-cartier-0608",
+    "coverColor": "v1",
+    "nameZh": "帕莎 — 阿拉伯数字表盘 · 光面表圈 — 皮革表带",
+    "designDetailsZh": "阿拉伯数字表盘 · 光面表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX409",
+    "brand": "Cartier",
+    "baseFamily": "Pasha",
+    "family": "Pasha — Baton dial · Plain bezel",
+    "name": "Pasha — Baton dial · Plain bezel — Leather strap",
+    "designDetails": "Baton dial · Plain bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver dial · Black strap",
+        "image": "jlc-cartier-0614",
+        "photos": [
+          "jlc-cartier-0614"
+        ],
+        "detailImages": [],
+        "labelZh": "银色表盘·黑色表带"
+      },
+      {
+        "key": "v2",
+        "label": "Silver dial · White strap",
+        "image": "jlc-cartier-0615",
+        "photos": [
+          "jlc-cartier-0615"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0616",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "银色表盘 · 白色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0614",
+    "coverImage": "jlc-cartier-0614",
+    "coverColor": "v1",
+    "nameZh": "帕莎 — 条形刻度表盘 · 光面表圈 — 皮革表带",
+    "designDetailsZh": "条形刻度表盘 · 光面表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX410",
+    "brand": "Cartier",
+    "baseFamily": "Tank Américaine",
+    "family": "Tank Américaine — Roman dial · Plain case",
+    "name": "Tank Américaine — Roman dial · Plain case — Leather strap",
+    "designDetails": "Roman dial · Plain case",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Red strap",
+        "image": "jlc-cartier-0637",
+        "photos": [
+          "jlc-cartier-0637"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0642",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0644",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0645",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 红色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0637",
+    "coverImage": "jlc-cartier-0637",
+    "coverColor": "v1",
+    "nameZh": "美国坦克 — 罗马数字表盘 · 光面表壳 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 光面表壳",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX411",
+    "brand": "Cartier",
+    "baseFamily": "Panthère",
+    "family": "Panthère — Roman dial · Plain bezel",
+    "name": "Panthère — Roman dial · Plain bezel — Metal bracelet",
+    "designDetails": "Roman dial · Plain bezel",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone bracelet",
+        "image": "jlc-cartier-0690",
+        "photos": [
+          "jlc-cartier-0690"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0695",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0697",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0698",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·玫瑰色表链"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0690",
+    "coverImage": "jlc-cartier-0690",
+    "coverColor": "v1",
+    "nameZh": "猎豹 — 罗马数字表盘 · 光面表圈 — 金属手链",
+    "designDetailsZh": "罗马数字表盘 · 光面表圈",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX412",
+    "brand": "Cartier",
+    "baseFamily": "Panthère Jewellery",
+    "family": "Panthère Jewellery — Panther motif · Stone-set round case",
+    "name": "Panthère Jewellery — Panther motif · Stone-set round case — Leather strap",
+    "designDetails": "Panther motif · Stone-set round case",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver dial · Pink strap",
+        "image": "jlc-cartier-0710",
+        "photos": [
+          "jlc-cartier-0710"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0712",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0714",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0715",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "银色表盘 · 粉色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0710",
+    "coverImage": "jlc-cartier-0710",
+    "coverColor": "v1",
+    "nameZh": "猎豹珠宝 — 猎豹造型 · 镶石圆形表壳 — 皮革表带",
+    "designDetailsZh": "猎豹造型 · 镶石圆形表壳",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX413",
+    "brand": "Cartier",
+    "baseFamily": "Must de Cartier",
+    "family": "Must de Cartier — Roman and baton dial · Decorative gold-tone bezel",
+    "name": "Must de Cartier — Roman and baton dial · Decorative gold-tone bezel — Leather strap",
+    "designDetails": "Roman and baton dial · Decorative gold-tone bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Black strap",
+        "image": "jlc-cartier-0716",
+        "photos": [
+          "jlc-cartier-0716"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0719",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0720",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0716",
+    "coverImage": "jlc-cartier-0716",
+    "coverColor": "v1",
+    "nameZh": "卡地亚Must — 罗马数字与条形刻度 · 金色装饰表圈 — 皮革表带",
+    "designDetailsZh": "罗马数字与条形刻度 · 金色装饰表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX414",
+    "brand": "Cartier",
+    "baseFamily": "Tank Must",
+    "family": "Tank Must — Roman dial · Plain case",
+    "name": "Tank Must — Roman dial · Plain case — Metal bracelet",
+    "designDetails": "Roman dial · Plain case",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone bracelet",
+        "image": "jlc-cartier-0732",
+        "photos": [
+          "jlc-cartier-0732"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0735",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0736",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0732",
+    "coverImage": "jlc-cartier-0732",
+    "coverColor": "v1",
+    "nameZh": "坦克Must — 罗马数字表盘 · 光面表壳 — 金属手链",
+    "designDetailsZh": "罗马数字表盘 · 光面表壳",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX415",
+    "brand": "Cartier",
+    "baseFamily": "Baignoire",
+    "family": "Baignoire — Roman dial · Stone-set oval case",
+    "name": "Baignoire — Roman dial · Stone-set oval case — Leather strap",
+    "designDetails": "Roman dial · Stone-set oval case",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Blue strap",
+        "image": "jlc-cartier-0738",
+        "photos": [
+          "jlc-cartier-0738"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0741",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0742",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 蓝色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0738",
+    "coverImage": "jlc-cartier-0738",
+    "coverColor": "v1",
+    "nameZh": "浴缸 — 罗马数字表盘 · 镶石椭圆表壳 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 镶石椭圆表壳",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX416",
+    "brand": "Cartier",
+    "baseFamily": "Santos 100",
+    "family": "Santos 100 — Roman dial · Two-tone bezel",
+    "name": "Santos 100 — Roman dial · Two-tone bezel — Leather strap",
+    "designDetails": "Roman dial · Two-tone bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Black strap",
+        "image": "jlc-cartier-0746",
+        "photos": [
+          "jlc-cartier-0746"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0749",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0750",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0751",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0746",
+    "coverImage": "jlc-cartier-0746",
+    "coverColor": "v1",
+    "nameZh": "山度士100 — 罗马数字表盘 · 间色表圈 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 间色表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX417",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin Perpetual",
+    "family": "Master Ultra Thin Perpetual — Baton dial · Perpetual calendar display",
+    "name": "Master Ultra Thin Perpetual — Baton dial · Perpetual calendar display — Leather strap",
+    "designDetails": "Baton dial · Perpetual calendar display",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-0761",
+        "photos": [
+          "jlc-cartier-0761"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0766",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0767",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0768",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0769",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·银色表壳·黑色表带"
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-0849",
+        "photos": [
+          "jlc-cartier-0849"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0854",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0855",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0856",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0857",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘·银色表壳·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0761",
+    "coverImage": "jlc-cartier-0761",
+    "coverColor": "v1",
+    "nameZh": "超薄大师万年历 — 条形刻度表盘 · 万年历表盘 — 皮革表带",
+    "designDetailsZh": "条形刻度表盘 · 万年历表盘",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX418",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin Tourbillon",
+    "family": "Master Ultra Thin Tourbillon — Baton dial · Stone-set bezel · Tourbillon display",
+    "name": "Master Ultra Thin Tourbillon — Baton dial · Stone-set bezel · Tourbillon display — Leather strap",
+    "designDetails": "Baton dial · Stone-set bezel · Tourbillon display",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-0770",
+        "photos": [
+          "jlc-cartier-0770"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0775",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0776",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0777",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0778",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 玫瑰金色表壳 · 棕色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0770",
+    "coverImage": "jlc-cartier-0770",
+    "coverColor": "v1",
+    "nameZh": "超薄大师陀飞轮 — 条形刻度表盘 · 镶石表圈 · 陀飞轮外观 — 皮革表带",
+    "designDetailsZh": "条形刻度表盘 · 镶石表圈 · 陀飞轮外观",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX419",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin Réserve de Marche",
+    "family": "Master Ultra Thin Réserve de Marche — Baton dial · Power reserve · Date · Small seconds",
+    "name": "Master Ultra Thin Réserve de Marche — Baton dial · Power reserve · Date · Small seconds — Leather strap",
+    "designDetails": "Baton dial · Power reserve · Date · Small seconds",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-0779",
+        "photos": [
+          "jlc-cartier-0779"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0784",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0785",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0786",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0787",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·银色表壳·黑色表带"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Rose-tone case · Black strap",
+        "image": "jlc-cartier-1066",
+        "photos": [
+          "jlc-cartier-1066"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1071",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1072",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1073",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1074",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·玫瑰色表壳·黑色表带"
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Silver-tone case · Brown strap",
+        "image": "jlc-cartier-1075",
+        "photos": [
+          "jlc-cartier-1075"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1079",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1080",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1081",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1082",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色表壳 · 棕色表带"
+      },
+      {
+        "key": "v4",
+        "label": "Champagne dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-1101",
+        "photos": [
+          "jlc-cartier-1101"
+        ],
+        "detailImages": [],
+        "labelZh": "香槟色表盘 · 玫瑰金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-1102",
+        "photos": [
+          "jlc-cartier-1102"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘 · 玫瑰金色表壳 · 棕色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0779",
+    "coverImage": "jlc-cartier-0779",
+    "coverColor": "v1",
+    "nameZh": "超薄大师动能显示 — 条形刻度表盘 · 动能显示 · 日历 · 小秒针 — 皮革表带",
+    "designDetailsZh": "条形刻度表盘 · 动能显示 · 日历 · 小秒针",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX420",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin Tourbillon",
+    "family": "Master Ultra Thin Tourbillon — Baton dial · Plain bezel · Tourbillon display",
+    "name": "Master Ultra Thin Tourbillon — Baton dial · Plain bezel · Tourbillon display — Leather strap",
+    "designDetails": "Baton dial · Plain bezel · Tourbillon display",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-0788",
+        "photos": [
+          "jlc-cartier-0788"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0793",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0794",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0795",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0796",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 玫瑰金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-0841",
+        "photos": [
+          "jlc-cartier-0841"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0845",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0846",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0847",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0848",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·银色表壳·黑色表带"
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Rose-tone case · Black strap",
+        "image": "jlc-cartier-0958",
+        "photos": [
+          "jlc-cartier-0958"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0963",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0964",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0965",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0966",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·玫瑰色表壳·黑色表带"
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Gold-tone case · Black strap",
+        "image": "jlc-cartier-1180",
+        "photos": [
+          "jlc-cartier-1180"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1185",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1186",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1187",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1188",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色表壳 · 黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0788",
+    "coverImage": "jlc-cartier-0788",
+    "coverColor": "v1",
+    "nameZh": "超薄大师陀飞轮 — 条形刻度表盘 · 光面表圈 · 陀飞轮外观 — 皮革表带",
+    "designDetailsZh": "条形刻度表盘 · 光面表圈 · 陀飞轮外观",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX421",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin Small Seconds",
+    "family": "Master Ultra Thin Small Seconds — Baton dial · Small seconds",
+    "name": "Master Ultra Thin Small Seconds — Baton dial · Small seconds — Leather strap",
+    "designDetails": "Baton dial · Small seconds",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-0797",
+        "photos": [
+          "jlc-cartier-0797"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0802",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0803",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0804",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0805",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 玫瑰金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-1237",
+        "photos": [
+          "jlc-cartier-1237"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1242",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1243",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1244",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1245",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·银色表壳·黑色表带"
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-1252",
+        "photos": [
+          "jlc-cartier-1252"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1254",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1255",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1256",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1257",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "蓝色表盘·银色表壳·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0797",
+    "coverImage": "jlc-cartier-0797",
+    "coverColor": "v1",
+    "nameZh": "超薄大师小秒针 — 条形刻度表盘 · 小秒针 — 皮革表带",
+    "designDetailsZh": "条形刻度表盘 · 小秒针",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX422",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Geographic",
+    "family": "Master Geographic — Arabic and baton dial · Geographic display",
+    "name": "Master Geographic — Arabic and baton dial · Geographic display — Leather strap",
+    "designDetails": "Arabic and baton dial · Geographic display",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-0858",
+        "photos": [
+          "jlc-cartier-0858"
+        ],
+        "detailImages": [],
+        "labelZh": "蓝色表盘·银色表壳·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0858",
+    "coverImage": "jlc-cartier-0858",
+    "coverColor": "v1",
+    "nameZh": "大师地理学家 — 阿拉伯数字与条形刻度 · 地理时区表盘 — 皮革表带",
+    "designDetailsZh": "阿拉伯数字与条形刻度 · 地理时区表盘",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX423",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin Date",
+    "family": "Master Ultra Thin Date — Baton dial · Date window",
+    "name": "Master Ultra Thin Date — Baton dial · Date window — Leather strap",
+    "designDetails": "Baton dial · Date window",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-0859",
+        "photos": [
+          "jlc-cartier-0859"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0864",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0865",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0866",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0867",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·银色表壳·黑色表带"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone case · Brown strap",
+        "image": "jlc-cartier-1109",
+        "photos": [
+          "jlc-cartier-1109"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘 · 银色表壳 · 棕色表带"
+      },
+      {
+        "key": "v3",
+        "label": "Champagne dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-1110",
+        "photos": [
+          "jlc-cartier-1110"
+        ],
+        "detailImages": [],
+        "labelZh": "香槟色表盘 · 玫瑰金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-1111",
+        "photos": [
+          "jlc-cartier-1111"
+        ],
+        "detailImages": [],
+        "labelZh": "黑色表盘·银色表壳·黑色表带"
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-1112",
+        "photos": [
+          "jlc-cartier-1112"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘 · 玫瑰金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v6",
+        "label": "Black dial · Gold-tone case · Black strap",
+        "image": "jlc-cartier-1114",
+        "photos": [
+          "jlc-cartier-1114"
+        ],
+        "detailImages": [],
+        "labelZh": "黑色表盘 · 金色表壳 · 黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0859",
+    "coverImage": "jlc-cartier-0859",
+    "coverColor": "v1",
+    "nameZh": "超薄大师日历 — 条形刻度表盘 · 日历窗口 — 皮革表带",
+    "designDetailsZh": "条形刻度表盘 · 日历窗口",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX424",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Rendez-Vous",
+    "family": "Rendez-Vous — Arabic dial · Day/night display · Plain bezel",
+    "name": "Rendez-Vous — Arabic dial · Day/night display · Plain bezel — Leather strap",
+    "designDetails": "Arabic dial · Day/night display · Plain bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Blue strap",
+        "image": "jlc-cartier-0877",
+        "photos": [
+          "jlc-cartier-0877"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0882",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0883",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0884",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0885",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色表壳 · 蓝色表带"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-1204",
+        "photos": [
+          "jlc-cartier-1204"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1209",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1210",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1211",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1212",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·银色表壳·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0877",
+    "coverImage": "jlc-cartier-0877",
+    "coverColor": "v1",
+    "nameZh": "约会 — 阿拉伯数字表盘 · 昼夜显示 · 光面表圈 — 皮革表带",
+    "designDetailsZh": "阿拉伯数字表盘 · 昼夜显示 · 光面表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX425",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Polaris Geographic WT",
+    "family": "Polaris Geographic WT — Arabic and baton dial · World time display",
+    "name": "Polaris Geographic WT — Arabic and baton dial · World time display — Leather strap",
+    "designDetails": "Arabic and baton dial · World time display",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-0922",
+        "photos": [
+          "jlc-cartier-0922"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0927",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0928",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0929",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0930",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "蓝色表盘·银色表壳·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0922",
+    "coverImage": "jlc-cartier-0922",
+    "coverColor": "v1",
+    "nameZh": "北宸世界时地理学家 — 阿拉伯数字与条形刻度 · 世界时表盘 — 皮革表带",
+    "designDetailsZh": "阿拉伯数字与条形刻度 · 世界时表盘",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX426",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Rendez-Vous",
+    "family": "Rendez-Vous — Arabic dial · Date window · Stone-set bezel",
+    "name": "Rendez-Vous — Arabic dial · Date window · Stone-set bezel — Leather strap",
+    "designDetails": "Arabic dial · Date window · Stone-set bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Gold-tone case · Red strap",
+        "image": "jlc-cartier-0967",
+        "photos": [
+          "jlc-cartier-0967"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0972",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0973",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0974",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0975",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色表壳 · 红色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0967",
+    "coverImage": "jlc-cartier-0967",
+    "coverColor": "v1",
+    "nameZh": "约会 — 阿拉伯数字表盘 · 日历窗口 · 镶石表圈 — 皮革表带",
+    "designDetailsZh": "阿拉伯数字表盘 · 日历窗口 · 镶石表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX427",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin Moon",
+    "family": "Master Ultra Thin Moon — Baton dial · Moon/date display · Plain bezel",
+    "name": "Master Ultra Thin Moon — Baton dial · Moon/date display · Plain bezel — Metal bracelet",
+    "designDetails": "Baton dial · Moon/date display · Plain bezel",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver-tone bracelet",
+        "image": "jlc-cartier-1003",
+        "photos": [
+          "jlc-cartier-1003"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1008",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1009",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1010",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1011",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-1003",
+    "coverImage": "jlc-cartier-1003",
+    "coverColor": "v1",
+    "nameZh": "超薄大师月相 — 条形刻度表盘 · 月相日历表盘 · 光面表圈 — 金属手链",
+    "designDetailsZh": "条形刻度表盘 · 月相日历表盘 · 光面表圈",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX428",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Rendez-Vous",
+    "family": "Rendez-Vous — Arabic dial · Plain bezel",
+    "name": "Rendez-Vous — Arabic dial · Plain bezel — Leather strap",
+    "designDetails": "Arabic dial · Plain bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Gold-tone case · Red strap",
+        "image": "jlc-cartier-1021",
+        "photos": [
+          "jlc-cartier-1021"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1026",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1027",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1028",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1029",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色表壳 · 红色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-1021",
+    "coverImage": "jlc-cartier-1021",
+    "coverColor": "v1",
+    "nameZh": "约会 — 阿拉伯数字表盘 · 光面表圈 — 皮革表带",
+    "designDetailsZh": "阿拉伯数字表盘 · 光面表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX429",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin",
+    "family": "Master Ultra Thin — Baton dial · Plain bezel",
+    "name": "Master Ultra Thin — Baton dial · Plain bezel — Metal bracelet",
+    "designDetails": "Baton dial · Plain bezel",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver-tone bracelet",
+        "image": "jlc-cartier-1048",
+        "photos": [
+          "jlc-cartier-1048"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1053",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1054",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1055",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1056",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘 · 银色金属表带"
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Two-tone bracelet",
+        "image": "jlc-cartier-1057",
+        "photos": [
+          "jlc-cartier-1057"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1062",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1063",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1064",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1065",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 间色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-1048",
+    "coverImage": "jlc-cartier-1048",
+    "coverColor": "v1",
+    "nameZh": "超薄大师 — 条形刻度表盘 · 光面表圈 — 金属手链",
+    "designDetailsZh": "条形刻度表盘 · 光面表圈",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX430",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin Réserve de Marche",
+    "family": "Master Ultra Thin Réserve de Marche — Baton dial · Power reserve · Date · Small seconds",
+    "name": "Master Ultra Thin Réserve de Marche — Baton dial · Power reserve · Date · Small seconds — Metal bracelet",
+    "designDetails": "Baton dial · Power reserve · Date · Small seconds",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone bracelet",
+        "image": "jlc-cartier-1103",
+        "photos": [
+          "jlc-cartier-1103"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘·玫瑰色表链"
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Rose-tone bracelet",
+        "image": "jlc-cartier-1104",
+        "photos": [
+          "jlc-cartier-1104"
+        ],
+        "detailImages": [],
+        "labelZh": "黑色表盘 · 玫瑰金色金属表带"
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Rose-tone bracelet",
+        "image": "jlc-cartier-1105",
+        "photos": [
+          "jlc-cartier-1105"
+        ],
+        "detailImages": [],
+        "labelZh": "蓝色表盘·玫瑰色表链"
+      },
+      {
+        "key": "v4",
+        "label": "Champagne dial · Rose-tone bracelet",
+        "image": "jlc-cartier-1106",
+        "photos": [
+          "jlc-cartier-1106"
+        ],
+        "detailImages": [],
+        "labelZh": "香槟色表盘 · 玫瑰金色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-1103",
+    "coverImage": "jlc-cartier-1103",
+    "coverColor": "v1",
+    "nameZh": "超薄大师动能显示 — 条形刻度表盘 · 动能显示 · 日历 · 小秒针 — 金属手链",
+    "designDetailsZh": "条形刻度表盘 · 动能显示 · 日历 · 小秒针",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX431",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin",
+    "family": "Master Ultra Thin — Baton dial · Plain bezel",
+    "name": "Master Ultra Thin — Baton dial · Plain bezel — Leather strap",
+    "designDetails": "Baton dial · Plain bezel",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone case · Black strap",
+        "image": "jlc-cartier-1125",
+        "photos": [
+          "jlc-cartier-1125"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘·玫瑰色表壳·黑色表带"
+      },
+      {
+        "key": "v2",
+        "label": "Grey dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-1127",
+        "photos": [
+          "jlc-cartier-1127"
+        ],
+        "detailImages": [],
+        "labelZh": "灰色表盘 · 银色表壳 · 黑色表带"
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-1129",
+        "photos": [
+          "jlc-cartier-1129"
+        ],
+        "detailImages": [],
+        "labelZh": "黑色表盘·银色表壳·黑色表带"
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Rose-tone case · Black strap",
+        "image": "jlc-cartier-1131",
+        "photos": [
+          "jlc-cartier-1131"
+        ],
+        "detailImages": [],
+        "labelZh": "黑色表盘·玫瑰色表壳·黑色表带"
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-1231",
+        "photos": [
+          "jlc-cartier-1231"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1233",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1234",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1235",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1236",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·银色表壳·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-1125",
+    "coverImage": "jlc-cartier-1125",
+    "coverColor": "v1",
+    "nameZh": "超薄大师 — 条形刻度表盘 · 光面表圈 — 皮革表带",
+    "designDetailsZh": "条形刻度表盘 · 光面表圈",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX432",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Polaris Date",
+    "family": "Polaris Date — Arabic and baton dial · Date window",
+    "name": "Polaris Date — Arabic and baton dial · Date window — Rubber strap",
+    "designDetails": "Arabic and baton dial · Date window",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Black rubber strap",
+        "image": "jlc-cartier-1171",
+        "photos": [
+          "jlc-cartier-1171"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1176",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1177",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1178",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1179",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "蓝色表盘 · 黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-1171",
+    "coverImage": "jlc-cartier-1171",
+    "coverColor": "v1",
+    "nameZh": "北宸日历 — 阿拉伯数字与条形刻度 · 日历窗口 — 橡胶表带",
+    "designDetailsZh": "阿拉伯数字与条形刻度 · 日历窗口",
+    "bandNameZh": "橡胶表带"
+  },
+  {
+    "id": "JX433",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Rendez-Vous",
+    "family": "Rendez-Vous — Arabic dial · Day/night display · Plain bezel",
+    "name": "Rendez-Vous — Arabic dial · Day/night display · Plain bezel — Metal bracelet",
+    "designDetails": "Arabic dial · Day/night display · Plain bezel",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone bracelet",
+        "image": "jlc-cartier-1198",
+        "photos": [
+          "jlc-cartier-1198"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-1200",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1201",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1202",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-1203",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-1198",
+    "coverImage": "jlc-cartier-1198",
+    "coverColor": "v1",
+    "nameZh": "约会 — 阿拉伯数字表盘 · 昼夜显示 · 光面表圈 — 金属手链",
+    "designDetailsZh": "阿拉伯数字表盘 · 昼夜显示 · 光面表圈",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX434",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Geographic",
+    "family": "Master Geographic — Arabic dial · Twin subdials · Small seconds",
+    "name": "Master Geographic — Arabic dial · Twin subdials · Small seconds — Leather strap",
+    "designDetails": "Arabic dial · Twin subdials · Small seconds",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-1144",
+        "photos": [
+          "jlc-cartier-1144"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘·银色表壳·黑色表带"
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "image": "jlc-cartier-1145",
+        "photos": [
+          "jlc-cartier-1145"
+        ],
+        "detailImages": [],
+        "labelZh": "黑色表盘·银色表壳·黑色表带"
+      },
+      {
+        "key": "v4",
+        "label": "Grey dial · Silver-tone case · Brown strap",
+        "image": "jlc-cartier-1146",
+        "photos": [
+          "jlc-cartier-1146"
+        ],
+        "detailImages": [],
+        "labelZh": "灰色表盘 · 银色表壳 · 棕色表带"
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Gold-tone case · Orange strap",
+        "image": "jlc-cartier-1147",
+        "photos": [
+          "jlc-cartier-1147"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘 · 金色表壳 · 橙色表带"
+      },
+      {
+        "key": "v6",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "image": "jlc-cartier-1148",
+        "photos": [
+          "jlc-cartier-1148"
+        ],
+        "detailImages": [],
+        "labelZh": "白色表盘 · 玫瑰金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v7",
+        "label": "Black dial · Gold-tone case · Black strap",
+        "image": "jlc-cartier-1149",
+        "photos": [
+          "jlc-cartier-1149"
+        ],
+        "detailImages": [],
+        "labelZh": "黑色表盘 · 金色表壳 · 黑色表带"
+      },
+      {
+        "key": "v8",
+        "label": "Grey dial · Gold-tone case · Brown strap",
+        "image": "jlc-cartier-1150",
+        "photos": [
+          "jlc-cartier-1150"
+        ],
+        "detailImages": [],
+        "labelZh": "灰色表盘 · 金色表壳 · 棕色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-1144",
+    "coverImage": "jlc-cartier-1144",
+    "coverColor": "v2",
+    "nameZh": "大师地理学家 — 阿拉伯数字盘 · 双子盘 · 小秒针 — 皮革表带",
+    "designDetailsZh": "阿拉伯数字盘 · 双子盘 · 小秒针",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX435",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu — Roman dial · Textured dial · Stone-set bezel · Decorative strap",
+    "name": "Ballon Bleu — Roman dial · Textured dial · Stone-set bezel · Decorative strap — Leather strap",
+    "designDetails": "Roman dial · Textured dial · Stone-set bezel · Decorative strap",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v2",
+        "label": "Grey dial · Patterned black strap",
+        "image": "jlc-cartier-0556",
+        "photos": [
+          "jlc-cartier-0556"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0557",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "灰色表盘 · 花纹黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0556",
+    "coverImage": "jlc-cartier-0556",
+    "coverColor": "v2",
+    "nameZh": "蓝气球 — 罗马数字表盘 · 纹理表盘 · 镶石表圈 · 装饰表带 — 皮革表带",
+    "designDetailsZh": "罗马数字表盘 · 纹理表盘 · 镶石表圈 · 装饰表带",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX436",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin Moon",
+    "family": "Master Ultra Thin Moon — Baton dial · Compact dial · Moon/date display · Plain bezel",
+    "name": "Master Ultra Thin Moon — Baton dial · Compact dial · Moon/date display · Plain bezel — Leather strap",
+    "nameZh": "超薄大师月相 — 条形刻度表盘 · 小尺寸盘面 · 月相日历表盘 · 光面表圈 — 皮革表带",
+    "designDetails": "Baton dial · Compact dial · Moon/date display · Plain bezel",
+    "designDetailsZh": "条形刻度表盘 · 小尺寸盘面 · 月相日历表盘 · 光面表圈",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Gold-tone case · Brown strap",
+        "labelZh": "白色表盘 · 金色表壳 · 棕色表带",
+        "image": "jlc-cartier-0886",
+        "photos": [
+          "jlc-cartier-0886"
+        ],
+        "detailImages": [
+          {
+            "image": "jlc-cartier-0890",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0891",
+            "label": "Product detail"
+          },
+          {
+            "image": "jlc-cartier-0892",
+            "label": "Product detail"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "jlc-cartier-0886",
+    "coverImage": "jlc-cartier-0886",
     "coverColor": "v1"
   }
 ];
