@@ -68,7 +68,7 @@ html{scroll-padding-top:calc(var(--jx-header-height,110px) + 16px)}
 .luxury-storefront .catalog-pagination{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px;margin:32px 0}
 .luxury-storefront .catalog-pagination button{margin:0;min-height:44px;padding:10px 15px;border:1px solid #b9b28166;background:#174b3b;color:#eee1b9;font-size:13px;letter-spacing:0;line-height:1.4}
 .luxury-storefront .catalog-pagination button:disabled{opacity:.35;cursor:default}
-.luxury-storefront .catalog-pagination #nextPage{background:#ccb97a;color:#12362a}
+
 .page-picker{display:flex;align-items:center;gap:8px;margin:0;font-size:12px;letter-spacing:0}
 .page-picker select{width:78px;min-height:44px;margin:0;border:1px solid #b9b28188;background:#174b3b;color:#eee1b9;padding:8px;font-size:14px}
 .luxury-storefront #pageStatus{margin:0;font-size:12px}

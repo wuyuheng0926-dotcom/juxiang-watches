@@ -6,6 +6,7 @@ const rows=[["Home","首页","Inicio","Accueil","Startseite","الرئيسية"]
 const normal=s=>s.replace(/\uFE0F/g,'').replace(/\s+/g,' ').trim().toLowerCase();
 const english=s=>s.replace(/\uFE0F/g,'').replace(/\s*[\/·]\s*[\u3400-\u9fff].*$/u,'').trim();
 rows.push(...[["Brand","品牌","Marca","Marque","Marke","العلامة التجارية"],["Products per row","每行展示","Productos por fila","Produits par ligne","Produkte pro Zeile","منتجات في كل صف"],["1 per row","一行 1 款","1 por fila","1 par ligne","1 pro Zeile","منتج واحد لكل صف"],["2 per row","一行 2 款","2 por fila","2 par ligne","2 pro Zeile","منتجان لكل صف"],["3 per row","一行 3 款","3 por fila","3 par ligne","3 pro Zeile","3 منتجات لكل صف"],["4 per row","一行 4 款","4 por fila","4 par ligne","4 pro Zeile","4 منتجات لكل صف"],["First page","第一页","Primera página","Première page","Erste Seite","الصفحة الأولى"],["Last page","最后一页","Última página","Dernière page","Letzte Seite","الصفحة الأخيرة"],["Page","页码","Página","Page","Seite","الصفحة"],["Choose page","选择页码","Elegir página","Choisir une page","Seite wählen","اختر الصفحة"]]);
+rows.push(["Next page","下一页","Página siguiente","Page suivante","Nächste Seite","الصفحة التالية"]);
 const dictionary=new Map();
 for(const row of rows)for(const value of row)dictionary.set(normal(value),row);
 dictionary.set(normal('搜索名称 / 产品编号'),rows.find(r=>r[0]==='Search name or code'));

@@ -114,7 +114,7 @@ function render(){
  if(pageSelect.options.length!==pages)pageSelect.replaceChildren(...Array.from({length:pages},(_,i)=>new Option(String(i+1),String(i+1))));
  pageSelect.value=String(currentPage);pageSelect.disabled=pages===1;
   $('nextPage').disabled=currentPage===pages;
-  $('nextPage').textContent=currentPage===pages?'All watches shown / 已到最后一页':'View more / 查看更多 →';
+  $('nextPage').textContent='Next page / 下一页';
   document.querySelector('.catalog-pagination').hidden=pages===1;
   $('searchEmpty').hidden=!!list.length;$('clearSearch').hidden=!searchTerm;
   $('products').replaceChildren(...visible.map(({p,v,series,code})=>{
