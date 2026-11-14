@@ -26,7 +26,7 @@ const normalizeSearch = value => String(value || '').normalize('NFKD').toLowerCa
 function matchesSearch(p, term, variant) {
   if (!term.trim()) return true;
   const code = normalizeSearch(term);
-  if (/^jx[\s_-]*\d+$/i.test(term.trim())) return normalizeSearch(p.id).startsWith(code);
+  if (/^jx[\s_-]*\d+(?:[\s:_-]*v\d+)?$/i.test(term.trim())) return variant && /v\d+$/i.test(term.trim()) ? normalizeSearch(p.id+'-'+variant.key)===code : normalizeSearch(p.id).startsWith(code);
   const aliases = Object.entries(familyAliases).filter(([k]) => p.family.includes(k)).map(([,v]) => v).join(' ');
   const variants = variant ? [variant] : p.variants;
   const haystack = normalizeSearch([p.id,p.brand,brandAliases[p.brand],p.family,p.nameZh,p.bandName,p.bandNameZh,bandAliases[p.band],aliases,...variants.flatMap(v=>[v.label,v.labelZh])].join(' '));
@@ -35,13 +35,25 @@ function matchesSearch(p, term, variant) {
 function matchingColour(p) { return Math.max(0, p.variants.findIndex(v => matchesSearch(p, searchTerm, v))); }
 const photoFiles = new Map(), selectedColors = new Map();
 let activeBrand='All', activeSeries='All', activeBand='All', searchTerm='', currentPage=1;
-const featuredOrder=['JX012','JX079','JX024','JX042','JX035','JX016','JX076','JX077','JX065','JX066','JX039','JX073'];
+// Individual colour cards keep the original product and variant keys intact.
+const seriesName=p=>p.baseFamily||p.family.split(' — ')[0];
+const catalogBrands=['Rolex','Patek Philippe','Vacheron Constantin','Piaget'];
+const catalogCompare=new Intl.Collator('en',{numeric:true,sensitivity:'base'}).compare;
+const brandRank=b=>{const i=catalogBrands.indexOf(b);return i<0?catalogBrands.length:i;};
+function finishGroup(v){
+ const parts=v.label.split(' · ');
+ // These are existing appearance labels, never verified metal specifications.
+ const finish=parts.find(s=>/^(?:silver|rose|yellow|gold|warm|dark|black)(?:[- ]tone)?(?: case| bracelet)?$/i.test(s)||/^(?:rose|yellow)?\s*two-tone$/i.test(s));
+ return finish?finish.toLowerCase().replace(/-/g,' '):'unspecified';
+}
+const catalogEntries=products.flatMap((p,productOrder)=>p.variants.map((v,variantOrder)=>({p,v,productOrder,variantOrder,series:seriesName(p),finish:finishGroup(v),code:p.id+'-'+v.key}))).sort((a,b)=>
+ brandRank(a.p.brand)-brandRank(b.p.brand)||catalogCompare(a.p.brand,b.p.brand)||catalogCompare(a.series,b.series)||
+ catalogCompare(a.p.designDetails||a.p.family,b.p.designDetails||b.p.family)||catalogCompare(a.p.band,b.p.band)||
+ a.productOrder-b.productOrder||catalogCompare(a.finish,b.finish)||a.variantOrder-b.variantOrder);
 function catalogColumns(){return matchMedia('(max-width:767px)').matches?2:matchMedia('(min-width:1100px)').matches?4:matchMedia('(min-width:800px)').matches?3:2;}
 function pageSize(){return catalogColumns()*3;}
 function filteredProducts(){
-  const list=products.filter(p=>(activeBrand==='All'||p.brand===activeBrand)&&(activeSeries==='All'||p.family===activeSeries)&&(activeBand==='All'||p.band===activeBand)&&matchesSearch(p,searchTerm));
-  if(activeBrand==='All'&&activeSeries==='All'&&activeBand==='All'&&!searchTerm.trim())list.sort((a,b)=>(featuredOrder.indexOf(a.id)<0?999:featuredOrder.indexOf(a.id))-(featuredOrder.indexOf(b.id)<0?999:featuredOrder.indexOf(b.id)));
-  return list;
+ return catalogEntries.filter(({p,v,series,code})=>(activeBrand==='All'||p.brand===activeBrand)&&(activeSeries==='All'||series===activeSeries)&&(activeBand==='All'||p.band===activeBand)&&(normalizeSearch(code)===normalizeSearch(searchTerm)||matchesSearch(p,searchTerm,v)));
 }
 let restoringNavigation=false, ignoredDetailCloses=0, detailController, enquirySelection=null;
 let detailProduct=null, detailVariant=null;
@@ -67,11 +79,18 @@ function closeDetailQuietly(){if($('detail').open){ignoredDetailCloses++;$('deta
 function makeFilter(host,values,selected,onChange,label){
   host.replaceChildren(...values.map(value=>{const b=document.createElement('button');b.type='button';b.textContent=label(value);b.classList.toggle('active',value===selected);b.setAttribute('aria-pressed',String(value===selected));b.onclick=()=>onChange(value);return b;}));
 }
+function makeCatalogSelect(host,values,selected,onChange,label,title){
+ const select=document.createElement('select');select.setAttribute('aria-label',title);
+ select.replaceChildren(...values.map(value=>{const option=document.createElement('option');option.value=value;option.textContent=label(value);option.selected=value===selected;return option;}));
+ select.onchange=()=>onChange(select.value);host.replaceChildren(select);
+}
 function syncControls(){
-  $('productSearch').value=searchTerm;
-  makeFilter(document.querySelector('.brand-filters'),['All',...new Set(products.map(p=>p.brand))],activeBrand,value=>{activeBrand=value;activeSeries='All';currentPage=1;syncControls();render();updateUrl();},v=>v==='All'?'All brands / 全部品牌':v);
-  makeFilter($('seriesFilters'),['All',...new Set(products.filter(p=>activeBrand==='All'||p.brand===activeBrand).map(p=>p.family))],activeSeries,value=>{activeSeries=value;currentPage=1;syncControls();render();updateUrl();},v=>v==='All'?'All series / 全部系列':v);
-  makeFilter($('strapFilters'),['All',...new Set(products.map(p=>p.band))],activeBand,value=>{activeBand=value;currentPage=1;syncControls();render();updateUrl();},v=>v==='All'?'All straps / 全部表带':bandLabels[v]);
+ $('productSearch').value=searchTerm;
+ const brandValues=['All',...new Set(catalogEntries.map(e=>e.p.brand))];
+ makeFilter(document.querySelector('.brand-filters'),brandValues,activeBrand,value=>{activeBrand=value;activeSeries='All';currentPage=1;syncControls();render();updateUrl();},v=>v==='All'?'All brands / 全部品牌':v+' / '+(brandAliases[v]||'').split(' ')[0]);
+ const seriesValues=[...new Set(catalogEntries.filter(e=>activeBrand==='All'||e.p.brand===activeBrand).map(e=>e.series))].sort(catalogCompare);
+ makeCatalogSelect($('seriesFilters'),['All',...seriesValues],activeSeries,value=>{activeSeries=value;currentPage=1;render();updateUrl();},v=>v==='All'?'All series / 全部系列':v+(familyAliases[v]?' / '+familyAliases[v].split(' ')[0]:''),'Series / 系列');
+ makeCatalogSelect($('strapFilters'),['All',...new Set(products.map(p=>p.band))],activeBand,value=>{activeBand=value;currentPage=1;render();updateUrl();},v=>v==='All'?'All straps / 全部表带':bandLabels[v],'Strap / 表带');
 }
 function selectionPhoto(image,alt,attrs='',panel){
   if(!panel)return '<img src="assets/'+esc(image)+'.jpg" alt="'+esc(alt)+'" '+attrs+'>';
@@ -82,45 +101,23 @@ function render(){
   const list=filteredProducts(),size=pageSize(),pages=Math.max(1,Math.ceil(list.length/size));
   currentPage=Math.max(1,Math.min(currentPage,pages));
   const offset=(currentPage-1)*size,visible=list.slice(offset,offset+size);
-  $('resultCount').textContent=list.length?(offset+1)+'–'+(offset+visible.length)+' / '+list.length+' watches · 款腕表'+(searchTerm.trim()?' · '+searchTerm.trim():''):'0 watches / 未找到腕表';
+  $('resultCount').textContent=list.length?(offset+1)+'–'+(offset+visible.length)+' / '+list.length+' selections · 款腕表/配色'+(searchTerm.trim()?' · '+searchTerm.trim():''):'0 watches / 未找到腕表';
   $('pageStatus').textContent=list.length?'Page '+currentPage+' of '+pages+' · 第 '+currentPage+' / '+pages+' 页':'';
   $('previousPage').disabled=currentPage===1;
   $('nextPage').disabled=currentPage===pages;
   $('nextPage').textContent=currentPage===pages?'All watches shown / 已到最后一页':'View more / 查看更多 →';
   document.querySelector('.catalog-pagination').hidden=pages===1;
   $('searchEmpty').hidden=!!list.length;$('clearSearch').hidden=!searchTerm;
-  $('products').replaceChildren(...visible.map(p=>{
-    let index=searchTerm.trim()?matchingColour(p):Math.max(0,p.variants.findIndex(v=>v.key===(selectedColors.get(p.id)||p.coverColor)));
-    const v=p.variants[index],cover=searchTerm.trim()||selectedColors.has(p.id)?v.image:(p.coverImage||v.image),b=document.createElement('article');b.className='product';
-    b.dataset.product=p.id;b.setAttribute('aria-label','Explore '+p.id+' '+p.name);
-    b.innerHTML=`<button type="button" class="product-open"><div class="product-art">${selectionPhoto(cover,p.name+" · "+v.label,'loading="lazy"',v.imagePanel)}<small>${esc(p.id)} / ${p.variants.length} ${p.variants.length===1?'COLOUR':'COLOURS'}</small></div><div class="product-info"><p>${esc(p.brand.toUpperCase())}</p><h3>${esc(p.family)}</h3><span class="name-zh">${esc(p.nameZh)}</span><span class="series-band">${esc(p.bandName)} · ${esc(p.bandNameZh)}</span><div class="series-card-meta"><span class="product-code">${esc(p.id)}</span><strong class="series-price">${money(p.priceUSD)} ${Number.isFinite(p.priceUSD)?'<small>USD</small>':''}</strong></div><span class="card-action">Explore colours & details / 查看配色与细节 ↗</span></div></button>`;
-    const open=b.querySelector('.product-open');
-    open.setAttribute('aria-label','Explore '+p.id+' '+p.name+' · '+v.label);
-    open.onclick=()=>showProduct(p.id,true,p.variants[index].key);
-    if(p.variants.length>1){
-      const colours=document.createElement('div');colours.className='card-colours';
-      colours.setAttribute('role','group');colours.setAttribute('aria-label',p.id+' colours / 配色');
-      const label=document.createElement('span');label.className='card-colours-label';label.textContent='Colours / 配色';colours.append(label);
-      p.variants.forEach((colour,i)=>{
-        const choice=document.createElement('button');choice.type='button';choice.className='card-colour';
-        choice.dataset.color=colour.key;choice.title=colour.labelZh||colour.label;
-        choice.setAttribute('aria-label',p.id+' · '+(colour.labelZh||colour.label));
-        choice.setAttribute('aria-pressed',String(i===index));
-        choice.innerHTML=selectionPhoto(colour.image,colour.label,'loading="lazy"',colour.imagePanel);
-        choice.onclick=()=>{
-          index=i;selectedColors.set(p.id,colour.key);
-          const art=b.querySelector('.product-art');
-          art.innerHTML=selectionPhoto(colour.image,p.name+' · '+colour.label,'',colour.imagePanel)+'<small>'+esc(p.id)+' / '+p.variants.length+' COLOURS</small>';
-          open.setAttribute('aria-label','Explore '+p.id+' '+p.name+' · '+colour.label);
-          colours.querySelectorAll('.card-colour').forEach(x=>x.setAttribute('aria-pressed',String(x===choice)));
-        };
-        colours.append(choice);
-      });
-      b.append(colours);
-    }
-    return b;
+  $('products').replaceChildren(...visible.map(({p,v,series,code})=>{
+    const card=document.createElement('article');card.className='product individual-watch';
+    card.dataset.product=p.id;card.dataset.color=v.key;
+    card.setAttribute('aria-label',p.brand+' '+series+' '+(v.labelZh||v.label)+' '+code);
+    card.innerHTML=`<a class="product-open" href="?design=${encodeURIComponent(p.id)}&amp;color=${encodeURIComponent(v.key)}" aria-label="${esc(p.brand+' '+series+' '+v.label+' '+code)}"><div class="product-art">${selectionPhoto(v.image,p.brand+' '+p.family+' · '+v.label,'loading="lazy"',v.imagePanel)}<small>${esc(code)}</small></div><div class="product-info"><p>${esc(p.brand)}</p><h3>${esc(series)}</h3><span class="name-zh">${esc(p.nameZh)}</span><strong class="watch-colour">${esc(v.labelZh||v.label)}</strong><span class="watch-colour-en">${esc(v.label)}</span><span class="series-band">${esc(p.bandName)} · ${esc(p.bandNameZh)}</span><div class="series-card-meta"><span class="product-code">${esc(code)}</span><strong class="series-price">${money(p.priceUSD)} ${Number.isFinite(p.priceUSD)?'<small>USD</small>':''}</strong></div><span class="card-action">View this watch / 查看此款详情 ↗</span></div></a>`;
+    card.querySelector('.product-open').onclick=e=>{e.preventDefault();showProduct(p.id,true,v.key);};
+    return card;
   }));
 }
+
 function resolveProduct(id,color){
   const variantAlias = color && legacyVariantLinks[id+':'+color];
   const alias = variantAlias || legacyProductLinks[id];
@@ -136,11 +133,11 @@ function showProduct(id,recordHistory=true,color){
   const p=resolved.p;const start=Math.max(0,p.variants.findIndex(v=>v.key===(resolved.color||selectedColors.get(p.id))));
   detailController?.abort();detailController=new AbortController();const signal=detailController.signal;
   detailProduct=p;
-  $('detailBody').innerHTML=`<div class="detail-layout series-detail-layout"><div class="series-gallery"><div class="colour-gallery" id="colourGallery" role="region" aria-roledescription="carousel" aria-label="Product colours / 产品配色" tabindex="0"><div class="colour-track" id="colourTrack">${p.variants.map((v,i)=>`<div class="colour-slide" role="group" aria-roledescription="slide" aria-label="${i+1} of ${p.variants.length}">${selectionPhoto(v.image,v.label,'draggable="false" '+(i===start?'fetchpriority="high"':'loading="lazy"'),v.imagePanel)}</div>`).join('')}</div><div class="colour-gallery-controls"><button type="button" id="colourPrev" aria-label="Previous colour / 上一个配色">‹</button><span id="colourCounter" aria-live="polite"></span><button type="button" id="colourNext" aria-label="Next colour / 下一个配色">›</button></div></div><p class="gallery-instruction">${p.variants.length>1?'Swipe left or right to explore colours / 左右滑动查看不同配色':'Selected photograph / 当前款式照片'}</p><div class="colour-thumbs" role="group" aria-label="Choose a colour / 选择配色">${p.variants.map(v=>`<button type="button" data-color="${esc(v.key)}" aria-label="Choose colour: ${esc(v.label)}">${selectionPhoto(v.image,'','loading="lazy"',v.imagePanel)}</button>`).join('')}</div></div><div class="series-summary"><p class="eyebrow">${esc(p.brand)} / SERIES CODE · 系列编号</p><span class="detail-series-code">${esc(p.id)}</span><h2>${esc(p.family)}</h2><p class="detail-chinese">${esc(p.nameZh)}</p><p class="detail-price">${money(p.priceUSD)} ${Number.isFinite(p.priceUSD)?'<span>USD</span>':''}</p><div class="spec"><strong>Strap / 表带</strong><span>${esc(p.bandName)} / ${esc(p.bandNameZh)}</span></div><div class="spec selected-colour"><strong>Colour / 配色</strong><span id="selectedColour"></span></div><p class="colour-name-zh" id="selectedColourZh"></p><p>${esc(p.description)}</p><div class="spec"><strong>Official family size reference</strong><span>${esc(p.sizeReference)}</span></div><a class="button" id="detailContact" target="_blank" rel="noopener noreferrer">WHATSAPP ENQUIRY ↗</a><button class="button share-photo" id="productShare" disabled>PREPARING PHOTO…</button><a class="text-link" id="detailDownload" download>Download selected colour ↓</a><p id="productShareStatus" class="share-hint" role="status"></p><button type="button" class="text-link" id="productEnquire">Add enquiry details ↗</button></div></div><div id="detailPhotoArea"></div>${p.referencePhotos.length?`<details class="reference-library"><summary>More supplied photographs / 更多原始照片 (${p.referencePhotos.length})</summary><div class="reference-grid">${p.referencePhotos.map(photo=>`<figure><a href="assets/${esc(photo.image)}.jpg" target="_blank" rel="noopener"><img src="assets/${esc(photo.image)}.jpg" alt="${esc(photo.labelZh)}" loading="lazy"></a><figcaption>${esc(photo.labelZh)}</figcaption></figure>`).join('')}</div></details>`:''}`;
+  $('detailBody').innerHTML=`<div class="detail-layout series-detail-layout"><div class="series-gallery"><div class="colour-gallery" id="colourGallery" role="region" aria-roledescription="carousel" aria-label="Product colours / 产品配色" tabindex="0"><div class="colour-track" id="colourTrack">${p.variants.map((v,i)=>`<div class="colour-slide" role="group" aria-roledescription="slide" aria-label="${i+1} of ${p.variants.length}">${selectionPhoto(v.image,v.label,'draggable="false" '+(i===start?'fetchpriority="high"':'loading="lazy"'),v.imagePanel)}</div>`).join('')}</div><div class="colour-gallery-controls"><button type="button" id="colourPrev" aria-label="Previous colour / 上一个配色">‹</button><span id="colourCounter" aria-live="polite"></span><button type="button" id="colourNext" aria-label="Next colour / 下一个配色">›</button></div></div><p class="gallery-instruction">${p.variants.length>1?'Swipe left or right to explore colours / 左右滑动查看不同配色':'Selected photograph / 当前款式照片'}</p><div class="colour-thumbs" role="group" aria-label="Choose a colour / 选择配色">${p.variants.map(v=>`<button type="button" data-color="${esc(v.key)}" aria-label="Choose colour: ${esc(v.label)}">${selectionPhoto(v.image,'','loading="lazy"',v.imagePanel)}</button>`).join('')}</div></div><div class="series-summary"><p class="eyebrow">${esc(p.brand)} / SERIES CODE · 系列编号</p><span class="detail-series-code" id="detailSelectionCode">${esc(p.id)}</span><h2>${esc(p.family)}</h2><p class="detail-chinese">${esc(p.nameZh)}</p><p class="detail-price">${money(p.priceUSD)} ${Number.isFinite(p.priceUSD)?'<span>USD</span>':''}</p><div class="spec"><strong>Strap / 表带</strong><span>${esc(p.bandName)} / ${esc(p.bandNameZh)}</span></div><div class="spec selected-colour"><strong>Colour / 配色</strong><span id="selectedColour"></span></div><p class="colour-name-zh" id="selectedColourZh"></p><p>${esc(p.description)}</p><div class="spec"><strong>Official family size reference</strong><span>${esc(p.sizeReference)}</span></div><a class="button" id="detailContact" target="_blank" rel="noopener noreferrer">WHATSAPP ENQUIRY ↗</a><button class="button share-photo" id="productShare" disabled>PREPARING PHOTO…</button><a class="text-link" id="detailDownload" download>Download selected colour ↓</a><p id="productShareStatus" class="share-hint" role="status"></p><button type="button" class="text-link" id="productEnquire">Add enquiry details ↗</button></div></div><div id="detailPhotoArea"></div>${p.referencePhotos.length?`<details class="reference-library"><summary>More supplied photographs / 更多原始照片 (${p.referencePhotos.length})</summary><div class="reference-grid">${p.referencePhotos.map(photo=>`<figure><a href="assets/${esc(photo.image)}.jpg" target="_blank" rel="noopener"><img src="assets/${esc(photo.image)}.jpg" alt="${esc(photo.labelZh)}" loading="lazy"></a><figcaption>${esc(photo.labelZh)}</figcaption></figure>`).join('')}</div></details>`:''}`;
   const track=$('colourTrack');let index=start,frame=0,drag=null;
   function selectColour(n,scroll=true,record=true){
     index=(n+p.variants.length)%p.variants.length;const v=p.variants[index];detailVariant=v;selectedColors.set(p.id,v.key);
-    $('selectedColour').textContent=v.label;$('selectedColourZh').textContent=v.labelZh;
+    $('detailSelectionCode').textContent=p.id+'-'+v.key;$('selectedColour').textContent=v.label;$('selectedColourZh').textContent=v.labelZh;
     $('colourCounter').textContent=String(index+1).padStart(2,'0')+' / '+String(p.variants.length).padStart(2,'0');
     $('colourPrev').disabled=$('colourNext').disabled=p.variants.length<2;
     document.querySelectorAll('[data-color]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.color===v.key)));
@@ -170,7 +167,9 @@ function showProduct(id,recordHistory=true,color){
 function readLocation(){
   const q=new URLSearchParams(location.search);searchTerm=q.get('q')||'';
   activeBrand=products.some(p=>p.brand===q.get('brand'))?q.get('brand'):'All';
-  activeSeries=products.some(p=>p.family===q.get('series')&&(activeBrand==='All'||p.brand===activeBrand))?q.get('series'):'All';
+  const requestedSeries=q.get('series'),oldSeries=products.find(p=>p.family===requestedSeries);
+  const broadSeries=oldSeries?seriesName(oldSeries):requestedSeries;
+  activeSeries=products.some(p=>seriesName(p)===broadSeries&&(activeBrand==='All'||p.brand===activeBrand))?broadSeries:'All';
   activeBand=Object.hasOwn(bandLabels,q.get('band'))?q.get('band'):'All';currentPage=Math.max(1,parseInt(q.get('page'),10)||1);return q;
 }
 function restoreNavigation(){
