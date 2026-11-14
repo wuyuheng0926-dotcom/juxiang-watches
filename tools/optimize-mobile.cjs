@@ -23,7 +23,7 @@ core+='window.JXThumbnailIds=new Set('+JSON.stringify(names('thumbs'))+');window
 fs.writeFileSync(out+'/catalog.js',core);
 fs.writeFileSync(out+'/storefront-core.js',['contact.js','price-access.js','app.js','site-languages-20261114.js'].map(f=>fs.readFileSync(f,'utf8')).join('\n;\n'));
 let html=scrubLogo(h).replace(/<link rel="stylesheet" href="[^"]+">/g,'');
-html=html.replace('</head>','<link rel="stylesheet" href="mobile-storefront.css?v=mobile-fast-1"><link rel="preload" as="script" href="storefront-core.js?v=mobile-fast-1"></head>');
+html=html.replace('</head>','<link rel="stylesheet" href="mobile-storefront.css?v=mobile-fast-1"><link rel="preload" as="script" href="storefront-core.js?v=mobile-key-retry-1"></head>');
 html=html.replace('href="assets/jx-emblem-light-20261114.png"','href="assets/jx-favicon.png"');
 html=html.replace(/(<a[^>]*data-hero-product="([^"]+)"[^>]*data-color="([^"]+)"[^>]*><img[^>]*src=")assets\/[^"]+\.jpg(")/g,(_,prefix,id,key,suffix)=>{const p=c.result.products.find(p=>p.id===id),v=p?.variants.find(v=>v.key===key);return prefix+'assets/'+(v?.image||'')+'.jpg'+suffix;});
 let i=0;html=html.replace(/src="assets\/([^"]+)\.jpg"/g,(_,id)=>i++===0?'src="assets/hero/'+id+'.webp"':'data-src="assets/hero/'+id+'.webp"');

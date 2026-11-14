@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: juxiang-watches
+    runtime: static
+    repo: https://github.com/wuyuheng0926-dotcom/juxiang-watches
+    branch: main
+    autoDeployTrigger: commit
+    buildCommand: sh build.sh
+    staticPublishPath: public
+    routes:
+      - type: rewrite
+        source: /price-api/*
+        destination: https://juxiang-render-admin.fleecycroissant1.chatgpt.site/api/*
