@@ -3707,8 +3707,8 @@ const products = [
       }
     ],
     "detailImages": [],
-    "coverImage": "rolex2-352",
-    "coverColor": "v3"
+    "coverImage": "rolex-032",
+    "coverColor": "v1"
   },
   {
     "id": "JX078",
@@ -4466,7 +4466,7 @@ const products = [
         "key": "v9",
         "label": "Ice-blue dial · Brown bezel",
         "labelZh": "冰蓝盘 · 棕圈",
-        "image": "rolex-577",
+        "image": "rolex2-111",
         "photos": [
           {
             "image": "rolex-577",
@@ -4475,6 +4475,11 @@ const products = [
           }
         ],
         "detailImages": [
+          {
+            "image": "rolex-577",
+            "alt": "Ice-blue dial · Brown bezel",
+            "caption": "Additional supplied view / 补充实拍角度"
+          },
           {
             "image": "rolex-576",
             "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Product detail",
@@ -4522,11 +4527,6 @@ const products = [
           },
           {
             "image": "rolex2-110",
-            "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
-            "caption": "Supplied product photograph / 用户提供的产品照片"
-          },
-          {
-            "image": "rolex2-111",
             "alt": "Cosmograph Daytona · Ice-blue dial · Brown bezel · Supplied photograph",
             "caption": "Supplied product photograph / 用户提供的产品照片"
           },
@@ -4601,20 +4601,9 @@ const products = [
         "key": "v11",
         "label": "Black dial · Black bezel",
         "labelZh": "黑盘黑圈",
-        "image": "rolex-647",
-        "photos": [
-          {
-            "image": "rolex-647",
-            "label": "Black dial · Black bezel · Box set",
-            "labelZh": "黑盘黑圈 · 套装实拍"
-          }
-        ],
+        "image": "rolex2-600",
+        "photos": [],
         "detailImages": [
-          {
-            "image": "rolex2-600",
-            "alt": "Cosmograph Daytona · Black dial · Black bezel · Supplied photograph",
-            "caption": "Supplied product photograph / 用户提供的产品照片"
-          },
           {
             "image": "rolex2-601",
             "alt": "Cosmograph Daytona · Black dial · Black bezel · Supplied photograph",
@@ -6231,7 +6220,7 @@ const products = [
     "category": "Sport",
     "priceUSD": 139,
     "currency": "USD",
-    "image": "rolex-150",
+    "image": "rolex2-126",
     "sizeReference": "Unconfirmed / 待确认",
     "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
     "variants": [
@@ -6239,20 +6228,9 @@ const products = [
         "key": "v1",
         "label": "Black dial · Yellow two-tone",
         "labelZh": "黑盘 · 金银双色",
-        "image": "rolex-150",
-        "photos": [
-          {
-            "image": "rolex-150",
-            "label": "Black dial · Yellow two-tone",
-            "labelZh": "黑盘 · 金银双色"
-          }
-        ],
+        "image": "rolex2-126",
+        "photos": [],
         "detailImages": [
-          {
-            "image": "rolex-149",
-            "alt": "Submariner · Black dial · Yellow two-tone · Product detail",
-            "caption": "Product detail / 产品细节"
-          },
           {
             "image": "rolex-151",
             "alt": "Submariner · Black dial · Yellow two-tone · Product detail",
@@ -6287,11 +6265,6 @@ const products = [
             "image": "rolex-157",
             "alt": "Submariner · Black dial · Yellow two-tone · Product detail",
             "caption": "Product detail / 产品细节"
-          },
-          {
-            "image": "rolex2-126",
-            "alt": "Submariner · Black dial · Yellow two-tone · Supplied photograph",
-            "caption": "Supplied product photograph / 用户提供的产品照片"
           },
           {
             "image": "rolex2-127",
@@ -7023,7 +6996,7 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "coverImage": "rolex-150",
+    "coverImage": "rolex2-126",
     "coverColor": "v1",
     "baseFamily": "Submariner",
     "designDetails": "Diver bezel · Plain case and bracelet",
@@ -8303,28 +8276,20 @@ const products = [
         "label": "Black dial · Rose tone",
         "labelZh": "黑盘玫瑰金色",
         "image": "rolex-643",
-        "photos": [
-          {
-            "image": "rolex-643",
-            "label": "Black dial · Rose tone · Box set",
-            "labelZh": "黑盘玫瑰金色 · 套装实拍"
-          }
-        ],
-        "detailImages": []
+        "photos": [],
+        "detailImages": [],
+        "catalogHidden": true,
+        "catalogHiddenReason": "Awaiting a clean single-watch front photograph"
       },
       {
         "key": "v9",
         "label": "Rose dial · Rose tone",
         "labelZh": "玫瑰金色盘",
         "image": "rolex-645",
-        "photos": [
-          {
-            "image": "rolex-645",
-            "label": "Rose dial · Rose tone · Box set",
-            "labelZh": "玫瑰金色盘 · 套装实拍"
-          }
-        ],
-        "detailImages": []
+        "photos": [],
+        "detailImages": [],
+        "catalogHidden": true,
+        "catalogHiddenReason": "Awaiting a clean single-watch front photograph"
       },
       {
         "key": "v11",
@@ -9711,7 +9676,7 @@ const products = [
     "category": "Sport",
     "priceUSD": 142,
     "currency": "USD",
-    "image": "rolex-649",
+    "image": "rolex2-295",
     "sizeReference": "Unconfirmed / 待确认",
     "description": "Choose a colour and swipe through the supplied product photographs. Matching close-ups, case, bracelet and clasp views appear below. Colours and finishes describe the photographed appearance; exact reference and dimensions are unconfirmed.",
     "variants": [
@@ -9719,20 +9684,9 @@ const products = [
         "key": "v2",
         "label": "Blue dial · Blue bezel",
         "labelZh": "蓝盘 · 蓝圈",
-        "image": "rolex-649",
-        "photos": [
-          {
-            "image": "rolex-649",
-            "label": "Blue dial · Blue bezel",
-            "labelZh": "蓝盘 · 蓝圈"
-          }
-        ],
+        "image": "rolex2-295",
+        "photos": [],
         "detailImages": [
-          {
-            "image": "rolex2-295",
-            "alt": "Submariner · Blue dial · Blue bezel · Supplied photograph",
-            "caption": "Supplied product photograph / 用户提供的产品照片"
-          },
           {
             "image": "rolex2-406",
             "alt": "Submariner · Blue dial · Blue bezel · Supplied photograph",
@@ -9743,7 +9697,7 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "coverImage": "rolex-649",
+    "coverImage": "rolex2-295",
     "coverColor": "v2",
     "baseFamily": "Submariner",
     "designDetails": "Diver bezel · Ribbed strap",
@@ -9822,7 +9776,9 @@ const products = [
             "alt": "Submariner · Black dial · Red strap · Supplied photograph",
             "caption": "Supplied product photograph / 用户提供的产品照片"
           }
-        ]
+        ],
+        "catalogHidden": true,
+        "catalogHiddenReason": "Awaiting a clean single-watch front photograph"
       },
       {
         "key": "v5",
@@ -9842,7 +9798,9 @@ const products = [
             "alt": "Submariner · Green dial · White strap · Supplied photograph",
             "caption": "Supplied product photograph / 用户提供的产品照片"
           }
-        ]
+        ],
+        "catalogHidden": true,
+        "catalogHiddenReason": "Awaiting a clean single-watch front photograph"
       },
       {
         "key": "v6",
@@ -9856,7 +9814,9 @@ const products = [
             "labelZh": "黑盘黑圈 · 棕色胶带"
           }
         ],
-        "detailImages": []
+        "detailImages": [],
+        "catalogHidden": true,
+        "catalogHiddenReason": "Awaiting a clean single-watch front photograph"
       }
     ],
     "referencePhotos": [],
@@ -10521,7 +10481,7 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "coverImage": "rolex2-010",
+    "coverImage": "rolex-511",
     "coverColor": "v1"
   },
   {
@@ -11097,8 +11057,8 @@ const products = [
       }
     ],
     "detailImages": [],
-    "coverImage": "rolex2-388",
-    "coverColor": "v3"
+    "coverImage": "rolex-711",
+    "coverColor": "v1"
   },
   {
     "id": "JX097",
@@ -11549,7 +11509,9 @@ const products = [
             "labelZh": "蓝盘银色 · 蓝色胶带 · 合照中的蓝盘款"
           }
         ],
-        "detailImages": []
+        "detailImages": [],
+        "catalogHidden": true,
+        "catalogHiddenReason": "Awaiting a clean single-watch front photograph"
       }
     ],
     "referencePhotos": [
@@ -11935,7 +11897,9 @@ const products = [
             "labelZh": "深色盘银色 · 黑色皮带 · 枕座展示"
           }
         ],
-        "detailImages": []
+        "detailImages": [],
+        "catalogHidden": true,
+        "catalogHiddenReason": "Awaiting a clean single-watch front photograph"
       }
     ],
     "referencePhotos": [],
@@ -11974,7 +11938,9 @@ const products = [
             "labelZh": "白盘暖金色表壳 · 棕色皮带"
           }
         ],
-        "detailImages": []
+        "detailImages": [],
+        "catalogHidden": true,
+        "catalogHiddenReason": "Awaiting a clean single-watch front photograph"
       }
     ],
     "referencePhotos": [],
@@ -12058,7 +12024,7 @@ const products = [
     "category": "Classic",
     "priceUSD": 159,
     "currency": "USD",
-    "image": "vc-new-032",
+    "image": "vc-new-008",
     "sizeReference": "Unconfirmed / 待确认",
     "description": "Selection shown in user-supplied photographs. Colour names describe appearance only. Exact model, dimensions, materials, movement, authenticity, stock and price are unconfirmed; please enquire. Combined photographs may show additional watches or finishes; confirm your selected watch before ordering.",
     "variants": [
@@ -12094,7 +12060,13 @@ const products = [
             "labelZh": "白盘金色 · 红色皮带"
           }
         ],
-        "detailImages": []
+        "detailImages": [
+          {
+            "image": "vc-new-085",
+            "alt": "Champagne dial · Yellow tone · Red strap · Wrist view",
+            "caption": "Additional supplied photograph / 补充实拍照片"
+          }
+        ]
       },
       {
         "key": "v4",
@@ -12230,36 +12202,13 @@ const products = [
             "image": "vc-new-061",
             "alt": "Traditionnelle-style — Unconfirmed · White rail-track dial · Yellow tone · Pink strap",
             "caption": "Supplied product photograph / 用户提供的产品照片"
-          }
-        ]
-      },
-      {
-        "key": "v13",
-        "label": "White dial · Warm tone · Pink strap · Wrist view",
-        "labelZh": "白盘暖金色 · 粉色皮带 · 上手供图",
-        "image": "vc-new-084",
-        "photos": [
+          },
           {
             "image": "vc-new-084",
-            "label": "White dial · Warm tone · Pink strap · Wrist view",
-            "labelZh": "白盘暖金色 · 粉色皮带 · 上手供图"
+            "alt": "White dial · Warm tone · Pink strap · Wrist view",
+            "caption": "Additional supplied photograph / 补充实拍照片"
           }
-        ],
-        "detailImages": []
-      },
-      {
-        "key": "v14",
-        "label": "Champagne dial · Yellow tone · Red strap · Wrist view",
-        "labelZh": "香槟盘金色 · 红色皮带 · 上手供图",
-        "image": "vc-new-085",
-        "photos": [
-          {
-            "image": "vc-new-085",
-            "label": "Champagne dial · Yellow tone · Red strap · Wrist view",
-            "labelZh": "香槟盘金色 · 红色皮带 · 上手供图"
-          }
-        ],
-        "detailImages": []
+        ]
       }
     ],
     "referencePhotos": [
@@ -12270,8 +12219,8 @@ const products = [
       }
     ],
     "detailImages": [],
-    "coverImage": "vc-new-032",
-    "coverColor": "v4",
+    "coverImage": "vc-new-008",
+    "coverColor": "v1",
     "baseFamily": "Traditionnelle-style — Unconfirmed",
     "designDetails": "Rail-track dial · Decorated lugs · Patterned strap",
     "designDetailsZh": "轨道刻度盘 · 装饰表耳 · 压纹皮带"
@@ -13180,7 +13129,8 @@ const products = [
         "labelZh": "白盘与灰盘对照"
       }
     ],
-    "detailImages": []
+    "detailImages": [],
+    "baseFamily": "Nautilus"
   },
   {
     "id": "JX109",
@@ -13242,7 +13192,8 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "baseFamily": "Nautilus"
   },
   {
     "id": "JX110",
@@ -13323,7 +13274,8 @@ const products = [
       }
     ],
     "referencePhotos": [],
-    "detailImages": []
+    "detailImages": [],
+    "baseFamily": "Aquanaut"
   },
   {
     "id": "JX184",
@@ -13536,7 +13488,7 @@ const products = [
         "key": "v1",
         "label": "Silver-tone decorated case · Black strap · Turbine motif",
         "labelZh": "银色装饰表壳 · 黑带 · 涡轮造型盘",
-        "image": "rm-import-0022",
+        "image": "rm-import-0019",
         "photos": [
           {
             "image": "rm-import-0022"
@@ -13544,9 +13496,9 @@ const products = [
         ],
         "detailImages": [
           {
-            "image": "rm-import-0019",
-            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Black strap · Turbine motif",
-            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+            "image": "rm-import-0022",
+            "alt": "Silver-tone decorated case · Black strap · Turbine motif",
+            "caption": "Additional supplied view / 补充实拍角度"
           },
           {
             "image": "rm-import-0020",
@@ -13588,8 +13540,8 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "image": "rm-import-0022",
-    "coverImage": "rm-import-0022",
+    "image": "rm-import-0019",
+    "coverImage": "rm-import-0019",
     "coverColor": "v1"
   },
   {
@@ -13692,7 +13644,7 @@ const products = [
         "key": "v1",
         "label": "Warm-tone case · Dark dial · Red strap",
         "labelZh": "暖金色表壳 · 深色盘 · 红色表带",
-        "image": "rm-import-0048",
+        "image": "rm-import-0046",
         "photos": [
           {
             "image": "rm-import-0048"
@@ -13700,9 +13652,9 @@ const products = [
         ],
         "detailImages": [
           {
-            "image": "rm-import-0046",
-            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Dark dial · Red strap",
-            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+            "image": "rm-import-0048",
+            "alt": "Warm-tone case · Dark dial · Red strap",
+            "caption": "Additional supplied view / 补充实拍角度"
           },
           {
             "image": "rm-import-0047",
@@ -13744,8 +13696,8 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "image": "rm-import-0048",
-    "coverImage": "rm-import-0048",
+    "image": "rm-import-0046",
+    "coverImage": "rm-import-0046",
     "coverColor": "v1"
   },
   {
@@ -14159,7 +14111,7 @@ const products = [
         "key": "v1",
         "label": "Green case · Yellow accents · Green strap",
         "labelZh": "绿色表壳 · 黄色点缀 · 绿色表带",
-        "image": "rm-import-0103",
+        "image": "rm-import-0100",
         "photos": [
           {
             "image": "rm-import-0103"
@@ -14167,9 +14119,9 @@ const products = [
         ],
         "detailImages": [
           {
-            "image": "rm-import-0100",
-            "alt": "Richard Mille Tonneau — Unconfirmed · Green case · Yellow accents · Green strap",
-            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+            "image": "rm-import-0103",
+            "alt": "Green case · Yellow accents · Green strap",
+            "caption": "Additional supplied view / 补充实拍角度"
           },
           {
             "image": "rm-import-0101",
@@ -14211,8 +14163,8 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "image": "rm-import-0103",
-    "coverImage": "rm-import-0103",
+    "image": "rm-import-0100",
+    "coverImage": "rm-import-0100",
     "coverColor": "v1"
   },
   {
@@ -15129,7 +15081,7 @@ const products = [
         "key": "v1",
         "label": "Dark case · Rose-colour dial accents · Black strap",
         "labelZh": "深色表壳 · 玫瑰金色盘面点缀 · 黑色表带",
-        "image": "rm-import-0220",
+        "image": "rm-import-0218",
         "photos": [
           {
             "image": "rm-import-0220"
@@ -15137,9 +15089,9 @@ const products = [
         ],
         "detailImages": [
           {
-            "image": "rm-import-0218",
-            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour dial accents · Black strap",
-            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+            "image": "rm-import-0220",
+            "alt": "Dark case · Rose-colour dial accents · Black strap",
+            "caption": "Additional supplied view / 补充实拍角度"
           },
           {
             "image": "rm-import-0219",
@@ -15181,8 +15133,8 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "image": "rm-import-0220",
-    "coverImage": "rm-import-0220",
+    "image": "rm-import-0218",
+    "coverImage": "rm-import-0218",
     "coverColor": "v1"
   },
   {
@@ -15499,7 +15451,7 @@ const products = [
         "key": "v1",
         "label": "Dark case · Warm dial accents · Black strap",
         "labelZh": "深色表壳 · 暖色盘面点缀 · 黑色表带",
-        "image": "rm-import-0266",
+        "image": "rm-import-0263",
         "photos": [
           {
             "image": "rm-import-0266"
@@ -15507,9 +15459,9 @@ const products = [
         ],
         "detailImages": [
           {
-            "image": "rm-import-0263",
-            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Warm dial accents · Black strap",
-            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+            "image": "rm-import-0266",
+            "alt": "Dark case · Warm dial accents · Black strap",
+            "caption": "Additional supplied view / 补充实拍角度"
           },
           {
             "image": "rm-import-0264",
@@ -15551,8 +15503,8 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "image": "rm-import-0266",
-    "coverImage": "rm-import-0266",
+    "image": "rm-import-0263",
+    "coverImage": "rm-import-0263",
     "coverColor": "v1"
   },
   {
@@ -15577,7 +15529,7 @@ const products = [
         "key": "v1",
         "label": "Rose-tone case · Dark dial · Black strap",
         "labelZh": "玫瑰金色表壳 · 深色盘 · 黑色表带",
-        "image": "rm-import-0275",
+        "image": "rm-import-0272",
         "photos": [
           {
             "image": "rm-import-0275"
@@ -15585,9 +15537,9 @@ const products = [
         ],
         "detailImages": [
           {
-            "image": "rm-import-0272",
-            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · Black strap",
-            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+            "image": "rm-import-0275",
+            "alt": "Rose-tone case · Dark dial · Black strap",
+            "caption": "Additional supplied view / 补充实拍角度"
           },
           {
             "image": "rm-import-0273",
@@ -15629,8 +15581,8 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "image": "rm-import-0275",
-    "coverImage": "rm-import-0275",
+    "image": "rm-import-0272",
+    "coverImage": "rm-import-0272",
     "coverColor": "v1"
   },
   {
@@ -15655,13 +15607,18 @@ const products = [
         "key": "v1",
         "label": "Dark case · Dark dial · Black strap",
         "labelZh": "深色表壳 · 深色盘 · 黑色表带",
-        "image": "rm-import-0283",
+        "image": "rm-import-0286",
         "photos": [
           {
             "image": "rm-import-0283"
           }
         ],
         "detailImages": [
+          {
+            "image": "rm-import-0283",
+            "alt": "Dark case · Dark dial · Black strap",
+            "caption": "Additional supplied view / 补充实拍角度"
+          },
           {
             "image": "rm-import-0281",
             "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Black strap",
@@ -15683,11 +15640,6 @@ const products = [
             "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
           },
           {
-            "image": "rm-import-0286",
-            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Black strap",
-            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
-          },
-          {
             "image": "rm-import-0287",
             "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Black strap",
             "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
@@ -15697,8 +15649,8 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "image": "rm-import-0283",
-    "coverImage": "rm-import-0283",
+    "image": "rm-import-0286",
+    "coverImage": "rm-import-0286",
     "coverColor": "v1"
   },
   {
@@ -15723,7 +15675,7 @@ const products = [
         "key": "v1",
         "label": "Warm-tone case · Multicolour dragon motif · Black strap",
         "labelZh": "暖金色表壳 · 多彩图龙形盘 · 黑色表带",
-        "image": "rm-import-0292",
+        "image": "rm-import-0290",
         "photos": [
           {
             "image": "rm-import-0292"
@@ -15731,9 +15683,9 @@ const products = [
         ],
         "detailImages": [
           {
-            "image": "rm-import-0290",
-            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Multicolour dragon motif · Black strap",
-            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+            "image": "rm-import-0292",
+            "alt": "Warm-tone case · Multicolour dragon motif · Black strap",
+            "caption": "Additional supplied view / 补充实拍角度"
           },
           {
             "image": "rm-import-0291",
@@ -15775,8 +15727,8 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "image": "rm-import-0292",
-    "coverImage": "rm-import-0292",
+    "image": "rm-import-0290",
+    "coverImage": "rm-import-0290",
     "coverColor": "v1"
   },
   {
@@ -15954,7 +15906,7 @@ const products = [
         "key": "v1",
         "label": "Dark case · Arabic dial · Black strap",
         "labelZh": "深色表壳 · 阿拉伯数字盘 · 黑色表带",
-        "image": "rm-import-0319",
+        "image": "rm-import-0316",
         "photos": [
           {
             "image": "rm-import-0319"
@@ -15962,9 +15914,9 @@ const products = [
         ],
         "detailImages": [
           {
-            "image": "rm-import-0316",
-            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Arabic dial · Black strap",
-            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+            "image": "rm-import-0319",
+            "alt": "Dark case · Arabic dial · Black strap",
+            "caption": "Additional supplied view / 补充实拍角度"
           },
           {
             "image": "rm-import-0317",
@@ -16006,8 +15958,8 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "image": "rm-import-0319",
-    "coverImage": "rm-import-0319",
+    "image": "rm-import-0316",
+    "coverImage": "rm-import-0316",
     "coverColor": "v1"
   },
   {
@@ -16552,7 +16504,7 @@ const products = [
         "key": "v1",
         "label": "Dark case · Three-register dial · Red strap",
         "labelZh": "深色表壳 · 三分盘外观 · 红色表带",
-        "image": "rm-import-0362",
+        "image": "rm-import-0361",
         "photos": [
           {
             "image": "rm-import-0362"
@@ -16560,9 +16512,9 @@ const products = [
         ],
         "detailImages": [
           {
-            "image": "rm-import-0361",
-            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Red strap",
-            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+            "image": "rm-import-0362",
+            "alt": "Dark case · Three-register dial · Red strap",
+            "caption": "Additional supplied view / 补充实拍角度"
           },
           {
             "image": "rm-import-0363",
@@ -16604,8 +16556,8 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "image": "rm-import-0362",
-    "coverImage": "rm-import-0362",
+    "image": "rm-import-0361",
+    "coverImage": "rm-import-0361",
     "coverColor": "v1"
   },
   {
@@ -21876,7 +21828,7 @@ const products = [
         "key": "v1",
         "label": "White dial · Blue counters · Blue strap",
         "labelZh": "白盘蓝色分盘 · 蓝色织物表带",
-        "image": "omega-import-0446",
+        "image": "omega-import-0444",
         "photos": [
           {
             "image": "omega-import-0446"
@@ -21884,9 +21836,9 @@ const products = [
         ],
         "detailImages": [
           {
-            "image": "omega-import-0444",
-            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
-            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+            "image": "omega-import-0446",
+            "alt": "White dial · Blue counters · Blue strap",
+            "caption": "Additional supplied view / 补充实拍角度"
           },
           {
             "image": "omega-import-0445",
@@ -21973,8 +21925,8 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": [],
-    "image": "omega-import-0446",
-    "coverImage": "omega-import-0446",
+    "image": "omega-import-0444",
+    "coverImage": "omega-import-0444",
     "coverColor": "v1"
   },
   {
@@ -23103,6 +23055,8141 @@ const products = [
     "image": "omega-import-0599",
     "coverImage": "omega-import-0599",
     "coverColor": "v1"
+  },
+  {
+    "id": "JX294",
+    "brand": "Patek Philippe",
+    "baseFamily": "Golden Ellipse",
+    "family": "Golden Ellipse-style — Oval dial · Woven-look bracelet",
+    "name": "Golden Ellipse-style — Oval dial · Woven-look bracelet — Metal bracelet",
+    "nameZh": "百达翡丽 · 椭圆盘 · 编织外观表链 · 金属表链",
+    "designDetails": "Oval dial · Woven-look bracelet",
+    "designDetailsZh": "椭圆盘 · 编织外观表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Rose-tone bracelet",
+        "labelZh": "黑盘 · 玫瑰金色表链",
+        "image": "pp-import-0012",
+        "photos": [
+          {
+            "image": "pp-import-0012"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0002",
+            "alt": "Patek Philippe · Black dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0004",
+            "alt": "Patek Philippe · Black dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0005",
+            "alt": "Patek Philippe · Black dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0006",
+            "alt": "Patek Philippe · Black dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0007",
+            "alt": "Patek Philippe · Black dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0008",
+            "alt": "Patek Philippe · Black dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0009",
+            "alt": "Patek Philippe · Black dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0011",
+            "alt": "Patek Philippe · Black dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0013",
+            "alt": "Patek Philippe · Black dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0014",
+            "alt": "Patek Philippe · Black dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Rose-tone bracelet",
+        "labelZh": "蓝盘 · 玫瑰金色表链",
+        "image": "pp-import-0003",
+        "photos": [
+          {
+            "image": "pp-import-0003"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0001",
+            "alt": "Patek Philippe · Blue dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0012",
+    "coverImage": "pp-import-0012",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX295",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Six-o'clock subdial · Plain case",
+    "name": "Nautilus-style — Six-o'clock subdial · Plain case — Metal bracelet",
+    "nameZh": "百达翡丽 · 六点位副盘 · 光面表壳 · 金属表链",
+    "designDetails": "Six-o'clock subdial · Plain case",
+    "designDetailsZh": "六点位副盘 · 光面表壳",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Rose tone bracelet",
+        "labelZh": "黑盘 · 玫瑰金色表链",
+        "image": "pp-import-0015",
+        "photos": [
+          {
+            "image": "pp-import-0015"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0017",
+            "alt": "Patek Philippe · Black dial · Rose tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0022",
+            "alt": "Patek Philippe · Black dial · Rose tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Decorative champagne dial · Rose tone bracelet",
+        "labelZh": "香槟装饰盘 · 玫瑰金色表链",
+        "image": "pp-import-0016",
+        "photos": [
+          {
+            "image": "pp-import-0016"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Decorative white dial · Rose tone bracelet",
+        "labelZh": "白色装饰盘 · 玫瑰金色表链",
+        "image": "pp-import-0018",
+        "photos": [
+          {
+            "image": "pp-import-0018"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Green dial · Rose tone bracelet",
+        "labelZh": "绿盘 · 玫瑰金色表链",
+        "image": "pp-import-0019",
+        "photos": [
+          {
+            "image": "pp-import-0019"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Purple dial · Rose tone bracelet",
+        "labelZh": "紫盘 · 玫瑰金色表链",
+        "image": "pp-import-0020",
+        "photos": [
+          {
+            "image": "pp-import-0020"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Red dial · Rose tone bracelet",
+        "labelZh": "红盘 · 玫瑰金色表链",
+        "image": "pp-import-0021",
+        "photos": [
+          {
+            "image": "pp-import-0021"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Brown dial · Rose tone bracelet",
+        "labelZh": "棕盘 · 玫瑰金色表链",
+        "image": "pp-import-0023",
+        "photos": [
+          {
+            "image": "pp-import-0023"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "Green dial · Yellow tone bracelet",
+        "labelZh": "绿盘 · 金色表链",
+        "image": "pp-import-0024",
+        "photos": [
+          {
+            "image": "pp-import-0024"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v9",
+        "label": "Red dial · Yellow tone bracelet",
+        "labelZh": "红盘 · 金色表链",
+        "image": "pp-import-0025",
+        "photos": [
+          {
+            "image": "pp-import-0025"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v10",
+        "label": "Brown dial · Yellow tone bracelet",
+        "labelZh": "棕盘 · 金色表链",
+        "image": "pp-import-0026",
+        "photos": [
+          {
+            "image": "pp-import-0026"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v11",
+        "label": "Dark dial · Yellow tone bracelet",
+        "labelZh": "深色盘 · 金色表链",
+        "image": "pp-import-0027",
+        "photos": [
+          {
+            "image": "pp-import-0027"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v12",
+        "label": "Grey dial · Yellow tone bracelet",
+        "labelZh": "灰盘 · 金色表链",
+        "image": "pp-import-0028",
+        "photos": [
+          {
+            "image": "pp-import-0028"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v13",
+        "label": "Purple dial · Yellow tone bracelet",
+        "labelZh": "紫盘 · 金色表链",
+        "image": "pp-import-0029",
+        "photos": [
+          {
+            "image": "pp-import-0029"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v14",
+        "label": "Black dial · Yellow tone bracelet",
+        "labelZh": "黑盘 · 金色表链",
+        "image": "pp-import-0030",
+        "photos": [
+          {
+            "image": "pp-import-0030"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v15",
+        "label": "Decorative white dial · Yellow tone bracelet",
+        "labelZh": "白色装饰盘 · 金色表链",
+        "image": "pp-import-0031",
+        "photos": [
+          {
+            "image": "pp-import-0031"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v16",
+        "label": "Decorative champagne dial · Yellow tone bracelet",
+        "labelZh": "香槟装饰盘 · 金色表链",
+        "image": "pp-import-0032",
+        "photos": [
+          {
+            "image": "pp-import-0032"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v17",
+        "label": "Decorative white dial · Rose two-tone bracelet",
+        "labelZh": "白色装饰盘 · 玫瑰金银双色表链",
+        "image": "pp-import-0069",
+        "photos": [
+          {
+            "image": "pp-import-0069"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0076",
+            "alt": "Patek Philippe · Decorative white dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0077",
+            "alt": "Patek Philippe · Decorative white dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v18",
+        "label": "Black dial · Rose two-tone bracelet",
+        "labelZh": "黑盘 · 玫瑰金银双色表链",
+        "image": "pp-import-0070",
+        "photos": [
+          {
+            "image": "pp-import-0070"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v19",
+        "label": "Purple dial · Rose two-tone bracelet",
+        "labelZh": "紫盘 · 玫瑰金银双色表链",
+        "image": "pp-import-0071",
+        "photos": [
+          {
+            "image": "pp-import-0071"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v20",
+        "label": "Brown dial · Rose two-tone bracelet",
+        "labelZh": "棕盘 · 玫瑰金银双色表链",
+        "image": "pp-import-0072",
+        "photos": [
+          {
+            "image": "pp-import-0072"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v21",
+        "label": "Grey dial · Rose two-tone bracelet",
+        "labelZh": "灰盘 · 玫瑰金银双色表链",
+        "image": "pp-import-0073",
+        "photos": [
+          {
+            "image": "pp-import-0073"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v22",
+        "label": "Red dial · Rose two-tone bracelet",
+        "labelZh": "红盘 · 玫瑰金银双色表链",
+        "image": "pp-import-0074",
+        "photos": [
+          {
+            "image": "pp-import-0074"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v23",
+        "label": "Decorative champagne dial · Rose two-tone bracelet",
+        "labelZh": "香槟装饰盘 · 玫瑰金银双色表链",
+        "image": "pp-import-0075",
+        "photos": [
+          {
+            "image": "pp-import-0075"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v24",
+        "label": "Black dial · Yellow two-tone bracelet",
+        "labelZh": "黑盘 · 金银双色表链",
+        "image": "pp-import-0078",
+        "photos": [
+          {
+            "image": "pp-import-0078"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0085",
+            "alt": "Patek Philippe · Black dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0086",
+            "alt": "Patek Philippe · Black dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v25",
+        "label": "Purple dial · Yellow two-tone bracelet",
+        "labelZh": "紫盘 · 金银双色表链",
+        "image": "pp-import-0079",
+        "photos": [
+          {
+            "image": "pp-import-0079"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v26",
+        "label": "Decorative white dial · Yellow two-tone bracelet",
+        "labelZh": "白色装饰盘 · 金银双色表链",
+        "image": "pp-import-0080",
+        "photos": [
+          {
+            "image": "pp-import-0080"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v27",
+        "label": "Decorative champagne dial · Yellow two-tone bracelet",
+        "labelZh": "香槟装饰盘 · 金银双色表链",
+        "image": "pp-import-0081",
+        "photos": [
+          {
+            "image": "pp-import-0081"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v28",
+        "label": "Grey dial · Yellow two-tone bracelet",
+        "labelZh": "灰盘 · 金银双色表链",
+        "image": "pp-import-0082",
+        "photos": [
+          {
+            "image": "pp-import-0082"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v29",
+        "label": "Dark green dial · Yellow two-tone bracelet",
+        "labelZh": "深绿盘 · 金银双色表链",
+        "image": "pp-import-0083",
+        "photos": [
+          {
+            "image": "pp-import-0083"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v30",
+        "label": "Red dial · Yellow two-tone bracelet",
+        "labelZh": "红盘 · 金银双色表链",
+        "image": "pp-import-0084",
+        "photos": [
+          {
+            "image": "pp-import-0084"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0015",
+    "coverImage": "pp-import-0015",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX296",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Six-o'clock subdial · Decorated case and bracelet",
+    "name": "Nautilus-style — Six-o'clock subdial · Decorated case and bracelet — Metal bracelet",
+    "nameZh": "百达翡丽 · 六点位副盘 · 装饰表壳与表链 · 金属表链",
+    "designDetails": "Six-o'clock subdial · Decorated case and bracelet",
+    "designDetailsZh": "六点位副盘 · 装饰表壳与表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Brown dial · Yellow tone decorated bracelet",
+        "labelZh": "棕盘 · 金色装饰表链",
+        "image": "pp-import-0033",
+        "photos": [
+          {
+            "image": "pp-import-0033"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0040",
+            "alt": "Patek Philippe · Brown dial · Yellow tone decorated bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0041",
+            "alt": "Patek Philippe · Brown dial · Yellow tone decorated bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Yellow tone decorated bracelet",
+        "labelZh": "黑盘 · 金色装饰表链",
+        "image": "pp-import-0034",
+        "photos": [
+          {
+            "image": "pp-import-0034"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Yellow tone decorated bracelet",
+        "labelZh": "白盘 · 金色装饰表链",
+        "image": "pp-import-0035",
+        "photos": [
+          {
+            "image": "pp-import-0035"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Champagne dial · Yellow tone decorated bracelet",
+        "labelZh": "香槟盘 · 金色装饰表链",
+        "image": "pp-import-0036",
+        "photos": [
+          {
+            "image": "pp-import-0036"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Purple dial · Yellow tone decorated bracelet",
+        "labelZh": "紫盘 · 金色装饰表链",
+        "image": "pp-import-0037",
+        "photos": [
+          {
+            "image": "pp-import-0037"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Grey dial · Yellow tone decorated bracelet",
+        "labelZh": "灰盘 · 金色装饰表链",
+        "image": "pp-import-0038",
+        "photos": [
+          {
+            "image": "pp-import-0038"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Red dial · Yellow tone decorated bracelet",
+        "labelZh": "红盘 · 金色装饰表链",
+        "image": "pp-import-0039",
+        "photos": [
+          {
+            "image": "pp-import-0039"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "White dial · Rose tone decorated bracelet",
+        "labelZh": "白盘 · 玫瑰金色装饰表链",
+        "image": "pp-import-0042",
+        "photos": [
+          {
+            "image": "pp-import-0042"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0049",
+            "alt": "Patek Philippe · White dial · Rose tone decorated bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0050",
+            "alt": "Patek Philippe · White dial · Rose tone decorated bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v9",
+        "label": "Rose-colour dial · Rose tone decorated bracelet",
+        "labelZh": "玫瑰金色盘 · 玫瑰金色装饰表链",
+        "image": "pp-import-0043",
+        "photos": [
+          {
+            "image": "pp-import-0043"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v10",
+        "label": "Black dial · Rose tone decorated bracelet",
+        "labelZh": "黑盘 · 玫瑰金色装饰表链",
+        "image": "pp-import-0044",
+        "photos": [
+          {
+            "image": "pp-import-0044"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v11",
+        "label": "Brown dial · Rose tone decorated bracelet",
+        "labelZh": "棕盘 · 玫瑰金色装饰表链",
+        "image": "pp-import-0045",
+        "photos": [
+          {
+            "image": "pp-import-0045"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v12",
+        "label": "Red dial · Rose tone decorated bracelet",
+        "labelZh": "红盘 · 玫瑰金色装饰表链",
+        "image": "pp-import-0046",
+        "photos": [
+          {
+            "image": "pp-import-0046"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v13",
+        "label": "Grey dial · Rose tone decorated bracelet",
+        "labelZh": "灰盘 · 玫瑰金色装饰表链",
+        "image": "pp-import-0047",
+        "photos": [
+          {
+            "image": "pp-import-0047"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v14",
+        "label": "Purple dial · Rose tone decorated bracelet",
+        "labelZh": "紫盘 · 玫瑰金色装饰表链",
+        "image": "pp-import-0048",
+        "photos": [
+          {
+            "image": "pp-import-0048"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v15",
+        "label": "White dial · Silver tone decorated bracelet",
+        "labelZh": "白盘 · 银色装饰表链",
+        "image": "pp-import-0051",
+        "photos": [
+          {
+            "image": "pp-import-0051"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v16",
+        "label": "Grey dial · Silver tone decorated bracelet",
+        "labelZh": "灰盘 · 银色装饰表链",
+        "image": "pp-import-0052",
+        "photos": [
+          {
+            "image": "pp-import-0052"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v17",
+        "label": "Brown dial · Silver tone decorated bracelet",
+        "labelZh": "棕盘 · 银色装饰表链",
+        "image": "pp-import-0053",
+        "photos": [
+          {
+            "image": "pp-import-0053"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v18",
+        "label": "Black dial · Silver tone decorated bracelet",
+        "labelZh": "黑盘 · 银色装饰表链",
+        "image": "pp-import-0054",
+        "photos": [
+          {
+            "image": "pp-import-0054"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v19",
+        "label": "Red dial · Silver tone decorated bracelet",
+        "labelZh": "红盘 · 银色装饰表链",
+        "image": "pp-import-0055",
+        "photos": [
+          {
+            "image": "pp-import-0055"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v20",
+        "label": "Blue dial · Silver tone decorated bracelet",
+        "labelZh": "蓝盘 · 银色装饰表链",
+        "image": "pp-import-0056",
+        "photos": [
+          {
+            "image": "pp-import-0056"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0057",
+            "alt": "Patek Philippe · Blue dial · Silver tone decorated bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0058",
+            "alt": "Patek Philippe · Blue dial · Silver tone decorated bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0059",
+            "alt": "Patek Philippe · Blue dial · Silver tone decorated bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0033",
+    "coverImage": "pp-import-0033",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX297",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Six-o'clock subdial · Dark case",
+    "name": "Nautilus-style — Six-o'clock subdial · Dark case — Metal bracelet",
+    "nameZh": "百达翡丽 · 六点位副盘 · 深色表壳 · 金属表链",
+    "designDetails": "Six-o'clock subdial · Dark case",
+    "designDetailsZh": "六点位副盘 · 深色表壳",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Dark bracelet",
+        "labelZh": "黑盘 · 深色表链",
+        "image": "pp-import-0060",
+        "photos": [
+          {
+            "image": "pp-import-0060"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Red dial · Dark bracelet",
+        "labelZh": "红盘 · 深色表链",
+        "image": "pp-import-0061",
+        "photos": [
+          {
+            "image": "pp-import-0061"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Dark bracelet",
+        "labelZh": "蓝盘 · 深色表链",
+        "image": "pp-import-0062",
+        "photos": [
+          {
+            "image": "pp-import-0062"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Brown dial · Dark bracelet",
+        "labelZh": "棕盘 · 深色表链",
+        "image": "pp-import-0063",
+        "photos": [
+          {
+            "image": "pp-import-0063"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Dark bracelet",
+        "labelZh": "白盘 · 深色表链",
+        "image": "pp-import-0064",
+        "photos": [
+          {
+            "image": "pp-import-0064"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Grey dial · Dark bracelet",
+        "labelZh": "灰盘 · 深色表链",
+        "image": "pp-import-0065",
+        "photos": [
+          {
+            "image": "pp-import-0065"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0066",
+            "alt": "Patek Philippe · Grey dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0067",
+            "alt": "Patek Philippe · Grey dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0068",
+            "alt": "Patek Philippe · Grey dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0060",
+    "coverImage": "pp-import-0060",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX298",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Figurative relief dial",
+    "name": "Calatrava-style — Figurative relief dial — Leather-style strap",
+    "nameZh": "百达翡丽 · 人物浮雕造型盘 · 皮革外观表带",
+    "designDetails": "Figurative relief dial",
+    "designDetailsZh": "人物浮雕造型盘",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey relief dial · Silver-tone case · Black strap",
+        "labelZh": "灰色人物造型盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0088",
+        "photos": [
+          {
+            "image": "pp-import-0088"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0087",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0089",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0090",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0091",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0092",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0093",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0094",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0095",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0096",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0105",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0106",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0107",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0108",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0109",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0110",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0111",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0112",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0113",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0580",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0581",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0582",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0583",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0584",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0585",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0586",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0587",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0588",
+            "alt": "Patek Philippe · Grey relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Light relief dial · Silver-tone case · Black strap",
+        "labelZh": "浅色人物造型盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0097",
+        "photos": [
+          {
+            "image": "pp-import-0097"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0098",
+            "alt": "Patek Philippe · Light relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0099",
+            "alt": "Patek Philippe · Light relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0100",
+            "alt": "Patek Philippe · Light relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0114",
+            "alt": "Patek Philippe · Light relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0115",
+            "alt": "Patek Philippe · Light relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0116",
+            "alt": "Patek Philippe · Light relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0117",
+            "alt": "Patek Philippe · Light relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0118",
+            "alt": "Patek Philippe · Light relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0119",
+            "alt": "Patek Philippe · Light relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0120",
+            "alt": "Patek Philippe · Light relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0122",
+            "alt": "Patek Philippe · Light relief dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0088",
+    "coverImage": "pp-import-0088",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX299",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Baton date dial · Metal bracelet",
+    "name": "Nautilus-style — Baton date dial · Metal bracelet — Metal bracelet",
+    "nameZh": "百达翡丽 · 条形日历盘 · 金属表链 · 金属表链",
+    "designDetails": "Baton date dial · Metal bracelet",
+    "designDetailsZh": "条形日历盘 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Brown dial · Rose-tone bracelet",
+        "labelZh": "棕盘 · 玫瑰金色表链",
+        "image": "pp-import-0124",
+        "photos": [
+          {
+            "image": "pp-import-0124"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0123",
+            "alt": "Patek Philippe · Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0125",
+            "alt": "Patek Philippe · Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0126",
+            "alt": "Patek Philippe · Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0127",
+            "alt": "Patek Philippe · Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0128",
+            "alt": "Patek Philippe · Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0129",
+            "alt": "Patek Philippe · Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0130",
+            "alt": "Patek Philippe · Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0131",
+            "alt": "Patek Philippe · Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "pp-import-0133",
+        "photos": [
+          {
+            "image": "pp-import-0133"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0132",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0134",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0135",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0136",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0137",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0138",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0139",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0140",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0322",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0323",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0324",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0325",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0326",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0327",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver bracelet",
+        "labelZh": "蓝盘 · 银色表链",
+        "image": "pp-import-0142",
+        "photos": [
+          {
+            "image": "pp-import-0142"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0141",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0143",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0144",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0145",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0146",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0147",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0159",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0160",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0161",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0162",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0163",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0164",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0165",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0166",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0167",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0945",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0946",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0947",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0948",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0949",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0950",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0951",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0952",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0254",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0255",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0256",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0257",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0258",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0259",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0260",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0261",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0313",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0314",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0315",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0316",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0317",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0318",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0319",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0320",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0321",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0330",
+            "alt": "Patek Philippe · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Silver bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "pp-import-0151",
+        "photos": [
+          {
+            "image": "pp-import-0151"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0150",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0152",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0153",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0154",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0155",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0156",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0328",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0329",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0124",
+    "coverImage": "pp-import-0124",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX300",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Moon-display appearance · White dial",
+    "name": "Nautilus-style — Moon-display appearance · White dial — Metal bracelet",
+    "nameZh": "百达翡丽 · 月相外观副盘 · 白色盘面 · 金属表链",
+    "designDetails": "Moon-display appearance · White dial",
+    "designDetailsZh": "月相外观副盘 · 白色盘面",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "pp-import-0169",
+        "photos": [
+          {
+            "image": "pp-import-0169"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0168",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0170",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0176",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0169",
+    "coverImage": "pp-import-0169",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX301",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Six-o'clock subdial · Dark dial",
+    "name": "Nautilus-style — Six-o'clock subdial · Dark dial — Metal bracelet",
+    "nameZh": "百达翡丽 · 六点位副盘 · 深色盘面 · 金属表链",
+    "designDetails": "Six-o'clock subdial · Dark dial",
+    "designDetailsZh": "六点位副盘 · 深色盘面",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "pp-import-0178",
+        "photos": [
+          {
+            "image": "pp-import-0178"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0177",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0179",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0185",
+            "alt": "Patek Philippe · Black dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0178",
+    "coverImage": "pp-import-0178",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX302",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Baton date dial · Linked bracelet",
+    "name": "Calatrava-style — Baton date dial · Linked bracelet — Metal bracelet",
+    "nameZh": "百达翡丽 · 条形日历盘 · 多节表链 · 金属表链",
+    "designDetails": "Baton date dial · Linked bracelet",
+    "designDetailsZh": "条形日历盘 · 多节表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Warm tone bracelet",
+        "labelZh": "灰盘 · 暖金色表链",
+        "image": "pp-import-0186",
+        "photos": [
+          {
+            "image": "pp-import-0186"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0187",
+            "alt": "Patek Philippe · Grey dial · Warm tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0188",
+            "alt": "Patek Philippe · Grey dial · Warm tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0189",
+            "alt": "Patek Philippe · Grey dial · Warm tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0190",
+            "alt": "Patek Philippe · Grey dial · Warm tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0191",
+            "alt": "Patek Philippe · Grey dial · Warm tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Warm tone bracelet",
+        "labelZh": "白盘 · 暖金色表链",
+        "image": "pp-import-0193",
+        "photos": [
+          {
+            "image": "pp-import-0193"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0192",
+            "alt": "Patek Philippe · White dial · Warm tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0194",
+            "alt": "Patek Philippe · White dial · Warm tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0195",
+            "alt": "Patek Philippe · White dial · Warm tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0196",
+            "alt": "Patek Philippe · White dial · Warm tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0197",
+            "alt": "Patek Philippe · White dial · Warm tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Silver tone bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "pp-import-0198",
+        "photos": [
+          {
+            "image": "pp-import-0198"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0199",
+            "alt": "Patek Philippe · White dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0200",
+            "alt": "Patek Philippe · White dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0201",
+            "alt": "Patek Philippe · White dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0202",
+            "alt": "Patek Philippe · White dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0203",
+            "alt": "Patek Philippe · White dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Silver tone bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "pp-import-0204",
+        "photos": [
+          {
+            "image": "pp-import-0204"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0205",
+            "alt": "Patek Philippe · Black dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0206",
+            "alt": "Patek Philippe · Black dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0207",
+            "alt": "Patek Philippe · Black dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0208",
+            "alt": "Patek Philippe · Black dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0209",
+            "alt": "Patek Philippe · Black dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Silver dial · Silver tone bracelet",
+        "labelZh": "银盘 · 银色表链",
+        "image": "pp-import-0211",
+        "photos": [
+          {
+            "image": "pp-import-0211"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0210",
+            "alt": "Patek Philippe · Silver dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0212",
+            "alt": "Patek Philippe · Silver dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0213",
+            "alt": "Patek Philippe · Silver dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0214",
+            "alt": "Patek Philippe · Silver dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0215",
+            "alt": "Patek Philippe · Silver dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0216",
+            "alt": "Patek Philippe · Silver dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0217",
+            "alt": "Patek Philippe · Silver dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v6",
+        "label": "Blue dial · Silver tone bracelet",
+        "labelZh": "蓝盘 · 银色表链",
+        "image": "pp-import-0218",
+        "photos": [
+          {
+            "image": "pp-import-0218"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0219",
+            "alt": "Patek Philippe · Blue dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0220",
+            "alt": "Patek Philippe · Blue dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0221",
+            "alt": "Patek Philippe · Blue dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0222",
+            "alt": "Patek Philippe · Blue dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0223",
+            "alt": "Patek Philippe · Blue dial · Silver tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0186",
+    "coverImage": "pp-import-0186",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX303",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Textured three-hand dial · Warm case",
+    "name": "Nautilus-style — Textured three-hand dial · Warm case — Metal bracelet",
+    "nameZh": "百达翡丽 · 纹理三针盘 · 暖色表壳 · 金属表链",
+    "designDetails": "Textured three-hand dial · Warm case",
+    "designDetailsZh": "纹理三针盘 · 暖色表壳",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Brown dial · Yellow-tone bracelet",
+        "labelZh": "棕盘 · 金色表链",
+        "image": "pp-import-0224",
+        "photos": [
+          {
+            "image": "pp-import-0224"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0225",
+            "alt": "Patek Philippe · Brown dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0226",
+            "alt": "Patek Philippe · Brown dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0227",
+            "alt": "Patek Philippe · Brown dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0228",
+            "alt": "Patek Philippe · Brown dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0229",
+            "alt": "Patek Philippe · Brown dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0230",
+            "alt": "Patek Philippe · Brown dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0231",
+            "alt": "Patek Philippe · Brown dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0232",
+            "alt": "Patek Philippe · Brown dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0233",
+            "alt": "Patek Philippe · Brown dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0234",
+            "alt": "Patek Philippe · Brown dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0235",
+            "alt": "Patek Philippe · Brown dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0224",
+    "coverImage": "pp-import-0224",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX304",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Textured three-hand dial · Dark case",
+    "name": "Nautilus-style — Textured three-hand dial · Dark case — Metal bracelet",
+    "nameZh": "百达翡丽 · 纹理三针盘 · 深色表壳 · 金属表链",
+    "designDetails": "Textured three-hand dial · Dark case",
+    "designDetailsZh": "纹理三针盘 · 深色表壳",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Dark bracelet",
+        "labelZh": "蓝盘 · 深色表链",
+        "image": "pp-import-0236",
+        "photos": [
+          {
+            "image": "pp-import-0236"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0237",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0238",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0239",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0240",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0241",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0242",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0243",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0244",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0660",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0661",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0662",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0663",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0664",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0665",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0666",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0667",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0668",
+            "alt": "Patek Philippe · Blue dial · Dark bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0236",
+    "coverImage": "pp-import-0236",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX305",
+    "brand": "Patek Philippe",
+    "baseFamily": "Aquanaut",
+    "family": "Aquanaut-style — Arabic date dial · Plain bezel",
+    "name": "Aquanaut-style — Arabic date dial · Plain bezel — Rubber-style strap",
+    "nameZh": "百达翡丽 · 阿拉伯数字日历盘 · 光面表圈 · 胶带外观",
+    "designDetails": "Arabic date dial · Plain bezel",
+    "designDetailsZh": "阿拉伯数字日历盘 · 光面表圈",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Yellow-tone case · Black strap",
+        "labelZh": "黑盘 · 金色表壳 · 黑色胶带",
+        "image": "pp-import-0246",
+        "photos": [
+          {
+            "image": "pp-import-0246"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0245",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0247",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0248",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0249",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0250",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0251",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0252",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0253",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver-tone case · Red strap",
+        "labelZh": "黑盘 · 银色表壳 · 红色胶带",
+        "image": "pp-import-0264",
+        "photos": [
+          {
+            "image": "pp-import-0264"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0262",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Red strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0263",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Red strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0265",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Red strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0266",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Red strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0267",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Red strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0268",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Red strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0269",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Red strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色胶带",
+        "image": "pp-import-0271",
+        "photos": [
+          {
+            "image": "pp-import-0271"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0272",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0273",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0274",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0275",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0276",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0277",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0278",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0279",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0616",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0617",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0618",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0619",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0620",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0621",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0622",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0623",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0624",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0246",
+    "coverImage": "pp-import-0246",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX306",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Small-seconds dial",
+    "name": "Calatrava-style — Small-seconds dial — Leather-style strap",
+    "nameZh": "百达翡丽 · 小秒盘外观 · 皮革外观表带",
+    "designDetails": "Small-seconds dial",
+    "designDetailsZh": "小秒盘外观",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0282",
+        "photos": [
+          {
+            "image": "pp-import-0282"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0281",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0283",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0284",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0285",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0286",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0287",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0288",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0282",
+    "coverImage": "pp-import-0282",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX307",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Baton no-date dial · Warm case",
+    "name": "Calatrava-style — Baton no-date dial · Warm case — Leather-style strap",
+    "nameZh": "百达翡丽 · 条形无日历盘 · 暖色表壳 · 皮革外观表带",
+    "designDetails": "Baton no-date dial · Warm case",
+    "designDetailsZh": "条形无日历盘 · 暖色表壳",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "labelZh": "白盘 · 玫瑰金色表壳 · 棕色皮带",
+        "image": "pp-import-0291",
+        "photos": [
+          {
+            "image": "pp-import-0291"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0289",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0290",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0292",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0293",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0294",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0291",
+    "coverImage": "pp-import-0291",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX308",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Asymmetric subdial layout",
+    "name": "Nautilus-style — Asymmetric subdial layout — Metal bracelet",
+    "nameZh": "百达翡丽 · 不对称副盘布局 · 金属表链",
+    "designDetails": "Asymmetric subdial layout",
+    "designDetailsZh": "不对称副盘布局",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Silver tone case · Metal bracelet",
+        "labelZh": "蓝盘 · 银色表壳 · 金属表链",
+        "image": "pp-import-0295",
+        "photos": [
+          {
+            "image": "pp-import-0295"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Dark grey dial · Silver tone case · Metal bracelet",
+        "labelZh": "深灰盘 · 银色表壳 · 金属表链",
+        "image": "pp-import-0296",
+        "photos": [
+          {
+            "image": "pp-import-0296"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0349",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0350",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0351",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0352",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0353",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0354",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0355",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0356",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0357",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0855",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0856",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0857",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0858",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0859",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0860",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0861",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0862",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0863",
+            "alt": "Patek Philippe · Dark grey dial · Silver tone case · Metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Dark grey dial · Rose tone case · Metal bracelet",
+        "labelZh": "深灰盘 · 玫瑰金色表壳 · 金属表链",
+        "image": "pp-import-0299",
+        "photos": [
+          {
+            "image": "pp-import-0299"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Grey dial · Silver tone case · Metal bracelet",
+        "labelZh": "灰盘 · 银色表壳 · 金属表链",
+        "image": "pp-import-0303",
+        "photos": [
+          {
+            "image": "pp-import-0303"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0295",
+    "coverImage": "pp-import-0295",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX309",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Asymmetric subdial layout",
+    "name": "Nautilus-style — Asymmetric subdial layout — Leather-style strap",
+    "nameZh": "百达翡丽 · 不对称副盘布局 · 皮革外观表带",
+    "designDetails": "Asymmetric subdial layout",
+    "designDetailsZh": "不对称副盘布局",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Rose tone case · Leather strap",
+        "labelZh": "灰盘 · 玫瑰金色表壳 · 皮带",
+        "image": "pp-import-0297",
+        "photos": [
+          {
+            "image": "pp-import-0297"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Grey dial · Decorated silver tone case · Leather strap",
+        "labelZh": "灰盘 · 银色装饰表壳 · 皮带",
+        "image": "pp-import-0298",
+        "photos": [
+          {
+            "image": "pp-import-0298"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Decorated silver tone case · Leather strap",
+        "labelZh": "蓝盘 · 银色装饰表壳 · 皮带",
+        "image": "pp-import-0300",
+        "photos": [
+          {
+            "image": "pp-import-0300"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Dark grey dial · Decorated rose tone case · Leather strap",
+        "labelZh": "深灰盘 · 玫瑰金色装饰表壳 · 皮带",
+        "image": "pp-import-0302",
+        "photos": [
+          {
+            "image": "pp-import-0302"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0684",
+            "alt": "Patek Philippe · Dark grey dial · Decorated rose tone case · Leather strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0685",
+            "alt": "Patek Philippe · Dark grey dial · Decorated rose tone case · Leather strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0686",
+            "alt": "Patek Philippe · Dark grey dial · Decorated rose tone case · Leather strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0687",
+            "alt": "Patek Philippe · Dark grey dial · Decorated rose tone case · Leather strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0688",
+            "alt": "Patek Philippe · Dark grey dial · Decorated rose tone case · Leather strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0689",
+            "alt": "Patek Philippe · Dark grey dial · Decorated rose tone case · Leather strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0690",
+            "alt": "Patek Philippe · Dark grey dial · Decorated rose tone case · Leather strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0691",
+            "alt": "Patek Philippe · Dark grey dial · Decorated rose tone case · Leather strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0692",
+            "alt": "Patek Philippe · Dark grey dial · Decorated rose tone case · Leather strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0297",
+    "coverImage": "pp-import-0297",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX310",
+    "brand": "Patek Philippe",
+    "baseFamily": "Grand Complications",
+    "family": "Grand Complications-style — Dark multi-scale dial · Decorated bezel",
+    "name": "Grand Complications-style — Dark multi-scale dial · Decorated bezel — Leather-style strap",
+    "nameZh": "百达翡丽 · 深色多重刻度盘 · 装饰表圈 · 皮革外观表带",
+    "designDetails": "Dark multi-scale dial · Decorated bezel",
+    "designDetailsZh": "深色多重刻度盘 · 装饰表圈",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark dial · Silver-tone case · Black strap",
+        "labelZh": "深色盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0332",
+        "photos": [
+          {
+            "image": "pp-import-0332"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0331",
+            "alt": "Patek Philippe · Dark dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0333",
+            "alt": "Patek Philippe · Dark dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0334",
+            "alt": "Patek Philippe · Dark dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0335",
+            "alt": "Patek Philippe · Dark dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0336",
+            "alt": "Patek Philippe · Dark dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0337",
+            "alt": "Patek Philippe · Dark dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0338",
+            "alt": "Patek Philippe · Dark dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0339",
+            "alt": "Patek Philippe · Dark dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0332",
+    "coverImage": "pp-import-0332",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX311",
+    "brand": "Patek Philippe",
+    "baseFamily": "Aquanaut",
+    "family": "Aquanaut-style — Arabic date dial · Decorated bezel",
+    "name": "Aquanaut-style — Arabic date dial · Decorated bezel — Rubber-style strap",
+    "nameZh": "百达翡丽 · 阿拉伯数字日历盘 · 装饰表圈 · 胶带外观",
+    "designDetails": "Arabic date dial · Decorated bezel",
+    "designDetailsZh": "阿拉伯数字日历盘 · 装饰表圈",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone decorated case · Brown strap",
+        "labelZh": "白盘 · 玫瑰金色装饰表壳 · 棕色胶带",
+        "image": "pp-import-0342",
+        "photos": [
+          {
+            "image": "pp-import-0342"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0341",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Brown dial · Rose-tone decorated case · Brown strap",
+        "labelZh": "棕盘 · 玫瑰金色装饰表壳 · 棕色胶带",
+        "image": "pp-import-0344",
+        "photos": [
+          {
+            "image": "pp-import-0344"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0343",
+            "alt": "Patek Philippe · Brown dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0345",
+            "alt": "Patek Philippe · Brown dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0346",
+            "alt": "Patek Philippe · Brown dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0347",
+            "alt": "Patek Philippe · Brown dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0348",
+            "alt": "Patek Philippe · Brown dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Silver-tone decorated case · Black strap",
+        "labelZh": "白盘 · 银色装饰表壳 · 黑色胶带",
+        "image": "pp-import-0911",
+        "photos": [
+          {
+            "image": "pp-import-0911"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0909",
+            "alt": "Patek Philippe · White dial · Silver-tone decorated case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0910",
+            "alt": "Patek Philippe · White dial · Silver-tone decorated case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Rose-tone decorated case · Blue strap",
+        "labelZh": "白盘 · 玫瑰金色装饰表壳 · 蓝色胶带",
+        "image": "pp-import-0913",
+        "photos": [
+          {
+            "image": "pp-import-0913"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0912",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0914",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0915",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0916",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0917",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0342",
+    "coverImage": "pp-import-0342",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX312",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Six-o'clock subdial · Silver case",
+    "name": "Nautilus-style — Six-o'clock subdial · Silver case — Metal bracelet",
+    "nameZh": "百达翡丽 · 六点位副盘 · 银色表壳 · 金属表链",
+    "designDetails": "Six-o'clock subdial · Silver case",
+    "designDetailsZh": "六点位副盘 · 银色表壳",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark grey dial · Silver bracelet",
+        "labelZh": "深灰盘 · 银色表链",
+        "image": "pp-import-0358",
+        "photos": [
+          {
+            "image": "pp-import-0358"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0359",
+            "alt": "Patek Philippe · Dark grey dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0360",
+            "alt": "Patek Philippe · Dark grey dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0361",
+            "alt": "Patek Philippe · Dark grey dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0362",
+            "alt": "Patek Philippe · Dark grey dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0363",
+            "alt": "Patek Philippe · Dark grey dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0364",
+            "alt": "Patek Philippe · Dark grey dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0365",
+            "alt": "Patek Philippe · Dark grey dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0366",
+            "alt": "Patek Philippe · Dark grey dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0358",
+    "coverImage": "pp-import-0358",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX313",
+    "brand": "Patek Philippe",
+    "baseFamily": "Grand Complications",
+    "family": "Grand Complications-style — Multi-register calendar appearance",
+    "name": "Grand Complications-style — Multi-register calendar appearance — Leather-style strap",
+    "nameZh": "百达翡丽 · 多副盘日历外观 · 皮革外观表带",
+    "designDetails": "Multi-register calendar appearance",
+    "designDetailsZh": "多副盘日历外观",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0368",
+        "photos": [
+          {
+            "image": "pp-import-0368"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0372",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0373",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0369",
+        "photos": [
+          {
+            "image": "pp-import-0369"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0371",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0374",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0375",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver-tone case · Blue strap",
+        "labelZh": "蓝盘 · 银色表壳 · 蓝色皮带",
+        "image": "pp-import-0370",
+        "photos": [
+          {
+            "image": "pp-import-0370"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0368",
+    "coverImage": "pp-import-0368",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX314",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Subdial · Warm case · Brown strap",
+    "name": "Nautilus-style — Subdial · Warm case · Brown strap — Leather-style strap",
+    "nameZh": "百达翡丽 · 副盘外观 · 暖色表壳 · 棕色带 · 皮革外观表带",
+    "designDetails": "Subdial · Warm case · Brown strap",
+    "designDetailsZh": "副盘外观 · 暖色表壳 · 棕色带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Brown dial · Rose-tone case · Brown strap",
+        "labelZh": "棕盘 · 玫瑰金色表壳 · 棕色表带",
+        "image": "pp-import-0377",
+        "photos": [
+          {
+            "image": "pp-import-0377"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0376",
+            "alt": "Patek Philippe · Brown dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0378",
+            "alt": "Patek Philippe · Brown dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0379",
+            "alt": "Patek Philippe · Brown dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0380",
+            "alt": "Patek Philippe · Brown dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0381",
+            "alt": "Patek Philippe · Brown dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0377",
+    "coverImage": "pp-import-0377",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX315",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Six-o'clock subdial · Silver case",
+    "name": "Nautilus-style — Six-o'clock subdial · Silver case — Rubber-style strap",
+    "nameZh": "百达翡丽 · 六点位副盘 · 银色表壳 · 胶带外观",
+    "designDetails": "Six-o'clock subdial · Silver case",
+    "designDetailsZh": "六点位副盘 · 银色表壳",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark grey dial · Silver-tone case · Black strap",
+        "labelZh": "深灰盘 · 银色表壳 · 黑色胶带",
+        "image": "pp-import-0382",
+        "photos": [
+          {
+            "image": "pp-import-0382"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0383",
+            "alt": "Patek Philippe · Dark grey dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0384",
+            "alt": "Patek Philippe · Dark grey dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0385",
+            "alt": "Patek Philippe · Dark grey dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0386",
+            "alt": "Patek Philippe · Dark grey dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0387",
+            "alt": "Patek Philippe · Dark grey dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0388",
+            "alt": "Patek Philippe · Dark grey dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0389",
+            "alt": "Patek Philippe · Dark grey dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0390",
+            "alt": "Patek Philippe · Dark grey dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0382",
+    "coverImage": "pp-import-0382",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX316",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Baton date dial · Plain round case",
+    "name": "Calatrava-style — Baton date dial · Plain round case — Leather-style strap",
+    "nameZh": "百达翡丽 · 条形日历盘 · 光面圆壳 · 皮革外观表带",
+    "designDetails": "Baton date dial · Plain round case",
+    "designDetailsZh": "条形日历盘 · 光面圆壳",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Yellow tone case · Black strap",
+        "labelZh": "白盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0391",
+        "photos": [
+          {
+            "image": "pp-import-0391"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0392",
+            "alt": "Patek Philippe · White dial · Yellow tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Champagne dial · Yellow tone case · Black strap",
+        "labelZh": "香槟盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0393",
+        "photos": [
+          {
+            "image": "pp-import-0393"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0394",
+            "alt": "Patek Philippe · Champagne dial · Yellow tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0395",
+            "alt": "Patek Philippe · Champagne dial · Yellow tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0396",
+            "alt": "Patek Philippe · Champagne dial · Yellow tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0397",
+            "alt": "Patek Philippe · Champagne dial · Yellow tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0398",
+            "alt": "Patek Philippe · Champagne dial · Yellow tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0399",
+            "alt": "Patek Philippe · Champagne dial · Yellow tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Silver tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0400",
+        "photos": [
+          {
+            "image": "pp-import-0400"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0401",
+            "alt": "Patek Philippe · White dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0402",
+            "alt": "Patek Philippe · White dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0403",
+            "alt": "Patek Philippe · White dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0404",
+            "alt": "Patek Philippe · White dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0405",
+            "alt": "Patek Philippe · White dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0406",
+            "alt": "Patek Philippe · White dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0407",
+            "alt": "Patek Philippe · White dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0408",
+            "alt": "Patek Philippe · White dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0427",
+        "photos": [
+          {
+            "image": "pp-import-0427"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0428",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0429",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0430",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0431",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0432",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0433",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0434",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0435",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Cream dial · Silver-tone case · Black strap",
+        "labelZh": "米色盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-1008",
+        "photos": [
+          {
+            "image": "pp-import-1008"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-1007",
+            "alt": "Patek Philippe · Cream dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1009",
+            "alt": "Patek Philippe · Cream dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1010",
+            "alt": "Patek Philippe · Cream dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1011",
+            "alt": "Patek Philippe · Cream dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1012",
+            "alt": "Patek Philippe · Cream dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1013",
+            "alt": "Patek Philippe · Cream dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1014",
+            "alt": "Patek Philippe · Cream dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1015",
+            "alt": "Patek Philippe · Cream dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1016",
+            "alt": "Patek Philippe · Cream dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0391",
+    "coverImage": "pp-import-0391",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX317",
+    "brand": "Patek Philippe",
+    "baseFamily": "Grand Complications",
+    "family": "Grand Complications-style — Multi-scale dial · Plain bezel",
+    "name": "Grand Complications-style — Multi-scale dial · Plain bezel — Leather-style strap",
+    "nameZh": "百达翡丽 · 多重刻度盘 · 光面表圈 · 皮革外观表带",
+    "designDetails": "Multi-scale dial · Plain bezel",
+    "designDetailsZh": "多重刻度盘 · 光面表圈",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose tone case · Brown strap",
+        "labelZh": "白盘 · 玫瑰金色表壳 · 棕色皮带",
+        "image": "pp-import-0409",
+        "photos": [
+          {
+            "image": "pp-import-0409"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0412",
+            "alt": "Patek Philippe · White dial · Rose tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0411",
+        "photos": [
+          {
+            "image": "pp-import-0411"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0413",
+        "photos": [
+          {
+            "image": "pp-import-0413"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Rose tone case · Black strap",
+        "labelZh": "白盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "pp-import-0414",
+        "photos": [
+          {
+            "image": "pp-import-0414"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0416",
+            "alt": "Patek Philippe · White dial · Rose tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0417",
+            "alt": "Patek Philippe · White dial · Rose tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Rose tone case · Black strap",
+        "labelZh": "黑盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "pp-import-0415",
+        "photos": [
+          {
+            "image": "pp-import-0415"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0409",
+    "coverImage": "pp-import-0409",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX318",
+    "brand": "Patek Philippe",
+    "baseFamily": "Grand Complications",
+    "family": "Grand Complications-style — Decorated multi-scale dial",
+    "name": "Grand Complications-style — Decorated multi-scale dial — Leather-style strap",
+    "nameZh": "百达翡丽 · 装饰多重刻度盘 · 皮革外观表带",
+    "designDetails": "Decorated multi-scale dial",
+    "designDetailsZh": "装饰多重刻度盘",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Decorated silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色装饰表壳 · 黑色皮带",
+        "image": "pp-import-0420",
+        "photos": [
+          {
+            "image": "pp-import-0420"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0419",
+            "alt": "Patek Philippe · White dial · Decorated silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0421",
+            "alt": "Patek Philippe · White dial · Decorated silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0422",
+            "alt": "Patek Philippe · White dial · Decorated silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0425",
+            "alt": "Patek Philippe · White dial · Decorated silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0426",
+            "alt": "Patek Philippe · White dial · Decorated silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Decorated silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色装饰表壳 · 黑色皮带",
+        "image": "pp-import-0423",
+        "photos": [
+          {
+            "image": "pp-import-0423"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0424",
+            "alt": "Patek Philippe · Black dial · Decorated silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0420",
+    "coverImage": "pp-import-0420",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX319",
+    "brand": "Patek Philippe",
+    "baseFamily": "Grand Complications",
+    "family": "Grand Complications-style — Arabic multi-register dial",
+    "name": "Grand Complications-style — Arabic multi-register dial — Leather-style strap",
+    "nameZh": "百达翡丽 · 阿拉伯数字多副盘 · 皮革外观表带",
+    "designDetails": "Arabic multi-register dial",
+    "designDetailsZh": "阿拉伯数字多副盘",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Yellow tone case · Black strap",
+        "labelZh": "白盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0437",
+        "photos": [
+          {
+            "image": "pp-import-0437"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0436",
+            "alt": "Patek Philippe · White dial · Yellow tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0440",
+        "photos": [
+          {
+            "image": "pp-import-0440"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0438",
+            "alt": "Patek Philippe · White dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0439",
+            "alt": "Patek Philippe · White dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0441",
+            "alt": "Patek Philippe · White dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0442",
+            "alt": "Patek Philippe · White dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0443",
+        "photos": [
+          {
+            "image": "pp-import-0443"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0444",
+            "alt": "Patek Philippe · Black dial · Silver tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0437",
+    "coverImage": "pp-import-0437",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX320",
+    "brand": "Patek Philippe",
+    "baseFamily": "Complications",
+    "family": "Complications-style — Round chronograph appearance",
+    "name": "Complications-style — Round chronograph appearance — Leather-style strap",
+    "nameZh": "百达翡丽 · 圆形计时外观 · 皮革外观表带",
+    "designDetails": "Round chronograph appearance",
+    "designDetailsZh": "圆形计时外观",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "labelZh": "白盘 · 玫瑰金色表壳 · 棕色皮带",
+        "image": "pp-import-0447",
+        "photos": [
+          {
+            "image": "pp-import-0447"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0445",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0448",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0449",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0450",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0452",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0453",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Rose-tone case · Brown strap",
+        "labelZh": "黑盘 · 玫瑰金色表壳 · 棕色皮带",
+        "image": "pp-import-0446",
+        "photos": [
+          {
+            "image": "pp-import-0446"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0451",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0447",
+    "coverImage": "pp-import-0447",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX321",
+    "brand": "Patek Philippe",
+    "baseFamily": "Complications",
+    "family": "Complications-style — Twin-counter moon-display appearance",
+    "name": "Complications-style — Twin-counter moon-display appearance — Leather-style strap",
+    "nameZh": "百达翡丽 · 双分盘月相外观 · 皮革外观表带",
+    "designDetails": "Twin-counter moon-display appearance",
+    "designDetailsZh": "双分盘月相外观",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Brown strap",
+        "labelZh": "白盘 · 银色表壳 · 棕色皮带",
+        "image": "pp-import-0454",
+        "photos": [
+          {
+            "image": "pp-import-0454"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0459",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0460",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0461",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0462",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Grey dial · Silver-tone case · Brown strap",
+        "labelZh": "灰盘 · 银色表壳 · 棕色皮带",
+        "image": "pp-import-0455",
+        "photos": [
+          {
+            "image": "pp-import-0455"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Light dial · Silver-tone case · Brown strap",
+        "labelZh": "浅色盘 · 银色表壳 · 棕色皮带",
+        "image": "pp-import-0456",
+        "photos": [
+          {
+            "image": "pp-import-0456"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Silver-tone case · Brown strap",
+        "labelZh": "黑盘 · 银色表壳 · 棕色皮带",
+        "image": "pp-import-0457",
+        "photos": [
+          {
+            "image": "pp-import-0457"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Blue dial · Silver-tone case · Brown strap",
+        "labelZh": "蓝盘 · 银色表壳 · 棕色皮带",
+        "image": "pp-import-0458",
+        "photos": [
+          {
+            "image": "pp-import-0458"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0454",
+    "coverImage": "pp-import-0454",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX322",
+    "brand": "Patek Philippe",
+    "baseFamily": "Grand Complications",
+    "family": "Grand Complications-style — Arabic calendar dial · Decorated bezel",
+    "name": "Grand Complications-style — Arabic calendar dial · Decorated bezel — Leather-style strap",
+    "nameZh": "百达翡丽 · 阿拉伯日历盘 · 装饰表圈 · 皮革外观表带",
+    "designDetails": "Arabic calendar dial · Decorated bezel",
+    "designDetailsZh": "阿拉伯日历盘 · 装饰表圈",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone decorated case · Brown strap",
+        "labelZh": "白盘 · 玫瑰金色装饰表壳 · 棕色皮带",
+        "image": "pp-import-0464",
+        "photos": [
+          {
+            "image": "pp-import-0464"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0463",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0465",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0466",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0467",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0468",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0469",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0470",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0471",
+            "alt": "Patek Philippe · White dial · Rose-tone decorated case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0464",
+    "coverImage": "pp-import-0464",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX323",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Roman date dial · Slim case",
+    "name": "Calatrava-style — Roman date dial · Slim case — Leather-style strap",
+    "nameZh": "百达翡丽 · 罗马日历盘 · 薄型外观表壳 · 皮革外观表带",
+    "designDetails": "Roman date dial · Slim case",
+    "designDetailsZh": "罗马日历盘 · 薄型外观表壳",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Yellow-tone case · Brown strap",
+        "labelZh": "黑盘 · 金色表壳 · 棕色皮带",
+        "image": "pp-import-0473",
+        "photos": [
+          {
+            "image": "pp-import-0473"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0472",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0474",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Yellow-tone case · Black strap",
+        "labelZh": "白盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0475",
+        "photos": [
+          {
+            "image": "pp-import-0475"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0476",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0477",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0478",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0479",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0480",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0473",
+    "coverImage": "pp-import-0473",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX324",
+    "brand": "Patek Philippe",
+    "baseFamily": "Complications",
+    "family": "Complications-style — Roman multi-register dial · Linked bracelet",
+    "name": "Complications-style — Roman multi-register dial · Linked bracelet — Metal bracelet",
+    "nameZh": "百达翡丽 · 罗马多副盘 · 多节表链 · 金属表链",
+    "designDetails": "Roman multi-register dial · Linked bracelet",
+    "designDetailsZh": "罗马多副盘 · 多节表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "pp-import-0481",
+        "photos": [
+          {
+            "image": "pp-import-0481"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0484",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0485",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0486",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0487",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0488",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0489",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Grey dial · Silver bracelet",
+        "labelZh": "灰盘 · 银色表链",
+        "image": "pp-import-0482",
+        "photos": [
+          {
+            "image": "pp-import-0482"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver bracelet",
+        "labelZh": "蓝盘 · 银色表链",
+        "image": "pp-import-0483",
+        "photos": [
+          {
+            "image": "pp-import-0483"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0481",
+    "coverImage": "pp-import-0481",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX325",
+    "brand": "Patek Philippe",
+    "baseFamily": "Grand Complications",
+    "family": "Grand Complications-style — Arabic calendar dial · Silver decorated bezel",
+    "name": "Grand Complications-style — Arabic calendar dial · Silver decorated bezel — Leather-style strap",
+    "nameZh": "百达翡丽 · 阿拉伯日历盘 · 银色装饰表圈 · 皮革外观表带",
+    "designDetails": "Arabic calendar dial · Silver decorated bezel",
+    "designDetailsZh": "阿拉伯日历盘 · 银色装饰表圈",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0491",
+        "photos": [
+          {
+            "image": "pp-import-0491"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0490",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0492",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0493",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0494",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0495",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0496",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0497",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0498",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0820",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0821",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0822",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0825",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0826",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0827",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0829",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0830",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0831",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0832",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0833",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0834",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0835",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0836",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0823",
+        "photos": [
+          {
+            "image": "pp-import-0823"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0824",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0491",
+    "coverImage": "pp-import-0491",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX326",
+    "brand": "Patek Philippe",
+    "baseFamily": "Celestial",
+    "family": "Celestial-style — Orbital dial · Engraved case",
+    "name": "Celestial-style — Orbital dial · Engraved case — Leather-style strap",
+    "nameZh": "百达翡丽 · 轨道造型盘 · 雕纹表壳 · 皮革外观表带",
+    "designDetails": "Orbital dial · Engraved case",
+    "designDetailsZh": "轨道造型盘 · 雕纹表壳",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black orbital dial · Rose-tone case · Black strap",
+        "labelZh": "黑色轨道盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "pp-import-0501",
+        "photos": [
+          {
+            "image": "pp-import-0501"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0499",
+            "alt": "Patek Philippe · Black orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0500",
+            "alt": "Patek Philippe · Black orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0502",
+            "alt": "Patek Philippe · Black orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0503",
+            "alt": "Patek Philippe · Black orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0504",
+            "alt": "Patek Philippe · Black orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0505",
+            "alt": "Patek Philippe · Black orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0506",
+            "alt": "Patek Philippe · Black orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0507",
+            "alt": "Patek Philippe · Black orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Green orbital dial · Silver-tone case · Green strap",
+        "labelZh": "绿色轨道盘 · 银色表壳 · 绿色皮带",
+        "image": "pp-import-0625",
+        "photos": [
+          {
+            "image": "pp-import-0625"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0626",
+            "alt": "Patek Philippe · Green orbital dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0627",
+            "alt": "Patek Philippe · Green orbital dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0628",
+            "alt": "Patek Philippe · Green orbital dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0629",
+            "alt": "Patek Philippe · Green orbital dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0630",
+            "alt": "Patek Philippe · Green orbital dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0631",
+            "alt": "Patek Philippe · Green orbital dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0632",
+            "alt": "Patek Philippe · Green orbital dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0633",
+            "alt": "Patek Philippe · Green orbital dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Blue orbital dial · Silver-tone case · Blue strap",
+        "labelZh": "蓝色轨道盘 · 银色表壳 · 蓝色皮带",
+        "image": "pp-import-0669",
+        "photos": [
+          {
+            "image": "pp-import-0669"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0670",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0671",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0672",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0673",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0674",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0675",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0676",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0677",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0729",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0730",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0731",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0732",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0733",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0734",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0735",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0736",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0737",
+            "alt": "Patek Philippe · Blue orbital dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0501",
+    "coverImage": "pp-import-0501",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX327",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Roman dial · Decorative indices · Bracelet",
+    "name": "Calatrava-style — Roman dial · Decorative indices · Bracelet — Metal bracelet",
+    "nameZh": "百达翡丽 · 罗马刻度盘 · 装饰刻度 · 表链 · 金属表链",
+    "designDetails": "Roman dial · Decorative indices · Bracelet",
+    "designDetailsZh": "罗马刻度盘 · 装饰刻度 · 表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "pp-import-0508",
+        "photos": [
+          {
+            "image": "pp-import-0508"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0509",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Rose-tone bracelet",
+        "labelZh": "白盘 · 玫瑰金色表链",
+        "image": "pp-import-0511",
+        "photos": [
+          {
+            "image": "pp-import-0511"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0510",
+            "alt": "Patek Philippe · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0512",
+            "alt": "Patek Philippe · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0513",
+            "alt": "Patek Philippe · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0514",
+            "alt": "Patek Philippe · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0515",
+            "alt": "Patek Philippe · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0516",
+            "alt": "Patek Philippe · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0508",
+    "coverImage": "pp-import-0508",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX328",
+    "brand": "Patek Philippe",
+    "baseFamily": "Grand Complications",
+    "family": "Grand Complications-style — Arabic twin-counter dial",
+    "name": "Grand Complications-style — Arabic twin-counter dial — Leather-style strap",
+    "nameZh": "百达翡丽 · 阿拉伯双副盘 · 皮革外观表带",
+    "designDetails": "Arabic twin-counter dial",
+    "designDetailsZh": "阿拉伯双副盘",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Yellow-tone case · Black strap",
+        "labelZh": "黑盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0526",
+        "photos": [
+          {
+            "image": "pp-import-0526"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0527",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0528",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0529",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0530",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0531",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0532",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0533",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0534",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0526",
+    "coverImage": "pp-import-0526",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX329",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Small-seconds dial · Yellow case",
+    "name": "Calatrava-style — Small-seconds dial · Yellow case — Leather-style strap",
+    "nameZh": "百达翡丽 · 小秒盘 · 金色表壳 · 皮革外观表带",
+    "designDetails": "Small-seconds dial · Yellow case",
+    "designDetailsZh": "小秒盘 · 金色表壳",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Yellow-tone case · Brown strap",
+        "labelZh": "白盘 · 金色表壳 · 棕色皮带",
+        "image": "pp-import-0536",
+        "photos": [
+          {
+            "image": "pp-import-0536"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0535",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0537",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0538",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0539",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0540",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0541",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0542",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0543",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0536",
+    "coverImage": "pp-import-0536",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX330",
+    "brand": "Patek Philippe",
+    "baseFamily": "Complications",
+    "family": "Complications-style — Multi-register dial · Yellow case",
+    "name": "Complications-style — Multi-register dial · Yellow case — Leather-style strap",
+    "nameZh": "百达翡丽 · 多副盘 · 金色表壳 · 皮革外观表带",
+    "designDetails": "Multi-register dial · Yellow case",
+    "designDetailsZh": "多副盘 · 金色表壳",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Yellow-tone case · Black strap",
+        "labelZh": "白盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0544",
+        "photos": [
+          {
+            "image": "pp-import-0544"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0545",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0546",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0547",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0548",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0551",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0552",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Yellow-tone case · Black strap",
+        "labelZh": "黑盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0549",
+        "photos": [
+          {
+            "image": "pp-import-0549"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0550",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0544",
+    "coverImage": "pp-import-0544",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX331",
+    "brand": "Patek Philippe",
+    "baseFamily": "Complications",
+    "family": "Complications-style — Multi-register dial · Plain bezel",
+    "name": "Complications-style — Multi-register dial · Plain bezel — Leather-style strap",
+    "nameZh": "百达翡丽 · 多副盘 · 光面表圈 · 皮革外观表带",
+    "designDetails": "Multi-register dial · Plain bezel",
+    "designDetailsZh": "多副盘 · 光面表圈",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Warm-tone case · Brown strap",
+        "labelZh": "白盘 · 暖色表壳 · 棕色皮带",
+        "image": "pp-import-0554",
+        "photos": [
+          {
+            "image": "pp-import-0554"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0553",
+            "alt": "Patek Philippe · White dial · Warm-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0555",
+            "alt": "Patek Philippe · White dial · Warm-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0558",
+            "alt": "Patek Philippe · White dial · Warm-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Warm-tone case · Black strap",
+        "labelZh": "蓝盘 · 暖色表壳 · 黑色皮带",
+        "image": "pp-import-0556",
+        "photos": [
+          {
+            "image": "pp-import-0556"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0557",
+            "alt": "Patek Philippe · Blue dial · Warm-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0559",
+            "alt": "Patek Philippe · Blue dial · Warm-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0560",
+            "alt": "Patek Philippe · Blue dial · Warm-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0561",
+            "alt": "Patek Philippe · Blue dial · Warm-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0554",
+    "coverImage": "pp-import-0554",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX332",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Baton dial · Rose case · Leather",
+    "name": "Nautilus-style — Baton dial · Rose case · Leather — Leather-style strap",
+    "nameZh": "百达翡丽 · 条形刻度盘 · 玫瑰金色壳 · 皮带 · 皮革外观表带",
+    "designDetails": "Baton dial · Rose case · Leather",
+    "designDetailsZh": "条形刻度盘 · 玫瑰金色壳 · 皮带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Rose-tone case · Brown strap",
+        "labelZh": "灰盘 · 玫瑰金色表壳 · 棕色皮带",
+        "image": "pp-import-0562",
+        "photos": [
+          {
+            "image": "pp-import-0562"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0563",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0564",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0565",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0566",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0567",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0568",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0570",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0562",
+    "coverImage": "pp-import-0562",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX333",
+    "brand": "Patek Philippe",
+    "baseFamily": "Complications",
+    "family": "Complications-style — Blue chronograph · Patterned dial",
+    "name": "Complications-style — Blue chronograph · Patterned dial — Leather-style strap",
+    "nameZh": "百达翡丽 · 蓝色计时外观 · 纹理盘 · 皮革外观表带",
+    "designDetails": "Blue chronograph · Patterned dial",
+    "designDetailsZh": "蓝色计时外观 · 纹理盘",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Silver-tone case · Blue strap",
+        "labelZh": "蓝盘 · 银色表壳 · 蓝色皮带",
+        "image": "pp-import-0573",
+        "photos": [
+          {
+            "image": "pp-import-0573"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0572",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0574",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0575",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0576",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0577",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0578",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0579",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0573",
+    "coverImage": "pp-import-0573",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX334",
+    "brand": "Patek Philippe",
+    "baseFamily": "Complications",
+    "family": "Complications-style — Triple-register dial · Roman indices",
+    "name": "Complications-style — Triple-register dial · Roman indices — Leather-style strap",
+    "nameZh": "百达翡丽 · 三副盘 · 罗马刻度 · 皮革外观表带",
+    "designDetails": "Triple-register dial · Roman indices",
+    "designDetailsZh": "三副盘 · 罗马刻度",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Brown strap",
+        "labelZh": "白盘 · 银色表壳 · 棕色皮带",
+        "image": "pp-import-0589",
+        "photos": [
+          {
+            "image": "pp-import-0589"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0594",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Silver-tone case · Brown strap",
+        "labelZh": "蓝盘 · 银色表壳 · 棕色皮带",
+        "image": "pp-import-0591",
+        "photos": [
+          {
+            "image": "pp-import-0591"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0592",
+        "photos": [
+          {
+            "image": "pp-import-0592"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0593",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0595",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0596",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0597",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0589",
+    "coverImage": "pp-import-0589",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX335",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Decorated dial · Silver case",
+    "name": "Nautilus-style — Decorated dial · Silver case — Metal bracelet",
+    "nameZh": "百达翡丽 · 装饰盘 · 银色表壳 · 金属表链",
+    "designDetails": "Decorated dial · Silver case",
+    "designDetailsZh": "装饰盘 · 银色表壳",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Light decorative dial · Silver bracelet",
+        "labelZh": "浅色装饰盘 · 银色表链",
+        "image": "pp-import-0598",
+        "photos": [
+          {
+            "image": "pp-import-0598"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0601",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0603",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0604",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0605",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0606",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Dark striped decorative dial · Silver bracelet",
+        "labelZh": "深色条纹装饰盘 · 银色表链",
+        "image": "pp-import-0599",
+        "photos": [
+          {
+            "image": "pp-import-0599"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0600",
+            "alt": "Patek Philippe · Dark striped decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0602",
+            "alt": "Patek Philippe · Dark striped decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0598",
+    "coverImage": "pp-import-0598",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX336",
+    "brand": "Patek Philippe",
+    "baseFamily": "Complications",
+    "family": "Complications-style — Chronograph · Large baton indices",
+    "name": "Complications-style — Chronograph · Large baton indices — Leather-style strap",
+    "nameZh": "百达翡丽 · 计时外观 · 大条形刻度 · 皮革外观表带",
+    "designDetails": "Chronograph · Large baton indices",
+    "designDetailsZh": "计时外观 · 大条形刻度",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0608",
+        "photos": [
+          {
+            "image": "pp-import-0608"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0607",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0609",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0610",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0613",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0614",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0615",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0611",
+        "photos": [
+          {
+            "image": "pp-import-0611"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0612",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0608",
+    "coverImage": "pp-import-0608",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX337",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Sculpted dragon motif · Decorated case",
+    "name": "Nautilus-style — Sculpted dragon motif · Decorated case — Metal bracelet",
+    "nameZh": "百达翡丽 · 立体龙形造型 · 装饰表壳 · 金属表链",
+    "designDetails": "Sculpted dragon motif · Decorated case",
+    "designDetailsZh": "立体龙形造型 · 装饰表壳",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Multicolour dragon dial · Silver bracelet",
+        "labelZh": "多彩龙形盘 · 银色表链",
+        "image": "pp-import-0636",
+        "photos": [
+          {
+            "image": "pp-import-0636"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0634",
+            "alt": "Patek Philippe · Multicolour dragon dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0635",
+            "alt": "Patek Philippe · Multicolour dragon dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0637",
+            "alt": "Patek Philippe · Multicolour dragon dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0638",
+            "alt": "Patek Philippe · Multicolour dragon dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0639",
+            "alt": "Patek Philippe · Multicolour dragon dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0640",
+            "alt": "Patek Philippe · Multicolour dragon dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0641",
+            "alt": "Patek Philippe · Multicolour dragon dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0642",
+            "alt": "Patek Philippe · Multicolour dragon dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0636",
+    "coverImage": "pp-import-0636",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX338",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Blue dial · Decorated bezel",
+    "name": "Nautilus-style — Blue dial · Decorated bezel — Metal bracelet",
+    "nameZh": "百达翡丽 · 蓝盘 · 装饰表圈 · 金属表链",
+    "designDetails": "Blue dial · Decorated bezel",
+    "designDetailsZh": "蓝盘 · 装饰表圈",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Silver-tone decorated case · Silver bracelet",
+        "labelZh": "蓝盘 · 银色装饰表壳 · 银色表链",
+        "image": "pp-import-0643",
+        "photos": [
+          {
+            "image": "pp-import-0643"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0644",
+            "alt": "Patek Philippe · Blue dial · Silver-tone decorated case · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0645",
+            "alt": "Patek Philippe · Blue dial · Silver-tone decorated case · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0646",
+            "alt": "Patek Philippe · Blue dial · Silver-tone decorated case · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0647",
+            "alt": "Patek Philippe · Blue dial · Silver-tone decorated case · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0648",
+            "alt": "Patek Philippe · Blue dial · Silver-tone decorated case · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0649",
+            "alt": "Patek Philippe · Blue dial · Silver-tone decorated case · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0650",
+            "alt": "Patek Philippe · Blue dial · Silver-tone decorated case · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0643",
+    "coverImage": "pp-import-0643",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX339",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Textured three-hand dial · Rose case",
+    "name": "Nautilus-style — Textured three-hand dial · Rose case — Leather-style strap",
+    "nameZh": "百达翡丽 · 纹理三针盘 · 玫瑰金色表壳 · 皮革外观表带",
+    "designDetails": "Textured three-hand dial · Rose case",
+    "designDetailsZh": "纹理三针盘 · 玫瑰金色表壳",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Rose-tone case · Brown strap",
+        "labelZh": "灰盘 · 玫瑰金色表壳 · 棕色皮带",
+        "image": "pp-import-0651",
+        "photos": [
+          {
+            "image": "pp-import-0651"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0652",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0653",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0654",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0655",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0656",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0657",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0658",
+            "alt": "Patek Philippe · Grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0651",
+    "coverImage": "pp-import-0651",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX340",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Textured three-hand dial · Rose case",
+    "name": "Nautilus-style — Textured three-hand dial · Rose case — Metal bracelet",
+    "nameZh": "百达翡丽 · 纹理三针盘 · 玫瑰金色表壳 · 金属表链",
+    "designDetails": "Textured three-hand dial · Rose case",
+    "designDetailsZh": "纹理三针盘 · 玫瑰金色表壳",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Rose-tone bracelet",
+        "labelZh": "灰盘 · 玫瑰金色表链",
+        "image": "pp-import-0659",
+        "photos": [
+          {
+            "image": "pp-import-0659"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0720",
+            "alt": "Patek Philippe · Grey dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0721",
+            "alt": "Patek Philippe · Grey dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0722",
+            "alt": "Patek Philippe · Grey dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0723",
+            "alt": "Patek Philippe · Grey dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0724",
+            "alt": "Patek Philippe · Grey dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0725",
+            "alt": "Patek Philippe · Grey dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0726",
+            "alt": "Patek Philippe · Grey dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0727",
+            "alt": "Patek Philippe · Grey dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0728",
+            "alt": "Patek Philippe · Grey dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0659",
+    "coverImage": "pp-import-0659",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX341",
+    "brand": "Patek Philippe",
+    "baseFamily": "Aquanaut",
+    "family": "Aquanaut-style — Arabic date dial · Dark case",
+    "name": "Aquanaut-style — Arabic date dial · Dark case — Rubber-style strap",
+    "nameZh": "百达翡丽 · 阿拉伯数字日历盘 · 深色表壳 · 胶带外观",
+    "designDetails": "Arabic date dial · Dark case",
+    "designDetailsZh": "阿拉伯数字日历盘 · 深色表壳",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark dial · Dark case · Black strap",
+        "labelZh": "深色盘 · 深色表壳 · 黑色胶带",
+        "image": "pp-import-0678",
+        "photos": [
+          {
+            "image": "pp-import-0678"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0679",
+            "alt": "Patek Philippe · Dark dial · Dark case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0680",
+            "alt": "Patek Philippe · Dark dial · Dark case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0681",
+            "alt": "Patek Philippe · Dark dial · Dark case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0682",
+            "alt": "Patek Philippe · Dark dial · Dark case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0683",
+            "alt": "Patek Philippe · Dark dial · Dark case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Dark dial · Dark case · Burgundy strap",
+        "labelZh": "深色盘 · 深色表壳 · 酒红色胶带",
+        "image": "pp-import-0900",
+        "photos": [
+          {
+            "image": "pp-import-0900"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0901",
+            "alt": "Patek Philippe · Dark dial · Dark case · Burgundy strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0902",
+            "alt": "Patek Philippe · Dark dial · Dark case · Burgundy strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0903",
+            "alt": "Patek Philippe · Dark dial · Dark case · Burgundy strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0904",
+            "alt": "Patek Philippe · Dark dial · Dark case · Burgundy strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0905",
+            "alt": "Patek Philippe · Dark dial · Dark case · Burgundy strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0906",
+            "alt": "Patek Philippe · Dark dial · Dark case · Burgundy strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0907",
+            "alt": "Patek Philippe · Dark dial · Dark case · Burgundy strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0908",
+            "alt": "Patek Philippe · Dark dial · Dark case · Burgundy strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0678",
+    "coverImage": "pp-import-0678",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX342",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Openworked dial · Arabic indices",
+    "name": "Calatrava-style — Openworked dial · Arabic indices — Leather-style strap",
+    "nameZh": "百达翡丽 · 镂空盘 · 阿拉伯刻度 · 皮革外观表带",
+    "designDetails": "Openworked dial · Arabic indices",
+    "designDetailsZh": "镂空盘 · 阿拉伯刻度",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Openworked dial · Rose-tone case · Brown strap",
+        "labelZh": "镂空盘 · 玫瑰金色表壳 · 棕色皮带",
+        "image": "pp-import-0693",
+        "photos": [
+          {
+            "image": "pp-import-0693"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0696",
+            "alt": "Patek Philippe · Openworked dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0700",
+            "alt": "Patek Philippe · Openworked dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0701",
+            "alt": "Patek Philippe · Openworked dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Openworked dial · Silver-tone case · Black strap",
+        "labelZh": "镂空盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0694",
+        "photos": [
+          {
+            "image": "pp-import-0694"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0695",
+            "alt": "Patek Philippe · Openworked dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0699",
+            "alt": "Patek Philippe · Openworked dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Dark openworked dial · Rose-tone case · Black strap",
+        "labelZh": "深色镂空盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "pp-import-0698",
+        "photos": [
+          {
+            "image": "pp-import-0698"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0693",
+    "coverImage": "pp-import-0693",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX343",
+    "brand": "Patek Philippe",
+    "baseFamily": "Complications",
+    "family": "Complications-style — Openworked chronograph appearance",
+    "name": "Complications-style — Openworked chronograph appearance — Leather-style strap",
+    "nameZh": "百达翡丽 · 镂空计时外观 · 皮革外观表带",
+    "designDetails": "Openworked chronograph appearance",
+    "designDetailsZh": "镂空计时外观",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Light openworked dial · Silver-tone case · Black strap",
+        "labelZh": "浅色镂空盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0702",
+        "photos": [
+          {
+            "image": "pp-import-0702"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Grey openworked dial · Silver-tone case · Black strap",
+        "labelZh": "灰色镂空盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0703",
+        "photos": [
+          {
+            "image": "pp-import-0703"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Light openworked dial · Rose-tone case · Black strap",
+        "labelZh": "浅色镂空盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "pp-import-0704",
+        "photos": [
+          {
+            "image": "pp-import-0704"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0705",
+            "alt": "Patek Philippe · Light openworked dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0706",
+            "alt": "Patek Philippe · Light openworked dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0707",
+            "alt": "Patek Philippe · Light openworked dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0709",
+            "alt": "Patek Philippe · Light openworked dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0710",
+            "alt": "Patek Philippe · Light openworked dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Dark openworked dial · Rose-tone case · Black strap",
+        "labelZh": "深色镂空盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "pp-import-0708",
+        "photos": [
+          {
+            "image": "pp-import-0708"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0702",
+    "coverImage": "pp-import-0702",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX344",
+    "brand": "Patek Philippe",
+    "baseFamily": "Celestial",
+    "family": "Celestial-style — Orbital dial · Rose case",
+    "name": "Celestial-style — Orbital dial · Rose case — Leather-style strap",
+    "nameZh": "百达翡丽 · 轨道造型盘 · 玫瑰金色表壳 · 皮革外观表带",
+    "designDetails": "Orbital dial · Rose case",
+    "designDetailsZh": "轨道造型盘 · 玫瑰金色表壳",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue orbital dial · Rose-tone case · Black strap",
+        "labelZh": "蓝色轨道盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "pp-import-0711",
+        "photos": [
+          {
+            "image": "pp-import-0711"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0714",
+            "alt": "Patek Philippe · Blue orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0715",
+            "alt": "Patek Philippe · Blue orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0716",
+            "alt": "Patek Philippe · Blue orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0717",
+            "alt": "Patek Philippe · Blue orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0718",
+            "alt": "Patek Philippe · Blue orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0719",
+            "alt": "Patek Philippe · Blue orbital dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Green orbital dial · Rose-tone case · Black strap",
+        "labelZh": "绿色轨道盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "pp-import-0712",
+        "photos": [
+          {
+            "image": "pp-import-0712"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Grey orbital dial · Rose-tone case · Black strap",
+        "labelZh": "灰色轨道盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "pp-import-0713",
+        "photos": [
+          {
+            "image": "pp-import-0713"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0711",
+    "coverImage": "pp-import-0711",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX345",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Fully decorated dial and bracelet",
+    "name": "Nautilus-style — Fully decorated dial and bracelet — Metal bracelet",
+    "nameZh": "百达翡丽 · 全装饰盘与表链 · 金属表链",
+    "designDetails": "Fully decorated dial and bracelet",
+    "designDetailsZh": "全装饰盘与表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Light decorative dial · Yellow-tone bracelet",
+        "labelZh": "浅色装饰盘 · 金色表链",
+        "image": "pp-import-0738",
+        "photos": [
+          {
+            "image": "pp-import-0738"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0739",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0740",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0741",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0742",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0743",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0744",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0745",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0746",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0927",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0928",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0929",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0930",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0931",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0932",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0933",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0934",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0935",
+            "alt": "Patek Philippe · Light decorative dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Light decorative dial · Silver bracelet",
+        "labelZh": "浅色装饰盘 · 银色表链",
+        "image": "pp-import-0918",
+        "photos": [
+          {
+            "image": "pp-import-0918"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0919",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0920",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0921",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0922",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0923",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0924",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0925",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0926",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0954",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0955",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0956",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0957",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0958",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0959",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0960",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0961",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0962",
+            "alt": "Patek Philippe · Light decorative dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0738",
+    "coverImage": "pp-import-0738",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX346",
+    "brand": "Patek Philippe",
+    "baseFamily": "Grand Complications",
+    "family": "Grand Complications-style — Arabic twin-counter dial · Yellow case",
+    "name": "Grand Complications-style — Arabic twin-counter dial · Yellow case — Leather-style strap",
+    "nameZh": "百达翡丽 · 阿拉伯双副盘 · 金色表壳 · 皮革外观表带",
+    "designDetails": "Arabic twin-counter dial · Yellow case",
+    "designDetailsZh": "阿拉伯双副盘 · 金色表壳",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Yellow-tone case · Black strap",
+        "labelZh": "黑盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0758",
+        "photos": [
+          {
+            "image": "pp-import-0758"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0757",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0759",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0762",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0763",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0764",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Yellow-tone case · Black strap",
+        "labelZh": "白盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0761",
+        "photos": [
+          {
+            "image": "pp-import-0761"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0760",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0758",
+    "coverImage": "pp-import-0758",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX347",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Concentric track dial",
+    "name": "Calatrava-style — Concentric track dial — Leather-style strap",
+    "nameZh": "百达翡丽 · 同心轨道刻度盘 · 皮革外观表带",
+    "designDetails": "Concentric track dial",
+    "designDetailsZh": "同心轨道刻度盘",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Yellow-tone case · Black strap",
+        "labelZh": "白盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0766",
+        "photos": [
+          {
+            "image": "pp-import-0766"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0765",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0770",
+        "photos": [
+          {
+            "image": "pp-import-0770"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0767",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0768",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0769",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0771",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0772",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0773",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0766",
+    "coverImage": "pp-import-0766",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX348",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Baton date dial · Fine-pattern bezel",
+    "name": "Calatrava-style — Baton date dial · Fine-pattern bezel — Leather-style strap",
+    "nameZh": "百达翡丽 · 条形日历盘 · 细纹表圈 · 皮革外观表带",
+    "designDetails": "Baton date dial · Fine-pattern bezel",
+    "designDetailsZh": "条形日历盘 · 细纹表圈",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0776",
+        "photos": [
+          {
+            "image": "pp-import-0776"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0775",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0777",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0780",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0782",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0778",
+        "photos": [
+          {
+            "image": "pp-import-0778"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver-tone case · Black strap",
+        "labelZh": "蓝盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0779",
+        "photos": [
+          {
+            "image": "pp-import-0779"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0781",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0776",
+    "coverImage": "pp-import-0776",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX349",
+    "brand": "Patek Philippe",
+    "baseFamily": "Complications",
+    "family": "Complications-style — Roman moon-display dial",
+    "name": "Complications-style — Roman moon-display dial — Leather-style strap",
+    "nameZh": "百达翡丽 · 罗马刻度月相外观盘 · 皮革外观表带",
+    "designDetails": "Roman moon-display dial",
+    "designDetailsZh": "罗马刻度月相外观盘",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Grey strap",
+        "labelZh": "白盘 · 银色表壳 · 灰色皮带",
+        "image": "pp-import-0785",
+        "photos": [
+          {
+            "image": "pp-import-0785"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0783",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Grey strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0784",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Grey strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0786",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Grey strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0787",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Grey strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0788",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Grey strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0789",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Grey strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0790",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Grey strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0791",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Grey strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0792",
+        "photos": [
+          {
+            "image": "pp-import-0792"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0795",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Yellow-tone case · Black strap",
+        "labelZh": "白盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0793",
+        "photos": [
+          {
+            "image": "pp-import-0793"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0796",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Rose-tone case · Black strap",
+        "labelZh": "白盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "pp-import-0794",
+        "photos": [
+          {
+            "image": "pp-import-0794"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0797",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0798",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0799",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0800",
+            "alt": "Patek Philippe · White dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0785",
+    "coverImage": "pp-import-0785",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX350",
+    "brand": "Patek Philippe",
+    "baseFamily": "Aquanaut",
+    "family": "Aquanaut-style — Chronograph appearance · Decorated bezel",
+    "name": "Aquanaut-style — Chronograph appearance · Decorated bezel — Rubber-style strap",
+    "nameZh": "百达翡丽 · 计时外观 · 装饰表圈 · 胶带外观",
+    "designDetails": "Chronograph appearance · Decorated bezel",
+    "designDetailsZh": "计时外观 · 装饰表圈",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Silver-tone case · Blue strap",
+        "labelZh": "蓝盘 · 银色表壳 · 蓝色胶带",
+        "image": "pp-import-0801",
+        "photos": [
+          {
+            "image": "pp-import-0801"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0802",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0803",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0804",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0805",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0806",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0807",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0808",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0809",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0801",
+    "coverImage": "pp-import-0801",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX351",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — White date dial · Dark Roman indices",
+    "name": "Nautilus-style — White date dial · Dark Roman indices — Metal bracelet",
+    "nameZh": "百达翡丽 · 白色日历盘 · 深色罗马刻度 · 金属表链",
+    "designDetails": "White date dial · Dark Roman indices",
+    "designDetailsZh": "白色日历盘 · 深色罗马刻度",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "pp-import-0813",
+        "photos": [
+          {
+            "image": "pp-import-0813"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0810",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0811",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0812",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0814",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0815",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0816",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0817",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0818",
+            "alt": "Patek Philippe · White dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0813",
+    "coverImage": "pp-import-0813",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX352",
+    "brand": "Patek Philippe",
+    "baseFamily": "Complications",
+    "family": "Complications-style — Decorated moon-display dial",
+    "name": "Complications-style — Decorated moon-display dial — Leather-style strap",
+    "nameZh": "百达翡丽 · 装饰月相外观盘 · 皮革外观表带",
+    "designDetails": "Decorated moon-display dial",
+    "designDetailsZh": "装饰月相外观盘",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver-tone decorated case · Black strap",
+        "labelZh": "黑盘 · 银色装饰表壳 · 黑色皮带",
+        "image": "pp-import-0837",
+        "photos": [
+          {
+            "image": "pp-import-0837"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0841",
+            "alt": "Patek Philippe · Black dial · Silver-tone decorated case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0843",
+            "alt": "Patek Philippe · Black dial · Silver-tone decorated case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0844",
+            "alt": "Patek Philippe · Black dial · Silver-tone decorated case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0845",
+            "alt": "Patek Philippe · Black dial · Silver-tone decorated case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Silver-tone decorated case · Black strap",
+        "labelZh": "蓝盘 · 银色装饰表壳 · 黑色皮带",
+        "image": "pp-import-0838",
+        "photos": [
+          {
+            "image": "pp-import-0838"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0840",
+            "alt": "Patek Philippe · Blue dial · Silver-tone decorated case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Silver-tone decorated case · Black strap",
+        "labelZh": "白盘 · 银色装饰表壳 · 黑色皮带",
+        "image": "pp-import-0839",
+        "photos": [
+          {
+            "image": "pp-import-0839"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0842",
+            "alt": "Patek Philippe · White dial · Silver-tone decorated case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0837",
+    "coverImage": "pp-import-0837",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX353",
+    "brand": "Patek Philippe",
+    "baseFamily": "Aquanaut",
+    "family": "Aquanaut-style — Green date dial · Plain bezel",
+    "name": "Aquanaut-style — Green date dial · Plain bezel — Rubber-style strap",
+    "nameZh": "百达翡丽 · 绿色日历盘 · 光面表圈 · 胶带外观",
+    "designDetails": "Green date dial · Plain bezel",
+    "designDetailsZh": "绿色日历盘 · 光面表圈",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green dial · Silver-tone case · Green strap",
+        "labelZh": "绿盘 · 银色表壳 · 绿色胶带",
+        "image": "pp-import-0848",
+        "photos": [
+          {
+            "image": "pp-import-0848"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0846",
+            "alt": "Patek Philippe · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0847",
+            "alt": "Patek Philippe · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0849",
+            "alt": "Patek Philippe · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0850",
+            "alt": "Patek Philippe · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0851",
+            "alt": "Patek Philippe · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0852",
+            "alt": "Patek Philippe · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0853",
+            "alt": "Patek Philippe · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0854",
+            "alt": "Patek Philippe · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0848",
+    "coverImage": "pp-import-0848",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX354",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Retro-styled dark dial",
+    "name": "Calatrava-style — Retro-styled dark dial — Leather-style strap",
+    "nameZh": "百达翡丽 · 复古风格深色盘 · 皮革外观表带",
+    "designDetails": "Retro-styled dark dial",
+    "designDetailsZh": "复古风格深色盘",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0865",
+        "photos": [
+          {
+            "image": "pp-import-0865"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0864",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0866",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0867",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0868",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0869",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0870",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0871",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0865",
+    "coverImage": "pp-import-0865",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX355",
+    "brand": "Patek Philippe",
+    "baseFamily": "Grand Complications",
+    "family": "Grand Complications-style — Triple-register dial · Yellow decorated bezel",
+    "name": "Grand Complications-style — Triple-register dial · Yellow decorated bezel — Leather-style strap",
+    "nameZh": "百达翡丽 · 三副盘 · 金色装饰表圈 · 皮革外观表带",
+    "designDetails": "Triple-register dial · Yellow decorated bezel",
+    "designDetailsZh": "三副盘 · 金色装饰表圈",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Yellow-tone case · Black strap",
+        "labelZh": "白盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0873",
+        "photos": [
+          {
+            "image": "pp-import-0873"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0879",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0880",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0881",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Yellow-tone case · Black strap",
+        "labelZh": "黑盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0874",
+        "photos": [
+          {
+            "image": "pp-import-0874"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0876",
+            "alt": "Patek Philippe · Black dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Champagne dial · Yellow-tone case · Black strap",
+        "labelZh": "香槟盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0875",
+        "photos": [
+          {
+            "image": "pp-import-0875"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0878",
+            "alt": "Patek Philippe · Champagne dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Light dial · Yellow-tone case · Black strap",
+        "labelZh": "浅色盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0877",
+        "photos": [
+          {
+            "image": "pp-import-0877"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0873",
+    "coverImage": "pp-import-0873",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX356",
+    "brand": "Patek Philippe",
+    "baseFamily": "Grand Complications",
+    "family": "Grand Complications-style — Arabic calendar dial · Yellow decorated bezel",
+    "name": "Grand Complications-style — Arabic calendar dial · Yellow decorated bezel — Leather-style strap",
+    "nameZh": "百达翡丽 · 阿拉伯日历盘 · 金色装饰表圈 · 皮革外观表带",
+    "designDetails": "Arabic calendar dial · Yellow decorated bezel",
+    "designDetailsZh": "阿拉伯日历盘 · 金色装饰表圈",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Yellow-tone case · Black strap",
+        "labelZh": "白盘 · 金色表壳 · 黑色皮带",
+        "image": "pp-import-0885",
+        "photos": [
+          {
+            "image": "pp-import-0885"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0883",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0884",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0886",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0887",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0888",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0889",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0890",
+            "alt": "Patek Philippe · White dial · Yellow-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0885",
+    "coverImage": "pp-import-0885",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX357",
+    "brand": "Patek Philippe",
+    "baseFamily": "Complications",
+    "family": "Complications-style — Sector moon-display dial",
+    "name": "Complications-style — Sector moon-display dial — Leather-style strap",
+    "nameZh": "百达翡丽 · 分区月相外观盘 · 皮革外观表带",
+    "designDetails": "Sector moon-display dial",
+    "designDetailsZh": "分区月相外观盘",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White sector dial · Silver-tone case · Black strap",
+        "labelZh": "白色分区盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0892",
+        "photos": [
+          {
+            "image": "pp-import-0892"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0891",
+            "alt": "Patek Philippe · White sector dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0893",
+            "alt": "Patek Philippe · White sector dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0894",
+            "alt": "Patek Philippe · White sector dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0895",
+            "alt": "Patek Philippe · White sector dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0896",
+            "alt": "Patek Philippe · White sector dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0897",
+            "alt": "Patek Philippe · White sector dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0898",
+            "alt": "Patek Philippe · White sector dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0899",
+            "alt": "Patek Philippe · White sector dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0892",
+    "coverImage": "pp-import-0892",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX358",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Plain dial · Yellow linked bracelet",
+    "name": "Calatrava-style — Plain dial · Yellow linked bracelet — Metal bracelet",
+    "nameZh": "百达翡丽 · 简洁盘 · 金色多节表链 · 金属表链",
+    "designDetails": "Plain dial · Yellow linked bracelet",
+    "designDetailsZh": "简洁盘 · 金色多节表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Champagne dial · Yellow-tone bracelet",
+        "labelZh": "香槟盘 · 金色表链",
+        "image": "pp-import-0936",
+        "photos": [
+          {
+            "image": "pp-import-0936"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0937",
+            "alt": "Patek Philippe · Champagne dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0938",
+            "alt": "Patek Philippe · Champagne dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0939",
+            "alt": "Patek Philippe · Champagne dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0940",
+            "alt": "Patek Philippe · Champagne dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0941",
+            "alt": "Patek Philippe · Champagne dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0942",
+            "alt": "Patek Philippe · Champagne dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0943",
+            "alt": "Patek Philippe · Champagne dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0944",
+            "alt": "Patek Philippe · Champagne dial · Yellow-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0936",
+    "coverImage": "pp-import-0936",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX359",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Minimal rounded dial",
+    "name": "Nautilus-style — Minimal rounded dial — Metal bracelet",
+    "nameZh": "百达翡丽 · 极简圆角盘 · 金属表链",
+    "designDetails": "Minimal rounded dial",
+    "designDetailsZh": "极简圆角盘",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver dial · Silver bracelet",
+        "labelZh": "银盘 · 银色表链",
+        "image": "pp-import-0963",
+        "photos": [
+          {
+            "image": "pp-import-0963"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0964",
+            "alt": "Patek Philippe · Silver dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0965",
+            "alt": "Patek Philippe · Silver dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0966",
+            "alt": "Patek Philippe · Silver dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0967",
+            "alt": "Patek Philippe · Silver dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0968",
+            "alt": "Patek Philippe · Silver dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0969",
+            "alt": "Patek Philippe · Silver dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0970",
+            "alt": "Patek Philippe · Silver dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0971",
+            "alt": "Patek Philippe · Silver dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0963",
+    "coverImage": "pp-import-0963",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX360",
+    "brand": "Patek Philippe",
+    "baseFamily": "Calatrava",
+    "family": "Calatrava-style — Orbital scale dial · Rose case",
+    "name": "Calatrava-style — Orbital scale dial · Rose case — Leather-style strap",
+    "nameZh": "百达翡丽 · 轨道刻度盘 · 玫瑰金色表壳 · 皮革外观表带",
+    "designDetails": "Orbital scale dial · Rose case",
+    "designDetailsZh": "轨道刻度盘 · 玫瑰金色表壳",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Rose-tone case · Black strap",
+        "labelZh": "黑盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "pp-import-0972",
+        "photos": [
+          {
+            "image": "pp-import-0972"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0973",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0974",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0975",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0976",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0977",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0978",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0979",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0980",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0972",
+    "coverImage": "pp-import-0972",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX361",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Subdial · Grey case · Leather",
+    "name": "Nautilus-style — Subdial · Grey case · Leather — Leather-style strap",
+    "nameZh": "百达翡丽 · 副盘 · 灰色表壳 · 皮带 · 皮革外观表带",
+    "designDetails": "Subdial · Grey case · Leather",
+    "designDetailsZh": "副盘 · 灰色表壳 · 皮带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Grey case · Black strap",
+        "labelZh": "灰盘 · 灰色表壳 · 黑色皮带",
+        "image": "pp-import-0989",
+        "photos": [
+          {
+            "image": "pp-import-0989"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0981",
+            "alt": "Patek Philippe · Grey dial · Grey case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0982",
+            "alt": "Patek Philippe · Grey dial · Grey case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0983",
+            "alt": "Patek Philippe · Grey dial · Grey case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0984",
+            "alt": "Patek Philippe · Grey dial · Grey case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0985",
+            "alt": "Patek Philippe · Grey dial · Grey case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0986",
+            "alt": "Patek Philippe · Grey dial · Grey case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0987",
+            "alt": "Patek Philippe · Grey dial · Grey case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-0988",
+            "alt": "Patek Philippe · Grey dial · Grey case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0989",
+    "coverImage": "pp-import-0989",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX362",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Twin-counter chronograph appearance",
+    "name": "Nautilus-style — Twin-counter chronograph appearance — Leather-style strap",
+    "nameZh": "百达翡丽 · 双分盘计时外观 · 皮革外观表带",
+    "designDetails": "Twin-counter chronograph appearance",
+    "designDetailsZh": "双分盘计时外观",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Silver-tone case · Black strap",
+        "labelZh": "蓝盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-0998",
+        "photos": [
+          {
+            "image": "pp-import-0998"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-0999",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1000",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1004",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1005",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1006",
+            "alt": "Patek Philippe · Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-1001",
+        "photos": [
+          {
+            "image": "pp-import-1001"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-1002",
+            "alt": "Patek Philippe · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "pp-import-1003",
+        "photos": [
+          {
+            "image": "pp-import-1003"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-0998",
+    "coverImage": "pp-import-0998",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX363",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Baton date dial · Green",
+    "name": "Nautilus-style — Baton date dial · Green — Metal bracelet",
+    "nameZh": "百达翡丽 · 绿色条形日历盘 · 金属表链",
+    "designDetails": "Baton date dial · Green",
+    "designDetailsZh": "绿色条形日历盘",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green dial · Silver bracelet",
+        "labelZh": "绿盘 · 银色表链",
+        "image": "pp-import-1017",
+        "photos": [
+          {
+            "image": "pp-import-1017"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-1018",
+            "alt": "Patek Philippe · Green dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1019",
+            "alt": "Patek Philippe · Green dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1020",
+            "alt": "Patek Philippe · Green dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1021",
+            "alt": "Patek Philippe · Green dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1022",
+            "alt": "Patek Philippe · Green dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1023",
+            "alt": "Patek Philippe · Green dial · Silver bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-1017",
+    "coverImage": "pp-import-1017",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX364",
+    "brand": "Patek Philippe",
+    "baseFamily": "Nautilus",
+    "family": "Nautilus-style — Twin-counter chronograph appearance",
+    "name": "Nautilus-style — Twin-counter chronograph appearance — Rubber-style strap",
+    "nameZh": "百达翡丽 · 双分盘计时外观 · 胶带外观",
+    "designDetails": "Twin-counter chronograph appearance",
+    "designDetailsZh": "双分盘计时外观",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Rose-tone case · Brown strap",
+        "labelZh": "黑盘 · 玫瑰金色表壳 · 棕色胶带",
+        "image": "pp-import-1034",
+        "photos": [
+          {
+            "image": "pp-import-1034"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-1025",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1028",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1030",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1031",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1036",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1038",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1039",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1040",
+            "alt": "Patek Philippe · Black dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver-tone case · Orange strap",
+        "labelZh": "黑盘 · 银色表壳 · 橙色胶带",
+        "image": "pp-import-1026",
+        "photos": [
+          {
+            "image": "pp-import-1026"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "pp-import-1024",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Orange strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1027",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Orange strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1029",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Orange strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1032",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Orange strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1033",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Orange strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1035",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Orange strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "pp-import-1037",
+            "alt": "Patek Philippe · Black dial · Silver-tone case · Orange strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "pp-import-1034",
+    "coverImage": "pp-import-1034",
+    "coverColor": "v1"
   }
 ];
 
@@ -23787,11 +31874,11 @@ const legacyVariantLinks = {
   },
   "JX103:v13": {
     "id": "JX103",
-    "color": "v13"
+    "color": "v9"
   },
   "JX103:v14": {
     "id": "JX103",
-    "color": "v14"
+    "color": "v2"
   },
   "JX103:v3": {
     "id": "JX180",

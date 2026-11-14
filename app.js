@@ -13,6 +13,7 @@ const brandAliases = {
 const bandLabels = {metal:'Metal bracelet / 金属表链', rubber:'Rubber strap / 橡胶表带', leather:'Leather strap / 皮革表带', textile:'Textile strap / 织物表带'};
 const bandAliases = {metal:'金属表带 金属表链 钢带 钢链 鋼帶 鋼鏈',rubber:'橡胶 胶带 膠帶 橡膠',leather:'皮带 皮質 皮质 皮革',textile:'织物 織物 帆布 尼龙 尼龍'};
 const familyAliases = {
+ 'Golden Ellipse':'金椭圆 椭圆', Calatrava:'卡拉卓华 卡拉卓娃', Celestial:'星空 天文', Complications:'复杂功能 复杂款',
  Tonneau:'酒桶形 理查德 镂空', Constellation:'星座', Speedmaster:'超霸', Seamaster:'海马',
   DolceVita:'黛绰维纳 黛綽維納 长方形', PrimaLuna:'心月', Lyre:'律雅', 'Présence':'瑰丽 瑰麗 presence', HydroConquest:'康卡斯 康卡斯潜水', Spirit:'先行者', Flyback:'飞返 飛返', 'Master Collection':'名匠 大师', 'Fifty Fathoms':'五十噚 五十寻', Bathyscaphe:'深潜器 深潛器', 'Master Ultra Thin':'超薄大师 超薄大師 积家月相', Moonphase:'月相',
   Nautilus:'鹦鹉螺 鸚鵡螺', Aquanaut:'手雷', Portugieser:'葡萄牙 葡计 葡七', Portofino:'柏涛菲诺 柏濤菲諾',
@@ -47,7 +48,7 @@ function finishGroup(v){
  const finish=parts.find(s=>/^(?:silver|rose|yellow|gold|warm|dark|black)(?:[- ]tone)?(?: case| bracelet)?$/i.test(s)||/^(?:rose|yellow)?\s*two-tone$/i.test(s));
  return finish?finish.toLowerCase().replace(/-/g,' '):'unspecified';
 }
-const catalogEntries=products.flatMap((p,productOrder)=>p.variants.map((v,variantOrder)=>({p,v,productOrder,variantOrder,series:seriesName(p),finish:finishGroup(v),code:p.id+'-'+v.key}))).sort((a,b)=>
+const catalogEntries=products.flatMap((p,productOrder)=>p.variants.filter(v=>!v.catalogHidden).map((v,variantOrder)=>({p,v,productOrder,variantOrder,series:seriesName(p),finish:finishGroup(v),code:p.id+'-'+v.key}))).sort((a,b)=>
  brandRank(a.p.brand)-brandRank(b.p.brand)||catalogCompare(a.p.brand,b.p.brand)||catalogCompare(a.series,b.series)||
  catalogCompare(a.p.designDetails||a.p.family,b.p.designDetails||b.p.family)||catalogCompare(a.p.band,b.p.band)||
  a.productOrder-b.productOrder||catalogCompare(a.finish,b.finish)||a.variantOrder-b.variantOrder);
@@ -131,7 +132,17 @@ function detailsMarkup(p,v){
 }
 function showProduct(id,recordHistory=true,color){
   const resolved=resolveProduct(id,color);if(!resolved)return;
-  const p=resolved.p;const start=Math.max(0,p.variants.findIndex(v=>v.key===(resolved.color||selectedColors.get(p.id))));
+  const source=resolved.p,requested=source.variants.find(v=>v.key===resolved.color);
+  if(requested?.catalogHidden){
+    detailController?.abort();
+    const fields=productEnquiryFields(source,location.origin,{},requested);delete fields.imageUrl;
+    const href=buildContactUrl(CONTACT_URL,makeEnquiryText(fields));
+    $('detailBody').innerHTML='<section class="series-summary"><p class="eyebrow">PHOTO UPDATE / 图片更新中</p><h2>'+esc(source.brand)+'</h2><p>'+esc(source.id+'-'+requested.key+' · '+requested.labelZh)+'</p><p>A clear front photograph is being prepared for this selection. Please contact us to confirm the exact item.<br>此配色正在补充清晰正面照片，请联系我们确认具体款式。</p><a class="button" target="_blank" rel="noopener noreferrer" href="'+esc(href)+'">WHATSAPP ENQUIRY ↗</a></section>';
+    if(!$('detail').open)$('detail').showModal();
+    if(recordHistory)updateUrl(source.id,'push',requested.key);
+    return;
+  }
+  const p={...source,variants:source.variants.filter(v=>!v.catalogHidden)};if(!p.variants.length)return;const start=Math.max(0,p.variants.findIndex(v=>v.key===(resolved.color||selectedColors.get(p.id))));
   detailController?.abort();detailController=new AbortController();const signal=detailController.signal;
   detailProduct=p;
   $('detailBody').innerHTML=`<div class="detail-layout series-detail-layout"><div class="series-gallery"><div class="colour-gallery" id="colourGallery" role="region" aria-roledescription="carousel" aria-label="Product colours / 产品配色" tabindex="0"><div class="colour-track" id="colourTrack">${p.variants.map((v,i)=>`<div class="colour-slide" role="group" aria-roledescription="slide" aria-label="${i+1} of ${p.variants.length}">${selectionPhoto(v.image,v.label,'draggable="false" '+(i===start?'fetchpriority="high"':'loading="lazy"'),v.imagePanel)}</div>`).join('')}</div><div class="colour-gallery-controls"><button type="button" id="colourPrev" aria-label="Previous colour / 上一个配色">‹</button><span id="colourCounter" aria-live="polite"></span><button type="button" id="colourNext" aria-label="Next colour / 下一个配色">›</button></div></div><p class="gallery-instruction">${p.variants.length>1?'Swipe left or right to explore colours / 左右滑动查看不同配色':'Selected photograph / 当前款式照片'}</p><div class="colour-thumbs" role="group" aria-label="Choose a colour / 选择配色">${p.variants.map(v=>`<button type="button" data-color="${esc(v.key)}" aria-label="Choose colour: ${esc(v.label)}">${selectionPhoto(v.image,'','loading="lazy"',v.imagePanel)}</button>`).join('')}</div></div><div class="series-summary"><p class="eyebrow">${esc(p.brand)} / SERIES CODE · 系列编号</p><span class="detail-series-code" id="detailSelectionCode">${esc(p.id)}</span><h2>${esc(p.family)}</h2><p class="detail-chinese">${esc(p.nameZh)}</p><p class="detail-price">${money(p.priceUSD)} ${Number.isFinite(p.priceUSD)?'<span>USD</span>':''}</p><div class="spec"><strong>Strap / 表带</strong><span>${esc(p.bandName)} / ${esc(p.bandNameZh)}</span></div><div class="spec selected-colour"><strong>Colour / 配色</strong><span id="selectedColour"></span></div><p class="colour-name-zh" id="selectedColourZh"></p><p>${esc(p.description)}</p><div class="spec"><strong>Official family size reference</strong><span>${esc(p.sizeReference)}</span></div><a class="button" id="detailContact" target="_blank" rel="noopener noreferrer">WHATSAPP ENQUIRY ↗</a><button class="button share-photo" id="productShare" disabled>PREPARING PHOTO…</button><a class="text-link" id="detailDownload" download>Download selected colour ↓</a><p id="productShareStatus" class="share-hint" role="status"></p><button type="button" class="text-link" id="productEnquire">Add enquiry details ↗</button></div></div><div id="detailPhotoArea"></div>${p.referencePhotos.length?`<details class="reference-library"><summary>More supplied photographs / 更多原始照片 (${p.referencePhotos.length})</summary><div class="reference-grid">${p.referencePhotos.map(photo=>`<figure><a href="assets/${esc(photo.image)}.jpg" target="_blank" rel="noopener"><img src="assets/${esc(photo.image)}.jpg" alt="${esc(photo.labelZh)}" loading="lazy"></a><figcaption>${esc(photo.labelZh)}</figcaption></figure>`).join('')}</div></details>`:''}`;
