@@ -114,7 +114,7 @@ function render(){
  if(pageSelect.options.length!==pages)pageSelect.replaceChildren(...Array.from({length:pages},(_,i)=>new Option(String(i+1),String(i+1))));
  pageSelect.value=String(currentPage);pageSelect.disabled=pages===1;
   $('nextPage').disabled=currentPage===pages;
-  $('nextPage').textContent='Next page / 下一页';
+  $('nextPage').textContent='Next page / 下一页 →';
   document.querySelector('.catalog-pagination').hidden=pages===1;
   $('searchEmpty').hidden=!!list.length;$('clearSearch').hidden=!searchTerm;
   $('products').replaceChildren(...visible.map(({p,v,series,code})=>{
