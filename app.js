@@ -258,3 +258,6 @@ window.addEventListener('resize',()=>{clearTimeout(catalogResizeTimer);catalogRe
   const nextSize=pageSize();if(nextSize===lastCatalogSize)return;
   const offset=(currentPage-1)*lastCatalogSize;currentPage=Math.floor(offset/nextSize)+1;lastCatalogSize=nextSize;render();updateUrl($('detail').open?detailProduct?.id:undefined,'replace',$('detail').open?detailVariant?.key:undefined);
 },180);});
+
+const floatingLayout=document.querySelector('.floating-layout');
+if(window.IntersectionObserver){new IntersectionObserver(entries=>{floatingLayout.hidden=!entries[0].isIntersecting;},{threshold:0}).observe($('collection'));}else floatingLayout.hidden=false;
