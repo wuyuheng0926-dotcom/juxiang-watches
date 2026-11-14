@@ -27,5 +27,18 @@ html=html.replace('</head>','<link rel="stylesheet" href="mobile-storefront.css?
 html=html.replace('href="assets/jx-emblem-light-20261114.png"','href="assets/jx-favicon.png"');
 html=html.replace(/(<a[^>]*data-hero-product="([^"]+)"[^>]*data-color="([^"]+)"[^>]*><img[^>]*src=")assets\/[^"]+\.jpg(")/g,(_,prefix,id,key,suffix)=>{const p=c.result.products.find(p=>p.id===id),v=p?.variants.find(v=>v.key===key);return prefix+'assets/'+(v?.image||'')+'.jpg'+suffix;});
 let i=0;html=html.replace(/src="assets\/([^"]+)\.jpg"/g,(_,id)=>i++===0?'src="assets/hero/'+id+'.webp"':'data-src="assets/hero/'+id+'.webp"');
+
+// Publish catalogue assets under a build-specific path to avoid stale CDN mixes.
+const buildTag=(process.env.RENDER_GIT_COMMIT||'catalogue').replace(/[^a-zA-Z0-9-]/g,'').slice(0,12);
+for(const dir of ['catalog-details','locale-translations']){
+ fs.mkdirSync(out+'/'+dir+'/'+buildTag,{recursive:true});
+ for(const name of fs.readdirSync(out+'/'+dir).filter(n=>/\.(json|js)$/.test(n)))fs.copyFileSync(out+'/'+dir+'/'+name,out+'/'+dir+'/'+buildTag+'/'+name);
+}
+const catalogueName='catalog.'+buildTag+'.js',coreName='storefront-core.js-'+buildTag+'.js';
+fs.copyFileSync(out+'/catalog.js',out+'/'+catalogueName);
+const versionedCore=fs.readFileSync(out+'/storefront-core.js','utf8').replaceAll("'catalog-details/'","'catalog-details/"+buildTag+"/'").replaceAll("'locale-translations/'","'locale-translations/"+buildTag+"/'");
+fs.writeFileSync(out+'/'+coreName,versionedCore);
+html=html.replace(/src="catalog\.js(?:\?[^"]*)?"/g,'src="'+catalogueName+'"').replace(/storefront-core\.js\?[^"]+/g,coreName);
+
 fs.writeFileSync(out+'/index.html',html);
 console.log(JSON.stringify({htmlBytes:Buffer.byteLength(html),catalogueBytes:Buffer.byteLength(core),cssBytes:fs.statSync(out+'/mobile-storefront.css').size,scriptBytes:fs.statSync(out+'/storefront-core.js').size,groups:products.length}));
