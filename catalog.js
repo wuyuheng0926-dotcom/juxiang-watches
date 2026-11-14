@@ -5,6 +5,755 @@ const siteSettings = {
   "contactUrl": "https://wa.me/8619922353655"
 };
 
+const legacyProductLinks = {};
+
+const legacyVariantLinks = {
+  "JX074:v1": {
+    "id": "JX074",
+    "color": "v1"
+  },
+  "JX074:v2": {
+    "id": "JX074",
+    "color": "v2"
+  },
+  "JX074:v4": {
+    "id": "JX074",
+    "color": "v4"
+  },
+  "JX074:v5": {
+    "id": "JX074",
+    "color": "v5"
+  },
+  "JX074:v3": {
+    "id": "JX111",
+    "color": "v3"
+  },
+  "JX075:v1": {
+    "id": "JX075",
+    "color": "v1"
+  },
+  "JX075:v2": {
+    "id": "JX112",
+    "color": "v2"
+  },
+  "JX076:v1": {
+    "id": "JX076",
+    "color": "v1"
+  },
+  "JX076:v13": {
+    "id": "JX076",
+    "color": "v13"
+  },
+  "JX076:v2": {
+    "id": "JX113",
+    "color": "v2"
+  },
+  "JX076:v3": {
+    "id": "JX114",
+    "color": "v3"
+  },
+  "JX076:v7": {
+    "id": "JX114",
+    "color": "v7"
+  },
+  "JX076:v9": {
+    "id": "JX114",
+    "color": "v9"
+  },
+  "JX076:v4": {
+    "id": "JX115",
+    "color": "v4"
+  },
+  "JX076:v5": {
+    "id": "JX116",
+    "color": "v5"
+  },
+  "JX076:v8": {
+    "id": "JX116",
+    "color": "v8"
+  },
+  "JX076:v15": {
+    "id": "JX116",
+    "color": "v15"
+  },
+  "JX076:v6": {
+    "id": "JX117",
+    "color": "v6"
+  },
+  "JX076:v14": {
+    "id": "JX117",
+    "color": "v14"
+  },
+  "JX076:v10": {
+    "id": "JX118",
+    "color": "v10"
+  },
+  "JX076:v11": {
+    "id": "JX119",
+    "color": "v11"
+  },
+  "JX076:v12": {
+    "id": "JX120",
+    "color": "v12"
+  },
+  "JX076:v23": {
+    "id": "JX120",
+    "color": "v23"
+  },
+  "JX076:v29": {
+    "id": "JX120",
+    "color": "v29"
+  },
+  "JX076:v16": {
+    "id": "JX121",
+    "color": "v16"
+  },
+  "JX076:v19": {
+    "id": "JX121",
+    "color": "v19"
+  },
+  "JX076:v17": {
+    "id": "JX122",
+    "color": "v17"
+  },
+  "JX076:v18": {
+    "id": "JX123",
+    "color": "v18"
+  },
+  "JX076:v20": {
+    "id": "JX124",
+    "color": "v20"
+  },
+  "JX076:v21": {
+    "id": "JX125",
+    "color": "v21"
+  },
+  "JX076:v22": {
+    "id": "JX126",
+    "color": "v22"
+  },
+  "JX076:v24": {
+    "id": "JX127",
+    "color": "v24"
+  },
+  "JX076:v25": {
+    "id": "JX128",
+    "color": "v25"
+  },
+  "JX076:v27": {
+    "id": "JX128",
+    "color": "v27"
+  },
+  "JX076:v28": {
+    "id": "JX128",
+    "color": "v28"
+  },
+  "JX076:v26": {
+    "id": "JX129",
+    "color": "v26"
+  },
+  "JX076:v30": {
+    "id": "JX130",
+    "color": "v30"
+  },
+  "JX076:v31": {
+    "id": "JX131",
+    "color": "v31"
+  },
+  "JX076:v32": {
+    "id": "JX131",
+    "color": "v32"
+  },
+  "JX076:v33": {
+    "id": "JX132",
+    "color": "v33"
+  },
+  "JX076:v34": {
+    "id": "JX133",
+    "color": "v34"
+  },
+  "JX076:v35": {
+    "id": "JX134",
+    "color": "v35"
+  },
+  "JX076:v36": {
+    "id": "JX135",
+    "color": "v36"
+  },
+  "JX076:v37": {
+    "id": "JX136",
+    "color": "v37"
+  },
+  "JX076:v38": {
+    "id": "JX137",
+    "color": "v38"
+  },
+  "JX076:v39": {
+    "id": "JX138",
+    "color": "v39"
+  },
+  "JX076:v40": {
+    "id": "JX139",
+    "color": "v40"
+  },
+  "JX078:v1": {
+    "id": "JX078",
+    "color": "v1"
+  },
+  "JX078:v3": {
+    "id": "JX078",
+    "color": "v3"
+  },
+  "JX078:v2": {
+    "id": "JX140",
+    "color": "v2"
+  },
+  "JX079:v1": {
+    "id": "JX079",
+    "color": "v1"
+  },
+  "JX079:v2": {
+    "id": "JX079",
+    "color": "v2"
+  },
+  "JX079:v3": {
+    "id": "JX079",
+    "color": "v3"
+  },
+  "JX079:v4": {
+    "id": "JX079",
+    "color": "v4"
+  },
+  "JX079:v19": {
+    "id": "JX079",
+    "color": "v19"
+  },
+  "JX079:v5": {
+    "id": "JX141",
+    "color": "v5"
+  },
+  "JX079:v9": {
+    "id": "JX141",
+    "color": "v9"
+  },
+  "JX079:v11": {
+    "id": "JX141",
+    "color": "v11"
+  },
+  "JX079:v17": {
+    "id": "JX141",
+    "color": "v17"
+  },
+  "JX079:v18": {
+    "id": "JX141",
+    "color": "v18"
+  },
+  "JX079:v6": {
+    "id": "JX142",
+    "color": "v6"
+  },
+  "JX079:v8": {
+    "id": "JX143",
+    "color": "v8"
+  },
+  "JX079:v12": {
+    "id": "JX143",
+    "color": "v12"
+  },
+  "JX079:v7": {
+    "id": "JX144",
+    "color": "v7"
+  },
+  "JX079:v10": {
+    "id": "JX145",
+    "color": "v10"
+  },
+  "JX079:v13": {
+    "id": "JX146",
+    "color": "v13"
+  },
+  "JX079:v14": {
+    "id": "JX146",
+    "color": "v14"
+  },
+  "JX079:v15": {
+    "id": "JX147",
+    "color": "v15"
+  },
+  "JX079:v16": {
+    "id": "JX148",
+    "color": "v16"
+  },
+  "JX080:v1": {
+    "id": "JX080",
+    "color": "v1"
+  },
+  "JX080:v2": {
+    "id": "JX149",
+    "color": "v2"
+  },
+  "JX081:v1": {
+    "id": "JX081",
+    "color": "v1"
+  },
+  "JX081:v4": {
+    "id": "JX081",
+    "color": "v4"
+  },
+  "JX081:v2": {
+    "id": "JX150",
+    "color": "v2"
+  },
+  "JX081:v3": {
+    "id": "JX151",
+    "color": "v3"
+  },
+  "JX081:v6": {
+    "id": "JX152",
+    "color": "v6"
+  },
+  "JX081:v7": {
+    "id": "JX152",
+    "color": "v7"
+  },
+  "JX081:v8": {
+    "id": "JX153",
+    "color": "v8"
+  },
+  "JX083:v1": {
+    "id": "JX083",
+    "color": "v1"
+  },
+  "JX083:v2": {
+    "id": "JX083",
+    "color": "v2"
+  },
+  "JX083:v3": {
+    "id": "JX083",
+    "color": "v3"
+  },
+  "JX083:v4": {
+    "id": "JX083",
+    "color": "v4"
+  },
+  "JX083:v6": {
+    "id": "JX083",
+    "color": "v6"
+  },
+  "JX083:v7": {
+    "id": "JX083",
+    "color": "v7"
+  },
+  "JX083:v8": {
+    "id": "JX083",
+    "color": "v8"
+  },
+  "JX083:v9": {
+    "id": "JX083",
+    "color": "v9"
+  },
+  "JX083:v5": {
+    "id": "JX154",
+    "color": "v5"
+  },
+  "JX083:v10": {
+    "id": "JX155",
+    "color": "v10"
+  },
+  "JX085:v1": {
+    "id": "JX085",
+    "color": "v1"
+  },
+  "JX085:v2": {
+    "id": "JX085",
+    "color": "v2"
+  },
+  "JX085:v3": {
+    "id": "JX085",
+    "color": "v3"
+  },
+  "JX085:v4": {
+    "id": "JX156",
+    "color": "v4"
+  },
+  "JX086:v1": {
+    "id": "JX086",
+    "color": "v1"
+  },
+  "JX086:v2": {
+    "id": "JX086",
+    "color": "v2"
+  },
+  "JX086:v3": {
+    "id": "JX086",
+    "color": "v3"
+  },
+  "JX086:v4": {
+    "id": "JX086",
+    "color": "v4"
+  },
+  "JX086:v7": {
+    "id": "JX086",
+    "color": "v7"
+  },
+  "JX086:v8": {
+    "id": "JX086",
+    "color": "v8"
+  },
+  "JX086:v9": {
+    "id": "JX086",
+    "color": "v9"
+  },
+  "JX086:v11": {
+    "id": "JX086",
+    "color": "v11"
+  },
+  "JX086:v12": {
+    "id": "JX086",
+    "color": "v12"
+  },
+  "JX086:v6": {
+    "id": "JX157",
+    "color": "v6"
+  },
+  "JX086:v13": {
+    "id": "JX157",
+    "color": "v13"
+  },
+  "JX086:v5": {
+    "id": "JX158",
+    "color": "v5"
+  },
+  "JX086:v10": {
+    "id": "JX159",
+    "color": "v10"
+  },
+  "JX086:v14": {
+    "id": "JX160",
+    "color": "v14"
+  },
+  "JX086:v15": {
+    "id": "JX161",
+    "color": "v15"
+  },
+  "JX087:v1": {
+    "id": "JX087",
+    "color": "v1"
+  },
+  "JX087:v3": {
+    "id": "JX087",
+    "color": "v3"
+  },
+  "JX087:v5": {
+    "id": "JX087",
+    "color": "v5"
+  },
+  "JX087:v12": {
+    "id": "JX087",
+    "color": "v12"
+  },
+  "JX087:v2": {
+    "id": "JX162",
+    "color": "v2"
+  },
+  "JX087:v4": {
+    "id": "JX162",
+    "color": "v4"
+  },
+  "JX087:v6": {
+    "id": "JX162",
+    "color": "v6"
+  },
+  "JX087:v7": {
+    "id": "JX162",
+    "color": "v7"
+  },
+  "JX087:v8": {
+    "id": "JX162",
+    "color": "v8"
+  },
+  "JX087:v9": {
+    "id": "JX162",
+    "color": "v9"
+  },
+  "JX087:v13": {
+    "id": "JX162",
+    "color": "v13"
+  },
+  "JX087:v10": {
+    "id": "JX163",
+    "color": "v10"
+  },
+  "JX087:v11": {
+    "id": "JX164",
+    "color": "v11"
+  },
+  "JX088:v1": {
+    "id": "JX088",
+    "color": "v1"
+  },
+  "JX088:v2": {
+    "id": "JX165",
+    "color": "v2"
+  },
+  "JX088:v3": {
+    "id": "JX166",
+    "color": "v3"
+  },
+  "JX088:v4": {
+    "id": "JX167",
+    "color": "v4"
+  },
+  "JX088:v5": {
+    "id": "JX167",
+    "color": "v5"
+  },
+  "JX088:v6": {
+    "id": "JX167",
+    "color": "v6"
+  },
+  "JX089:v1": {
+    "id": "JX089",
+    "color": "v1"
+  },
+  "JX091:v1": {
+    "id": "JX091",
+    "color": "v1"
+  },
+  "JX091:v2": {
+    "id": "JX168",
+    "color": "v2"
+  },
+  "JX092:v1": {
+    "id": "JX092",
+    "color": "v1"
+  },
+  "JX092:v2": {
+    "id": "JX169",
+    "color": "v2"
+  },
+  "JX094:v1": {
+    "id": "JX094",
+    "color": "v1"
+  },
+  "JX094:v2": {
+    "id": "JX170",
+    "color": "v2"
+  },
+  "JX094:v3": {
+    "id": "JX170",
+    "color": "v3"
+  },
+  "JX094:v4": {
+    "id": "JX170",
+    "color": "v4"
+  },
+  "JX094:v5": {
+    "id": "JX170",
+    "color": "v5"
+  },
+  "JX094:v6": {
+    "id": "JX170",
+    "color": "v6"
+  },
+  "JX094:v7": {
+    "id": "JX170",
+    "color": "v7"
+  },
+  "JX094:v8": {
+    "id": "JX170",
+    "color": "v8"
+  },
+  "JX094:v9": {
+    "id": "JX170",
+    "color": "v9"
+  },
+  "JX094:v10": {
+    "id": "JX171",
+    "color": "v10"
+  },
+  "JX094:v11": {
+    "id": "JX172",
+    "color": "v11"
+  },
+  "JX100:v1": {
+    "id": "JX100",
+    "color": "v1"
+  },
+  "JX100:v2": {
+    "id": "JX173",
+    "color": "v2"
+  },
+  "JX100:v3": {
+    "id": "JX173",
+    "color": "v3"
+  },
+  "JX100:v4": {
+    "id": "JX173",
+    "color": "v4"
+  },
+  "JX100:v5": {
+    "id": "JX173",
+    "color": "v5"
+  },
+  "JX100:v6": {
+    "id": "JX174",
+    "color": "v6"
+  },
+  "JX101:v1": {
+    "id": "JX101",
+    "color": "v1"
+  },
+  "JX101:v2": {
+    "id": "JX175",
+    "color": "v2"
+  },
+  "JX101:v3": {
+    "id": "JX175",
+    "color": "v3"
+  },
+  "JX102:v1": {
+    "id": "JX102",
+    "color": "v1"
+  },
+  "JX102:v2": {
+    "id": "JX102",
+    "color": "v2"
+  },
+  "JX102:v4": {
+    "id": "JX102",
+    "color": "v4"
+  },
+  "JX102:v5": {
+    "id": "JX102",
+    "color": "v5"
+  },
+  "JX102:v3": {
+    "id": "JX176",
+    "color": "v3"
+  },
+  "JX102:v6": {
+    "id": "JX176",
+    "color": "v3"
+  },
+  "JX102:v8": {
+    "id": "JX177",
+    "color": "v8"
+  },
+  "JX102:v9": {
+    "id": "JX177",
+    "color": "v9"
+  },
+  "JX102:v7": {
+    "id": "JX178",
+    "color": "v7"
+  },
+  "JX102:v4plain": {
+    "id": "JX179",
+    "color": "v4plain"
+  },
+  "JX102:v5plain": {
+    "id": "JX179",
+    "color": "v5plain"
+  },
+  "JX103:v1": {
+    "id": "JX103",
+    "color": "v1"
+  },
+  "JX103:v2": {
+    "id": "JX103",
+    "color": "v2"
+  },
+  "JX103:v4": {
+    "id": "JX103",
+    "color": "v4"
+  },
+  "JX103:v5": {
+    "id": "JX103",
+    "color": "v5"
+  },
+  "JX103:v6": {
+    "id": "JX103",
+    "color": "v6"
+  },
+  "JX103:v7": {
+    "id": "JX103",
+    "color": "v7"
+  },
+  "JX103:v9": {
+    "id": "JX103",
+    "color": "v9"
+  },
+  "JX103:v13": {
+    "id": "JX103",
+    "color": "v9"
+  },
+  "JX103:v14": {
+    "id": "JX103",
+    "color": "v2"
+  },
+  "JX103:v3": {
+    "id": "JX180",
+    "color": "v3"
+  },
+  "JX103:v10": {
+    "id": "JX180",
+    "color": "v10"
+  },
+  "JX103:v11": {
+    "id": "JX180",
+    "color": "v11"
+  },
+  "JX103:v12": {
+    "id": "JX180",
+    "color": "v12"
+  },
+  "JX103:v8": {
+    "id": "JX181",
+    "color": "v8"
+  },
+  "JX103:v15": {
+    "id": "JX181",
+    "color": "v15"
+  },
+  "JX103:v16": {
+    "id": "JX181",
+    "color": "v16"
+  },
+  "JX104:v1": {
+    "id": "JX104",
+    "color": "v1"
+  },
+  "JX104:v2": {
+    "id": "JX182",
+    "color": "v2"
+  },
+  "JX105:v1": {
+    "id": "JX105",
+    "color": "v1"
+  },
+  "JX105:v2": {
+    "id": "JX105",
+    "color": "v2"
+  },
+  "JX105:v3": {
+    "id": "JX105",
+    "color": "v3"
+  },
+  "JX105:v4": {
+    "id": "JX105",
+    "color": "v4"
+  },
+  "JX105:v5": {
+    "id": "JX105",
+    "color": "v5"
+  },
+  "JX105:v6": {
+    "id": "JX183",
+    "color": "v6"
+  }
+};
+
 const products = [
   {
     "id": "JX069",
@@ -24661,6 +25410,44 @@ const products = [
             "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
           }
         ]
+      },
+      {
+        "key": "v5",
+        "label": "Turquoise dial · Silver-tone bracelet",
+        "labelZh": "松石蓝盘 · 银色表链",
+        "image": "supp-0162",
+        "photos": [
+          {
+            "image": "supp-0162"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0163",
+            "alt": "Turquoise dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0164",
+            "alt": "Turquoise dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0165",
+            "alt": "Turquoise dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0166",
+            "alt": "Turquoise dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0167",
+            "alt": "Turquoise dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
       }
     ],
     "detailImages": [],
@@ -25770,6 +26557,59 @@ const products = [
           }
         ],
         "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Blue dial · Silver-tone metal bracelet",
+        "labelZh": "蓝盘 · 银色金属表链",
+        "image": "supp-0070",
+        "photos": [
+          {
+            "image": "supp-0070"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0071",
+            "alt": "Blue dial · Silver-tone metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0072",
+            "alt": "Blue dial · Silver-tone metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0073",
+            "alt": "Blue dial · Silver-tone metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0074",
+            "alt": "Blue dial · Silver-tone metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0075",
+            "alt": "Blue dial · Silver-tone metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0076",
+            "alt": "Blue dial · Silver-tone metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0077",
+            "alt": "Blue dial · Silver-tone metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0078",
+            "alt": "Blue dial · Silver-tone metal bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
       }
     ],
     "detailImages": [],
@@ -31190,754 +32030,1609 @@ const products = [
     "image": "pp-import-1034",
     "coverImage": "pp-import-1034",
     "coverColor": "v1"
+  },
+  {
+    "id": "JX365",
+    "brand": "Audemars Piguet",
+    "baseFamily": "Royal Oak",
+    "family": "Royal Oak-style — Plain bezel · Tapisserie date dial",
+    "name": "Royal Oak-style — Plain bezel · Tapisserie date dial — Metal bracelet",
+    "nameZh": "皇家橡树 · 光圈 · 格纹日历盘 · 金属表链",
+    "designDetails": "Plain bezel · Tapisserie date dial",
+    "designDetailsZh": "光圈 · 格纹日历盘",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver-tone bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "supp-0016",
+        "photos": [
+          {
+            "image": "supp-0016"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0017",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0018",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0019",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0020",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0021",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0022",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0023",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0024",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "supp-0007",
+        "photos": [
+          {
+            "image": "supp-0007"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0008",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0009",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0010",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0011",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0012",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0013",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0014",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0015",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver-tone bracelet",
+        "labelZh": "蓝盘 · 银色表链",
+        "image": "supp-0046",
+        "photos": [
+          {
+            "image": "supp-0046"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0047",
+            "alt": "Blue dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0048",
+            "alt": "Blue dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0049",
+            "alt": "Blue dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0050",
+            "alt": "Blue dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0051",
+            "alt": "Blue dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0016",
+    "coverImage": "supp-0016",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX366",
+    "brand": "Audemars Piguet",
+    "baseFamily": "Royal Oak Offshore",
+    "family": "Royal Oak Offshore-style — Diver-style dial · Inner timing scale",
+    "name": "Royal Oak Offshore-style — Diver-style dial · Inner timing scale — Rubber strap",
+    "nameZh": "皇家橡树离岸型 · 潜水外观 · 内圈刻度 · 橡胶表带",
+    "designDetails": "Diver-style dial · Inner timing scale",
+    "designDetailsZh": "潜水外观 · 内圈刻度",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色胶带",
+        "image": "supp-0025",
+        "photos": [
+          {
+            "image": "supp-0025"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0026",
+            "alt": "Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0027",
+            "alt": "Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0028",
+            "alt": "Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0029",
+            "alt": "Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0030",
+            "alt": "Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0031",
+            "alt": "Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0032",
+            "alt": "Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0033",
+            "alt": "Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0025",
+    "coverImage": "supp-0025",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX367",
+    "brand": "Audemars Piguet",
+    "baseFamily": "Royal Oak",
+    "family": "Royal Oak-style — Stone-set bezel · Tapisserie date dial",
+    "name": "Royal Oak-style — Stone-set bezel · Tapisserie date dial — Metal bracelet",
+    "nameZh": "皇家橡树 · 镶石表圈 · 格纹日历盘 · 金属表链",
+    "designDetails": "Stone-set bezel · Tapisserie date dial",
+    "designDetailsZh": "镶石表圈 · 格纹日历盘",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver-tone bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "supp-0040",
+        "photos": [
+          {
+            "image": "supp-0040"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0041",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0042",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0043",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0044",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0045",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0040",
+    "coverImage": "supp-0040",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX368",
+    "brand": "Audemars Piguet",
+    "baseFamily": "Royal Oak",
+    "family": "Royal Oak-style — Chronograph-style dial · Stone-set bezel",
+    "name": "Royal Oak-style — Chronograph-style dial · Stone-set bezel — Rubber strap",
+    "nameZh": "皇家橡树 · 计时外观 · 镶石表圈 · 橡胶表带",
+    "designDetails": "Chronograph-style dial · Stone-set bezel",
+    "designDetailsZh": "计时外观 · 镶石表圈",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Blue subdials · Silver-tone case · White strap",
+        "labelZh": "白盘蓝色副盘 · 银色表壳 · 白色胶带",
+        "image": "supp-0052",
+        "photos": [
+          {
+            "image": "supp-0052"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0053",
+            "alt": "White dial · Blue subdials · Silver-tone case · White strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0054",
+            "alt": "White dial · Blue subdials · Silver-tone case · White strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0055",
+            "alt": "White dial · Blue subdials · Silver-tone case · White strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0056",
+            "alt": "White dial · Blue subdials · Silver-tone case · White strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0057",
+            "alt": "White dial · Blue subdials · Silver-tone case · White strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Blue subdials · Rose-tone case · Black strap",
+        "labelZh": "白盘蓝色副盘 · 玫瑰金色表壳 · 黑色胶带",
+        "image": "supp-0058",
+        "photos": [
+          {
+            "image": "supp-0058"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0059",
+            "alt": "White dial · Blue subdials · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0060",
+            "alt": "White dial · Blue subdials · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0061",
+            "alt": "White dial · Blue subdials · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0062",
+            "alt": "White dial · Blue subdials · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0063",
+            "alt": "White dial · Blue subdials · Rose-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0052",
+    "coverImage": "supp-0052",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX369",
+    "brand": "Audemars Piguet",
+    "baseFamily": "Royal Oak",
+    "family": "Royal Oak-style — Chronograph-style dial · Plain bezel",
+    "name": "Royal Oak-style — Chronograph-style dial · Plain bezel — Metal bracelet",
+    "nameZh": "皇家橡树 · 计时外观 · 光圈 · 金属表链",
+    "designDetails": "Chronograph-style dial · Plain bezel",
+    "designDetailsZh": "计时外观 · 光圈",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Brown dial · Rose-tone bracelet",
+        "labelZh": "棕盘 · 玫瑰金色表链",
+        "image": "supp-0064",
+        "photos": [
+          {
+            "image": "supp-0064"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0065",
+            "alt": "Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0066",
+            "alt": "Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0067",
+            "alt": "Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0068",
+            "alt": "Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0069",
+            "alt": "Brown dial · Rose-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0064",
+    "coverImage": "supp-0064",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX370",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Rendez-Vous",
+    "family": "Rendez-Vous-style — Arabic dial · Moonphase-style display · Stone-set bezel",
+    "name": "Rendez-Vous-style — Arabic dial · Moonphase-style display · Stone-set bezel — Leather strap",
+    "nameZh": "约会 · 阿拉伯数字盘 · 月相外观 · 镶石表圈 · 皮革表带",
+    "designDetails": "Arabic dial · Moonphase-style display · Stone-set bezel",
+    "designDetailsZh": "阿拉伯数字盘 · 月相外观 · 镶石表圈",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Blue strap",
+        "labelZh": "白盘 · 银色表壳 · 蓝色皮带",
+        "image": "supp-0181",
+        "photos": [
+          {
+            "image": "supp-0181"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0180",
+            "alt": "White dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0182",
+            "alt": "White dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0183",
+            "alt": "White dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0184",
+            "alt": "White dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0185",
+            "alt": "White dial · Silver-tone case · Blue strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "supp-0193",
+        "photos": [
+          {
+            "image": "supp-0193"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0192",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0194",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0195",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0196",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0197",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Rose-tone case · Brown strap",
+        "labelZh": "白盘 · 玫瑰金色表壳 · 棕色皮带",
+        "image": "supp-0187",
+        "photos": [
+          {
+            "image": "supp-0187"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0186",
+            "alt": "White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0188",
+            "alt": "White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0189",
+            "alt": "White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0190",
+            "alt": "White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0191",
+            "alt": "White dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0181",
+    "coverImage": "supp-0181",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX371",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin Moon",
+    "family": "Master Ultra Thin Moon-style — Baton dial · Moon/date display · Plain bezel",
+    "name": "Master Ultra Thin Moon-style — Baton dial · Moon/date display · Plain bezel — Leather strap",
+    "nameZh": "大师月相 · 条形刻度 · 月相日历外观 · 光圈 · 皮革表带",
+    "designDetails": "Baton dial · Moon/date display · Plain bezel",
+    "designDetailsZh": "条形刻度 · 月相日历外观 · 光圈",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "supp-0199",
+        "photos": [
+          {
+            "image": "supp-0199"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0198",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0200",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0201",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0202",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0203",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Silver-tone case · Black strap",
+        "labelZh": "蓝盘 · 银色表壳 · 黑色皮带",
+        "image": "supp-0225",
+        "photos": [
+          {
+            "image": "supp-0225"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0226",
+            "alt": "Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0227",
+            "alt": "Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0228",
+            "alt": "Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0229",
+            "alt": "Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0230",
+            "alt": "Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Blue-grey dial · Rose-tone case · Brown strap",
+        "labelZh": "蓝灰盘 · 玫瑰金色表壳 · 棕色皮带",
+        "image": "supp-0217",
+        "photos": [
+          {
+            "image": "supp-0217"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0216",
+            "alt": "Blue-grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0218",
+            "alt": "Blue-grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0219",
+            "alt": "Blue-grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0220",
+            "alt": "Blue-grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0221",
+            "alt": "Blue-grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0222",
+            "alt": "Blue-grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0223",
+            "alt": "Blue-grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0224",
+            "alt": "Blue-grey dial · Rose-tone case · Brown strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0199",
+    "coverImage": "supp-0199",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX372",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Control Calendar",
+    "family": "Master Control Calendar-style — Day/month windows · Calendar and moonphase-style dial",
+    "name": "Master Control Calendar-style — Day/month windows · Calendar and moonphase-style dial — Leather strap",
+    "nameZh": "大师日历 · 星期月份窗口 · 日历月相外观 · 皮革表带",
+    "designDetails": "Day/month windows · Calendar and moonphase-style dial",
+    "designDetailsZh": "星期月份窗口 · 日历月相外观",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver dial · Silver-tone case · Black strap",
+        "labelZh": "银白盘 · 银色表壳 · 黑色皮带",
+        "image": "supp-0204",
+        "photos": [
+          {
+            "image": "supp-0204"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0205",
+            "alt": "Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0206",
+            "alt": "Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0207",
+            "alt": "Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0208",
+            "alt": "Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0209",
+            "alt": "Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0204",
+    "coverImage": "supp-0204",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX373",
+    "brand": "Jaeger-LeCoultre",
+    "baseFamily": "Master Ultra Thin Moon",
+    "family": "Master Ultra Thin Moon-style — Baton dial · Moon/date display · Stone-set bezel",
+    "name": "Master Ultra Thin Moon-style — Baton dial · Moon/date display · Stone-set bezel — Leather strap",
+    "nameZh": "大师月相 · 条形刻度 · 月相日历外观 · 镶石表圈 · 皮革表带",
+    "designDetails": "Baton dial · Moon/date display · Stone-set bezel",
+    "designDetailsZh": "条形刻度 · 月相日历外观 · 镶石表圈",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "supp-0211",
+        "photos": [
+          {
+            "image": "supp-0211"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0210",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0212",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0213",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0214",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0215",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0211",
+    "coverImage": "supp-0211",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX374",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu-style — Roman dial · Plain bezel",
+    "name": "Ballon Bleu-style — Roman dial · Plain bezel — Metal bracelet",
+    "nameZh": "蓝气球 · 罗马刻度 · 光圈 · 金属表链",
+    "designDetails": "Roman dial · Plain bezel",
+    "designDetailsZh": "罗马刻度 · 光圈",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "supp-0235",
+        "photos": [
+          {
+            "image": "supp-0235"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0236",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0237",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0238",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0239",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0240",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0241",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0242",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0243",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Pink dial · Silver-tone bracelet",
+        "labelZh": "粉盘 · 银色表链",
+        "image": "supp-0253",
+        "photos": [
+          {
+            "image": "supp-0253"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0254",
+            "alt": "Pink dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0255",
+            "alt": "Pink dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0256",
+            "alt": "Pink dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0257",
+            "alt": "Pink dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0235",
+    "coverImage": "supp-0235",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX375",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu-style — Roman dial · Stone-set bezel",
+    "name": "Ballon Bleu-style — Roman dial · Stone-set bezel — Metal bracelet",
+    "nameZh": "蓝气球 · 罗马刻度 · 镶石表圈 · 金属表链",
+    "designDetails": "Roman dial · Stone-set bezel",
+    "designDetailsZh": "罗马刻度 · 镶石表圈",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Ice-blue dial · Silver-tone bracelet",
+        "labelZh": "冰蓝盘 · 银色表链",
+        "image": "supp-0258",
+        "photos": [
+          {
+            "image": "supp-0258"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0259",
+            "alt": "Ice-blue dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0260",
+            "alt": "Ice-blue dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0261",
+            "alt": "Ice-blue dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0262",
+            "alt": "Ice-blue dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0258",
+    "coverImage": "supp-0258",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX376",
+    "brand": "Cartier",
+    "baseFamily": "Ballon Bleu",
+    "family": "Ballon Bleu-style — Roman dial · Stone-set bezel",
+    "name": "Ballon Bleu-style — Roman dial · Stone-set bezel — Leather strap",
+    "nameZh": "蓝气球 · 罗马刻度 · 镶石表圈 · 皮革表带",
+    "designDetails": "Roman dial · Stone-set bezel",
+    "designDetailsZh": "罗马刻度 · 镶石表圈",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "supp-0244",
+        "photos": [
+          {
+            "image": "supp-0244"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0245",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0246",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0247",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0248",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0249",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0250",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0251",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0252",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0244",
+    "coverImage": "supp-0244",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX377",
+    "brand": "Cartier",
+    "baseFamily": "Santos-Dumont",
+    "family": "Santos-Dumont-style — Square Roman dial · Screw bezel",
+    "name": "Santos-Dumont-style — Square Roman dial · Screw bezel — Leather strap",
+    "nameZh": "山度士杜蒙 · 方形罗马盘 · 螺钉表圈 · 皮革表带",
+    "designDetails": "Square Roman dial · Screw bezel",
+    "designDetailsZh": "方形罗马盘 · 螺钉表圈",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "supp-0263",
+        "photos": [
+          {
+            "image": "supp-0263"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0264",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0265",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0266",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0267",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0268",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0263",
+    "coverImage": "supp-0263",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX378",
+    "brand": "Cartier",
+    "baseFamily": "Tank Must",
+    "family": "Tank Must-style — Rectangular Roman dial",
+    "name": "Tank Must-style — Rectangular Roman dial — Leather strap",
+    "nameZh": "坦克 · 长方形罗马刻度盘 · 皮革表带",
+    "designDetails": "Rectangular Roman dial",
+    "designDetailsZh": "长方形罗马刻度盘",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "bandNameZh": "皮革表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "supp-0269",
+        "photos": [
+          {
+            "image": "supp-0269"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0270",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0271",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0272",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0273",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0274",
+            "alt": "White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0269",
+    "coverImage": "supp-0269",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX379",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Aqua Terra",
+    "family": "Seamaster Aqua Terra-style — Horizontal teak dial · Date at 6",
+    "name": "Seamaster Aqua Terra-style — Horizontal teak dial · Date at 6 — Metal bracelet",
+    "nameZh": "海马Aqua Terra · 横纹盘 · 六点日历 · 金属表链",
+    "designDetails": "Horizontal teak dial · Date at 6",
+    "designDetailsZh": "横纹盘 · 六点日历",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark olive dial · Silver-tone bracelet",
+        "labelZh": "深橄榄绿盘 · 银色表链",
+        "image": "supp-0281",
+        "photos": [
+          {
+            "image": "supp-0281"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0282",
+            "alt": "Dark olive dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0283",
+            "alt": "Dark olive dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0284",
+            "alt": "Dark olive dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0285",
+            "alt": "Dark olive dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0286",
+            "alt": "Dark olive dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0287",
+            "alt": "Dark olive dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0288",
+            "alt": "Dark olive dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0281",
+    "coverImage": "supp-0281",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX380",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Aqua Terra",
+    "family": "Seamaster Aqua Terra-style — Vertical teak dial · Date at 3",
+    "name": "Seamaster Aqua Terra-style — Vertical teak dial · Date at 3 — Metal bracelet",
+    "nameZh": "海马Aqua Terra · 竖纹盘 · 三点日历 · 金属表链",
+    "designDetails": "Vertical teak dial · Date at 3",
+    "designDetailsZh": "竖纹盘 · 三点日历",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "supp-0290",
+        "photos": [
+          {
+            "image": "supp-0290"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0291",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0292",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0293",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0294",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0295",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0296",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0297",
+            "alt": "White dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Silver-tone bracelet",
+        "labelZh": "蓝盘 · 银色表链",
+        "image": "supp-0299",
+        "photos": [
+          {
+            "image": "supp-0299"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0300",
+            "alt": "Blue dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0301",
+            "alt": "Blue dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver-tone bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "supp-0308",
+        "photos": [
+          {
+            "image": "supp-0308"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0309",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0310",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0290",
+    "coverImage": "supp-0290",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX381",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Aqua Terra",
+    "family": "Seamaster Aqua Terra-style — Horizontal teak dial · Date at 6",
+    "name": "Seamaster Aqua Terra-style — Horizontal teak dial · Date at 6 — Rubber strap",
+    "nameZh": "海马Aqua Terra · 横纹盘 · 六点日历 · 橡胶表带",
+    "designDetails": "Horizontal teak dial · Date at 6",
+    "designDetailsZh": "横纹盘 · 六点日历",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "bandNameZh": "橡胶表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark olive dial · Silver-tone case · Black strap",
+        "labelZh": "深橄榄绿盘 · 银色表壳 · 黑色胶带",
+        "image": "supp-0317",
+        "photos": [
+          {
+            "image": "supp-0317"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0318",
+            "alt": "Dark olive dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0319",
+            "alt": "Dark olive dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0320",
+            "alt": "Dark olive dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0321",
+            "alt": "Dark olive dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0322",
+            "alt": "Dark olive dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0323",
+            "alt": "Dark olive dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0324",
+            "alt": "Dark olive dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0317",
+    "coverImage": "supp-0317",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX382",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Aqua Terra",
+    "family": "Seamaster Aqua Terra-style — GMT-style dial · Red arrow hand",
+    "name": "Seamaster Aqua Terra-style — GMT-style dial · Red arrow hand — Metal bracelet",
+    "nameZh": "海马Aqua Terra · GMT外观 · 红色箭头指针 · 金属表链",
+    "designDetails": "GMT-style dial · Red arrow hand",
+    "designDetailsZh": "GMT外观 · 红色箭头指针",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver-tone bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "supp-0326",
+        "photos": [
+          {
+            "image": "supp-0326"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "supp-0327",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0328",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0329",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0330",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0331",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0332",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          },
+          {
+            "image": "supp-0333",
+            "alt": "Black dial · Silver-tone bracelet",
+            "caption": "Seller-supplied detail photograph / 卖家提供的细节照片"
+          }
+        ]
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "supp-0326",
+    "coverImage": "supp-0326",
+    "coverColor": "v1"
   }
 ];
-
-const legacyProductLinks = {};
-
-const legacyVariantLinks = {
-  "JX074:v1": {
-    "id": "JX074",
-    "color": "v1"
-  },
-  "JX074:v2": {
-    "id": "JX074",
-    "color": "v2"
-  },
-  "JX074:v4": {
-    "id": "JX074",
-    "color": "v4"
-  },
-  "JX074:v5": {
-    "id": "JX074",
-    "color": "v5"
-  },
-  "JX074:v3": {
-    "id": "JX111",
-    "color": "v3"
-  },
-  "JX075:v1": {
-    "id": "JX075",
-    "color": "v1"
-  },
-  "JX075:v2": {
-    "id": "JX112",
-    "color": "v2"
-  },
-  "JX076:v1": {
-    "id": "JX076",
-    "color": "v1"
-  },
-  "JX076:v13": {
-    "id": "JX076",
-    "color": "v13"
-  },
-  "JX076:v2": {
-    "id": "JX113",
-    "color": "v2"
-  },
-  "JX076:v3": {
-    "id": "JX114",
-    "color": "v3"
-  },
-  "JX076:v7": {
-    "id": "JX114",
-    "color": "v7"
-  },
-  "JX076:v9": {
-    "id": "JX114",
-    "color": "v9"
-  },
-  "JX076:v4": {
-    "id": "JX115",
-    "color": "v4"
-  },
-  "JX076:v5": {
-    "id": "JX116",
-    "color": "v5"
-  },
-  "JX076:v8": {
-    "id": "JX116",
-    "color": "v8"
-  },
-  "JX076:v15": {
-    "id": "JX116",
-    "color": "v15"
-  },
-  "JX076:v6": {
-    "id": "JX117",
-    "color": "v6"
-  },
-  "JX076:v14": {
-    "id": "JX117",
-    "color": "v14"
-  },
-  "JX076:v10": {
-    "id": "JX118",
-    "color": "v10"
-  },
-  "JX076:v11": {
-    "id": "JX119",
-    "color": "v11"
-  },
-  "JX076:v12": {
-    "id": "JX120",
-    "color": "v12"
-  },
-  "JX076:v23": {
-    "id": "JX120",
-    "color": "v23"
-  },
-  "JX076:v29": {
-    "id": "JX120",
-    "color": "v29"
-  },
-  "JX076:v16": {
-    "id": "JX121",
-    "color": "v16"
-  },
-  "JX076:v19": {
-    "id": "JX121",
-    "color": "v19"
-  },
-  "JX076:v17": {
-    "id": "JX122",
-    "color": "v17"
-  },
-  "JX076:v18": {
-    "id": "JX123",
-    "color": "v18"
-  },
-  "JX076:v20": {
-    "id": "JX124",
-    "color": "v20"
-  },
-  "JX076:v21": {
-    "id": "JX125",
-    "color": "v21"
-  },
-  "JX076:v22": {
-    "id": "JX126",
-    "color": "v22"
-  },
-  "JX076:v24": {
-    "id": "JX127",
-    "color": "v24"
-  },
-  "JX076:v25": {
-    "id": "JX128",
-    "color": "v25"
-  },
-  "JX076:v27": {
-    "id": "JX128",
-    "color": "v27"
-  },
-  "JX076:v28": {
-    "id": "JX128",
-    "color": "v28"
-  },
-  "JX076:v26": {
-    "id": "JX129",
-    "color": "v26"
-  },
-  "JX076:v30": {
-    "id": "JX130",
-    "color": "v30"
-  },
-  "JX076:v31": {
-    "id": "JX131",
-    "color": "v31"
-  },
-  "JX076:v32": {
-    "id": "JX131",
-    "color": "v32"
-  },
-  "JX076:v33": {
-    "id": "JX132",
-    "color": "v33"
-  },
-  "JX076:v34": {
-    "id": "JX133",
-    "color": "v34"
-  },
-  "JX076:v35": {
-    "id": "JX134",
-    "color": "v35"
-  },
-  "JX076:v36": {
-    "id": "JX135",
-    "color": "v36"
-  },
-  "JX076:v37": {
-    "id": "JX136",
-    "color": "v37"
-  },
-  "JX076:v38": {
-    "id": "JX137",
-    "color": "v38"
-  },
-  "JX076:v39": {
-    "id": "JX138",
-    "color": "v39"
-  },
-  "JX076:v40": {
-    "id": "JX139",
-    "color": "v40"
-  },
-  "JX078:v1": {
-    "id": "JX078",
-    "color": "v1"
-  },
-  "JX078:v3": {
-    "id": "JX078",
-    "color": "v3"
-  },
-  "JX078:v2": {
-    "id": "JX140",
-    "color": "v2"
-  },
-  "JX079:v1": {
-    "id": "JX079",
-    "color": "v1"
-  },
-  "JX079:v2": {
-    "id": "JX079",
-    "color": "v2"
-  },
-  "JX079:v3": {
-    "id": "JX079",
-    "color": "v3"
-  },
-  "JX079:v4": {
-    "id": "JX079",
-    "color": "v4"
-  },
-  "JX079:v19": {
-    "id": "JX079",
-    "color": "v19"
-  },
-  "JX079:v5": {
-    "id": "JX141",
-    "color": "v5"
-  },
-  "JX079:v9": {
-    "id": "JX141",
-    "color": "v9"
-  },
-  "JX079:v11": {
-    "id": "JX141",
-    "color": "v11"
-  },
-  "JX079:v17": {
-    "id": "JX141",
-    "color": "v17"
-  },
-  "JX079:v18": {
-    "id": "JX141",
-    "color": "v18"
-  },
-  "JX079:v6": {
-    "id": "JX142",
-    "color": "v6"
-  },
-  "JX079:v8": {
-    "id": "JX143",
-    "color": "v8"
-  },
-  "JX079:v12": {
-    "id": "JX143",
-    "color": "v12"
-  },
-  "JX079:v7": {
-    "id": "JX144",
-    "color": "v7"
-  },
-  "JX079:v10": {
-    "id": "JX145",
-    "color": "v10"
-  },
-  "JX079:v13": {
-    "id": "JX146",
-    "color": "v13"
-  },
-  "JX079:v14": {
-    "id": "JX146",
-    "color": "v14"
-  },
-  "JX079:v15": {
-    "id": "JX147",
-    "color": "v15"
-  },
-  "JX079:v16": {
-    "id": "JX148",
-    "color": "v16"
-  },
-  "JX080:v1": {
-    "id": "JX080",
-    "color": "v1"
-  },
-  "JX080:v2": {
-    "id": "JX149",
-    "color": "v2"
-  },
-  "JX081:v1": {
-    "id": "JX081",
-    "color": "v1"
-  },
-  "JX081:v4": {
-    "id": "JX081",
-    "color": "v4"
-  },
-  "JX081:v2": {
-    "id": "JX150",
-    "color": "v2"
-  },
-  "JX081:v3": {
-    "id": "JX151",
-    "color": "v3"
-  },
-  "JX081:v6": {
-    "id": "JX152",
-    "color": "v6"
-  },
-  "JX081:v7": {
-    "id": "JX152",
-    "color": "v7"
-  },
-  "JX081:v8": {
-    "id": "JX153",
-    "color": "v8"
-  },
-  "JX083:v1": {
-    "id": "JX083",
-    "color": "v1"
-  },
-  "JX083:v2": {
-    "id": "JX083",
-    "color": "v2"
-  },
-  "JX083:v3": {
-    "id": "JX083",
-    "color": "v3"
-  },
-  "JX083:v4": {
-    "id": "JX083",
-    "color": "v4"
-  },
-  "JX083:v6": {
-    "id": "JX083",
-    "color": "v6"
-  },
-  "JX083:v7": {
-    "id": "JX083",
-    "color": "v7"
-  },
-  "JX083:v8": {
-    "id": "JX083",
-    "color": "v8"
-  },
-  "JX083:v9": {
-    "id": "JX083",
-    "color": "v9"
-  },
-  "JX083:v5": {
-    "id": "JX154",
-    "color": "v5"
-  },
-  "JX083:v10": {
-    "id": "JX155",
-    "color": "v10"
-  },
-  "JX085:v1": {
-    "id": "JX085",
-    "color": "v1"
-  },
-  "JX085:v2": {
-    "id": "JX085",
-    "color": "v2"
-  },
-  "JX085:v3": {
-    "id": "JX085",
-    "color": "v3"
-  },
-  "JX085:v4": {
-    "id": "JX156",
-    "color": "v4"
-  },
-  "JX086:v1": {
-    "id": "JX086",
-    "color": "v1"
-  },
-  "JX086:v2": {
-    "id": "JX086",
-    "color": "v2"
-  },
-  "JX086:v3": {
-    "id": "JX086",
-    "color": "v3"
-  },
-  "JX086:v4": {
-    "id": "JX086",
-    "color": "v4"
-  },
-  "JX086:v7": {
-    "id": "JX086",
-    "color": "v7"
-  },
-  "JX086:v8": {
-    "id": "JX086",
-    "color": "v8"
-  },
-  "JX086:v9": {
-    "id": "JX086",
-    "color": "v9"
-  },
-  "JX086:v11": {
-    "id": "JX086",
-    "color": "v11"
-  },
-  "JX086:v12": {
-    "id": "JX086",
-    "color": "v12"
-  },
-  "JX086:v6": {
-    "id": "JX157",
-    "color": "v6"
-  },
-  "JX086:v13": {
-    "id": "JX157",
-    "color": "v13"
-  },
-  "JX086:v5": {
-    "id": "JX158",
-    "color": "v5"
-  },
-  "JX086:v10": {
-    "id": "JX159",
-    "color": "v10"
-  },
-  "JX086:v14": {
-    "id": "JX160",
-    "color": "v14"
-  },
-  "JX086:v15": {
-    "id": "JX161",
-    "color": "v15"
-  },
-  "JX087:v1": {
-    "id": "JX087",
-    "color": "v1"
-  },
-  "JX087:v3": {
-    "id": "JX087",
-    "color": "v3"
-  },
-  "JX087:v5": {
-    "id": "JX087",
-    "color": "v5"
-  },
-  "JX087:v12": {
-    "id": "JX087",
-    "color": "v12"
-  },
-  "JX087:v2": {
-    "id": "JX162",
-    "color": "v2"
-  },
-  "JX087:v4": {
-    "id": "JX162",
-    "color": "v4"
-  },
-  "JX087:v6": {
-    "id": "JX162",
-    "color": "v6"
-  },
-  "JX087:v7": {
-    "id": "JX162",
-    "color": "v7"
-  },
-  "JX087:v8": {
-    "id": "JX162",
-    "color": "v8"
-  },
-  "JX087:v9": {
-    "id": "JX162",
-    "color": "v9"
-  },
-  "JX087:v13": {
-    "id": "JX162",
-    "color": "v13"
-  },
-  "JX087:v10": {
-    "id": "JX163",
-    "color": "v10"
-  },
-  "JX087:v11": {
-    "id": "JX164",
-    "color": "v11"
-  },
-  "JX088:v1": {
-    "id": "JX088",
-    "color": "v1"
-  },
-  "JX088:v2": {
-    "id": "JX165",
-    "color": "v2"
-  },
-  "JX088:v3": {
-    "id": "JX166",
-    "color": "v3"
-  },
-  "JX088:v4": {
-    "id": "JX167",
-    "color": "v4"
-  },
-  "JX088:v5": {
-    "id": "JX167",
-    "color": "v5"
-  },
-  "JX088:v6": {
-    "id": "JX167",
-    "color": "v6"
-  },
-  "JX089:v1": {
-    "id": "JX089",
-    "color": "v1"
-  },
-  "JX091:v1": {
-    "id": "JX091",
-    "color": "v1"
-  },
-  "JX091:v2": {
-    "id": "JX168",
-    "color": "v2"
-  },
-  "JX092:v1": {
-    "id": "JX092",
-    "color": "v1"
-  },
-  "JX092:v2": {
-    "id": "JX169",
-    "color": "v2"
-  },
-  "JX094:v1": {
-    "id": "JX094",
-    "color": "v1"
-  },
-  "JX094:v2": {
-    "id": "JX170",
-    "color": "v2"
-  },
-  "JX094:v3": {
-    "id": "JX170",
-    "color": "v3"
-  },
-  "JX094:v4": {
-    "id": "JX170",
-    "color": "v4"
-  },
-  "JX094:v5": {
-    "id": "JX170",
-    "color": "v5"
-  },
-  "JX094:v6": {
-    "id": "JX170",
-    "color": "v6"
-  },
-  "JX094:v7": {
-    "id": "JX170",
-    "color": "v7"
-  },
-  "JX094:v8": {
-    "id": "JX170",
-    "color": "v8"
-  },
-  "JX094:v9": {
-    "id": "JX170",
-    "color": "v9"
-  },
-  "JX094:v10": {
-    "id": "JX171",
-    "color": "v10"
-  },
-  "JX094:v11": {
-    "id": "JX172",
-    "color": "v11"
-  },
-  "JX100:v1": {
-    "id": "JX100",
-    "color": "v1"
-  },
-  "JX100:v2": {
-    "id": "JX173",
-    "color": "v2"
-  },
-  "JX100:v3": {
-    "id": "JX173",
-    "color": "v3"
-  },
-  "JX100:v4": {
-    "id": "JX173",
-    "color": "v4"
-  },
-  "JX100:v5": {
-    "id": "JX173",
-    "color": "v5"
-  },
-  "JX100:v6": {
-    "id": "JX174",
-    "color": "v6"
-  },
-  "JX101:v1": {
-    "id": "JX101",
-    "color": "v1"
-  },
-  "JX101:v2": {
-    "id": "JX175",
-    "color": "v2"
-  },
-  "JX101:v3": {
-    "id": "JX175",
-    "color": "v3"
-  },
-  "JX102:v1": {
-    "id": "JX102",
-    "color": "v1"
-  },
-  "JX102:v2": {
-    "id": "JX102",
-    "color": "v2"
-  },
-  "JX102:v4": {
-    "id": "JX102",
-    "color": "v4"
-  },
-  "JX102:v5": {
-    "id": "JX102",
-    "color": "v5"
-  },
-  "JX102:v3": {
-    "id": "JX176",
-    "color": "v3"
-  },
-  "JX102:v6": {
-    "id": "JX176",
-    "color": "v3"
-  },
-  "JX102:v8": {
-    "id": "JX177",
-    "color": "v8"
-  },
-  "JX102:v9": {
-    "id": "JX177",
-    "color": "v9"
-  },
-  "JX102:v7": {
-    "id": "JX178",
-    "color": "v7"
-  },
-  "JX102:v4plain": {
-    "id": "JX179",
-    "color": "v4plain"
-  },
-  "JX102:v5plain": {
-    "id": "JX179",
-    "color": "v5plain"
-  },
-  "JX103:v1": {
-    "id": "JX103",
-    "color": "v1"
-  },
-  "JX103:v2": {
-    "id": "JX103",
-    "color": "v2"
-  },
-  "JX103:v4": {
-    "id": "JX103",
-    "color": "v4"
-  },
-  "JX103:v5": {
-    "id": "JX103",
-    "color": "v5"
-  },
-  "JX103:v6": {
-    "id": "JX103",
-    "color": "v6"
-  },
-  "JX103:v7": {
-    "id": "JX103",
-    "color": "v7"
-  },
-  "JX103:v9": {
-    "id": "JX103",
-    "color": "v9"
-  },
-  "JX103:v13": {
-    "id": "JX103",
-    "color": "v9"
-  },
-  "JX103:v14": {
-    "id": "JX103",
-    "color": "v2"
-  },
-  "JX103:v3": {
-    "id": "JX180",
-    "color": "v3"
-  },
-  "JX103:v10": {
-    "id": "JX180",
-    "color": "v10"
-  },
-  "JX103:v11": {
-    "id": "JX180",
-    "color": "v11"
-  },
-  "JX103:v12": {
-    "id": "JX180",
-    "color": "v12"
-  },
-  "JX103:v8": {
-    "id": "JX181",
-    "color": "v8"
-  },
-  "JX103:v15": {
-    "id": "JX181",
-    "color": "v15"
-  },
-  "JX103:v16": {
-    "id": "JX181",
-    "color": "v16"
-  },
-  "JX104:v1": {
-    "id": "JX104",
-    "color": "v1"
-  },
-  "JX104:v2": {
-    "id": "JX182",
-    "color": "v2"
-  },
-  "JX105:v1": {
-    "id": "JX105",
-    "color": "v1"
-  },
-  "JX105:v2": {
-    "id": "JX105",
-    "color": "v2"
-  },
-  "JX105:v3": {
-    "id": "JX105",
-    "color": "v3"
-  },
-  "JX105:v4": {
-    "id": "JX105",
-    "color": "v4"
-  },
-  "JX105:v5": {
-    "id": "JX105",
-    "color": "v5"
-  },
-  "JX105:v6": {
-    "id": "JX183",
-    "color": "v6"
-  }
-};
