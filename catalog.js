@@ -13324,6 +13324,9785 @@ const products = [
     ],
     "referencePhotos": [],
     "detailImages": []
+  },
+  {
+    "id": "JX184",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Blue inner-frame skeleton",
+    "designDetails": "Blue inner-frame skeleton",
+    "designDetailsZh": "蓝色内框镂空款",
+    "name": "Tonneau — Unconfirmed — Blue inner-frame skeleton — Rubber-style strap",
+    "nameZh": "理查德米勒 · 蓝色内框镂空款 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White case · Blue inner frame · White strap",
+        "labelZh": "白色表壳 · 蓝色内框 · 白色表带",
+        "image": "rm-import-0001",
+        "photos": [
+          {
+            "image": "rm-import-0001"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0002",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Blue inner frame · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0003",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Blue inner frame · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0001",
+    "coverImage": "rm-import-0001",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX185",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Openworked chronograph · White case",
+    "designDetails": "Openworked chronograph · White case",
+    "designDetailsZh": "镂空计时外观 · 白色表壳",
+    "name": "Tonneau — Unconfirmed — Openworked chronograph · White case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 镂空计时外观 · 白色表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White case · Dark openworked dial · White strap",
+        "labelZh": "白色表壳 · 深色镂空盘 · 白色表带",
+        "image": "rm-import-0004",
+        "photos": [
+          {
+            "image": "rm-import-0004"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0005",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0006",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0007",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0008",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0009",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0004",
+    "coverImage": "rm-import-0004",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX186",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Decorated case · Red inner frame",
+    "designDetails": "Decorated case · Red inner frame",
+    "designDetailsZh": "装饰表壳 · 红色内框",
+    "name": "Tonneau — Unconfirmed — Decorated case · Red inner frame — Rubber-style strap",
+    "nameZh": "理查德米勒 · 装饰表壳 · 红色内框 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Rose-tone decorated case · Red strap",
+        "labelZh": "玫瑰金色装饰表壳 · 红色表带",
+        "image": "rm-import-0013",
+        "photos": [
+          {
+            "image": "rm-import-0013"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0010",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0011",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0012",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0014",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0015",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0016",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0017",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0018",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0013",
+    "coverImage": "rm-import-0013",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX187",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Turbine-motif dial",
+    "designDetails": "Turbine-motif dial",
+    "designDetailsZh": "涡轮造型盘",
+    "name": "Tonneau — Unconfirmed — Turbine-motif dial — Rubber-style strap",
+    "nameZh": "理查德米勒 · 涡轮造型盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver-tone decorated case · Black strap · Turbine motif",
+        "labelZh": "银色装饰表壳 · 黑带 · 涡轮造型盘",
+        "image": "rm-import-0022",
+        "photos": [
+          {
+            "image": "rm-import-0022"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0019",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Black strap · Turbine motif",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0020",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Black strap · Turbine motif",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0021",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Black strap · Turbine motif",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0023",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Black strap · Turbine motif",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0024",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Black strap · Turbine motif",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0025",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Black strap · Turbine motif",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0026",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Black strap · Turbine motif",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0027",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Black strap · Turbine motif",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0022",
+    "coverImage": "rm-import-0022",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX188",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Patterned case · Blue-accent bridges",
+    "designDetails": "Patterned case · Blue-accent bridges",
+    "designDetailsZh": "纹理表壳 · 蓝色桥架点缀",
+    "name": "Tonneau — Unconfirmed — Patterned case · Blue-accent bridges — Rubber-style strap",
+    "nameZh": "理查德米勒 · 纹理表壳 · 蓝色桥架点缀 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark patterned case · Blue strap",
+        "labelZh": "深色纹理表壳 · 蓝色表带",
+        "image": "rm-import-0039",
+        "photos": [
+          {
+            "image": "rm-import-0039"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0037",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0038",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0040",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0041",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0042",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0043",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0044",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0045",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0039",
+    "coverImage": "rm-import-0039",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX189",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Chronograph · Circular counters",
+    "designDetails": "Chronograph · Circular counters",
+    "designDetailsZh": "计时外观 · 圆形分盘",
+    "name": "Tonneau — Unconfirmed — Chronograph · Circular counters — Rubber-style strap",
+    "nameZh": "理查德米勒 · 计时外观 · 圆形分盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Warm-tone case · Dark dial · Red strap",
+        "labelZh": "暖金色表壳 · 深色盘 · 红色表带",
+        "image": "rm-import-0048",
+        "photos": [
+          {
+            "image": "rm-import-0048"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0046",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0047",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0049",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0050",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0051",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0052",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0053",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0054",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0048",
+    "coverImage": "rm-import-0048",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX190",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Decorated bezel · Circular counters",
+    "designDetails": "Decorated bezel · Circular counters",
+    "designDetailsZh": "装饰表圈 · 圆形分盘",
+    "name": "Tonneau — Unconfirmed — Decorated bezel · Circular counters — Rubber-style strap",
+    "nameZh": "理查德米勒 · 装饰表圈 · 圆形分盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver-tone decorated case · Red strap",
+        "labelZh": "银色装饰表壳 · 红色表带",
+        "image": "rm-import-0056",
+        "photos": [
+          {
+            "image": "rm-import-0056"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0055",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0057",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0058",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0059",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0060",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Silver-tone decorated case · White strap",
+        "labelZh": "银色装饰表壳 · 白色表带",
+        "image": "rm-import-0061",
+        "photos": [
+          {
+            "image": "rm-import-0061"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Silver-tone decorated case · Black strap",
+        "labelZh": "银色装饰表壳 · 黑色表带",
+        "image": "rm-import-0063",
+        "photos": [
+          {
+            "image": "rm-import-0063"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0056",
+    "coverImage": "rm-import-0056",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX191",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Multicolour skeleton dial",
+    "designDetails": "Multicolour skeleton dial",
+    "designDetailsZh": "多彩镂空盘",
+    "name": "Tonneau — Unconfirmed — Multicolour skeleton dial — Rubber-style strap",
+    "nameZh": "理查德米勒 · 多彩镂空盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Multicolour dial · Red accents",
+        "labelZh": "深色表壳 · 多彩盘面 · 红色点缀",
+        "image": "rm-import-0068",
+        "photos": [
+          {
+            "image": "rm-import-0068"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0064",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Multicolour dial · Red accents",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0065",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Multicolour dial · Red accents",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0066",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Multicolour dial · Red accents",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0067",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Multicolour dial · Red accents",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0069",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Multicolour dial · Red accents",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0071",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Multicolour dial · Red accents",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0068",
+    "coverImage": "rm-import-0068",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX192",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Angular rectangular skeleton",
+    "designDetails": "Angular rectangular skeleton",
+    "designDetailsZh": "棱角方形镂空款",
+    "name": "Tonneau — Unconfirmed — Angular rectangular skeleton — Rubber-style strap",
+    "nameZh": "理查德米勒 · 棱角方形镂空款 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark rectangular case · Red strap",
+        "labelZh": "深色方形表壳 · 红色表带",
+        "image": "rm-import-0074",
+        "photos": [
+          {
+            "image": "rm-import-0074"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0073",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark rectangular case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0075",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark rectangular case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0076",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark rectangular case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0077",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark rectangular case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0078",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark rectangular case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0079",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark rectangular case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0080",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark rectangular case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0081",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark rectangular case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0074",
+    "coverImage": "rm-import-0074",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX193",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Arabic dial · Silver-tone case",
+    "designDetails": "Arabic dial · Silver-tone case",
+    "designDetailsZh": "阿拉伯数字盘 · 银色表壳",
+    "name": "Tonneau — Unconfirmed — Arabic dial · Silver-tone case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 阿拉伯数字盘 · 银色表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver-tone case · Dark Arabic dial · Black strap",
+        "labelZh": "银色表壳 · 深色阿拉伯数字盘 · 黑色表带",
+        "image": "rm-import-0085",
+        "photos": [
+          {
+            "image": "rm-import-0085"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0082",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0083",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0084",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0086",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0087",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0088",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0089",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0090",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0085",
+    "coverImage": "rm-import-0085",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX194",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Skeleton dial · Silver-tone case",
+    "designDetails": "Skeleton dial · Silver-tone case",
+    "designDetailsZh": "镂空盘 · 银色表壳",
+    "name": "Tonneau — Unconfirmed — Skeleton dial · Silver-tone case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 镂空盘 · 银色表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver-tone case · Dark openworked dial · Red strap",
+        "labelZh": "银色表壳 · 深色镂空盘 · 红色表带",
+        "image": "rm-import-0092",
+        "photos": [
+          {
+            "image": "rm-import-0092"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0091",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0093",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0094",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0095",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0096",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0097",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0098",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0099",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0092",
+    "coverImage": "rm-import-0092",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX195",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Green case · Yellow bridges",
+    "designDetails": "Green case · Yellow bridges",
+    "designDetailsZh": "绿色表壳 · 黄色桥架",
+    "name": "Tonneau — Unconfirmed — Green case · Yellow bridges — Rubber-style strap",
+    "nameZh": "理查德米勒 · 绿色表壳 · 黄色桥架 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green case · Yellow accents · Green strap",
+        "labelZh": "绿色表壳 · 黄色点缀 · 绿色表带",
+        "image": "rm-import-0103",
+        "photos": [
+          {
+            "image": "rm-import-0103"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0100",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Green case · Yellow accents · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0101",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Green case · Yellow accents · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0102",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Green case · Yellow accents · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0104",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Green case · Yellow accents · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0105",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Green case · Yellow accents · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0106",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Green case · Yellow accents · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0107",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Green case · Yellow accents · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0108",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Green case · Yellow accents · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0103",
+    "coverImage": "rm-import-0103",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX196",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Angular skeleton bridges",
+    "designDetails": "Angular skeleton bridges",
+    "designDetailsZh": "棱角镂空桥架",
+    "name": "Tonneau — Unconfirmed — Angular skeleton bridges — Rubber-style strap",
+    "nameZh": "理查德米勒 · 棱角镂空桥架 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver-tone case · Dark openworked dial · Black strap",
+        "labelZh": "银色表壳 · 深色镂空盘 · 黑色表带",
+        "image": "rm-import-0112",
+        "photos": [
+          {
+            "image": "rm-import-0112"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0109",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0110",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0111",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0113",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0114",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0115",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0116",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0117",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0112",
+    "coverImage": "rm-import-0112",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX197",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Elongated decorated case",
+    "designDetails": "Elongated decorated case",
+    "designDetailsZh": "修长装饰表壳",
+    "name": "Tonneau — Unconfirmed — Elongated decorated case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 修长装饰表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White decorated case · Pink strap",
+        "labelZh": "白色装饰表壳 · 粉色表带",
+        "image": "rm-import-0118",
+        "photos": [
+          {
+            "image": "rm-import-0118"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "White decorated case · Green strap",
+        "labelZh": "白色装饰表壳 · 绿色表带",
+        "image": "rm-import-0119",
+        "photos": [
+          {
+            "image": "rm-import-0119"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Warm-tone decorated case · Blue strap",
+        "labelZh": "暖金色装饰表壳 · 蓝色表带",
+        "image": "rm-import-0120",
+        "photos": [
+          {
+            "image": "rm-import-0120"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0121",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone decorated case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Warm-tone case · Dark dial · Black strap",
+        "labelZh": "暖金色表壳 · 深色盘 · 黑色表带",
+        "image": "rm-import-0122",
+        "photos": [
+          {
+            "image": "rm-import-0122"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Silver-tone case · Blue dial · Black strap",
+        "labelZh": "银色表壳 · 蓝色盘 · 黑色表带",
+        "image": "rm-import-0123",
+        "photos": [
+          {
+            "image": "rm-import-0123"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0118",
+    "coverImage": "rm-import-0118",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX198",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Colourful case · Circular counters",
+    "designDetails": "Colourful case · Circular counters",
+    "designDetailsZh": "彩色表壳 · 圆形分盘",
+    "name": "Tonneau — Unconfirmed — Colourful case · Circular counters — Rubber-style strap",
+    "nameZh": "理查德米勒 · 彩色表壳 · 圆形分盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Red case · Blue accents · Red strap",
+        "labelZh": "红色表壳 · 蓝色点缀 · 红色表带",
+        "image": "rm-import-0127",
+        "photos": [
+          {
+            "image": "rm-import-0127"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0128",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Blue accents · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0129",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Blue accents · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0130",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Blue accents · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0131",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Blue accents · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0132",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Blue accents · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0139",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Blue accents · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Yellow case · Blue accents · Yellow strap",
+        "labelZh": "黄色表壳 · 蓝色点缀 · 黄色表带",
+        "image": "rm-import-0133",
+        "photos": [
+          {
+            "image": "rm-import-0133"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0138",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Yellow case · Blue accents · Yellow strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "White case · Dark accents · White strap",
+        "labelZh": "白色表壳 · 深色点缀 · 白色表带",
+        "image": "rm-import-0134",
+        "photos": [
+          {
+            "image": "rm-import-0134"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Orange case · Dark accents · Orange strap",
+        "labelZh": "橙色表壳 · 深色点缀 · 橙色表带",
+        "image": "rm-import-0137",
+        "photos": [
+          {
+            "image": "rm-import-0137"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0127",
+    "coverImage": "rm-import-0127",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX199",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Patterned case · Yellow crown",
+    "designDetails": "Patterned case · Yellow crown",
+    "designDetailsZh": "纹理表壳 · 黄色表冠",
+    "name": "Tonneau — Unconfirmed — Patterned case · Yellow crown — Rubber-style strap",
+    "nameZh": "理查德米勒 · 纹理表壳 · 黄色表冠 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark patterned case · Yellow crown · Dark strap",
+        "labelZh": "深色纹理表壳 · 黄色表冠 · 深色表带",
+        "image": "rm-import-0142",
+        "photos": [
+          {
+            "image": "rm-import-0142"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0141",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Yellow crown · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0143",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Yellow crown · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0144",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Yellow crown · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0145",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Yellow crown · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0146",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Yellow crown · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0147",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Yellow crown · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0148",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Yellow crown · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0149",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark patterned case · Yellow crown · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0142",
+    "coverImage": "rm-import-0142",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX200",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Multi-bridge skeleton · Blue inner frame",
+    "designDetails": "Multi-bridge skeleton · Blue inner frame",
+    "designDetailsZh": "多桥架镂空盘 · 蓝色内框",
+    "name": "Tonneau — Unconfirmed — Multi-bridge skeleton · Blue inner frame — Rubber-style strap",
+    "nameZh": "理查德米勒 · 多桥架镂空盘 · 蓝色内框 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver-tone case · Blue inner frame · Dark strap",
+        "labelZh": "银色表壳 · 蓝色内框 · 深色表带",
+        "image": "rm-import-0152",
+        "photos": [
+          {
+            "image": "rm-import-0152"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0150",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0151",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0153",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0154",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0155",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0156",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0157",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0158",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0159",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0160",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0161",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0162",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0163",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0164",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Blue inner frame · Dark strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0152",
+    "coverImage": "rm-import-0152",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX201",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Multi-bridge skeleton · Dark case",
+    "designDetails": "Multi-bridge skeleton · Dark case",
+    "designDetailsZh": "多桥架镂空盘 · 深色表壳",
+    "name": "Tonneau — Unconfirmed — Multi-bridge skeleton · Dark case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 多桥架镂空盘 · 深色表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Dark openworked dial · Black strap",
+        "labelZh": "深色表壳 · 深色镂空盘 · 黑色表带",
+        "image": "rm-import-0167",
+        "photos": [
+          {
+            "image": "rm-import-0167"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0165",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0166",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0168",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0169",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0170",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0171",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0172",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark openworked dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0167",
+    "coverImage": "rm-import-0167",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX202",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Circular counters · Coloured case",
+    "designDetails": "Circular counters · Coloured case",
+    "designDetailsZh": "圆形分盘 · 彩色表壳",
+    "name": "Tonneau — Unconfirmed — Circular counters · Coloured case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 圆形分盘 · 彩色表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Orange case · Orange strap",
+        "labelZh": "橙色表壳 · 橙色表带",
+        "image": "rm-import-0182",
+        "photos": [
+          {
+            "image": "rm-import-0182"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Gold-tone case · Grey strap",
+        "labelZh": "金色表壳 · 灰色表带",
+        "image": "rm-import-0183",
+        "photos": [
+          {
+            "image": "rm-import-0183"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue case · Grey strap",
+        "labelZh": "蓝色表壳 · 灰色表带",
+        "image": "rm-import-0184",
+        "photos": [
+          {
+            "image": "rm-import-0184"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Red case · Grey strap",
+        "labelZh": "红色表壳 · 灰色表带",
+        "image": "rm-import-0185",
+        "photos": [
+          {
+            "image": "rm-import-0185"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Blue case · Blue strap",
+        "labelZh": "蓝色表壳 · 蓝色表带",
+        "image": "rm-import-0186",
+        "photos": [
+          {
+            "image": "rm-import-0186"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0187",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Blue case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v6",
+        "label": "Silver-tone case · Blue strap",
+        "labelZh": "银色表壳 · 蓝色表带",
+        "image": "rm-import-0188",
+        "photos": [
+          {
+            "image": "rm-import-0188"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Dark case · Yellow accents · Black strap",
+        "labelZh": "深色表壳 · 黄色点缀 · 黑色表带",
+        "image": "rm-import-0189",
+        "photos": [
+          {
+            "image": "rm-import-0189"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "Silver-tone case · Grey strap",
+        "labelZh": "银色表壳 · 灰色表带",
+        "image": "rm-import-0190",
+        "photos": [
+          {
+            "image": "rm-import-0190"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0182",
+    "coverImage": "rm-import-0182",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX203",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Skeleton bridges · Blue crown",
+    "designDetails": "Skeleton bridges · Blue crown",
+    "designDetailsZh": "镂空桥架 · 蓝色表冠",
+    "name": "Tonneau — Unconfirmed — Skeleton bridges · Blue crown — Rubber-style strap",
+    "nameZh": "理查德米勒 · 镂空桥架 · 蓝色表冠 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Blue crown · Black strap",
+        "labelZh": "深色表壳 · 蓝色表冠 · 黑色表带",
+        "image": "rm-import-0192",
+        "photos": [
+          {
+            "image": "rm-import-0192"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0191",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Blue crown · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0193",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Blue crown · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0194",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Blue crown · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0195",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Blue crown · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0196",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Blue crown · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0197",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Blue crown · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0198",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Blue crown · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0199",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Blue crown · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0192",
+    "coverImage": "rm-import-0192",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX204",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Deep skeleton dial · Plain bezel",
+    "designDetails": "Deep skeleton dial · Plain bezel",
+    "designDetailsZh": "纵深镂空盘 · 光面表圈",
+    "name": "Tonneau — Unconfirmed — Deep skeleton dial · Plain bezel — Rubber-style strap",
+    "nameZh": "理查德米勒 · 纵深镂空盘 · 光面表圈 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Dark skeleton dial · Black strap",
+        "labelZh": "深色表壳 · 深色镂空盘 · 黑色表带",
+        "image": "rm-import-0200",
+        "photos": [
+          {
+            "image": "rm-import-0200"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0201",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark skeleton dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0203",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark skeleton dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Rose-tone case · Dark skeleton dial · Black strap",
+        "labelZh": "玫瑰金色表壳 · 深色镂空盘 · 黑色表带",
+        "image": "rm-import-0204",
+        "photos": [
+          {
+            "image": "rm-import-0204"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0202",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark skeleton dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0205",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark skeleton dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0206",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark skeleton dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0207",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark skeleton dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0208",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark skeleton dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0200",
+    "coverImage": "rm-import-0200",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX205",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Cross-bridge skeleton · Coloured accents",
+    "designDetails": "Cross-bridge skeleton · Coloured accents",
+    "designDetailsZh": "交叉桥架镂空盘 · 彩色点缀",
+    "name": "Tonneau — Unconfirmed — Cross-bridge skeleton · Coloured accents — Rubber-style strap",
+    "nameZh": "理查德米勒 · 交叉桥架镂空盘 · 彩色点缀 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White case · Blue strap · Colour accents",
+        "labelZh": "白色表壳 · 蓝色表带 · 彩色点缀",
+        "image": "rm-import-0214",
+        "photos": [
+          {
+            "image": "rm-import-0214"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0209",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Blue strap · Colour accents",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0211",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Blue strap · Colour accents",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0212",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Blue strap · Colour accents",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0213",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Blue strap · Colour accents",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0216",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Blue strap · Colour accents",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0214",
+    "coverImage": "rm-import-0214",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX206",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Ornamental skeleton centre",
+    "designDetails": "Ornamental skeleton centre",
+    "designDetailsZh": "装饰镂空中心",
+    "name": "Tonneau — Unconfirmed — Ornamental skeleton centre — Rubber-style strap",
+    "nameZh": "理查德米勒 · 装饰镂空中心 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Rose-colour dial accents · Black strap",
+        "labelZh": "深色表壳 · 玫瑰金色盘面点缀 · 黑色表带",
+        "image": "rm-import-0220",
+        "photos": [
+          {
+            "image": "rm-import-0220"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0218",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0219",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0221",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0222",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0223",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0224",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0225",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0226",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0220",
+    "coverImage": "rm-import-0220",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX207",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Cross-bridge skeleton · Woven strap",
+    "designDetails": "Cross-bridge skeleton · Woven strap",
+    "designDetailsZh": "交叉桥架镂空盘 · 织物表带",
+    "name": "Tonneau — Unconfirmed — Cross-bridge skeleton · Woven strap — Textile strap",
+    "nameZh": "理查德米勒 · 交叉桥架镂空盘 · 织物表带 · 织物表带",
+    "band": "textile",
+    "bandName": "Textile strap",
+    "bandNameZh": "织物表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Yellow case · Dark dial · Yellow woven strap",
+        "labelZh": "黄色表壳 · 深色盘 · 黄色织物表带",
+        "image": "rm-import-0229",
+        "photos": [
+          {
+            "image": "rm-import-0229"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0227",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Yellow case · Dark dial · Yellow woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0228",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Yellow case · Dark dial · Yellow woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0230",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Yellow case · Dark dial · Yellow woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0231",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Yellow case · Dark dial · Yellow woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0232",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Yellow case · Dark dial · Yellow woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0233",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Yellow case · Dark dial · Yellow woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0234",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Yellow case · Dark dial · Yellow woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0235",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Yellow case · Dark dial · Yellow woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0229",
+    "coverImage": "rm-import-0229",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX208",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Ladder-like skeleton bridges",
+    "designDetails": "Ladder-like skeleton bridges",
+    "designDetailsZh": "阶梯造型镂空桥架",
+    "name": "Tonneau — Unconfirmed — Ladder-like skeleton bridges — Rubber-style strap",
+    "nameZh": "理查德米勒 · 阶梯造型镂空桥架 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Gold-colour bridges · Black strap",
+        "labelZh": "深色表壳 · 金色桥架造型 · 黑色表带",
+        "image": "rm-import-0238",
+        "photos": [
+          {
+            "image": "rm-import-0238"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0236",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour bridges · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0237",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour bridges · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0239",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour bridges · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0240",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour bridges · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0241",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour bridges · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0242",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour bridges · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0243",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour bridges · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0244",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour bridges · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0238",
+    "coverImage": "rm-import-0238",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX209",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Openworked chronograph · Plain case",
+    "designDetails": "Openworked chronograph · Plain case",
+    "designDetailsZh": "镂空计时外观 · 光面表壳",
+    "name": "Tonneau — Unconfirmed — Openworked chronograph · Plain case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 镂空计时外观 · 光面表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Three-register dial · Black strap",
+        "labelZh": "深色表壳 · 三分盘外观 · 黑色表带",
+        "image": "rm-import-0248",
+        "photos": [
+          {
+            "image": "rm-import-0248"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0245",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0246",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0247",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0249",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0250",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0251",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0252",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0253",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0248",
+    "coverImage": "rm-import-0248",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX210",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Silver-colour bridge dial · Dark case",
+    "designDetails": "Silver-colour bridge dial · Dark case",
+    "designDetailsZh": "银色桥架盘 · 深色表壳",
+    "name": "Tonneau — Unconfirmed — Silver-colour bridge dial · Dark case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 银色桥架盘 · 深色表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Silver-colour bridges · Black strap",
+        "labelZh": "深色表壳 · 银色桥架造型 · 黑色表带",
+        "image": "rm-import-0259",
+        "photos": [
+          {
+            "image": "rm-import-0259"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0258",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Silver-colour bridges · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0260",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Silver-colour bridges · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0261",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Silver-colour bridges · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0262",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Silver-colour bridges · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0259",
+    "coverImage": "rm-import-0259",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX211",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Slim case · Ornamental centre",
+    "designDetails": "Slim case · Ornamental centre",
+    "designDetailsZh": "修长表壳 · 装饰中心",
+    "name": "Tonneau — Unconfirmed — Slim case · Ornamental centre — Rubber-style strap",
+    "nameZh": "理查德米勒 · 修长表壳 · 装饰中心 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Warm dial accents · Black strap",
+        "labelZh": "深色表壳 · 暖色盘面点缀 · 黑色表带",
+        "image": "rm-import-0266",
+        "photos": [
+          {
+            "image": "rm-import-0266"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0263",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Warm dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0264",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Warm dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0265",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Warm dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0267",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Warm dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0268",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Warm dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0269",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Warm dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0270",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Warm dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0271",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Warm dial accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0266",
+    "coverImage": "rm-import-0266",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX212",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Openworked chronograph · Warm case",
+    "designDetails": "Openworked chronograph · Warm case",
+    "designDetailsZh": "镂空计时外观 · 暖色表壳",
+    "name": "Tonneau — Unconfirmed — Openworked chronograph · Warm case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 镂空计时外观 · 暖色表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Rose-tone case · Dark dial · Black strap",
+        "labelZh": "玫瑰金色表壳 · 深色盘 · 黑色表带",
+        "image": "rm-import-0275",
+        "photos": [
+          {
+            "image": "rm-import-0275"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0272",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0273",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0274",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0276",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0277",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0278",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0279",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0280",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0275",
+    "coverImage": "rm-import-0275",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX213",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Round-counter dial · Dark case",
+    "designDetails": "Round-counter dial · Dark case",
+    "designDetailsZh": "圆形分盘 · 深色表壳",
+    "name": "Tonneau — Unconfirmed — Round-counter dial · Dark case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 圆形分盘 · 深色表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Dark dial · Black strap",
+        "labelZh": "深色表壳 · 深色盘 · 黑色表带",
+        "image": "rm-import-0283",
+        "photos": [
+          {
+            "image": "rm-import-0283"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0281",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0282",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0284",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0285",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0286",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0287",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0283",
+    "coverImage": "rm-import-0283",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX214",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Multicolour dragon-motif dial",
+    "designDetails": "Multicolour dragon-motif dial",
+    "designDetailsZh": "多彩图龙形盘",
+    "name": "Tonneau — Unconfirmed — Multicolour dragon-motif dial — Rubber-style strap",
+    "nameZh": "理查德米勒 · 多彩图龙形盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Warm-tone case · Multicolour dragon motif · Black strap",
+        "labelZh": "暖金色表壳 · 多彩图龙形盘 · 黑色表带",
+        "image": "rm-import-0292",
+        "photos": [
+          {
+            "image": "rm-import-0292"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0290",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Multicolour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0291",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Multicolour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0293",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Multicolour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0294",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Multicolour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0295",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Multicolour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0296",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Multicolour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0297",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Multicolour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0298",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Warm-tone case · Multicolour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0292",
+    "coverImage": "rm-import-0292",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX215",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Chronograph · Contrast strap",
+    "designDetails": "Chronograph · Contrast strap",
+    "designDetailsZh": "计时外观 · 对比色表带",
+    "name": "Tonneau — Unconfirmed — Chronograph · Contrast strap — Rubber-style strap",
+    "nameZh": "理查德米勒 · 计时外观 · 对比色表带 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Dark dial · Black strap",
+        "labelZh": "深色表壳 · 深色盘 · 黑色表带",
+        "image": "rm-import-0299",
+        "photos": [
+          {
+            "image": "rm-import-0299"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Dark case · Dark dial · Red strap",
+        "labelZh": "深色表壳 · 深色盘 · 红色表带",
+        "image": "rm-import-0300",
+        "photos": [
+          {
+            "image": "rm-import-0300"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0301",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0302",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0303",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0304",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0305",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Dark dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0299",
+    "coverImage": "rm-import-0299",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX216",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Chronograph · Warm case and white strap",
+    "designDetails": "Chronograph · Warm case and white strap",
+    "designDetailsZh": "计时外观 · 暖色表壳与白带",
+    "name": "Tonneau — Unconfirmed — Chronograph · Warm case and white strap — Rubber-style strap",
+    "nameZh": "理查德米勒 · 计时外观 · 暖色表壳与白带 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Rose-tone case · Dark dial · White strap",
+        "labelZh": "玫瑰金色表壳 · 深色盘 · 白色表带",
+        "image": "rm-import-0309",
+        "photos": [
+          {
+            "image": "rm-import-0309"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0307",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0308",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0310",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0311",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0312",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0313",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0314",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0315",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone case · Dark dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0309",
+    "coverImage": "rm-import-0309",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX217",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Arabic chronograph · Dark case",
+    "designDetails": "Arabic chronograph · Dark case",
+    "designDetailsZh": "阿拉伯数字计时外观 · 深色表壳",
+    "name": "Tonneau — Unconfirmed — Arabic chronograph · Dark case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 阿拉伯数字计时外观 · 深色表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Arabic dial · Black strap",
+        "labelZh": "深色表壳 · 阿拉伯数字盘 · 黑色表带",
+        "image": "rm-import-0319",
+        "photos": [
+          {
+            "image": "rm-import-0319"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0316",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0317",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0318",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0320",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0321",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0322",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0323",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0324",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Arabic dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0319",
+    "coverImage": "rm-import-0319",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX218",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Warm-colour openworked centre",
+    "designDetails": "Warm-colour openworked centre",
+    "designDetailsZh": "暖色镂空中心",
+    "name": "Tonneau — Unconfirmed — Warm-colour openworked centre — Rubber-style strap",
+    "nameZh": "理查德米勒 · 暖色镂空中心 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Rose-colour centre · Black strap",
+        "labelZh": "深色表壳 · 玫瑰金色中心 · 黑色表带",
+        "image": "rm-import-0327",
+        "photos": [
+          {
+            "image": "rm-import-0327"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0325",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0326",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0328",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0329",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0330",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0331",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0332",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0333",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Rose-colour centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0327",
+    "coverImage": "rm-import-0327",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX219",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Circular skeleton centre",
+    "designDetails": "Circular skeleton centre",
+    "designDetailsZh": "圆形镂空中心",
+    "name": "Tonneau — Unconfirmed — Circular skeleton centre — Rubber-style strap",
+    "nameZh": "理查德米勒 · 圆形镂空中心 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Circular skeleton centre · Black strap",
+        "labelZh": "深色表壳 · 圆形镂空中心 · 黑色表带",
+        "image": "rm-import-0336",
+        "photos": [
+          {
+            "image": "rm-import-0336"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0334",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Circular skeleton centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0335",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Circular skeleton centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0337",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Circular skeleton centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0339",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Circular skeleton centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0340",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Circular skeleton centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0341",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Circular skeleton centre · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0336",
+    "coverImage": "rm-import-0336",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX220",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Star-like openworked bridges",
+    "designDetails": "Star-like openworked bridges",
+    "designDetailsZh": "星形镂空桥架",
+    "name": "Tonneau — Unconfirmed — Star-like openworked bridges — Rubber-style strap",
+    "nameZh": "理查德米勒 · 星形镂空桥架 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Green strap",
+        "labelZh": "深色表壳 · 绿色表带",
+        "image": "rm-import-0345",
+        "photos": [
+          {
+            "image": "rm-import-0345"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0343",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0344",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0346",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0347",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0348",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0349",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0350",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0351",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Dark case · Camouflage strap",
+        "labelZh": "深色表壳 · 迷彩表带",
+        "image": "rm-import-0354",
+        "photos": [
+          {
+            "image": "rm-import-0354"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0352",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0353",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0355",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0356",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0357",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0358",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0359",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0360",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0379",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0380",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0381",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0382",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0383",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0384",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0385",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0386",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0387",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0388",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0389",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0390",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0391",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0392",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0393",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0394",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0395",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0396",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0397",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0398",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0399",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0400",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0401",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0402",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0403",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0404",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0405",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Camouflage strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Dark case · Yellow strap",
+        "labelZh": "深色表壳 · 黄色表带",
+        "image": "rm-import-0370",
+        "photos": [
+          {
+            "image": "rm-import-0370"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Dark case · Orange strap",
+        "labelZh": "深色表壳 · 橙色表带",
+        "image": "rm-import-0371",
+        "photos": [
+          {
+            "image": "rm-import-0371"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Dark case · Red strap",
+        "labelZh": "深色表壳 · 红色表带",
+        "image": "rm-import-0372",
+        "photos": [
+          {
+            "image": "rm-import-0372"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Dark case · Blue strap",
+        "labelZh": "深色表壳 · 蓝色表带",
+        "image": "rm-import-0373",
+        "photos": [
+          {
+            "image": "rm-import-0373"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Dark case · White strap",
+        "labelZh": "深色表壳 · 白色表带",
+        "image": "rm-import-0374",
+        "photos": [
+          {
+            "image": "rm-import-0374"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "Dark case · Grey strap",
+        "labelZh": "深色表壳 · 灰色表带",
+        "image": "rm-import-0375",
+        "photos": [
+          {
+            "image": "rm-import-0375"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v9",
+        "label": "Dark case · Black strap",
+        "labelZh": "深色表壳 · 黑色表带",
+        "image": "rm-import-0376",
+        "photos": [
+          {
+            "image": "rm-import-0376"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v10",
+        "label": "Dark case · Blue accents · Black strap",
+        "labelZh": "深色表壳 · 蓝色点缀 · 黑色表带",
+        "image": "rm-import-0377",
+        "photos": [
+          {
+            "image": "rm-import-0377"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v11",
+        "label": "Dark case · White accents · Black strap",
+        "labelZh": "深色表壳 · 白色点缀 · 黑色表带",
+        "image": "rm-import-0378",
+        "photos": [
+          {
+            "image": "rm-import-0378"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0345",
+    "coverImage": "rm-import-0345",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX221",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Large circular counter layout",
+    "designDetails": "Large circular counter layout",
+    "designDetailsZh": "大圆形分盘布局",
+    "name": "Tonneau — Unconfirmed — Large circular counter layout — Rubber-style strap",
+    "nameZh": "理查德米勒 · 大圆形分盘布局 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Three-register dial · Red strap",
+        "labelZh": "深色表壳 · 三分盘外观 · 红色表带",
+        "image": "rm-import-0362",
+        "photos": [
+          {
+            "image": "rm-import-0362"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0361",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0363",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0364",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0365",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0366",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0367",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0368",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0369",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Three-register dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0362",
+    "coverImage": "rm-import-0362",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX222",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Decorated case · Sculpted dragon",
+    "designDetails": "Decorated case · Sculpted dragon",
+    "designDetailsZh": "装饰表壳 · 立体龙形盘",
+    "name": "Tonneau — Unconfirmed — Decorated case · Sculpted dragon — Rubber-style strap",
+    "nameZh": "理查德米勒 · 装饰表壳 · 立体龙形盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Rose-tone decorated case · Dragon motif · Black strap",
+        "labelZh": "玫瑰金色装饰表壳 · 龙形盘 · 黑色表带",
+        "image": "rm-import-0408",
+        "photos": [
+          {
+            "image": "rm-import-0408"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0406",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0407",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0409",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0410",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0411",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0412",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0413",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0414",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0408",
+    "coverImage": "rm-import-0408",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX223",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Dark case · Dragon motif",
+    "designDetails": "Dark case · Dragon motif",
+    "designDetailsZh": "深色表壳 · 龙形盘",
+    "name": "Tonneau — Unconfirmed — Dark case · Dragon motif — Rubber-style strap",
+    "nameZh": "理查德米勒 · 深色表壳 · 龙形盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Gold-colour dragon motif · Black strap",
+        "labelZh": "深色表壳 · 金色龙形盘 · 黑色表带",
+        "image": "rm-import-0417",
+        "photos": [
+          {
+            "image": "rm-import-0417"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0415",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0416",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0418",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0419",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0420",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0421",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0422",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0423",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour dragon motif · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0417",
+    "coverImage": "rm-import-0417",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX224",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Slim skeleton · Gold-colour accents",
+    "designDetails": "Slim skeleton · Gold-colour accents",
+    "designDetailsZh": "修长镂空款 · 金色点缀",
+    "name": "Tonneau — Unconfirmed — Slim skeleton · Gold-colour accents — Rubber-style strap",
+    "nameZh": "理查德米勒 · 修长镂空款 · 金色点缀 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Gold-colour skeleton details · Black strap",
+        "labelZh": "深色表壳 · 金色镂空点缀 · 黑色表带",
+        "image": "rm-import-0426",
+        "photos": [
+          {
+            "image": "rm-import-0426"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0424",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour skeleton details · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0425",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour skeleton details · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0427",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour skeleton details · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0428",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour skeleton details · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0429",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour skeleton details · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0430",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour skeleton details · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0431",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour skeleton details · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0432",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Gold-colour skeleton details · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0426",
+    "coverImage": "rm-import-0426",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX225",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Angular skeleton · White case",
+    "designDetails": "Angular skeleton · White case",
+    "designDetailsZh": "棱角镂空款 · 白色表壳",
+    "name": "Tonneau — Unconfirmed — Angular skeleton · White case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 棱角镂空款 · 白色表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White case · Dark openworked dial · White strap",
+        "labelZh": "白色表壳 · 深色镂空盘 · 白色表带",
+        "image": "rm-import-0434",
+        "photos": [
+          {
+            "image": "rm-import-0434"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0433",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0435",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0436",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0437",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0438",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0439",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0440",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0441",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0434",
+    "coverImage": "rm-import-0434",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX226",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Angular star-bridge skeleton",
+    "designDetails": "Angular star-bridge skeleton",
+    "designDetailsZh": "棱角星形桥架镂空款",
+    "name": "Tonneau — Unconfirmed — Angular star-bridge skeleton — Rubber-style strap",
+    "nameZh": "理查德米勒 · 棱角星形桥架镂空款 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · Orange strap",
+        "labelZh": "深色表壳 · 橙色表带",
+        "image": "rm-import-0443",
+        "photos": [
+          {
+            "image": "rm-import-0443"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0442",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Orange strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0444",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Orange strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0445",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Orange strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0446",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Orange strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0447",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Orange strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0448",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Orange strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0449",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Orange strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0450",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Orange strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0443",
+    "coverImage": "rm-import-0443",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX227",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — White case · Dark circular counters",
+    "designDetails": "White case · Dark circular counters",
+    "designDetailsZh": "白色表壳 · 深色圆形分盘",
+    "name": "Tonneau — Unconfirmed — White case · Dark circular counters — Rubber-style strap",
+    "nameZh": "理查德米勒 · 白色表壳 · 深色圆形分盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White case · Dark three-register dial · White strap",
+        "labelZh": "白色表壳 · 深色三分盘 · 白色表带",
+        "image": "rm-import-0454",
+        "photos": [
+          {
+            "image": "rm-import-0454"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0451",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark three-register dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0452",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark three-register dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0453",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark three-register dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0455",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark three-register dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0456",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark three-register dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0457",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark three-register dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0458",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark three-register dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0459",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Dark three-register dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0454",
+    "coverImage": "rm-import-0454",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX228",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Silver-tone case · Light circular counters",
+    "designDetails": "Silver-tone case · Light circular counters",
+    "designDetailsZh": "银色表壳 · 浅色圆形分盘",
+    "name": "Tonneau — Unconfirmed — Silver-tone case · Light circular counters — Rubber-style strap",
+    "nameZh": "理查德米勒 · 银色表壳 · 浅色圆形分盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver-tone case · Light dial · Black strap",
+        "labelZh": "银色表壳 · 浅色盘 · 黑色表带",
+        "image": "rm-import-0460",
+        "photos": [
+          {
+            "image": "rm-import-0460"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0461",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Light dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0463",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Light dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0464",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Light dial · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Silver-tone case · Light dial · Red strap",
+        "labelZh": "银色表壳 · 浅色盘 · 红色表带",
+        "image": "rm-import-0465",
+        "photos": [
+          {
+            "image": "rm-import-0465"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0462",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Light dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0466",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Light dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0467",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Light dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0468",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Silver-tone case · Light dial · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0460",
+    "coverImage": "rm-import-0460",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX229",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — White case · Red circular-counter accents",
+    "designDetails": "White case · Red circular-counter accents",
+    "designDetailsZh": "白色表壳 · 红色分盘点缀",
+    "name": "Tonneau — Unconfirmed — White case · Red circular-counter accents — Rubber-style strap",
+    "nameZh": "理查德米勒 · 白色表壳 · 红色分盘点缀 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White case · Red dial accents · White strap",
+        "labelZh": "白色表壳 · 红色盘面点缀 · 白色表带",
+        "image": "rm-import-0470",
+        "photos": [
+          {
+            "image": "rm-import-0470"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0469",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Red dial accents · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0471",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Red dial accents · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0472",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Red dial accents · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0473",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Red dial accents · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0474",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Red dial accents · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0475",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Red dial accents · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0476",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Red dial accents · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0477",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Red dial accents · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0470",
+    "coverImage": "rm-import-0470",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX230",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Clear-look case · Openworked dial",
+    "designDetails": "Clear-look case · Openworked dial",
+    "designDetailsZh": "透明外观表壳 · 镂空盘",
+    "name": "Tonneau — Unconfirmed — Clear-look case · Openworked dial — Rubber-style strap",
+    "nameZh": "理查德米勒 · 透明外观表壳 · 镂空盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Clear-look case · Dark openworked dial · White strap",
+        "labelZh": "透明外观表壳 · 深色镂空盘 · 白色表带",
+        "image": "rm-import-0479",
+        "photos": [
+          {
+            "image": "rm-import-0479"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0478",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Clear-look case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0480",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Clear-look case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0481",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Clear-look case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0482",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Clear-look case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0483",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Clear-look case · Dark openworked dial · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0479",
+    "coverImage": "rm-import-0479",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX231",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Slim case · Horizontal skeleton bridges",
+    "designDetails": "Slim case · Horizontal skeleton bridges",
+    "designDetailsZh": "修长表壳 · 横向镂空桥架",
+    "name": "Tonneau — Unconfirmed — Slim case · Horizontal skeleton bridges — Rubber-style strap",
+    "nameZh": "理查德米勒 · 修长表壳 · 横向镂空桥架 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark case · White strap",
+        "labelZh": "深色表壳 · 白色表带",
+        "image": "rm-import-0485",
+        "photos": [
+          {
+            "image": "rm-import-0485"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0484",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0486",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0487",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0488",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0489",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Dark case · Yellow accents · Black strap",
+        "labelZh": "深色表壳 · 黄色点缀 · 黑色表带",
+        "image": "rm-import-0491",
+        "photos": [
+          {
+            "image": "rm-import-0491"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0490",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Yellow accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0492",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Yellow accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0493",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Yellow accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0494",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Yellow accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0495",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Dark case · Yellow accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0485",
+    "coverImage": "rm-import-0485",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX232",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Decorated case · Blue inner frame",
+    "designDetails": "Decorated case · Blue inner frame",
+    "designDetailsZh": "装饰表壳 · 蓝色内框",
+    "name": "Tonneau — Unconfirmed — Decorated case · Blue inner frame — Rubber-style strap",
+    "nameZh": "理查德米勒 · 装饰表壳 · 蓝色内框 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Decorated silver-tone case · Blue inner frame · White strap",
+        "labelZh": "银色装饰表壳 · 蓝色内框 · 白色表带",
+        "image": "rm-import-0497",
+        "photos": [
+          {
+            "image": "rm-import-0497"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0496",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Decorated silver-tone case · Blue inner frame · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0498",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Decorated silver-tone case · Blue inner frame · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0499",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Decorated silver-tone case · Blue inner frame · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0500",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Decorated silver-tone case · Blue inner frame · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0501",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Decorated silver-tone case · Blue inner frame · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0497",
+    "coverImage": "rm-import-0497",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX233",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Decorated case · Yellow inner frame",
+    "designDetails": "Decorated case · Yellow inner frame",
+    "designDetailsZh": "装饰表壳 · 黄色内框",
+    "name": "Tonneau — Unconfirmed — Decorated case · Yellow inner frame — Rubber-style strap",
+    "nameZh": "理查德米勒 · 装饰表壳 · 黄色内框 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Decorated silver-tone case · Yellow inner frame · White strap",
+        "labelZh": "银色装饰表壳 · 黄色内框 · 白色表带",
+        "image": "rm-import-0503",
+        "photos": [
+          {
+            "image": "rm-import-0503"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0502",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Decorated silver-tone case · Yellow inner frame · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0504",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Decorated silver-tone case · Yellow inner frame · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0505",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Decorated silver-tone case · Yellow inner frame · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0506",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Decorated silver-tone case · Yellow inner frame · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0507",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Decorated silver-tone case · Yellow inner frame · White strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0503",
+    "coverImage": "rm-import-0503",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX234",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Cross-bridge dial · Woven strap",
+    "designDetails": "Cross-bridge dial · Woven strap",
+    "designDetailsZh": "交叉桥架盘 · 织物表带",
+    "name": "Tonneau — Unconfirmed — Cross-bridge dial · Woven strap — Textile strap",
+    "nameZh": "理查德米勒 · 交叉桥架盘 · 织物表带 · 织物表带",
+    "band": "textile",
+    "bandName": "Textile strap",
+    "bandNameZh": "织物表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Red case · Black woven strap",
+        "labelZh": "红色表壳 · 黑色织物表带",
+        "image": "rm-import-0509",
+        "photos": [
+          {
+            "image": "rm-import-0509"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0508",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Black woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0510",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Black woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0511",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Black woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0512",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Black woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0513",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Black woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0514",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Black woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0515",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Black woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0516",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Black woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0509",
+    "coverImage": "rm-import-0509",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX235",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Slim decorated case",
+    "designDetails": "Slim decorated case",
+    "designDetailsZh": "修长装饰表壳",
+    "name": "Tonneau — Unconfirmed — Slim decorated case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 修长装饰表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Rose-tone decorated case · Red strap",
+        "labelZh": "玫瑰金色装饰表壳 · 红色表带",
+        "image": "rm-import-0518",
+        "photos": [
+          {
+            "image": "rm-import-0518"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0517",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0519",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0520",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0521",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Rose-tone decorated case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0518",
+    "coverImage": "rm-import-0518",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX236",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Round-centre skeleton · Warm case",
+    "designDetails": "Round-centre skeleton · Warm case",
+    "designDetailsZh": "圆形中心镂空款 · 暖色表壳",
+    "name": "Tonneau — Unconfirmed — Round-centre skeleton · Warm case — Rubber-style strap",
+    "nameZh": "理查德米勒 · 圆形中心镂空款 · 暖色表壳 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Warm-tone case · Red strap",
+        "labelZh": "暖金色表壳 · 红色表带",
+        "image": "rm-import-0522",
+        "photos": [
+          {
+            "image": "rm-import-0522"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0522",
+    "coverImage": "rm-import-0522",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX237",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — White chronograph appearance · Woven strap",
+    "designDetails": "White chronograph appearance · Woven strap",
+    "designDetailsZh": "白色计时外观 · 织物表带",
+    "name": "Tonneau — Unconfirmed — White chronograph appearance · Woven strap — Textile strap",
+    "nameZh": "理查德米勒 · 白色计时外观 · 织物表带 · 织物表带",
+    "band": "textile",
+    "bandName": "Textile strap",
+    "bandNameZh": "织物表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White case · Orange woven strap",
+        "labelZh": "白色表壳 · 橙色织物表带",
+        "image": "rm-import-0524",
+        "photos": [
+          {
+            "image": "rm-import-0524"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0523",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Orange woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0525",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Orange woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0526",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Orange woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0527",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Orange woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0528",
+            "alt": "Richard Mille Tonneau — Unconfirmed · White case · Orange woven strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0524",
+    "coverImage": "rm-import-0524",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX238",
+    "brand": "Richard Mille",
+    "baseFamily": "Tonneau — Unconfirmed",
+    "family": "Tonneau — Unconfirmed — Red case · Star-bridge skeleton",
+    "designDetails": "Red case · Star-bridge skeleton",
+    "designDetailsZh": "红色表壳 · 星形桥架镂空盘",
+    "name": "Tonneau — Unconfirmed — Red case · Star-bridge skeleton — Rubber-style strap",
+    "nameZh": "理查德米勒 · 红色表壳 · 星形桥架镂空盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Red case · Red strap",
+        "labelZh": "红色表壳 · 红色表带",
+        "image": "rm-import-0530",
+        "photos": [
+          {
+            "image": "rm-import-0530"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "rm-import-0529",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0531",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0532",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0533",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "rm-import-0534",
+            "alt": "Richard Mille Tonneau — Unconfirmed · Red case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "rm-import-0530",
+    "coverImage": "rm-import-0530",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX239",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Sector dial · Leather",
+    "designDetails": "Sector dial · Leather",
+    "designDetailsZh": "分区刻度盘 · 皮带款",
+    "name": "De Ville — Sector dial · Leather — Leather-style strap",
+    "nameZh": "欧米茄 · 分区刻度盘 · 皮带款 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver dial · Silver-tone case · Black strap",
+        "labelZh": "银盘 · 银色表壳 · 黑色皮带",
+        "image": "omega-import-0001",
+        "photos": [
+          {
+            "image": "omega-import-0001"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0002",
+            "alt": "Omega De Ville · Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0003",
+            "alt": "Omega De Ville · Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0004",
+            "alt": "Omega De Ville · Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0005",
+            "alt": "Omega De Ville · Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0006",
+            "alt": "Omega De Ville · Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0007",
+            "alt": "Omega De Ville · Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0008",
+            "alt": "Omega De Ville · Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0009",
+            "alt": "Omega De Ville · Silver dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0001",
+    "coverImage": "omega-import-0001",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX240",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Roman chronograph appearance",
+    "designDetails": "Roman chronograph appearance",
+    "designDetailsZh": "罗马刻度计时外观",
+    "name": "De Ville — Roman chronograph appearance — Metal bracelet",
+    "nameZh": "欧米茄 · 罗马刻度计时外观 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green dial · Warm two-tone bracelet",
+        "labelZh": "绿盘 · 暖金双色表链",
+        "image": "omega-import-0010",
+        "photos": [
+          {
+            "image": "omega-import-0010"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Warm two-tone bracelet",
+        "labelZh": "黑盘 · 暖金双色表链",
+        "image": "omega-import-0011",
+        "photos": [
+          {
+            "image": "omega-import-0011"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Blue counters · Silver bracelet",
+        "labelZh": "白盘蓝色分盘 · 银色表链",
+        "image": "omega-import-0012",
+        "photos": [
+          {
+            "image": "omega-import-0012"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0014",
+            "alt": "Omega De Ville · White dial · Blue counters · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0015",
+            "alt": "Omega De Ville · White dial · Blue counters · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Blue dial · Warm two-tone bracelet",
+        "labelZh": "蓝盘 · 暖金双色表链",
+        "image": "omega-import-0013",
+        "photos": [
+          {
+            "image": "omega-import-0013"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0010",
+    "coverImage": "omega-import-0010",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX241",
+    "brand": "Omega",
+    "baseFamily": "Speedmaster",
+    "family": "Speedmaster — Dark case · Accent counters",
+    "designDetails": "Dark case · Accent counters",
+    "designDetailsZh": "深色表壳 · 彩色分盘点缀",
+    "name": "Speedmaster — Dark case · Accent counters — Leather-style strap",
+    "nameZh": "欧米茄 · 深色表壳 · 彩色分盘点缀 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark dial · Red accents · Black strap",
+        "labelZh": "深色盘 · 红色点缀 · 黑色皮带",
+        "image": "omega-import-0016",
+        "photos": [
+          {
+            "image": "omega-import-0016"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0018",
+            "alt": "Omega Speedmaster · Dark dial · Red accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0020",
+            "alt": "Omega Speedmaster · Dark dial · Red accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Dark dial · Yellow accents · Black strap",
+        "labelZh": "深色盘 · 黄色点缀 · 黑色皮带",
+        "image": "omega-import-0017",
+        "photos": [
+          {
+            "image": "omega-import-0017"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0019",
+            "alt": "Omega Speedmaster · Dark dial · Yellow accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0021",
+            "alt": "Omega Speedmaster · Dark dial · Yellow accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0016",
+    "coverImage": "omega-import-0016",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX242",
+    "brand": "Omega",
+    "baseFamily": "Seamaster 300-style",
+    "family": "Seamaster 300-style — Retro diver appearance",
+    "designDetails": "Retro diver appearance",
+    "designDetailsZh": "复古潜水外观",
+    "name": "Seamaster 300-style — Retro diver appearance — Metal bracelet",
+    "nameZh": "欧米茄 · 复古潜水外观 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver mesh bracelet",
+        "labelZh": "黑盘 · 银色网链",
+        "image": "omega-import-0022",
+        "photos": [
+          {
+            "image": "omega-import-0022"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0023",
+            "alt": "Omega Seamaster 300-style · Black dial · Silver mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0024",
+            "alt": "Omega Seamaster 300-style · Black dial · Silver mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0027",
+            "alt": "Omega Seamaster 300-style · Black dial · Silver mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0028",
+            "alt": "Omega Seamaster 300-style · Black dial · Silver mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0030",
+            "alt": "Omega Seamaster 300-style · Black dial · Silver mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Silver mesh bracelet",
+        "labelZh": "蓝盘 · 银色网链",
+        "image": "omega-import-0026",
+        "photos": [
+          {
+            "image": "omega-import-0026"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0029",
+            "alt": "Omega Seamaster 300-style · Blue dial · Silver mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0022",
+    "coverImage": "omega-import-0022",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX243",
+    "brand": "Omega",
+    "baseFamily": "Seamaster 300-style",
+    "family": "Seamaster 300-style — Retro diver appearance",
+    "designDetails": "Retro diver appearance",
+    "designDetailsZh": "复古潜水外观",
+    "name": "Seamaster 300-style — Retro diver appearance — Leather-style strap",
+    "nameZh": "欧米茄 · 复古潜水外观 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Dark leather strap",
+        "labelZh": "蓝盘 · 深色皮带",
+        "image": "omega-import-0025",
+        "photos": [
+          {
+            "image": "omega-import-0025"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0025",
+    "coverImage": "omega-import-0025",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX244",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Diver 300M-style",
+    "family": "Seamaster Diver 300M-style — Decorative bezel",
+    "designDetails": "Decorative bezel",
+    "designDetailsZh": "装饰表圈",
+    "name": "Seamaster Diver 300M-style — Decorative bezel — Rubber-style strap",
+    "nameZh": "欧米茄 · 装饰表圈 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Yellow-tone decorated bezel · Blue strap",
+        "labelZh": "蓝盘 · 金色装饰圈 · 蓝色胶带",
+        "image": "omega-import-0031",
+        "photos": [
+          {
+            "image": "omega-import-0031"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0033",
+            "alt": "Omega Seamaster Diver 300M-style · Blue dial · Yellow-tone decorated bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0034",
+            "alt": "Omega Seamaster Diver 300M-style · Blue dial · Yellow-tone decorated bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0031",
+    "coverImage": "omega-import-0031",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX245",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Diver 300M-style",
+    "family": "Seamaster Diver 300M-style — Decorative bezel",
+    "designDetails": "Decorative bezel",
+    "designDetailsZh": "装饰表圈",
+    "name": "Seamaster Diver 300M-style — Decorative bezel — Leather-style strap",
+    "nameZh": "欧米茄 · 装饰表圈 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Yellow-tone decorated bezel · Black strap",
+        "labelZh": "灰盘 · 金色装饰圈 · 黑色皮带",
+        "image": "omega-import-0032",
+        "photos": [
+          {
+            "image": "omega-import-0032"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0032",
+    "coverImage": "omega-import-0032",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX246",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Diver 300M-style",
+    "family": "Seamaster Diver 300M-style — Decorative bezel",
+    "designDetails": "Decorative bezel",
+    "designDetailsZh": "装饰表圈",
+    "name": "Seamaster Diver 300M-style — Decorative bezel — Metal bracelet",
+    "nameZh": "欧米茄 · 装饰表圈 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Yellow-tone decorated bezel · Mesh bracelet",
+        "labelZh": "灰盘 · 金色装饰圈 · 网链",
+        "image": "omega-import-0035",
+        "photos": [
+          {
+            "image": "omega-import-0035"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0037",
+            "alt": "Omega Seamaster Diver 300M-style · Grey dial · Yellow-tone decorated bezel · Mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0038",
+            "alt": "Omega Seamaster Diver 300M-style · Grey dial · Yellow-tone decorated bezel · Mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0039",
+            "alt": "Omega Seamaster Diver 300M-style · Grey dial · Yellow-tone decorated bezel · Mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Yellow-tone decorated bezel · Mesh bracelet",
+        "labelZh": "蓝盘 · 金色装饰圈 · 网链",
+        "image": "omega-import-0036",
+        "photos": [
+          {
+            "image": "omega-import-0036"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0035",
+    "coverImage": "omega-import-0035",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX247",
+    "brand": "Omega",
+    "baseFamily": "Seamaster",
+    "family": "Seamaster — Chronograph-style diver",
+    "designDetails": "Chronograph-style diver",
+    "designDetailsZh": "计时潜水外观",
+    "name": "Seamaster — Chronograph-style diver — Rubber-style strap",
+    "nameZh": "欧米茄 · 计时潜水外观 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Blue strap",
+        "labelZh": "蓝盘 · 蓝色胶带",
+        "image": "omega-import-0040",
+        "photos": [
+          {
+            "image": "omega-import-0040"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0042",
+            "alt": "Omega Seamaster · Blue dial · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Green dial · Green strap",
+        "labelZh": "绿盘 · 绿色胶带",
+        "image": "omega-import-0041",
+        "photos": [
+          {
+            "image": "omega-import-0041"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Black strap",
+        "labelZh": "黑盘 · 黑色胶带",
+        "image": "omega-import-0043",
+        "photos": [
+          {
+            "image": "omega-import-0043"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0040",
+    "coverImage": "omega-import-0040",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX248",
+    "brand": "Omega",
+    "baseFamily": "Seamaster",
+    "family": "Seamaster — Chronograph-style diver",
+    "designDetails": "Chronograph-style diver",
+    "designDetailsZh": "计时潜水外观",
+    "name": "Seamaster — Chronograph-style diver — Metal bracelet",
+    "nameZh": "欧米茄 · 计时潜水外观 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "omega-import-0044",
+        "photos": [
+          {
+            "image": "omega-import-0044"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Warm two-tone bracelet",
+        "labelZh": "蓝盘 · 暖金双色表链",
+        "image": "omega-import-0045",
+        "photos": [
+          {
+            "image": "omega-import-0045"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0048",
+            "alt": "Omega Seamaster · Blue dial · Warm two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver bracelet",
+        "labelZh": "蓝盘 · 银色表链",
+        "image": "omega-import-0046",
+        "photos": [
+          {
+            "image": "omega-import-0046"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Green dial · Silver bracelet",
+        "labelZh": "绿盘 · 银色表链",
+        "image": "omega-import-0047",
+        "photos": [
+          {
+            "image": "omega-import-0047"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0044",
+    "coverImage": "omega-import-0044",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX249",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Baton date dial · Tapered bracelet",
+    "designDetails": "Baton date dial · Tapered bracelet",
+    "designDetailsZh": "条形日历盘 · 收窄表链",
+    "name": "De Ville — Baton date dial · Tapered bracelet — Metal bracelet",
+    "nameZh": "欧米茄 · 条形日历盘 · 收窄表链 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "omega-import-0049",
+        "photos": [
+          {
+            "image": "omega-import-0049"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0051",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "omega-import-0050",
+        "photos": [
+          {
+            "image": "omega-import-0050"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Light blue dial · Silver bracelet",
+        "labelZh": "浅蓝盘 · 银色表链",
+        "image": "omega-import-0052",
+        "photos": [
+          {
+            "image": "omega-import-0052"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Blue dial · Silver bracelet",
+        "labelZh": "蓝盘 · 银色表链",
+        "image": "omega-import-0053",
+        "photos": [
+          {
+            "image": "omega-import-0053"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Yellow two-tone bracelet",
+        "labelZh": "黑盘 · 金银双色表链",
+        "image": "omega-import-0054",
+        "photos": [
+          {
+            "image": "omega-import-0054"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0056",
+            "alt": "Omega De Ville · Black dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v6",
+        "label": "White dial · Rose two-tone bracelet",
+        "labelZh": "白盘 · 玫瑰金银双色表链",
+        "image": "omega-import-0055",
+        "photos": [
+          {
+            "image": "omega-import-0055"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Black dial · Gold-tone bracelet",
+        "labelZh": "黑盘 · 金色表链",
+        "image": "omega-import-0057",
+        "photos": [
+          {
+            "image": "omega-import-0057"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "Blue dial · Rose-tone bracelet",
+        "labelZh": "蓝盘 · 玫瑰金色表链",
+        "image": "omega-import-0073",
+        "photos": [
+          {
+            "image": "omega-import-0073"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0074",
+            "alt": "Omega De Ville · Blue dial · Rose-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0075",
+            "alt": "Omega De Ville · Blue dial · Rose-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0049",
+    "coverImage": "omega-import-0049",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX250",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Baton date dial · Leather",
+    "designDetails": "Baton date dial · Leather",
+    "designDetailsZh": "条形日历盘 · 皮带",
+    "name": "De Ville — Baton date dial · Leather — Leather-style strap",
+    "nameZh": "欧米茄 · 条形日历盘 · 皮带 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone case · Black strap",
+        "labelZh": "白盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "omega-import-0067",
+        "photos": [
+          {
+            "image": "omega-import-0067"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Burgundy dial · Rose-tone case · Brown strap",
+        "labelZh": "酒红盘 · 玫瑰金色表壳 · 棕色皮带",
+        "image": "omega-import-0068",
+        "photos": [
+          {
+            "image": "omega-import-0068"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Green dial · Yellow-tone case · Green strap",
+        "labelZh": "绿盘 · 金色表壳 · 绿色皮带",
+        "image": "omega-import-0069",
+        "photos": [
+          {
+            "image": "omega-import-0069"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Yellow-tone case · Black strap",
+        "labelZh": "白盘 · 金色表壳 · 黑色皮带",
+        "image": "omega-import-0070",
+        "photos": [
+          {
+            "image": "omega-import-0070"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Blue dial · Rose-tone case · Blue strap",
+        "labelZh": "蓝盘 · 玫瑰金色表壳 · 蓝色皮带",
+        "image": "omega-import-0071",
+        "photos": [
+          {
+            "image": "omega-import-0071"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Black dial · Yellow-tone case · Black strap",
+        "labelZh": "黑盘 · 金色表壳 · 黑色皮带",
+        "image": "omega-import-0072",
+        "photos": [
+          {
+            "image": "omega-import-0072"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0067",
+    "coverImage": "omega-import-0067",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX251",
+    "brand": "Omega",
+    "baseFamily": "Speedmaster",
+    "family": "Speedmaster — Racing-style chronograph",
+    "designDetails": "Racing-style chronograph",
+    "designDetailsZh": "赛车计时外观",
+    "name": "Speedmaster — Racing-style chronograph — Metal bracelet",
+    "nameZh": "欧米茄 · 赛车计时外观 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Yellow-tone accents · Silver bracelet",
+        "labelZh": "蓝盘 · 黄色点缀 · 银色表链",
+        "image": "omega-import-0076",
+        "photos": [
+          {
+            "image": "omega-import-0076"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "omega-import-0077",
+        "photos": [
+          {
+            "image": "omega-import-0077"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver bracelet",
+        "labelZh": "蓝盘 · 银色表链",
+        "image": "omega-import-0078",
+        "photos": [
+          {
+            "image": "omega-import-0078"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Blue dial · Yellow two-tone bracelet",
+        "labelZh": "蓝盘 · 金银双色表链",
+        "image": "omega-import-0079",
+        "photos": [
+          {
+            "image": "omega-import-0079"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Rose two-tone bracelet",
+        "labelZh": "黑盘 · 玫瑰金银双色表链",
+        "image": "omega-import-0080",
+        "photos": [
+          {
+            "image": "omega-import-0080"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0076",
+    "coverImage": "omega-import-0076",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX252",
+    "brand": "Omega",
+    "baseFamily": "Speedmaster",
+    "family": "Speedmaster — Racing-style chronograph",
+    "designDetails": "Racing-style chronograph",
+    "designDetailsZh": "赛车计时外观",
+    "name": "Speedmaster — Racing-style chronograph — Rubber-style strap",
+    "nameZh": "欧米茄 · 赛车计时外观 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色胶带",
+        "image": "omega-import-0085",
+        "photos": [
+          {
+            "image": "omega-import-0085"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Yellow accents · Blue strap",
+        "labelZh": "蓝盘 · 黄色点缀 · 蓝色胶带",
+        "image": "omega-import-0086",
+        "photos": [
+          {
+            "image": "omega-import-0086"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver-tone case · Blue strap",
+        "labelZh": "蓝盘 · 银色表壳 · 蓝色胶带",
+        "image": "omega-import-0087",
+        "photos": [
+          {
+            "image": "omega-import-0087"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Rose-tone case · Black strap",
+        "labelZh": "黑盘 · 玫瑰金色表壳 · 黑色胶带",
+        "image": "omega-import-0088",
+        "photos": [
+          {
+            "image": "omega-import-0088"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Blue dial · Yellow-tone case · Blue strap",
+        "labelZh": "蓝盘 · 金色表壳 · 蓝色胶带",
+        "image": "omega-import-0089",
+        "photos": [
+          {
+            "image": "omega-import-0089"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0091",
+            "alt": "Omega Speedmaster · Blue dial · Yellow-tone case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0092",
+            "alt": "Omega Speedmaster · Blue dial · Yellow-tone case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0093",
+            "alt": "Omega Speedmaster · Blue dial · Yellow-tone case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v6",
+        "label": "Black dial · Yellow-tone case · Black strap",
+        "labelZh": "黑盘 · 金色表壳 · 黑色胶带",
+        "image": "omega-import-0090",
+        "photos": [
+          {
+            "image": "omega-import-0090"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0085",
+    "coverImage": "omega-import-0085",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX253",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Aqua Terra-style",
+    "family": "Seamaster Aqua Terra-style — Baton date dial",
+    "designDetails": "Baton date dial",
+    "designDetailsZh": "条形刻度日历盘",
+    "name": "Seamaster Aqua Terra-style — Baton date dial — Leather-style strap",
+    "nameZh": "欧米茄 · 条形刻度日历盘 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Orange strap",
+        "labelZh": "黑盘 · 橙色皮带",
+        "image": "omega-import-0094",
+        "photos": [
+          {
+            "image": "omega-import-0094"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0099",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Orange strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0100",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Orange strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0101",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Orange strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Green dial · Green strap",
+        "labelZh": "绿盘 · 绿色皮带",
+        "image": "omega-import-0095",
+        "photos": [
+          {
+            "image": "omega-import-0095"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Burgundy dial · Burgundy strap",
+        "labelZh": "酒红盘 · 酒红色皮带",
+        "image": "omega-import-0096",
+        "photos": [
+          {
+            "image": "omega-import-0096"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Blue dial · Blue strap",
+        "labelZh": "蓝盘 · 蓝色皮带",
+        "image": "omega-import-0097",
+        "photos": [
+          {
+            "image": "omega-import-0097"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Black strap",
+        "labelZh": "黑盘 · 黑色皮带",
+        "image": "omega-import-0098",
+        "photos": [
+          {
+            "image": "omega-import-0098"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0094",
+    "coverImage": "omega-import-0094",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX254",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Hour Vision-style dial",
+    "designDetails": "Hour Vision-style dial",
+    "designDetailsZh": "明亮之蓝风格刻度盘",
+    "name": "De Ville — Hour Vision-style dial — Metal bracelet",
+    "nameZh": "欧米茄 · 明亮之蓝风格刻度盘 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Rose two-tone bracelet",
+        "labelZh": "黑盘 · 玫瑰金银双色表链",
+        "image": "omega-import-0104",
+        "photos": [
+          {
+            "image": "omega-import-0104"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0103",
+            "alt": "Omega De Ville · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0105",
+            "alt": "Omega De Ville · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0106",
+            "alt": "Omega De Ville · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0107",
+            "alt": "Omega De Ville · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0108",
+            "alt": "Omega De Ville · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0109",
+            "alt": "Omega De Ville · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0110",
+            "alt": "Omega De Ville · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0111",
+            "alt": "Omega De Ville · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Rose two-tone bracelet",
+        "labelZh": "白盘 · 玫瑰金银双色表链",
+        "image": "omega-import-0123",
+        "photos": [
+          {
+            "image": "omega-import-0123"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0121",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0122",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0124",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0125",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0126",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0109",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0110",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0129",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0104",
+    "coverImage": "omega-import-0104",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX255",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Plain classic dial · Leather",
+    "designDetails": "Plain classic dial · Leather",
+    "designDetailsZh": "简洁经典盘 · 皮带",
+    "name": "De Ville — Plain classic dial · Leather — Leather-style strap",
+    "nameZh": "欧米茄 · 简洁经典盘 · 皮带 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "omega-import-0114",
+        "photos": [
+          {
+            "image": "omega-import-0114"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0112",
+            "alt": "Omega De Ville · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0113",
+            "alt": "Omega De Ville · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0115",
+            "alt": "Omega De Ville · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0116",
+            "alt": "Omega De Ville · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0117",
+            "alt": "Omega De Ville · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0118",
+            "alt": "Omega De Ville · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0119",
+            "alt": "Omega De Ville · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0120",
+            "alt": "Omega De Ville · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0114",
+    "coverImage": "omega-import-0114",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX256",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Roman classic dial · Warm case",
+    "designDetails": "Roman classic dial · Warm case",
+    "designDetailsZh": "罗马刻度经典盘 · 暖色表壳",
+    "name": "De Ville — Roman classic dial · Warm case — Leather-style strap",
+    "nameZh": "欧米茄 · 罗马刻度经典盘 · 暖色表壳 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Light dial · Warm-tone case · Black strap",
+        "labelZh": "浅色盘 · 暖金色表壳 · 黑色皮带",
+        "image": "omega-import-0132",
+        "photos": [
+          {
+            "image": "omega-import-0132"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0130",
+            "alt": "Omega De Ville · Light dial · Warm-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0131",
+            "alt": "Omega De Ville · Light dial · Warm-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0133",
+            "alt": "Omega De Ville · Light dial · Warm-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0134",
+            "alt": "Omega De Ville · Light dial · Warm-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0135",
+            "alt": "Omega De Ville · Light dial · Warm-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0136",
+            "alt": "Omega De Ville · Light dial · Warm-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0137",
+            "alt": "Omega De Ville · Light dial · Warm-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0138",
+            "alt": "Omega De Ville · Light dial · Warm-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0132",
+    "coverImage": "omega-import-0132",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX257",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Aqua Terra-style",
+    "family": "Seamaster Aqua Terra-style — Textured date dial",
+    "designDetails": "Textured date dial",
+    "designDetailsZh": "纹理日历盘",
+    "name": "Seamaster Aqua Terra-style — Textured date dial — Metal bracelet",
+    "nameZh": "欧米茄 · 纹理日历盘 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "omega-import-0139",
+        "photos": [
+          {
+            "image": "omega-import-0139"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0145",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Green dial · Silver bracelet",
+        "labelZh": "绿盘 · 银色表链",
+        "image": "omega-import-0144",
+        "photos": [
+          {
+            "image": "omega-import-0144"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0139",
+    "coverImage": "omega-import-0139",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX258",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Aqua Terra-style",
+    "family": "Seamaster Aqua Terra-style — Textured date dial",
+    "designDetails": "Textured date dial",
+    "designDetailsZh": "纹理日历盘",
+    "name": "Seamaster Aqua Terra-style — Textured date dial — Leather-style strap",
+    "nameZh": "欧米茄 · 纹理日历盘 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green dial · Green strap",
+        "labelZh": "绿盘 · 绿色皮带",
+        "image": "omega-import-0140",
+        "photos": [
+          {
+            "image": "omega-import-0140"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Brown strap",
+        "labelZh": "黑盘 · 棕色皮带",
+        "image": "omega-import-0141",
+        "photos": [
+          {
+            "image": "omega-import-0141"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Burgundy dial · Burgundy strap",
+        "labelZh": "酒红盘 · 酒红色皮带",
+        "image": "omega-import-0142",
+        "photos": [
+          {
+            "image": "omega-import-0142"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Blue dial · Blue strap",
+        "labelZh": "蓝盘 · 蓝色皮带",
+        "image": "omega-import-0143",
+        "photos": [
+          {
+            "image": "omega-import-0143"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0140",
+    "coverImage": "omega-import-0140",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX259",
+    "brand": "Omega",
+    "baseFamily": "Speedmaster",
+    "family": "Speedmaster — Chronograph · Coloured counters",
+    "designDetails": "Chronograph · Coloured counters",
+    "designDetailsZh": "计时外观 · 彩色分盘",
+    "name": "Speedmaster — Chronograph · Coloured counters — Metal bracelet",
+    "nameZh": "欧米茄 · 计时外观 · 彩色分盘 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Dark counters · Silver bracelet",
+        "labelZh": "黑盘深色分盘 · 银色表链",
+        "image": "omega-import-0146",
+        "photos": [
+          {
+            "image": "omega-import-0146"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Warm counters · Silver bracelet",
+        "labelZh": "黑盘暖色分盘 · 银色表链",
+        "image": "omega-import-0147",
+        "photos": [
+          {
+            "image": "omega-import-0147"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Silver bracelet",
+        "labelZh": "蓝盘 · 银色表链",
+        "image": "omega-import-0157",
+        "photos": [
+          {
+            "image": "omega-import-0157"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0163",
+            "alt": "Omega Speedmaster · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0173",
+            "alt": "Omega Speedmaster · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "omega-import-0158",
+        "photos": [
+          {
+            "image": "omega-import-0158"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Light counters · Silver bracelet",
+        "labelZh": "黑盘浅色分盘 · 银色表链",
+        "image": "omega-import-0159",
+        "photos": [
+          {
+            "image": "omega-import-0159"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Blue dial · Dark counters · Silver bracelet",
+        "labelZh": "蓝盘深色分盘 · 银色表链",
+        "image": "omega-import-0160",
+        "photos": [
+          {
+            "image": "omega-import-0160"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Light dial · Light counters · Silver bracelet",
+        "labelZh": "浅色盘浅色分盘 · 银色表链",
+        "image": "omega-import-0167",
+        "photos": [
+          {
+            "image": "omega-import-0167"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0169",
+            "alt": "Omega Speedmaster · Light dial · Light counters · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0146",
+    "coverImage": "omega-import-0146",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX260",
+    "brand": "Omega",
+    "baseFamily": "Speedmaster",
+    "family": "Speedmaster — Chronograph · Coloured counters",
+    "designDetails": "Chronograph · Coloured counters",
+    "designDetailsZh": "计时外观 · 彩色分盘",
+    "name": "Speedmaster — Chronograph · Coloured counters — Leather-style strap",
+    "nameZh": "欧米茄 · 计时外观 · 彩色分盘 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Orange accents · Black strap",
+        "labelZh": "蓝盘橙色点缀 · 黑色皮带",
+        "image": "omega-import-0148",
+        "photos": [
+          {
+            "image": "omega-import-0148"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0149",
+            "alt": "Omega Speedmaster · Blue dial · Orange accents · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Dark counters · Black strap",
+        "labelZh": "蓝盘深色分盘 · 黑色皮带",
+        "image": "omega-import-0150",
+        "photos": [
+          {
+            "image": "omega-import-0150"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Light accents · Black strap",
+        "labelZh": "蓝盘浅色点缀 · 黑色皮带",
+        "image": "omega-import-0151",
+        "photos": [
+          {
+            "image": "omega-import-0151"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Dark counters · Black strap",
+        "labelZh": "白盘深色分盘 · 黑色皮带",
+        "image": "omega-import-0152",
+        "photos": [
+          {
+            "image": "omega-import-0152"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0153",
+            "alt": "Omega Speedmaster · White dial · Dark counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0161",
+            "alt": "Omega Speedmaster · White dial · Dark counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Blue dial · Brown strap",
+        "labelZh": "蓝盘 · 棕色皮带",
+        "image": "omega-import-0154",
+        "photos": [
+          {
+            "image": "omega-import-0154"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0172",
+            "alt": "Omega Speedmaster · Blue dial · Brown strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v6",
+        "label": "Blue dial · Silver-tone case · Black strap",
+        "labelZh": "蓝盘 · 银色表壳 · 黑色皮带",
+        "image": "omega-import-0155",
+        "photos": [
+          {
+            "image": "omega-import-0155"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0162",
+            "alt": "Omega Speedmaster · Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0171",
+            "alt": "Omega Speedmaster · Blue dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v7",
+        "label": "Blue dial · Blue bezel · Black strap",
+        "labelZh": "蓝盘蓝圈 · 黑色皮带",
+        "image": "omega-import-0156",
+        "photos": [
+          {
+            "image": "omega-import-0156"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "Light dial · Light counters · Black strap",
+        "labelZh": "浅色盘浅色分盘 · 黑色皮带",
+        "image": "omega-import-0166",
+        "photos": [
+          {
+            "image": "omega-import-0166"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0168",
+            "alt": "Omega Speedmaster · Light dial · Light counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0170",
+            "alt": "Omega Speedmaster · Light dial · Light counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0148",
+    "coverImage": "omega-import-0148",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX261",
+    "brand": "Omega",
+    "baseFamily": "Speedmaster",
+    "family": "Speedmaster — Contrasting three-counter dial",
+    "designDetails": "Contrasting three-counter dial",
+    "designDetailsZh": "对比分色三分盘",
+    "name": "Speedmaster — Contrasting three-counter dial — Metal bracelet",
+    "nameZh": "欧米茄 · 对比分色三分盘 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Black counters · Silver bracelet",
+        "labelZh": "白盘黑色分盘 · 银色表链",
+        "image": "omega-import-0177",
+        "photos": [
+          {
+            "image": "omega-import-0177"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0175",
+            "alt": "Omega Speedmaster · White dial · Black counters · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0176",
+            "alt": "Omega Speedmaster · White dial · Black counters · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0178",
+            "alt": "Omega Speedmaster · White dial · Black counters · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0179",
+            "alt": "Omega Speedmaster · White dial · Black counters · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0180",
+            "alt": "Omega Speedmaster · White dial · Black counters · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0181",
+            "alt": "Omega Speedmaster · White dial · Black counters · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0182",
+            "alt": "Omega Speedmaster · White dial · Black counters · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0183",
+            "alt": "Omega Speedmaster · White dial · Black counters · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0177",
+    "coverImage": "omega-import-0177",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX262",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Diver 300M-style",
+    "family": "Seamaster Diver 300M-style — Wave dial · Plain bezel",
+    "designDetails": "Wave dial · Plain bezel",
+    "designDetailsZh": "波浪纹表盘 · 潜水表圈",
+    "name": "Seamaster Diver 300M-style — Wave dial · Plain bezel — Metal bracelet",
+    "nameZh": "欧米茄 · 波浪纹表盘 · 潜水表圈 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Black bezel · Silver bracelet",
+        "labelZh": "黑盘黑圈 · 银色表链",
+        "image": "omega-import-0186",
+        "photos": [
+          {
+            "image": "omega-import-0186"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0184",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0185",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0187",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0188",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0189",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0190",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0191",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0192",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Black bezel · Silver bracelet",
+        "labelZh": "白盘黑圈 · 银色表链",
+        "image": "omega-import-0347",
+        "photos": [
+          {
+            "image": "omega-import-0347"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0345",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0346",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0348",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0349",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0350",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0351",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0352",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Rose two-tone bracelet",
+        "labelZh": "黑盘 · 玫瑰金银双色表链",
+        "image": "omega-import-0392",
+        "photos": [
+          {
+            "image": "omega-import-0392"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0390",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0391",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0393",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0394",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0395",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0396",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0397",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0398",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0186",
+    "coverImage": "omega-import-0186",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX263",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Diver 300M-style",
+    "family": "Seamaster Diver 300M-style — Vintage-look dial · Mesh bracelet",
+    "designDetails": "Vintage-look dial · Mesh bracelet",
+    "designDetailsZh": "复古色表盘 · 网链",
+    "name": "Seamaster Diver 300M-style — Vintage-look dial · Mesh bracelet — Metal bracelet",
+    "nameZh": "欧米茄 · 复古色表盘 · 网链 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Dark dial · Dark mesh bracelet",
+        "labelZh": "深色盘 · 深色网链",
+        "image": "omega-import-0195",
+        "photos": [
+          {
+            "image": "omega-import-0195"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0193",
+            "alt": "Omega Seamaster Diver 300M-style · Dark dial · Dark mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0194",
+            "alt": "Omega Seamaster Diver 300M-style · Dark dial · Dark mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0196",
+            "alt": "Omega Seamaster Diver 300M-style · Dark dial · Dark mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0197",
+            "alt": "Omega Seamaster Diver 300M-style · Dark dial · Dark mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0198",
+            "alt": "Omega Seamaster Diver 300M-style · Dark dial · Dark mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0199",
+            "alt": "Omega Seamaster Diver 300M-style · Dark dial · Dark mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0200",
+            "alt": "Omega Seamaster Diver 300M-style · Dark dial · Dark mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0201",
+            "alt": "Omega Seamaster Diver 300M-style · Dark dial · Dark mesh bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0195",
+    "coverImage": "omega-import-0195",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX264",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Aqua Terra-style",
+    "family": "Seamaster Aqua Terra-style — Classic date dial · Rounded case",
+    "designDetails": "Classic date dial · Rounded case",
+    "designDetailsZh": "经典日历盘 · 圆润表壳",
+    "name": "Seamaster Aqua Terra-style — Classic date dial · Rounded case — Leather-style strap",
+    "nameZh": "欧米茄 · 经典日历盘 · 圆润表壳 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Brown dial · Brown strap",
+        "labelZh": "棕盘 · 棕色皮带",
+        "image": "omega-import-0204",
+        "photos": [
+          {
+            "image": "omega-import-0204"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0202",
+            "alt": "Omega Seamaster Aqua Terra-style · Brown dial · Brown strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0203",
+            "alt": "Omega Seamaster Aqua Terra-style · Brown dial · Brown strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0205",
+            "alt": "Omega Seamaster Aqua Terra-style · Brown dial · Brown strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0206",
+            "alt": "Omega Seamaster Aqua Terra-style · Brown dial · Brown strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0207",
+            "alt": "Omega Seamaster Aqua Terra-style · Brown dial · Brown strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0208",
+            "alt": "Omega Seamaster Aqua Terra-style · Brown dial · Brown strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0209",
+            "alt": "Omega Seamaster Aqua Terra-style · Brown dial · Brown strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0210",
+            "alt": "Omega Seamaster Aqua Terra-style · Brown dial · Brown strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0204",
+    "coverImage": "omega-import-0204",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX265",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Aqua Terra-style",
+    "family": "Seamaster Aqua Terra-style — Classic date dial · Rounded case",
+    "designDetails": "Classic date dial · Rounded case",
+    "designDetailsZh": "经典日历盘 · 圆润表壳",
+    "name": "Seamaster Aqua Terra-style — Classic date dial · Rounded case — Metal bracelet",
+    "nameZh": "欧米茄 · 经典日历盘 · 圆润表壳 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "omega-import-0213",
+        "photos": [
+          {
+            "image": "omega-import-0213"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0211",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0212",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0214",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0215",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0216",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0217",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0218",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0219",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0213",
+    "coverImage": "omega-import-0213",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX266",
+    "brand": "Omega",
+    "baseFamily": "Speedmaster",
+    "family": "Speedmaster — Contrasting three-counter dial",
+    "designDetails": "Contrasting three-counter dial",
+    "designDetailsZh": "对比分色三分盘",
+    "name": "Speedmaster — Contrasting three-counter dial — Leather-style strap",
+    "nameZh": "欧米茄 · 对比分色三分盘 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Black counters · Black strap",
+        "labelZh": "白盘黑色分盘 · 黑色皮带",
+        "image": "omega-import-0222",
+        "photos": [
+          {
+            "image": "omega-import-0222"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0220",
+            "alt": "Omega Speedmaster · White dial · Black counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0221",
+            "alt": "Omega Speedmaster · White dial · Black counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0223",
+            "alt": "Omega Speedmaster · White dial · Black counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0224",
+            "alt": "Omega Speedmaster · White dial · Black counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0225",
+            "alt": "Omega Speedmaster · White dial · Black counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0226",
+            "alt": "Omega Speedmaster · White dial · Black counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0227",
+            "alt": "Omega Speedmaster · White dial · Black counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0228",
+            "alt": "Omega Speedmaster · White dial · Black counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0222",
+    "coverImage": "omega-import-0222",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX267",
+    "brand": "Omega",
+    "baseFamily": "Rectangular — Unconfirmed",
+    "family": "Rectangular — Unconfirmed — Rectangular case · Chronograph appearance",
+    "designDetails": "Rectangular case · Chronograph appearance",
+    "designDetailsZh": "长方形表壳 · 计时外观 · 型号待确认",
+    "name": "Rectangular — Unconfirmed — Rectangular case · Chronograph appearance — Leather-style strap",
+    "nameZh": "欧米茄 · 长方形表壳 · 计时外观 · 型号待确认 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Red dial · Silver-tone case · Black strap",
+        "labelZh": "红盘 · 银色表壳 · 黑色皮带",
+        "image": "omega-import-0229",
+        "photos": [
+          {
+            "image": "omega-import-0229"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0229",
+    "coverImage": "omega-import-0229",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX268",
+    "brand": "Omega",
+    "baseFamily": "Speedmaster",
+    "family": "Speedmaster — Two-counter dial",
+    "designDetails": "Two-counter dial",
+    "designDetailsZh": "双分盘外观",
+    "name": "Speedmaster — Two-counter dial — Leather-style strap",
+    "nameZh": "欧米茄 · 双分盘外观 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Dark counters · Black strap",
+        "labelZh": "灰盘深色分盘 · 黑色皮带",
+        "image": "omega-import-0232",
+        "photos": [
+          {
+            "image": "omega-import-0232"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0230",
+            "alt": "Omega Speedmaster · Grey dial · Dark counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0231",
+            "alt": "Omega Speedmaster · Grey dial · Dark counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0233",
+            "alt": "Omega Speedmaster · Grey dial · Dark counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0234",
+            "alt": "Omega Speedmaster · Grey dial · Dark counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0235",
+            "alt": "Omega Speedmaster · Grey dial · Dark counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0236",
+            "alt": "Omega Speedmaster · Grey dial · Dark counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0237",
+            "alt": "Omega Speedmaster · Grey dial · Dark counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0238",
+            "alt": "Omega Speedmaster · Grey dial · Dark counters · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0232",
+    "coverImage": "omega-import-0232",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX269",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Planet Ocean-style",
+    "family": "Seamaster Planet Ocean-style — Orange diver bezel",
+    "designDetails": "Orange diver bezel",
+    "designDetailsZh": "橙色潜水表圈",
+    "name": "Seamaster Planet Ocean-style — Orange diver bezel — Metal bracelet",
+    "nameZh": "欧米茄 · 橙色潜水表圈 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Orange bezel · Silver bracelet",
+        "labelZh": "黑盘橙圈 · 银色表链",
+        "image": "omega-import-0241",
+        "photos": [
+          {
+            "image": "omega-import-0241"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0239",
+            "alt": "Omega Seamaster Planet Ocean-style · Black dial · Orange bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0240",
+            "alt": "Omega Seamaster Planet Ocean-style · Black dial · Orange bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0242",
+            "alt": "Omega Seamaster Planet Ocean-style · Black dial · Orange bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0243",
+            "alt": "Omega Seamaster Planet Ocean-style · Black dial · Orange bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0244",
+            "alt": "Omega Seamaster Planet Ocean-style · Black dial · Orange bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0245",
+            "alt": "Omega Seamaster Planet Ocean-style · Black dial · Orange bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0246",
+            "alt": "Omega Seamaster Planet Ocean-style · Black dial · Orange bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0247",
+            "alt": "Omega Seamaster Planet Ocean-style · Black dial · Orange bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0241",
+    "coverImage": "omega-import-0241",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX270",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Roman date dial · Multi-link bracelet",
+    "designDetails": "Roman date dial · Multi-link bracelet",
+    "designDetailsZh": "罗马日历盘 · 多节表链",
+    "name": "De Ville — Roman date dial · Multi-link bracelet — Metal bracelet",
+    "nameZh": "欧米茄 · 罗马日历盘 · 多节表链 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose two-tone bracelet",
+        "labelZh": "白盘 · 玫瑰金银双色表链",
+        "image": "omega-import-0250",
+        "photos": [
+          {
+            "image": "omega-import-0250"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0248",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0249",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0251",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0252",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0253",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0254",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0255",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0256",
+            "alt": "Omega De Ville · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Turquoise dial · Yellow two-tone bracelet",
+        "labelZh": "青蓝盘 · 金银双色表链",
+        "image": "omega-import-0259",
+        "photos": [
+          {
+            "image": "omega-import-0259"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0257",
+            "alt": "Omega De Ville · Turquoise dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0258",
+            "alt": "Omega De Ville · Turquoise dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0260",
+            "alt": "Omega De Ville · Turquoise dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0261",
+            "alt": "Omega De Ville · Turquoise dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0262",
+            "alt": "Omega De Ville · Turquoise dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0263",
+            "alt": "Omega De Ville · Turquoise dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0264",
+            "alt": "Omega De Ville · Turquoise dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0265",
+            "alt": "Omega De Ville · Turquoise dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Rose two-tone bracelet",
+        "labelZh": "蓝盘 · 玫瑰金银双色表链",
+        "image": "omega-import-0268",
+        "photos": [
+          {
+            "image": "omega-import-0268"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0266",
+            "alt": "Omega De Ville · Blue dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0267",
+            "alt": "Omega De Ville · Blue dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0269",
+            "alt": "Omega De Ville · Blue dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0270",
+            "alt": "Omega De Ville · Blue dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0271",
+            "alt": "Omega De Ville · Blue dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0272",
+            "alt": "Omega De Ville · Blue dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0273",
+            "alt": "Omega De Ville · Blue dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0274",
+            "alt": "Omega De Ville · Blue dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Silver bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "omega-import-0277",
+        "photos": [
+          {
+            "image": "omega-import-0277"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0275",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0276",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0278",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0279",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0280",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0281",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0282",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0283",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Red dial · Silver bracelet",
+        "labelZh": "红盘 · 银色表链",
+        "image": "omega-import-0286",
+        "photos": [
+          {
+            "image": "omega-import-0286"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0284",
+            "alt": "Omega De Ville · Red dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0285",
+            "alt": "Omega De Ville · Red dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0287",
+            "alt": "Omega De Ville · Red dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0288",
+            "alt": "Omega De Ville · Red dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0289",
+            "alt": "Omega De Ville · Red dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0290",
+            "alt": "Omega De Ville · Red dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0291",
+            "alt": "Omega De Ville · Red dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0292",
+            "alt": "Omega De Ville · Red dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v6",
+        "label": "Champagne dial · Yellow two-tone bracelet",
+        "labelZh": "香槟盘 · 金银双色表链",
+        "image": "omega-import-0295",
+        "photos": [
+          {
+            "image": "omega-import-0295"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0293",
+            "alt": "Omega De Ville · Champagne dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0294",
+            "alt": "Omega De Ville · Champagne dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0296",
+            "alt": "Omega De Ville · Champagne dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0297",
+            "alt": "Omega De Ville · Champagne dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0298",
+            "alt": "Omega De Ville · Champagne dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0299",
+            "alt": "Omega De Ville · Champagne dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0300",
+            "alt": "Omega De Ville · Champagne dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0301",
+            "alt": "Omega De Ville · Champagne dial · Yellow two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0250",
+    "coverImage": "omega-import-0250",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX271",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Plain Roman dial · Slim case",
+    "designDetails": "Plain Roman dial · Slim case",
+    "designDetailsZh": "简洁罗马刻度盘 · 薄型外观表壳",
+    "name": "De Ville — Plain Roman dial · Slim case — Metal bracelet",
+    "nameZh": "欧米茄 · 简洁罗马刻度盘 · 薄型外观表壳 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "omega-import-0304",
+        "photos": [
+          {
+            "image": "omega-import-0304"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0302",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0303",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0305",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0306",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0307",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0308",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0304",
+    "coverImage": "omega-import-0304",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX272",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Diver 300M-style",
+    "family": "Seamaster Diver 300M-style — Wave dial · Blue bezel",
+    "designDetails": "Wave dial · Blue bezel",
+    "designDetailsZh": "波浪纹表盘 · 蓝色表圈",
+    "name": "Seamaster Diver 300M-style — Wave dial · Blue bezel — Metal bracelet",
+    "nameZh": "欧米茄 · 波浪纹表盘 · 蓝色表圈 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Blue bezel · Silver bracelet",
+        "labelZh": "蓝盘蓝圈 · 银色表链",
+        "image": "omega-import-0311",
+        "photos": [
+          {
+            "image": "omega-import-0311"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0309",
+            "alt": "Omega Seamaster Diver 300M-style · Blue dial · Blue bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0310",
+            "alt": "Omega Seamaster Diver 300M-style · Blue dial · Blue bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0312",
+            "alt": "Omega Seamaster Diver 300M-style · Blue dial · Blue bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0313",
+            "alt": "Omega Seamaster Diver 300M-style · Blue dial · Blue bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0314",
+            "alt": "Omega Seamaster Diver 300M-style · Blue dial · Blue bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0315",
+            "alt": "Omega Seamaster Diver 300M-style · Blue dial · Blue bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0316",
+            "alt": "Omega Seamaster Diver 300M-style · Blue dial · Blue bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0317",
+            "alt": "Omega Seamaster Diver 300M-style · Blue dial · Blue bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0311",
+    "coverImage": "omega-import-0311",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX273",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Diver 300M-style",
+    "family": "Seamaster Diver 300M-style — Wave dial · Plain bezel",
+    "designDetails": "Wave dial · Plain bezel",
+    "designDetailsZh": "波浪纹表盘 · 潜水表圈",
+    "name": "Seamaster Diver 300M-style — Wave dial · Plain bezel — Rubber-style strap",
+    "nameZh": "欧米茄 · 波浪纹表盘 · 潜水表圈 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Rose-tone case · Black strap",
+        "labelZh": "黑盘 · 玫瑰金色表壳 · 黑色胶带",
+        "image": "omega-import-0320",
+        "photos": [
+          {
+            "image": "omega-import-0320"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0318",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0319",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0321",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0322",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0323",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0324",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0325",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色胶带",
+        "image": "omega-import-0329",
+        "photos": [
+          {
+            "image": "omega-import-0329"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0327",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0328",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0330",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0331",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0332",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0333",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0320",
+    "coverImage": "omega-import-0320",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX274",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Diver 300M-style",
+    "family": "Seamaster Diver 300M-style — Wave dial · Blue bezel",
+    "designDetails": "Wave dial · Blue bezel",
+    "designDetailsZh": "波浪纹表盘 · 蓝色表圈",
+    "name": "Seamaster Diver 300M-style — Wave dial · Blue bezel — Rubber-style strap",
+    "nameZh": "欧米茄 · 波浪纹表盘 · 蓝色表圈 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Blue bezel · Blue strap",
+        "labelZh": "白盘蓝圈 · 蓝色胶带",
+        "image": "omega-import-0338",
+        "photos": [
+          {
+            "image": "omega-import-0338"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0336",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0337",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0339",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0340",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0341",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0343",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0344",
+            "alt": "Omega Seamaster Diver 300M-style · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0338",
+    "coverImage": "omega-import-0338",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX275",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Chronograph · Baton dial",
+    "designDetails": "Chronograph · Baton dial",
+    "designDetailsZh": "计时外观 · 条形刻度盘",
+    "name": "De Ville — Chronograph · Baton dial — Leather-style strap",
+    "nameZh": "欧米茄 · 计时外观 · 条形刻度盘 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "labelZh": "白盘 · 银色表壳 · 黑色皮带",
+        "image": "omega-import-0356",
+        "photos": [
+          {
+            "image": "omega-import-0356"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0354",
+            "alt": "Omega De Ville · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0355",
+            "alt": "Omega De Ville · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0357",
+            "alt": "Omega De Ville · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0360",
+            "alt": "Omega De Ville · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0361",
+            "alt": "Omega De Ville · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0362",
+            "alt": "Omega De Ville · White dial · Silver-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Silver-tone case · Black strap",
+        "labelZh": "蓝盘 · 银色表壳 · 黑色皮带",
+        "image": "omega-import-0358",
+        "photos": [
+          {
+            "image": "omega-import-0358"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver-tone case · Black strap",
+        "labelZh": "黑盘 · 银色表壳 · 黑色皮带",
+        "image": "omega-import-0359",
+        "photos": [
+          {
+            "image": "omega-import-0359"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Rose-tone case · Black strap",
+        "labelZh": "白盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "omega-import-0365",
+        "photos": [
+          {
+            "image": "omega-import-0365"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0363",
+            "alt": "Omega De Ville · White dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0370",
+            "alt": "Omega De Ville · White dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Rose-tone case · Black strap",
+        "labelZh": "黑盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "omega-import-0364",
+        "photos": [
+          {
+            "image": "omega-import-0364"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0372",
+            "alt": "Omega De Ville · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0356",
+    "coverImage": "omega-import-0356",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX276",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Chronograph · Baton dial",
+    "designDetails": "Chronograph · Baton dial",
+    "designDetailsZh": "计时外观 · 条形刻度盘",
+    "name": "De Ville — Chronograph · Baton dial — Metal bracelet",
+    "nameZh": "欧米茄 · 计时外观 · 条形刻度盘 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Rose-tone bracelet",
+        "labelZh": "白盘 · 玫瑰金色表链",
+        "image": "omega-import-0375",
+        "photos": [
+          {
+            "image": "omega-import-0375"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0373",
+            "alt": "Omega De Ville · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0374",
+            "alt": "Omega De Ville · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0376",
+            "alt": "Omega De Ville · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0377",
+            "alt": "Omega De Ville · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0378",
+            "alt": "Omega De Ville · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0379",
+            "alt": "Omega De Ville · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0380",
+            "alt": "Omega De Ville · White dial · Rose-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Silver bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "omega-import-0381",
+        "photos": [
+          {
+            "image": "omega-import-0381"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0384",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "omega-import-0382",
+        "photos": [
+          {
+            "image": "omega-import-0382"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "Blue dial · Silver bracelet",
+        "labelZh": "蓝盘 · 银色表链",
+        "image": "omega-import-0383",
+        "photos": [
+          {
+            "image": "omega-import-0383"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0375",
+    "coverImage": "omega-import-0375",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX277",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Aqua Terra-style",
+    "family": "Seamaster Aqua Terra-style — Dark dial · Yellow seconds accent",
+    "designDetails": "Dark dial · Yellow seconds accent",
+    "designDetailsZh": "深色盘 · 黄色秒针点缀",
+    "name": "Seamaster Aqua Terra-style — Dark dial · Yellow seconds accent — Metal bracelet",
+    "nameZh": "欧米茄 · 深色盘 · 黄色秒针点缀 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Yellow accents · Silver bracelet",
+        "labelZh": "黑盘 · 黄色点缀 · 银色表链",
+        "image": "omega-import-0401",
+        "photos": [
+          {
+            "image": "omega-import-0401"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0399",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Yellow accents · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0400",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Yellow accents · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0402",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Yellow accents · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0403",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Yellow accents · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0404",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Yellow accents · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0405",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Yellow accents · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0406",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Yellow accents · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0407",
+            "alt": "Omega Seamaster Aqua Terra-style · Black dial · Yellow accents · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0401",
+    "coverImage": "omega-import-0401",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX278",
+    "brand": "Omega",
+    "baseFamily": "Constellation",
+    "family": "Constellation — Round decorative indices · Date",
+    "designDetails": "Round decorative indices · Date",
+    "designDetailsZh": "圆形装饰刻度 · 日历款",
+    "name": "Constellation — Round decorative indices · Date — Metal bracelet",
+    "nameZh": "欧米茄 · 圆形装饰刻度 · 日历款 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Warm bezel · Silver bracelet",
+        "labelZh": "白盘 · 暖金色表圈 · 银色表链",
+        "image": "omega-import-0410",
+        "photos": [
+          {
+            "image": "omega-import-0410"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0408",
+            "alt": "Omega Constellation · White dial · Warm bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0409",
+            "alt": "Omega Constellation · White dial · Warm bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0411",
+            "alt": "Omega Constellation · White dial · Warm bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0412",
+            "alt": "Omega Constellation · White dial · Warm bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0413",
+            "alt": "Omega Constellation · White dial · Warm bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0414",
+            "alt": "Omega Constellation · White dial · Warm bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0415",
+            "alt": "Omega Constellation · White dial · Warm bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0416",
+            "alt": "Omega Constellation · White dial · Warm bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Rose two-tone bracelet",
+        "labelZh": "白盘 · 玫瑰金银双色表链",
+        "image": "omega-import-0509",
+        "photos": [
+          {
+            "image": "omega-import-0509"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0507",
+            "alt": "Omega Constellation · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0508",
+            "alt": "Omega Constellation · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0510",
+            "alt": "Omega Constellation · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0511",
+            "alt": "Omega Constellation · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0512",
+            "alt": "Omega Constellation · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0513",
+            "alt": "Omega Constellation · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0514",
+            "alt": "Omega Constellation · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0515",
+            "alt": "Omega Constellation · White dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0410",
+    "coverImage": "omega-import-0410",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX279",
+    "brand": "Omega",
+    "baseFamily": "Constellation",
+    "family": "Constellation — Pearlescent-look dial · Plain bezel",
+    "designDetails": "Pearlescent-look dial · Plain bezel",
+    "designDetailsZh": "珠光外观表盘 · 光面表圈",
+    "name": "Constellation — Pearlescent-look dial · Plain bezel — Metal bracelet",
+    "nameZh": "欧米茄 · 珠光外观表盘 · 光面表圈 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Light pearlescent dial · Rose two-tone bracelet",
+        "labelZh": "浅色珠光盘 · 玫瑰金银双色表链",
+        "image": "omega-import-0419",
+        "photos": [
+          {
+            "image": "omega-import-0419"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0417",
+            "alt": "Omega Constellation · Light pearlescent dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0418",
+            "alt": "Omega Constellation · Light pearlescent dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0420",
+            "alt": "Omega Constellation · Light pearlescent dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0421",
+            "alt": "Omega Constellation · Light pearlescent dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0422",
+            "alt": "Omega Constellation · Light pearlescent dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0423",
+            "alt": "Omega Constellation · Light pearlescent dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0424",
+            "alt": "Omega Constellation · Light pearlescent dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0425",
+            "alt": "Omega Constellation · Light pearlescent dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0419",
+    "coverImage": "omega-import-0419",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX280",
+    "brand": "Omega",
+    "baseFamily": "Constellation",
+    "family": "Constellation — Pearlescent-look dial · Decorative bezel",
+    "designDetails": "Pearlescent-look dial · Decorative bezel",
+    "designDetailsZh": "珠光外观表盘 · 装饰表圈",
+    "name": "Constellation — Pearlescent-look dial · Decorative bezel — Metal bracelet",
+    "nameZh": "欧米茄 · 珠光外观表盘 · 装饰表圈 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Light dial · Rose two-tone bracelet",
+        "labelZh": "浅色盘 · 玫瑰金银双色表链",
+        "image": "omega-import-0428",
+        "photos": [
+          {
+            "image": "omega-import-0428"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0426",
+            "alt": "Omega Constellation · Light dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0427",
+            "alt": "Omega Constellation · Light dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0429",
+            "alt": "Omega Constellation · Light dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0430",
+            "alt": "Omega Constellation · Light dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0431",
+            "alt": "Omega Constellation · Light dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0423",
+            "alt": "Omega Constellation · Light dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0424",
+            "alt": "Omega Constellation · Light dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0425",
+            "alt": "Omega Constellation · Light dial · Rose two-tone bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0428",
+    "coverImage": "omega-import-0428",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX281",
+    "brand": "Omega",
+    "baseFamily": "Constellation",
+    "family": "Constellation — Patterned pearl-look dial · Plain bezel",
+    "designDetails": "Patterned pearl-look dial · Plain bezel",
+    "designDetailsZh": "纹理珠光外观盘 · 光面表圈",
+    "name": "Constellation — Patterned pearl-look dial · Plain bezel — Metal bracelet",
+    "nameZh": "欧米茄 · 纹理珠光外观盘 · 光面表圈 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Light patterned dial · Silver bracelet",
+        "labelZh": "浅色纹理盘 · 银色表链",
+        "image": "omega-import-0437",
+        "photos": [
+          {
+            "image": "omega-import-0437"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0435",
+            "alt": "Omega Constellation · Light patterned dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0436",
+            "alt": "Omega Constellation · Light patterned dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0438",
+            "alt": "Omega Constellation · Light patterned dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0439",
+            "alt": "Omega Constellation · Light patterned dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0440",
+            "alt": "Omega Constellation · Light patterned dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0441",
+            "alt": "Omega Constellation · Light patterned dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0442",
+            "alt": "Omega Constellation · Light patterned dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0443",
+            "alt": "Omega Constellation · Light patterned dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0437",
+    "coverImage": "omega-import-0437",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX282",
+    "brand": "Omega",
+    "baseFamily": "Speedmaster",
+    "family": "Speedmaster — Snoopy-style dial",
+    "designDetails": "Snoopy-style dial",
+    "designDetailsZh": "史努比图案盘外观",
+    "name": "Speedmaster — Snoopy-style dial — Textile strap",
+    "nameZh": "欧米茄 · 史努比图案盘外观 · 织物表带",
+    "band": "textile",
+    "bandName": "Textile strap",
+    "bandNameZh": "织物表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Blue counters · Blue strap",
+        "labelZh": "白盘蓝色分盘 · 蓝色织物表带",
+        "image": "omega-import-0446",
+        "photos": [
+          {
+            "image": "omega-import-0446"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0444",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0445",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0447",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0448",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0449",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0450",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0451",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0452",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0588",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0589",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0590",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0591",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0592",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0593",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0594",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0595",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0596",
+            "alt": "Omega Speedmaster · White dial · Blue counters · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0446",
+    "coverImage": "omega-import-0446",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX283",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Diver 300M-style",
+    "family": "Seamaster Diver 300M-style — Dark bezel · Dark case appearance",
+    "designDetails": "Dark bezel · Dark case appearance",
+    "designDetailsZh": "深色表圈与表壳外观",
+    "name": "Seamaster Diver 300M-style — Dark bezel · Dark case appearance — Rubber-style strap",
+    "nameZh": "欧米茄 · 深色表圈与表壳外观 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Dark case · Black strap",
+        "labelZh": "黑盘 · 深色表壳 · 黑色胶带",
+        "image": "omega-import-0455",
+        "photos": [
+          {
+            "image": "omega-import-0455"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0453",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Dark case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0454",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Dark case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0456",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Dark case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0457",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Dark case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0458",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Dark case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0459",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Dark case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0460",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Dark case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0461",
+            "alt": "Omega Seamaster Diver 300M-style · Black dial · Dark case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0455",
+    "coverImage": "omega-import-0455",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX284",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Aqua Terra-style",
+    "family": "Seamaster Aqua Terra-style — Textured dial · Green strap",
+    "designDetails": "Textured dial · Green strap",
+    "designDetailsZh": "纹理表盘 · 绿色表带",
+    "name": "Seamaster Aqua Terra-style — Textured dial · Green strap — Rubber-style strap",
+    "nameZh": "欧米茄 · 纹理表盘 · 绿色表带 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Green dial · Silver-tone case · Green strap",
+        "labelZh": "绿盘 · 银色表壳 · 绿色胶带",
+        "image": "omega-import-0464",
+        "photos": [
+          {
+            "image": "omega-import-0464"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0462",
+            "alt": "Omega Seamaster Aqua Terra-style · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0463",
+            "alt": "Omega Seamaster Aqua Terra-style · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0465",
+            "alt": "Omega Seamaster Aqua Terra-style · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0466",
+            "alt": "Omega Seamaster Aqua Terra-style · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0467",
+            "alt": "Omega Seamaster Aqua Terra-style · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0468",
+            "alt": "Omega Seamaster Aqua Terra-style · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0469",
+            "alt": "Omega Seamaster Aqua Terra-style · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0470",
+            "alt": "Omega Seamaster Aqua Terra-style · Green dial · Silver-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0464",
+    "coverImage": "omega-import-0464",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX285",
+    "brand": "Omega",
+    "baseFamily": "Constellation",
+    "family": "Constellation — Decorative dial · Warm case",
+    "designDetails": "Decorative dial · Warm case",
+    "designDetailsZh": "装饰盘 · 暖色表壳",
+    "name": "Constellation — Decorative dial · Warm case — Leather-style strap",
+    "nameZh": "欧米茄 · 装饰盘 · 暖色表壳 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Rose-tone case · Black strap",
+        "labelZh": "黑盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "omega-import-0471",
+        "photos": [
+          {
+            "image": "omega-import-0471"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0472",
+            "alt": "Omega Constellation · Black dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Red dial · Rose-tone case · Red strap",
+        "labelZh": "红盘 · 玫瑰金色表壳 · 红色皮带",
+        "image": "omega-import-0473",
+        "photos": [
+          {
+            "image": "omega-import-0473"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0474",
+            "alt": "Omega Constellation · Red dial · Rose-tone case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0498",
+            "alt": "Omega Constellation · Red dial · Rose-tone case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0499",
+            "alt": "Omega Constellation · Red dial · Rose-tone case · Red strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Green dial · Rose-tone case · Green strap",
+        "labelZh": "绿盘 · 玫瑰金色表壳 · 绿色皮带",
+        "image": "omega-import-0489",
+        "photos": [
+          {
+            "image": "omega-import-0489"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0490",
+            "alt": "Omega Constellation · Green dial · Rose-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0502",
+            "alt": "Omega Constellation · Green dial · Rose-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0503",
+            "alt": "Omega Constellation · Green dial · Rose-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0504",
+            "alt": "Omega Constellation · Green dial · Rose-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0505",
+            "alt": "Omega Constellation · Green dial · Rose-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0506",
+            "alt": "Omega Constellation · Green dial · Rose-tone case · Green strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "Blue dial · Rose-tone case · Black strap",
+        "labelZh": "蓝盘 · 玫瑰金色表壳 · 黑色皮带",
+        "image": "omega-import-0493",
+        "photos": [
+          {
+            "image": "omega-import-0493"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0491",
+            "alt": "Omega Constellation · Blue dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0492",
+            "alt": "Omega Constellation · Blue dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0494",
+            "alt": "Omega Constellation · Blue dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0495",
+            "alt": "Omega Constellation · Blue dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0496",
+            "alt": "Omega Constellation · Blue dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0497",
+            "alt": "Omega Constellation · Blue dial · Rose-tone case · Black strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v5",
+        "label": "Blue dial · Rose-tone case · Blue strap",
+        "labelZh": "蓝盘 · 玫瑰金色表壳 · 蓝色皮带",
+        "image": "omega-import-0500",
+        "photos": [
+          {
+            "image": "omega-import-0500"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0501",
+            "alt": "Omega Constellation · Blue dial · Rose-tone case · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0471",
+    "coverImage": "omega-import-0471",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX286",
+    "brand": "Omega",
+    "baseFamily": "Constellation",
+    "family": "Constellation — Pearlescent-look dial · Warm case",
+    "designDetails": "Pearlescent-look dial · Warm case",
+    "designDetailsZh": "珠光外观盘 · 暖色表壳",
+    "name": "Constellation — Pearlescent-look dial · Warm case — Leather-style strap",
+    "nameZh": "欧米茄 · 珠光外观盘 · 暖色表壳 · 皮革外观表带",
+    "band": "leather",
+    "bandName": "Leather-style strap",
+    "bandNameZh": "皮革外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Light dial · Rose-tone case · Burgundy strap",
+        "labelZh": "浅色盘 · 玫瑰金色表壳 · 酒红色皮带",
+        "image": "omega-import-0475",
+        "photos": [
+          {
+            "image": "omega-import-0475"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0476",
+            "alt": "Omega Constellation · Light dial · Rose-tone case · Burgundy strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0477",
+            "alt": "Omega Constellation · Light dial · Rose-tone case · Burgundy strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0478",
+            "alt": "Omega Constellation · Light dial · Rose-tone case · Burgundy strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0479",
+            "alt": "Omega Constellation · Light dial · Rose-tone case · Burgundy strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0475",
+    "coverImage": "omega-import-0475",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX287",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Planet Ocean-style",
+    "family": "Seamaster Planet Ocean-style — Light dial · Orange quarter bezel",
+    "designDetails": "Light dial · Orange quarter bezel",
+    "designDetailsZh": "浅色盘 · 四分之一橙表圈",
+    "name": "Seamaster Planet Ocean-style — Light dial · Orange quarter bezel — Textile strap",
+    "nameZh": "欧米茄 · 浅色盘 · 四分之一橙表圈 · 织物表带",
+    "band": "textile",
+    "bandName": "Textile strap",
+    "bandNameZh": "织物表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Orange accents · Grey strap",
+        "labelZh": "灰盘 · 橙色点缀 · 灰色织物表带",
+        "image": "omega-import-0518",
+        "photos": [
+          {
+            "image": "omega-import-0518"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0516",
+            "alt": "Omega Seamaster Planet Ocean-style · Grey dial · Orange accents · Grey strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0517",
+            "alt": "Omega Seamaster Planet Ocean-style · Grey dial · Orange accents · Grey strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0519",
+            "alt": "Omega Seamaster Planet Ocean-style · Grey dial · Orange accents · Grey strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0520",
+            "alt": "Omega Seamaster Planet Ocean-style · Grey dial · Orange accents · Grey strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0521",
+            "alt": "Omega Seamaster Planet Ocean-style · Grey dial · Orange accents · Grey strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0522",
+            "alt": "Omega Seamaster Planet Ocean-style · Grey dial · Orange accents · Grey strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0523",
+            "alt": "Omega Seamaster Planet Ocean-style · Grey dial · Orange accents · Grey strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0524",
+            "alt": "Omega Seamaster Planet Ocean-style · Grey dial · Orange accents · Grey strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0518",
+    "coverImage": "omega-import-0518",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX288",
+    "brand": "Omega",
+    "baseFamily": "Constellation",
+    "family": "Constellation — Roman bezel · Baton dial",
+    "designDetails": "Roman bezel · Baton dial",
+    "designDetailsZh": "罗马表圈 · 条形刻度盘",
+    "name": "Constellation — Roman bezel · Baton dial — Rubber-style strap",
+    "nameZh": "欧米茄 · 罗马表圈 · 条形刻度盘 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Blue bezel · Blue strap",
+        "labelZh": "白盘蓝圈 · 蓝色胶带",
+        "image": "omega-import-0527",
+        "photos": [
+          {
+            "image": "omega-import-0527"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0525",
+            "alt": "Omega Constellation · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0526",
+            "alt": "Omega Constellation · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0528",
+            "alt": "Omega Constellation · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0529",
+            "alt": "Omega Constellation · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0530",
+            "alt": "Omega Constellation · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0531",
+            "alt": "Omega Constellation · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0532",
+            "alt": "Omega Constellation · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0533",
+            "alt": "Omega Constellation · White dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0527",
+    "coverImage": "omega-import-0527",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX289",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Planet Ocean-style",
+    "family": "Seamaster Planet Ocean-style — Coloured numeral diver bezel",
+    "designDetails": "Coloured numeral diver bezel",
+    "designDetailsZh": "彩色数字潜水圈",
+    "name": "Seamaster Planet Ocean-style — Coloured numeral diver bezel — Metal bracelet",
+    "nameZh": "欧米茄 · 彩色数字潜水圈 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Black bezel · Silver bracelet",
+        "labelZh": "黑盘黑圈 · 银色表链",
+        "image": "omega-import-0534",
+        "photos": [
+          {
+            "image": "omega-import-0534"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0535",
+            "alt": "Omega Seamaster Planet Ocean-style · Black dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0537",
+            "alt": "Omega Seamaster Planet Ocean-style · Black dial · Black bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "White dial · Red bezel · Silver bracelet",
+        "labelZh": "白盘红圈 · 银色表链",
+        "image": "omega-import-0538",
+        "photos": [
+          {
+            "image": "omega-import-0538"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0539",
+            "alt": "Omega Seamaster Planet Ocean-style · White dial · Red bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0540",
+            "alt": "Omega Seamaster Planet Ocean-style · White dial · Red bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v3",
+        "label": "Blue dial · Blue bezel · Silver bracelet",
+        "labelZh": "蓝盘蓝圈 · 银色表链",
+        "image": "omega-import-0543",
+        "photos": [
+          {
+            "image": "omega-import-0543"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0545",
+            "alt": "Omega Seamaster Planet Ocean-style · Blue dial · Blue bezel · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Blue-red bezel · Silver bracelet",
+        "labelZh": "白盘蓝红圈 · 银色表链",
+        "image": "omega-import-0544",
+        "photos": [
+          {
+            "image": "omega-import-0544"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "White dial · Orange bezel · Silver bracelet",
+        "labelZh": "白盘橙圈 · 银色表链",
+        "image": "omega-import-0546",
+        "photos": [
+          {
+            "image": "omega-import-0546"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "Black dial · Orange bezel · Silver bracelet",
+        "labelZh": "黑盘橙圈 · 银色表链",
+        "image": "omega-import-0547",
+        "photos": [
+          {
+            "image": "omega-import-0547"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "White dial · Black bezel · Silver bracelet",
+        "labelZh": "白盘黑圈 · 银色表链",
+        "image": "omega-import-0548",
+        "photos": [
+          {
+            "image": "omega-import-0548"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v8",
+        "label": "White dial · Grey bezel · Silver bracelet",
+        "labelZh": "白盘灰圈 · 银色表链",
+        "image": "omega-import-0549",
+        "photos": [
+          {
+            "image": "omega-import-0549"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0534",
+    "coverImage": "omega-import-0534",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX290",
+    "brand": "Omega",
+    "baseFamily": "Seamaster Planet Ocean-style",
+    "family": "Seamaster Planet Ocean-style — Coloured numeral diver bezel",
+    "designDetails": "Coloured numeral diver bezel",
+    "designDetailsZh": "彩色数字潜水圈",
+    "name": "Seamaster Planet Ocean-style — Coloured numeral diver bezel — Rubber-style strap",
+    "nameZh": "欧米茄 · 彩色数字潜水圈 · 胶带外观表带",
+    "band": "rubber",
+    "bandName": "Rubber-style strap",
+    "bandNameZh": "胶带外观表带",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Blue dial · Blue bezel · Blue strap",
+        "labelZh": "蓝盘蓝圈 · 蓝色胶带",
+        "image": "omega-import-0552",
+        "photos": [
+          {
+            "image": "omega-import-0552"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0553",
+            "alt": "Omega Seamaster Planet Ocean-style · Blue dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0554",
+            "alt": "Omega Seamaster Planet Ocean-style · Blue dial · Blue bezel · Blue strap",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Orange bezel · Black strap",
+        "labelZh": "黑盘橙圈 · 黑色胶带",
+        "image": "omega-import-0555",
+        "photos": [
+          {
+            "image": "omega-import-0555"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v3",
+        "label": "White dial · Black bezel · Black strap",
+        "labelZh": "白盘黑圈 · 黑色胶带",
+        "image": "omega-import-0556",
+        "photos": [
+          {
+            "image": "omega-import-0556"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Blue-red bezel · Blue strap",
+        "labelZh": "白盘蓝红圈 · 蓝色胶带",
+        "image": "omega-import-0557",
+        "photos": [
+          {
+            "image": "omega-import-0557"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v5",
+        "label": "Black dial · Black bezel · Black strap",
+        "labelZh": "黑盘黑圈 · 黑色胶带",
+        "image": "omega-import-0558",
+        "photos": [
+          {
+            "image": "omega-import-0558"
+          }
+        ],
+        "detailImages": []
+      },
+      {
+        "key": "v6",
+        "label": "White dial · Orange bezel · Orange strap",
+        "labelZh": "白盘橙圈 · 橙色胶带",
+        "image": "omega-import-0559",
+        "photos": [
+          {
+            "image": "omega-import-0559"
+          }
+        ],
+        "detailImages": []
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0552",
+    "coverImage": "omega-import-0552",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX291",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Classic baton dial · Plain case",
+    "designDetails": "Classic baton dial · Plain case",
+    "designDetailsZh": "经典条形刻度盘 · 光面表壳",
+    "name": "De Ville — Classic baton dial · Plain case — Metal bracelet",
+    "nameZh": "欧米茄 · 经典条形刻度盘 · 光面表壳 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "omega-import-0563",
+        "photos": [
+          {
+            "image": "omega-import-0563"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0561",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0562",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0564",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0565",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0566",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0567",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0568",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0569",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Silver bracelet",
+        "labelZh": "蓝盘 · 银色表链",
+        "image": "omega-import-0572",
+        "photos": [
+          {
+            "image": "omega-import-0572"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0570",
+            "alt": "Omega De Ville · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0571",
+            "alt": "Omega De Ville · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0573",
+            "alt": "Omega De Ville · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0574",
+            "alt": "Omega De Ville · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0575",
+            "alt": "Omega De Ville · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0576",
+            "alt": "Omega De Ville · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0577",
+            "alt": "Omega De Ville · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0578",
+            "alt": "Omega De Ville · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0563",
+    "coverImage": "omega-import-0563",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX292",
+    "brand": "Omega",
+    "baseFamily": "De Ville",
+    "family": "De Ville — Small decorative indices · Plain case",
+    "designDetails": "Small decorative indices · Plain case",
+    "designDetailsZh": "小号装饰刻度 · 光面表壳",
+    "name": "De Ville — Small decorative indices · Plain case — Metal bracelet",
+    "nameZh": "欧米茄 · 小号装饰刻度 · 光面表壳 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver bracelet",
+        "labelZh": "白盘 · 银色表链",
+        "image": "omega-import-0581",
+        "photos": [
+          {
+            "image": "omega-import-0581"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0579",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0580",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0582",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0583",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0584",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0585",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0586",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0587",
+            "alt": "Omega De Ville · White dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0581",
+    "coverImage": "omega-import-0581",
+    "coverColor": "v1"
+  },
+  {
+    "id": "JX293",
+    "brand": "Omega",
+    "baseFamily": "Speedmaster",
+    "family": "Speedmaster — Chronograph · Dark numeral bezel",
+    "designDetails": "Chronograph · Dark numeral bezel",
+    "designDetailsZh": "计时外观 · 深色数字表圈",
+    "name": "Speedmaster — Chronograph · Dark numeral bezel — Metal bracelet",
+    "nameZh": "欧米茄 · 计时外观 · 深色数字表圈 · 金属表链",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "bandNameZh": "金属表链",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family names and colour descriptions are visual identifiers only; exact model, dimensions, case and strap materials, movement, authenticity and availability are unverified. Please confirm the actual item and price before ordering. Brand markings belong to their respective owners; JUXIANG is independent.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Black dial · Silver bracelet",
+        "labelZh": "黑盘 · 银色表链",
+        "image": "omega-import-0599",
+        "photos": [
+          {
+            "image": "omega-import-0599"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0597",
+            "alt": "Omega Speedmaster · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0598",
+            "alt": "Omega Speedmaster · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0600",
+            "alt": "Omega Speedmaster · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0601",
+            "alt": "Omega Speedmaster · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0602",
+            "alt": "Omega Speedmaster · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0603",
+            "alt": "Omega Speedmaster · Black dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Silver bracelet",
+        "labelZh": "蓝盘 · 银色表链",
+        "image": "omega-import-0606",
+        "photos": [
+          {
+            "image": "omega-import-0606"
+          }
+        ],
+        "detailImages": [
+          {
+            "image": "omega-import-0604",
+            "alt": "Omega Speedmaster · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0605",
+            "alt": "Omega Speedmaster · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0607",
+            "alt": "Omega Speedmaster · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0608",
+            "alt": "Omega Speedmaster · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0609",
+            "alt": "Omega Speedmaster · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0610",
+            "alt": "Omega Speedmaster · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          },
+          {
+            "image": "omega-import-0611",
+            "alt": "Omega Speedmaster · Blue dial · Silver bracelet",
+            "caption": "Seller-supplied product detail / 卖家提供的产品细节照片"
+          }
+        ]
+      }
+    ],
+    "referencePhotos": [],
+    "detailImages": [],
+    "image": "omega-import-0599",
+    "coverImage": "omega-import-0599",
+    "coverColor": "v1"
   }
 ];
 

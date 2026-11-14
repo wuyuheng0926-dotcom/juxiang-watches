@@ -7,12 +7,13 @@ const $ = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const money = amount => !Number.isFinite(amount) ? 'Price on request / 价格待询' : new Intl.NumberFormat('en-US', {style:'currency', currency:'USD', maximumFractionDigits:0}).format(amount);
 const brandAliases = {
-  Rolex:'劳力士 勞力士', Cartier:'卡地亚 卡地亞', 'Vacheron Constantin':'江诗丹顿 江詩丹頓 vc',
+  'Richard Mille':'理查德 理查德米勒 里查德 RM', Rolex:'劳力士 勞力士', Cartier:'卡地亚 卡地亞', 'Vacheron Constantin':'江诗丹顿 江詩丹頓 vc',
   'Audemars Piguet':'爱彼 愛彼 ap', IWC:'万国 萬國 沙夫豪森', 'Patek Philippe':'百达翡丽 百達翡麗 pp', Omega:'欧米茄 歐米茄', Piaget:'伯爵 piaget', Longines:'浪琴 浪琴表 longines', Blancpain:'宝珀 寶珀 blancpain', 'Jaeger-LeCoultre':'积家 積家 jlc jaeger lecoultre'
 };
 const bandLabels = {metal:'Metal bracelet / 金属表链', rubber:'Rubber strap / 橡胶表带', leather:'Leather strap / 皮革表带', textile:'Textile strap / 织物表带'};
 const bandAliases = {metal:'金属表带 金属表链 钢带 钢链 鋼帶 鋼鏈',rubber:'橡胶 胶带 膠帶 橡膠',leather:'皮带 皮質 皮质 皮革',textile:'织物 織物 帆布 尼龙 尼龍'};
 const familyAliases = {
+ Tonneau:'酒桶形 理查德 镂空', Constellation:'星座', Speedmaster:'超霸', Seamaster:'海马',
   DolceVita:'黛绰维纳 黛綽維納 长方形', PrimaLuna:'心月', Lyre:'律雅', 'Présence':'瑰丽 瑰麗 presence', HydroConquest:'康卡斯 康卡斯潜水', Spirit:'先行者', Flyback:'飞返 飛返', 'Master Collection':'名匠 大师', 'Fifty Fathoms':'五十噚 五十寻', Bathyscaphe:'深潜器 深潛器', 'Master Ultra Thin':'超薄大师 超薄大師 积家月相', Moonphase:'月相',
   Nautilus:'鹦鹉螺 鸚鵡螺', Aquanaut:'手雷', Portugieser:'葡萄牙 葡计 葡七', Portofino:'柏涛菲诺 柏濤菲諾',
   Pilot:'飞行员 飛行員 大飞 马克', Ingenieur:'工程师 工程師', Submariner:'潜航者 水鬼', Datejust:'日志 日誌',
@@ -20,7 +21,7 @@ const familyAliases = {
   'Oyster Perpetual':'蚝式恒动 蠔式恆動', Milgauss:'米尔高斯 闪电针', 'Ballon Bleu':'蓝气球 藍氣球',
   Santos:'山度士', Tank:'坦克', Overseas:'纵横四海 縱橫四海', Patrimony:'传承 傳承', 'Royal Oak':'皇家橡树 皇家橡樹',
   'Moon Phase':'月相', Chronograph:'计时 計時', 'Travel Time':'旅行时间 两地时', 'Aqua Terra':'海马 海馬',
-  Worldtimer:'世界时 世界時 地球', 'Planet Ocean':'海马 海馬 海洋宇宙', 'Diver 300M':'海马 海馬 潜水300 波纹', 'De Ville':'碟飞 碟飛'
+  Worldtimer:'世界时 世界時 地球', 'Planet Ocean':'海马 海馬 海洋宇宙', 'Diver 300M':'海马 海馬 潜水300 波纹', 'De Ville':'蝶飞 碟飞 碟飛'
 };
 const normalizeSearch = value => String(value || '').normalize('NFKD').toLowerCase().replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9\u3400-\u9fff]/g,'');
 function matchesSearch(p, term, variant) {
@@ -37,7 +38,7 @@ const photoFiles = new Map(), selectedColors = new Map();
 let activeBrand='All', activeSeries='All', activeBand='All', searchTerm='', currentPage=1;
 // Individual colour cards keep the original product and variant keys intact.
 const seriesName=p=>p.baseFamily||p.family.split(' — ')[0];
-const catalogBrands=['Rolex','Patek Philippe','Vacheron Constantin','Piaget'];
+const catalogBrands=['Rolex','Patek Philippe','Vacheron Constantin','Omega','Richard Mille','Piaget'];
 const catalogCompare=new Intl.Collator('en',{numeric:true,sensitivity:'base'}).compare;
 const brandRank=b=>{const i=catalogBrands.indexOf(b);return i<0?catalogBrands.length:i;};
 function finishGroup(v){
@@ -196,7 +197,7 @@ document.querySelectorAll('[data-enquiry]').forEach(b=>b.onclick=()=>openEnquiry
 function enquiryProduct(){return products.find(p=>$('selection').value.startsWith(p.id+' '));}
 function enquiryVariant(p){return p.variants.find(v=>v.key===(enquirySelection?.id===p.id?enquirySelection.color:selectedColors.get(p.id)))||p.variants[0];}
 function enquiryFields(){const fields={type:$('type').value,selection:$('selection').value,country:$('country').value,quantity:$('quantity').value,notes:$('notes').value};const p=enquiryProduct();return p?productEnquiryFields(p,location.origin,fields,enquiryVariant(p)):fields;}
-function updateContactLink(){const p=enquiryProduct();$('enquiryCode').value=p?.id||'General enquiry / 未选择系列';$('enquiryColour').value=p?enquiryVariant(p).labelZh:'';$('enquiryPrice').value=p?money(p.priceUSD)+(Number.isFinite(p.priceUSD)?' USD':''):'';const href=buildContactUrl(CONTACT_URL,makeEnquiryText(enquiryFields()));$('externalContact').hidden=!href;if(href)$('externalContact').href=href;}
+function updateContactLink(){const p=enquiryProduct();$('enquiryCode').value=p?p.id+'-'+enquiryVariant(p).key:'General enquiry / 未选择系列';$('enquiryColour').value=p?enquiryVariant(p).labelZh:'';$('enquiryPrice').value=p?money(p.priceUSD)+(Number.isFinite(p.priceUSD)?' USD':''):'';const href=buildContactUrl(CONTACT_URL,makeEnquiryText(enquiryFields()));$('externalContact').hidden=!href;if(href)$('externalContact').href=href;}
 $('enquiryForm').addEventListener('input',()=>{updateContactLink();updateEnquiryPhoto();});
 $('enquiryForm').onsubmit=async e=>{e.preventDefault();const text=makeEnquiryText(enquiryFields());try{await navigator.clipboard.writeText(text);$('copyStatus').textContent='Enquiry copied. Review it in WhatsApp before sending.';}catch{$('copyFallback').hidden=false;$('copyFallback').value=text;$('copyFallback').select();$('copyStatus').textContent='Select and copy the text below.';}};
 document.querySelectorAll('[data-direct-contact]').forEach(a=>{const href=buildContactUrl(CONTACT_URL,makeEnquiryText({type:'Retail / Wholesale',selection:'General enquiry'}));a.hidden=!href;if(href)a.href=href;});
