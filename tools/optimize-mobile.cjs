@@ -25,6 +25,7 @@ fs.writeFileSync(out+'/storefront-core.js',['contact.js','price-access.js','app.
 let html=scrubLogo(h).replace(/<link rel="stylesheet" href="[^"]+">/g,'');
 html=html.replace('</head>','<link rel="stylesheet" href="mobile-storefront.css?v=mobile-fast-1"><link rel="preload" as="script" href="storefront-core.js?v=mobile-fast-1"></head>');
 html=html.replace('href="assets/jx-emblem-light-20261114.png"','href="assets/jx-favicon.png"');
+html=html.replace(/(<a[^>]*data-hero-product="([^"]+)"[^>]*data-color="([^"]+)"[^>]*><img[^>]*src=")assets\/[^"]+\.jpg(")/g,(_,prefix,id,key,suffix)=>{const p=c.result.products.find(p=>p.id===id),v=p?.variants.find(v=>v.key===key);return prefix+'assets/'+(v?.image||'')+'.jpg'+suffix;});
 let i=0;html=html.replace(/src="assets\/([^"]+)\.jpg"/g,(_,id)=>i++===0?'src="assets/hero/'+id+'.webp"':'data-src="assets/hero/'+id+'.webp"');
 fs.writeFileSync(out+'/index.html',html);
 console.log(JSON.stringify({htmlBytes:Buffer.byteLength(html),catalogueBytes:Buffer.byteLength(core),cssBytes:fs.statSync(out+'/mobile-storefront.css').size,scriptBytes:fs.statSync(out+'/storefront-core.js').size,groups:products.length}));
