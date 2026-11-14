@@ -52,10 +52,10 @@ const dialRules=[["black",/black|黑|墨/iu],["white",/white|白/iu],["blue",/bl
 function classifyDial(v){var en=v.label||'',zh=v.labelZh||'',m=en.match(/([^·]*?)\bdial\b/i),z=zh.match(/([^·]*?)(?:盘|盤)/);var first=en.split('·')[0].trim();var text=m?m[1]:z?z[1]:!/(strap|bracelet|case|bezel|tone)/i.test(first)?first:'';var colors=dialRules.filter(([,re])=>re.test(text)).map(([key])=>key);if(/rainbow|multicolou?r|彩|多色/i.test(text))colors.push('multicolour');if(!colors.length&&/skeleton|openworked|镂空|鏤空/i.test(text))colors.push('skeleton');if(!colors.length&&/light|浅|淺/i.test(text))colors.push('light');if(!colors.length&&/dark|深/i.test(text))colors.push('dark');return [...new Set(colors.length?colors:['unconfirmed'])]}
 const dialColorNames={"black":"Black dial","white":"White dial","blue":"Blue dial","green":"Green dial","grey":"Grey dial","silver":"Silver dial","gold":"Gold / champagne dial","pink":"Pink dial","brown":"Brown dial","red":"Red dial","orange":"Orange dial","yellow":"Yellow dial","purple":"Purple dial","multicolour":"Multicolour dial","skeleton":"Openworked dial","light":"Light dial","dark":"Dark dial","unconfirmed":"Other / unconfirmed"};
 
-function buildCatalogEntries(){return products.flatMap((p,productOrder)=>p.variants.filter(v=>!v.catalogHidden).map((v,variantOrder)=>({p,v,productOrder,variantOrder,series:seriesName(p),finish:finishGroup(v),code:p.id+'-'+v.key}))).sort((a,b)=>
+function buildCatalogEntries(){const entries=products.flatMap((p,productOrder)=>p.variants.filter(v=>!v.catalogHidden).map((v,variantOrder)=>({p,v,productOrder,variantOrder,series:seriesName(p),finish:finishGroup(v),code:p.id+'-'+v.key}))).sort((a,b)=>
  brandRank(a.p.brand)-brandRank(b.p.brand)||catalogCompare(a.p.brand,b.p.brand)||catalogCompare(a.series,b.series)||
  catalogCompare(a.p.designDetails||a.p.family,b.p.designDetails||b.p.family)||catalogCompare(a.p.band,b.p.band)||
- a.productOrder-b.productOrder||catalogCompare(a.finish,b.finish)||a.variantOrder-b.variantOrder);}
+ a.productOrder-b.productOrder||catalogCompare(a.finish,b.finish)||a.variantOrder-b.variantOrder);return window.JXSortCatalogueEntries?window.JXSortCatalogueEntries(entries):entries;}
 let catalogEntries=buildCatalogEntries();
 let mobileCatalogColumns=3;try{const saved=Number(localStorage.getItem('juxiang.catalogColumns'));if([1,2,3,4].includes(saved))mobileCatalogColumns=saved;}catch{}
 document.documentElement.dataset.mobileColumns=mobileCatalogColumns;

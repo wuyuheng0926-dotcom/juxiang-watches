@@ -40,5 +40,12 @@ const versionedCore=fs.readFileSync(out+'/storefront-core.js','utf8').replaceAll
 fs.writeFileSync(out+'/'+coreName,versionedCore);
 html=html.replace(/src="catalog\.js(?:\?[^"]*)?"/g,'src="'+catalogueName+'"').replace(/storefront-core\.js\?[^"]+/g,coreName);
 
+
+// Version the presentation bootstrap, snapshot and carousel together with this build.
+for(const file of ['catalogue-sync.js','featured-carousel.js','catalogue-snapshot.js']){
+ const name=file.slice(0,-3)+'.'+buildTag+'.js';fs.copyFileSync(out+'/'+file,out+'/'+name);
+ html=html.replace(new RegExp(file.replaceAll('.',String.fromCharCode(92)+'.')+'(?:'+String.fromCharCode(92)+'?[^"'+String.fromCharCode(92)+'s<]+)?','g'),name);
+}
+
 fs.writeFileSync(out+'/index.html',html);
 console.log(JSON.stringify({htmlBytes:Buffer.byteLength(html),catalogueBytes:Buffer.byteLength(core),cssBytes:fs.statSync(out+'/mobile-storefront.css').size,scriptBytes:fs.statSync(out+'/storefront-core.js').size,groups:products.length}));
