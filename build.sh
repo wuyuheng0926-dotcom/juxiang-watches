@@ -15,5 +15,6 @@ cat import-selected-hero-20261114/part-000.bin | tar -xz -C public/assets
 cat import-supplement-20261114/part-*.bin | tar -xz -C public/assets
 cat import-jlc-cartier-20261114/part-*.bin | tar -xz -C public/assets
 cat import-iwc-ap-20261114/part-*.bin | tar -xz -C public/assets
+cat import-vc-20261115/part-*.bin | tar -xz -C public/assets
 node tools/optimize-mobile.cjs
 printf 'JUXIANG static website ready\n'

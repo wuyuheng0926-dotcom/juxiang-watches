@@ -1,3 +1,759 @@
+const siteSettings = {
+  "brandName": "JUXIANG",
+  "heroTitle": "Presence. In every moment.",
+  "heroIntro": "For the way you move through the world. Discover our collection of real watch photographs.",
+  "contactUrl": "https://wa.me/8619922353655"
+};
+
+const legacyProductLinks = {};
+
+const legacyVariantLinks = {
+  "JX074:v1": {
+    "id": "JX074",
+    "color": "v1"
+  },
+  "JX074:v2": {
+    "id": "JX074",
+    "color": "v2"
+  },
+  "JX074:v4": {
+    "id": "JX074",
+    "color": "v4"
+  },
+  "JX074:v5": {
+    "id": "JX074",
+    "color": "v5"
+  },
+  "JX074:v3": {
+    "id": "JX111",
+    "color": "v3"
+  },
+  "JX075:v1": {
+    "id": "JX075",
+    "color": "v1"
+  },
+  "JX075:v2": {
+    "id": "JX112",
+    "color": "v2"
+  },
+  "JX076:v1": {
+    "id": "JX076",
+    "color": "v1"
+  },
+  "JX076:v13": {
+    "id": "JX076",
+    "color": "v13"
+  },
+  "JX076:v2": {
+    "id": "JX113",
+    "color": "v2"
+  },
+  "JX076:v3": {
+    "id": "JX114",
+    "color": "v3"
+  },
+  "JX076:v7": {
+    "id": "JX114",
+    "color": "v7"
+  },
+  "JX076:v9": {
+    "id": "JX114",
+    "color": "v9"
+  },
+  "JX076:v4": {
+    "id": "JX115",
+    "color": "v4"
+  },
+  "JX076:v5": {
+    "id": "JX116",
+    "color": "v5"
+  },
+  "JX076:v8": {
+    "id": "JX116",
+    "color": "v8"
+  },
+  "JX076:v15": {
+    "id": "JX116",
+    "color": "v15"
+  },
+  "JX076:v6": {
+    "id": "JX117",
+    "color": "v6"
+  },
+  "JX076:v14": {
+    "id": "JX117",
+    "color": "v14"
+  },
+  "JX076:v10": {
+    "id": "JX118",
+    "color": "v10"
+  },
+  "JX076:v11": {
+    "id": "JX119",
+    "color": "v11"
+  },
+  "JX076:v12": {
+    "id": "JX120",
+    "color": "v12"
+  },
+  "JX076:v23": {
+    "id": "JX120",
+    "color": "v23"
+  },
+  "JX076:v29": {
+    "id": "JX120",
+    "color": "v29"
+  },
+  "JX076:v16": {
+    "id": "JX121",
+    "color": "v16"
+  },
+  "JX076:v19": {
+    "id": "JX121",
+    "color": "v19"
+  },
+  "JX076:v17": {
+    "id": "JX122",
+    "color": "v17"
+  },
+  "JX076:v18": {
+    "id": "JX123",
+    "color": "v18"
+  },
+  "JX076:v20": {
+    "id": "JX124",
+    "color": "v20"
+  },
+  "JX076:v21": {
+    "id": "JX125",
+    "color": "v21"
+  },
+  "JX076:v22": {
+    "id": "JX126",
+    "color": "v22"
+  },
+  "JX076:v24": {
+    "id": "JX127",
+    "color": "v24"
+  },
+  "JX076:v25": {
+    "id": "JX128",
+    "color": "v25"
+  },
+  "JX076:v27": {
+    "id": "JX128",
+    "color": "v27"
+  },
+  "JX076:v28": {
+    "id": "JX128",
+    "color": "v28"
+  },
+  "JX076:v26": {
+    "id": "JX129",
+    "color": "v26"
+  },
+  "JX076:v30": {
+    "id": "JX130",
+    "color": "v30"
+  },
+  "JX076:v31": {
+    "id": "JX131",
+    "color": "v31"
+  },
+  "JX076:v32": {
+    "id": "JX131",
+    "color": "v32"
+  },
+  "JX076:v33": {
+    "id": "JX132",
+    "color": "v33"
+  },
+  "JX076:v34": {
+    "id": "JX133",
+    "color": "v34"
+  },
+  "JX076:v35": {
+    "id": "JX134",
+    "color": "v35"
+  },
+  "JX076:v36": {
+    "id": "JX135",
+    "color": "v36"
+  },
+  "JX076:v37": {
+    "id": "JX136",
+    "color": "v37"
+  },
+  "JX076:v38": {
+    "id": "JX137",
+    "color": "v38"
+  },
+  "JX076:v39": {
+    "id": "JX138",
+    "color": "v39"
+  },
+  "JX076:v40": {
+    "id": "JX139",
+    "color": "v40"
+  },
+  "JX078:v1": {
+    "id": "JX078",
+    "color": "v1"
+  },
+  "JX078:v3": {
+    "id": "JX078",
+    "color": "v3"
+  },
+  "JX078:v2": {
+    "id": "JX140",
+    "color": "v2"
+  },
+  "JX079:v1": {
+    "id": "JX079",
+    "color": "v1"
+  },
+  "JX079:v2": {
+    "id": "JX079",
+    "color": "v2"
+  },
+  "JX079:v3": {
+    "id": "JX079",
+    "color": "v3"
+  },
+  "JX079:v4": {
+    "id": "JX079",
+    "color": "v4"
+  },
+  "JX079:v19": {
+    "id": "JX079",
+    "color": "v19"
+  },
+  "JX079:v5": {
+    "id": "JX141",
+    "color": "v5"
+  },
+  "JX079:v9": {
+    "id": "JX141",
+    "color": "v9"
+  },
+  "JX079:v11": {
+    "id": "JX141",
+    "color": "v11"
+  },
+  "JX079:v17": {
+    "id": "JX141",
+    "color": "v17"
+  },
+  "JX079:v18": {
+    "id": "JX141",
+    "color": "v18"
+  },
+  "JX079:v6": {
+    "id": "JX142",
+    "color": "v6"
+  },
+  "JX079:v8": {
+    "id": "JX143",
+    "color": "v8"
+  },
+  "JX079:v12": {
+    "id": "JX143",
+    "color": "v12"
+  },
+  "JX079:v7": {
+    "id": "JX144",
+    "color": "v7"
+  },
+  "JX079:v10": {
+    "id": "JX145",
+    "color": "v10"
+  },
+  "JX079:v13": {
+    "id": "JX146",
+    "color": "v13"
+  },
+  "JX079:v14": {
+    "id": "JX146",
+    "color": "v14"
+  },
+  "JX079:v15": {
+    "id": "JX147",
+    "color": "v15"
+  },
+  "JX079:v16": {
+    "id": "JX148",
+    "color": "v16"
+  },
+  "JX080:v1": {
+    "id": "JX080",
+    "color": "v1"
+  },
+  "JX080:v2": {
+    "id": "JX149",
+    "color": "v2"
+  },
+  "JX081:v1": {
+    "id": "JX081",
+    "color": "v1"
+  },
+  "JX081:v4": {
+    "id": "JX081",
+    "color": "v4"
+  },
+  "JX081:v2": {
+    "id": "JX150",
+    "color": "v2"
+  },
+  "JX081:v3": {
+    "id": "JX151",
+    "color": "v3"
+  },
+  "JX081:v6": {
+    "id": "JX152",
+    "color": "v6"
+  },
+  "JX081:v7": {
+    "id": "JX152",
+    "color": "v7"
+  },
+  "JX081:v8": {
+    "id": "JX153",
+    "color": "v8"
+  },
+  "JX083:v1": {
+    "id": "JX083",
+    "color": "v1"
+  },
+  "JX083:v2": {
+    "id": "JX083",
+    "color": "v2"
+  },
+  "JX083:v3": {
+    "id": "JX083",
+    "color": "v3"
+  },
+  "JX083:v4": {
+    "id": "JX083",
+    "color": "v4"
+  },
+  "JX083:v6": {
+    "id": "JX083",
+    "color": "v6"
+  },
+  "JX083:v7": {
+    "id": "JX083",
+    "color": "v7"
+  },
+  "JX083:v8": {
+    "id": "JX083",
+    "color": "v8"
+  },
+  "JX083:v9": {
+    "id": "JX083",
+    "color": "v9"
+  },
+  "JX083:v5": {
+    "id": "JX154",
+    "color": "v5"
+  },
+  "JX083:v10": {
+    "id": "JX155",
+    "color": "v10"
+  },
+  "JX085:v1": {
+    "id": "JX085",
+    "color": "v1"
+  },
+  "JX085:v2": {
+    "id": "JX085",
+    "color": "v2"
+  },
+  "JX085:v3": {
+    "id": "JX085",
+    "color": "v3"
+  },
+  "JX085:v4": {
+    "id": "JX156",
+    "color": "v4"
+  },
+  "JX086:v1": {
+    "id": "JX086",
+    "color": "v1"
+  },
+  "JX086:v2": {
+    "id": "JX086",
+    "color": "v2"
+  },
+  "JX086:v3": {
+    "id": "JX086",
+    "color": "v3"
+  },
+  "JX086:v4": {
+    "id": "JX086",
+    "color": "v4"
+  },
+  "JX086:v7": {
+    "id": "JX086",
+    "color": "v7"
+  },
+  "JX086:v8": {
+    "id": "JX086",
+    "color": "v8"
+  },
+  "JX086:v9": {
+    "id": "JX086",
+    "color": "v9"
+  },
+  "JX086:v11": {
+    "id": "JX086",
+    "color": "v11"
+  },
+  "JX086:v12": {
+    "id": "JX086",
+    "color": "v12"
+  },
+  "JX086:v6": {
+    "id": "JX157",
+    "color": "v6"
+  },
+  "JX086:v13": {
+    "id": "JX157",
+    "color": "v13"
+  },
+  "JX086:v5": {
+    "id": "JX158",
+    "color": "v5"
+  },
+  "JX086:v10": {
+    "id": "JX159",
+    "color": "v10"
+  },
+  "JX086:v14": {
+    "id": "JX160",
+    "color": "v14"
+  },
+  "JX086:v15": {
+    "id": "JX161",
+    "color": "v15"
+  },
+  "JX087:v1": {
+    "id": "JX087",
+    "color": "v1"
+  },
+  "JX087:v3": {
+    "id": "JX087",
+    "color": "v3"
+  },
+  "JX087:v5": {
+    "id": "JX087",
+    "color": "v5"
+  },
+  "JX087:v12": {
+    "id": "JX087",
+    "color": "v12"
+  },
+  "JX087:v2": {
+    "id": "JX162",
+    "color": "v2"
+  },
+  "JX087:v4": {
+    "id": "JX162",
+    "color": "v4"
+  },
+  "JX087:v6": {
+    "id": "JX162",
+    "color": "v6"
+  },
+  "JX087:v7": {
+    "id": "JX162",
+    "color": "v7"
+  },
+  "JX087:v8": {
+    "id": "JX162",
+    "color": "v8"
+  },
+  "JX087:v9": {
+    "id": "JX162",
+    "color": "v9"
+  },
+  "JX087:v13": {
+    "id": "JX162",
+    "color": "v13"
+  },
+  "JX087:v10": {
+    "id": "JX163",
+    "color": "v10"
+  },
+  "JX087:v11": {
+    "id": "JX164",
+    "color": "v11"
+  },
+  "JX088:v1": {
+    "id": "JX088",
+    "color": "v1"
+  },
+  "JX088:v2": {
+    "id": "JX165",
+    "color": "v2"
+  },
+  "JX088:v3": {
+    "id": "JX166",
+    "color": "v3"
+  },
+  "JX088:v4": {
+    "id": "JX167",
+    "color": "v4"
+  },
+  "JX088:v5": {
+    "id": "JX167",
+    "color": "v5"
+  },
+  "JX088:v6": {
+    "id": "JX167",
+    "color": "v6"
+  },
+  "JX089:v1": {
+    "id": "JX089",
+    "color": "v1"
+  },
+  "JX091:v1": {
+    "id": "JX091",
+    "color": "v1"
+  },
+  "JX091:v2": {
+    "id": "JX168",
+    "color": "v2"
+  },
+  "JX092:v1": {
+    "id": "JX092",
+    "color": "v1"
+  },
+  "JX092:v2": {
+    "id": "JX169",
+    "color": "v2"
+  },
+  "JX094:v1": {
+    "id": "JX094",
+    "color": "v1"
+  },
+  "JX094:v2": {
+    "id": "JX170",
+    "color": "v2"
+  },
+  "JX094:v3": {
+    "id": "JX170",
+    "color": "v3"
+  },
+  "JX094:v4": {
+    "id": "JX170",
+    "color": "v4"
+  },
+  "JX094:v5": {
+    "id": "JX170",
+    "color": "v5"
+  },
+  "JX094:v6": {
+    "id": "JX170",
+    "color": "v6"
+  },
+  "JX094:v7": {
+    "id": "JX170",
+    "color": "v7"
+  },
+  "JX094:v8": {
+    "id": "JX170",
+    "color": "v8"
+  },
+  "JX094:v9": {
+    "id": "JX170",
+    "color": "v9"
+  },
+  "JX094:v10": {
+    "id": "JX171",
+    "color": "v10"
+  },
+  "JX094:v11": {
+    "id": "JX172",
+    "color": "v11"
+  },
+  "JX100:v1": {
+    "id": "JX100",
+    "color": "v1"
+  },
+  "JX100:v2": {
+    "id": "JX173",
+    "color": "v2"
+  },
+  "JX100:v3": {
+    "id": "JX173",
+    "color": "v3"
+  },
+  "JX100:v4": {
+    "id": "JX173",
+    "color": "v4"
+  },
+  "JX100:v5": {
+    "id": "JX173",
+    "color": "v5"
+  },
+  "JX100:v6": {
+    "id": "JX174",
+    "color": "v6"
+  },
+  "JX101:v1": {
+    "id": "JX101",
+    "color": "v1"
+  },
+  "JX101:v2": {
+    "id": "JX175",
+    "color": "v2"
+  },
+  "JX101:v3": {
+    "id": "JX175",
+    "color": "v3"
+  },
+  "JX102:v1": {
+    "id": "JX102",
+    "color": "v1"
+  },
+  "JX102:v2": {
+    "id": "JX102",
+    "color": "v2"
+  },
+  "JX102:v4": {
+    "id": "JX102",
+    "color": "v4"
+  },
+  "JX102:v5": {
+    "id": "JX102",
+    "color": "v5"
+  },
+  "JX102:v3": {
+    "id": "JX176",
+    "color": "v3"
+  },
+  "JX102:v6": {
+    "id": "JX176",
+    "color": "v3"
+  },
+  "JX102:v8": {
+    "id": "JX177",
+    "color": "v8"
+  },
+  "JX102:v9": {
+    "id": "JX177",
+    "color": "v9"
+  },
+  "JX102:v7": {
+    "id": "JX178",
+    "color": "v7"
+  },
+  "JX102:v4plain": {
+    "id": "JX179",
+    "color": "v4plain"
+  },
+  "JX102:v5plain": {
+    "id": "JX179",
+    "color": "v5plain"
+  },
+  "JX103:v1": {
+    "id": "JX103",
+    "color": "v1"
+  },
+  "JX103:v2": {
+    "id": "JX103",
+    "color": "v2"
+  },
+  "JX103:v4": {
+    "id": "JX103",
+    "color": "v4"
+  },
+  "JX103:v5": {
+    "id": "JX103",
+    "color": "v5"
+  },
+  "JX103:v6": {
+    "id": "JX103",
+    "color": "v6"
+  },
+  "JX103:v7": {
+    "id": "JX103",
+    "color": "v7"
+  },
+  "JX103:v9": {
+    "id": "JX103",
+    "color": "v9"
+  },
+  "JX103:v13": {
+    "id": "JX103",
+    "color": "v9"
+  },
+  "JX103:v14": {
+    "id": "JX103",
+    "color": "v2"
+  },
+  "JX103:v3": {
+    "id": "JX180",
+    "color": "v3"
+  },
+  "JX103:v10": {
+    "id": "JX180",
+    "color": "v10"
+  },
+  "JX103:v11": {
+    "id": "JX180",
+    "color": "v11"
+  },
+  "JX103:v12": {
+    "id": "JX180",
+    "color": "v12"
+  },
+  "JX103:v8": {
+    "id": "JX181",
+    "color": "v8"
+  },
+  "JX103:v15": {
+    "id": "JX181",
+    "color": "v15"
+  },
+  "JX103:v16": {
+    "id": "JX181",
+    "color": "v16"
+  },
+  "JX104:v1": {
+    "id": "JX104",
+    "color": "v1"
+  },
+  "JX104:v2": {
+    "id": "JX182",
+    "color": "v2"
+  },
+  "JX105:v1": {
+    "id": "JX105",
+    "color": "v1"
+  },
+  "JX105:v2": {
+    "id": "JX105",
+    "color": "v2"
+  },
+  "JX105:v3": {
+    "id": "JX105",
+    "color": "v3"
+  },
+  "JX105:v4": {
+    "id": "JX105",
+    "color": "v4"
+  },
+  "JX105:v5": {
+    "id": "JX105",
+    "color": "v5"
+  },
+  "JX105:v6": {
+    "id": "JX183",
+    "color": "v6"
+  }
+};
+
 const products = [
   {
     "id": "JX069",
@@ -11464,6 +12220,52 @@ const products = [
           }
         ],
         "detailImages": []
+      },
+      {
+        "key": "v7",
+        "label": "Black dial · Silver-tone bracelet",
+        "image": "vc-import-021",
+        "photos": [
+          "vc-import-021"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-022",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-024",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘 · 银色金属表带"
+      },
+      {
+        "key": "v8",
+        "label": "Blue dial · Silver-tone bracelet",
+        "image": "vc-import-052",
+        "photos": [
+          "vc-import-052"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-055",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-056",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-059",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-060",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "蓝色表盘 · 银色金属表带"
       }
     ],
     "referencePhotos": [],
@@ -12805,6 +13607,56 @@ const products = [
             "caption": "Supplied product photograph / 用户提供的产品照片"
           }
         ]
+      },
+      {
+        "key": "v3",
+        "label": "Black dial · Gold-tone case · Brown strap",
+        "image": "vc-import-001",
+        "photos": [
+          "vc-import-001"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-004",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-007",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-008",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘 · 金色表壳 · 棕色表带"
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Gold-tone case · Brown strap",
+        "image": "vc-import-025",
+        "photos": [
+          "vc-import-025"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-028",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-031",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-032",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-033",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色表壳 · 棕色表带"
       }
     ],
     "referencePhotos": [
@@ -41683,761 +42535,508 @@ const products = [
     "image": "ap-new-0538",
     "coverImage": "ap-new-0538",
     "coverColor": "v1"
+  },
+  {
+    "id": "JX476",
+    "brand": "Vacheron Constantin",
+    "baseFamily": "Patrimony",
+    "family": "Patrimony — Two-hand dial · No date · Closed caseback",
+    "name": "Patrimony — Two-hand dial · No date · Closed caseback — Leather strap",
+    "designDetails": "Two-hand dial · No date · Closed caseback",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Gold-tone case · Black strap",
+        "image": "vc-import-010",
+        "photos": [
+          "vc-import-010"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-013",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-016",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-017",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-018",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 金色表壳 · 黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "vc-import-010",
+    "coverImage": "vc-import-010",
+    "coverColor": "v1",
+    "nameZh": "传承 — 双指针表盘 · 无日历 · 密底表背 — 皮革表带",
+    "designDetailsZh": "双指针表盘 · 无日历 · 密底表背",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX477",
+    "brand": "Vacheron Constantin",
+    "baseFamily": "Overseas",
+    "family": "Overseas — Moonphase-style display · Date window",
+    "name": "Overseas — Moonphase-style display · Date window — Leather strap",
+    "designDetails": "Moonphase-style display · Date window",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Silver dial · Silver-tone case · Black strap",
+        "image": "vc-import-034",
+        "photos": [
+          "vc-import-034"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-037",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-039",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-041",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-042",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "银色表盘·银色表壳·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "vc-import-034",
+    "coverImage": "vc-import-034",
+    "coverColor": "v1",
+    "nameZh": "纵横四海 — 月相外观 · 日历窗口 — 皮革表带",
+    "designDetailsZh": "月相外观 · 日历窗口",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX478",
+    "brand": "Vacheron Constantin",
+    "baseFamily": "Overseas",
+    "family": "Overseas — Arabic and baton dial · Textured dial · Date window",
+    "name": "Overseas — Arabic and baton dial · Textured dial · Date window — Rubber strap",
+    "designDetails": "Arabic and baton dial · Textured dial · Date window",
+    "band": "rubber",
+    "bandName": "Rubber strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Black case · Black strap",
+        "image": "vc-import-043",
+        "photos": [
+          "vc-import-043"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-047",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-048",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-050",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-051",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 黑色表壳 · 黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "vc-import-043",
+    "coverImage": "vc-import-043",
+    "coverColor": "v1",
+    "nameZh": "纵横四海 — 阿拉伯数字与条形刻度 · 纹理表盘 · 日历窗口 — 橡胶表带",
+    "designDetailsZh": "阿拉伯数字与条形刻度 · 纹理表盘 · 日历窗口",
+    "bandNameZh": "橡胶表带"
+  },
+  {
+    "id": "JX479",
+    "brand": "Vacheron Constantin",
+    "baseFamily": "Patrimony",
+    "family": "Patrimony — Two-hand dial · No date · Display caseback",
+    "name": "Patrimony — Two-hand dial · No date · Display caseback — Leather strap",
+    "designDetails": "Two-hand dial · No date · Display caseback",
+    "band": "leather",
+    "bandName": "Leather strap",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone case · Black strap",
+        "image": "vc-import-061",
+        "photos": [
+          "vc-import-061"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-064",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-065",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-067",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-068",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘·银色表壳·黑色表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "vc-import-061",
+    "coverImage": "vc-import-061",
+    "coverColor": "v1",
+    "nameZh": "传承 — 双指针表盘 · 无日历 · 透底表背 — 皮革表带",
+    "designDetailsZh": "双指针表盘 · 无日历 · 透底表背",
+    "bandNameZh": "皮革表带"
+  },
+  {
+    "id": "JX480",
+    "brand": "Vacheron Constantin",
+    "baseFamily": "Overseas",
+    "family": "Overseas — Arabic and baton dial · Textured dial · Date window",
+    "name": "Overseas — Arabic and baton dial · Textured dial · Date window — Metal bracelet",
+    "designDetails": "Arabic and baton dial · Textured dial · Date window",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "White dial · Silver-tone bracelet",
+        "image": "vc-import-070",
+        "photos": [
+          "vc-import-070"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-074",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-076",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-077",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-078",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "vc-import-070",
+    "coverImage": "vc-import-070",
+    "coverColor": "v1",
+    "nameZh": "纵横四海 — 阿拉伯数字与条形刻度 · 纹理表盘 · 日历窗口 — 金属手链",
+    "designDetailsZh": "阿拉伯数字与条形刻度 · 纹理表盘 · 日历窗口",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX481",
+    "brand": "Vacheron Constantin",
+    "baseFamily": "Overseas Ultra Thin",
+    "family": "Overseas Ultra Thin — Two-hand dial · No date",
+    "name": "Overseas Ultra Thin — Two-hand dial · No date — Metal bracelet",
+    "designDetails": "Two-hand dial · No date",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Silver-tone bracelet",
+        "image": "vc-import-079",
+        "photos": [
+          "vc-import-079"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-082",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-085",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-086",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-087",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "灰色表盘 · 银色金属表带"
+      },
+      {
+        "key": "v2",
+        "label": "Blue dial · Silver-tone bracelet",
+        "image": "vc-import-088",
+        "photos": [
+          "vc-import-088"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-091",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-094",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-095",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-096",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "蓝色表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "vc-import-079",
+    "coverImage": "vc-import-079",
+    "coverColor": "v1",
+    "nameZh": "纵横四海超薄 — 两针表盘·无日期 — 金属手链",
+    "designDetailsZh": "两针表盘·无日期",
+    "bandNameZh": "金属手链"
+  },
+  {
+    "id": "JX482",
+    "brand": "Vacheron Constantin",
+    "baseFamily": "Historiques 222",
+    "family": "Historiques 222 — Baton dial · Fluted bezel · Date window",
+    "name": "Historiques 222 — Baton dial · Fluted bezel · Date window — Metal bracelet",
+    "designDetails": "Baton dial · Fluted bezel · Date window",
+    "band": "metal",
+    "bandName": "Metal bracelet",
+    "category": "Watch",
+    "priceUSD": null,
+    "currency": "USD",
+    "sizeReference": "Unconfirmed / 待确认",
+    "description": "Seller-supplied photographs. Family and colour names describe visual appearance only. Exact reference, dimensions, case and strap materials, movement, authenticity, availability and price are unverified. Please confirm the actual selected item before ordering. JUXIANG is independent of the brands shown.",
+    "variants": [
+      {
+        "key": "v1",
+        "label": "Grey dial · Silver-tone bracelet",
+        "image": "vc-import-097",
+        "photos": [
+          "vc-import-097"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-099",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-101",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-103",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-104",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "灰色表盘 · 银色金属表带"
+      },
+      {
+        "key": "v2",
+        "label": "Black dial · Silver-tone bracelet",
+        "image": "vc-import-106",
+        "photos": [
+          "vc-import-106"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-108",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-110",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-111",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-112",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-113",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "黑色表盘 · 银色金属表带"
+      },
+      {
+        "key": "v3",
+        "label": "Green dial · Silver-tone bracelet",
+        "image": "vc-import-115",
+        "photos": [
+          "vc-import-115"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-117",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-119",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-121",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-122",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "绿色表盘 · 银色金属表带"
+      },
+      {
+        "key": "v4",
+        "label": "White dial · Silver-tone bracelet",
+        "image": "vc-import-124",
+        "photos": [
+          "vc-import-124"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-126",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-128",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-130",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-131",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "白色表盘 · 银色金属表带"
+      },
+      {
+        "key": "v5",
+        "label": "Blue dial · Silver-tone bracelet",
+        "image": "vc-import-133",
+        "photos": [
+          "vc-import-133"
+        ],
+        "detailImages": [
+          {
+            "image": "vc-import-135",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-137",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-139",
+            "label": "Product detail"
+          },
+          {
+            "image": "vc-import-140",
+            "label": "Product detail"
+          }
+        ],
+        "labelZh": "蓝色表盘 · 银色金属表带"
+      }
+    ],
+    "detailImages": [],
+    "referencePhotos": [],
+    "image": "vc-import-097",
+    "coverImage": "vc-import-097",
+    "coverColor": "v1",
+    "nameZh": "历史名作222 — 条形刻度表盘 · 凹槽表圈 · 日历窗口 — 金属手链",
+    "designDetailsZh": "条形刻度表盘 · 凹槽表圈 · 日历窗口",
+    "bandNameZh": "金属手链"
   }
 ];
-
-const siteSettings = {
-  "brandName": "JUXIANG",
-  "heroTitle": "Presence. In every moment.",
-  "heroIntro": "For the way you move through the world. Discover our collection of real watch photographs.",
-  "contactUrl": "https://wa.me/8619922353655"
-};
-
-const legacyProductLinks = {};
-
-const legacyVariantLinks = {
-  "JX074:v1": {
-    "id": "JX074",
-    "color": "v1"
-  },
-  "JX074:v2": {
-    "id": "JX074",
-    "color": "v2"
-  },
-  "JX074:v4": {
-    "id": "JX074",
-    "color": "v4"
-  },
-  "JX074:v5": {
-    "id": "JX074",
-    "color": "v5"
-  },
-  "JX074:v3": {
-    "id": "JX111",
-    "color": "v3"
-  },
-  "JX075:v1": {
-    "id": "JX075",
-    "color": "v1"
-  },
-  "JX075:v2": {
-    "id": "JX112",
-    "color": "v2"
-  },
-  "JX076:v1": {
-    "id": "JX076",
-    "color": "v1"
-  },
-  "JX076:v13": {
-    "id": "JX076",
-    "color": "v13"
-  },
-  "JX076:v2": {
-    "id": "JX113",
-    "color": "v2"
-  },
-  "JX076:v3": {
-    "id": "JX114",
-    "color": "v3"
-  },
-  "JX076:v7": {
-    "id": "JX114",
-    "color": "v7"
-  },
-  "JX076:v9": {
-    "id": "JX114",
-    "color": "v9"
-  },
-  "JX076:v4": {
-    "id": "JX115",
-    "color": "v4"
-  },
-  "JX076:v5": {
-    "id": "JX116",
-    "color": "v5"
-  },
-  "JX076:v8": {
-    "id": "JX116",
-    "color": "v8"
-  },
-  "JX076:v15": {
-    "id": "JX116",
-    "color": "v15"
-  },
-  "JX076:v6": {
-    "id": "JX117",
-    "color": "v6"
-  },
-  "JX076:v14": {
-    "id": "JX117",
-    "color": "v14"
-  },
-  "JX076:v10": {
-    "id": "JX118",
-    "color": "v10"
-  },
-  "JX076:v11": {
-    "id": "JX119",
-    "color": "v11"
-  },
-  "JX076:v12": {
-    "id": "JX120",
-    "color": "v12"
-  },
-  "JX076:v23": {
-    "id": "JX120",
-    "color": "v23"
-  },
-  "JX076:v29": {
-    "id": "JX120",
-    "color": "v29"
-  },
-  "JX076:v16": {
-    "id": "JX121",
-    "color": "v16"
-  },
-  "JX076:v19": {
-    "id": "JX121",
-    "color": "v19"
-  },
-  "JX076:v17": {
-    "id": "JX122",
-    "color": "v17"
-  },
-  "JX076:v18": {
-    "id": "JX123",
-    "color": "v18"
-  },
-  "JX076:v20": {
-    "id": "JX124",
-    "color": "v20"
-  },
-  "JX076:v21": {
-    "id": "JX125",
-    "color": "v21"
-  },
-  "JX076:v22": {
-    "id": "JX126",
-    "color": "v22"
-  },
-  "JX076:v24": {
-    "id": "JX127",
-    "color": "v24"
-  },
-  "JX076:v25": {
-    "id": "JX128",
-    "color": "v25"
-  },
-  "JX076:v27": {
-    "id": "JX128",
-    "color": "v27"
-  },
-  "JX076:v28": {
-    "id": "JX128",
-    "color": "v28"
-  },
-  "JX076:v26": {
-    "id": "JX129",
-    "color": "v26"
-  },
-  "JX076:v30": {
-    "id": "JX130",
-    "color": "v30"
-  },
-  "JX076:v31": {
-    "id": "JX131",
-    "color": "v31"
-  },
-  "JX076:v32": {
-    "id": "JX131",
-    "color": "v32"
-  },
-  "JX076:v33": {
-    "id": "JX132",
-    "color": "v33"
-  },
-  "JX076:v34": {
-    "id": "JX133",
-    "color": "v34"
-  },
-  "JX076:v35": {
-    "id": "JX134",
-    "color": "v35"
-  },
-  "JX076:v36": {
-    "id": "JX135",
-    "color": "v36"
-  },
-  "JX076:v37": {
-    "id": "JX136",
-    "color": "v37"
-  },
-  "JX076:v38": {
-    "id": "JX137",
-    "color": "v38"
-  },
-  "JX076:v39": {
-    "id": "JX138",
-    "color": "v39"
-  },
-  "JX076:v40": {
-    "id": "JX139",
-    "color": "v40"
-  },
-  "JX078:v1": {
-    "id": "JX078",
-    "color": "v1"
-  },
-  "JX078:v3": {
-    "id": "JX078",
-    "color": "v3"
-  },
-  "JX078:v2": {
-    "id": "JX140",
-    "color": "v2"
-  },
-  "JX079:v1": {
-    "id": "JX079",
-    "color": "v1"
-  },
-  "JX079:v2": {
-    "id": "JX079",
-    "color": "v2"
-  },
-  "JX079:v3": {
-    "id": "JX079",
-    "color": "v3"
-  },
-  "JX079:v4": {
-    "id": "JX079",
-    "color": "v4"
-  },
-  "JX079:v19": {
-    "id": "JX079",
-    "color": "v19"
-  },
-  "JX079:v5": {
-    "id": "JX141",
-    "color": "v5"
-  },
-  "JX079:v9": {
-    "id": "JX141",
-    "color": "v9"
-  },
-  "JX079:v11": {
-    "id": "JX141",
-    "color": "v11"
-  },
-  "JX079:v17": {
-    "id": "JX141",
-    "color": "v17"
-  },
-  "JX079:v18": {
-    "id": "JX141",
-    "color": "v18"
-  },
-  "JX079:v6": {
-    "id": "JX142",
-    "color": "v6"
-  },
-  "JX079:v8": {
-    "id": "JX143",
-    "color": "v8"
-  },
-  "JX079:v12": {
-    "id": "JX143",
-    "color": "v12"
-  },
-  "JX079:v7": {
-    "id": "JX144",
-    "color": "v7"
-  },
-  "JX079:v10": {
-    "id": "JX145",
-    "color": "v10"
-  },
-  "JX079:v13": {
-    "id": "JX146",
-    "color": "v13"
-  },
-  "JX079:v14": {
-    "id": "JX146",
-    "color": "v14"
-  },
-  "JX079:v15": {
-    "id": "JX147",
-    "color": "v15"
-  },
-  "JX079:v16": {
-    "id": "JX148",
-    "color": "v16"
-  },
-  "JX080:v1": {
-    "id": "JX080",
-    "color": "v1"
-  },
-  "JX080:v2": {
-    "id": "JX149",
-    "color": "v2"
-  },
-  "JX081:v1": {
-    "id": "JX081",
-    "color": "v1"
-  },
-  "JX081:v4": {
-    "id": "JX081",
-    "color": "v4"
-  },
-  "JX081:v2": {
-    "id": "JX150",
-    "color": "v2"
-  },
-  "JX081:v3": {
-    "id": "JX151",
-    "color": "v3"
-  },
-  "JX081:v6": {
-    "id": "JX152",
-    "color": "v6"
-  },
-  "JX081:v7": {
-    "id": "JX152",
-    "color": "v7"
-  },
-  "JX081:v8": {
-    "id": "JX153",
-    "color": "v8"
-  },
-  "JX083:v1": {
-    "id": "JX083",
-    "color": "v1"
-  },
-  "JX083:v2": {
-    "id": "JX083",
-    "color": "v2"
-  },
-  "JX083:v3": {
-    "id": "JX083",
-    "color": "v3"
-  },
-  "JX083:v4": {
-    "id": "JX083",
-    "color": "v4"
-  },
-  "JX083:v6": {
-    "id": "JX083",
-    "color": "v6"
-  },
-  "JX083:v7": {
-    "id": "JX083",
-    "color": "v7"
-  },
-  "JX083:v8": {
-    "id": "JX083",
-    "color": "v8"
-  },
-  "JX083:v9": {
-    "id": "JX083",
-    "color": "v9"
-  },
-  "JX083:v5": {
-    "id": "JX154",
-    "color": "v5"
-  },
-  "JX083:v10": {
-    "id": "JX155",
-    "color": "v10"
-  },
-  "JX085:v1": {
-    "id": "JX085",
-    "color": "v1"
-  },
-  "JX085:v2": {
-    "id": "JX085",
-    "color": "v2"
-  },
-  "JX085:v3": {
-    "id": "JX085",
-    "color": "v3"
-  },
-  "JX085:v4": {
-    "id": "JX156",
-    "color": "v4"
-  },
-  "JX086:v1": {
-    "id": "JX086",
-    "color": "v1"
-  },
-  "JX086:v2": {
-    "id": "JX086",
-    "color": "v2"
-  },
-  "JX086:v3": {
-    "id": "JX086",
-    "color": "v3"
-  },
-  "JX086:v4": {
-    "id": "JX086",
-    "color": "v4"
-  },
-  "JX086:v7": {
-    "id": "JX086",
-    "color": "v7"
-  },
-  "JX086:v8": {
-    "id": "JX086",
-    "color": "v8"
-  },
-  "JX086:v9": {
-    "id": "JX086",
-    "color": "v9"
-  },
-  "JX086:v11": {
-    "id": "JX086",
-    "color": "v11"
-  },
-  "JX086:v12": {
-    "id": "JX086",
-    "color": "v12"
-  },
-  "JX086:v6": {
-    "id": "JX157",
-    "color": "v6"
-  },
-  "JX086:v13": {
-    "id": "JX157",
-    "color": "v13"
-  },
-  "JX086:v5": {
-    "id": "JX158",
-    "color": "v5"
-  },
-  "JX086:v10": {
-    "id": "JX159",
-    "color": "v10"
-  },
-  "JX086:v14": {
-    "id": "JX160",
-    "color": "v14"
-  },
-  "JX086:v15": {
-    "id": "JX161",
-    "color": "v15"
-  },
-  "JX087:v1": {
-    "id": "JX087",
-    "color": "v1"
-  },
-  "JX087:v3": {
-    "id": "JX087",
-    "color": "v3"
-  },
-  "JX087:v5": {
-    "id": "JX087",
-    "color": "v5"
-  },
-  "JX087:v12": {
-    "id": "JX087",
-    "color": "v12"
-  },
-  "JX087:v2": {
-    "id": "JX162",
-    "color": "v2"
-  },
-  "JX087:v4": {
-    "id": "JX162",
-    "color": "v4"
-  },
-  "JX087:v6": {
-    "id": "JX162",
-    "color": "v6"
-  },
-  "JX087:v7": {
-    "id": "JX162",
-    "color": "v7"
-  },
-  "JX087:v8": {
-    "id": "JX162",
-    "color": "v8"
-  },
-  "JX087:v9": {
-    "id": "JX162",
-    "color": "v9"
-  },
-  "JX087:v13": {
-    "id": "JX162",
-    "color": "v13"
-  },
-  "JX087:v10": {
-    "id": "JX163",
-    "color": "v10"
-  },
-  "JX087:v11": {
-    "id": "JX164",
-    "color": "v11"
-  },
-  "JX088:v1": {
-    "id": "JX088",
-    "color": "v1"
-  },
-  "JX088:v2": {
-    "id": "JX165",
-    "color": "v2"
-  },
-  "JX088:v3": {
-    "id": "JX166",
-    "color": "v3"
-  },
-  "JX088:v4": {
-    "id": "JX167",
-    "color": "v4"
-  },
-  "JX088:v5": {
-    "id": "JX167",
-    "color": "v5"
-  },
-  "JX088:v6": {
-    "id": "JX167",
-    "color": "v6"
-  },
-  "JX089:v1": {
-    "id": "JX089",
-    "color": "v1"
-  },
-  "JX091:v1": {
-    "id": "JX091",
-    "color": "v1"
-  },
-  "JX091:v2": {
-    "id": "JX168",
-    "color": "v2"
-  },
-  "JX092:v1": {
-    "id": "JX092",
-    "color": "v1"
-  },
-  "JX092:v2": {
-    "id": "JX169",
-    "color": "v2"
-  },
-  "JX094:v1": {
-    "id": "JX094",
-    "color": "v1"
-  },
-  "JX094:v2": {
-    "id": "JX170",
-    "color": "v2"
-  },
-  "JX094:v3": {
-    "id": "JX170",
-    "color": "v3"
-  },
-  "JX094:v4": {
-    "id": "JX170",
-    "color": "v4"
-  },
-  "JX094:v5": {
-    "id": "JX170",
-    "color": "v5"
-  },
-  "JX094:v6": {
-    "id": "JX170",
-    "color": "v6"
-  },
-  "JX094:v7": {
-    "id": "JX170",
-    "color": "v7"
-  },
-  "JX094:v8": {
-    "id": "JX170",
-    "color": "v8"
-  },
-  "JX094:v9": {
-    "id": "JX170",
-    "color": "v9"
-  },
-  "JX094:v10": {
-    "id": "JX171",
-    "color": "v10"
-  },
-  "JX094:v11": {
-    "id": "JX172",
-    "color": "v11"
-  },
-  "JX100:v1": {
-    "id": "JX100",
-    "color": "v1"
-  },
-  "JX100:v2": {
-    "id": "JX173",
-    "color": "v2"
-  },
-  "JX100:v3": {
-    "id": "JX173",
-    "color": "v3"
-  },
-  "JX100:v4": {
-    "id": "JX173",
-    "color": "v4"
-  },
-  "JX100:v5": {
-    "id": "JX173",
-    "color": "v5"
-  },
-  "JX100:v6": {
-    "id": "JX174",
-    "color": "v6"
-  },
-  "JX101:v1": {
-    "id": "JX101",
-    "color": "v1"
-  },
-  "JX101:v2": {
-    "id": "JX175",
-    "color": "v2"
-  },
-  "JX101:v3": {
-    "id": "JX175",
-    "color": "v3"
-  },
-  "JX102:v1": {
-    "id": "JX102",
-    "color": "v1"
-  },
-  "JX102:v2": {
-    "id": "JX102",
-    "color": "v2"
-  },
-  "JX102:v4": {
-    "id": "JX102",
-    "color": "v4"
-  },
-  "JX102:v5": {
-    "id": "JX102",
-    "color": "v5"
-  },
-  "JX102:v3": {
-    "id": "JX176",
-    "color": "v3"
-  },
-  "JX102:v6": {
-    "id": "JX176",
-    "color": "v3"
-  },
-  "JX102:v8": {
-    "id": "JX177",
-    "color": "v8"
-  },
-  "JX102:v9": {
-    "id": "JX177",
-    "color": "v9"
-  },
-  "JX102:v7": {
-    "id": "JX178",
-    "color": "v7"
-  },
-  "JX102:v4plain": {
-    "id": "JX179",
-    "color": "v4plain"
-  },
-  "JX102:v5plain": {
-    "id": "JX179",
-    "color": "v5plain"
-  },
-  "JX103:v1": {
-    "id": "JX103",
-    "color": "v1"
-  },
-  "JX103:v2": {
-    "id": "JX103",
-    "color": "v2"
-  },
-  "JX103:v4": {
-    "id": "JX103",
-    "color": "v4"
-  },
-  "JX103:v5": {
-    "id": "JX103",
-    "color": "v5"
-  },
-  "JX103:v6": {
-    "id": "JX103",
-    "color": "v6"
-  },
-  "JX103:v7": {
-    "id": "JX103",
-    "color": "v7"
-  },
-  "JX103:v9": {
-    "id": "JX103",
-    "color": "v9"
-  },
-  "JX103:v13": {
-    "id": "JX103",
-    "color": "v9"
-  },
-  "JX103:v14": {
-    "id": "JX103",
-    "color": "v2"
-  },
-  "JX103:v3": {
-    "id": "JX180",
-    "color": "v3"
-  },
-  "JX103:v10": {
-    "id": "JX180",
-    "color": "v10"
-  },
-  "JX103:v11": {
-    "id": "JX180",
-    "color": "v11"
-  },
-  "JX103:v12": {
-    "id": "JX180",
-    "color": "v12"
-  },
-  "JX103:v8": {
-    "id": "JX181",
-    "color": "v8"
-  },
-  "JX103:v15": {
-    "id": "JX181",
-    "color": "v15"
-  },
-  "JX103:v16": {
-    "id": "JX181",
-    "color": "v16"
-  },
-  "JX104:v1": {
-    "id": "JX104",
-    "color": "v1"
-  },
-  "JX104:v2": {
-    "id": "JX182",
-    "color": "v2"
-  },
-  "JX105:v1": {
-    "id": "JX105",
-    "color": "v1"
-  },
-  "JX105:v2": {
-    "id": "JX105",
-    "color": "v2"
-  },
-  "JX105:v3": {
-    "id": "JX105",
-    "color": "v3"
-  },
-  "JX105:v4": {
-    "id": "JX105",
-    "color": "v4"
-  },
-  "JX105:v5": {
-    "id": "JX105",
-    "color": "v5"
-  },
-  "JX105:v6": {
-    "id": "JX183",
-    "color": "v6"
-  }
-};

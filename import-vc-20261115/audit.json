@@ -1,0 +1,270 @@
+{
+  "source": "江诗丹顿.zip",
+  "date": "2026-11-15",
+  "baseline": "10c3cc46406c6c86c5e330e48dcfbe8d97d0d661",
+  "sourcePhotos": 141,
+  "selectedPhotos": 78,
+  "addedSeries": 7,
+  "addedVariants": 16,
+  "officialFamilyReferences": [
+    "https://www.vacheron-constantin.com/au/en/watches/all-collections/patrimony.html",
+    "https://www.vacheron-constantin.com/ww/en/watches/all-collections/overseas.html",
+    "https://www.vacheron-constantin.com/ch/en/collections/historiques/4200h-222a-b934.html"
+  ],
+  "plan": [
+    {
+      "target": "JX106",
+      "family": "Patrimony Date",
+      "design": "Baton dial · Date at six o’clock",
+      "band": "leather",
+      "label": "Black dial · Gold-tone case · Brown strap",
+      "main": 1,
+      "details": [
+        4,
+        7,
+        8
+      ],
+      "product": "JX106",
+      "variant": "v3"
+    },
+    {
+      "target": null,
+      "family": "Patrimony",
+      "design": "Two-hand dial · No date · Closed caseback",
+      "band": "leather",
+      "label": "White dial · Gold-tone case · Black strap",
+      "main": 10,
+      "details": [
+        13,
+        16,
+        17,
+        18
+      ],
+      "product": "JX476",
+      "variant": "v1"
+    },
+    {
+      "target": "JX174",
+      "family": "Overseas",
+      "design": "Plain bezel · Centre seconds and date",
+      "band": "metal",
+      "label": "Black dial · Silver-tone bracelet",
+      "main": 21,
+      "details": [
+        22,
+        24
+      ],
+      "product": "JX174",
+      "variant": "v7"
+    },
+    {
+      "target": "JX106",
+      "family": "Patrimony Date",
+      "design": "Baton dial · Date at six o’clock",
+      "band": "leather",
+      "label": "White dial · Gold-tone case · Brown strap",
+      "main": 25,
+      "details": [
+        28,
+        31,
+        32,
+        33
+      ],
+      "product": "JX106",
+      "variant": "v4"
+    },
+    {
+      "target": null,
+      "family": "Overseas",
+      "design": "Moonphase-style display · Date window",
+      "band": "leather",
+      "label": "Silver dial · Silver-tone case · Black strap",
+      "main": 34,
+      "details": [
+        37,
+        39,
+        41,
+        42
+      ],
+      "product": "JX477",
+      "variant": "v1"
+    },
+    {
+      "target": null,
+      "family": "Overseas",
+      "design": "Arabic and baton dial · Textured dial · Date window",
+      "band": "rubber",
+      "label": "White dial · Black case · Black strap",
+      "main": 43,
+      "details": [
+        47,
+        48,
+        50,
+        51
+      ],
+      "product": "JX478",
+      "variant": "v1"
+    },
+    {
+      "target": "JX174",
+      "family": "Overseas",
+      "design": "Plain bezel · Centre seconds and date",
+      "band": "metal",
+      "label": "Blue dial · Silver-tone bracelet",
+      "main": 52,
+      "details": [
+        55,
+        56,
+        59,
+        60
+      ],
+      "product": "JX174",
+      "variant": "v8"
+    },
+    {
+      "target": null,
+      "family": "Patrimony",
+      "design": "Two-hand dial · No date · Display caseback",
+      "band": "leather",
+      "label": "White dial · Silver-tone case · Black strap",
+      "main": 61,
+      "details": [
+        64,
+        65,
+        67,
+        68
+      ],
+      "product": "JX479",
+      "variant": "v1"
+    },
+    {
+      "target": null,
+      "family": "Overseas",
+      "design": "Arabic and baton dial · Textured dial · Date window",
+      "band": "metal",
+      "label": "White dial · Silver-tone bracelet",
+      "main": 70,
+      "details": [
+        74,
+        76,
+        77,
+        78
+      ],
+      "product": "JX480",
+      "variant": "v1"
+    },
+    {
+      "target": null,
+      "family": "Overseas Ultra Thin",
+      "design": "Two-hand dial · No date",
+      "band": "metal",
+      "label": "Grey dial · Silver-tone bracelet",
+      "main": 79,
+      "details": [
+        82,
+        85,
+        86,
+        87
+      ],
+      "product": "JX481",
+      "variant": "v1"
+    },
+    {
+      "target": null,
+      "family": "Overseas Ultra Thin",
+      "design": "Two-hand dial · No date",
+      "band": "metal",
+      "label": "Blue dial · Silver-tone bracelet",
+      "main": 88,
+      "details": [
+        91,
+        94,
+        95,
+        96
+      ],
+      "product": "JX481",
+      "variant": "v2"
+    },
+    {
+      "target": null,
+      "family": "Historiques 222",
+      "design": "Baton dial · Fluted bezel · Date window",
+      "band": "metal",
+      "label": "Grey dial · Silver-tone bracelet",
+      "main": 97,
+      "details": [
+        99,
+        101,
+        103,
+        104
+      ],
+      "product": "JX482",
+      "variant": "v1"
+    },
+    {
+      "target": null,
+      "family": "Historiques 222",
+      "design": "Baton dial · Fluted bezel · Date window",
+      "band": "metal",
+      "label": "Black dial · Silver-tone bracelet",
+      "main": 106,
+      "details": [
+        108,
+        110,
+        111,
+        112,
+        113
+      ],
+      "product": "JX482",
+      "variant": "v2"
+    },
+    {
+      "target": null,
+      "family": "Historiques 222",
+      "design": "Baton dial · Fluted bezel · Date window",
+      "band": "metal",
+      "label": "Green dial · Silver-tone bracelet",
+      "main": 115,
+      "details": [
+        117,
+        119,
+        121,
+        122
+      ],
+      "product": "JX482",
+      "variant": "v3"
+    },
+    {
+      "target": null,
+      "family": "Historiques 222",
+      "design": "Baton dial · Fluted bezel · Date window",
+      "band": "metal",
+      "label": "White dial · Silver-tone bracelet",
+      "main": 124,
+      "details": [
+        126,
+        128,
+        130,
+        131
+      ],
+      "product": "JX482",
+      "variant": "v4"
+    },
+    {
+      "target": null,
+      "family": "Historiques 222",
+      "design": "Baton dial · Fluted bezel · Date window",
+      "band": "metal",
+      "label": "Blue dial · Silver-tone bracelet",
+      "main": 133,
+      "details": [
+        135,
+        137,
+        139,
+        140
+      ],
+      "product": "JX482",
+      "variant": "v5"
+    }
+  ]
+}
