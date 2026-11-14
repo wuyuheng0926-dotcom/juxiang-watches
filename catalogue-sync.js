@@ -10,7 +10,7 @@ function merge(p,o){if(!o)return p;const variants=p.variants.map(v=>({...v,...(o
 function apply(snapshot){
  if(snapshot.schema!==1||!Array.isArray(snapshot.products))throw Error('Invalid catalogue');
  const patches=new Map(snapshot.products.map(x=>[x.id,x.data]));
- const next=products.map(p=>merge(p,patches.get(p.id))).map(p=>({...p,variants:p.variants.filter(v=>!v.adminDeleted&&!v.adminUnpublished)})).filter(p=>p.variants.length);
+ const next=products.map(p=>merge(p,patches.get(p.id))).map(p=>({...p,priceUSD:null,variants:p.variants.filter(v=>!v.adminDeleted&&!v.adminUnpublished)})).filter(p=>p.variants.length);
  products.splice(0,products.length,...next);
  const track=document.querySelector('.hero-track'),dots=document.querySelector('.hero-dots');
  if(track){const choices=[];for(const slide of [...track.children]){const link=slide.querySelector('a'),p=products.find(p=>p.id===slide.dataset.product);if(!p)continue;const v=p.variants.find(v=>v.key===link.dataset.color&&!v.catalogHidden)||p.variants.find(v=>!v.catalogHidden);if(p&&v&&!choices.some(x=>x.p.id===p.id))choices.push({p,v});}
