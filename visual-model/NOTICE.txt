@@ -1,0 +1,9 @@
+JUXIANG local visual search
+
+TensorFlow.js 4.22.0 and WASM backend 4.22.0: https://github.com/tensorflow/tfjs/tree/v4.22.0
+MobileNet V1 1.0 224 weights: https://storage.googleapis.com/tfjs-models/tfjs/mobilenet_v1_1.0_224/model.json
+The original component notices remain in the bundled JavaScript.
+
+The image index contains appearance descriptors for existing seller-provided catalogue photographs. Customer images are processed in the current browser and are not sent to an image recognition service. Results are approximate visual matches, not product authentication or verified model identification.
+
+Maintenance: after importing or replacing catalogue images, serve the repository with a static HTTP server and open tools/generate-visual-index.html. Keep the downloaded index as visual-index-20261114.json, review it and deploy together with the updated catalogue. Do not change the model or crop preprocessing without rebuilding the complete index. No image API key is used.

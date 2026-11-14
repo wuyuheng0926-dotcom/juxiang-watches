@@ -36,7 +36,7 @@ function matchesSearch(p, term, variant) {
 }
 function matchingColour(p) { return Math.max(0, p.variants.findIndex(v => matchesSearch(p, searchTerm, v))); }
 const photoFiles = new Map(), selectedColors = new Map();
-let activeBrand='All', activeSeries='All', activeBand='All', searchTerm='', currentPage=1;
+let activeBrand='All', activeSeries='All', activeBand='All', activeColor='All', searchTerm='', currentPage=1, photoMatches=null;
 // Individual colour cards keep the original product and variant keys intact.
 const seriesName=p=>p.baseFamily||p.family.split(' — ')[0];
 const catalogBrands=['Rolex','Patek Philippe','Vacheron Constantin','Omega','Richard Mille','Piaget'];
@@ -48,6 +48,10 @@ function finishGroup(v){
  const finish=parts.find(s=>/^(?:silver|rose|yellow|gold|warm|dark|black)(?:[- ]tone)?(?: case| bracelet)?$/i.test(s)||/^(?:rose|yellow)?\s*two-tone$/i.test(s));
  return finish?finish.toLowerCase().replace(/-/g,' '):'unspecified';
 }
+const dialRules=[["black",/black|黑|墨/iu],["white",/white|白/iu],["blue",/blue|navy|turquoise|teal|蓝|藍|青/iu],["green",/green|olive|绿|綠/iu],["grey",/gr[ae]y|slate|灰/iu],["silver",/silver|银|銀/iu],["gold",/gold|champagne|香槟|香檳|金/iu],["pink",/pink|rose|粉|玫瑰/iu],["brown",/brown|chocolate|taupe|beige|棕|咖|褐|米/iu],["red",/red|burgundy|红|紅/iu],["orange",/orange|橙|橘/iu],["yellow",/yellow|黄|黃/iu],["purple",/purple|violet|紫/iu]];
+function classifyDial(v){var en=v.label||'',zh=v.labelZh||'',m=en.match(/([^·]*?)\bdial\b/i),z=zh.match(/([^·]*?)(?:盘|盤)/);var first=en.split('·')[0].trim();var text=m?m[1]:z?z[1]:!/(strap|bracelet|case|bezel|tone)/i.test(first)?first:'';var colors=dialRules.filter(([,re])=>re.test(text)).map(([key])=>key);if(/rainbow|multicolou?r|彩|多色/i.test(text))colors.push('multicolour');if(!colors.length&&/skeleton|openworked|镂空|鏤空/i.test(text))colors.push('skeleton');if(!colors.length&&/light|浅|淺/i.test(text))colors.push('light');if(!colors.length&&/dark|深/i.test(text))colors.push('dark');return [...new Set(colors.length?colors:['unconfirmed'])]}
+const dialColorNames={"black":"Black dial","white":"White dial","blue":"Blue dial","green":"Green dial","grey":"Grey dial","silver":"Silver dial","gold":"Gold / champagne dial","pink":"Pink dial","brown":"Brown dial","red":"Red dial","orange":"Orange dial","yellow":"Yellow dial","purple":"Purple dial","multicolour":"Multicolour dial","skeleton":"Openworked dial","light":"Light dial","dark":"Dark dial","unconfirmed":"Other / unconfirmed"};
+
 const catalogEntries=products.flatMap((p,productOrder)=>p.variants.filter(v=>!v.catalogHidden).map((v,variantOrder)=>({p,v,productOrder,variantOrder,series:seriesName(p),finish:finishGroup(v),code:p.id+'-'+v.key}))).sort((a,b)=>
  brandRank(a.p.brand)-brandRank(b.p.brand)||catalogCompare(a.p.brand,b.p.brand)||catalogCompare(a.series,b.series)||
  catalogCompare(a.p.designDetails||a.p.family,b.p.designDetails||b.p.family)||catalogCompare(a.p.band,b.p.band)||
@@ -57,7 +61,8 @@ document.documentElement.dataset.mobileColumns=mobileCatalogColumns;
 function catalogColumns(){return matchMedia('(max-width:767px)').matches?mobileCatalogColumns:matchMedia('(min-width:1100px)').matches?4:matchMedia('(min-width:800px)').matches?3:2;}
 function pageSize(){return catalogColumns()*3;}
 function filteredProducts(){
- return catalogEntries.filter(({p,v,series,code})=>(activeBrand==='All'||p.brand===activeBrand)&&(activeSeries==='All'||series===activeSeries)&&(activeBand==='All'||p.band===activeBand)&&(normalizeSearch(code)===normalizeSearch(searchTerm)||matchesSearch(p,searchTerm,v)));
+ const list=catalogEntries.filter(({p,v,series,code})=>(activeBrand==='All'||p.brand===activeBrand)&&(activeSeries==='All'||series===activeSeries)&&(activeBand==='All'||p.band===activeBand)&&(activeColor==='All'||classifyDial(v).includes(activeColor))&&(!photoMatches||photoMatches.has(code))&&(normalizeSearch(code)===normalizeSearch(searchTerm)||matchesSearch(p,searchTerm,v)));
+ return photoMatches?list.sort((a,b)=>photoMatches.get(b.code)-photoMatches.get(a.code)):list;
 }
 let restoringNavigation=false, ignoredDetailCloses=0, detailController, enquirySelection=null;
 let detailProduct=null, detailVariant=null;
@@ -75,6 +80,7 @@ function updateUrl(design, mode='push', color) {
   if(activeBrand!=='All')q.set('brand',activeBrand);
   if(activeSeries!=='All')q.set('series',activeSeries);
   if(activeBand!=='All')q.set('band',activeBand);
+  if(activeColor!=='All')q.set('dial',activeColor);
   if(currentPage>1)q.set('page',String(currentPage));
   if(design){q.set('design',design);if(color)q.set('color',color);}
   navigateTo(location.pathname+(q.size?'?'+q:'')+'#collection',mode,!!design);
@@ -96,7 +102,10 @@ function syncControls(){
  const seriesValues=[...new Set(catalogEntries.filter(e=>activeBrand==='All'||e.p.brand===activeBrand).map(e=>e.series))].sort(catalogCompare);
  makeCatalogSelect($('seriesFilters'),['All',...seriesValues],activeSeries,value=>{activeSeries=value;currentPage=1;render();updateUrl();},v=>v==='All'?'All series / 全部系列':v+(familyAliases[v]?' / '+familyAliases[v].split(' ')[0]:''),'Series / 系列');
  makeCatalogSelect($('strapFilters'),['All',...new Set(products.map(p=>p.band))],activeBand,value=>{activeBand=value;currentPage=1;render();updateUrl();},v=>v==='All'?'All straps / 全部表带':bandLabels[v],'Strap / 表带');
+ const colours=['All',...Object.keys(dialColorNames).filter(c=>catalogEntries.some(e=>classifyDial(e.v).includes(c)))];
+ makeCatalogSelect($('dialFilters'),colours,activeColor,value=>{activeColor=value;currentPage=1;render();updateUrl();},v=>v==='All'?'All dial colours':dialColorNames[v],'Dial colour');
 }
+function clearPhotoResults(){photoMatches=null;$('photoResults').hidden=true;}
 function selectionPhoto(image,alt,attrs='',panel){
   if(!panel)return '<img src="assets/'+esc(image)+'.jpg" alt="'+esc(alt)+'" '+attrs+'>';
   const pos=panel.total===1?0:100*panel.index/(panel.total-1);
@@ -189,15 +198,15 @@ function readLocation(){
   const requestedSeries=q.get('series'),oldSeries=products.find(p=>p.family===requestedSeries);
   const broadSeries=oldSeries?seriesName(oldSeries):requestedSeries;
   activeSeries=products.some(p=>seriesName(p)===broadSeries&&(activeBrand==='All'||p.brand===activeBrand))?broadSeries:'All';
-  activeBand=Object.hasOwn(bandLabels,q.get('band'))?q.get('band'):'All';currentPage=Math.max(1,parseInt(q.get('page'),10)||1);return q;
+  activeBand=Object.hasOwn(bandLabels,q.get('band'))?q.get('band'):'All';activeColor=Object.hasOwn(dialColorNames,q.get('dial'))?q.get('dial'):'All';currentPage=Math.max(1,parseInt(q.get('page'),10)||1);return q;
 }
 function restoreNavigation(){
-  restoringNavigation=true;closeDetailQuietly();document.querySelectorAll('dialog[open]').forEach(d=>d.close());
+  clearPhotoResults();restoringNavigation=true;closeDetailQuietly();document.querySelectorAll('dialog[open]').forEach(d=>d.close());
   const q=readLocation();syncControls();render();if(q.get('design'))showProduct(q.get('design'),false,q.get('color'));
   restoringNavigation=false;requestAnimationFrame(()=>{if(typeof history.state?.scrollY==='number')window.scrollTo({top:history.state.scrollY,behavior:'instant'});});
 }
 window.addEventListener('popstate',restoreNavigation);
-function goHome(){closeDetailQuietly();document.querySelectorAll('dialog[open]').forEach(d=>d.close());activeBrand=activeSeries=activeBand='All';searchTerm='';currentPage=1;syncControls();render();navigateTo(location.pathname+'#home');window.scrollTo({top:0,behavior:'smooth'});}
+function goHome(){closeDetailQuietly();document.querySelectorAll('dialog[open]').forEach(d=>d.close());clearPhotoResults();activeBrand=activeSeries=activeBand=activeColor='All';searchTerm='';currentPage=1;syncControls();render();navigateTo(location.pathname+'#home');window.scrollTo({top:0,behavior:'smooth'});}
 function goBack(){const modal=document.querySelector('dialog[open]');if(modal){modal.close();return;}if(history.state?.juxiang&&history.state.depth>0)history.back();else goHome();}
 $('detail').addEventListener('close',()=>{if(ignoredDetailCloses){ignoredDetailCloses--;return;}if(!new URLSearchParams(location.search).has('design'))return;if(history.state?.detailEntry)history.back();else updateUrl(undefined,'replace');});
 document.querySelectorAll('dialog').forEach(d=>d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close();}}));
@@ -207,7 +216,7 @@ document.querySelectorAll('[data-go-home],header .brand').forEach(a=>a.addEventL
 document.querySelectorAll('[data-go-back]').forEach(b=>b.addEventListener('click',goBack));
 document.querySelectorAll('a[href^="#"]:not([data-go-home]):not(.brand)').forEach(a=>a.addEventListener('click',e=>{const target=document.getElementById(a.getAttribute('href').slice(1));if(!target)return;e.preventDefault();navigateTo(location.pathname+location.search+a.getAttribute('href'));target.scrollIntoView({behavior:'smooth'});}));
 let searchNavigationTimer;
-function runSearch(){currentPage=1;searchTerm=$('productSearch').value;activeBrand=activeSeries=activeBand='All';syncControls();render();updateUrl(undefined,searchNavigationTimer?'replace':'push');clearTimeout(searchNavigationTimer);searchNavigationTimer=setTimeout(()=>searchNavigationTimer=null,800);}
+function runSearch(){clearPhotoResults();currentPage=1;searchTerm=$('productSearch').value;activeBrand=activeSeries=activeBand=activeColor='All';syncControls();render();updateUrl(undefined,searchNavigationTimer?'replace':'push');clearTimeout(searchNavigationTimer);searchNavigationTimer=setTimeout(()=>searchNavigationTimer=null,800);}
 $('productSearch').addEventListener('input',runSearch);$('catalogSearch').onsubmit=e=>{e.preventDefault();runSearch();$('collection').scrollIntoView({behavior:'smooth'});};
 $('clearSearch').onclick=$('resetSearch').onclick=()=>{$('productSearch').value='';runSearch();$('productSearch').focus();};
 function openEnquiry(selection,type,selected=null){enquirySelection=selected;$('selection').value=selection;$('type').value=type;$('quantity').value=1;$('copyStatus').textContent='';$('copyFallback').hidden=true;$('enquiry').showModal();updateContactLink();updateEnquiryPhoto();}
@@ -260,4 +269,4 @@ window.addEventListener('resize',()=>{clearTimeout(catalogResizeTimer);catalogRe
 },180);});
 
 const floatingLayout=document.querySelector('.floating-layout');
-if(window.IntersectionObserver){new IntersectionObserver(entries=>{floatingLayout.hidden=!entries[0].isIntersecting;},{threshold:0}).observe($('collection'));}else floatingLayout.hidden=false;
+if(window.IntersectionObserver){new IntersectionObserver(entries=>{floatingLayout.hidden=!entries[0].isIntersecting;$('floatingSearch').hidden=floatingLayout.hidden;},{threshold:0}).observe($('collection'));}else{floatingLayout.hidden=false;$('floatingSearch').hidden=false;}
