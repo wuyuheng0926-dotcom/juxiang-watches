@@ -1,0 +1,49 @@
+
+/* Fixed geometry keeps the larger emblem and contact group steady while scrolling. */
+.luxury-storefront header.site-header,.luxury-storefront header.site-header.is-glass{grid-template-columns:minmax(0,1fr) 144px minmax(0,1fr);gap:18px;padding:12px 5%;align-items:center}
+.luxury-storefront .site-header .brand-centered{grid-column:2;grid-row:1;justify-self:center;margin:0}
+.luxury-storefront header.site-header .brand-emblem,.luxury-storefront header.site-header.is-glass .brand-emblem{width:144px!important;height:114px!important}
+.luxury-storefront header.site-header .brand-wordmark,.luxury-storefront header.site-header.is-glass .brand-wordmark{font-size:18px!important;letter-spacing:3px!important;margin-top:2px!important}
+.luxury-storefront .site-header .brand-chinese{display:none!important}
+.luxury-storefront .site-header nav{grid-column:1;grid-row:1;display:flex;flex-direction:row;align-items:center;justify-content:flex-start;gap:10px;width:auto;margin:0}
+.luxury-storefront header.site-header nav a,.luxury-storefront header.site-header.is-glass nav a{font-size:18px;line-height:1.2;padding:10px 13px;min-height:44px}
+.luxury-storefront .site-header .header-actions{display:flex;flex-direction:column;align-items:stretch;grid-column:3;grid-row:1;justify-self:end;gap:8px;width:330px;max-width:100%;min-width:0}
+.support-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;min-width:0}
+.luxury-storefront .site-header .header-actions .support-link{display:flex;grid-column:auto!important;grid-row:auto!important;position:static!important;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-width:0;min-height:64px;padding:9px 8px!important;text-align:center;white-space:normal;text-decoration:none}
+.support-brand{display:flex;align-items:center;justify-content:center;gap:5px;white-space:nowrap;font:italic 20px/1.15 Georgia,serif;letter-spacing:0}
+.support-brand .ui-icon{width:15px;height:15px}
+.support-link small{font:11px/1.35 'Segoe UI','Microsoft YaHei',sans-serif;letter-spacing:0;color:inherit;white-space:normal;overflow-wrap:anywhere}
+.luxury-storefront .site-header .language-control{align-self:flex-end;width:172px;max-width:100%;min-width:0;margin:0;padding:0 9px}
+.luxury-storefront .site-header .language-control select{width:100%;min-width:0;min-height:35px;padding:7px 0;margin:0}
+#catalogSearch{scroll-margin-top:16px}
+.floating-search:not([hidden]){display:grid;place-items:center;position:fixed;right:22px;bottom:24px;z-index:35;width:46px;height:46px;border-radius:50%;border:1px solid #c9b778a6;background:rgba(10,55,42,.94);color:#f4e4b9;box-shadow:0 3px 14px #001a2080;padding:11px;backdrop-filter:blur(6px);cursor:pointer}
+.floating-search svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+body:has(dialog[open]) .floating-search{display:none!important}
+@media(min-width:768px) and (max-width:1023px){
+ .luxury-storefront header.site-header,.luxury-storefront header.site-header.is-glass{grid-template-columns:minmax(0,1fr) 124px minmax(0,1fr);gap:12px;padding-inline:4%}
+ .luxury-storefront header.site-header .brand-emblem,.luxury-storefront header.site-header.is-glass .brand-emblem{width:124px!important;height:98px!important}
+ .support-brand{font-size:18px}
+ .luxury-storefront header.site-header nav a,.luxury-storefront header.site-header.is-glass nav a{font-size:16px;padding:9px}
+}
+@media(max-width:767px){
+ .luxury-storefront header.site-header,.luxury-storefront header.site-header.is-glass{grid-template-columns:minmax(0,1fr) 112px minmax(0,1fr);grid-template-rows:auto auto;gap:8px 10px;padding:8px 12px}
+ .luxury-storefront header.site-header .brand-emblem,.luxury-storefront header.site-header.is-glass .brand-emblem{width:112px!important;height:89px!important}
+ .luxury-storefront header.site-header .brand-wordmark,.luxury-storefront header.site-header.is-glass .brand-wordmark{font-size:15px!important;letter-spacing:2px!important;margin-top:2px!important}
+ .luxury-storefront .site-header nav{grid-column:1;grid-row:1;flex-direction:column;align-items:stretch;gap:6px;width:100%;min-width:0}
+ .luxury-storefront header.site-header nav a,.luxury-storefront header.site-header.is-glass nav a{font-size:13px!important;min-height:32px!important;padding:6px 4px!important;text-align:center}
+ .luxury-storefront .site-header .header-actions{display:contents}
+ .support-links{grid-column:1/-1;grid-row:2;width:100%;gap:8px}
+ .luxury-storefront .site-header .header-actions .support-link{min-height:49px!important;padding:6px 8px!important;gap:3px}
+ .support-brand{font-size:16px}.support-brand .ui-icon{width:12px;height:12px}
+ .support-link small{font-size:10px;line-height:1.3}
+ .luxury-storefront .site-header .language-control{grid-column:3;grid-row:1;align-self:center;justify-self:stretch;max-width:100%;width:100%;padding:0 5px;gap:4px;margin:0}
+ .luxury-storefront .site-header .language-control .ui-icon{width:12px;height:12px}
+ .luxury-storefront .site-header .language-control select{font-size:10px;min-height:34px;padding:6px 0}
+ .floating-search:not([hidden]){right:12px;bottom:calc(env(safe-area-inset-bottom,0px) + 96px);width:44px;height:44px;padding:10px}
+}
+@media(max-width:359px){
+ .luxury-storefront header.site-header,.luxury-storefront header.site-header.is-glass{grid-template-columns:minmax(0,1fr) 94px minmax(0,1fr);padding-inline:8px;gap:7px 8px}
+ .luxury-storefront header.site-header .brand-emblem,.luxury-storefront header.site-header.is-glass .brand-emblem{width:94px!important;height:75px!important}
+ .luxury-storefront header.site-header .brand-wordmark,.luxury-storefront header.site-header.is-glass .brand-wordmark{font-size:13px!important}
+ .support-brand{font-size:15px}
+}
