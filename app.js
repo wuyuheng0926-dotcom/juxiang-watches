@@ -23,14 +23,14 @@ const familyAliases = {
   'Moon Phase':'月相', Chronograph:'计时 計時', 'Travel Time':'旅行时间 两地时', 'Aqua Terra':'海马 海馬',
   Worldtimer:'世界时 世界時 地球', 'Planet Ocean':'海马 海馬 海洋宇宙', 'Diver 300M':'海马 海馬 潜水300 波纹', 'De Ville':'蝶飞 碟飞 碟飛'
 };
-const normalizeSearch = value => String(value || '').normalize('NFKD').toLowerCase().replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9\u3400-\u9fff]/g,'');
+const normalizeSearch = value => String(value || '').normalize('NFKD').toLowerCase().replace(/[\u0300-\u036f]/g,'').replace(/[^\p{L}\p{N}]/gu,'');
 function matchesSearch(p, term, variant) {
   if (!term.trim()) return true;
   const code = normalizeSearch(term);
   if (/^jx[\s_-]*\d+(?:[\s:_-]*v\d+)?$/i.test(term.trim())) return variant && /v\d+$/i.test(term.trim()) ? normalizeSearch(p.id+'-'+variant.key)===code : normalizeSearch(p.id).startsWith(code);
   const aliases = Object.entries(familyAliases).filter(([k]) => p.family.includes(k)).map(([,v]) => v).join(' ');
   const variants = variant ? [variant] : p.variants;
-  const haystack = normalizeSearch([p.id,p.brand,brandAliases[p.brand],p.family,p.nameZh,p.bandName,p.bandNameZh,bandAliases[p.band],aliases,...variants.flatMap(v=>[v.label,v.labelZh])].join(' '));
+  const haystack = normalizeSearch([p.id,p.brand,brandAliases[p.brand],p.family,p.nameZh,p.bandName,p.bandNameZh,bandAliases[p.band],aliases,...[p.brand,p.family,p.name,p.bandName,...variants.map(v=>v.label)].map(s=>window.JXI18n?.translate(s)||s),...variants.flatMap(v=>[v.label,v.labelZh])].join(' '));
   return term.trim().split(/\s+/).every(word => haystack.includes(normalizeSearch(word)));
 }
 function matchingColour(p) { return Math.max(0, p.variants.findIndex(v => matchesSearch(p, searchTerm, v))); }

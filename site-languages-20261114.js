@@ -10,7 +10,9 @@ for(const row of rows)for(const value of row)dictionary.set(normal(value),row);
 dictionary.set(normal('搜索名称 / 产品编号'),rows.find(r=>r[0]==='Search name or code'));
 dictionary.set(normal('点击查看详情'),rows.find(r=>r[0]==='View details'));
 dictionary.set(normal('未找到匹配产品'),rows.find(r=>r[0]==='No matching watches'));
-const glossary=new Map([...rows,...terms].map(row=>[normal(row[0]),row]));
+const completeRows=(window.JXFullTranslations||[]).map(([source,...values])=>({source,values}));
+for(const {source,values} of completeRows)if(!dictionary.has(normal(source)))dictionary.set(normal(source),values);
+const glossary=new Map([...completeRows.map(({source,values})=>[source,...values.slice(1)]),...rows,...terms].map(row=>[normal(row[0]),row]));
 const escape=s=>s.replace(/[.*+?^$()|[\]\\]/g,'\\$&');
 const phrasePattern=new RegExp('\\b('+[...glossary.keys()].sort((a,b)=>b.length-a.length).map(escape).join('|')+')\\b','gi');
 let locale='en';try{locale=localStorage.getItem('juxiang.language')||''}catch{}
@@ -22,6 +24,8 @@ function translate(source){
  const raw=source.replace(/\uFE0F/g,'');const trimmed=raw.trim();if(!trimmed)return raw;
  const base=english(trimmed);let row=dictionary.get(normal(trimmed))||dictionary.get(normal(base));
  if(row)return raw.replace(trimmed,row[index()]);
+ let numberLabel=base.match(/^(\d+) of (\d+)$/);if(numberLabel)return numberLabel[1]+' '+pageWords[locale][1]+' '+numberLabel[2];
+ if(/^0 watches/.test(base))return '0 '+word('Watches');
  let m=base.match(/^(\d+)–(\d+)\s*\/\s*(\d+)\s+selections/i);if(m)return m[1]+'–'+m[2]+' / '+m[3]+' '+pageWords[locale][2];
  m=base.match(/^Page (\d+) of (\d+)/i);if(m){const w=pageWords[locale];return w[0]+' '+m[1]+' '+w[1]+' '+m[2]}
  if(/^Search\s*·/.test(base))return word('Search · Brand / series / colour / code');
@@ -74,10 +78,12 @@ locales.forEach((value,i)=>{const option=document.createElement('option');option
 document.querySelector('[data-globe]').append(icon('globe'));document.querySelector('[data-down]').append(icon('down'));
 document.querySelectorAll('.service-seal i').forEach((el,i)=>el.replaceChildren(icon(['sparkle','diamond','star'][i])));
 let queued=false;const dirty=new Set();
-const observer=new MutationObserver(records=>{for(const record of records){if(record.type==='characterData')dirty.add(record.target);else for(const child of record.addedNodes)dirty.add(child)}if(!queued){queued=true;requestAnimationFrame(flush)}});
-function observe(){observer.observe(document.body,{childList:true,subtree:true,characterData:true})}
-function flush(){queued=false;observer.disconnect();for(const root of dirty)if(root.isConnected)walk(root);dirty.clear();observe()}
-function apply(){observer.disconnect();document.documentElement.lang=locale;document.documentElement.dir='ltr';select.value=locale;select.setAttribute('aria-label',word('Language'));walk(document.body);observe();window.dispatchEvent(new Event('jx-language-change'))}
+const observer=new MutationObserver(records=>{for(const record of records){if(record.type==='characterData'||record.type==='attributes')dirty.add(record.target);else for(const child of record.addedNodes)dirty.add(child)}if(!queued){queued=true;requestAnimationFrame(flush)}});
+function observe(){observer.observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['open','aria-label','title','alt','placeholder']})}
+const valueCache=new WeakMap();
+function localizeValues(){for(const id of ['enquiryCode','enquiryColour','selection']){const el=document.getElementById(id);if(!el||!el.value)continue;const old=valueCache.get(el),source=old&&el.value===old.last?old.source:el.value,last=translate(source);if(last!==el.value)el.value=last;valueCache.set(el,{source,last});}}
+function flush(){queued=false;observer.disconnect();for(const root of dirty)if(root.isConnected)walk(root);dirty.clear();localizeValues();observe()}
+function apply(){observer.disconnect();document.documentElement.lang=locale;document.documentElement.dir='ltr';select.value=locale;select.setAttribute('aria-label',word('Language'));walk(document.head);walk(document.body);localizeValues();document.title=['JUXIANG | Fine watches · Retail & wholesale','JUXIANG 具象表业 | 高端腕表 · 零售与批发','JUXIANG | Relojes · Venta minorista y mayorista','JUXIANG | Montres · Vente au détail et en gros','JUXIANG | Uhren · Einzel- und Großhandel','جيوشيانغ | ساعات راقية · التجزئة والجملة'][index()];observe();window.dispatchEvent(new Event('jx-language-change'))}
 select.addEventListener('change',()=>{locale=select.value;try{localStorage.setItem('juxiang.language',locale)}catch{}apply()});
 window.JXI18n={get language(){return locale},setLanguage(value){if(!locales.includes(value))return;locale=value;try{localStorage.setItem('juxiang.language',locale)}catch{}apply()},translate,refresh:apply};
 const dialog=document.getElementById('detail'),hint=dialog.querySelector('.detail-scroll-hint');
@@ -85,5 +91,6 @@ function hintState(){hint.hidden=!dialog.open||!matchMedia('(max-width:767px)').
 hint.addEventListener('click',()=>{const summary=dialog.querySelector('.series-summary');if(summary){const top=summary.getBoundingClientRect().top-dialog.getBoundingClientRect().top+dialog.scrollTop-32;dialog.scrollTo({top,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'})}});
 dialog.addEventListener('scroll',hintState,{passive:true});window.addEventListener('resize',hintState,{passive:true});
 new MutationObserver(records=>{if(records.some(r=>r.attributeName==='open')&&dialog.open)dialog.scrollTop=0;requestAnimationFrame(hintState)}).observe(dialog,{attributes:true,attributeFilter:['open'],childList:true,subtree:true});
+document.addEventListener('DOMContentLoaded',()=>{const refreshContactLanguage=()=>{document.querySelectorAll('[data-direct-contact]').forEach(a=>{const href=buildContactUrl(siteSettings.contactUrl,makeEnquiryText({type:'Retail / Wholesale',selection:'General enquiry'}));if(href)a.href=href});if(typeof detailProduct!=='undefined'&&detailProduct&&detailVariant&&document.getElementById('detailContact'))document.getElementById('detailContact').href=buildContactUrl(siteSettings.contactUrl,makeEnquiryText(productEnquiryFields(detailProduct,location.origin,{},detailVariant)));if(document.getElementById('enquiry').open)updateContactLink();localizeValues();};window.addEventListener('jx-language-change',refreshContactLanguage);refreshContactLanguage();});
 apply();
 })();
