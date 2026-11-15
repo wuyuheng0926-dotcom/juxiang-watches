@@ -21,7 +21,7 @@ let core='';for(const [name,value]of Object.entries({...c.result,products}))core
 const names=dir=>fs.readdirSync(out+'/assets/'+dir).filter(x=>x.endsWith('.webp')).map(x=>x.slice(0,-5));
 core+='window.JXThumbnailIds=new Set('+JSON.stringify(names('thumbs'))+');window.JXHeroIds=new Set('+JSON.stringify(names('hero'))+');window.JXCatalogueBuild='+JSON.stringify(process.env.RENDER_GIT_COMMIT||'mobile-fast-1')+';';
 fs.writeFileSync(out+'/catalog.js',core);
-fs.writeFileSync(out+'/storefront-core.js',['contact.js','price-access.js','app.js','site-languages-20261114.js'].map(f=>fs.readFileSync(f,'utf8')).join('\n;\n'));
+fs.writeFileSync(out+'/storefront-core.js',['contact.js','price-access.js','app.js','site-languages-20261114.js','cart-20261115.js'].map(f=>fs.readFileSync(f,'utf8')).join('\n;\n'));
 let html=scrubLogo(h).replace(/<link rel="stylesheet" href="[^"]+">/g,'');
 html=html.replace('</head>','<link rel="stylesheet" href="mobile-storefront.css?v=mobile-detail-1"><link rel="preload" as="script" href="storefront-core.js?v=mobile-detail-1"></head>');
 html=html.replace('href="assets/jx-emblem-light-20261114.png"','href="assets/jx-favicon.png"');
