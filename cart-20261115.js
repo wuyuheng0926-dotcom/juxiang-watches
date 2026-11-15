@@ -98,7 +98,7 @@ dialog.addEventListener('change',e=>{
  const quantity=Number(input.value);row.quantity=Number.isFinite(quantity)?Math.max(1,Math.min(maxQuantity,Math.floor(quantity))):row.quantity;persist();notice='';render();sync();
 });
 window.addEventListener('jx-prices-change',sync);
-window.addEventListener('jx-language-change',sync);
+window.addEventListener('jx-language-change',()=>{lastRendered='';sync()});
 window.addEventListener('jx-catalogue-change',()=>{reconcile();sync()});
 window.addEventListener('storage',e=>{if(e.key!==storageKey)return;try{lines=normalize(JSON.parse(e.newValue||'[]'))}catch{lines=[]}sync()});
 // Timer also protects against an expiry while a tab's other timers are throttled.
