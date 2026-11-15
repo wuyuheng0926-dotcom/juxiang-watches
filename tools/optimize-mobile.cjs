@@ -47,5 +47,8 @@ for(const file of ['catalogue-sync.js','featured-carousel.js','catalogue-snapsho
  html=html.replace(new RegExp(file.replaceAll('.',String.fromCharCode(92)+'.')+'(?:'+String.fromCharCode(92)+'?[^"'+String.fromCharCode(92)+'s<]+)?','g'),name);
 }
 
+const mobileCss='mobile-storefront.'+buildTag+'.css';
+fs.copyFileSync(out+'/mobile-storefront.css',out+'/'+mobileCss);
+html=html.replace(/href="mobile-storefront\.css(?:\?[^"]*)?"/g,'href="'+mobileCss+'"');
 fs.writeFileSync(out+'/index.html',html);
 console.log(JSON.stringify({htmlBytes:Buffer.byteLength(html),catalogueBytes:Buffer.byteLength(core),cssBytes:fs.statSync(out+'/mobile-storefront.css').size,scriptBytes:fs.statSync(out+'/storefront-core.js').size,groups:products.length}));

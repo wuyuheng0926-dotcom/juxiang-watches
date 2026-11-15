@@ -111,6 +111,29 @@ function selectionPhoto(image,alt,attrs='',panel,full=false){
   const pos=panel.total===1?0:100*panel.index/(panel.total-1);
   return '<span class="selection-photo" role="img" aria-label="'+esc(alt)+'" style="background-image:url('+esc(window.JXAssetUrl(image))+');background-size:auto '+(panel.total*100)+'%;background-position:center '+pos+'%"></span>';
 }
+
+// Keep the photograph at least half of a mobile card, including after translation.
+let mobileCardPhotoObserver=null,mobileCardPhotoFrame=0;
+function queueMobileCardPhotoFit(){
+ cancelAnimationFrame(mobileCardPhotoFrame);mobileCardPhotoFrame=requestAnimationFrame(()=>{
+  mobileCardPhotoFrame=0;const grid=$('products');if(!grid)return;
+  if(!matchMedia('(max-width:767px)').matches){grid.style.removeProperty('--jx-mobile-photo-min');return;}
+  const infos=[...grid.querySelectorAll('.individual-watch .product-info')];
+  const height=infos.length?Math.ceil(Math.max(...infos.map(n=>n.getBoundingClientRect().height))+20):0;
+  const value=height+'px';if(grid.style.getPropertyValue('--jx-mobile-photo-min')!==value)grid.style.setProperty('--jx-mobile-photo-min',value);
+ });
+}
+function refreshMobileCardPhotoFit(){
+ mobileCardPhotoObserver?.disconnect();const grid=$('products');if(!grid)return;
+ if(matchMedia('(max-width:767px)').matches&&typeof ResizeObserver!=='undefined'){
+  mobileCardPhotoObserver=mobileCardPhotoObserver||new ResizeObserver(queueMobileCardPhotoFit);
+  grid.querySelectorAll('.individual-watch .product-info').forEach(n=>mobileCardPhotoObserver.observe(n));
+ }
+ queueMobileCardPhotoFit();
+}
+window.addEventListener('resize',refreshMobileCardPhotoFit,{passive:true});
+document.fonts?.ready.then(queueMobileCardPhotoFit);
+
 function render(){
   const list=filteredProducts(),size=pageSize(),pages=Math.max(1,Math.ceil(list.length/size));
   currentPage=Math.max(1,Math.min(currentPage,pages));
@@ -130,10 +153,11 @@ function render(){
     const card=document.createElement('article');card.className='product individual-watch';
     card.dataset.product=p.id;card.dataset.color=v.key;
     card.setAttribute('aria-label',p.brand+' '+series+' '+(v.labelZh||v.label)+' '+code);
-    card.innerHTML=`<a class="product-open" href="?design=${encodeURIComponent(p.id)}&amp;color=${encodeURIComponent(v.key)}" aria-label="${esc(p.brand+' '+series+' '+v.label+' '+code)}"><div class="product-art">${selectionPhoto(v.image,p.brand+' '+p.family+' · '+v.label,'loading="lazy"',v.imagePanel)}<small>${esc(code)}</small></div><div class="product-info"><p>${esc(p.brand)}</p><h3>${esc(series)}</h3><span class="name-zh">${esc(p.nameZh)}</span><strong class="watch-colour">${esc(v.labelZh||v.label)}</strong><span class="watch-colour-en">${esc(v.label)}</span><span class="series-band">${esc(p.bandName)} · ${esc(p.bandNameZh)}</span><div class="series-card-meta"><span class="product-code">${esc(code)}</span><strong class="series-price">${money(p.priceUSD)} ${window.JXPriceAccess?.valid()&&Number.isFinite(p.priceUSD)?'<small>USD</small>':''}</strong></div><span class="card-action">View this watch / 查看此款详情 ↗</span></div></a>`;
+    card.innerHTML=`<a class="product-open" href="?design=${encodeURIComponent(p.id)}&amp;color=${encodeURIComponent(v.key)}" aria-label="${esc(p.brand+' '+series+' '+v.label+' '+code)}"><div class="product-art">${selectionPhoto(v.image,p.brand+' '+p.family+' · '+v.label,'loading="lazy"',v.imagePanel)}<small>${esc(code)}</small></div><div class="product-info"><p>${esc(p.brand)}</p><h3>${esc(series)}</h3><span class="name-zh">${esc(p.nameZh)}</span><strong class="watch-colour">${esc(v.labelZh||v.label)}</strong><span class="watch-colour-en">${esc(v.label)}</span><span class="series-band">${esc(p.bandName)} · ${esc(p.bandNameZh)}</span><div class="series-card-meta"><span class="product-code">${esc(code)}</span><strong class="series-price ${window.JXPriceAccess?.valid()?'':'price-locked'}">${money(p.priceUSD)} ${window.JXPriceAccess?.valid()&&Number.isFinite(p.priceUSD)?'<small>USD</small>':''}</strong></div><span class="card-action">View this watch / 查看此款详情 ↗</span></div></a>`;
     card.querySelector('.product-open').onclick=e=>{e.preventDefault();showProduct(p.id,true,v.key);};
     return card;
   }));
+  refreshMobileCardPhotoFit();
 }
 
 function resolveProduct(id,color){

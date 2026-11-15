@@ -9,6 +9,35 @@
   width:100%;height:58vh;height:58svh;min-height:50vh;min-height:50svh;max-height:none;object-fit:contain;object-position:center
  }
  .luxury-storefront #detail .series-summary .detail-price.price-locked{
-  font-size:17px!important;line-height:1.5;letter-spacing:0;margin:12px 0 16px;white-space:normal;overflow-wrap:anywhere
+  font-size:14px!important;line-height:1.5;letter-spacing:0;margin:12px 0 16px;white-space:normal;overflow-wrap:anywhere
  }
+}
+
+/* Mobile catalogue: larger proportional photos and quiet price-access hints. */
+@media (max-width:767px){
+ .luxury-storefront #products .individual-watch .product-art{
+  position:relative;display:block;width:100%;height:auto;aspect-ratio:4/5;
+  min-height:190px;min-height:max(190px,var(--jx-mobile-photo-min,0px));overflow:hidden;
+ }
+ .luxury-storefront #products .individual-watch .product-art>img{
+  position:absolute;inset:0;display:block;width:100%!important;height:100%!important;max-height:none!important;
+  object-fit:cover!important;object-position:center;transform:none!important;transition:none;
+ }
+ .luxury-storefront #products .individual-watch .product-art>.selection-photo{
+  position:absolute;inset:0;display:block;width:100%;height:100%;background-repeat:no-repeat;
+ }
+ .luxury-storefront #products .individual-watch h3{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+ .luxury-storefront #products .individual-watch .product-info{padding:10px 3px 8px;min-width:0}
+ .luxury-storefront #products .individual-watch .name-zh{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;min-height:0;font-size:10px;line-height:1.4;margin-top:4px}
+ .luxury-storefront #products .individual-watch :is(.watch-colour,.watch-colour-en){display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;line-height:1.45;margin-top:6px}
+ .luxury-storefront #products .individual-watch .series-band{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden;font-size:10px;line-height:1.4;margin-top:5px}
+ .luxury-storefront #products .individual-watch .series-card-meta{gap:5px;margin:9px 0 7px}
+ .luxury-storefront #products .individual-watch .series-price.price-locked{
+  display:block;width:100%;max-width:100%;font:600 12px/1.45 'Segoe UI','Microsoft YaHei',sans-serif!important;
+  letter-spacing:0!important;white-space:normal!important;overflow-wrap:anywhere;text-align:start;
+ }
+ .luxury-storefront #products .individual-watch .card-action{font-size:10px;line-height:1.4;padding-top:4px}
+ html[data-mobile-columns="1"] .luxury-storefront #products .individual-watch .product-art{min-height:300px;min-height:max(300px,var(--jx-mobile-photo-min,0px))}
+ html:is([data-mobile-columns="3"],[data-mobile-columns="4"]) .luxury-storefront #products .individual-watch .product-art{min-height:165px;min-height:max(165px,var(--jx-mobile-photo-min,0px))}
+ html:is([data-mobile-columns="3"],[data-mobile-columns="4"]) .luxury-storefront #products .individual-watch .series-price.price-locked{font-size:10px!important;line-height:1.4!important}
 }
