@@ -12,8 +12,8 @@ const words={
  remove:['Remove','移除','Eliminar','Retirer','Entfernen','إزالة'],
  clear:['Clear cart','清空购物车','Vaciar carrito','Vider le panier','Warenkorb leeren','إفراغ السلة'],
  subtotal:['Subtotal','商品合计','Subtotal','Sous-total','Zwischensumme','المجموع الفرعي'],
- enquiry:['Contact customer service','联系客服确认订单','Contactar atención al cliente','Contacter le service client','Kundenservice kontaktieren','تواصل مع خدمة العملاء'],
- note:['Availability, shipping and final prices are confirmed by customer service. You can review the message in WhatsApp before sending.','库存、运费及最终价格由客服确认。跳转 WhatsApp 后可核对消息，再自行发送。','El servicio al cliente confirma existencias, envío y precio final. Revise el mensaje en WhatsApp antes de enviarlo.','Le service client confirme disponibilité, livraison et prix final. Vérifiez le message WhatsApp avant envoi.','Verfügbarkeit, Versand und Endpreise bestätigt der Kundenservice. Prüfen Sie die Nachricht vor dem Senden in WhatsApp.','تؤكد خدمة العملاء التوفر والشحن والسعر النهائي. راجع الرسالة في واتساب قبل إرسالها.'],
+ enquiry:['Buy now','立即购买','Comprar ahora','Acheter maintenant','Jetzt kaufen','اشترِ الآن'],
+ note:['Availability, shipping and final prices are confirmed by customer service.','库存、运费及最终价格由客服确认。','El servicio al cliente confirma existencias, envío y precio final.','Le service client confirme disponibilité, livraison et prix final.','Verfügbarkeit, Versand und Endpreise bestätigt der Kundenservice.','تؤكد خدمة العملاء التوفر والشحن والسعر النهائي.'],
  request:['Price on request','价格待询','Precio a consultar','Prix sur demande','Preis auf Anfrage','السعر عند الطلب'],
  partial:['Some prices require confirmation.','部分款式价格需联系客服确认。','Algunos precios requieren confirmación.','Certains prix restent à confirmer.','Einige Preise müssen bestätigt werden.','تحتاج بعض الأسعار إلى التأكيد.'],
  locked:['Price access has expired. Enter a new key in Search to use your cart.','查看权限已到期，请在搜索栏输入新密钥后使用购物车。','El acceso ha caducado. Introduzca una clave nueva en Buscar.','Accès expiré. Saisissez une nouvelle clé dans la recherche.','Zugriff abgelaufen. Geben Sie einen neuen Schlüssel in der Suche ein.','انتهت الصلاحية. أدخل مفتاحاً جديداً في البحث لاستخدام السلة.'],
@@ -70,17 +70,8 @@ function render(){
   const code=p.id+'-'+v.key;
   return '<article class="cart-line" data-cart-code="'+html(code)+'"><button type="button" class="cart-photo" data-cart-detail="'+html(p.id)+'" data-variant="'+html(v.key)+'" aria-label="'+html(label('details')+' '+code)+'">'+selectionPhoto(v.image,p.brand+' '+p.family,'loading="lazy"',v.imagePanel)+'</button><div class="cart-line-info"><p class="cart-brand">'+html(p.brand)+'</p><button type="button" class="cart-watch-name" data-cart-detail="'+html(p.id)+'" data-variant="'+html(v.key)+'">'+html(translate(p.family))+'</button><p>'+html(translate(v.label))+'</p><small>'+html(code)+'</small><p class="cart-unit-price">'+html(priced?dollars(p.priceUSD):label('request'))+'</p><div class="cart-line-actions"><label>'+html(label('quantity'))+'<input type="number" inputmode="numeric" min="1" max="99" step="1" value="'+row.quantity+'" data-cart-quantity="'+html(code)+'" aria-label="'+html(label('quantity')+' '+code)+'"></label><button type="button" data-cart-remove="'+html(code)+'">'+html(label('remove'))+'</button></div></div></article>';
  }).join('');
- const base=CONTACT_URL;
- contents.innerHTML='<div class="cart-lines">'+cards+'</div><div class="cart-summary"><p><span>'+html(label('subtotal'))+'</span><strong>'+html(complete?dollars(total):label('request'))+'</strong></p>'+(complete?'':'<p class="cart-note">'+html(label('partial'))+'</p>')+'<p class="cart-note">'+html(label('note'))+'</p><a class="button contact-gold cart-checkout" id="cartCheckout" target="_blank" rel="noopener noreferrer">'+html(label('enquiry'))+' ↗</a><div class="cart-bottom-actions"><button type="button" data-cart-browse>'+html(label('browse'))+'</button><button type="button" data-cart-clear>'+html(label('clear'))+'</button></div></div>';
- const link=document.getElementById('cartCheckout'),url=buildContactUrl(base,orderText());link.hidden=!url;if(url)link.href=url;
+ contents.innerHTML='<div class="cart-lines">'+cards+'</div><div class="cart-summary"><p><span>'+html(label('subtotal'))+'</span><strong>'+html(complete?dollars(total):label('request'))+'</strong></p>'+(complete?'':'<p class="cart-note">'+html(label('partial'))+'</p>')+'<p class="cart-note">'+html(label('note'))+'</p><button type="button" class="button contact-gold cart-checkout" id="cartCheckout" disabled aria-disabled="true">'+html(label('enquiry'))+'</button><div class="cart-bottom-actions"><button type="button" data-cart-browse>'+html(label('browse'))+'</button><button type="button" data-cart-clear>'+html(label('clear'))+'</button></div></div>';
  status.textContent=notice?label(notice):!storageOK?label('temporary'):'';
-}
-function orderText(){
- if(!allowed())return '';
- const rows=lines.map(selection).filter(Boolean);let total=0,complete=true;
- const text=[label('order'),''];
- for(const {p,v,row}of rows){const fields=productEnquiryFields(p,location.origin,{quantity:String(row.quantity)},v);text.push(makeEnquiryText(fields),'');if(Number.isFinite(p.priceUSD)&&p.priceUSD>=0)total+=p.priceUSD*row.quantity;else complete=false;}
- text.push(label('subtotal')+': '+(complete?dollars(total):label('request')),label('note'));return text.join('\n');
 }
 function add(id,key){
  if(!allowed()){sync();return false}
@@ -99,7 +90,7 @@ document.addEventListener('click',e=>{
  const view=e.target.closest('[data-cart-detail]');if(view){dialog.close();window.showProduct(view.dataset.cartDetail,true,view.dataset.variant);return}
  const remove=e.target.closest('[data-cart-remove]');if(remove){lines=lines.filter(row=>row.id+'-'+row.key!==remove.dataset.cartRemove);persist();notice='';render();sync();return}
  if(e.target.closest('[data-cart-clear]')){lines=[];persist();notice='';render();sync();return}
- if(e.target.closest('#cartCheckout')){const link=document.getElementById('cartCheckout'),url=buildContactUrl(CONTACT_URL,orderText());if(!url){e.preventDefault();return}link.href=url;}
+ if(e.target.closest('#cartCheckout'))e.preventDefault();
 },true);
 dialog.addEventListener('change',e=>{
  const input=e.target.closest('[data-cart-quantity]');if(!input)return;if(!allowed()){render();return}
