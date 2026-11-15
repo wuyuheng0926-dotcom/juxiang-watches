@@ -93,7 +93,7 @@ function apply(){observer.disconnect();document.documentElement.lang=locale;docu
 
 const fullLanguagePromises=new Map(),importedRows=new Map();
 function ensureFullLanguage(){
- const requested=locale;if(requested==='en')return Promise.resolve();
+ const requested=locale;
  if(!fullLanguagePromises.has(requested)){
  const pending=new Promise((resolve,reject)=>{if(window.JXLocalePacks?.[requested])return resolve();const s=document.createElement('script');s.src='locale-translations/'+requested+'.js?v='+encodeURIComponent(window.JXCatalogueBuild||'1');s.onload=resolve;s.onerror=()=>{fullLanguagePromises.delete(requested);reject(Error('Language unavailable'))};document.body.append(s)}).then(()=>{
   for(const [source,target]of window.JXLocalePacks?.[requested]||[]){const key=normal(source);if(dictionary.has(key)&&!importedRows.has(source))continue;const values=importedRows.get(source)||Array(6).fill(source);values[locales.indexOf(requested)]=target;importedRows.set(source,values);dictionary.set(key,values);}
@@ -113,5 +113,5 @@ hint.addEventListener('click',()=>{const summary=dialog.querySelector('.series-s
 dialog.addEventListener('scroll',hintState,{passive:true});window.addEventListener('resize',hintState,{passive:true});
 new MutationObserver(records=>{if(records.some(r=>r.attributeName==='open')&&dialog.open)dialog.scrollTop=0;requestAnimationFrame(hintState)}).observe(dialog,{attributes:true,attributeFilter:['open'],childList:true,subtree:true});
 const setupContactLanguage=()=>{const refreshContactLanguage=()=>{document.querySelectorAll('[data-direct-contact]').forEach(a=>{const href=buildContactUrl(siteSettings.contactUrl,makeDirectContactText(a));if(href)a.href=href});if(typeof detailProduct!=='undefined'&&detailProduct&&detailVariant&&document.getElementById('detailContact'))document.getElementById('detailContact').href=buildContactUrl(siteSettings.contactUrl,makeEnquiryText(productEnquiryFields(detailProduct,location.origin,{},detailVariant)));if(document.getElementById('enquiry').open)updateContactLink();localizeValues();};window.addEventListener('jx-language-change',refreshContactLanguage);refreshContactLanguage();};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setupContactLanguage,{once:true});else setupContactLanguage();
-apply();
+apply();ensureFullLanguage().catch(()=>{});
 })();

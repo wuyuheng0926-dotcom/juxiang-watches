@@ -26,7 +26,7 @@ function rebuildHero(){
 }
 function apply(snapshot){
  if(snapshot.schema!==1||!Array.isArray(snapshot.products))throw Error('Invalid catalogue');const patches=new Map(snapshot.products.map(x=>[x.id,x.data]));
- const next=baseProducts.map(p=>merge(p,patches.get(p.id))).map(p=>({...p,priceUSD:null,variants:p.variants.filter(v=>!v.adminDeleted&&!v.adminUnpublished)})).filter(p=>p.variants.length);products.splice(0,products.length,...next);
+ const next=baseProducts.map(p=>merge(p,patches.get(p.id))).map(p=>({...p,priceUSD:null,variants:p.variants.filter(v=>!v.adminDeleted&&!v.adminUnpublished)})).filter(p=>p.variants.length);window.JXEnrichProducts?.(next);products.splice(0,products.length,...next);
  window.JXPresentation=snapshot.presentation?.settings||null;const order=window.JXPresentation?.productOrder;productRanks=new Map((Array.isArray(order)?order:[]).map((code,i)=>[code,i]));rebuildHero();
  window.JUXIANG_CATALOGUE_READY=true;window.JUXIANG_CATALOGUE_SEQUENCE=snapshot.sequence;
 }

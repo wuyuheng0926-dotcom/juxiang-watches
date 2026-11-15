@@ -174,7 +174,7 @@ function loadProductDetails(p){
  return detailRequests.get(p.id).then(d=>{
   p.detailImages=d.detailImages||[];p.referencePhotos=d.referencePhotos||[];p.description=d.description||p.description;p.sizeReference=d.sizeReference||p.sizeReference;
   for(const v of p.variants){const x=d.variants.find(x=>x.key===v.key);if(x){v.detailImages=x.detailImages||[];v.photos=x.photos||[]}}
-  p.detailsDeferred=false;return p;
+  p.detailsDeferred=false;window.JXEnrichProducts?.([p]);return p;
  });
 }
 

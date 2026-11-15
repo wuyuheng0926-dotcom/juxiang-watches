@@ -1,0 +1,216 @@
+Aquanaut|Aquanaut|Aquanaut|Aquanaut|Aquanaut|أكوانوت
+Golden Ellipse|金椭圆|Golden Ellipse|Ellipse d’Or|Golden Ellipse|غولدن إليبس
+Calatrava|卡拉卓华|Calatrava|Calatrava|Calatrava|كالاترافا
+Grand Complications|超级复杂功能时计|Grandes complicaciones|Grandes Complications|Große Komplikationen|تعقيدات كبرى
+Complications|复杂功能时计|Complicaciones|Complications|Komplikationen|تعقيدات
+Celestial|星空|Celestial|Celestial|Celestial|سيليستيال
+Tonneau|酒桶形|Caja tonneau|Forme tonneau|Tonneauform|شكل برميلي
+Round Decorative|圆形装饰款|Diseño redondo decorativo|Modèle rond décoratif|Rundes Schmuckdesign|تصميم دائري مزخرف
+Traditionnelle|传袭|Traditionnelle|Traditionnelle|Traditionnelle|تراديسيونيل
+Malte|马耳他|Malte|Malte|Malte|مالت
+Patrimony|传承|Patrimony|Patrimony|Patrimony|باتريموني
+Patrimony Date|传承日历|Patrimony Fecha|Patrimony Date|Patrimony Datum|باتريموني بالتاريخ
+Heures Creatives|创意时光|Heures Créatives|Heures Créatives|Heures Créatives|أور كرياتيف
+Royal Oak|皇家橡树|Royal Oak|Royal Oak|Royal Oak|رويال أوك
+Royal Oak Offshore|皇家橡树离岸型|Royal Oak Offshore|Royal Oak Offshore|Royal Oak Offshore|رويال أوك أوفشور
+Royal Oak Openworked|皇家橡树镂空|Royal Oak Esqueletado|Royal Oak Squelette|Royal Oak Skelettiert|رويال أوك مفرغة
+Royal Oak Dual Time|皇家橡树两地时|Royal Oak Doble Huso Horario|Royal Oak Dual Time|Royal Oak Zweite Zeitzone|رويال أوك بتوقيتين
+Royal Oak Perpetual Calendar|皇家橡树万年历|Royal Oak Calendario Perpetuo|Royal Oak Quantième Perpétuel|Royal Oak Ewiger Kalender|رويال أوك بتقويم دائم
+Royal Oak Chronograph|皇家橡树计时|Royal Oak Cronógrafo|Royal Oak Chronographe|Royal Oak Chronograph|رويال أوك كرونوغراف
+Royal Oak Offshore Diver|皇家橡树离岸潜水|Royal Oak Offshore Diver|Royal Oak Offshore Diver|Royal Oak Offshore Diver|رويال أوك أوفشور دايفر
+Royal Oak Offshore Chronograph|皇家橡树离岸计时|Royal Oak Offshore Cronógrafo|Royal Oak Offshore Chronographe|Royal Oak Offshore Chronograph|رويال أوك أوفشور كرونوغراف
+Royal Oak Offshore Survivor|皇家橡树离岸Survivor|Royal Oak Offshore Survivor|Royal Oak Offshore Survivor|Royal Oak Offshore Survivor|رويال أوك أوفشور سيرفايفر
+Royal Oak Offshore Openworked|皇家橡树离岸镂空|Royal Oak Offshore Esqueletado|Royal Oak Offshore Squelette|Royal Oak Offshore Skelettiert|رويال أوك أوفشور مفرغة
+Seamaster Aqua Terra|海马Aqua Terra|Seamaster Aqua Terra|Seamaster Aqua Terra|Seamaster Aqua Terra|سيماستر أكوا تيرا
+Pilot's Watch Chronograph|飞行员计时|Reloj de Aviador Cronógrafo|Montre d’Aviateur Chronographe|Fliegeruhr Chronograph|ساعة طيار كرونوغراف
+Big Pilot's Watch|大型飞行员|Gran Reloj de Aviador|Grande Montre d’Aviateur|Große Fliegeruhr|ساعة الطيار الكبيرة
+Pilot's Watch Mark XVIII|飞行员马克十八|Reloj de Aviador Mark XVIII|Montre d’Aviateur Mark XVIII|Fliegeruhr Mark XVIII|ساعة طيار مارك 18
+Pilot's Watch Spitfire|飞行员喷火战机|Reloj de Aviador Spitfire|Montre d’Aviateur Spitfire|Fliegeruhr Spitfire|ساعة طيار سبيتفاير
+Portugieser Chronograph|葡萄牙计时|Portugieser Cronógrafo|Portugieser Chronographe|Portugieser Chronograph|بورتوغيزر كرونوغراف
+Portugieser Hand-Wound|葡萄牙手动上链|Portugieser de Cuerda Manual|Portugieser Remontage Manuel|Portugieser Handaufzug|بورتوغيزر يدوية التعبئة
+Portugieser Annual Calendar|葡萄牙年历|Portugieser Calendario Anual|Portugieser Calendrier Annuel|Portugieser Jahreskalender|بورتوغيزر بتقويم سنوي
+Portugieser Automatic|葡萄牙自动|Portugieser Automático|Portugieser Automatique|Portugieser Automatik|بورتوغيزر أوتوماتيكية
+Portugieser Perpetual Calendar|葡萄牙万年历|Portugieser Calendario Perpetuo|Portugieser Quantième Perpétuel|Portugieser Ewiger Kalender|بورتوغيزر بتقويم دائم
+Portugieser Calendar|葡萄牙日历|Portugieser Calendario|Portugieser Calendrier|Portugieser Kalender|بورتوغيزر بتقويم
+Portofino Automatic|柏涛菲诺自动|Portofino Automático|Portofino Automatique|Portofino Automatik|بورتوفينو أوتوماتيكية
+Portofino Moon Phase|柏涛菲诺月相|Portofino Fase Lunar|Portofino Phases de Lune|Portofino Mondphase|بورتوفينو بأطوار القمر
+Portofino Chronograph|柏涛菲诺计时|Portofino Cronógrafo|Portofino Chronographe|Portofino Chronograph|بورتوفينو كرونوغراف
+Aquatimer Chronograph|海洋时计计时|Aquatimer Cronógrafo|Aquatimer Chronographe|Aquatimer Chronograph|أكواتايمر كرونوغراف
+Aquatimer Automatic|海洋时计自动|Aquatimer Automático|Aquatimer Automatique|Aquatimer Automatik|أكواتايمر أوتوماتيكية
+Oval dial|椭圆表盘|Esfera ovalada|Cadran ovale|Ovales Zifferblatt|ميناء بيضاوي
+Woven-look bracelet|编织外观表链|Brazalete de aspecto tejido|Bracelet à effet tissé|Armband in Flechtoptik|سوار بمظهر منسوج
+Six-o'clock subdial|六点位副盘|Subesfera a las 6|Compteur à 6 heures|Hilfszifferblatt bei 6 Uhr|ميناء فرعي عند السادسة
+Figurative relief dial|立体图案浮雕表盘|Esfera con relieve figurativo|Cadran à relief figuratif|Zifferblatt mit figürlichem Relief|ميناء بنقش تصويري بارز
+Grey relief dial|灰色浮雕表盘|Esfera gris en relieve|Cadran gris en relief|Graues Reliefzifferblatt|ميناء رمادي بنقش بارز
+Light relief dial|浅色浮雕表盘|Esfera clara en relieve|Cadran clair en relief|Helles Reliefzifferblatt|ميناء فاتح بنقش بارز
+Moon-display appearance|月相显示外观|Diseño con indicación lunar|Affichage de lune décoratif|Mondanzeigen-Optik|مظهر عرض القمر
+Linked bracelet|链节式表链|Brazalete de eslabones|Bracelet à maillons|Gliederarmband|سوار بحلقات مترابطة
+Textured three-hand dial|纹理三针表盘|Esfera texturizada de tres agujas|Cadran texturé à trois aiguilles|Strukturiertes Dreizeiger-Zifferblatt|ميناء محبب بثلاثة عقارب
+Arabic date dial|阿拉伯数字日历表盘|Esfera con números arábigos y fecha|Cadran à chiffres arabes avec date|Arabisches Zifferblatt mit Datum|ميناء بأرقام عربية وتاريخ
+Small-seconds dial|小秒盘|Esfera con pequeño segundero|Cadran à petite seconde|Zifferblatt mit kleiner Sekunde|ميناء بثوان صغيرة
+Baton no-date dial|条形刻度无日历表盘|Esfera de índices de bastón sin fecha|Cadran à index bâtons sans date|Zifferblatt mit Stabindizes ohne Datum|ميناء بمؤشرات خطية دون تاريخ
+Asymmetric subdial layout|不对称副盘布局|Distribución asimétrica de subesferas|Disposition asymétrique des compteurs|Asymmetrische Hilfszifferblätter|توزيع غير متماثل للموانئ الفرعية
+Dark multi-scale dial|深色多刻度表盘|Esfera oscura con varias escalas|Cadran sombre à plusieurs échelles|Dunkles Zifferblatt mit mehreren Skalen|ميناء داكن متعدد التدريجات
+Multi-register calendar appearance|多副盘日历外观|Diseño de calendario con varias subesferas|Présentation calendrier à plusieurs compteurs|Kalenderoptik mit mehreren Anzeigen|مظهر تقويم بموانئ فرعية متعددة
+Subdial|副盘|Subesfera|Compteur|Hilfszifferblatt|ميناء فرعي
+Plain round case|简洁圆形表壳|Caja redonda lisa|Boîtier rond épuré|Schlichtes rundes Gehäuse|علبة دائرية بسيطة
+Multi-scale dial|多刻度表盘|Esfera con varias escalas|Cadran à plusieurs échelles|Zifferblatt mit mehreren Skalen|ميناء متعدد التدريجات
+Decorated multi-scale dial|装饰多刻度表盘|Esfera decorada con varias escalas|Cadran décoré à plusieurs échelles|Verziertes Zifferblatt mit mehreren Skalen|ميناء مزخرف متعدد التدريجات
+Arabic multi-register dial|阿拉伯数字多副盘表盘|Esfera con números arábigos y varias subesferas|Cadran à chiffres arabes et plusieurs compteurs|Arabisches Zifferblatt mit mehreren Hilfsanzeigen|ميناء بأرقام عربية وموانئ فرعية متعددة
+Round chronograph appearance|圆形计时外观|Diseño de cronógrafo redondo|Esthétique de chronographe rond|Runde Chronographenoptik|مظهر كرونوغراف دائري
+Twin-counter moon-display appearance|双副盘月相外观|Diseño lunar con dos subesferas|Présentation lunaire à deux compteurs|Mondanzeigen-Optik mit zwei Hilfszifferblättern|مظهر قمري بميناءين فرعيين
+Arabic calendar dial|阿拉伯数字日历盘|Esfera calendario con números arábigos|Cadran calendrier à chiffres arabes|Kalenderzifferblatt mit arabischen Ziffern|ميناء تقويم بأرقام عربية
+Roman multi-register dial|罗马数字多副盘表盘|Esfera romana con varias subesferas|Cadran romain à plusieurs compteurs|Römisches Zifferblatt mit mehreren Hilfsanzeigen|ميناء بأرقام رومانية وموانئ فرعية متعددة
+Silver decorated bezel|银色装饰表圈|Bisel plateado decorado|Lunette argentée décorée|Verzierte silberfarbene Lünette|إطار فضي اللون مزخرف
+Engraved case|雕纹表壳|Caja grabada|Boîtier gravé|Graviertes Gehäuse|علبة منقوشة
+Black orbital dial|黑色轨道式表盘|Esfera orbital negra|Cadran orbital noir|Schwarzes Orbitalzifferblatt|ميناء مداري أسود
+Green orbital dial|绿色轨道式表盘|Esfera orbital verde|Cadran orbital vert|Grünes Orbitalzifferblatt|ميناء مداري أخضر
+Blue orbital dial|蓝色轨道式表盘|Esfera orbital azul|Cadran orbital bleu|Blaues Orbitalzifferblatt|ميناء مداري أزرق
+Grey orbital dial|灰色轨道式表盘|Esfera orbital gris|Cadran orbital gris|Graues Orbitalzifferblatt|ميناء مداري رمادي
+Bracelet|表链|Brazalete|Bracelet|Armband|سوار
+Arabic twin-counter dial|阿拉伯数字双副盘表盘|Esfera arábiga con dos subesferas|Cadran à chiffres arabes et deux compteurs|Arabisches Zifferblatt mit zwei Hilfsanzeigen|ميناء بأرقام عربية وميناءين فرعيين
+Multi-register dial|多副盘表盘|Esfera con varias subesferas|Cadran à plusieurs compteurs|Zifferblatt mit mehreren Hilfsanzeigen|ميناء متعدد الموانئ الفرعية
+Blue chronograph|蓝色计时外观|Cronógrafo azul|Chronographe bleu|Blaue Chronographenoptik|مظهر كرونوغراف أزرق
+Patterned dial|纹理表盘|Esfera con motivos|Cadran à motifs|Gemustertes Zifferblatt|ميناء بنقوش
+Triple-register dial|三副盘表盘|Esfera de tres subesferas|Cadran à trois compteurs|Zifferblatt mit drei Hilfsanzeigen|ميناء بثلاثة موانئ فرعية
+Roman indices|罗马数字刻度|Índices romanos|Index romains|Römische Indizes|مؤشرات بأرقام رومانية
+Decorated dial|装饰表盘|Esfera decorada|Cadran décoré|Verziertes Zifferblatt|ميناء مزخرف
+Dark striped decorative dial|深色条纹装饰表盘|Esfera oscura decorada con rayas|Cadran sombre décoré de rayures|Dunkles verziertes Streifenzifferblatt|ميناء داكن مزخرف بخطوط
+Large baton indices|大号条形刻度|Grandes índices de bastón|Grands index bâtons|Große Stabindizes|مؤشرات خطية كبيرة
+Sculpted dragon motif|立体龙形图案|Motivo de dragón esculpido|Motif de dragon sculpté|Plastisches Drachenmotiv|زخرفة تنين مجسمة
+Multicolour dragon dial|多彩龙形表盘|Esfera de dragón multicolor|Cadran dragon multicolore|Mehrfarbiges Drachenzifferblatt|ميناء بتنين متعدد الألوان
+Arabic indices|阿拉伯数字刻度|Índices arábigos|Index arabes|Arabische Indizes|مؤشرات بأرقام عربية
+Openworked chronograph appearance|镂空计时外观|Diseño de cronógrafo esqueletado|Esthétique de chronographe ajouré|Skelettierte Chronographenoptik|مظهر كرونوغراف مفرغ
+Light openworked dial|浅色镂空表盘|Esfera esqueletada clara|Cadran ajouré clair|Helles skelettiertes Zifferblatt|ميناء فاتح مفرغ
+Grey openworked dial|灰色镂空表盘|Esfera esqueletada gris|Cadran ajouré gris|Graues skelettiertes Zifferblatt|ميناء رمادي مفرغ
+Fully decorated dial and bracelet|全装饰表盘与表链|Esfera y brazalete completamente decorados|Cadran et bracelet entièrement décorés|Vollständig verziertes Zifferblatt und Armband|ميناء وسوار مزخرفان بالكامل
+Concentric track dial|同心圆轨道表盘|Esfera de pistas concéntricas|Cadran à pistes concentriques|Zifferblatt mit konzentrischen Skalen|ميناء بتدريجات دائرية متحدة المركز
+Fine-pattern bezel|细纹表圈|Bisel de textura fina|Lunette finement texturée|Fein strukturierte Lünette|إطار بنقوش دقيقة
+Roman moon-display dial|罗马数字月相外观表盘|Esfera romana con indicación lunar|Cadran romain à affichage lunaire|Römisches Zifferblatt mit Mondanzeige-Optik|ميناء روماني بمظهر عرض القمر
+Decorated moon-display dial|装饰月相外观表盘|Esfera decorada con indicación lunar|Cadran décoré à affichage lunaire|Verziertes Zifferblatt mit Mondanzeige-Optik|ميناء مزخرف بمظهر عرض القمر
+Retro-styled dark dial|复古深色表盘|Esfera oscura de estilo retro|Cadran sombre de style rétro|Dunkles Zifferblatt im Retro-Stil|ميناء داكن بطابع كلاسيكي
+Sector moon-display dial|分区月相外观表盘|Esfera sectorial con indicación lunar|Cadran sectoriel à affichage lunaire|Sektorzifferblatt mit Mondanzeige-Optik|ميناء مقسم بمظهر عرض القمر
+White sector dial|白色分区表盘|Esfera sectorial blanca|Cadran sectoriel blanc|Weißes Sektorzifferblatt|ميناء أبيض مقسم
+Yellow linked bracelet|黄色链节表链|Brazalete de eslabones amarillo|Bracelet à maillons jaune|Gelbes Gliederarmband|سوار بحلقات صفراء
+Minimal rounded dial|简约圆润表盘|Esfera redondeada minimalista|Cadran arrondi minimaliste|Minimalistisches abgerundetes Zifferblatt|ميناء مستدير بسيط
+Orbital scale dial|轨道刻度表盘|Esfera de escala orbital|Cadran à échelle orbitale|Zifferblatt mit Orbitalskala|ميناء بتدريج مداري
+Twin-counter chronograph appearance|双副盘计时外观|Diseño de cronógrafo de dos subesferas|Esthétique de chronographe à deux compteurs|Chronographenoptik mit zwei Hilfszifferblättern|مظهر كرونوغراف بميناءين فرعيين
+Tapisserie date dial|格纹日历表盘|Esfera tapisserie con fecha|Cadran tapisserie avec date|Tapisserie-Zifferblatt mit Datum|ميناء بنقشة تابيسري وتاريخ
+Diver-style dial|潜水风格表盘|Esfera de estilo buceo|Cadran de style plongée|Zifferblatt im Taucherstil|ميناء بطابع الغوص
+Inner timing scale|内圈计时刻度|Escala de tiempo interior|Échelle de temps intérieure|Innere Zeitskala|تدريج توقيت داخلي
+Chronograph-style dial|计时风格表盘|Esfera de estilo cronógrafo|Cadran de style chronographe|Zifferblatt in Chronographenoptik|ميناء بطابع الكرونوغراف
+Horizontal teak dial|横向柚木纹表盘|Esfera con patrón teca horizontal|Cadran à motif teck horizontal|Zifferblatt mit horizontalem Teak-Muster|ميناء بنقشة خشب أفقية
+Vertical teak dial|纵向柚木纹表盘|Esfera con patrón teca vertical|Cadran à motif teck vertical|Zifferblatt mit vertikalem Teak-Muster|ميناء بنقشة خشب عمودية
+Date at 6|六点位日历|Fecha a las 6|Date à 6 heures|Datum bei 6 Uhr|التاريخ عند السادسة
+Date at 3|三点位日历|Fecha a las 3|Date à 3 heures|Datum bei 3 Uhr|التاريخ عند الثالثة
+GMT-style dial|两地时风格表盘|Esfera de estilo GMT|Cadran de style GMT|Zifferblatt im GMT-Stil|ميناء بطابع توقيت غرينتش
+Red arrow hand|红色箭头指针|Aguja de flecha roja|Aiguille flèche rouge|Roter Pfeilzeiger|عقرب سهم أحمر
+Three subdials|三个副盘|Tres subesferas|Trois compteurs|Drei Hilfszifferblätter|ثلاثة موانئ فرعية
+Day/date|星期与日历|Día y fecha|Jour et date|Wochentag und Datum|اليوم والتاريخ
+Cream accents|奶油色细节|Detalles crema|Détails crème|Cremefarbene Akzente|تفاصيل كريمية
+Fabric strap|织物表带|Correa textil|Bracelet textile|Textilarmband|سوار قماشي
+Black fabric strap|黑色织物表带|Correa textil negra|Bracelet textile noir|Schwarzes Textilarmband|سوار قماشي أسود
+Olive fabric strap|橄榄色织物表带|Correa textil oliva|Bracelet textile olive|Olivfarbenes Textilarmband|سوار قماشي زيتي
+Brown riveted strap|棕色铆钉表带|Correa marrón con remaches|Bracelet brun à rivets|Braunes Armband mit Nieten|سوار بني بمسامير ظاهرة
+Power-reserve-style display|动力储存显示外观|Indicación tipo reserva de marcha|Affichage de type réserve de marche|Gangreserveanzeigen-Optik|مظهر مؤشر احتياطي الطاقة
+Plain three-hand layout|简洁三针布局|Disposición sencilla de tres agujas|Disposition épurée à trois aiguilles|Schlichtes Dreizeiger-Layout|تصميم بسيط بثلاثة عقارب
+Two vertical subdials|纵向双副盘|Dos subesferas verticales|Deux compteurs verticaux|Zwei vertikale Hilfszifferblätter|ميناءان فرعيان عموديان
+Blue hands|蓝色指针|Agujas azules|Aiguilles bleues|Blaue Zeiger|عقارب زرقاء
+Warm-tone hands|暖色指针|Agujas de tono cálido|Aiguilles aux tons chauds|Warmfarbene Zeiger|عقارب بلون دافئ
+Small seconds at 6|六点位小秒盘|Pequeño segundero a las 6|Petite seconde à 6 heures|Kleine Sekunde bei 6 Uhr|ثوان صغيرة عند السادسة
+Three calendar windows|三重日历窗口|Tres ventanas de calendario|Trois guichets de calendrier|Drei Kalenderfenster|ثلاث نوافذ تقويم
+Moonphase at 12|十二点位月相外观|Fase lunar a las 12|Phase de lune à 12 heures|Mondphasenoptik bei 12 Uhr|مظهر أطوار القمر عند الثانية عشرة
+Moonphase at 6|六点位月相外观|Fase lunar a las 6|Phase de lune à 6 heures|Mondphasenoptik bei 6 Uhr|مظهر أطوار القمر عند السادسة
+Calendar subdials|日历副盘|Subesferas de calendario|Compteurs de calendrier|Kalender-Hilfszifferblätter|موانئ تقويم فرعية
+Year window|年份窗口|Ventana de año|Guichet de l’année|Jahresfenster|نافذة السنة
+Baton/Roman dial|条形与罗马数字刻度|Esfera con índices de bastón y romanos|Cadran à index bâtons et romains|Zifferblatt mit Stabindizes und römischen Zahlen|ميناء بمؤشرات خطية ورومانية
+Silver hands|银色指针|Agujas plateadas|Aiguilles argentées|Silberfarbene Zeiger|عقارب فضية اللون
+Gold-tone hands|金色指针|Agujas doradas|Aiguilles dorées|Goldfarbene Zeiger|عقارب ذهبية اللون
+Moonphase-style display at 12|十二点位月相显示外观|Indicación lunar a las 12|Affichage de lune à 12 heures|Mondanzeigen-Optik bei 12 Uhr|مظهر عرض القمر عند الثانية عشرة
+Timing scale|计时刻度|Escala de tiempo|Échelle de temps|Zeitskala|تدريج توقيت
+Stone-set bezel and hour markers|镶石表圈与时标|Bisel e índices engastados|Lunette et index sertis|Steinbesetzte Lünette und Stundenmarkierungen|إطار ومؤشرات ساعات مرصعة
+Date dial|日历表盘|Esfera con fecha|Cadran avec date|Zifferblatt mit Datum|ميناء مع تاريخ
+Frosted-look finish|霜面外观|Acabado de aspecto escarchado|Finition d’aspect givré|Oberfläche in Frostoptik|تشطيب بمظهر جليدي
+Smooth dial|光滑表盘|Esfera lisa|Cadran lisse|Glattes Zifferblatt|ميناء أملس
+Stone hour markers|镶石时标|Índices engastados|Index sertis|Steinbesetzte Stundenmarkierungen|مؤشرات ساعات مرصعة
+Pave-style dial, bezel and bracelet|密镶风格表盘、表圈与表链|Esfera, bisel y brazalete de estilo pavé|Cadran, lunette et bracelet de style pavé|Zifferblatt, Lünette und Armband in Pavé-Optik|ميناء وإطار وسوار بطابع الترصيع الكثيف
+Silver-tone full stone-set appearance|银色全镶石外观|Aspecto totalmente engastado en tono plateado|Aspect entièrement serti argenté|Vollbesetzte Optik in Silberfarbe|مظهر فضي اللون مرصع بالكامل
+Pave-style dial, bezel and case|密镶风格表盘、表圈与表壳|Esfera, bisel y caja de estilo pavé|Cadran, lunette et boîtier de style pavé|Zifferblatt, Lünette und Gehäuse in Pavé-Optik|ميناء وإطار وعلبة بطابع الترصيع الكثيف
+Skeleton-style dial|镂空风格表盘|Esfera de estilo esqueletado|Cadran de style squelette|Zifferblatt in Skelettoptik|ميناء بطابع مفرغ
+Plain polished bezel|简洁抛光表圈|Bisel pulido liso|Lunette polie épurée|Schlichte polierte Lünette|إطار مصقول بسيط
+Rainbow stone-set bezel|彩虹镶石表圈|Bisel engastado multicolor|Lunette sertie arc-en-ciel|Lünette mit Regenbogen-Steinbesatz|إطار مرصع بألوان قوس قزح
+Dual-time-style subdial|两地时风格副盘|Subesfera de estilo doble huso|Compteur de type double fuseau|Hilfszifferblatt in Zweizeitzonen-Optik|ميناء فرعي بطابع توقيتين
+Calendar and reserve displays|日历与储能显示外观|Indicaciones de calendario y reserva|Affichages calendrier et réserve|Kalender- und Gangreserveanzeigen|مؤشرات تقويم واحتياطي طاقة
+Time/date dial|时间与日历表盘|Esfera de hora y fecha|Cadran heure et date|Zeit- und Datumszifferblatt|ميناء للوقت والتاريخ
+Blue Arabic dial|蓝色阿拉伯数字盘|Esfera azul con números arábigos|Cadran bleu à chiffres arabes|Blaues Zifferblatt mit arabischen Ziffern|ميناء أزرق بأرقام عربية
+Black Arabic dial|黑色阿拉伯数字盘|Esfera negra con números arábigos|Cadran noir à chiffres arabes|Schwarzes Zifferblatt mit arabischen Ziffern|ميناء أسود بأرقام عربية
+Black/red strap|黑红双色表带|Correa negra y roja|Bracelet noir et rouge|Schwarz-rotes Armband|سوار أسود وأحمر
+Transparent-look case|透明外观表壳|Caja de aspecto transparente|Boîtier d’aspect transparent|Gehäuse in transparenter Optik|علبة بمظهر شفاف
+Guarded pushers|按钮防护结构|Pulsadores protegidos|Poussoirs protégés|Geschützte Drücker|أزرار مزودة بحماية
+Stone-set case|镶石表壳|Caja engastada|Boîtier serti|Steinbesetztes Gehäuse|علبة مرصعة
+Baguette-style bezel|长方形装饰表圈|Bisel de estilo baguette|Lunette de style baguette|Lünette in Baguette-Optik|إطار بطابع الباغيت
+Dark Roman indices|深色罗马数字刻度|Índices romanos oscuros|Index romains sombres|Dunkle römische Indizes|مؤشرات رومانية داكنة
+Decorated rose tone case|玫瑰金色装饰表壳|Caja decorada en tono oro rosa|Boîtier décoré de teinte or rose|Verziertes roségoldfarbenes Gehäuse|علبة مزخرفة بلون الذهب الوردي
+Decorated silver tone case|银色装饰表壳|Caja plateada decorada|Boîtier argenté décoré|Verziertes silberfarbenes Gehäuse|علبة فضية اللون مزخرفة
+Decorative champagne dial|香槟色装饰表盘|Esfera champán decorativa|Cadran champagne décoratif|Dekoratives champagnerfarbenes Zifferblatt|ميناء زخرفي بلون الشمبانيا
+Decorative white dial|白色装饰表盘|Esfera blanca decorativa|Cadran blanc décoratif|Dekoratives weißes Zifferblatt|ميناء زخرفي أبيض
+Openworked style|镂空风格|Estilo esqueletado|Style ajouré|Skelettierter Stil|طابع مفرغ
+Polo Tourbillon|Polo陀飞轮风格|Polo Tourbillon|Polo Tourbillon|Polo Tourbillon|بولو توربيون
+Seamaster 300|海马300|Seamaster 300|Seamaster 300|Seamaster 300|سيماستر 300
+Seamaster Diver 300M|海马300米潜水|Seamaster Diver 300M|Seamaster Diver 300M|Seamaster Diver 300M|سيماستر دايفر 300 إم
+Seamaster Planet Ocean|海马海洋宇宙|Seamaster Planet Ocean|Seamaster Planet Ocean|Seamaster Planet Ocean|سيماستر بلانيت أوشن
+Yellow bezel|黄色表圈|Bisel amarillo|Lunette jaune|Gelbe Lünette|إطار أصفر
+Black rubber strap|黑色橡胶表带|Correa de caucho negra|Bracelet en caoutchouc noir|Schwarzes Kautschukarmband|سوار مطاطي أسود
+Silver and rose-tone bracelet|银色与玫瑰金色表链|Brazalete plateado y tono oro rosa|Bracelet argenté et de teinte or rose|Silber- und roségoldfarbenes Armband|سوار فضي اللون وبلون الذهب الوردي
+White date dial|白色日历表盘|Esfera blanca con fecha|Cadran blanc avec date|Weißes Zifferblatt mit Datum|ميناء أبيض مع تاريخ
+Green date dial|绿色日历表盘|Esfera verde con fecha|Cadran vert avec date|Grünes Zifferblatt mit Datum|ميناء أخضر مع تاريخ
+Dark bracelet|深色表链|Brazalete oscuro|Bracelet sombre|Dunkles Armband|سوار داكن
+Product detail|产品细节|Detalle del producto|Détail du produit|Produktdetail|تفاصيل المنتج
+Rolex|劳力士|Rolex|Rolex|Rolex|رولكس
+Vacheron Constantin|江诗丹顿|Vacheron Constantin|Vacheron Constantin|Vacheron Constantin|فاشرون كونستانتين
+Patek Philippe|百达翡丽|Patek Philippe|Patek Philippe|Patek Philippe|باتيك فيليب
+Audemars Piguet|爱彼|Audemars Piguet|Audemars Piguet|Audemars Piguet|أوديمار بيغه
+Richard Mille|理查德米勒|Richard Mille|Richard Mille|Richard Mille|ريتشارد ميل
+Omega|欧米茄|Omega|Omega|Omega|أوميغا
+IWC|万国表|IWC|IWC|IWC|آي دبليو سي
+Jaeger-LeCoultre|积家|Jaeger-LeCoultre|Jaeger-LeCoultre|Jaeger-LeCoultre|جيجر لوكولتر
+Cartier|卡地亚|Cartier|Cartier|Cartier|كارتييه
+Piaget|伯爵|Piaget|Piaget|Piaget|بياجيه
+Datejust|日志型|Datejust|Datejust|Datejust|ديت جست
+Day-Date|星期日历型|Day-Date|Day-Date|Day-Date|داي ديت
+Submariner|潜航者型|Submariner|Submariner|Submariner|صبمارينر
+Cosmograph Daytona|宇宙计型迪通拿|Cosmograph Daytona|Cosmograph Daytona|Cosmograph Daytona|كوزموغراف دايتونا
+GMT-Master II|格林尼治型II|GMT-Master II|GMT-Master II|GMT-Master II|جي إم تي ماستر 2
+Sea-Dweller|海使型|Sea-Dweller|Sea-Dweller|Sea-Dweller|سي دويلر
+Deepsea|深潜型|Deepsea|Deepsea|Deepsea|ديب سي
+Sky-Dweller|纵航者型|Sky-Dweller|Sky-Dweller|Sky-Dweller|سكاي دويلر
+Yacht-Master|游艇名仕型|Yacht-Master|Yacht-Master|Yacht-Master|يخت ماستر
+Yacht-Master II|游艇名仕型II|Yacht-Master II|Yacht-Master II|Yacht-Master II|يخت ماستر 2
+Oyster Perpetual|蚝式恒动型|Oyster Perpetual|Oyster Perpetual|Oyster Perpetual|أويستر بربتشوال
+Air-King|空中霸王型|Air-King|Air-King|Air-King|إير كينغ
+Milgauss|米尔高斯型|Milgauss|Milgauss|Milgauss|ميلغوس
+Cellini|切利尼|Cellini|Cellini|Cellini|تشيليني
+Cellini Moonphase|切利尼月相|Cellini Moonphase|Cellini Phase de Lune|Cellini Mondphase|تشيليني بأطوار القمر
+Overseas|纵横四海|Overseas|Overseas|Overseas|أوفرسيز
+Overseas Ultra Thin|纵横四海超薄|Overseas Ultra Thin|Overseas Extra-plate|Overseas Extraplat|أوفرسيز فائقة الرقة
+Historiques 222|历史名作222|Historiques 222|Historiques 222|Historiques 222|هيستوريك 222
+Nautilus|鹦鹉螺|Nautilus|Nautilus|Nautilus|نوتيلوس
+De Ville|碟飞|De Ville|De Ville|De Ville|دي فيل
+Constellation|星座|Constellation|Constellation|Constellation|كونستليشن
+Speedmaster|超霸|Speedmaster|Speedmaster|Speedmaster|سبيدماستر
+Seamaster|海马|Seamaster|Seamaster|Seamaster|سيماستر
+Ballon Bleu|蓝气球|Ballon Bleu|Ballon Bleu|Ballon Bleu|بالون بلو
+Santos de Cartier|卡地亚山度士|Santos de Cartier|Santos de Cartier|Santos de Cartier|سانتوس دو كارتييه
+Santos-Dumont|山度士杜蒙|Santos-Dumont|Santos-Dumont|Santos-Dumont|سانتوس دومون
+Panthère|猎豹|Panthère|Panthère|Panthère|بانثير
+Tank Must|Tank Must坦克|Tank Must|Tank Must|Tank Must|تانك ماست
+Tank Américaine|Tank Américaine美国坦克|Tank Américaine|Tank Américaine|Tank Américaine|تانك أمريكان
+Baignoire|Baignoire椭圆腕表|Baignoire|Baignoire|Baignoire|بينيور
+Rendez-Vous|约会|Rendez-Vous|Rendez-Vous|Rendez-Vous|رانديفو
+Master Ultra Thin|超薄大师|Master Ultra Thin|Master Ultra Thin|Master Ultra Thin|ماستر ألترا ثين
+Supplied product photograph|用户提供的产品照片|Fotografía del producto facilitada|Photographie du produit fournie|Bereitgestelltes Produktfoto|صورة المنتج المقدمة
+Additional supplied view|补充实拍角度|Vista adicional facilitada|Vue supplémentaire fournie|Zusätzliche bereitgestellte Ansicht|زاوية إضافية مقدمة
+Additional supplied photograph|补充实拍照片|Fotografía adicional facilitada|Photographie supplémentaire fournie|Zusätzliches bereitgestelltes Foto|صورة إضافية مقدمة
+Seller-supplied product detail|卖家提供的产品细节照片|Detalle del producto facilitado por el vendedor|Détail du produit fourni par le vendeur|Vom Verkäufer bereitgestelltes Produktdetail|صورة تفاصيل المنتج المقدمة من البائع
+Seller-supplied detail photograph|卖家提供的细节照片|Foto de detalle facilitada por el vendedor|Photo de détail fournie par le vendeur|Vom Verkäufer bereitgestelltes Detailfoto|صورة التفاصيل المقدمة من البائع
+Smooth pink strap|粉色平滑表带|Correa rosa lisa|Bracelet rose lisse|Glattes rosa Armband|سوار وردي أملس

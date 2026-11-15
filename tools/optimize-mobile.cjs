@@ -1,3 +1,4 @@
+require('./prepare-product-copy.cjs');
 
 const fs=require('fs'),vm=require('vm'),path=require('path');
 const out='public';const h=fs.readFileSync('index.html','utf8');const cssFiles=[...h.matchAll(/<link rel="stylesheet" href="([^"]+)">/g)].map(m=>m[1].split('?')[0]);
@@ -14,7 +15,8 @@ const products=c.result.products.map(p=>{
 const language=vm.createContext({window:{}});vm.runInContext(fs.readFileSync('locale-catalog-20261114.js','utf8'),language);
 fs.mkdirSync(out+'/locale-translations',{recursive:true});
 for(const [i,locale]of ['en','zh-CN','es','fr','de','ar'].entries()){
- const rows=language.window.JXFullTranslations.map(row=>[row[0],row[i+1]]);
+ const allRows=new Map([...language.window.JXFullTranslations,...JSON.parse(fs.readFileSync(out+'/product-copy-translations.json','utf8'))].map(row=>[row[0],row]));
+ const rows=[...allRows.values()].map(row=>[row[0],row[i+1]]);
  fs.writeFileSync(out+'/locale-translations/'+locale+'.js','window.JXLocalePacks=window.JXLocalePacks||{};window.JXLocalePacks['+JSON.stringify(locale)+']='+JSON.stringify(rows)+';');
 }
 let core='';for(const [name,value]of Object.entries({...c.result,products}))core+='const '+name+'='+JSON.stringify(value)+';\n';
@@ -41,6 +43,9 @@ fs.writeFileSync(out+'/'+coreName,versionedCore);
 html=html.replace(/src="catalog\.js(?:\?[^"]*)?"/g,'src="'+catalogueName+'"').replace(/storefront-core\.js\?[^"]+/g,coreName);
 
 
+// Apply product copy before merging cloud edits and rendering the hero.
+fs.writeFileSync(out+'/catalogue-sync.js',fs.readFileSync(out+'/product-copy.js','utf8')+';\n'+fs.readFileSync('catalogue-sync.js','utf8'));
+fs.unlinkSync(out+'/product-copy-translations.json');fs.unlinkSync(out+'/product-copy.js');
 // Version the presentation bootstrap, snapshot and carousel together with this build.
 for(const file of ['catalogue-sync.js','featured-carousel.js','catalogue-snapshot.js']){
  const name=file.slice(0,-3)+'.'+buildTag+'.js';fs.copyFileSync(out+'/'+file,out+'/'+name);
