@@ -56,3 +56,33 @@ body:has(dialog[open]) .floating-cart{display:none!important}
  .cart-summary{padding:13px}.cart-summary strong{font-size:20px}
 }
 @media(max-width:359px){.cart-line{grid-template-columns:82px minmax(0,1fr)}.cart-dialog .cart-watch-name{font-size:19px!important}}
+
+/* Vintage gold-brown palette — 2026-11-17 */
+:root{--bg:#19130F;--text:#F1ECE6;--muted:#c5b8a7;--gold:#B79869}
+body.luxury-storefront{background:#19130F!important;color:#F1ECE6!important}
+.luxury-storefront :is(.hero,#collection,.compact-contact,footer,.ribbon.service-ribbon,.announcement){background:linear-gradient(115deg,#19130F,#292018 55%,#19130F)!important;border-color:#B7986955!important}
+.luxury-storefront .hero-copy{background:radial-gradient(ellipse at 20% 25%,#B7986912,transparent 70%)!important}
+.luxury-storefront header.site-header{background:linear-gradient(110deg,#19130F,#30251c,#19130F)!important;border-color:#B7986966!important;box-shadow:0 8px 28px #0004!important}
+.luxury-storefront header.site-header.is-glass{background:#19130Fb8!important;backdrop-filter:blur(12px)!important;-webkit-backdrop-filter:blur(12px)!important}
+.luxury-storefront :is(h1,h2,h3,.product h3,.section-title h2,.compact-contact h2,.intro,.intro-note,.hero-chinese,.service-seal small,.product-info p,.series-band,.name-zh,.selected-colour,.series-summary,.footer-bottom){color:#F1ECE6!important}
+.luxury-storefront :is(.eyebrow,.brand-wordmark,.brand-chinese,.series-price,.detail-price,.card-action,.service-seal strong,.section-title h2 em,footer>.brand){color:#B79869!important}
+.luxury-storefront .hero h1 em{color:#B79869!important;background-image:linear-gradient(105deg,#B79869 0%,#d5bc96 35%,#F1ECE6 50%,#B79869 65%,#d5bc96 100%)!important}
+.luxury-storefront :is(.muted,.caption,#resultCount,.catalog-notice,.catalog-notice p,.catalog-notice summary,.gallery-instruction,.colour-name-zh,.share-hint,.reference-library summary,.details-photo-grid figcaption,.reference-grid figcaption,.hero .catalog-search p,.announcement span,.cart-line-info small,.cart-summary .cart-note){color:#c5b8a7!important}
+.luxury-storefront :is(.site-header nav a,.site-header .contact,.filters button,.catalog-pagination>button,.language-control select,.mobile-brand-control select,.floating-layout,.floating-layout select,.floating-search,.floating-cart,.hero-arrow,.hero-pause,.colour-gallery-controls,.colour-gallery-controls button,.detail-navigation button,.detail-navigation a,.close,.card-colour){background:linear-gradient(135deg,#443326,#2d221a)!important;color:#F1ECE6!important;border-color:#B7986980!important;box-shadow:inset 0 1px 0 #F1ECE610!important}
+.luxury-storefront :is(.site-header nav a:hover,.site-header .contact:hover,.filters button:hover,.catalog-pagination>button:hover){background:#59412c!important;border-color:#B79869!important}
+.luxury-storefront :is(.filters button.active,.button,.contact-gold,.series-summary .cart-add,.cart-checkout,.hero .search-control button[type=submit],.catalog-pagination>button.button){background:linear-gradient(115deg,#B79869,#e2cfb2 50%,#B79869)!important;color:#19130F!important;border-color:#B79869!important;box-shadow:inset 0 1px 0 #F1ECE680,0 5px 18px #0003!important}
+.luxury-storefront :is(.product,.cart-summary){background:linear-gradient(145deg,#382b21,#2b211a)!important;border-color:#B7986970!important;box-shadow:inset 0 1px 0 #F1ECE610,0 8px 22px #0004!important}
+.luxury-storefront .product:hover{border-color:#B79869!important}
+.luxury-storefront .product:before{border-color:#B7986930!important}
+.luxury-storefront :is(.product-art,.hero-carousel,.detail-photo-space,.cart-photo){background:#30251d!important;border-color:#B7986977!important}
+.luxury-storefront :is(.product-code,.hero-carousel .art-top,.cart-line-actions button,.cart-bottom-actions button){background:#443326!important;color:#F1ECE6!important;border-color:#B7986966!important}
+.luxury-storefront :is(input,textarea,select,.hero .search-control,.cart-dialog .cart-line-actions input){background:#30251d!important;color:#F1ECE6!important;border-color:#B7986980!important}
+.luxury-storefront .hero .search-control input{background:transparent!important}
+.luxury-storefront input::placeholder{color:#c5b8a7!important}
+.luxury-storefront :is(dialog,dialog.cart-dialog){background:linear-gradient(140deg,#2e231b,#19130F)!important;color:#F1ECE6!important;border-color:#B79869!important}
+.luxury-storefront dialog::backdrop{background:#19130Fbb!important}
+.luxury-storefront :is(.cart-dialog h2,.cart-dialog .cart-watch-name,.cart-summary strong,.cart-unit-price,.cart-status){color:#e2cfb2!important}
+.luxury-storefront :is(.cart-line,.detail-navigation,.series-specs,.brand-intro-static,.service-seal,.footer-bottom){border-color:#B798694d!important}
+.luxury-storefront .cart-count{background:#B79869!important;color:#19130F!important;border-color:#B79869!important}
+.luxury-storefront .service-seal i{background:#382b21!important;color:#B79869!important;border-color:#B7986980!important;box-shadow:0 0 0 4px #B798690d!important}
+.luxury-storefront :is(a,button,input,select):focus-visible{outline-color:#B79869!important}
